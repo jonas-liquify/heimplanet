@@ -8,6 +8,7 @@
     "hero": {
       "type": "hero",
       "settings": {
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-10.jpg",
         "text_headline": "Short heading here",
         "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
         "url_button_link": "",
@@ -76,6 +77,13 @@
         "text_artikel_3_titel": "Blog title heading will go here",
         "text_artikel_3_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
+    },
+    "contact_4dhRh8": {
+      "type": "contact",
+      "settings": {
+        "text_headline": "Contact us",
+        "text_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
     }
   },
   "layout": "theme",
@@ -85,6 +93,7 @@
     "hero",
     "category",
     "links",
-    "content"
+    "content",
+    "contact_4dhRh8"
   ]
 }
