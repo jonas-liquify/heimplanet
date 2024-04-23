@@ -50,4 +50,8 @@
 </li>
 {% endfor %}
 </ul></div></div></div></div>    </div>
-{% endunless %} {% schema %} {"tag":"div","name":"predictive_search","blocks":[{"name":"Vorschlaege","type":"vorschlaege","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"text_text","type":"text","label":"Text","default":"Tag"}]}],"settings":[{"id":"collection_bestseller","type":"collection","label":"Bestseller"},{"type":"range","id":"collection_bestseller_limit","min":1,"max":99,"step":1,"label":"Limit: Bestseller","default":6}],"presets":[{"name":"predictive_search","category":"Liquify"}]} {% endschema %}
+{% endunless %}
+
+{% schema %}
+    {"tag":"div","name":"predictive_search","blocks":[{"name":"Vorschlaege","type":"vorschlaege","settings":[{"type":"url","id":"url_link","label":"Link"},{"type":"text","id":"text_text","label":"Text","default":"Tag"}]}],"settings":[{"id":"collection_bestseller","type":"collection","label":"Bestseller"},{"id":"collection_bestseller_limit","type":"range","label":"Limit: Bestseller","default":6,"min":1,"max":99,"step":1}],"presets":[{"name":"predictive_search","category":"Liquify"}]}
+{% endschema %}
