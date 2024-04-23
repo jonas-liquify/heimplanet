@@ -9,4 +9,8 @@
                             </div>
             {% endif %}
 {% endfor %}
-</div><div class="hide w-dyn-empty"><div>No items found.</div></div></div></div></div></div> {% schema %} {"tag":"section","name":"links","class":"section_mehr background-color-grey","blocks":[{"name":"Block","type":"block","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"text_titel","type":"text","label":"Titel","default":"Bestselling"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Short heading here"}],"presets":[{"name":"links","category":"Liquify"}]} {% endschema %}
+</div><div class="hide w-dyn-empty"><div>No items found.</div></div></div></div></div></div>
+
+{% schema %}
+    {"tag":"section","name":"links","class":"section_mehr background-color-grey","blocks":[{"name":"Block","type":"block","settings":[{"type":"url","id":"url_link","label":"Link"},{"type":"text","id":"text_titel","label":"Titel","default":"Bestselling"},{"type":"image_picker","id":"image_bild","label":"Bild"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Short heading here"}],"presets":[{"name":"links","category":"Liquify"}]}
+{% endschema %}
