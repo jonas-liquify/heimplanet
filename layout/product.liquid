@@ -209,7 +209,13 @@ function updateSW6FlagDropdownLinks(currentLang){
 		$activeLangLink.setAttribute('lang', toggleLang);
   }
 }
-</script><script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script><script>$(".swiper-container").each(function (index) {
+</script><script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script><script>var init = false;
+  var swiper; // Declare the swiper variable in a higher scope
+  function swiperCard() {
+    if (window.innerWidth <= 767) {
+      if (!init) {
+        init = true;
+  $(".swiper-container").each(function (index) {
     const thumbsSwiper = new Swiper($(this).find(".swiper.is-product-thumbnail")[0], {
       slidesPerView: "auto",
       rewind: false,
@@ -235,6 +241,20 @@ function updateSW6FlagDropdownLinks(currentLang){
       }
     });
   }); 
+  }
+    } else if (init) {
+      swiper.destroy();
+      init = false;
+    }
+  }
+  // Call the swiperCard function on page load
+  $(document).ready(function() {
+    swiperCard();
+  });
+  // Call the swiperCard function on window resize
+  $(window).on('resize', function() {
+    swiperCard();
+  });
 </script><script type="module">import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
   const lightbox = new PhotoSwipeLightbox({
     gallery: '#my-gallery',
