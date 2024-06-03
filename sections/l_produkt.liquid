@@ -1,0 +1,37 @@
+<div class="padding-global"><div class="container-large"><div class="padding-section-large"><div class="l-produkt_grid"><div id="w-node-c2410436-07f8-2395-274a-92f2e5f3a960-690d5eea"><div class="swiper_component"><div class="swiper is-produkt-slider is-landing"><div class="swiper-wrapper is-produkt-slider">{% for block in section.blocks %}
+    {% if block.type == "produkt-slider" %}
+                    <div li-block="Produkt-Slider" class="swiper-slide is-produkt-slider">
+                                    <img class="landingpage-slider_img"
+     src="{{ block.settings.image_bild | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild.alt }}"
+     loading="lazy">
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div class="swiper_bottom-wrapper is-landingpage-slider"><div id="swiper-pagination2" class="swiper_bullet-wrapper is-slider-main"><div class="swiper_bullet is-active"></div><div class="swiper_bullet"></div></div></div></div></div><div class="product-info-wrapper"><h2 class="heading-style-h2">
+{{ section.settings.text_headline }}
+</h2>
+<p class="text-size-regular"> {{ section.settings.textarea_beschreibung }} </p>
+<div class="produkt_pricing-info"><div class="text-size-medium">
+{{ section.settings.text_preis }}
+</div>
+<div class="text-size-tiny">
+{{ section.settings.text_hinweis }}
+</div>
+</div><div class="landingpage_facts is-produkt">{% for block in section.blocks %}
+    {% if block.type == "fact" %}
+                    <div li-block="Fact" id="w-node-c2410436-07f8-2395-274a-92f2e5f3a977-690d5eea" class="landingpage_icon-wrapper">
+                                    <img src="{{ 'check.svg' | asset_url }}" loading="lazy" alt="" class="landingpage_icon">
+
+                                    <p class="text-size-regular text-weight-medium">
+{{ block.settings.text_text }}
+</p>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div><a class="button max-width-full w-button" href="{{ section.settings.url_produkt_link }}">
+{{ section.settings.text_button_text }}
+</a>
+</div></div></div></div></div></div> {% schema %} {"tag":"div","name":"l_produkt","class":"section-l-produkt","blocks":[{"name":"Produkt-Slider","type":"produkt-slider","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}]},{"name":"Fact","type":"fact","settings":[{"id":"text_text","type":"text","label":"Text","default":"5 Jahre Entwicklungszeit"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Bags+Backpacks"},{"id":"textarea_beschreibung","type":"textarea","label":"Beschreibung","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."},{"id":"text_preis","type":"text","label":"Preis","default":"49\u20ac"},{"id":"text_hinweis","type":"text","label":"Hinweis","default":"inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. <a href=\"https:\/\/heimplanet.com\/pages\/faq\">Versand<\/a>\n                    "},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt vorbestellen"},{"id":"url_produkt_link","type":"url","label":"Produkt-Link"}],"presets":[{"name":"l_produkt","category":"Liquify"}]} {% endschema %}

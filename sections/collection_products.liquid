@@ -1,6 +1,6 @@
-<div class="padding-global padding-section-medium"><div li-="" class="container-large">{% paginate collection.products by 50 %}
-    <div li-paginate:by="50" li-paginate="collection.products" class="filter_layout" by="50"><div id="w-node-_678e0483-bbe4-e79a-1722-b169c587feae-c587feae" class="filter_filters-wrapper"><form class="filter_form_component" action="{{ routes.search_url }}" method="get" role="search"><div id="w-node-_265c4342-3d21-e8bf-dfee-efec035c3507-c587feae" class="filter_form"><div id="w-node-_678e0483-bbe4-e79a-1722-b169c587feb1-c587feae" class="filter_form-header"><div class="filter_heading">Filters</div><a li-object:href="filter.url_to_remove" href="{{ filter.url_to_remove }}" class="button is-link hide-tablet w-inline-block"><div>Clear all</div></a></div><div class="filter_results-wrapper"><div class="filter_results-text">Showing <span li-object="collection.all_products_count | append: ' '">{{ collection.all_products_count | append: ' ' }}</span>Products<span fs-cmsfilter-element="items-count"></span></div></div><div class="filter_form-field-wrapper"><input class="form-input" name="type" type="hidden" value="product">
-<input class="form-input" name="q" placeholder="Suche" type="search" value="{{ search.terms | escape }}">
+<div class="padding-global padding-section-medium"><div class="container-large">{% paginate collection.products by 50 %}
+    <div li-paginate:by="50" li-paginate="collection.products" class="filter_layout" by="50"><div id="w-node-_678e0483-bbe4-e79a-1722-b169c587feae-c587feae" class="filter_filters-wrapper"><form action="{{ routes.search_url }}" method="get" role="search" class="filter_form_component"><div id="w-node-_265c4342-3d21-e8bf-dfee-efec035c3507-c587feae" class="filter_form"><div id="w-node-_678e0483-bbe4-e79a-1722-b169c587feb1-c587feae" class="filter_form-header"><div class="filter_heading">Filters</div><a li-object:href="filter.url_to_remove" href="{{ filter.url_to_remove }}" class="button is-link hide-tablet w-inline-block"><div>Clear all</div></a></div><div class="filter_results-wrapper"><div class="filter_results-text">Showing <span li-object="collection.all_products_count | append: ' '">{{ collection.all_products_count | append: ' ' }}</span>Products<span fs-cmsfilter-element="items-count"></span></div></div><div class="filter_form-field-wrapper"><input name="type" type="hidden" class="form-input" value="product">
+<input name="q" placeholder="Suche" type="search" class="form-input" value="{{ search.terms | escape }}">
 </div><div class="filter_scroll-wrapper"><div class="filter_filter-group-list">{% for filter in collection.filters %}    <div li-for="filter in collection.filters" class="filter_filter-group">
                                     
                             {% if filter.values.size > 1 %}    <div li-if="filter.values.size > 1">
@@ -33,7 +33,7 @@
 {% endfor %}
                             
                         </div>
-{% endfor %}</div><select class="sort_select filter_checkbox" id="sort-by" li-for:inside="option in collection.sort_options">
+{% endfor %}</div><select id="sort-by" li-for:inside="option in collection.sort_options" class="sort_select filter_checkbox">
         {% for option in collection.sort_options %}                            
                             <option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% elsif option.value == collection.default_sort_by %}selected{% endif %}>
 
@@ -76,4 +76,4 @@
     <a li-object:href="paginate.next.url" href="{{ paginate.next.url }}" class="button is-secondary is-icon w-inline-block"><div>Next</div><div class="pagination_arrow is-right w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 13 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.67318 0.589844L6.26318 5.16984L10.8532 0.589844L12.2632 1.99984L6.26318 7.99984L0.263184 1.99984L1.67318 0.589844Z" fill="currentColor"></path></svg></div></a>    </li>
 {% endif %}</ul>    </nav>
 {% endif %}</div></div>{% endpaginate %}
-</div></div> {% schema %} {"tag":"section","name":"collection_products","class":"section_filters","presets":[{"name":"collection_products","category":"Liquify"}]} {% endschema %}
+</div></div><div id="products" class="anchor-link"></div> {% schema %} {"tag":"section","name":"collection_products","class":"section_filters","presets":[{"name":"collection_products","category":"Liquify"}]} {% endschema %}
