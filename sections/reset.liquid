@@ -1,4 +1,4 @@
-<div class="padding-global padding-section-large"><div class="container-large"><div class="login_tabs"><div class="login_form w-form"><h1 class="heading-style-h2 text-align-center">Reset Password</h1>{% form 'reset_customer_password' , class: 'form_form' %}
+<div class="padding-global padding-section-large"><div class="container-large"><div class="login_tabs"><div class="login_form w-form"><h1 class="heading-style-h2 text-align-center">Reset Password</h1>{% form 'reset_customer_password', class: 'form_form' %}
 {% if form.errors %}    <div li-if="form.errors">
     <div li-object="form.errors | default_errors" class="text-size-regular text-color-red text-align-center">{{ form.errors | default_errors }}</div>    </div>
 {% endif %}<div class="form_field-wrapper"><input class="form-input w-input" maxlength="256" name="customer[password]" data-name="" placeholder="Password*" type="password" id="field" required="" >
