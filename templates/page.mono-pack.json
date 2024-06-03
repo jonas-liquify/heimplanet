@@ -3,11 +3,48 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
+        "text_subline": "This is some text inside of a div block.",
+        "text_headline": "Medium length hero heading goes here",
+        "textarea_longer_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": ""
       }
     },
     "l_newsletter": {
       "type": "l_newsletter",
       "settings": {
+        "text_headline": "Newsletter",
+        "text_text": "Text"
+      }
+    },
+    "l_produkt_EE4weD": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_JfiRcr": {
+          "type": "produkt-slider",
+          "settings": {
+          }
+        },
+        "fact_7zmyGx": {
+          "type": "fact",
+          "settings": {
+            "text_text": "5 Jahre Entwicklungszeit"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_JfiRcr",
+        "fact_7zmyGx"
+      ],
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "text_preis": "49€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Jetzt vorbestellen",
+        "url_produkt_link": ""
       }
     }
   },
@@ -15,6 +52,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero",
-    "l_newsletter"
+    "l_newsletter",
+    "l_produkt_EE4weD"
   ]
 }
