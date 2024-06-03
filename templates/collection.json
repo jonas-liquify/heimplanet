@@ -3,6 +3,12 @@
     "collection_hero": {
       "type": "collection_hero",
       "settings": {
+        "text_subline": "Home \/ Kategorie \/ Zelte",
+        "text_headline": "{{ collection.title }}",
+        "textarea_paragraph": "Home Kategorie Zelte",
+        "url_button_link": "",
+        "text_button_text": "Jetzt entdecken",
+        "image_bild": "{{ collection.image }}"
       }
     },
     "collection_products": {
