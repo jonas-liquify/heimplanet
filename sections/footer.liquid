@@ -1,8 +1,8 @@
 <div class="padding-global"><div class="container-large"><div class="footer_facts-grid">{% for block in section.blocks %}
     {% if block.type == "facts" %}
                     <div li-block="Facts" class="footer_facts-item">
-                                    <a option:url="fact-link-1" href="#" class="footer_facts heading-medium w-inline-block"><img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon">
-<div option:text="fact-1">1% for the Planet</div></a>
+                                    <a class="footer_facts heading-medium w-inline-block" href="{{ block.settings.url_fact_link }}"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon"><div>{{ block.settings.text_fact }}</div> </a>
+
                             </div>
             {% endif %}
 {% endfor %}
@@ -25,9 +25,9 @@
 </h2>
 <div class="footer_newsletter-acts">{% for block in section.blocks %}
     {% if block.type == "newsletter-facts" %}
-                    <div li-block="Newsletter-Facts" class="footer_facts-item">
-                                    <a option:url="fact-link-1" href="#" class="footer_facts heading-medium w-inline-block"><img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon">
-<div option:text="fact-1">1% for the Planet</div></a>
+                    <div li-block="Newsletter-Facts" id="w-node-_7a15f5ef-34cc-083f-6140-a7b96e674612-cf39daf1" class="footer_facts-item">
+                                    <a class="footer_facts heading-medium w-inline-block" href="{{ block.settings.url_fact_link }}"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon"><div>{{ block.settings.text_fact }}</div> </a>
+
                             </div>
             {% endif %}
 {% endfor %}
@@ -62,4 +62,4 @@
                             
                         </div>
 {% endfor %}<a id="privacy-settings" href="#" class="text-size-small text-color-white hide">Cookies</a></div><div class="wg-element-wrapper sw7 hide"><div data-hover="true" data-delay="500" class="wg-dropdown-2 w-dropdown"><div lang="de" class="language-selector w-dropdown-toggle"><div>Deutsch</div><img src="https://uploads-ssl.webflow.com/613f2f905ede8d670775fc8a/61548248f37f3a0faab19498_arrow-drop.svg" loading="lazy" alt="" class="dropdown-aarow">
-</div><nav class="wg-dd-2-list w-dropdown-list"><a href="#" lang="en" class="wg-dropdown-2-link w-dropdown-link">English</a></nav></div></div></div></div></div> {% schema %} {"tag":"footer","name":"footer","class":"section_footer","blocks":[{"name":"Facts","type":"facts","settings":null},{"name":"Newsletter-Facts","type":"newsletter-facts","settings":null},{"name":"Lieferung-icon","type":"lieferung-icon","settings":[{"id":"image_icon","type":"image_picker","label":"icon"}]},{"name":"Social-media","type":"social-media","settings":[{"id":"url_social_link","type":"url","label":"Social-link"},{"id":"image_social_icon","type":"image_picker","label":"social-icon"}]}],"settings":[{"id":"text_newsletter_headline","type":"text","label":"Newsletter-Headline","default":"Become a Member of the Heimplanet Community and get awesome benefits"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"}],"presets":[{"name":"footer","category":"Liquify"}]} {% endschema %}
+</div><nav class="wg-dd-2-list w-dropdown-list"><a href="#" lang="en" class="wg-dropdown-2-link w-dropdown-link">English</a></nav></div></div></div></div></div> {% schema %} {"tag":"footer","name":"footer","class":"section_footer","blocks":[{"name":"Facts","type":"facts","settings":[{"id":"url_fact_link","type":"url","label":"Fact-Link"},{"id":"text_fact","type":"text","label":"Fact","default":"1% for the Planet"}]},{"name":"Newsletter-Facts","type":"newsletter-facts","settings":[{"id":"url_fact_link","type":"url","label":"Fact-Link"},{"id":"text_fact","type":"text","label":"Fact","default":"1% for the Planet"}]},{"name":"Lieferung-icon","type":"lieferung-icon","settings":[{"id":"image_icon","type":"image_picker","label":"icon"}]},{"name":"Social-media","type":"social-media","settings":[{"id":"url_social_link","type":"url","label":"Social-link"},{"id":"image_social_icon","type":"image_picker","label":"social-icon"}]}],"settings":[{"id":"text_newsletter_headline","type":"text","label":"Newsletter-Headline","default":"Become a Member of the Heimplanet Community and get awesome benefits"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"}],"presets":[{"name":"footer","category":"Liquify"}]} {% endschema %}

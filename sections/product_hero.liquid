@@ -37,7 +37,9 @@
         nicht verfügbar        </span>
     </template>
 </div></div><div class="spacer-xsmall"></div></div><div class="spacer-xsmall"></div>{% if product.metafields.my_fields.kategorie_handle != blank %}    <div li-if="product.metafields.my_fields.kategorie_handle != blank" class="produkt_swatch-component">
-    <div class="produkt_swatch-wrapper">{% for product in collections[{{product.metafields.my_fields.kategorie_handle}}].products %}    <div li-for="product in collections[{{product.metafields.my_fields.kategorie_handle}}].products" class="produkt_swatch-link">
+    <div class="produkt_swatch-wrapper">{% assign collection_handle = product.metafields.my_fields.kategorie_handle %}
+{% assign collection = collections[collection_handle] %}
+{% for product in collection.products %}    <div li-for="product in collection.products" class="produkt_swatch-link">
                                     
                             <a li-object:href="product.url | within: collection.url" href="{{ product.url | within: collection.url }}" class="produkt_swatch-link w-inline-block"><img src="{{ product.featured_image.src | img_url: 'large' }}" loading="lazy" li-object:src="product.featured_image.src | img_url: 'large'" li-object:alt="product.featured_image.alt" alt="{{ product.featured_image.alt }}" class="produkt_swatch-img is-darken">
 </a>
