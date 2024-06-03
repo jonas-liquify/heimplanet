@@ -12,10 +12,30 @@
             "url_button_link": "shopify:\/\/products\/cloudbreak-classic",
             "text_button_text": "3.Batch VORBESTELLBAR"
           }
+        },
+        "hero_slider_bddkh7": {
+          "type": "hero-slider",
+          "settings": {
+            "text_headline": "Unsere <br>NEUEn ZELTE",
+            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
+            "url_button_link": "",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
+        "hero_slider_iVzpGf": {
+          "type": "hero-slider",
+          "settings": {
+            "text_headline": "Unsere <br>NEUEn ZELTE",
+            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
+            "url_button_link": "",
+            "text_button_text": "Jetzt entdecken"
+          }
         }
       },
       "block_order": [
-        "hero_slider_9CPUDw"
+        "hero_slider_9CPUDw",
+        "hero_slider_bddkh7",
+        "hero_slider_iVzpGf"
       ],
       "settings": {
         "checkbox_swiper_script": true
