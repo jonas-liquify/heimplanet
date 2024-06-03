@@ -8,7 +8,7 @@
             "type": "nav-link",
             "settings": {
               "url_link": "shopify:\/\/pages\/agb",
-              "text_menu_handle": "main-menu",
+              "text_menu_handle": "Shop",
               "url_link_1_link": "",
               "text_link_1_text": "Text Link",
               "url_link_2_link": "",
@@ -21,7 +21,20 @@
             "type": "nav-link",
             "settings": {
               "url_link": "",
-              "text_menu_handle": "This is some text inside of a div block.",
+              "text_menu_handle": "Magazin",
+              "url_link_1_link": "",
+              "text_link_1_text": "Text Link",
+              "url_link_2_link": "",
+              "text_link_2_text": "Text Link",
+              "url_link_3_link": "",
+              "text_link_3_text": "Text Link"
+            }
+          },
+          "nav_link_kdXCQ6": {
+            "type": "nav-link",
+            "settings": {
+              "url_link": "",
+              "text_menu_handle": "Unternehmen",
               "url_link_1_link": "",
               "text_link_1_text": "Text Link",
               "url_link_2_link": "",
@@ -33,7 +46,8 @@
         },
         "block_order": [
           "nav_link_r3DJWJ",
-          "nav_link_DTQzfk"
+          "nav_link_DTQzfk",
+          "nav_link_kdXCQ6"
         ],
         "settings": {
         }
