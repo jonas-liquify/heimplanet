@@ -1,20 +1,26 @@
 {
-    "sections": {
-        "collection_hero": {
-            "type": "collection_hero"
-        },
-        "jobs": {
-            "type": "jobs"
-        },
-        "content_image": {
-            "type": "content_image"
-        }
+  "sections": {
+    "collection_hero": {
+      "type": "collection_hero",
+      "settings": {
+      }
     },
-    "layout": "page.karriere",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "collection_hero",
-        "jobs",
-        "content_image"
-    ]
+    "jobs": {
+      "type": "jobs",
+      "settings": {
+      }
+    },
+    "content_image": {
+      "type": "content_image",
+      "settings": {
+      }
+    }
+  },
+  "layout": "page.karriere",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collection_hero",
+    "jobs",
+    "content_image"
+  ]
 }

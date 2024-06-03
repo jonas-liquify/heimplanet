@@ -1,12 +1,14 @@
 {
-    "sections": {
-        "search": {
-            "type": "search"
-        }
-    },
-    "layout": "search",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "search"
-    ]
+  "sections": {
+    "search": {
+      "type": "search",
+      "settings": {
+      }
+    }
+  },
+  "layout": "search",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "search"
+  ]
 }

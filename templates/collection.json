@@ -1,16 +1,20 @@
 {
-    "sections": {
-        "collection_hero": {
-            "type": "collection_hero"
-        },
-        "collection_products": {
-            "type": "collection_products"
-        }
+  "sections": {
+    "collection_hero": {
+      "type": "collection_hero",
+      "settings": {
+      }
     },
-    "layout": "collection",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "collection_hero",
-        "collection_products"
-    ]
+    "collection_products": {
+      "type": "collection_products",
+      "settings": {
+      }
+    }
+  },
+  "layout": "collection",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collection_hero",
+    "collection_products"
+  ]
 }

@@ -1,12 +1,14 @@
 {
-    "sections": {
-        "help_center": {
-            "type": "help_center"
-        }
-    },
-    "layout": "page.help-center",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "help_center"
-    ]
+  "sections": {
+    "help_center": {
+      "type": "help_center",
+      "settings": {
+      }
+    }
+  },
+  "layout": "page.help-center",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "help_center"
+  ]
 }

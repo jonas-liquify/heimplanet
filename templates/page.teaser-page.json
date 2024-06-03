@@ -1,16 +1,20 @@
 {
-    "sections": {
-        "l_hero": {
-            "type": "l_hero"
-        },
-        "l_newsletter": {
-            "type": "l_newsletter"
-        }
+  "sections": {
+    "l_hero": {
+      "type": "l_hero",
+      "settings": {
+      }
     },
-    "layout": "page.teaser-page",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "l_hero",
-        "l_newsletter"
-    ]
+    "l_newsletter": {
+      "type": "l_newsletter",
+      "settings": {
+      }
+    }
+  },
+  "layout": "page.teaser-page",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_hero",
+    "l_newsletter"
+  ]
 }

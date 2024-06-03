@@ -1,48 +1,68 @@
 {
-    "sections": {
-        "product_hero": {
-            "type": "product_hero"
-        },
-        "product_nav": {
-            "type": "product_nav"
-        },
-        "product_dots": {
-            "type": "product_dots"
-        },
-        "product_video": {
-            "type": "product_video"
-        },
-        "product_videos": {
-            "type": "product_videos"
-        },
-        "product_infos": {
-            "type": "product_infos"
-        },
-        "product_faq": {
-            "type": "product_faq"
-        },
-        "product_images": {
-            "type": "product_images"
-        },
-        "product_recommended": {
-            "type": "product_recommended"
-        },
-        "infos": {
-            "type": "infos"
-        }
+  "sections": {
+    "product_hero": {
+      "type": "product_hero",
+      "settings": {
+      }
     },
-    "layout": "product",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "product_hero",
-        "product_nav",
-        "product_dots",
-        "product_video",
-        "product_videos",
-        "product_infos",
-        "product_faq",
-        "product_images",
-        "product_recommended",
-        "infos"
-    ]
+    "product_nav": {
+      "type": "product_nav",
+      "settings": {
+      }
+    },
+    "product_dots": {
+      "type": "product_dots",
+      "settings": {
+      }
+    },
+    "product_video": {
+      "type": "product_video",
+      "settings": {
+      }
+    },
+    "product_videos": {
+      "type": "product_videos",
+      "settings": {
+      }
+    },
+    "product_infos": {
+      "type": "product_infos",
+      "settings": {
+      }
+    },
+    "product_faq": {
+      "type": "product_faq",
+      "settings": {
+      }
+    },
+    "product_images": {
+      "type": "product_images",
+      "settings": {
+      }
+    },
+    "product_recommended": {
+      "type": "product_recommended",
+      "settings": {
+      }
+    },
+    "infos": {
+      "type": "infos",
+      "settings": {
+      }
+    }
+  },
+  "layout": "product",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "product_hero",
+    "product_nav",
+    "product_dots",
+    "product_video",
+    "product_videos",
+    "product_infos",
+    "product_faq",
+    "product_images",
+    "product_recommended",
+    "infos"
+  ]
 }

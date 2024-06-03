@@ -1,16 +1,20 @@
 {
-    "sections": {
-        "blog_hero": {
-            "type": "blog_hero"
-        },
-        "blog_articles": {
-            "type": "blog_articles"
-        }
+  "sections": {
+    "blog_hero": {
+      "type": "blog_hero",
+      "settings": {
+      }
     },
-    "layout": "blog",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "blog_hero",
-        "blog_articles"
-    ]
+    "blog_articles": {
+      "type": "blog_articles",
+      "settings": {
+      }
+    }
+  },
+  "layout": "blog",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "blog_hero",
+    "blog_articles"
+  ]
 }

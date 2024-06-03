@@ -1,16 +1,20 @@
 {
-    "sections": {
-        "collection_hero": {
-            "type": "collection_hero"
-        },
-        "contact": {
-            "type": "contact"
-        }
+  "sections": {
+    "collection_hero": {
+      "type": "collection_hero",
+      "settings": {
+      }
     },
-    "layout": "page.contact",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "collection_hero",
-        "contact"
-    ]
+    "contact": {
+      "type": "contact",
+      "settings": {
+      }
+    }
+  },
+  "layout": "page.contact",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collection_hero",
+    "contact"
+  ]
 }

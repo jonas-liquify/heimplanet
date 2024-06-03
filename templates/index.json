@@ -1,40 +1,78 @@
 {
-    "sections": {
-        "hero": {
-            "type": "hero"
-        },
-        "kategorien": {
-            "type": "kategorien"
-        },
-        "category": {
-            "type": "category"
-        },
-        "tabs": {
-            "type": "tabs"
-        },
-        "links": {
-            "type": "links"
-        },
-        "content_image": {
-            "type": "content_image"
-        },
-        "blog": {
-            "type": "blog"
-        },
-        "colabs": {
-            "type": "colabs"
-        }
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "checkbox_swiper_script": true
+      }
     },
-    "layout": "theme",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "hero",
-        "kategorien",
-        "category",
-        "tabs",
-        "links",
-        "content_image",
-        "blog",
-        "colabs"
-    ]
+    "kategorien": {
+      "type": "kategorien",
+      "settings": {
+        "checkbox_swiper_script": true
+      }
+    },
+    "category": {
+      "type": "category",
+      "settings": {
+        "text_headline": "Topseller",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "collection_collection": "aufblasbare-zelte",
+        "collection_collection_limit": 4
+      }
+    },
+    "tabs": {
+      "type": "tabs",
+      "settings": {
+      }
+    },
+    "links": {
+      "type": "links",
+      "settings": {
+        "text_headline": "MAGAZIN",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
+    },
+    "content_image": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Medium length heading goes here",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
+    "blog": {
+      "type": "blog",
+      "settings": {
+        "text_headline": "Aktuelle beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "article_artikel": "",
+        "blog_blog": ""
+      }
+    },
+    "colabs": {
+      "type": "colabs",
+      "settings": {
+        "checkbox_swiper_script": true
+      }
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "hero",
+    "kategorien",
+    "category",
+    "tabs",
+    "links",
+    "content_image",
+    "blog",
+    "colabs"
+  ]
 }

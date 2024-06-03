@@ -1,24 +1,32 @@
 {
-    "sections": {
-        "collection_hero": {
-            "type": "collection_hero"
-        },
-        "category": {
-            "type": "category"
-        },
-        "content_image": {
-            "type": "content_image"
-        },
-        "contact": {
-            "type": "contact"
-        }
+  "sections": {
+    "collection_hero": {
+      "type": "collection_hero",
+      "settings": {
+      }
     },
-    "layout": "page.re-store",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "collection_hero",
-        "category",
-        "content_image",
-        "contact"
-    ]
+    "category": {
+      "type": "category",
+      "settings": {
+      }
+    },
+    "content_image": {
+      "type": "content_image",
+      "settings": {
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+      }
+    }
+  },
+  "layout": "page.re-store",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collection_hero",
+    "category",
+    "content_image",
+    "contact"
+  ]
 }
