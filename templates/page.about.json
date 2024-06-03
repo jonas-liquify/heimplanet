@@ -1,0 +1,36 @@
+{
+    "sections": {
+        "collection_hero": {
+            "type": "collection_hero"
+        },
+        "about_highlight": {
+            "type": "about_highlight"
+        },
+        "links": {
+            "type": "links"
+        },
+        "store": {
+            "type": "store"
+        },
+        "jobs": {
+            "type": "jobs"
+        },
+        "content_image": {
+            "type": "content_image"
+        },
+        "article_next": {
+            "type": "article_next"
+        }
+    },
+    "layout": "page.about",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "collection_hero",
+        "about_highlight",
+        "links",
+        "store",
+        "jobs",
+        "content_image",
+        "article_next"
+    ]
+}

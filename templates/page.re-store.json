@@ -1,0 +1,24 @@
+{
+    "sections": {
+        "collection_hero": {
+            "type": "collection_hero"
+        },
+        "category": {
+            "type": "category"
+        },
+        "content_image": {
+            "type": "content_image"
+        },
+        "contact": {
+            "type": "contact"
+        }
+    },
+    "layout": "page.re-store",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "collection_hero",
+        "category",
+        "content_image",
+        "contact"
+    ]
+}
