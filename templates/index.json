@@ -299,12 +299,13 @@
         "partner_axixPJ": {
           "type": "partner",
           "settings": {
-            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
+            "text_headline": "FDMTL X HEIMPLANET",
+            "textarea_text": "FDMTL x HEIMPLANET: Das mit dem traditionellen japanischen Textil \"Boro\" bedruckte Material bringt die zeitlose Schönheit zum Ausdruck, die durch die Alterung von Indigo entsteht.",
+            "url_button_link": "shopify:\/\/blogs\/collabs\/fdmtl-kirra-limited-edition",
+            "text_button_text": "Jetzt erhältlich",
             "url_button_link_2": "",
-            "text_button_text_2": "Button"
+            "text_button_text_2": "",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-FDMTL-Limited-Edition-7.jpg"
           }
         },
         "partner_934nmD": {
