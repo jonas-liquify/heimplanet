@@ -111,8 +111,9 @@
         "kategorie_Qdczmz": {
           "type": "kategorie",
           "settings": {
-            "url_link": "",
-            "text_headline": "Heading"
+            "url_link": "https:\/\/heimplanet.com\/collections\/bekleidung?art=Beanies+%26+Caps",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Caps-Beanies-2022.webp",
+            "text_headline": "Beanies & Caps"
           }
         },
         "kategorie_W3zEQc": {
