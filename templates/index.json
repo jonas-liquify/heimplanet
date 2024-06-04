@@ -95,8 +95,9 @@
         "kategorie_AMyXbw": {
           "type": "kategorie",
           "settings": {
-            "url_link": "",
-            "text_headline": "Heading"
+            "url_link": "shopify:\/\/collections\/bekleidung",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Apparel-Hoodie-2022-1.webp",
+            "text_headline": "Kleidung"
           }
         },
         "kategorie_46x6YN": {
