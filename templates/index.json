@@ -166,12 +166,13 @@
         "tab_bF9fVn": {
           "type": "tab",
           "settings": {
-            "text_headline": "Wir bieten eine <br>Lebenslange Garantie",
-            "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-            "url_button_link": "",
-            "text_button_text": "Button",
+            "text_headline": "DYECOSHELL",
+            "textarea_text": "Schnell wurde uns klar, dass wir nicht einfach einen Stoff von der Stange nehmen konnten, um unsere Ziele zu erreichen. Ein neues Stoffkonzept musste entwickelt werden.",
+            "url_button_link": "shopify:\/\/blogs\/designraum\/dyecoshell™",
+            "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
-            "text_button_text_2": "Button"
+            "text_button_text_2": "Button",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-DYECOSHELL-Material-2022.webp"
           }
         },
         "tab_pDtMQg": {
