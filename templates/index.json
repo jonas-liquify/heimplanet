@@ -287,12 +287,13 @@
         "partner_7gHCa6": {
           "type": "partner",
           "settings": {
-            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
+            "text_headline": "AUDI X HEIMPLANET",
+            "textarea_text": "Wir haben uns mit einem Team aus Designern und Produktentwicklern von AUDI zusammengesetzt, um über verschiedene Konzepte und Ideen zu sprechen, wie man die AUDI Q-Serie mit einem einzigartigen Zeltkonzept kombinieren könnte.",
+            "url_button_link": "shopify:\/\/blogs\/collabs\/audi-x-heimplanet",
+            "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
-            "text_button_text_2": "Button"
+            "text_button_text_2": "",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Audi-Q-Line-Edition-1.jpg"
           }
         },
         "partner_axixPJ": {
