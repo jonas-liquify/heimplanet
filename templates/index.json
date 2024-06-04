@@ -16,6 +16,7 @@
         "hero_slider_LP9zUr": {
           "type": "hero-slider",
           "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Sets.jpg",
             "text_headline": "HEIMPLANET SETS",
             "richtext_text": "<p>Entdecke jetzt die neuen CARRY und CAMPING Sets. Für Dich zusammengestellt für mehr Tragekomfort im Alltag und unvergessliche Camping Abenteuer.<\/p>",
             "url_button_link": "shopify:\/\/collections\/camping-sets",
