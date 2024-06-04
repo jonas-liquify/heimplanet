@@ -67,6 +67,67 @@
     },
     "kategorien": {
       "type": "kategorien",
+      "blocks": {
+        "kategorie_BBVUzR": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify:\/\/collections\/zelte",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-Classic-2022.webp",
+            "text_headline": "Zelte"
+          }
+        },
+        "kategorie_YYhpwV": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "",
+            "text_headline": "Heading"
+          }
+        },
+        "kategorie_qxbwVX": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "",
+            "text_headline": "Heading"
+          }
+        },
+        "kategorie_AMyXbw": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "",
+            "text_headline": "Heading"
+          }
+        },
+        "kategorie_46x6YN": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "",
+            "text_headline": "Heading"
+          }
+        },
+        "kategorie_Qdczmz": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "",
+            "text_headline": "Heading"
+          }
+        },
+        "kategorie_W3zEQc": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "",
+            "text_headline": "Heading"
+          }
+        }
+      },
+      "block_order": [
+        "kategorie_BBVUzR",
+        "kategorie_YYhpwV",
+        "kategorie_qxbwVX",
+        "kategorie_AMyXbw",
+        "kategorie_46x6YN",
+        "kategorie_Qdczmz",
+        "kategorie_W3zEQc"
+      ],
       "settings": {
         "checkbox_swiper_script": true
       }
