@@ -1,0 +1,24 @@
+{
+    "sections": {
+        "collection_hero": {
+            "type": "collection_hero"
+        },
+        "blog_kategorien": {
+            "type": "blog_kategorien"
+        },
+        "article_next": {
+            "type": "article_next"
+        },
+        "colabs": {
+            "type": "colabs"
+        }
+    },
+    "layout": "page.blog-ubersicht",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "collection_hero",
+        "blog_kategorien",
+        "article_next",
+        "colabs"
+    ]
+}
