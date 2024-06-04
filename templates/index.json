@@ -311,12 +311,13 @@
         "partner_934nmD": {
           "type": "partner",
           "settings": {
-            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
+            "text_headline": "66°NORTH X HEIMPLANET",
+            "textarea_text": "Das hochmoderne Zelt kombiniert das Design von 66°North mit der Technologie von HEIMPLANET. Mit seinen speziellen Eigenschaften wurde das Cave XL speziell für Island entwickelt.",
+            "url_button_link": "shopify:\/\/blogs\/collabs\/the-cave-xl-4-season",
+            "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
-            "text_button_text_2": "Button"
+            "text_button_text_2": "",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-Limited-Edition2022.jpg"
           }
         },
         "partner_xDWmKg": {
