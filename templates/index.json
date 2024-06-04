@@ -103,8 +103,9 @@
         "kategorie_46x6YN": {
           "type": "kategorie",
           "settings": {
-            "url_link": "",
-            "text_headline": "Heading"
+            "url_link": "shopify:\/\/collections\/re-store",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Re-Store-Tents-Backpacks-and-more.jpg",
+            "text_headline": "Re:Store"
           }
         },
         "kategorie_Qdczmz": {
