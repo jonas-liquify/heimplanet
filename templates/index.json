@@ -142,10 +142,10 @@
       "type": "category",
       "settings": {
         "text_headline": "Topseller",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon",
-        "collection_collection": "",
-        "collection_collection_limit": 6
+        "url_button_link": "shopify:\/\/collections\/topseller",
+        "text_button_text": "Mehr Erfahren",
+        "collection_collection": "topseller",
+        "collection_collection_limit": 4
       }
     },
     "tabs": {
