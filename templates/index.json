@@ -238,7 +238,7 @@
     "content_image": {
       "type": "content_image",
       "settings": {
-        "text_headline": "HEIMPLANET IST INSPIRIERT VON DER BEGEISTERUNG DES REISENS.",
+        "text_headline": "HEIMPLANET IST INSPIRIERT VON<br> DER BEGEISTERUNG DES REISENS.",
         "textarea_text": "Auf Reisen fühlt man sich lebendig. Alle Sinne sind wach und man erwartet immer etwas Neues. Man stellt sich ständig auf neue Situationen, neue Menschen, neue Kulturen und neue Umgebungen ein.",
         "url_button_link": "shopify:\/\/pages\/unternehmen",
         "text_button_text": "Über uns",
