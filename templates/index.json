@@ -119,8 +119,9 @@
         "kategorie_W3zEQc": {
           "type": "kategorie",
           "settings": {
-            "url_link": "",
-            "text_headline": "Heading"
+            "url_link": "shopify:\/\/collections\/hpt-selected",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-HPT-Selected_2022.webp",
+            "text_headline": "HPT Selected"
           }
         }
       },
