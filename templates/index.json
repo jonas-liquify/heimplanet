@@ -343,6 +343,18 @@
             "text_button_text_2": "",
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Uncrate-All-Black-Limited-Edition-1.jpg"
           }
+        },
+        "partner_i7AWBj": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "James X Heimplanet",
+            "textarea_text": "Einer unserer Gründer war auf einer Wanderung in Norwegen, mit seinem James Brand Chapter an seiner Seite. Irgendwo auf dem Weg fiel ihm sein Messer aus der Tasche und war verloren.",
+            "url_button_link": "shopify:\/\/blogs\/collabs\/james-x-heimplanet",
+            "text_button_text": "Mehr erfahren",
+            "url_button_link_2": "",
+            "text_button_text_2": "",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-James-Collab-Knife-Bag.jpg"
+          }
         }
       },
       "block_order": [
@@ -352,7 +364,8 @@
         "partner_axixPJ",
         "partner_934nmD",
         "partner_xDWmKg",
-        "partner_h8DmmH"
+        "partner_h8DmmH",
+        "partner_i7AWBj"
       ],
       "settings": {
         "checkbox_swiper_script": true
