@@ -178,12 +178,13 @@
         "tab_pDtMQg": {
           "type": "tab",
           "settings": {
-            "text_headline": "Wir bieten eine <br>Lebenslange Garantie",
-            "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-            "url_button_link": "",
-            "text_button_text": "Button",
+            "text_headline": "RE-STORE",
+            "textarea_text": "Das Ziel muss es sein, den Lebenszyklus unserer Produkte so weit wie möglich zu verlängern. Aus diesem Grund haben wir das Re:Store Programm ins Leben gerufen.",
+            "url_button_link": "shopify:\/\/pages\/re-store-programm",
+            "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
-            "text_button_text_2": "Button"
+            "text_button_text_2": "Button",
+            "image_bild": "shopify:\/\/shop_images\/Re-store.jpg"
           }
         }
       },
