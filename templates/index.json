@@ -247,10 +247,14 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-2022-1-1.jpg"
       }
     },
-    "colabs": {
-      "type": "colabs",
+    "blog_qFY9GJ": {
+      "type": "blog",
       "settings": {
-        "checkbox_swiper_script": true
+        "text_headline": "Aktuelle Beiträge",
+        "url_button_link": "shopify:\/\/pages\/blog",
+        "text_button_text": "Mehr Erfahren",
+        "article_artikel": "collabs\/fdmtl-kirra-limited-edition",
+        "blog_blog": "abenteuer"
       }
     }
   },
@@ -263,6 +267,6 @@
     "tabs",
     "links",
     "content_image",
-    "colabs"
+    "blog_qFY9GJ"
   ]
 }
