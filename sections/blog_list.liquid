@@ -1,0 +1,43 @@
+<div class="padding-global padding-section-large"><div class="container-large"><div class="mehr_component"><div class="product_content-top"><div class="subline">
+{{ section.settings.text_subheading }}
+</div>
+<h2 class="heading-style-h2">
+{{ section.settings.text_main_heading }}
+</h2>
+</div><div class="swiper is-blog w-dyn-list"><div role="list" class="swiper-wrapper is-blog w-dyn-items">{% for article in blogs['blockmine-blog'].articles %}    <div li-for="article in blogs['blockmine-blog'].articles" role="listitem" class="swiper-slide is-blog w-dyn-item">
+                                    
+                            <a li-object:href="article.url" href="{{ article.url }}" class="blog_item w-inline-block"><div class="blog_item-img-wrapper"><img src="{{ article.image | img_url: 'master' }}" loading="lazy" li-object:src="article.image | img_url: 'master'" li-object:alt="article.image.alt" alt="{{ article.image.alt }}" class="blog_item-img">
+<div class="blog_tag-wrapper"><div class="product-item_tag is-white">News</div></div></div><div><h3 li-object:text="article.title" class="heading-style-h5">
+{{ article.title }}
+</h3><div class="spacer-8"></div><div class="max-width-350"><p li-object:text="article.excerpt" class="text-size-regular op_70">
+{{ article.excerpt }}
+</p></div><div class="spacer-14"></div><div li-obect="article.metafields.custom.datum_ver_ffentlichung" class="text-size-regular is-sub op_70">Donnerstag, 22. Februar 2024</div></div></a>
+                            
+                        </div>
+{% endfor %}</div><div class="hide w-dyn-empty"><div>No items found.</div></div></div><div class="swiper_arrow-holder"><div class="swiper_arrow-holder-inner"><div blog-prev="" class="icon-embed-small is-prev w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_2623_5545" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="32" height="32"><rect width="32" height="32" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_2623_5545)"><path d="M21.5665 17.3333H5.33313V14.6666H21.5665L14.0998 7.19992L15.9998 5.33325L26.6665 15.9999L15.9998 26.6666L14.0998 24.7999L21.5665 17.3333Z" fill="#050400"></path></g></svg></div><div blog-next="" class="icon-embed-small is-next w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_2623_5545" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="32" height="32"><rect width="32" height="32" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_2623_5545)"><path d="M21.5665 17.3333H5.33313V14.6666H21.5665L14.0998 7.19992L15.9998 5.33325L26.6665 15.9999L15.9998 26.6666L14.0998 24.7999L21.5665 17.3333Z" fill="#050400"></path></g></svg></div></div><a class="button hide-mobile-portrait w-button" href="{{ section.settings.url_button_url }}"> {{ section.settings.text_button_text }} </a>
+</div><div class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", function() {
+            var swiper = new Swiper(".is-blog", {
+                slidesPerView: 3,
+                spaceBetween: 20,
+                effect: 'slide',
+                speed: 800,
+                a11y: false,
+                navigation: {
+                    nextEl: "[blog-next]",
+                    prevEl: "[blog-prev]",
+                },
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 20
+                    },
+                    // when window width is >= 1024px
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    }
+                }
+            });
+        });
+    </script></div></div></div></div> {% schema %} {"tag":"section","name":"blog_list","class":"section_mehr background-color-grey","settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Neuigkeiten &amp; Wissenswertes"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Entdecken Sie unsere Bitcoin Miner"},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Alle Produkte anzeigen"}],"presets":[{"name":"blog_list","category":"Liquify"}]} {% endschema %}

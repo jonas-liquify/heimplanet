@@ -1,0 +1,30 @@
+<div class="padding-global"><div class="container-large"><div class="hardware_content"><div id="w-node-f7daffa1-9b9c-1f0a-5ad3-337c8b12e6eb-8b12e6e7" class="hardware_content-right"><div class="subline op_70">
+{{ section.settings.text_subheading }}
+</div>
+<div class="spacer-14"></div><h2 class="heading-style-h2">
+{{ section.settings.text_main_heading }}
+</h2>
+<div class="spacer-40"></div><div class="werte_component">{% for block in section.blocks %}
+    {% if block.type == "local" %}
+                    <div li-block="Local" class="werte_component-item">
+                                    <img class="icon-embed-medium"
+     src="{{ block.settings.image_block_image | img_url: 'master' }}"
+     alt="{{ block.settings.image_block_image.alt }}"
+     loading="lazy">
+
+                                    <div id="w-node-f7daffa1-9b9c-1f0a-5ad3-337c8b12e6f5-8b12e6e7" class="werte_component-text"><h3 class="heading-style-h5">
+{{ block.settings.text_block_heading }}
+</h3>
+<p class="text-size-small op_70">
+{{ block.settings.text_block_sub_text }}
+</p>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="spacer-60"></div><a class="button w-button" href="{{ section.settings.url_button_url }}"> {{ section.settings.text_button_text }} </a>
+</div></div><img class="hardware_content-left-img"
+     src="{{ section.settings.image_image | img_url: 'master' }}"
+     alt="{{ section.settings.image_image.alt }}"
+     loading="lazy">
+</div></div> {% schema %} {"tag":"section","name":"image_with_bullets","class":"section_werte background-color-primary","blocks":[{"name":"Local","type":"local","settings":[{"id":"image_block_image","type":"image_picker","label":"Block Image"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Hochwertiger Industriestandard"},{"id":"text_block_sub_text","type":"text","label":"Block Sub Text","default":"Unsere leistungsstarken Ger\u00e4te genie\u00dfen einen hervorragenden Ruf im Markt und geh\u00f6ren zum h\u00f6chsten Standard der Industrie."}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Leistungsf\u00e4hige Mining Hardware &amp; Hosting Services"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Modernste Hardware f\u00fcr Effizienz und Rentabilit\u00e4t"},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt Beratungsgespr\u00e4ch vereinbaren"},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"image_with_bullets","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,35 @@
+<div class="padding-global padding-section-large"><div class="container-large"><div class="services_content"><div id="w-node-_22fff4b7-2715-762b-f4be-e449eb8d6732-eb8d672e" class="services_content-left"><div class="services_content-left-inner"><div id="w-node-_22fff4b7-2715-762b-f4be-e449eb8d6734-eb8d672e" class="subline op_70">
+{{ section.settings.text_subheading }}
+</div>
+<h2 class="heading-style-h2">
+{{ section.settings.text_main_heading }}
+</h2>
+</div><p class="text-size-regular">
+{{ section.settings.text_paragraph }}
+</p>
+</div><div id="w-node-_22fff4b7-2715-762b-f4be-e449eb8d673d-eb8d672e" class="services_content-right">{% for block in section.blocks %}
+    {% if block.type == "service" %}
+                    <div li-block="Service" class="services_content-right-item">
+                                    <div class="services_content-right-item-top"><h3 class="heading-style-h4">
+{{ block.settings.text_block_heading }}
+</h3>
+<div class="icon-embed-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_2623_6211" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="32" height="32"><rect width="32" height="32" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_2623_6211)"><path d="M21.5667 17.3334H5.33333V14.6667H21.5667L14.1 7.20004L16 5.33337L26.6667 16L16 26.6667L14.1 24.8L21.5667 17.3334Z" fill="white"></path></g></svg></div></div>
+                                    <p class="text-size-regular">
+{{ block.settings.text_block_sub_text }}
+</p>
+
+                                    <img class="services_content-right-item-img"
+     src="{{ block.settings.image_block_image | img_url: 'master' }}"
+     alt="{{ block.settings.image_block_image.alt }}"
+     loading="lazy">
+
+                                    <a class="link-block_aboslute w-inline-block" href="{{ block.settings.url_block_link }}"> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+<div id="w-node-_22fff4b7-2715-762b-f4be-e449eb8d6746-eb8d672e" class="services_content-right-item-alt is-special"><div class="services_content-right-item-top"><h3 class="heading-style-h4">
+{{ section.settings.text_heading_2 }}
+</h3>
+</div><a class="button w-button" href="{{ section.settings.url_button_url }}"> {{ section.settings.text_button_text }} </a>
+</div></div></div></div></div> {% schema %} {"tag":"section","name":"text_with_block","class":"section_services background-color-primary","blocks":[{"name":"Service","type":"service","settings":[{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Hosting Service"},{"id":"text_block_sub_text","type":"text","label":"Block Sub Text","default":"In unseren hochmodernen Hosting-Einrichtungen bieten wir optimale Bedingungen f\u00fcr Ihre ASIC Miner."},{"id":"image_block_image","type":"image_picker","label":"Block Image"},{"id":"url_block_link","type":"url","label":"Block Link"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Unser Komplettpaket - Mining Hardware &amp; Hosting Services"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Wir k\u00fcmmern uns um Ihre Mining-Projekte"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Als Spezialisten im ASIC Mining sind wir Ihr pers\u00f6nlicher Ansprechpartner f\u00fcr Ihre Mining-Projekte. Mit mehr als X Jahren Best\u00e4ndigkeit am Markt wissen wir bei Blockmine genau, worauf bei Investitionen in Bitcoin Mining zu achten ist. Kompetenz und Kontinuit\u00e4t in der Beratung sowie eine hochwertige Qualit\u00e4t unserer Produkte k\u00f6nnen Sie bei uns voraussetzen.<br\/><br\/>In einem unverbindlichen Beratungstermin zeigen wir Ihnen konkret, welche Investitionen f\u00fcr Sie zurzeit den gr\u00f6\u00dften Wert stiften k\u00f6nnen. Nehmen Sie gerne Kontakt mit uns auf."},{"id":"text_heading_2","type":"text","label":"Heading #2","default":"Ben\u00f6tigen Sie eine Beratung?"},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt Termin vereinbaren"}],"presets":[{"name":"text_with_block","category":"Liquify"}]} {% endschema %}

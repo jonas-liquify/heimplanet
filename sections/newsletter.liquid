@@ -1,0 +1,17 @@
+<div class="padding-global"><div class="container-large"><div class="hardware_content"><div id="w-node-aa83e3d3-daad-2eb7-f272-bc3e179d7f8a-179d7f86" class="hardware_content-right max-width-medium"><h3 class="heading-style-h3">
+{{ section.settings.text_main_heading }}
+</h3>
+<div class="spacer-32"></div><div class="contact_form-block is-newsletter w-form">{% form 'contact', return_to: '/', class: 'contact_form' %}
+<div id="w-node-aa83e3d3-daad-2eb7-f272-bc3e179d7f90-179d7f86" class="field_holder"><div class="field_holder-newsletter"><div class="filter_form-field-wrapper"><label for="Email-4" class="field-label">Email</label><input class="form-input is-dark w-input" maxlength="256" name="contact[email]" data-name="Email 2" placeholder="" type="email" id="Email-2" required="" >
+
+</div><input type="submit" data-wait="Bitte warten" id="w-node-aa83e3d3-daad-2eb7-f272-bc3e179d7f96-179d7f86" class="button is-third w-button" value="Absenden">
+</div><label id="Contact-5-Checkbox" class="w-checkbox form-checkbox" name="contact[checkbox]" >
+
+<div class="w-checkbox-input w-checkbox-input--inputType-custom form-checkbox-icon"></div><input id="Checkbox-2" type="checkbox" name="Checkbox-2" data-name="Checkbox 2" required="" style="opacity:0;position:absolute;z-index:-1">
+<span for="Checkbox-2" class="form-checkbox-label w-form-label">Wie deine Daten verarbeitet werden kannst du in unserer <a href="/policies/privacy-policy" class="text-style-link">Datenschutzerklärung</a>nachlesen.</span></label>
+</div>{% endform %}
+<div class="success-message w-form-done"><div class="success-text">Thank you! Your submission has been received!</div></div><div class="error-message w-form-fail"><div class="error-text">Oops! Something went wrong while submitting the form.</div></div></div></div></div><img class="hardware_content-left-img"
+     src="{{ section.settings.image_image | img_url: 'master' }}"
+     alt="{{ section.settings.image_image.alt }}"
+     loading="lazy">
+</div></div> {% schema %} {"tag":"section","name":"newsletter","class":"section_chance-copy background-color-orange","settings":[{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Newsletter abonnieren"},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"newsletter","category":"Liquify"}]} {% endschema %}

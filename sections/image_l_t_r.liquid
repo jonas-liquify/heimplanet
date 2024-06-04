@@ -1,0 +1,12 @@
+<div class="padding-global"><div class="container-large"><div class="hardware_content"><div id="w-node-c1f74019-409a-52be-5dae-23469c1dd395-9c1dd391" class="hardware_content-right max-width-medium"><h3 class="heading-style-h3">
+{{ section.settings.text_main_heading }}
+</h3>
+<div class="spacer-12"></div><div class="max-width-medium"><p class="text-size-small">
+{{ section.settings.text_paragraph }}
+</p>
+</div><div class="spacer-32"></div><a class="button is-third w-button" href="{{ section.settings.url_button_url }}"> {{ section.settings.text_button_text }} </a>
+</div></div><img class="hardware_content-left-img"
+     src="{{ section.settings.image_image | img_url: 'master' }}"
+     alt="{{ section.settings.image_image.alt }}"
+     loading="lazy">
+</div></div> {% schema %} {"tag":"section","name":"image_l_t_r","class":"section_chance background-color-orange","settings":[{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Deine Karrierechancen bei Blockmine"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Motivierte Talente, die Lust haben in einer fortschrittlichen Branche zu arbeiten, sind bei uns herzlich willkommen."},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Karriere bei Blockmine"},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"image_l_t_r","category":"Liquify"}]} {% endschema %}

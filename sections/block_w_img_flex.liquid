@@ -1,0 +1,29 @@
+<div class="padding-global padding-section-large"><div class="container-large"><div class="farmen_content"><div class="product_content-top"><div class="subline">
+{{ section.settings.text_subheading }}
+</div>
+<h2 class="heading-style-h2">
+{{ section.settings.text_main_heading }}
+</h2>
+</div><div class="s-ulen_content">{% for block in section.blocks %}
+    {% if block.type == "saeulen" %}
+                    <div li-block="Saeulen" class="s-ulen_content-item background-color-secondary">
+                                    <div id="w-node-fe764263-2fad-6d68-3efc-60904c4ca7d8-4c4ca7cd" class="s-ulen_content-item-left"><img class="icon-embed-medium"
+     src="{{ block.settings.image_block_img_icon | img_url: 'master' }}"
+     alt="{{ block.settings.image_block_img_icon.alt }}"
+     loading="lazy">
+<div class="spacer-90"></div><h3 class="heading-style-h3">
+{{ block.settings.text_block_heading }}
+</h3>
+<div class="spacer-16"></div><div class="max-width-medium"><p class="text-size-regular">
+{{ block.settings.text_block_paragraph }}
+</p>
+</div></div>
+                                    <div id="w-node-fe764263-2fad-6d68-3efc-60904c4ca7e0-4c4ca7cd" class="s-ulen_content-item-right"><img class="s-ulen_content-item-right-img"
+     src="{{ block.settings.image_block_main_image | img_url: 'master' }}"
+     alt="{{ block.settings.image_block_main_image.alt }}"
+     loading="lazy">
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div> {% schema %} {"tag":"section","name":"block_w_img_flex","class":"section_farmen background-color-light-grey","blocks":[{"name":"Saeulen","type":"saeulen","settings":[{"id":"image_block_img_icon","type":"image_picker","label":"Block Img Icon"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Ausschau nach Standorten"},{"id":"text_block_paragraph","type":"text","label":"Block Paragraph","default":"Die Erfahrung aus einer Vielzahl von Projekten gepaart mit einem globalen Netzwerk helfen uns, die idealen Standorte und Grundst\u00fccke f\u00fcr neue Rechenzentren zu finden."},{"id":"image_block_main_image","type":"image_picker","label":"Block Main Image"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Ausbau Ihrer Hosting-Einrichtung als Full-Service"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Die 4 S\u00e4ulen unserer Buildout-L\u00f6sung"}],"presets":[{"name":"block_w_img_flex","category":"Liquify"}]} {% endschema %}

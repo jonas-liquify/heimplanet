@@ -1,0 +1,15 @@
+<div class="padding-global"><div class="container-large"><div class="hero_content"><div id="w-node-_2e796526-7896-96b5-a5ac-0f104dd095bb-4dd095b7" class="hero_content-left"><div class="subline">
+{{ section.settings.text_subheading }}
+</div>
+<div class="spacer-22"></div><div class="max-width-medium"><h1 class="heading-style-h1">
+{{ section.settings.text_main_heading }}
+</h1>
+<div class="spaer-30"></div><p class="text-size-regular">
+{{ section.settings.text_paragraph }}
+</p>
+</div><div class="spacer-36"></div><a class="button w-button" href="{{ section.settings.url_button_url }}"> {{ section.settings.text_button_text }} </a>
+</div><img class="hero_content-right-img"
+     src="{{ section.settings.image_image | img_url: 'master' }}"
+     alt="{{ section.settings.image_image.alt }}"
+     loading="lazy">
+</div></div></div> {% schema %} {"tag":"header","name":"text_with_image","class":"section_hero","settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Hardware &amp; Hosting Services f\u00fcr Bitcoin Mining"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Langfristig Rendite erzielen mit Bitcoin Mining"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Wir unterst\u00fctzen Investoren und Family Offices bei der langfristigen Geldanlage in Bitcoin Miner, um sicher und effizient vom wachsenden Krypto-Markt zu profitieren."},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Produkte entdecken"},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"text_with_image","category":"Liquify"}]} {% endschema %}
