@@ -1,0 +1,12 @@
+{
+    "sections": {
+        "storefinder": {
+            "type": "storefinder"
+        }
+    },
+    "layout": "page.storefinder",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "storefinder"
+    ]
+}

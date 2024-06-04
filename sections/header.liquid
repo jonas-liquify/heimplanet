@@ -2,7 +2,7 @@
                                     
                             <a href="{{ block.settings.url_link }}" x-bind:class="selectedLink === {{ forloop.index }} ? 'show' : 'hide'" itemprop="url" x-on:click="selectedLink = 0; selectedSublink: 0 " class="nav_menu-link is-second"><span li-object="block.settings.text_menu_handle" itemprop="name">{{ block.settings.text_menu_handle }}</span></a>
                             
-                            <a href="{{ block.settings.link }}" x-bind:class="selectedLink != {{ forloop.index }} ? 'show' : 'hide'" itemprop="url" x-on:click="selectedLink = {{ forloop.index }}" class="nav_menu-link"><span li-object="block.settings.text_menu_handle" itemprop="name">{{ block.settings.text_menu_handle }}</span></a>
+                            <a href="{{ block.settings.url_link }}" x-bind:class="selectedLink != {{ forloop.index }} ? 'show' : 'hide'" itemprop="url" x-on:click="selectedLink = {{ forloop.index }}" class="nav_menu-link"><span li-object="block.settings.text_menu_handle" itemprop="name">{{ block.settings.text_menu_handle }}</span></a>
                             
                         </li>
 {% endfor %}</ul></div></div><div class="nav_shop-icons">{% render 'predictive_search' %}
