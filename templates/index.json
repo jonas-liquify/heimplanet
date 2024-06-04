@@ -150,6 +150,47 @@
     },
     "tabs": {
       "type": "tabs",
+      "blocks": {
+        "tab_aDeR74": {
+          "type": "tab",
+          "settings": {
+            "text_headline": "1% FOR THE PLANET",
+            "textarea_text": "1% for the Planet ist ein weltweiter Zusammenschluss von Unternehmen, die die Notwendigkeit des Schutzes der natürlichen Umwelt erkannt haben.",
+            "url_button_link": "shopify:\/\/pages\/1-for-the-planet",
+            "text_button_text": "Mehr erfahren",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-1-Percent-for-the-Planet-2022-Mood.webp"
+          }
+        },
+        "tab_bF9fVn": {
+          "type": "tab",
+          "settings": {
+            "text_headline": "Wir bieten eine <br>Lebenslange Garantie",
+            "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        },
+        "tab_pDtMQg": {
+          "type": "tab",
+          "settings": {
+            "text_headline": "Wir bieten eine <br>Lebenslange Garantie",
+            "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "tab_aDeR74",
+        "tab_bF9fVn",
+        "tab_pDtMQg"
+      ],
       "settings": {
       }
     },
