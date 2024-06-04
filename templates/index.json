@@ -79,8 +79,9 @@
         "kategorie_YYhpwV": {
           "type": "kategorie",
           "settings": {
-            "url_link": "",
-            "text_headline": "Heading"
+            "url_link": "shopify:\/\/collections\/tarps",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Tarps-2022.webp",
+            "text_headline": "Tarps"
           }
         },
         "kategorie_qxbwVX": {
