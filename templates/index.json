@@ -228,8 +228,8 @@
       ],
       "settings": {
         "text_headline": "MAGAZIN",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon"
+        "url_button_link": "shopify:\/\/pages\/blog",
+        "text_button_text": "Mehr erfahren"
       }
     },
     "content_image": {
