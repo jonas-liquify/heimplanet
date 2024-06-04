@@ -202,8 +202,9 @@
         "block_WYgbtJ": {
           "type": "block",
           "settings": {
-            "url_link": "",
-            "text_titel": "Bestselling"
+            "url_link": "shopify:\/\/blogs\/gourmet-camping",
+            "image_bild": "shopify:\/\/shop_images\/HPT-GOURMET-CAMPING.jpg",
+            "text_titel": "HTP GOURMET CAMPING"
           }
         },
         "block_TFriVX": {
