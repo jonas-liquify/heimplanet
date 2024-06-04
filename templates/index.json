@@ -323,12 +323,13 @@
         "partner_xDWmKg": {
           "type": "partner",
           "settings": {
-            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
+            "text_headline": "MAHARISHI X HEIMPLANET",
+            "textarea_text": "Das Londoner Streetwear-Label Maharishi und HEIMPLANET feiern die Natur mit einem DPM: Golden Tigerstripe Camouflage.",
+            "url_button_link": "shopify:\/\/blogs\/collabs\/maharishi-x-heimplanet-the-cave",
+            "text_button_text": "Jetzt erhältlich",
             "url_button_link_2": "",
-            "text_button_text_2": "Button"
+            "text_button_text_2": "",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-Limited-Edition-The-Cave-2023-10.jpg"
           }
         }
       },
