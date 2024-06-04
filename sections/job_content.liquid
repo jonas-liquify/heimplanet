@@ -1,1 +1,10 @@
-<div class="padding-global padding-section-medium"><div class="container-large"><div class="job-detail_wrapper"><div id="w-node-_5b2a2700-ad82-35d0-c6fb-be16969ef12c-fa710e54" class="job-detail_info"><div><div class="subline">Ansprechpartner</div><h4 class="heading-style-h3"><a href="mailto:jobs@heimplanet.com">jobs@heimplanet.com</a></h4><h4 class="heading-style-h3"><a href="tel:040999995500">040 9999955 00</a></h4></div><a id="w-node-_5b2a2700-ad82-35d0-c6fb-be16969ef136-fa710e54" href="mailto:jobs@heimplanet.com" class="button w-button">Jetzt bewerben</a></div><div><div li-object="article.content" class="text-rich-text w-richtext">{{ article.content }}</div></div></div></div></div> {% schema %} {"tag":"section","name":"job_content","class":"section_job-info","presets":[{"name":"job_content","category":"Liquify"}]} {% endschema %}
+<div class="padding-global"><div class="container-large"><div class="job-content_content"><div li-object:text="article.content" id="w-node-_54f47187-8351-9143-ea29-b00b5e0e0ee2-0b21f88b" class="text-rich-text w-richtext">
+{{ article.content }}
+</div><div id="w-node-_96d9ea1e-adb7-15af-8506-8566f6f2a4c9-0b21f88b" class="job-content_content-contact background-color-primary"><h4 class="heading-style-h4">
+{{ section.settings.text_heading }}
+</h4>
+<div class="spacer-16"></div><p class="text-size-regular">
+{{ section.settings.text_paragraph }}
+</p>
+<div class="spacer-36"></div><a class="button max-width-full w-button" href="{{ section.settings.url_link }}"> Jetzt bewerben </a>
+</div></div></div></div> {% schema %} {"tag":"section","name":"job_content","class":"section_job-content","settings":[{"id":"text_heading","type":"text","label":"Heading","default":"Werde Teil unseres Teams"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Bewirb dich jetzt innerhalb von 1 Minute. Dein Lebenslauf reicht uns vollkommen aus. Wir freuen uns auf deine Bewerbung!"},{"id":"url_link","type":"url","label":"Link"}],"presets":[{"name":"job_content","category":"Liquify"}]} {% endschema %}

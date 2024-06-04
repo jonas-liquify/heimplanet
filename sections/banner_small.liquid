@@ -1,0 +1,16 @@
+<div class="padding-global"><div class="container-large"><div class="subbanner_content">{% for block in section.blocks %}
+    {% if block.type == "banner-small" %}
+                    <div li-block="Banner small" id="w-node-_3aeddf9d-aa8e-b581-093d-d63b764d0baf-764d0bab" class="subbanner_content-item">
+                                    <img class="subbanner_content-item-img"
+     src="{{ block.settings.image_block_image | img_url: 'master' }}"
+     alt="{{ block.settings.image_block_image.alt }}"
+     loading="lazy">
+
+                                    <div class="text-size-special">
+{{ block.settings.text_block_heading }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div> {% schema %} {"tag":"section","name":"banner_small","class":"section_subbanner background-color-orange","blocks":[{"name":"Banner small","type":"banner-small","settings":[{"id":"image_block_image","type":"image_picker","label":"Block Image"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"1 Jahr Garantie auf qualit\u00e4tsgepr\u00fcfte Mining Hardware"}]}],"presets":[{"name":"banner_small","category":"Liquify"}]} {% endschema %}

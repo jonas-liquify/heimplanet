@@ -1,0 +1,18 @@
+<div class="padding-global padding-section-large"><div class="container-large"><div class="add_content"><div id="w-node-_69537028-efd1-34d5-cfa8-f985ce710377-ce710373" class="add_content-left"><div class="subline">
+{{ section.settings.text_subheading }}
+</div>
+<div class="spacer-6"></div><h2 class="heading-style-h2">
+{{ section.settings.text_main_heading }}
+</h2>
+<div class="spacer-24"></div><p class="text-size-regular">
+{{ section.settings.text_paragraph }}
+</p>
+</div><div id="w-node-_69537028-efd1-34d5-cfa8-f985ce710380-ce710373" class="add_content-right">{% for block in section.blocks %}
+    {% if block.type == "services-on-white" %}
+                    <div li-block="Services on white" id="w-node-_69537028-efd1-34d5-cfa8-f985ce710381-ce710373">
+                                    <a class="services_content-right-item2 background-color-secondary is-normal w-inline-block" href="{{ block.settings.url_block_link }}"> <div class="services_content-right-item-top"><h3 class="heading-style-h4">{{ block.settings.text_block_heading }}</h3><div class="icon-embed-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_2623_6211" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="32" height="32"><rect width="32" height="32" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_2623_6211)"><path d="M21.5667 17.3334H5.33333V14.6667H21.5667L14.1 7.20004L16 5.33337L26.6667 16L16 26.6667L14.1 24.8L21.5667 17.3334Z" fill="currentColor"></path></g></svg></div></div><p class="text-size-regular">{{ block.settings.text_block_sub_text }}</p><img class="services_content-right-item-img" src="{{ block.settings.image_block_image | img_url: 'master' }}" alt="{{ block.settings.image_block_image.alt }}" loading="lazy"> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div> {% schema %} {"tag":"section","name":"text_left_w_b_l","class":"section_add background-color-light-grey","blocks":[{"name":"Services on white","type":"services-on-white","settings":[{"id":"url_block_link","type":"url","label":"Block Link"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Hosting Service"},{"id":"text_block_sub_text","type":"text","label":"Block Sub Text","default":"In unseren hochmodernen Hosting-Einrichtungen bieten wir optimale Bedingungen f\u00fcr Ihre ASIC Miner."},{"id":"image_block_image","type":"image_picker","label":"Block Image"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Mining Hardware von marktf\u00fchrenden Herstellern"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Entdecken Sie unsere Bitcoin Miner"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque."}],"presets":[{"name":"text_left_w_b_l","category":"Liquify"}]} {% endschema %}

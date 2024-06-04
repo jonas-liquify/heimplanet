@@ -1,39 +1,30 @@
-<div class="padding-global padding-section-medium"><div class="container-large">{% paginate collection.products by 50 %}
-    <div li-paginate:by="50" li-paginate="collection.products" class="filter_layout" by="50"><div id="w-node-_678e0483-bbe4-e79a-1722-b169c587feae-c587feae" class="filter_filters-wrapper"><form action="{{ routes.search_url }}" method="get" role="search" class="filter_form_component"><div id="w-node-_265c4342-3d21-e8bf-dfee-efec035c3507-c587feae" class="filter_form"><div id="w-node-_678e0483-bbe4-e79a-1722-b169c587feb1-c587feae" class="filter_form-header"><div class="filter_heading">Filters</div><a li-object:href="filter.url_to_remove" href="{{ filter.url_to_remove }}" class="button is-link hide-tablet w-inline-block"><div>Clear all</div></a></div><div class="filter_results-wrapper"><div class="filter_results-text">Showing <span li-object="collection.all_products_count | append: ' '">{{ collection.all_products_count | append: ' ' }}</span>Products<span fs-cmsfilter-element="items-count"></span></div></div><div class="filter_form-field-wrapper"><input name="type" type="hidden" class="form-input" value="product">
-<input name="q" placeholder="Suche" type="search" class="form-input" value="{{ search.terms | escape }}">
-</div><div class="filter_scroll-wrapper"><div class="filter_filter-group-list">{% for filter in collection.filters %}    <div li-for="filter in collection.filters" class="filter_filter-group">
+<div class="padding-global"><div li-="" class="container-large">{% paginate collection.products by 50 %}
+    <div li-paginate:by="50" li-paginate="collection.products" class="filter_layout" by="50"><div id="w-node-_903aef1e-2e40-c0e9-9771-d5923854ee12-3854ee12" class="filter_filters-wrapper"><form action="{{ routes.search_url }}" method="get" role="search" class="filter_form_component"><div id="w-node-_903aef1e-2e40-c0e9-9771-d5923854ee14-3854ee12" class="filter_form"><div class="filter_form-field-wrapper"><div fs-scrolldisable-element="preserve" x-bind:class="filterOpen ? 'is-open' : ''" class="filter_wrapper-holder"><input name="type" type="hidden" class="form-input" value="product">
+<div class="search_wrapper"><input name="q" placeholder="Suche" type="search" class="filter_element" value="{{ search.terms | escape }}">
+<button type="submit" class="submit"><div class="icon-embed-xxsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_2623_6366" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="16" height="16"><rect width="16" height="16" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_2623_6366)"><path d="M13.0667 14L8.86667 9.8C8.53333 10.0667 8.15 10.2778 7.71667 10.4333C7.28333 10.5889 6.82222 10.6667 6.33333 10.6667C5.12222 10.6667 4.09722 10.2472 3.25833 9.40833C2.41944 8.56944 2 7.54444 2 6.33333C2 5.12222 2.41944 4.09722 3.25833 3.25833C4.09722 2.41944 5.12222 2 6.33333 2C7.54444 2 8.56944 2.41944 9.40833 3.25833C10.2472 4.09722 10.6667 5.12222 10.6667 6.33333C10.6667 6.82222 10.5889 7.28333 10.4333 7.71667C10.2778 8.15 10.0667 8.53333 9.8 8.86667L14 13.0667L13.0667 14ZM6.33333 9.33333C7.16667 9.33333 7.875 9.04167 8.45833 8.45833C9.04167 7.875 9.33333 7.16667 9.33333 6.33333C9.33333 5.5 9.04167 4.79167 8.45833 4.20833C7.875 3.625 7.16667 3.33333 6.33333 3.33333C5.5 3.33333 4.79167 3.625 4.20833 4.20833C3.625 4.79167 3.33333 5.5 3.33333 6.33333C3.33333 7.16667 3.625 7.875 4.20833 8.45833C4.79167 9.04167 5.5 9.33333 6.33333 9.33333Z" fill="#1C1B1F"></path></g></svg></div></button></div><div li-for:inside="filter in collection.filters" class="filter_element-comonent">
+        {% for filter in collection.filters %}                            
+                            {% if filter.values.size > 1 and filter.type == 'list' %}    <div x-init="if (new URLSearchParams(window.location.search).has('{{ filter.param_name }}')) { filter{{forloop.index}} = true; }" li-if="filter.values.size > 1 and filter.type == 'list'" x-data="{ filter{{forloop.index}}: false }" class="filter_element-wrapper">
+    <div x-on:click="filter{{forloop.index}} = ! filter{{forloop.index}}" class="filter_element is-dropdown"><p li-object="filter.label" class="text-size-regular">{{ filter.label }}</p>{% if link.links.size > 0 %}    <div li-if="link.links.size > 0" class="arrow w-embed">
+    <svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path></svg>    </div>
+{% endif %}</div><div x-bind:class="filter{{forloop.index}} ? 'is-open' : ''" class="filter_element-content"><div class="filter_list">{% for filter_value in filter.values %}    <div li-for="filter_value in filter.values" class="filter_item">
                                     
-                            {% if filter.values.size > 1 %}    <div li-if="filter.values.size > 1">
-    <div class="filter_filter-group-heading"><div li-object="filter.label" class="text-size-medium text-weight-semibold">{{ filter.label }}</div></div><div class="filter_filter-options"><div class="filter_list-wrapper"><div class="filter_list">{% for filter_value in filter.values %}    <div li-for="filter_value in filter.values" class="filter_item">
-                                    
-                            <a href="{% if filter_value.active %}{{ filter_value.url_to_remove }}{% else %}{{ filter_value.url_to_add }}{% endif %}" class="{% if filter_value.count == 0 and filter_value.active == false %}filter_form_checkbox is-disabled{% else %}filter_form_checkbox{% endif %}" >
+                            <div fs-scrolldisable-media="(max-width: 992px)" fs-scrolldisable-element="toggle" x-on:click="filterOpen = ! filterOpen" class="{% if filter_value.count == 0 and filter_value.active == false %}filter_form_checkbox filter-btn is-disabled{% else %}filter_form_checkbox filter-btn{% endif %}" data-filter="{% if filter_value.active %}{{ filter_value.url_to_remove | remove: collection.url | remove: '?'}}{% else %}{{ filter_value.url_to_add | remove: collection.url | remove: '?'}}{% endif %}" >
 
 <div class="{% if filter_value.active %}filter_form_checkbox-icon is-checked{% else %}filter_form_checkbox-icon{% endif %}" >
 
 </div>
-<div class="filter_form_checkbox-label"><span li-object="filter_value.label | append: ' '">{{ filter_value.label | append: ' ' }}</span>(<span li-object="filter_value.count">{{ filter_value.count }}</span>)</div></a>
+<div class="{% if filter_value.active %}filter_form_checkbox-label is-checked{% else %}filter_form_checkbox-label{% endif %}" >
+
+<span li-object="filter_value.label">{{ filter_value.label }}</span><span li-object="filter_value.count | prepend: ' (' | append: ')'">{{ filter_value.count | prepend: ' (' | append: ')' }}</span></div>
+</div>
 
                             
                         </div>
-{% endfor %}</div></div></div>    </div>
+{% endfor %}</div></div>    </div>
 {% endif %}
                             
-                        </div>
-{% endfor %}</div></div></div></form><a data-w-id="678e0483-bbe4-e79a-1722-b169c587fede" href="#" class="filter_tablet-modal-close-button w-inline-block"><img src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/624380709031623afe4aee7e_icon_close-modal.svg" alt="" class="icon-1x1-small">
-</a></div><a data-w-id="fbc2b76f-ae1d-c44d-7b93-e3deb074d946" href="#" class="filter_tablet-filters-button w-inline-block"><img alt="" loading="lazy" src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/62942b9f00484cf074e6f851_icon-filters.svg" class="button-icon-left">
-<div>Filters</div></a><div id="w-node-fbc2b76f-ae1d-c44d-7b93-e3deb074d94a-c68d81c0" class="filter_feed"><div class="filter_feed-header"><div class="filter_tags-wrapper">{% for filters in collection.filters %}    <div li-for="filters in collection.filters" class="filter_tags-inner-wrapper">
-                                    
-                            {% for filter_value in filters.active_values %}    <div li-for="filter_value in filters.active_values" class="filter_tag">
-                                    
-                            <div li-object="filter_value.label">{{ filter_value.label }}</div>
-                            
-                            <a li-object:href="filter_value.url_to_remove" href="{{ filter_value.url_to_remove }}" class="w-inline-block"><div class="filter_close-icon-2 w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.1266 16.773L16.7729 17.1266C16.5777 17.3218 16.2611 17.3218 16.0658 17.1266L12 13.0607L7.9341 17.1265C7.73888 17.3218 7.42229 17.3218 7.22702 17.1265L6.87347 16.773C6.6782 16.5777 6.6782 16.2612 6.87347 16.0659L10.9394 12L6.87347 7.93413C6.6782 7.73891 6.6782 7.42232 6.87347 7.22705L7.22702 6.8735C7.42228 6.67824 7.73888 6.67824 7.9341 6.8735L12 10.9394L16.0658 6.8735C16.2611 6.67824 16.5777 6.67824 16.7729 6.8735L17.1266 7.22705C17.3218 7.42231 17.3218 7.73891 17.1266 7.93413L13.0607 12L17.1266 16.0659C17.3218 16.2612 17.3218 16.5777 17.1266 16.773Z" fill="currentColor"></path></svg></div></a>
-                            
-                        </div>
-{% endfor %}
-                            
-                        </div>
-{% endfor %}</div><select id="sort-by" li-for:inside="option in collection.sort_options" class="sort_select filter_checkbox">
+                    {% endfor %}    </div>
+</div><div class="sort_wrapper"><div class="icon-embed-xxsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_3089_333" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="16" height="16"><rect width="16" height="16" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_3089_333)"><path d="M4.93929 8.76524V3.2656L2.96555 5.23934L1.87329 4.16624L5.70579 0.33374L9.53829 4.16624L8.44603 5.23934L6.47229 3.2656V8.76524H4.93929ZM10.3048 15.6637L6.47229 11.8312L7.56455 10.7581L9.53829 12.7319V7.23224H11.0713V12.7319L13.045 10.7581L14.1373 11.8312L10.3048 15.6637Z" fill="#090909"></path></g></svg></div><select id="sort-by" li-for:inside="option in collection.sort_options" class="sort_select filter_checkbox">
         {% for option in collection.sort_options %}                            
                             <option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% elsif option.value == collection.default_sort_by %}selected{% endif %}>
 
@@ -41,7 +32,9 @@
 
                             
                     {% endfor %}    </select>
-</div><div class="w-dyn-list"><div role="list" class="filter_product-list w-dyn-items">{% for product in collection.products %}    <div li-for="product in collection.products" role="listitem" class="w-dyn-item">
+</div></div></div></form><a data-w-id="903aef1e-2e40-c0e9-9771-d5923854ee33" href="#" class="filter_tablet-modal-close-button w-inline-block"><img alt="" src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/624380709031623afe4aee7e_icon_close-modal.svg" class="icon-1x1-small">
+</a></div><a data-w-id="fbc2b76f-ae1d-c44d-7b93-e3deb074d946" href="#" class="filter_tablet-filters-button w-inline-block"><img alt="" loading="lazy" src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/62942b9f00484cf074e6f851_icon-filters.svg" class="button-icon-left">
+<div>Filters</div></a><div id="w-node-fbc2b76f-ae1d-c44d-7b93-e3deb074d94a-11d420ec" class="filter_feed"><div class="w-dyn-list"><div role="list" class="filter_product-list w-dyn-items">{% for product in collection.products %}    <div li-for="product in collection.products" role="listitem" class="w-dyn-item">
                                     
                             {% render 'product_item', product: product %}
 
@@ -76,4 +69,4 @@
     <a li-object:href="paginate.next.url" href="{{ paginate.next.url }}" class="button is-secondary is-icon w-inline-block"><div>Next</div><div class="pagination_arrow is-right w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 13 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.67318 0.589844L6.26318 5.16984L10.8532 0.589844L12.2632 1.99984L6.26318 7.99984L0.263184 1.99984L1.67318 0.589844Z" fill="currentColor"></path></svg></div></a>    </li>
 {% endif %}</ul>    </nav>
 {% endif %}</div></div>{% endpaginate %}
-</div></div><div id="products" class="anchor-link"></div> {% schema %} {"tag":"section","name":"collection_products","class":"section_filters","presets":[{"name":"collection_products","category":"Liquify"}]} {% endschema %}
+</div></div> {% schema %} {"tag":"section","name":"collection_products","class":"section_filters background-color-light-grey","presets":[{"name":"collection_products","category":"Liquify"}]} {% endschema %}

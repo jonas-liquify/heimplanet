@@ -1,0 +1,29 @@
+<div class="padding-global"><div class="container-large"><div class="hardware_content"><div id="w-node-f8f37553-996d-8969-9a66-5976f445b168-f445b164" class="hardware_content-right"><div class="subline op_70">
+{{ section.settings.text_subheading }}
+</div>
+<div class="spacer-14"></div><h2 class="heading-style-h2">
+{{ section.settings.text_main_heading }}
+</h2>
+<div class="spacer-20"></div><p class="text-size-regular op_70">
+{{ section.settings.text_paragraph }}
+</p>
+<div class="spacer-60"></div><div class="hardware_grid">{% for block in section.blocks %}
+    {% if block.type == "stats" %}
+                    <div li-block="Stats" id="w-node-f8f37553-996d-8969-9a66-5976f445b173-f445b164" class="hardware_grid-item">
+                                    <h3 class="heading-style-h3">
+{{ block.settings.text_block_sub_text }}
+</h3>
+
+                                    <div class="text-size-regular is-sub">
+{{ block.settings.text_block_heading }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="spacer-60"></div><a class="button w-button" href="{{ section.settings.url_button_url }}"> {{ section.settings.text_button_text }} </a>
+</div></div><img class="hardware_content-left-img"
+     src="{{ section.settings.image_image | img_url: 'master' }}"
+     alt="{{ section.settings.image_image.alt }}"
+     loading="lazy">
+</div></div> {% schema %} {"tag":"section","name":"image_left_w_text","class":"section_hardware background-color-primary","blocks":[{"name":"Stats","type":"stats","settings":[{"id":"text_block_sub_text","type":"text","label":"Block Sub Text","default":"3000+"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Kunden weltweit"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Leistungsf\u00e4hige Mining Hardware &amp; Hosting Services"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Modernste Hardware f\u00fcr Effizienz und Rentabilit\u00e4t"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Durch den Einsatz modernster Hardware und individueller Infrastruktur-L\u00f6sungen erreichen wir f\u00fcr unsere Kunden eine hohe Effizienz der Miner und eine signifikante Steigerung der Rentabilit\u00e4t."},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Zum Unternehmen"},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"image_left_w_text","category":"Liquify"}]} {% endschema %}

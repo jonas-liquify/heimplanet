@@ -1,0 +1,49 @@
+<div class="padding-global padding-section-large"><div class="container-large"><div class="infra_content"><div id="w-node-_75ec09f2-20d8-b24f-1233-8cbefe00d6b0-fe00d6ac" class="infra_content-inner max-width-large"><div id="w-node-_75ec09f2-20d8-b24f-1233-8cbefe00d6b1-fe00d6ac" class="subline op_70">
+{{ section.settings.text_subheading }}
+</div>
+<h2 class="heading-style-h2">
+{{ section.settings.text_main_heading }}
+</h2>
+<p class="text-size-regular op_70">
+{{ section.settings.text_paragraph }}
+</p>
+</div><div class="spacer-50"></div><div class="infra_grid">{% for block in section.blocks %}
+    {% if block.type == "stats-light" %}
+                    <div li-block="Stats light" class="infra_grid-item">
+                                    <h2 class="heading-style-h2">
+{{ block.settings.text_block_sub_text }}
+</h2>
+
+                                    <div class="text-size-small is-sub is-white">
+{{ block.settings.text_block_heading }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="spacer-90"></div><div class="swiper_component"><div class="swiper is-infra w-dyn-list"><div role="list" class="swiper-wrapper is-infra w-dyn-items">{% for hosting in shop.metaobjects.hosting.values %}    <div li-for="hosting in shop.metaobjects.hosting.values" role="listitem" class="swiper-slide is-infra w-dyn-item">
+                                    <img src="{{ hosting.bild | img_url: 'master' }}" loading="lazy" li-object:src="hosting.bild | img_url: 'master'" alt="" class="infra_img">
+
+                            
+                            <div class="infra_gradient"><div li-object="hosting.ort.value" class="text-size-medium">{{ hosting.ort.value }}</div></div>
+                            
+                        </div>
+{% endfor %}</div><div class="hide w-dyn-empty"><div>No items found.</div></div></div><div class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", function() {
+  var swiper = new Swiper(".is-infra", {
+    // Default settings
+    slidesPerView: 1,
+    spaceBetween: 12,
+     effect: 'slide', // Add slide effect
+     speed: 800,
+    a11y: false,
+    navigation: {
+      nextEl: "[infra-next]",
+      prevEl: "[infra-prev]",
+    },
+     pagination: {
+       el: ".swiper-pagination-countries",
+       clickable: true,
+     },
+  });
+});
+</script></div><div class="infra_gradient-swiper"><div id="w-node-_75ec09f2-20d8-b24f-1233-8cbefe00d6cb-fe00d6ac" class="swiper-pagination-countries hide-mobile-portrait"><div class="swiper-pagination-bullet"></div><div class="swiper-pagination-bullet-active"></div></div><div id="w-node-_75ec09f2-20d8-b24f-1233-8cbefe00d6ce-fe00d6ac" class="swiper-arrow_holder"><div class="swiper_arrow-holder-inner"><div infra-prev="" class="icon-embed-small is-prev w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_2623_5545" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="32" height="32"><rect width="32" height="32" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_2623_5545)"><path d="M21.5665 17.3333H5.33313V14.6666H21.5665L14.0998 7.19992L15.9998 5.33325L26.6665 15.9999L15.9998 26.6666L14.0998 24.7999L21.5665 17.3333Z" fill="currentColor"></path></g></svg></div><div infra-next="" class="icon-embed-small is-next w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_2623_5545" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="32" height="32"><rect width="32" height="32" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_2623_5545)"><path d="M21.5665 17.3333H5.33313V14.6666H21.5665L14.0998 7.19992L15.9998 5.33325L26.6665 15.9999L15.9998 26.6666L14.0998 24.7999L21.5665 17.3333Z" fill="currentColor"></path></g></svg></div></div></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"text_w_block_and_i","class":"section_infra background-color-primary","blocks":[{"name":"Stats light","type":"stats-light","settings":[{"id":"text_block_sub_text","type":"text","label":"Block Sub Text","default":"9"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Mining Facilities"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Unser Komplettpaket - Mining Hardware &amp; Hosting Services"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Wir k\u00fcmmern uns um Ihre Mining-Projekte"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."}],"presets":[{"name":"text_w_block_and_i","category":"Liquify"}]} {% endschema %}

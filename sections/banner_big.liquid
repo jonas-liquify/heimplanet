@@ -1,0 +1,22 @@
+<div class="padding-global"><div class="container-large"><div class="value_content">{% for block in section.blocks %}
+    {% if block.type == "banner-big" %}
+                    <div li-block="Banner big" class="value_content-item">
+                                    <img class="value_content-item-img"
+     src="{{ block.settings.image_block_image | img_url: 'master' }}"
+     alt="{{ block.settings.image_block_image.alt }}"
+     loading="lazy">
+
+                                    <div class="spacer-30"></div>
+                                    <h3 class="heading-style-h5">
+{{ block.settings.text_block_heading }}
+</h3>
+
+                                    <div class="spacer-12"></div>
+                                    <p class="text-size-regular op_70">
+{{ block.settings.text_block_sub_text }}
+</p>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div> {% schema %} {"tag":"section","name":"banner_big","class":"section_value background-color-orange","blocks":[{"name":"Banner big","type":"banner-big","settings":[{"id":"image_block_image","type":"image_picker","label":"Block Image"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Pers\u00f6nlicher Kundenservice"},{"id":"text_block_sub_text","type":"text","label":"Block Sub Text","default":"Unsere Experten im Kundenservice liefern Ihnen rund um die Uhr die entscheidenden Antworten auf Ihre Fragen."}]}],"presets":[{"name":"banner_big","category":"Liquify"}]} {% endschema %}

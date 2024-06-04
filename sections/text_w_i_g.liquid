@@ -1,0 +1,71 @@
+<div class="padding-global"><div class="container-large"><div class="pioniergeist_content"><div id="w-node-_8a93ef93-7974-6023-9546-cc85e017eae6-e017eae2" class="add_content-left max-width-large"><div class="subline op_70">
+{{ section.settings.text_subheading }}
+</div>
+<div class="spacer-6"></div><h2 class="heading-style-h2">
+{{ section.settings.text_main_heading }}
+</h2>
+<div class="spacer-24"></div><p class="text-size-regular">
+{{ section.settings.text_paragraph }}
+</p>
+</div><div class="spacer-60"></div><div class="infra_grid">{% for block in section.blocks %}
+    {% if block.type == "stats-on-grey" %}
+                    <div li-block="Stats on grey" class="infra_grid-item">
+                                    <h3 class="heading-style-h2">
+{{ block.settings.text_block_sub_text }}
+</h3>
+
+                                    <div class="text-size-small is-sub">
+{{ block.settings.text_block_heading }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="spacer-40"></div><div class="warum_grid">{% for block in section.blocks %}
+    {% if block.type == "box" %}
+                    <div li-block="Box" id="w-node-_8a93ef93-7974-6023-9546-cc85e017eaf8-e017eae2" class="warum_grid-item text-color-white">
+                                    <img class="warum_grid-img"
+     src="{{ block.settings.image_block_image | img_url: 'master' }}"
+     alt="{{ block.settings.image_block_image.alt }}"
+     loading="lazy">
+
+                                    <div class="warum_grid-item-text"><h4 class="heading-style-h4">
+{{ block.settings.text_block_heading_2 }}
+</h4>
+<div class="text_overflow-holder closed"><p class="text-size-small">
+{{ block.settings.text_block_paragraph }}
+</p>
+</div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+<div id="w-node-e9978ffc-997d-0924-e69e-26e12d290d17-e017eae2" class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", function() {
+            const gridItems = document.querySelectorAll('.warum_grid-item');
+            gridItems.forEach(item => {
+                item.addEventListener('mouseover', function() {
+                    const textHolder = item.querySelector('.text_overflow-holder');
+                    if (textHolder) {
+                        textHolder.classList.remove('closed');
+                    }
+                });
+                item.addEventListener('mouseout', function() {
+                    const textHolder = item.querySelector('.text_overflow-holder');
+                    if (textHolder) {
+                        textHolder.classList.add('closed');
+                    }
+                });
+            });
+        });
+    </script></div></div><div class="spacer-40"></div><div class="call_component"><a class="button w-button" href="{{ section.settings.url_button_url }}"> {{ section.settings.text_button_text }} </a>
+<div class="call_component-inner">{% for block in section.blocks %}
+    {% if block.type == "checkbox" %}
+                    <div li-block="Checkbox" class="steps_checker">
+                                    <div class="icon-embed-xxsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 13" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1 6.20652L5.54348 10.75L15.0435 1.25" stroke="var(--base-color-brand--orange)" stroke-width="2"></path></svg></div>
+                                    <p class="text-size-regular">
+{{ block.settings.text_block_heading_2 }}
+</p>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div></div> {% schema %} {"tag":"section","name":"text_w_i_g","class":"section_pioniergeist background-color-light-grey","blocks":[{"name":"Stats on grey","type":"stats-on-grey","settings":[{"id":"text_block_sub_text","type":"text","label":"Block Sub Text","default":"9"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Mining Facilities"}]},{"name":"Box","type":"box","settings":[{"id":"image_block_image","type":"image_picker","label":"Block Image"},{"id":"text_block_heading_2","type":"text","label":"Block Heading #2","default":"Pers\u00f6nlicher Kundenservice"},{"id":"text_block_paragraph","type":"text","label":"Block Paragraph","default":"Unsere erfahrenen Experten im Kundenservice liefern Ihnen rund um die Uhr die entscheidenden Antworten auf die Fragen zu Ihrem Mining-Projekt."}]},{"name":"Checkbox","type":"checkbox","settings":[{"id":"text_block_heading_2","type":"text","label":"Block Heading #2","default":"Einj\u00e4hrige Garantie"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Mining Hardware von marktf\u00fchrenden Herstellern"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Entdecken Sie unsere Bitcoin Miner"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque."},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt Beratungsgespr\u00e4ch vereinbaren"}],"presets":[{"name":"text_w_i_g","category":"Liquify"}]} {% endschema %}

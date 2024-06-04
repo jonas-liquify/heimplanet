@@ -1,0 +1,32 @@
+<div class="padding-global"><div class="container-large"><div class="hardware_content"><div id="w-node-c679a769-2463-592e-130d-b60582a42fd9-82a42fd5" class="hardware_content-right"><div class="subline op_70">
+{{ section.settings.text_subheading }}
+</div>
+<div class="spacer-14"></div><h2 class="heading-style-h2">
+{{ section.settings.text_main_heading }}
+</h2>
+<div class="spacer-40"></div><div class="werte_component">{% for block in section.blocks %}
+    {% if block.type == "local-on-white" %}
+                    <div li-block="Local on white" class="werte_component-item">
+                                    <img class="icon-embed-medium"
+     src="{{ block.settings.image_block_image | img_url: 'master' }}"
+     alt="{{ block.settings.image_block_image.alt }}"
+     loading="lazy">
+
+                                    <div id="w-node-c679a769-2463-592e-130d-b60582a42fe3-82a42fd5" class="werte_component-text"><h3 class="heading-style-h5">
+{{ block.settings.text_block_heading }}
+</h3>
+<p class="text-size-small">
+{{ block.settings.text_block_sub_text }}
+</p>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="spacer-60"></div>{% if section.settings.url_button_url != blank %}    <div li-if="section.settings.url_button_url != blank">
+    <a class="button w-button" href="{{ section.settings.url_button_url }}"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}</div></div><img class="hardware_content-left-img"
+     src="{{ section.settings.image_image | img_url: 'master' }}"
+     alt="{{ section.settings.image_image.alt }}"
+     loading="lazy">
+</div></div> {% schema %} {"tag":"section","name":"image_w_bull_d","class":"section_werte","blocks":[{"name":"Local on white","type":"local-on-white","settings":[{"id":"image_block_image","type":"image_picker","label":"Block Image"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Hochwertiger Industriestandard"},{"id":"text_block_sub_text","type":"text","label":"Block Sub Text","default":"Unsere leistungsstarken Ger\u00e4te genie\u00dfen einen hervorragenden Ruf im Markt und geh\u00f6ren zum h\u00f6chsten Standard der Industrie."}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"Leistungsf\u00e4hige Mining Hardware &amp; Hosting Services"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Modernste Hardware f\u00fcr Effizienz und Rentabilit\u00e4t"},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt Beratungsgespr\u00e4ch vereinbaren"},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"image_w_bull_d","category":"Liquify"}]} {% endschema %}
