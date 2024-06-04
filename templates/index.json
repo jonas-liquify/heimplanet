@@ -16,9 +16,9 @@
         "hero_slider_LP9zUr": {
           "type": "hero-slider",
           "settings": {
-            "text_headline": "Unsere NEUEn ZELTE",
-            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
-            "url_button_link": "",
+            "text_headline": "HEIMPLANET SETS",
+            "richtext_text": "<p>Entdecke jetzt die neuen CARRY und CAMPING Sets. Für Dich zusammengestellt für mehr Tragekomfort im Alltag und unvergessliche Camping Abenteuer.<\/p>",
+            "url_button_link": "shopify:\/\/collections\/camping-sets",
             "text_button_text": "Jetzt entdecken"
           }
         },
