@@ -196,16 +196,6 @@
       "settings": {
       }
     },
-    "blog": {
-      "type": "blog",
-      "settings": {
-        "text_headline": "Magazin",
-        "url_button_link": "shopify:\/\/pages\/blog",
-        "text_button_text": "Mehr Erfahren",
-        "article_artikel": "projekte\/april-ist-earth-month",
-        "blog_blog": "gourmet-camping"
-      }
-    },
     "links": {
       "type": "links",
       "blocks": {
@@ -245,12 +235,13 @@
     "content_image": {
       "type": "content_image",
       "settings": {
-        "text_headline": "Medium length heading goes here",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button"
+        "text_headline": "HEIMPLANET IST INSPIRIERT VON DER BEGEISTERUNG DES REISENS.",
+        "textarea_text": "Auf Reisen fühlt man sich lebendig. Alle Sinne sind wach und man erwartet immer etwas Neues. Man stellt sich ständig auf neue Situationen, neue Menschen, neue Kulturen und neue Umgebungen ein.",
+        "url_button_link": "shopify:\/\/pages\/unternehmen",
+        "text_button_text": "Über uns",
+        "url_button_link_2": "shopify:\/\/collections\/re-store",
+        "text_button_text_2": "Re:Store Programm",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-2022-1-1.jpg"
       }
     },
     "colabs": {
@@ -267,7 +258,6 @@
     "kategorien",
     "category",
     "tabs",
-    "blog",
     "links",
     "content_image",
     "colabs"
