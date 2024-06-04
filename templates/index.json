@@ -251,7 +251,7 @@
       "type": "blog",
       "settings": {
         "text_headline": "Aktuelle Beiträge",
-        "url_button_link": "shopify:\/\/pages\/blog",
+        "url_button_link": "shopify:\/\/blogs\/collabs\/fdmtl-kirra-limited-edition",
         "text_button_text": "Mehr Erfahren",
         "article_artikel": "collabs\/fdmtl-kirra-limited-edition",
         "blog_blog": "abenteuer"
