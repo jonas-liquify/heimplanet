@@ -87,8 +87,9 @@
         "kategorie_qxbwVX": {
           "type": "kategorie",
           "settings": {
-            "url_link": "",
-            "text_headline": "Heading"
+            "url_link": "shopify:\/\/collections\/taschen",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Daypack-Backpack.jpg",
+            "text_headline": "Taschen"
           }
         },
         "kategorie_AMyXbw": {
