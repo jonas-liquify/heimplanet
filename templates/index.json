@@ -331,6 +331,18 @@
             "text_button_text_2": "",
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-Limited-Edition-The-Cave-2023-10.jpg"
           }
+        },
+        "partner_h8DmmH": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "UNCRATE X HEIMPLANET",
+            "textarea_text": "Wir haben uns wieder mit unseren Freunden von UNCRATE zusammengetan, um eine neue THE CAVE All Black Limited Edition zu kreieren.",
+            "url_button_link": "shopify:\/\/blogs\/collabs\/uncrate-x-heimplanet-2021",
+            "text_button_text": "Mehr erfahren",
+            "url_button_link_2": "",
+            "text_button_text_2": "",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Uncrate-All-Black-Limited-Edition-1.jpg"
+          }
         }
       },
       "block_order": [
@@ -339,7 +351,8 @@
         "partner_7gHCa6",
         "partner_axixPJ",
         "partner_934nmD",
-        "partner_xDWmKg"
+        "partner_xDWmKg",
+        "partner_h8DmmH"
       ],
       "settings": {
         "checkbox_swiper_script": true
