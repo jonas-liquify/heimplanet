@@ -256,6 +256,89 @@
         "article_artikel": "collabs\/fdmtl-kirra-limited-edition",
         "blog_blog": "abenteuer"
       }
+    },
+    "colabs_BpYUJe": {
+      "type": "colabs",
+      "blocks": {
+        "partner_hrRUGq": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "Cybertruck Basecamp",
+            "textarea_text": "Mit seinem ultraleichten, geodätischen Luftrahmen lässt sich das Cybertruck Basecamp Zelt mit einer Handpumpe in wenigen Minuten ausblasen, ohne dass Zeltstangen erforderlich sind.",
+            "url_button_link": "shopify:\/\/pages\/tesla-cybertruck-basecamp",
+            "text_button_text": "Mehr erfahren",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Tesla-Cybertruck-Basecamp-Inflatable-Tent-2023.jpg"
+          }
+        },
+        "partner_ALYjfN": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        },
+        "partner_7gHCa6": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        },
+        "partner_axixPJ": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        },
+        "partner_934nmD": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        },
+        "partner_xDWmKg": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "partner_hrRUGq",
+        "partner_ALYjfN",
+        "partner_7gHCa6",
+        "partner_axixPJ",
+        "partner_934nmD",
+        "partner_xDWmKg"
+      ],
+      "settings": {
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "theme",
@@ -267,6 +350,7 @@
     "tabs",
     "links",
     "content_image",
-    "blog_qFY9GJ"
+    "blog_qFY9GJ",
+    "colabs_BpYUJe"
   ]
 }
