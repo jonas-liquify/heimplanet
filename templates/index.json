@@ -1,40 +1,133 @@
 {
-    "sections": {
-        "hero": {
-            "type": "hero"
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "hero_slider_3zKtma": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Cloudbreak.jpg",
+            "text_headline": "Cloudbreak",
+            "richtext_text": "<p>Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden. #whereveryougo<\/p>",
+            "url_button_link": "shopify:\/\/products\/cloudbreak-classic",
+            "text_button_text": "3.Batch VORBESTELLBAR"
+          }
         },
-        "kategorien": {
-            "type": "kategorien"
+        "hero_slider_LP9zUr": {
+          "type": "hero-slider",
+          "settings": {
+            "text_headline": "Unsere NEUEn ZELTE",
+            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
+            "url_button_link": "",
+            "text_button_text": "Jetzt entdecken"
+          }
         },
-        "category": {
-            "type": "category"
+        "hero_slider_L3fJzp": {
+          "type": "hero-slider",
+          "settings": {
+            "text_headline": "Unsere NEUEn ZELTE",
+            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
+            "url_button_link": "",
+            "text_button_text": "Jetzt entdecken"
+          }
         },
-        "tabs": {
-            "type": "tabs"
+        "hero_slider_6ztQE7": {
+          "type": "hero-slider",
+          "settings": {
+            "text_headline": "Unsere NEUEn ZELTE",
+            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
+            "url_button_link": "",
+            "text_button_text": "Jetzt entdecken"
+          }
         },
-        "links": {
-            "type": "links"
-        },
-        "content_image": {
-            "type": "content_image"
-        },
-        "blog": {
-            "type": "blog"
-        },
-        "colabs": {
-            "type": "colabs"
+        "hero_slider_icPbWh": {
+          "type": "hero-slider",
+          "settings": {
+            "text_headline": "Unsere NEUEn ZELTE",
+            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
+            "url_button_link": "",
+            "text_button_text": "Jetzt entdecken"
+          }
         }
+      },
+      "block_order": [
+        "hero_slider_3zKtma",
+        "hero_slider_LP9zUr",
+        "hero_slider_L3fJzp",
+        "hero_slider_6ztQE7",
+        "hero_slider_icPbWh"
+      ],
+      "settings": {
+        "checkbox_swiper_script": true
+      }
     },
-    "layout": "theme",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "hero",
-        "kategorien",
-        "category",
-        "tabs",
-        "links",
-        "content_image",
-        "blog",
-        "colabs"
-    ]
+    "kategorien": {
+      "type": "kategorien",
+      "settings": {
+        "checkbox_swiper_script": true
+      }
+    },
+    "category": {
+      "type": "category",
+      "settings": {
+        "text_headline": "Topseller",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "collection_collection": "",
+        "collection_collection_limit": 6
+      }
+    },
+    "tabs": {
+      "type": "tabs",
+      "settings": {
+      }
+    },
+    "links": {
+      "type": "links",
+      "settings": {
+        "text_headline": "MAGAZIN",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
+    },
+    "content_image": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Medium length heading goes here",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
+    "blog": {
+      "type": "blog",
+      "settings": {
+        "text_headline": "Aktuelle beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "article_artikel": "",
+        "blog_blog": ""
+      }
+    },
+    "colabs": {
+      "type": "colabs",
+      "settings": {
+        "checkbox_swiper_script": true
+      }
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "hero",
+    "kategorien",
+    "category",
+    "tabs",
+    "links",
+    "content_image",
+    "blog",
+    "colabs"
+  ]
 }
