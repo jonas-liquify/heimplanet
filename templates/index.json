@@ -196,8 +196,46 @@
       "settings": {
       }
     },
+    "blog": {
+      "type": "blog",
+      "settings": {
+        "text_headline": "Magazin",
+        "url_button_link": "shopify:\/\/pages\/blog",
+        "text_button_text": "Mehr Erfahren",
+        "article_artikel": "",
+        "blog_blog": "gourmet-camping"
+      }
+    },
     "links": {
       "type": "links",
+      "blocks": {
+        "block_WYgbtJ": {
+          "type": "block",
+          "settings": {
+            "url_link": "",
+            "text_titel": "Bestselling"
+          }
+        },
+        "block_TFriVX": {
+          "type": "block",
+          "settings": {
+            "url_link": "",
+            "text_titel": "Bestselling"
+          }
+        },
+        "block_MxTLKF": {
+          "type": "block",
+          "settings": {
+            "url_link": "",
+            "text_titel": "Bestselling"
+          }
+        }
+      },
+      "block_order": [
+        "block_WYgbtJ",
+        "block_TFriVX",
+        "block_MxTLKF"
+      ],
       "settings": {
         "text_headline": "MAGAZIN",
         "url_button_link": "",
@@ -215,16 +253,6 @@
         "text_button_text_2": "Button"
       }
     },
-    "blog": {
-      "type": "blog",
-      "settings": {
-        "text_headline": "Aktuelle beiträge",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon",
-        "article_artikel": "",
-        "blog_blog": ""
-      }
-    },
     "colabs": {
       "type": "colabs",
       "settings": {
@@ -239,9 +267,9 @@
     "kategorien",
     "category",
     "tabs",
+    "blog",
     "links",
     "content_image",
-    "blog",
     "colabs"
   ]
 }
