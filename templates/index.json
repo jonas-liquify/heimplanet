@@ -46,9 +46,10 @@
         "hero_slider_icPbWh": {
           "type": "hero-slider",
           "settings": {
-            "text_headline": "Unsere NEUEn ZELTE",
-            "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
-            "url_button_link": "",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-HPT-Selected.jpg",
+            "text_headline": "HPT Selected",
+            "richtext_text": "<p>Um Euch die Auswahl etwas zu erleichtern, haben wir in Zusammenarbeit mit ausgewählten Marken unsere persönliche Campingausrüstung zusammengestellt.<\/p>",
+            "url_button_link": "shopify:\/\/collections\/hpt-selected",
             "text_button_text": "Jetzt entdecken"
           }
         }
