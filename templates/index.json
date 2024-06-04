@@ -210,8 +210,9 @@
         "block_TFriVX": {
           "type": "block",
           "settings": {
-            "url_link": "",
-            "text_titel": "Bestselling"
+            "url_link": "shopify:\/\/blogs\/abenteuer",
+            "image_bild": "shopify:\/\/shop_images\/Fistral_CairoCamo_Portugal_Daniel_EspiritoSanto_1_1_1_04fece67-aca6-46b6-9965-85ba500f5c18.jpg",
+            "text_titel": "Abenteuer"
           }
         },
         "block_MxTLKF": {
