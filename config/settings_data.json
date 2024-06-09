@@ -1,1 +1,50 @@
-{}
+{
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "nav_link_BpJVB3": {
+            "type": "nav-link",
+            "settings": {
+              "url_link": "",
+              "text_menu_handle": "This is some text inside of a div block.",
+              "url_link_1_link": "",
+              "text_link_1_text": "Text Link",
+              "url_link_2_link": "",
+              "text_link_2_text": "Text Link",
+              "url_link_3_link": "",
+              "text_link_3_text": "Text Link"
+            }
+          },
+          "vorschlaege_3aKnFA": {
+            "type": "vorschlaege",
+            "settings": {
+              "url_link": "",
+              "text_text": "Tag"
+            }
+          }
+        },
+        "block_order": [
+          "nav_link_BpJVB3",
+          "vorschlaege_3aKnFA"
+        ],
+        "settings": {
+          "collection_bestseller": "aufblasbare-zelte",
+          "collection_bestseller_limit": 6
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "text_newsletter_headline": "Become a Member of the Heimplanet Community and get awesome benefits",
+          "url_button_link": "",
+          "text_button_text": "Button"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
