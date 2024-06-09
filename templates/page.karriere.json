@@ -1,0 +1,20 @@
+{
+    "sections": {
+        "collection_hero": {
+            "type": "collection_hero"
+        },
+        "jobs": {
+            "type": "jobs"
+        },
+        "content_image": {
+            "type": "content_image"
+        }
+    },
+    "layout": "page.karriere",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "collection_hero",
+        "jobs",
+        "content_image"
+    ]
+}
