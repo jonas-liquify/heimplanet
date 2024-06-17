@@ -59,6 +59,13 @@
           "url_button_link": "",
           "text_button_text": "Button"
         }
+      },
+      "l_header": {
+        "type": "l_header",
+        "settings": {
+          "url_button_url": "shopify:\/\/products\/the-cave-xl-cairo-camo",
+          "text_button_text": "The Cave XL"
+        }
       }
     },
     "content_for_index": [
