@@ -41,6 +41,18 @@
         "url_button_link_1": "",
         "text_button_text_1": "Initiativbewerbung"
       }
+    },
+    "content_image_EprLfR": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "HEIMPLANET IST INSPIRIERT VON DER BEGEISTERUNG DES REISENS.",
+        "textarea_text": "Auf Reisen fühlt man sich lebendig. Alle Sinne sind wach und man erwartet immer etwas Neues. Man stellt sich ständig auf neue Situationen, neue Menschen, neue Kulturen und neue Umgebungen ein. Man muss sich auf weniger verlassen und kann mehr entdecken. Wenn Du Dich auf die Erfahrung einlässt, lernst Du nicht nur neue Dinge, sondern auch Dich selbst kennen.",
+        "url_button_link": "shopify:\/\/collections\/zelte",
+        "text_button_text": "Zelte",
+        "url_button_link_2": "shopify:\/\/collections\/taschen",
+        "text_button_text_2": "Taschen",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet_16.jpg"
+      }
     }
   },
   "layout": "page.about",
@@ -49,6 +61,7 @@
     "collection_hero",
     "l_text_logos_ga3KCk",
     "store",
-    "jobs"
+    "jobs",
+    "content_image_EprLfR"
   ]
 }
