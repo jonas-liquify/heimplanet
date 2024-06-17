@@ -53,6 +53,15 @@
         "text_button_text_2": "Taschen",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet_16.jpg"
       }
+    },
+    "article_next_rK9XDh": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "shopify:\/\/blogs\/abenteuer",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "This is some text inside of a div block."
+      }
     }
   },
   "layout": "page.about",
@@ -62,6 +71,7 @@
     "l_text_logos_ga3KCk",
     "store",
     "jobs",
-    "content_image_EprLfR"
+    "content_image_EprLfR",
+    "article_next_rK9XDh"
   ]
 }
