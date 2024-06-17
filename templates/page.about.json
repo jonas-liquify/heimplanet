@@ -1,36 +1,75 @@
 {
-    "sections": {
-        "collection_hero": {
-            "type": "collection_hero"
-        },
-        "about_highlight": {
-            "type": "about_highlight"
-        },
-        "links": {
-            "type": "links"
-        },
-        "store": {
-            "type": "store"
-        },
-        "jobs": {
-            "type": "jobs"
-        },
-        "content_image": {
-            "type": "content_image"
-        },
-        "article_next": {
-            "type": "article_next"
-        }
+  "sections": {
+    "collection_hero": {
+      "type": "collection_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Über uns",
+        "textarea_paragraph": "",
+        "url_button_link": "",
+        "text_button_text": "Mehr erfahren",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Company-Mavericks.jpg"
+      }
     },
-    "layout": "page.about",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "collection_hero",
-        "about_highlight",
-        "links",
-        "store",
-        "jobs",
-        "content_image",
-        "article_next"
-    ]
+    "l_text_logos_ga3KCk": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Über uns",
+        "text_text": "<br><b>WER IST HEIMPLANET?<\/b><br><br> HEIMPLANET hat es sich zur Aufgabe gemacht, Menschen zu inspirieren, die natürliche Schönheit unseres Planeten zu erleben. Geboren und ansässig im stürmischen Nordeuropa und hervorgegangen aus der Tradition des deutschen Ingenieurwesens, entwickelt HEIMPLANET Outdoor-Produkte, die die perfekte Synergie aus Innovation und Alltagsabenteuer bieten: bessere Materialien und Hightech, von der Natur inspirierte Designs, bei denen praktische Lösungen zu einer Freude werden, wo auch immer Du hingehst!<br><br><b>WARUM WURDE HEIMPLANET GEGRÜNDET?<\/b><br><br> HEIMPLANET wurde in einem Zelt geboren. Nach der Frustration, bei einem Campingausflug an der europäischen Küste jeden Tag im Dunkeln, im Regen und im Sturm ein Zelt aufzustellen, machten sich die beiden Gründer Stefan und Stefan daran, das Zelt der Zukunft zu entwickeln. Ein besseres Zelt, das von natürlichen Mustern und Designs inspiriert ist, mathematischer Logik folgt und so konstruiert ist, dass es den Elementen standhält. Ein Zuhause, oder \"Heim\", in der Wildnis unseres Planeten.<br><br><b>WELCHE PHILOSOPHIE VERFOLGT HEIMPLANET?<\/b><br><br>Auch in Zukunft gilt bei HEIMPLANET der Ruf nach fortschrittlichem Denken und Handeln. Es handelt sich um eine Denk- und Verhaltenseigenschaft, die Entwicklung nicht als einen linearen Weg, sondern als einen kontinuierlichen Zyklus der Inspiration betrachtet. Wir betrachten Rückschläge als Chancen und Herausforderungen für den Status Quo. <br><br>#whereveryougo"
+      }
+    },
+    "jobs": {
+      "type": "jobs",
+      "settings": {
+        "text_headline": "Karriere &amp; Jobs",
+        "text_button_text": "Mehr davon",
+        "url_button_link": "",
+        "text_kategorie": "Operations",
+        "text_initiativ_bewerbung": "Kein passender Job dabei? Bewirb dich gerne Iniativ",
+        "url_button_link_1": "",
+        "text_button_text_1": "Initiativbewerbung"
+      }
+    },
+    "content_image": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Medium length heading goes here",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "This is some text inside of a div block."
+      }
+    },
+    "store": {
+      "type": "store",
+      "settings": {
+        "text_headline": "HPT STORE HAMBURG",
+        "text_button_text_1": "Mehr erfahren",
+        "url_button_link_1": "",
+        "text_button_text_2": "Storefinder",
+        "url_button_link_2": ""
+      }
+    }
+  },
+  "layout": "page.about",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collection_hero",
+    "l_text_logos_ga3KCk",
+    "jobs",
+    "content_image",
+    "article_next",
+    "store"
+  ]
 }
