@@ -12,11 +12,11 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "<b>One<\/b> Material. <b>Endless<\/b> Cycles",
+        "text_subline": "One Material. Endless Cycles",
         "text_headline": "Mono Series Minimal Pack",
         "textarea_longer_text": "Jetzt anmelden & nichts verpassen!",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
+        "text_button_text": "Jetzt Anmelden",
+        "url_button_link": "#shopify-sektion-l_newsletter",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Monopack-Blue-Minimal-Preview.jpg"
@@ -26,7 +26,7 @@
       "type": "l_newsletter",
       "settings": {
         "text_headline": "Newsletter",
-        "text_text": "Als Newsletter-Abonnent wirst Du unter den Ersten sein, die weitere Infos zum Launch erhalten! Weitere Hinweise gibt es übrigens auch auf <u><a href=\"https:\/\/www.instagram.com\/heimplanet\/\" target=\"blank\">Instagram<\/a><\/u>!"
+        "text_text": "Als Newsletter-Abonnent wirst Du unter den Ersten sein, die weitere Infos zum Launch erhalten! Weitere Hinweise gibt es übrigens auch auf Instagram!"
       }
     }
   },
