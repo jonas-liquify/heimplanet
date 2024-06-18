@@ -3,13 +3,14 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
+        "text_subline": "Limited Edition",
+        "text_headline": "The Cave X Maharishi",
         "textarea_longer_text": "",
-        "text_button_text": "",
+        "text_button_text": "Mehr erfahren",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-The-Cave-Limited-Edition-12.jpg"
       }
     }
   },
