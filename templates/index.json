@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "hero": {
@@ -52,6 +61,16 @@
             "url_button_link": "shopify:\/\/collections\/hpt-selected",
             "text_button_text": "Jetzt entdecken"
           }
+        },
+        "hero_slider_XdmXhV": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack-Teaser-1.jpg",
+            "text_headline": "Mono Series <br>Minimal Pack",
+            "richtext_text": "<p>Der Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.<\/p>",
+            "url_button_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
+            "text_button_text": "Mehr erfahren"
+          }
         }
       },
       "block_order": [
@@ -59,7 +78,8 @@
         "hero_slider_LP9zUr",
         "hero_slider_L3fJzp",
         "hero_slider_6ztQE7",
-        "hero_slider_icPbWh"
+        "hero_slider_icPbWh",
+        "hero_slider_XdmXhV"
       ],
       "settings": {
         "checkbox_swiper_script": true
