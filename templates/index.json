@@ -52,8 +52,9 @@
         "text_headline": "Aktuelle beiträge",
         "url_button_link": "",
         "text_button_text": "Mehr davon",
-        "article_artikel": "abenteuer\/cavalleria-rewild-to-rewire",
-        "blog_blog": "abenteuer"
+        "article": "",
+        "blog": "abenteuer",
+        "post_limit": 3
       }
     },
     "colabs": {
