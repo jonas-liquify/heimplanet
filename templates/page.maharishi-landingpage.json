@@ -13,9 +13,11 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-The-Cave-Limited-Edition-12.jpg"
       }
     },
-    "article_hero_ht9H6z": {
-      "type": "article_hero",
+    "l_content_left_MzcQcD": {
+      "type": "l_content_left",
       "settings": {
+        "text_headline": "The Cave - Limited Edition",
+        "textarea_text": "HEIMPLANET als auch Maharishi verfolgen eine ähnliche Philosophie, wenn es um die Verwendung von Mustern und Strukturen aus der Natur geht. Somit lag es nahe, gemeinsam ein Produkt zu entwickeln. Maharishi verwendet Muster und Strukturen, die in der Natur existieren, für seine Designs. HEIMPLANET nimmt ebenfalls Elemente aus der Natur auf - insbesondere in Bezug auf Strukturen - wenn es um die Entwicklung neuer Designs geht."
       }
     }
   },
@@ -23,6 +25,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero",
-    "article_hero_ht9H6z"
+    "l_content_left_MzcQcD"
   ]
 }
