@@ -32,6 +32,16 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
+        "hero_slider_XdmXhV": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack-Teaser-1.jpg",
+            "text_headline": "Mono Series <br>Minimal Pack",
+            "richtext_text": "<p>Der Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.<\/p>",
+            "url_button_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
+            "text_button_text": "Mehr erfahren"
+          }
+        },
         "hero_slider_L3fJzp": {
           "type": "hero-slider",
           "settings": {
@@ -61,25 +71,15 @@
             "url_button_link": "shopify:\/\/collections\/hpt-selected",
             "text_button_text": "Jetzt entdecken"
           }
-        },
-        "hero_slider_XdmXhV": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack-Teaser-1.jpg",
-            "text_headline": "Mono Series <br>Minimal Pack",
-            "richtext_text": "<p>Der Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.<\/p>",
-            "url_button_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
-            "text_button_text": "Mehr erfahren"
-          }
         }
       },
       "block_order": [
         "hero_slider_3zKtma",
         "hero_slider_LP9zUr",
+        "hero_slider_XdmXhV",
         "hero_slider_L3fJzp",
         "hero_slider_6ztQE7",
-        "hero_slider_icPbWh",
-        "hero_slider_XdmXhV"
+        "hero_slider_icPbWh"
       ],
       "settings": {
         "checkbox_swiper_script": true
