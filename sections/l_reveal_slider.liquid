@@ -35,9 +35,9 @@
         let secondImage =$(this).find('img')[1].src;
         let template = `
       	<div class="beer-slider" data-beer-label="{{ section.settings.text_nachher }}">
-          <img src="{{ '${firstImage}' | asset_url }}">
+          <img src="${firstImage}">
           <div class="beer-reveal" data-beer-label="{{ section.settings.text_vorher }}">
-            <img src="{{ '${secondImage}' | asset_url }}">
+            <img src="${secondImage}">
           </div>
         </div>
       `;

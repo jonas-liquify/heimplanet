@@ -11,9 +11,11 @@
     <a class="button is-secondary is-white w-button" href="{{ block.settings.url_button_link_2 }}"> {{ block.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}    </div>
-{% endif %}<div class="li-schema w-embed">
-</div>
-</div></div><div class="content_background-image-wrapper"><img class="hero_img"
+{% endif %}<div class="li-schema w-embed">{
+                          "type": "image_picker",
+                          "id": "logo_image",
+                          "label": "Logo"
+                          }</div></div></div><div class="content_background-image-wrapper"><img class="hero_img"
      src="{{ block.settings.image_bild | img_url: 'master' }}"
      alt="{{ block.settings.image_bild.alt }}"
      loading="lazy">
