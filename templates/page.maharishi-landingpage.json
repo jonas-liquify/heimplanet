@@ -12,11 +12,17 @@
         "url_button_link_2": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-The-Cave-Limited-Edition-12.jpg"
       }
+    },
+    "article_hero_ht9H6z": {
+      "type": "article_hero",
+      "settings": {
+      }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero"
+    "l_hero",
+    "article_hero_ht9H6z"
   ]
 }
