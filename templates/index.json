@@ -24,6 +24,22 @@
     },
     "tabs": {
       "type": "tabs",
+      "blocks": {
+        "tab_kA4YYw": {
+          "type": "tab",
+          "settings": {
+            "text_headline": "Wir bieten eine Lebenslange Garantie",
+            "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "tab_kA4YYw"
+      ],
       "settings": {
       }
     },
@@ -52,9 +68,9 @@
         "text_headline": "Aktuelle beiträge",
         "url_button_link": "",
         "text_button_text": "Mehr davon",
-        "article": "abenteuer\/season-opening-2024",
-        "blog": "designraum",
-        "post_limit": 6
+        "article": "abenteuer\/family-camping-japan-style",
+        "blog": "abenteuer",
+        "post_limit": 3
       }
     },
     "colabs": {
