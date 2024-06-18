@@ -12,77 +12,11 @@
         "url_button_link_2": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Supreme-The-Cave-XL-Edition-Spring-Summer-2024.jpg"
       }
-    },
-    "l_gallery": {
-      "type": "l_gallery",
-      "settings": {
-      }
-    },
-    "l_text_logos": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
-        "text_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?"
-      }
-    },
-    "l_content_left": {
-      "type": "l_content_left",
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
-      }
-    },
-    "l_content_right": {
-      "type": "l_content_right",
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
-      }
-    },
-    "l_reveal_slider": {
-      "type": "l_reveal_slider",
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "text_vorher": "This is some text inside of a div block.",
-        "text_nachher": "This is some text inside of a div block."
-      }
-    },
-    "l_step_slider": {
-      "type": "l_step_slider",
-      "settings": {
-        "text_headline": "Bags+Backpacks"
-      }
-    },
-    "l_slider": {
-      "type": "l_slider",
-      "settings": {
-      }
-    },
-    "l_produkt": {
-      "type": "l_produkt",
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        "text_preis": "49€",
-        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. <a href=\"https:\/\/heimplanet.com\/pages\/faq\">Versand<\/a>",
-        "text_button_text": "Jetzt vorbestellen",
-        "url_produkt_link": ""
-      }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero",
-    "l_gallery",
-    "l_text_logos",
-    "l_content_left",
-    "l_content_right",
-    "l_reveal_slider",
-    "l_step_slider",
-    "l_slider",
-    "l_produkt"
+    "l_hero"
   ]
 }
