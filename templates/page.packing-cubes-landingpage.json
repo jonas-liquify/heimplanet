@@ -12,19 +12,45 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
+        "text_subline": "Re-Store Edition",
+        "text_headline": "Packing Cubes",
         "textarea_longer_text": "",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-10.jpg"
+      }
+    },
+    "l_text_logos_iV7Cd4": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "PACKING CUBES",
+        "text_headline": "RE-STORE EDITION",
+        "text_text": "<br>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität. Hergestellt aus den strapazierfähigen Stoffresten unseres Expeditionszeltes Mavericks, bieten diese Packing Organizer sowohl Funktionalität als auch umweltbewusstes Design für den anspruchsvollen Reisenden. Im Einklang mit unserem Ethos von \"Mehr mit weniger erreichen\" vereinfachen diese Cubes nicht nur die Reiseorganisation, sondern verkörpern auch unsere Hingabe zur Abfallminimierung. Wasserdicht und unübersehbar, trotzen sie allen Wetterbedingungen und gewährleisten Zuverlässigkeit, wohin auch immer dich deine Abenteuer tragen."
+      }
+    },
+    "l_content_left_bmQn7H": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+      }
+    },
+    "l_content_right_FBHEnC": {
+      "type": "l_content_right",
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero"
+    "l_hero",
+    "l_text_logos_iV7Cd4",
+    "l_content_left_bmQn7H",
+    "l_content_right_FBHEnC"
   ]
 }
