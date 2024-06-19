@@ -89,6 +89,28 @@
         "textarea_text": "Genau wie Mavericks geschaffen wurde, um den härtesten Umgebungen standzuhalten, findet sein Stoff jetzt in einer anderen Form ein neues Leben. Ein Symbol für Anpassungsfähigkeit und Robustheit. Es ist ein Zeugnis für die Idee, dass jedes Material, unabhängig von seinem ursprünglichen Zweck, neu gedacht und neu verwertet werden kann.",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-12.jpg"
       }
+    },
+    "l_produkt_RWw8XL": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_KiwGwA": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_KiwGwA"
+      ],
+      "settings": {
+        "text_headline": "Packing Cubes, Re-Store Edition",
+        "textarea_beschreibung": "",
+        "text_preis": "39€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Jetzt bestellen",
+        "url_produkt_link": ""
+      }
     }
   },
   "layout": "page.landingpage",
@@ -97,6 +119,7 @@
     "l_hero",
     "l_text_logos_iV7Cd4",
     "l_content_right_FBHEnC",
-    "l_content_left_bmQn7H"
+    "l_content_left_bmQn7H",
+    "l_produkt_RWw8XL"
   ]
 }
