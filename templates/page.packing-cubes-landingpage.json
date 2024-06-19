@@ -1,0 +1,30 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "l_hero": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_longer_text": "",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "",
+        "url_button_link_2": ""
+      }
+    }
+  },
+  "layout": "page.landingpage",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_hero"
+  ]
+}
