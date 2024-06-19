@@ -43,7 +43,8 @@
         "item_cdwi7p": {
           "type": "item",
           "settings": {
-            "text_text": "Zelt für 2-3 Personen"
+            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "text_text": "Leicht und unübersehbar"
           }
         },
         "item_BNEER7": {
