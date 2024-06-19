@@ -27,7 +27,15 @@
       "settings": {
         "text_subline": "PACKING CUBES",
         "text_headline": "RE-STORE EDITION",
-        "text_text": "<br>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität. Hergestellt aus den strapazierfähigen Stoffresten unseres Expeditionszeltes Mavericks, bieten diese Packing Organizer sowohl Funktionalität als auch umweltbewusstes Design für den anspruchsvollen Reisenden. Im Einklang mit unserem Ethos von \"Mehr mit weniger erreichen\" vereinfachen diese Cubes nicht nur die Reiseorganisation, sondern verkörpern auch unsere Hingabe zur Abfallminimierung. Wasserdicht und unübersehbar, trotzen sie allen Wetterbedingungen und gewährleisten Zuverlässigkeit, wohin auch immer dich deine Abenteuer tragen."
+        "text_text": "Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität. Hergestellt aus den strapazierfähigen Stoffresten unseres Expeditionszeltes Mavericks, bieten diese Packing Organizer sowohl Funktionalität als auch umweltbewusstes Design für den anspruchsvollen Reisenden. Im Einklang mit unserem Ethos von \"Mehr mit weniger erreichen\" vereinfachen diese Cubes nicht nur die Reiseorganisation, sondern verkörpern auch unsere Hingabe zur Abfallminimierung. Wasserdicht und unübersehbar, trotzen sie allen Wetterbedingungen und gewährleisten Zuverlässigkeit, wohin auch immer dich deine Abenteuer tragen."
+      }
+    },
+    "l_gallery_VCLFWU": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-9.jpg",
+        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-2.jpg",
+        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-7.jpg"
       }
     },
     "l_content_right_FBHEnC": {
@@ -118,6 +126,7 @@
   "order": [
     "l_hero",
     "l_text_logos_iV7Cd4",
+    "l_gallery_VCLFWU",
     "l_content_right_FBHEnC",
     "l_content_left_bmQn7H",
     "l_produkt_RWw8XL"
