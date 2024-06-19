@@ -30,15 +30,56 @@
         "text_text": "<br>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität. Hergestellt aus den strapazierfähigen Stoffresten unseres Expeditionszeltes Mavericks, bieten diese Packing Organizer sowohl Funktionalität als auch umweltbewusstes Design für den anspruchsvollen Reisenden. Im Einklang mit unserem Ethos von \"Mehr mit weniger erreichen\" vereinfachen diese Cubes nicht nur die Reiseorganisation, sondern verkörpern auch unsere Hingabe zur Abfallminimierung. Wasserdicht und unübersehbar, trotzen sie allen Wetterbedingungen und gewährleisten Zuverlässigkeit, wohin auch immer dich deine Abenteuer tragen."
       }
     },
-    "l_content_left_bmQn7H": {
-      "type": "l_content_left",
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
-      }
-    },
     "l_content_right_FBHEnC": {
       "type": "l_content_right",
+      "blocks": {
+        "item_C7Actj": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "text_text": "Upcycling-Produkt"
+          }
+        },
+        "item_cdwi7p": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_BNEER7": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_ExyLAT": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_Yb3WcE": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        }
+      },
+      "block_order": [
+        "item_C7Actj",
+        "item_cdwi7p",
+        "item_BNEER7",
+        "item_ExyLAT",
+        "item_Yb3WcE"
+      ],
+      "settings": {
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-1.jpg",
+        "text_headline": "HIGHLIGHTS",
+        "textarea_text": ""
+      }
+    },
+    "l_content_left_bmQn7H": {
+      "type": "l_content_left",
       "settings": {
         "text_headline": "Bags+Backpacks",
         "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
@@ -50,7 +91,7 @@
   "order": [
     "l_hero",
     "l_text_logos_iV7Cd4",
-    "l_content_left_bmQn7H",
-    "l_content_right_FBHEnC"
+    "l_content_right_FBHEnC",
+    "l_content_left_bmQn7H"
   ]
 }
