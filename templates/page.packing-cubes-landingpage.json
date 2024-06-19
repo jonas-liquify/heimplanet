@@ -50,19 +50,22 @@
         "item_BNEER7": {
           "type": "item",
           "settings": {
-            "text_text": "Zelt für 2-3 Personen"
+            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "text_text": "Hergestellt aus Stoffresten unseres Expeditionzelts Mavericks"
           }
         },
         "item_ExyLAT": {
           "type": "item",
           "settings": {
-            "text_text": "Zelt für 2-3 Personen"
+            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "text_text": "Wetterfest - 5000mm und wasserabweisende Reißverschlüsse"
           }
         },
         "item_Yb3WcE": {
           "type": "item",
           "settings": {
-            "text_text": "Zelt für 2-3 Personen"
+            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "text_text": "Verschiedenfarbige Reißverschlüsse vermeiden Verwirrung"
           }
         }
       },
