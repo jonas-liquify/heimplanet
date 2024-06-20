@@ -29,12 +29,21 @@
         "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-New-Inflatable-Tents-The-Cave-XL-2022.jpg",
         "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-New-Inflatable-Tents-2022.jpg"
       }
+    },
+    "l_text_logos_433nDz": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "Heimplanet",
+        "text_headline": "Unsere Zelte",
+        "text_text": "<br>Endlich können wir das Geheimnis lüften: wir machen mit unseren Zelten einen Schritt in Richtung Zukunft! In den vergangenen Monaten haben wir den Status Quo hinterfragt und hart daran gearbeitet, unsere Zelt für Dich noch besser zu machen. Das heißt ganz konkret: Neben einem neuen Look haben wir das Material entscheidend verbessert und kleine, aber feine Details hinzugefügt, die die Usability verbessern."
+      }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero",
-    "l_gallery_tYcTY6"
+    "l_gallery_tYcTY6",
+    "l_text_logos_433nDz"
   ]
 }
