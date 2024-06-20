@@ -151,6 +151,28 @@
       ],
       "settings": {
       }
+    },
+    "l_produkt_wptYer": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_QmB8PT": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-Classic-2022.webp"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_QmB8PT"
+      ],
+      "settings": {
+        "text_headline": "THE GREAT MAKEOVER",
+        "textarea_beschreibung": "Unsere neuen Zelte sind ab sofort verfügbar!",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "Jetzt entdecken",
+        "url_produkt_link": "shopify:\/\/collections\/zelte"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -164,6 +186,7 @@
     "l_content_left_7AWTxD",
     "l_reveal_slider_kmwHAn",
     "l_step_slider_JERCak",
-    "l_slider_dLA6Cc"
+    "l_slider_dLA6Cc",
+    "l_produkt_wptYer"
   ]
 }
