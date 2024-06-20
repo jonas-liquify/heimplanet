@@ -61,6 +61,17 @@
         "textarea_text": "Dank einer neuen Variante unseres Inflatable Diamond Grid (IDG) konnten wir effizienter mit den Streben des Airframes umgehen. Dies führt zu einem stabilen Zelt mit weniger Gewicht. Bei einer Grundfläche von 5,2 m² (Innenzelt 4,2 m²) wiegt Kirra nur 3,8 kg.",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Cairo-Camo-Lifestyle-1.jpg"
       }
+    },
+    "l_reveal_slider_kmwHAn": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "Varianten",
+        "textarea_text": "",
+        "text_vorher": "3-Season",
+        "text_nachher": "4-Season",
+        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Kirra-4-Season-Tent-3.jpg",
+        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-3.jpg"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -71,6 +82,7 @@
     "l_text_logos_433nDz",
     "l_content_left_ig6i93",
     "l_content_right_y8mUkG",
-    "l_content_left_7AWTxD"
+    "l_content_left_7AWTxD",
+    "l_reveal_slider_kmwHAn"
   ]
 }
