@@ -12,13 +12,14 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
+        "text_subline": "Unsere neuen Zelte",
+        "text_headline": "THE GREAT MAKEOVER",
         "textarea_longer_text": "",
-        "text_button_text": "",
-        "url_button_link": "",
+        "text_button_text": "Zu den Zelten",
+        "url_button_link": "shopify:\/\/collections\/zelte",
         "text_button_text_2": "",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-New-Tents-Relaunch-2022_31c188de-5925-460d-a3a1-21a8e39a0aa1.jpg"
       }
     }
   },
