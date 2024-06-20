@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "l_hero": {
@@ -17,7 +26,8 @@
       "type": "l_content_left",
       "settings": {
         "text_headline": "The Cave - Limited Edition",
-        "textarea_text": "HEIMPLANET als auch Maharishi verfolgen eine ähnliche Philosophie, wenn es um die Verwendung von Mustern und Strukturen aus der Natur geht. Somit lag es nahe, gemeinsam ein Produkt zu entwickeln. Maharishi verwendet Muster und Strukturen, die in der Natur existieren, für seine Designs. HEIMPLANET nimmt ebenfalls Elemente aus der Natur auf - insbesondere in Bezug auf Strukturen - wenn es um die Entwicklung neuer Designs geht."
+        "textarea_text": "<br>HEIMPLANET als auch Maharishi verfolgen eine ähnliche Philosophie, wenn es um die Verwendung von Mustern und Strukturen aus der Natur geht. Somit lag es nahe, gemeinsam ein Produkt zu entwickeln. Maharishi verwendet Muster und Strukturen, die in der Natur existieren, für seine Designs. HEIMPLANET nimmt ebenfalls Elemente aus der Natur auf - insbesondere in Bezug auf Strukturen - wenn es um die Entwicklung neuer Designs geht.",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-Maharishi-Limited-Edition-2023-1.jpg"
       }
     }
   },
