@@ -72,6 +72,85 @@
         "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Kirra-4-Season-Tent-3.jpg",
         "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-3.jpg"
       }
+    },
+    "l_step_slider_JERCak": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_iVzwnP": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Inflatable-Tents-New-2022-7.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_8bbrjN": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Inflatable-Tents-New-2022-10.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_KNa64Y": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Inflatable-Tents-New-2022-4.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_d3MdHK": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Inflatable-Tents-New-2022-5.jpg",
+            "text_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_iVzwnP",
+        "feature_8bbrjN",
+        "feature_KNa64Y",
+        "feature_d3MdHK"
+      ],
+      "settings": {
+        "text_headline": "Details"
+      }
+    },
+    "l_slider_dLA6Cc": {
+      "type": "l_slider",
+      "blocks": {
+        "slider_yiaNCe": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-Cairo-Camo-New-2022-4_32ceaf26-0e81-423c-8005-edbafce24907.jpg"
+          }
+        },
+        "slider_iAj8H9": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-Classic-2023-1.jpg"
+          }
+        },
+        "slider_fBcKDA": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Fistral-Cairo-Camo-2023-1_6c50ac5b-2597-41c2-8a27-7357a5596cbd.jpg"
+          }
+        },
+        "slider_q4X9r3": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Inflatable-Tents-2022-1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slider_yiaNCe",
+        "slider_iAj8H9",
+        "slider_fBcKDA",
+        "slider_q4X9r3"
+      ],
+      "settings": {
+      }
     }
   },
   "layout": "page.landingpage",
@@ -83,6 +162,8 @@
     "l_content_left_ig6i93",
     "l_content_right_y8mUkG",
     "l_content_left_7AWTxD",
-    "l_reveal_slider_kmwHAn"
+    "l_reveal_slider_kmwHAn",
+    "l_step_slider_JERCak",
+    "l_slider_dLA6Cc"
   ]
 }
