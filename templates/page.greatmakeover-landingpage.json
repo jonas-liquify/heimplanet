@@ -21,11 +21,19 @@
         "url_button_link_2": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-New-Tents-Relaunch-2022_31c188de-5925-460d-a3a1-21a8e39a0aa1.jpg"
       }
+    },
+    "l_gallery_tYcTY6": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Inflatable-Tent-4-Seasons.jpg",
+        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-New-Inflatable-Tents-The-Cave-XL-2022.jpg"
+      }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero"
+    "l_hero",
+    "l_gallery_tYcTY6"
   ]
 }
