@@ -37,6 +37,14 @@
         "text_headline": "Unsere Zelte",
         "text_text": "<br>Endlich können wir das Geheimnis lüften: wir machen mit unseren Zelten einen Schritt in Richtung Zukunft! In den vergangenen Monaten haben wir den Status Quo hinterfragt und hart daran gearbeitet, unsere Zelt für Dich noch besser zu machen. Das heißt ganz konkret: Neben einem neuen Look haben wir das Material entscheidend verbessert und kleine, aber feine Details hinzugefügt, die die Usability verbessern."
       }
+    },
+    "l_content_left_ig6i93": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Das Material",
+        "textarea_text": "<br>Beim neuen Außenzeltstoff haben wir gezielt nach einem Material gesucht, das belastbarer aber auch leichter sein sollte, als bisher. Deshalb haben wir uns für ein High Tenacity Polyester mit 40D Garnstärke entschieden und eine Double Ripstop Konstruktion. High Tenacity Polyester Garn hat eine höhere Zugfestigkeit als reguläre Polyester Garne. Dementsprechend hat unser neuer Zeltstoff auch eine höhere Reißfestigkeit. Für uns ist Polyester nach wie vor - besonders mit einem High Tenacity Polyester Garn - der beste Zeltstoff für unsere Zeltkonstruktionen.",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-New-Material-Rain_231a7c44-e688-4b73-9469-8c9926076393.jpg"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -44,6 +52,7 @@
   "order": [
     "l_hero",
     "l_gallery_tYcTY6",
-    "l_text_logos_433nDz"
+    "l_text_logos_433nDz",
+    "l_content_left_ig6i93"
   ]
 }
