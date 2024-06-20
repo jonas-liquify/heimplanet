@@ -70,6 +70,28 @@
       ],
       "settings": {
       }
+    },
+    "l_produkt_AkHA7K": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_HxwP3j": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-Maharishi-Limited-Edition-2023-1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_HxwP3j"
+      ],
+      "settings": {
+        "text_headline": "THE CAVE, MAHARISHI EDITION",
+        "textarea_beschreibung": "<br>Das aufblasbare Zelt in limitierter Auflage, das die Ästhetik von Maharishi mit dem Zeltdesign von HEIMPLANET verbindet, ist perfekt für 2-3 Personen. Für die Zusammenarbeit hat Maharishi ein besonderes DPM ausgewählt: Golden Tigerstripe Camouflage - eine Reproduktion eines seltenen vietnamesischen Tigerstripe Musters ist.",
+        "text_preis": "€1.149,00",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "ZUM ZELT",
+        "url_produkt_link": "shopify:\/\/products\/the-cave-x-maharishi-limited-edition"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -78,6 +100,7 @@
     "l_hero",
     "l_content_left_MzcQcD",
     "l_reveal_slider_b4qbGK",
-    "l_slider_9BdXFi"
+    "l_slider_9BdXFi",
+    "l_produkt_AkHA7K"
   ]
 }
