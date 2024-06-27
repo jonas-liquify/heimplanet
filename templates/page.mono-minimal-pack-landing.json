@@ -13,18 +13,93 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "",
+        "text_headline": "WE START INTO A NEW ERA",
+        "textarea_longer_text": "",
+        "text_button_text": "Jetzt shoppen",
+        "url_button_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
+        "text_button_text_2": "",
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack-Teaser-2.jpg"
+      }
+    },
+    "l_text_logos_VMEtyH": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "VORSTELLUNG",
+        "text_headline": "DER ERST RUCKSACK DER VOLLSTÄNDIG RECYCELBAR IST",
+        "text_text": ""
+      }
+    },
+    "l_hero_QNWRAf": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "MIXED VS MONO MATERIAL",
         "textarea_longer_text": "",
         "text_button_text": "",
         "url_button_link": "",
-        "text_button_text_2": "",
+        "text_button_text_2": "Button Text",
         "url_button_link_2": ""
+      }
+    },
+    "l_text_logos_AKFc7q": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "MONO DYECOSHELL von Heimplanet",
+        "text_headline": "So machen wir es",
+        "text_text": "<br>"
+      }
+    },
+    "l_hero_ipwcRq": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "MONO DYECOSHELL",
+        "textarea_longer_text": "",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": ""
+      }
+    },
+    "l_text_logos_dUJRtJ": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "Join the Mono-Movement",
+        "text_headline": "Trage die Zukunft",
+        "text_text": ""
+      }
+    },
+    "l_gallery_MgmqQN": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-2.jpg",
+        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-5.jpg",
+        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-3.jpg"
+      }
+    },
+    "l_produkt_fkQtaR": {
+      "type": "l_produkt",
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_beschreibung": "",
+        "text_preis": "129€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Jetzt vorbestellen",
+        "url_produkt_link": "shopify:\/\/products\/mono-series-minimal-pack-blue"
       }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero"
+    "l_hero",
+    "l_text_logos_VMEtyH",
+    "l_hero_QNWRAf",
+    "l_text_logos_AKFc7q",
+    "l_hero_ipwcRq",
+    "l_text_logos_dUJRtJ",
+    "l_gallery_MgmqQN",
+    "l_produkt_fkQtaR"
   ]
 }
