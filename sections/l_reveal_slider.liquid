@@ -35,10 +35,12 @@
         let secondImage =$(this).find('img')[1].src;
         let template = `
       	<div class="beer-slider" data-beer-label="{{ section.settings.text_nachher }}">
-          <img src="{{ '${firstImage}' | asset_url }}">
+          <img src="${firstImage}">
           <div class="beer-reveal" data-beer-label="{{ section.settings.text_vorher }}">
-            <img src="{{ '${secondImage}' | asset_url }}">
-          </script></div></div>`;
+            <img src="${secondImage}">
+          </div>
+        </div>
+      `;
        $(this).find('img')[1].remove();
        $(this).find('img')[0].remove();
       $(this).append(template);
@@ -54,8 +56,7 @@
       });
     })
   }
-
-              <style>.beer-slider {
+</script><style>.beer-slider {
     height: 100% !important;
   }
   .beer-slider,
@@ -71,4 +72,4 @@
   .beer-range:focus~.beer-handle {
    background: #000;
   }
-</style></div> {% schema %} {"tag":"div","name":"l_reveal_slider","class":"section_l-reveal","blocks":[{"name":"Fact","type":"fact","settings":[{"id":"text_text","type":"text","label":"Text","default":"5 Jahre Entwicklungszeit"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Bags+Backpacks"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es hei\u00dft, Qualit\u00e4t sei die Erf\u00fcllung von Erwartungen. Warum nur erf\u00fcllen, wenn man sie auch \u00fcbertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?"},{"id":"text_vorher","type":"text","label":"Vorher","default":"This is some text inside of a div block."},{"id":"text_nachher","type":"text","label":"Nachher","default":"This is some text inside of a div block."},{"id":"image_bild_1","type":"image_picker","label":"bild-1"},{"id":"image_bild_2","type":"image_picker","label":"bild-2"}],"presets":[{"name":"l_reveal_slider","category":"Liquify"}]} {% endschema %}
+</style></div></div></div> {% schema %} {"tag":"div","name":"l_reveal_slider","class":"section_l-reveal","blocks":[{"name":"Fact","type":"fact","settings":[{"id":"text_text","type":"text","label":"Text","default":"5 Jahre Entwicklungszeit"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Bags+Backpacks"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es hei\u00dft, Qualit\u00e4t sei die Erf\u00fcllung von Erwartungen. Warum nur erf\u00fcllen, wenn man sie auch \u00fcbertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?"},{"id":"text_vorher","type":"text","label":"Vorher","default":"This is some text inside of a div block."},{"id":"text_nachher","type":"text","label":"Nachher","default":"This is some text inside of a div block."},{"id":"image_bild_1","type":"image_picker","label":"bild-1"},{"id":"image_bild_2","type":"image_picker","label":"bild-2"}],"presets":[{"name":"l_reveal_slider","category":"Liquify"}]} {% endschema %}
