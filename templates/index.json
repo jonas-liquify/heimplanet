@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "hero": {
@@ -33,12 +42,37 @@
             "url_button_link": "",
             "text_button_text": "Button",
             "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify:\/\/shop_images\/24-06-28_Mavericks-Seitenansicht_001.jpg"
+          }
+        },
+        "tab_wGGh3L": {
+          "type": "tab",
+          "settings": {
+            "text_headline": "Wir bieten eine Lebenslange Garantie",
+            "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        },
+        "tab_gwnyL6": {
+          "type": "tab",
+          "settings": {
+            "text_headline": "Wir bieten eine <br>Lebenslange Garantie",
+            "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
             "text_button_text_2": "Button"
           }
         }
       },
       "block_order": [
-        "tab_kA4YYw"
+        "tab_kA4YYw",
+        "tab_wGGh3L",
+        "tab_gwnyL6"
       ],
       "settings": {
       }
@@ -68,9 +102,9 @@
         "text_headline": "Aktuelle beiträge",
         "url_button_link": "",
         "text_button_text": "Mehr davon",
-        "article": "abenteuer\/family-camping-japan-style",
-        "blog": "abenteuer",
-        "post_limit": 3
+        "article_artikel": "",
+        "blog_blog": "",
+        "post_limit_blog": 3
       }
     },
     "colabs": {
