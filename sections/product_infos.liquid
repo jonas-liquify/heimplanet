@@ -1,0 +1,97 @@
+{% if product.metafields.custom.videos != blank %}    <div li-if="product.metafields.custom.videos != blank" class="padding-global padding-section-small">
+    <div class="container-large"><div id="w-node-_4c508507-0b9f-4c23-4cfe-e9c4a733d561-a733d561" class="product_heading-wrapper"><div class="product_heading"><div class="max-width-large"><h2 class="heading-style-h2">
+{{ section.settings.text_headline }}
+</h2>
+</div></div>{% if section.settings.url_button-link %}    <div li-if="section.settings.url_button-link" class="product_button-row hide-mobile-landscape">
+        </div>
+{% endif %}</div><div class="spacer-large"></div><div class="details_component"><div x-data="{more: false}" id="w-node-_93678bed-cea2-1602-5f6a-f8253706f282-c68d81de" class="details_left">{% if product.metafields.custom.material_features != blank %}    <div li-if="product.metafields.custom.material_features != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f284-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_features }}
+</div>
+<div li-object="product.metafields.custom.material_features" id="w-node-_93678bed-cea2-1602-5f6a-f8253706f286-c68d81de" class="text-size-regular">{{ product.metafields.custom.material_features }}</div>    </div>
+{% endif %}{% if product.metafields.custom.material_abmessungen != blank %}    <div li-if="product.metafields.custom.material_abmessungen != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f289-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_abmessung }}
+</div>
+<div li-object="product.metafields.custom.material_abmessungen" id="w-node-_93678bed-cea2-1602-5f6a-f8253706f28b-c68d81de" class="text-size-regular">{{ product.metafields.custom.material_abmessungen }}</div>    </div>
+{% endif %}{% if product.metafields.custom.material_volumen != blank %}    <div li-if="product.metafields.custom.material_volumen != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f28e-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_volumen }}
+</div>
+<div li-object="product.metafields.custom.material_volumen" id="w-node-_93678bed-cea2-1602-5f6a-f8253706f290-c68d81de" class="text-size-regular">{{ product.metafields.custom.material_volumen }}</div>    </div>
+{% endif %}{% if product.metafields.custom.material_material != blank %}    <div li-if="product.metafields.custom.material_material != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f293-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_material }}
+</div>
+<div li-object="product.metafields.custom.material_material" id="w-node-_93678bed-cea2-1602-5f6a-f8253706f295-c68d81de" class="text-size-regular">{{ product.metafields.custom.material_material }}</div>    </div>
+{% endif %}{% if product.metafields.custom.material_packma_breite != blank %}    <div li-if="product.metafields.custom.material_packma_breite != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f298-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_packmass }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f29a-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.material_packma_breite | append: ' '">{{ product.metafields.custom.material_packma_breite | append: ' ' }}</span>x <span li-object="product.metafields.custom.material_packma_h_he  | append: ' ' | prepend: ' '">{{ product.metafields.custom.material_packma_h_he  | append: ' ' | prepend: ' ' }}</span>x <span li-object="product.metafields.custom.material_packma_l_nge | append: ' ' | prepend: ' '">{{ product.metafields.custom.material_packma_l_nge | append: ' ' | prepend: ' ' }}</span>cm / <span li-object="product.metafields.custom.material_packma_breite | divided_by: 2.54 | round: 2 | append: ' ' | prepend: ' '">{{ product.metafields.custom.material_packma_breite | divided_by: 2.54 | round: 2 | append: ' ' | prepend: ' ' }}</span>x <span li-object="product.metafields.custom.material_packma_h_he | divided_by: 2.54 | round: 2 | append: ' ' | prepend: ' '">{{ product.metafields.custom.material_packma_h_he | divided_by: 2.54 | round: 2 | append: ' ' | prepend: ' ' }}</span>x <span li-object="product.metafields.custom.material_packma_l_nge | divided_by: 2.54 | round: 2 | prepend: ' '">{{ product.metafields.custom.material_packma_l_nge | divided_by: 2.54 | round: 2 | prepend: ' ' }}</span>in</div>    </div>
+{% endif %}{% if product.selected_or_first_available_variant.weight != blank %}    <div li-if="product.selected_or_first_available_variant.weight != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2ae-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_gewicht }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2b0-c68d81de" class="text-size-regular"><span li-object="product.selected_or_first_available_variant.weight_in_unit | append: ' '">{{ product.selected_or_first_available_variant.weight_in_unit | append: ' ' }}</span>kg / <span li-object="product.selected_or_first_available_variant.weight_in_unit | times: 2.22 | round: 2 | prepend: ' '">{{ product.selected_or_first_available_variant.weight_in_unit | times: 2.22 | round: 2 | prepend: ' ' }}</span>lbs</div>    </div>
+{% endif %}{% if product.metafields.custom.material_grundfl_che != blank %}    <div li-if="product.metafields.custom.material_grundfl_che != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2b8-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_grund }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2ba-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.material_grundfl_che">{{ product.metafields.custom.material_grundfl_che }}</span>m² / <span li-object="product.metafields.custom.material_grundfl_che | times: 10.764 | round: 2">{{ product.metafields.custom.material_grundfl_che | times: 10.764 | round: 2 }}</span>sq. ft. (Innenzelt: <span li-object="product.metafields.custom.material_grundfl_che_innen">{{ product.metafields.custom.material_grundfl_che_innen }}</span>m² / <span li-object="product.metafields.custom.material_grundfl_che_innen | times: 10.764 | round: 2">{{ product.metafields.custom.material_grundfl_che_innen | times: 10.764 | round: 2 }}</span>sq. ft.)</div>    </div>
+{% endif %}{% if product.metafields.custom.material_h_he_des_innenzeltes %}    <div li-if="product.metafields.custom.material_h_he_des_innenzeltes" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2c8-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_hohe_des_innzenzeltes }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2ca-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.material_h_he_des_innenzeltes">{{ product.metafields.custom.material_h_he_des_innenzeltes }}</span>cm / <span li-object="product.metafields.custom.material_h_he_des_innenzeltes | divided_by: 2.54 | round: 2">{{ product.metafields.custom.material_h_he_des_innenzeltes | divided_by: 2.54 | round: 2 }}</span>in</div>    </div>
+{% endif %}{% if product.metafields.custom.gesamth_he != blank %}    <div li-if="product.metafields.custom.gesamth_he != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2d2-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_gesamthohe }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2d4-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.gesamth_he">{{ product.metafields.custom.gesamth_he }}</span>cm / <span li-object="product.metafields.custom.gesamth_he | divided_by: 2.54 | round: 2">{{ product.metafields.custom.gesamth_he | divided_by: 2.54 | round: 2 }}</span>in</div>    </div>
+{% endif %}{% if product.metafields.custom.material_zeltboden != blank %}    <div li-if="product.metafields.custom.material_zeltboden != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2dc-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_zeltboden }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2de-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.material_zeltboden">{{ product.metafields.custom.material_zeltboden }}</span></div>    </div>
+{% endif %}{% if product.metafields.custom.material_innenzelt != blank %}    <div li-if="product.metafields.custom.material_innenzelt != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2e2-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_innenzelt }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2e4-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.material_innenzelt">{{ product.metafields.custom.material_innenzelt }}</span></div>    </div>
+{% endif %}{% if product.metafields.custom.material_au_enzelt != blank %}    <div li-if="product.metafields.custom.material_au_enzelt != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2e8-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_aussenzelt }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2ea-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.material_au_enzelt">{{ product.metafields.custom.material_au_enzelt }}</span></div>    </div>
+{% endif %}{% if product.metafields.custom.luftrahmen != blank %}    <div li-if="product.metafields.custom.luftrahmen != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2ee-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_luftrahmen }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2f0-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.luftrahmen">{{ product.metafields.custom.luftrahmen }}</span></div>    </div>
+{% endif %}{% if product.metafields.custom.material_aufpumpzeit != blank %}    <div li-if="product.metafields.custom.material_aufpumpzeit != blank" class="details_item">
+    <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2f4-c68d81de" class="text-size-regular text-weight-medium">
+{{ section.settings.text_aufblaszeit }}
+</div>
+<div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2f6-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.material_aufpumpzeit">{{ product.metafields.custom.material_aufpumpzeit }}</span></div>    </div>
+{% endif %}<div class="details_button"><a id="more-button" x-on:click="more = !more" href="#" class="button is-outline w-button" href="#">
+{{ section.settings.text_button_text }}
+</a>
+<div class="hide">
+{{ section.settings.text_button_text_close }}
+</div>
+</div></div><div x-data="" id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2fe-c68d81de">{% if product.metafields.custom.zeltdetails_aussen != blank %}    <div li-if="product.metafields.custom.zeltdetails_aussen != blank" x-tabs="" class="details_tabs">
+    <div x-tabs:panels="" class="details_tab-wrapper"><div x-tabs:panel="" class="details_tab"><img src="{{ product.metafields.custom.zeltdetails_aussen | img_url: 'master' }}" loading="lazy" li-object:src="product.metafields.custom.zeltdetails_aussen | img_url: 'master'" li-object:alt="product.metafields.custom.zeltdetails_aussen.alt" alt="{{ product.metafields.custom.zeltdetails_aussen.alt }}" class="details_tab-img is-darken">
+</div><div x-tabs:panel="" class="details_tab"><img src="{{ product.metafields.custom.zeltdetail_grund | img_url: 'master' }}" loading="lazy" li-object:src="product.metafields.custom.zeltdetail_grund | img_url: 'master'" li-object:alt="product.metafields.custom.zeltdetail_grund.alt" alt="{{ product.metafields.custom.zeltdetail_grund.alt }}" class="details_tab-img is-darken">
+</div></div><div x-tabs:list="" class="details_tab-buttons"><a x-tabs:tab="" x-bind:class="$tab.isSelected ? '' : 'is-white'" href="#" class="button w-button" href="#">
+{{ section.settings.text_aussen }}
+</a>
+<a x-tabs:tab="" x-bind:class="$tab.isSelected ? '' : 'is-white'" href="#" class="button w-button" href="#">
+{{ section.settings.text_grund }}
+</a>
+</div>    </div>
+{% endif %}{% if product.metafields.custom.zeltdetails_aussen == blank %}    <div li-if="product.metafields.custom.zeltdetails_aussen == blank">
+    <img src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" li-object:src="product.featured_image | img_url: 'master'" li-object:alt="product.featured_image.alt" alt="{{ product.featured_image.alt }}" class="details_tab-img is-darken">
+    </div>
+{% endif %}</div></div></div>    </div>
+{% endif %}<div id="infos" class="anchor-link"></div> {% schema %} {"tag":"section","name":"product_infos","class":"section_infos background-color-grey","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Detailinformationen"},{"id":"text_features","type":"text","label":"Features","default":"Features"},{"id":"text_abmessung","type":"text","label":"Abmessung","default":"Abmessung"},{"id":"text_volumen","type":"text","label":"Volumen","default":"Volumen"},{"id":"text_material","type":"text","label":"Material","default":"Material"},{"id":"text_packmass","type":"text","label":"Packma\u00df","default":"Packma\u00df"},{"id":"text_gewicht","type":"text","label":"Gewicht","default":"Gewicht"},{"id":"text_grund","type":"text","label":"Grund","default":"Grundfl\u00e4che"},{"id":"text_hohe_des_innzenzeltes","type":"text","label":"H\u00f6he des Innzenzeltes","default":"H\u00f6he des Innenzeltes"},{"id":"text_gesamthohe","type":"text","label":"Gesamth\u00f6he","default":"Gesamth\u00f6he"},{"id":"text_zeltboden","type":"text","label":"Zeltboden","default":"Zeltboden"},{"id":"text_innenzelt","type":"text","label":"Innenzelt","default":"Innenzelt"},{"id":"text_aussenzelt","type":"text","label":"Au\u00dfenzelt","default":"Au\u00dfenzelt"},{"id":"text_luftrahmen","type":"text","label":"Luftrahmen","default":"Luftrahmen"},{"id":"text_aufblaszeit","type":"text","label":"Aufblaszeit","default":"Aufpumpzeit"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Mehr anzeigen"},{"id":"text_button_text_close","type":"text","label":"Button-Text-Close","default":"Weniger Anzeigen"},{"id":"text_aussen","type":"text","label":"Aussen","default":"Aussen"}],"presets":[{"name":"product_infos","category":"Liquify"}]} {% endschema %}

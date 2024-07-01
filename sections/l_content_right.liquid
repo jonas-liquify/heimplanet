@@ -1,0 +1,23 @@
+<div class="padding-global padding-section-small"><div class="container-large"><div class="hero_grid"><img class="hero_image"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+<div id="w-node-_7cb50bfd-b238-b732-2ee8-c99d221839c3-690d5eea" class="hero_headline is-landingpage"><h2 class="heading-style-h2">
+{{ section.settings.text_headline }}
+</h2>
+<ul role="list" class="produkt-tabs_nav-wrapper w-list-unstyled">{% for block in section.blocks %}
+    {% if block.type == "item" %}
+                    <li li-block="Item" class="produkt-tabs_nav-item">
+                                    <div class="produkt-tabs_nav-link is-not-selected"><img class="produkt-tabs_icon"
+     src="{{ block.settings.image_icon | img_url: 'master' }}"
+     alt="{{ block.settings.image_icon.alt }}"
+     loading="lazy">
+<div class="text-size-regular text-weight-medium">
+{{ block.settings.text_text }}
+</div>
+</div>
+                            </li>
+            {% endif %}
+{% endfor %}
+</ul><p class="text-size-regular"> {{ section.settings.textarea_text }} </p>
+</div></div></div></div> {% schema %} {"tag":"div","name":"l_content_right","class":"section_l-info","blocks":[{"name":"Item","type":"item","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_text","type":"text","label":"Text","default":"Zelt f\u00fcr 2-3 Personen"}]}],"settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Bags+Backpacks"},{"id":"textarea_text","type":"textarea","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."}],"presets":[{"name":"l_content_right","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,18 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="fact_grid">{% for block in section.blocks %}
+    {% if block.type == "fact" %}
+                    <div li-block="Fact" class="fact_item">
+                                    <img class="fact_icon"
+     src="{{ block.settings.image_icon | img_url: 'master' }}"
+     alt="{{ block.settings.image_icon.alt }}"
+     loading="lazy">
+
+                                    <h4 class="heading-style-h3">
+{{ block.settings.text_headline }}
+</h4>
+
+                                    <p class="text-size-regular"> {{ block.settings.textarea_text }} </p>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div> {% schema %} {"tag":"section","name":"about_highlight","class":"section_unternehmen-highlight","blocks":[{"name":"Fact","type":"fact","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_headline","type":"text","label":"Headline","default":"1% For the Planet"},{"id":"textarea_text","type":"textarea","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, "}]}],"presets":[{"name":"about_highlight","category":"Liquify"}]} {% endschema %}
