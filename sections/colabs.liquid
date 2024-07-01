@@ -1,0 +1,67 @@
+<div class="colabs_wrapper"><div id="main-slider" class="colabs_slider swiper"><div class="colabs_slider-list swiper-wrapper">{% for block in section.blocks %}
+    {% if block.type == "partner" %}
+                    <div li-block="Partner" class="colabs_slider-item swiper-slide">
+                                    <div class="padding-global"><div class="container-large"><div><div class="partner_logowrapper"><div class="hero_headline-wrapper"><h2 class="heading-style-h2 text-color-white max-width-medium">
+{{ block.settings.text_headline }}
+</h2>
+</div><div class="text-size-regular text-color-white max-width-small"> {{ block.settings.textarea_text }} </div>
+{% if block.settings.url_button-link %}    <div li-if="block.settings.url_button-link" class="button-group">
+    <a class="button is-white w-button" href="{{ block.settings.url_button_link }}"> {{ block.settings.text_button_text }} </a>
+{% if block.settings.url_button-link-2 %}    <div li-if="block.settings.url_button-link-2">
+    <a class="button is-secondary is-white w-button" href="{{ block.settings.url_button_link_2 }}"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}<div class="li-schema w-embed"></div>
+</div></div><div class="content_background-image-wrapper"><img class="hero_img"
+     src="{{ block.settings.image_bild | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="image-overlay-layer"></div></div></div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div><div x-data="" class="padding-global is-second-slider"><div class="container-large"><div><div class="colabs_progress-wrapper"><div class="colabs_progress-bar swiper-progress-bar"></div></div><div class="colabs_thumbnail-slider"><div id="thumbnail-slider" class="colabs_thumbnail-track swiper"><div class="colabs_thumbnail-list swiper-wrapper">{% for block in section.blocks %}    <div li-for="block in section.blocks" class="colabs_thumbnail-slide swiper-slide">
+                                    
+                            <div class="colabs_partner-logo"><img src="{{ block.settings.logo_image | img_url: 'large' }}" loading="lazy" li-object:src="block.settings.logo_image | img_url: 'large'" li-object:alt="block.settings.logo_image.alt" alt="{{ block.settings.logo_image.alt }}" class="colabs_partner-logo">
+</div>
+                            
+                        </div>
+{% endfor %}</div></div></div></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper11/swiper-bundle.min.js"></script>{% endif %}
+<script>$(document).ready(function () {
+  var swiper2 = new Swiper("#thumbnail-slider", {
+        rewind: true,
+        spaceBetween: 20,
+        slidesPerView: 'auto',
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+var swiper = new Swiper("#main-slider", {
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    speed: 500,
+    rewind: true,
+    thumbs: {
+          swiper: swiper2,
+        },
+    on: {
+      init: function () {
+        $(".swiper-progress-bar").removeClass("animate");
+        $(".swiper-progress-bar").removeClass("active");
+        $(".swiper-progress-bar").eq(0).addClass("animate");
+        $(".swiper-progress-bar").eq(0).addClass("active");
+      },
+      slideChangeTransitionStart: function () {
+        $(".swiper-progress-bar").removeClass("animate");
+        $(".swiper-progress-bar").removeClass("active");
+        $(".swiper-progress-bar").eq(0).addClass("active");
+      },
+      slideChangeTransitionEnd: function () {
+        $(".swiper-progress-bar").eq(0).addClass("animate");
+      }
+      }
+  });
+  });
+</script></div> {% schema %} {"tag":"div","name":"colabs","class":"section_colabs","blocks":[{"name":"Partner","type":"partner","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"66\u00b0NORTH X HEIMPLANET: THE CAVE XL 4-SEASON"},{"id":"textarea_text","type":"textarea","label":"Text","default":"This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"},{"id":"url_button_link_2","type":"url","label":"Button-Link-2"},{"id":"text_button_text_2","type":"text","label":"Button-Text-2","default":"Button"},{"type":"image_picker","id":"logo_image","label":"Logo"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"colabs","category":"Liquify"}]} {% endschema %}

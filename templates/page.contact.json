@@ -1,0 +1,16 @@
+{
+    "sections": {
+        "collection_hero": {
+            "type": "collection_hero"
+        },
+        "contact": {
+            "type": "contact"
+        }
+    },
+    "layout": "page.contact",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "collection_hero",
+        "contact"
+    ]
+}

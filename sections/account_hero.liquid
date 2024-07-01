@@ -1,0 +1,6 @@
+<div class="padding-global padding-section-small z-index-1"><img class="account_bg-image"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="container-large z-index-1"><h2 id="w-node-_17cf99d8-cca9-6029-5ca2-fd70c04fc7d1-c04fc7ce" class="heading-style-h2">Hi, <span li-object="customer.first_name">{{ customer.first_name }}</span>.<br>
+Welcome Back</h2></div></div><div class="padding-global"><div class="container-large"><div class="account-tabs_wrapper"><a href="{{ routes.account_url }}" li-object:href="routes.account_url" id="w-node-_17cf99d8-cca9-6029-5ca2-fd70c04fc7d9-c04fc7ce" class="account-tabs_link">Account</a><a href="{{ routes.account_addresses_url }}" li-object:href="routes.account_addresses_url" id="w-node-_17cf99d8-cca9-6029-5ca2-fd70c04fc7dd-c04fc7ce" class="account-tabs_link">Adressen</a><a id="w-node-_17cf99d8-cca9-6029-5ca2-fd70c04fc7df-c04fc7ce" href="/apps/iwish" class="account-tabs_link hide">Merkliste</a></div></div></div> {% schema %} {"tag":"section","name":"account_hero","class":"section_account-nav","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"account_hero","category":"Liquify"}]} {% endschema %}
