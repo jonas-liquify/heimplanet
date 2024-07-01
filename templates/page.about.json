@@ -1,36 +1,107 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "sections": {
-        "collection_hero": {
-            "type": "collection_hero"
-        },
-        "about_highlight": {
-            "type": "about_highlight"
-        },
-        "links": {
-            "type": "links"
-        },
-        "store": {
-            "type": "store"
-        },
-        "jobs": {
-            "type": "jobs"
-        },
-        "content_image": {
-            "type": "content_image"
-        },
-        "article_next": {
-            "type": "article_next"
-        }
+  "sections": {
+    "collection_hero": {
+      "type": "collection_hero",
+      "settings": {
+        "text_subline": "Home \/ Kategorie \/ Zelte",
+        "text_headline": "Bags+<br>Backpacks",
+        "textarea_paragraph": "Home Kategorie Zelte",
+        "url_button_link": "",
+        "text_button_text": "Jetzt entdecken"
+      }
     },
-    "layout": "page.about",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "collection_hero",
-        "about_highlight",
-        "links",
-        "store",
-        "jobs",
-        "content_image",
-        "article_next"
-    ]
+    "about_highlight": {
+      "type": "about_highlight",
+      "settings": {
+      }
+    },
+    "links": {
+      "type": "links",
+      "settings": {
+        "text_headline": "MAGAZIN",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
+    },
+    "store": {
+      "type": "store",
+      "blocks": {
+        "adresse_MTEQed": {
+          "type": "adresse",
+          "settings": {
+            "text_adresse": "Adresse"
+          }
+        },
+        "adresse_zLfN4R": {
+          "type": "adresse",
+          "settings": {
+            "text_adresse": "Adresse"
+          }
+        }
+      },
+      "block_order": [
+        "adresse_MTEQed",
+        "adresse_zLfN4R"
+      ],
+      "settings": {
+        "text_headline": "HPT STORE HAMBURG",
+        "text_button_text_1": "Mehr erfahren",
+        "url_button_link_1": "",
+        "text_button_text_2": "Storefinder",
+        "url_button_link_2": ""
+      }
+    },
+    "jobs": {
+      "type": "jobs",
+      "settings": {
+        "text_headline": "Karriere &amp; Jobs",
+        "text_button_text": "Mehr davon",
+        "url_button_link": "",
+        "text_kategorie": "Operations",
+        "text_initiativ_bewerbung": "Kein passender Job dabei? Bewirb dich gerne Iniativ",
+        "url_button_link_1": "",
+        "text_button_text_1": "Initiativbewerbung"
+      }
+    },
+    "content_image": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Medium length heading goes here",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "This is some text inside of a div block."
+      }
+    }
+  },
+  "layout": "page.about",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collection_hero",
+    "about_highlight",
+    "links",
+    "store",
+    "jobs",
+    "content_image",
+    "article_next"
+  ]
 }
