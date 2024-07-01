@@ -5,10 +5,10 @@
     Video    </a>
 {% endif %}{% if product.metafields.custom.videos != blank %}    <a href="#videos" li-if="product.metafields.custom.videos != blank" class="produkt_nav-link">
     Videos    </a>
-{% endif %}<a class="produkt_nav-link" href="#infos">
+{% endif %}<a href="#infos" class="produkt_nav-link" href="#infos">
 {{ section.settings.text_detailinformationen }}
 </a>
-<a class="produkt_nav-link" href="#faqs">
+<a href="#faqs" class="produkt_nav-link" href="#faqs">
 {{ section.settings.text_bewertungen }}
 </a>
 </div><div class="display-inlineflex"><div class="upsell_titel"><div li-object="product.title" class="text-size-regular text-style-allcaps">{{ product.title }}</div><div class="upsell_price">{% if product.compare_at_price > product.price %}    <div li-if="product.compare_at_price > product.price">

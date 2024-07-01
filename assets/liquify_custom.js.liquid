@@ -333,24 +333,23 @@ document.addEventListener('alpine:init', () => {
         /**
          * Add a single product to cart.
          */
-        addToCart(productId = undefined, quantity = undefined) {
+        async addToCart(productId = undefined, quantity = undefined) {
             console.log('add to cart called, available:', this.selected_or_first_available_variant.available);
 
-            if (!this.selected_or_first_available_variant.available) {
+            if(!this.selected_or_first_available_variant.available) {
                 return
             }
 
-            console.log('productId', productId ?? this.selected_product_id ?? this.selected_or_first_available_variant?.id,);
             let body = JSON.stringify({
                 'items': [
                     {
-                        id: productId ?? this.selected_product_id ?? this.selected_or_first_available_variant?.id,
+                        id: productId ?? this.selectedProductId ?? this.selected_or_first_available_variant?.id,
                         quantity: quantity ?? this.quantity ?? 1,
                     }
                 ]
             });
 
-            fetch(window.Shopify.routes.root + 'cart/add.js', {
+            await fetch(window.Shopify.routes.root + 'cart/add.js', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: body
@@ -360,32 +359,25 @@ document.addEventListener('alpine:init', () => {
                     console.log('Item (addToCart()): ', data, data.items);
                     this.products = data.items;
 
-                    // Trigger dropdown click to open minicart
-                    let elements = document.querySelectorAll('[li-element="mini-cart-trigger"]');
-                    elements.forEach(element => {
-                        let closestDropdown = element.closest('.w-dropdown-toggle');
-                        if (closestDropdown) {
-                            LiquifyHelper.triggerClick(closestDropdown);
-                        }
-                    });
-
                     console.log('product added');
                     console.log('Dispatch cart events');
                     this.$dispatch('cartupdated');
                     this.$dispatch('toggleminicart');
-                    this.$dispatch('showcartmessage', {
-                        status: data.status,
-                        message: data.message,
-                        description: data.description
-                    });
+                    this.$dispatch('showcartmessage', { status: data.status, message: data.message, description: data.description });
                 })
                 .catch((error) => {
                     console.error('addToCart error:', error);
-                    this.$dispatch('showcartmessage', {
-                        status: error.status,
-                        message: error.message,
-                        description: error.description
-                    });
+                    this.$dispatch('showcartmessage', { status: error.status, message: error.message, description: error.description });
+                });
+        },
+
+        /**
+         * Add a single product to cart and redirect to checkout.
+         */
+        async addToCartAndCheckout(productId = undefined, quantity = undefined) {
+            await this.addToCart(productId, quantity)
+                .then(() => {
+                    window.location.href = '/checkout';
                 });
         },
 

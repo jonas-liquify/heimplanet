@@ -6,13 +6,7 @@
                             {% if filter.values.size > 1 %}    <div li-if="filter.values.size > 1">
     <div class="filter_filter-group-heading"><div li-object="filter.label" class="text-size-medium text-weight-semibold">{{ filter.label }}</div></div><div class="filter_filter-options"><div class="filter_list-wrapper"><div class="filter_list">{% for filter_value in filter.values %}    <div li-for="filter_value in filter.values" class="filter_item">
                                     
-                            <a href="{% if filter_value.active %}{{ filter_value.url_to_remove }}{% else %}{{ filter_value.url_to_add }}{% endif %}" class="{% if filter_value.count == 0 and filter_value.active == false %}filter_form_checkbox is-disabled{% else %}filter_form_checkbox{% endif %}" >
-
-<div class="{% if filter_value.active %}filter_form_checkbox-icon is-checked{% else %}filter_form_checkbox-icon{% endif %}" >
-
-</div>
-<div class="filter_form_checkbox-label"><span li-object="filter_value.label | append: ' '">{{ filter_value.label | append: ' ' }}</span>(<span li-object="filter_value.count">{{ filter_value.count }}</span>)</div></a>
-
+                            <a href="{% if filter_value.active %}{{ filter_value.url_to_remove }}{% else %}{{ filter_value.url_to_add }}{% endif %}" class="{% if filter_value.count == 0 and filter_value.active == false %}filter_form_checkbox is-disabled{% else %}filter_form_checkbox{% endif %}"><div class="{% if filter_value.active %}filter_form_checkbox-icon is-checked{% else %}filter_form_checkbox-icon{% endif %}"></div><div class="filter_form_checkbox-label"><span li-object="filter_value.label | append: ' '">{{ filter_value.label | append: ' ' }}</span>(<span li-object="filter_value.count">{{ filter_value.count }}</span>)</div></a>
                             
                         </div>
 {% endfor %}</div></div></div>    </div>
@@ -35,10 +29,7 @@
                         </div>
 {% endfor %}</div><select id="sort-by" li-for:inside="option in collection.sort_options" class="sort_select filter_checkbox">
         {% for option in collection.sort_options %}                            
-                            <option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% elsif option.value == collection.default_sort_by %}selected{% endif %}>
-
-{{ option.name }}</option>
-
+                            <option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% elsif option.value == collection.default_sort_by %}selected{% endif %}>{{ option.name }}</option>
                             
                     {% endfor %}    </select>
 </div><div class="w-dyn-list"><div role="list" class="filter_product-list w-dyn-items">{% for product in collection.products %}    <div li-for="product in collection.products" role="listitem" class="w-dyn-item">
@@ -62,10 +53,7 @@
                             
                             {% if part.is_link == false %}    <div li-if="part.is_link == false">
     {% if part.is_link != true %}    <div li-if="part.is_link != true">
-    <div><div li-object="part.title" class="{% if part.title == paginate.current_page %}text-weight-semibold{% endif %}" >
-
-2</div>
-</div>    </div>
+    <div><div li-object="part.title" class="{% if part.title == paginate.current_page %}text-weight-semibold{% endif %}">{{ part.title }}</div></div>    </div>
 {% endif %}    </div>
 {% endif %}
                             
