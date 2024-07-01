@@ -60,7 +60,7 @@
         "tab_gwnyL6": {
           "type": "tab",
           "settings": {
-            "text_headline": "Wir bieten eine <br>Lebenslange Garantie",
+            "text_headline": "Wir bieten eine Lebenslange Garantie",
             "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
             "url_button_link": "",
             "text_button_text": "Button",
@@ -102,8 +102,8 @@
         "text_headline": "Aktuelle beiträge",
         "url_button_link": "",
         "text_button_text": "Mehr davon",
-        "article_artikel": "",
-        "blog_blog": "",
+        "article_artikel": "abenteuer\/mavericks-eishockey-tour",
+        "blog_blog": "abenteuer",
         "post_limit_blog": 3
       }
     },
