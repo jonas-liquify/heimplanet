@@ -31,6 +31,18 @@
     },
     "kategorien": {
       "type": "kategorien",
+      "blocks": {
+        "kategorie_q4nt3H": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "",
+            "text_headline": "Heading"
+          }
+        }
+      },
+      "block_order": [
+        "kategorie_q4nt3H"
+      ],
       "settings": {
         "checkbox_swiper_script": true
       }
@@ -47,6 +59,22 @@
     },
     "tabs": {
       "type": "tabs",
+      "blocks": {
+        "tab_9KeLMU": {
+          "type": "tab",
+          "settings": {
+            "text_headline": "Wir bieten eine Lebenslange Garantie",
+            "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "tab_9KeLMU"
+      ],
       "settings": {
       }
     },
@@ -77,7 +105,7 @@
         "text_button_text": "Mehr davon",
         "article_artikel": "abenteuer\/unsere-tipps-fur-reisen-mit-leichtem-gepack",
         "blog_blog": "ambassador",
-        "post_limit_blog": 3
+        "post_limit_blog": 6
       }
     },
     "colabs": {
