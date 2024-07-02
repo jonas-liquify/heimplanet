@@ -42,9 +42,10 @@
     <div class="news_wrapper">
       <div id="w-node-_8221bec9-5294-a750-c9fb-ca08551307cc-c68d8180" class="w-dyn-list">
         <div role="list" class="magazin_grid w-dyn-items">
-          <div role="listitem" class="w-dyn-item">
-            {% assign blog = blogs[section.settings.blog_blog] %}
+          {% assign blog = blogs[section.settings.blog_blog] %}
             {% for article in blog.articles limit: section.settings.post_limit_blog %}
+          <div role="listitem" class="w-dyn-item">
+            
               <a li-object:href="article.url" href="{{ article.url }}" class="artikel-kachel_item-grid w-inline-block">
                 <div id="w-node-_6c3c594a-673d-af69-2fd3-9eb56ce456da-4b06a7bd" class="artikel-kachel_wrapper">
                   <div item="link" class="artikel-kachel_link">
@@ -67,8 +68,9 @@
                   </div>
                 </div>
               </a>
-            {% endfor %}
+            
           </div>
+              {% endfor %}
         </div>
         <div class="w-dyn-empty"><div>No items found.</div></div>
       </div>
