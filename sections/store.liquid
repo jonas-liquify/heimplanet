@@ -19,13 +19,9 @@
                             </div>
             {% endif %}
 {% endfor %}
-</div><div class="button_wrapper"><a class="button w-button" href="{{ section.settings.url_button_link_1 }}">
-{{ section.settings.text_button_text_1 }}
-</a>
+</div><div class="button_wrapper"><a class="button w-button" href="{{ section.settings.url_button_link_1 }}"> {{ section.settings.text_button_text_1 }} </a>
 {% if section.settings.url_button-link-2 %}    <div li-if="section.settings.url_button-link-2">
-    <a class="button is-outline w-button" href="{{ section.settings.url_button_link_2 }}">
-{{ section.settings.text_button_text_2 }}
-</a>
+    <a class="button is-outline w-button" href="{{ section.settings.url_button_link_2 }}"> {{ section.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}</div></div><img class="store_img"
      src="{{ section.settings.image_bild | img_url: 'master' }}"

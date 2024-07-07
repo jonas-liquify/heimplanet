@@ -10,6 +10,12 @@ const LiquifyHelper = {
         return formatter.format(value);
     },
 
+    htmlspecialchars_decode(string) {
+        let tempElement = document.createElement('textarea');
+        tempElement.innerHTML = string;
+        return tempElement.value;
+    },
+
     triggerClick: function (el) {
         if(!(el instanceof HTMLElement)) {
             console.info(el + ' must be an instance of HTMLElement')

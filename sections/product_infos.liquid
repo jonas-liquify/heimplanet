@@ -74,7 +74,7 @@
 {{ section.settings.text_aufblaszeit }}
 </div>
 <div id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2f6-c68d81de" class="text-size-regular"><span li-object="product.metafields.custom.material_aufpumpzeit">{{ product.metafields.custom.material_aufpumpzeit }}</span></div>    </div>
-{% endif %}<div class="details_button"><a id="more-button" class="button is-outline w-button" href="#">
+{% endif %}<div class="details_button"><a id="more-button" x-on:click="more = !more" href="#" class="button is-outline w-button" href="#">
 {{ section.settings.text_button_text }}
 </a>
 <div class="hide">
@@ -83,10 +83,10 @@
 </div></div><div x-data="" id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2fe-c68d81de">{% if product.metafields.custom.zeltdetails_aussen != blank %}    <div li-if="product.metafields.custom.zeltdetails_aussen != blank" x-tabs="" class="details_tabs">
     <div x-tabs:panels="" class="details_tab-wrapper"><div x-tabs:panel="" class="details_tab"><img src="{{ product.metafields.custom.zeltdetails_aussen | img_url: 'master' }}" loading="lazy" li-object:src="product.metafields.custom.zeltdetails_aussen | img_url: 'master'" li-object:alt="product.metafields.custom.zeltdetails_aussen.alt" alt="{{ product.metafields.custom.zeltdetails_aussen.alt }}" class="details_tab-img is-darken">
 </div><div x-tabs:panel="" class="details_tab"><img src="{{ product.metafields.custom.zeltdetail_grund | img_url: 'master' }}" loading="lazy" li-object:src="product.metafields.custom.zeltdetail_grund | img_url: 'master'" li-object:alt="product.metafields.custom.zeltdetail_grund.alt" alt="{{ product.metafields.custom.zeltdetail_grund.alt }}" class="details_tab-img is-darken">
-</div></div><div x-tabs:list="" class="details_tab-buttons"><a class="button w-button" href="#">
+</div></div><div x-tabs:list="" class="details_tab-buttons"><a x-tabs:tab="" x-bind:class="$tab.isSelected ? '' : 'is-white'" href="#" class="button w-button" href="#">
 {{ section.settings.text_aussen }}
 </a>
-<a class="button w-button" href="#">
+<a x-tabs:tab="" x-bind:class="$tab.isSelected ? '' : 'is-white'" href="#" class="button w-button" href="#">
 {{ section.settings.text_grund }}
 </a>
 </div>    </div>

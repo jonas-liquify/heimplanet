@@ -28,7 +28,35 @@
      src="{{ section.settings.image_bild_2 | img_url: 'master' }}"
      alt="{{ section.settings.image_bild_2.alt }}"
      loading="lazy">
-</div><div class="hide w-embed w-script"><script src="https://unpkg.com/beerslider/dist/BeerSlider.js"></script><style>.beer-slider {
+</div><div class="hide w-embed w-script"><script src="https://unpkg.com/beerslider/dist/BeerSlider.js"></script><script>window.onload = function () {
+    setTimeout(function () {
+    $('.landingpage_image-wrapper').each(function (index, el) {
+        let firstImage = $(this).find('img')[0].src;
+        let secondImage =$(this).find('img')[1].src;
+        let template = `
+      	<div class="beer-slider" data-beer-label="{{ section.settings.text_nachher }}">
+          <img src="${firstImage}">
+          <div class="beer-reveal" data-beer-label="{{ section.settings.text_vorher }}">
+            <img src="${secondImage}">
+          </div>
+        </div>
+      `;
+       $(this).find('img')[1].remove();
+       $(this).find('img')[0].remove();
+      $(this).append(template);
+        $.fn.BeerSlider = function (options) {
+          options = options || {};
+          return this.each(function () {
+            new BeerSlider(this, options);
+          });
+        };
+      });
+      $(".beer-slider").each(function (index, el) {
+        $(el).BeerSlider({ start: $(el).data("start") })
+      });
+    })
+  }
+</script><style>.beer-slider {
     height: 100% !important;
   }
   .beer-slider,
