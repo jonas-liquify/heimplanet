@@ -5,7 +5,7 @@
     <a class="button is-outline w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}</div><div class="spacer-large"></div><div class="product_list-wrapper w-dyn-list"><div role="list" class="product_list w-dyn-items">{% for product in section.settings.collection_collection.products limit: section.settings.collection_collection_limit %}
-<div class="product_list-item w-dyn-item">
+<div role="listitem" class="product_list-item w-dyn-item">
     
     {% render 'product_item', product: product %}
 

@@ -11,8 +11,7 @@
     <a class="button is-white w-button" href="{{ block.settings.url_button_link_2 }}"> {{ block.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}    </div>
-{% endif %}<div class="li-schema w-embed">
-</div>
+{% endif %}<div class="li-schema w-embed"></div>
 </div></div></div>
                                     <div class="tabs_background-image-wrapper"><div class="image-overlay-layer"></div><img class="tabs_background-image"
      src="{{ block.settings.image_bild | img_url: 'master' }}"
@@ -28,4 +27,4 @@
 </div>
                             
                         </li>
-{% endfor %}</ul></div></div> {% schema %} {"tag":"section","name":"tabs","class":"section_tabs","blocks":[{"name":"Tab","type":"tab","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Wir bieten eine <br\/>Lebenslange Garantie"},{"id":"textarea_text","type":"textarea","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"},{"id":"url_button_link_2","type":"url","label":"Button-Link-2"},{"id":"text_button_text_2","type":"text","label":"Button-Text-2","default":"Button"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"presets":[{"name":"tabs","category":"Liquify"}]} {% endschema %}
+{% endfor %}</ul></div></div> {% schema %} {"tag":"section","name":"tabs","class":"section_tabs","blocks":[{"name":"Tab","type":"tab","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Wir bieten eine <br\/>Lebenslange Garantie"},{"id":"textarea_text","type":"textarea","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"},{"id":"url_button_link_2","type":"url","label":"Button-Link-2"},{"id":"text_button_text_2","type":"text","label":"Button-Text-2","default":"Button"},{"type":"image_picker","id":"logo_image","label":"Logo"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"presets":[{"name":"tabs","category":"Liquify"}]} {% endschema %}

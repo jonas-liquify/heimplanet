@@ -5,15 +5,13 @@
 {{ section.settings.text_headline }}
 </h1>
 <p class="text-size-regular text-align-center max-width-large text-color-white"> {{ section.settings.textarea_longer_text }} </p>
-</div><div class="margin-top margin-small"><div class="button-group is-center"><a class="button is-white w-button" href="{{ section.settings.url_button_link }}">
-{{ section.settings.text_button_text }}
-</a>
+</div><div class="margin-top margin-small">{% if section.settings.url_button_link != blank %}    <div li-if="section.settings.url_button_link != blank" class="button-group is-center">
+    <a class="button is-white w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
 {% if section.settings.url_button_link_2 != blank %}    <div li-if="section.settings.url_button_link_2 != blank">
-    <a class="button is-outline w-button" href="{{ section.settings.url_button_link_2 }}">
-{{ section.settings.text_button_text_2 }}
-</a>
+    <a class="button is-outline w-button" href="{{ section.settings.url_button_link_2 }}"> {{ section.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}</div></div></div></div></div></div></div><div class="landingapge-hero_background-image-wrapper"><div class="image-overlay-layer"></div><img class="landingapge-hero_background-image"
+{% endif %}    </div>
+{% endif %}</div></div></div></div></div></div><div class="landingapge-hero_background-image-wrapper"><div class="image-overlay-layer"></div><img class="landingapge-hero_background-image"
      src="{{ section.settings.image_bild | img_url: 'master' }}"
      alt="{{ section.settings.image_bild.alt }}"
      loading="lazy">

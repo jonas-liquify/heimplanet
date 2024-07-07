@@ -67,10 +67,14 @@
             .then(response => response.json())
             .then(data => {
                 this.resetAbortController();
-                console.log('Cart (getCart()): ', data, data.items);
 
                 this.total.items = data.item_count;
-                this.products = data.items;
+
+                this.products = data.items.map((item) => {
+                    item.title = this.htmlspecialchars_decode(item.title)
+                    return item
+                })
+
                 this.total.price = data.total_price;
                 this.total.weight = data.total_weight;
                 this.total.discount = data.total_discount;
@@ -140,6 +144,10 @@
          */
         moneyFormat(value, minor = true) {
             return LiquifyHelper.moneyFormat(value, minor)
+        },
+
+        htmlspecialchars_decode(string) {
+            return LiquifyHelper.htmlspecialchars_decode(string)
         },
 
         /**
