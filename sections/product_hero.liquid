@@ -13,12 +13,7 @@
           {% for image in product.images %}
             <div li-for="image in product.images" role="listitem" class="swiper-slide is-product-gallery w-dyn-item">
               <a
-                li-object:data-pswp-height="image.width"
-                li-object:data-pswp-width="image.height"
-                href="https:{{ image.src | product_img_url: 'master' }}"
-                class="product_gallery-lightbox w-inline-block"
-                data-pswp-height="{{ image.width }}"
-                data-pswp-width="{{ image.height }}"
+                data-pswp-height="{{image.width}}" data-pswp-width="{{image.height}}" href="http://{{ image.src | product_img_url: 'master' }}" class="product_gallery-lightbox w-inline-block"
                 ><img
                   loading="lazy"
                   li-object:src="image.src | product_img_url: 'master'"
