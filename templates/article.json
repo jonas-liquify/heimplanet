@@ -25,14 +25,12 @@
       "settings": {
       }
     },
-    "category": {
-      "type": "category",
+    "article_products_V4qaqk": {
+      "type": "article_products",
       "settings": {
-        "text_headline": "{{ article.title }}",
+        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
         "url_button_link": "",
-        "text_button_text": "Mehr davon",
-        "collection_collection": "aufblasbare-zelte",
-        "collection_collection_limit": 4
+        "text_button_text": "Mehr davon"
       }
     },
     "article_next": {
@@ -50,7 +48,7 @@
   "order": [
     "collection_hero",
     "article_content",
-    "category",
+    "article_products_V4qaqk",
     "article_next"
   ]
 }
