@@ -143,6 +143,33 @@
         "text_mixed_material": "Mixed Material",
         "text_mono_material": "Mono Material"
       }
+    },
+    "l_dropdowns_YeDrRR": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_WNNGjF": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen &amp; Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_qq3yzt": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen &amp; Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_WNNGjF",
+        "dropdown_qq3yzt"
+      ],
+      "settings": {
+        "text_headline": "Mono Dyecoshell",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -157,6 +184,7 @@
     "l_gallery_MgmqQN",
     "l_produkt_fkQtaR",
     "content_image_Ud8NPx",
-    "l_grid_7ewPz9"
+    "l_grid_7ewPz9",
+    "l_dropdowns_YeDrRR"
   ]
 }
