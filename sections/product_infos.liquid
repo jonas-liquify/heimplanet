@@ -80,7 +80,24 @@
 <div class="hide">
 {{ section.settings.text_button_text_close }}
 </div>
-</div></div><div x-data="" id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2fe-c68d81de">{% if product.metafields.custom.zeltdetails_aussen != blank %}    <div li-if="product.metafields.custom.zeltdetails_aussen != blank" x-tabs="" class="details_tabs">
+</div></div><div class="hide w-embed w-script"><script>const button = document.getElementById('more-button');
+  const items = document.querySelectorAll('.details_item');
+  const moreItems = Array.from(items).slice(4);
+  let expanded = false;
+  if (items.length <= 4) {
+    button.style.display = 'none'; // Verstecke den Button, wenn weniger als 5 Elemente vorhanden sind
+  }
+  button.addEventListener('click', () => {
+    if (expanded) {
+      moreItems.forEach(item => item.style.display = 'none');
+      button.textContent = '{{ section.settings.button_text }}';
+    } else {
+      moreItems.forEach(item => item.style.display = 'grid');
+      button.textContent = '{{ section.settings.button_text_close }}';
+    }
+    expanded = !expanded;
+  });
+</script></div><div x-data="" id="w-node-_93678bed-cea2-1602-5f6a-f8253706f2fe-c68d81de">{% if product.metafields.custom.zeltdetails_aussen != blank %}    <div li-if="product.metafields.custom.zeltdetails_aussen != blank" x-tabs="" class="details_tabs">
     <div x-tabs:panels="" class="details_tab-wrapper"><div x-tabs:panel="" class="details_tab"><img src="{{ product.metafields.custom.zeltdetails_aussen | img_url: 'master' }}" loading="lazy" li-object:src="product.metafields.custom.zeltdetails_aussen | img_url: 'master'" li-object:alt="product.metafields.custom.zeltdetails_aussen.alt" alt="{{ product.metafields.custom.zeltdetails_aussen.alt }}" class="details_tab-img is-darken">
 </div><div x-tabs:panel="" class="details_tab"><img src="{{ product.metafields.custom.zeltdetail_grund | img_url: 'master' }}" loading="lazy" li-object:src="product.metafields.custom.zeltdetail_grund | img_url: 'master'" li-object:alt="product.metafields.custom.zeltdetail_grund.alt" alt="{{ product.metafields.custom.zeltdetail_grund.alt }}" class="details_tab-img is-darken">
 </div></div><div x-tabs:list="" class="details_tab-buttons"><a x-tabs:tab="" x-bind:class="$tab.isSelected ? '' : 'is-white'" href="#" class="button w-button" href="#">

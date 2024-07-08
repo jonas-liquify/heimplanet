@@ -1,0 +1,4 @@
+<div class="padding-global padding-section-small"><div class="container-large"><div class="video-embed is-landingpage w-embed w-iframe"><iframe class="video-iframe" style="border-top-left-radius: 0.5em; border-top-right-radius: 0.5em; border-bottom-left-radius: 0.5em; border-bottom-right-radius: 0.5em; " src="{{ section.settings.text_video_url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" scrolling="no" allowfullscreen=""></iframe></div><div class="hide">
+{{ section.settings.text_video_url }}
+</div>
+<div class="video-iframe hide"></div></div></div> {% schema %} {"tag":"div","name":"l_video","class":"section_l-video","settings":[{"id":"text_video_url","type":"text","label":"Video-URL","default":"This is some text inside of a div block."}],"presets":[{"name":"l_video","category":"Liquify"}]} {% endschema %}
