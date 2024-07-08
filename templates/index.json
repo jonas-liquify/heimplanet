@@ -180,6 +180,7 @@
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
+            "logo_image": "shopify:\/\/shop_images\/Mono-Material-Endless-Black-Icon_4544ce44-09f8-4ab1-acf7-7c581edfa375.jpg",
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-1-Percent-for-the-Planet-2022-Mood.webp"
           }
         },
@@ -274,7 +275,8 @@
         "url_button_link": "shopify:\/\/blogs\/collabs\/fdmtl-kirra-limited-edition",
         "text_button_text": "Mehr Erfahren",
         "article_artikel": "collabs\/fdmtl-kirra-limited-edition",
-        "blog_blog": "abenteuer"
+        "blog_blog": "abenteuer",
+        "post_limit_blog": 3
       }
     },
     "colabs_BpYUJe": {
