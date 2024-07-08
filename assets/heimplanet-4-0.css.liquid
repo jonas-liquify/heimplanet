@@ -1656,15 +1656,6 @@ figcaption {
   right: 0%;
 }
 
-.product-item_image.is-second {
-  opacity: 0;
-  transition: opacity .1s;
-}
-
-.product-item_image.is-second:hover {
-  opacity: 1;
-}
-
 .product-item_text-link {
   flex-direction: column;
   justify-content: space-between;
@@ -3949,6 +3940,11 @@ figcaption {
 
 .colabs_progress-bar.swiper-progress-bar {
   width: 0%;
+  transition: width 5s linear;
+}
+
+.colabs_progress-bar.swiper-progress-bar.animate {
+  width: 100%;
 }
 
 .colabs_thumbnail-track {
@@ -4943,6 +4939,7 @@ figcaption {
 .landingpage-gallery_component.is-first {
   grid-template-columns: 1fr;
   margin-bottom: 2rem;
+  display: block;
 }
 
 .landingpage-gallery_image {

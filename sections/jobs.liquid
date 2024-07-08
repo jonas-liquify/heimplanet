@@ -5,8 +5,8 @@
 </div></div><div class="jobs_list"><div class="subline">
 {{ section.settings.text_kategorie }}
 </div>
-{% assign jobs_blog = blogs.jobs %}
-<div><div class="w-dyn-list"><div role="list" class="w-dyn-items">{% for article in jobs_blog.articles %}    <div li-for="article in jobs_blog.articles" role="listitem" class="w-dyn-item">
+{% assign blog_handle = 'jobs' %}
+<div><div class="w-dyn-list"><div role="list" class="w-dyn-items">{% for article in blogs[blog_handle].articles %}    <div li-for="article in blogs[blog_handle].articles" role="listitem" class="w-dyn-item">
                                     
                             <a li-object:href="article.url" href="{{ article.url }}" class="jobs_wrapper w-inline-block"><h4 li-object="article.title" class="heading-style-h3">{{ article.title }}</h4><div li-object="article.tags" class="subline">{{ article.tags }}</div></a>
                             
