@@ -41,7 +41,7 @@
         "text_headline": "Weitere Beiträge",
         "url_button_link": "",
         "text_button_text": "Mehr davon",
-        "text_blog_handle": "This is some text inside of a div block."
+        "text_blog_handle": "{{ article.title }}"
       }
     }
   },
