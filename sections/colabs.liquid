@@ -28,7 +28,7 @@
                         </div>
 {% endfor %}</div></div></div></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
 <script src="https://cdn.jsdelivr.net/npm/swiper11/swiper-bundle.min.js"></script>{% endif %}
-<script>$(document).ready(function () {
+<script>document.addEventListener('DOMContentLoaded', function ()  {
   var swiper2 = new Swiper("#thumbnail-slider", {
         rewind: true,
         spaceBetween: 20,
