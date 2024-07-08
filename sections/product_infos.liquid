@@ -90,10 +90,10 @@
   button.addEventListener('click', () => {
     if (expanded) {
       moreItems.forEach(item => item.style.display = 'none');
-      button.textContent = '{{ section.settings.button_text }}';
+      button.textContent = '{{ section.settings.text_button_text }}';
     } else {
       moreItems.forEach(item => item.style.display = 'grid');
-      button.textContent = '{{ section.settings.button_text_close }}';
+      button.textContent = '{{ section.settings.text_button_text_close }}';
     }
     expanded = !expanded;
   });
