@@ -86,7 +86,8 @@
         "text_preis": "129€",
         "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
         "text_button_text": "Jetzt vorbestellen",
-        "url_produkt_link": "shopify:\/\/products\/mono-series-minimal-pack-blue"
+        "url_produkt_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
+        "checkbox_swiper_script": true
       }
     },
     "content_image_Ud8NPx": {
@@ -99,6 +100,48 @@
         "url_button_link_2": "",
         "text_button_text_2": "Button",
         "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack-Teaser-1.jpg"
+      }
+    },
+    "l_grid_7ewPz9": {
+      "type": "l_grid",
+      "blocks": {
+        "item_HnYnCN": {
+          "type": "item",
+          "settings": {
+            "text_headline": "Common Material",
+            "text_text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.",
+            "text_zahl": "0%",
+            "text_zahl_text": "Recyclable<br>After Use"
+          }
+        },
+        "item_tg6kAa": {
+          "type": "item",
+          "settings": {
+            "text_headline": "Common Material",
+            "text_text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.",
+            "text_zahl": "0%",
+            "text_zahl_text": "Recyclable<br>After Use"
+          }
+        },
+        "item_ky78Mj": {
+          "type": "item",
+          "settings": {
+            "text_headline": "Common Material",
+            "text_text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.",
+            "text_zahl": "0%",
+            "text_zahl_text": "Recyclable<br>After Use"
+          }
+        }
+      },
+      "block_order": [
+        "item_HnYnCN",
+        "item_tg6kAa",
+        "item_ky78Mj"
+      ],
+      "settings": {
+        "text_headline": "Mixed VS. Mono Material",
+        "text_mixed_material": "Mixed Material",
+        "text_mono_material": "Mono Material"
       }
     }
   },
@@ -113,6 +156,7 @@
     "l_text_logos_dUJRtJ",
     "l_gallery_MgmqQN",
     "l_produkt_fkQtaR",
-    "content_image_Ud8NPx"
+    "content_image_Ud8NPx",
+    "l_grid_7ewPz9"
   ]
 }
