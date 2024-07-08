@@ -17,7 +17,7 @@
 {% endfor %}
 </div></div><div class="swiper_bottom-wrapper"><div class="swiper_bullet-wrapper is-slider-main"><div class="swiper_bullet is-active"></div><div class="swiper_bullet"></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>{% endif %}
-<script>document.addEventListener('DOMContentLoaded', function ()  {
+<script>document.addEventListener('DOMContentLoaded', function () {
   $(".swiper-container").each(function(index) {
     const swiper = new Swiper($(this).find(".swiper.is-hero")[0], {
     // speed: sliderDuration,

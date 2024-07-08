@@ -13,7 +13,7 @@
                         </div>
 {% endfor %}</div></div></div><div class="produkt-tabs_swiper-buttons pointer-events-off"><div class="produkt-tabs_swiper-button is-button-left pointer-events-on pointer-events-on"><img src="{{ 'arrow.svg' | asset_url }}" loading="lazy" alt="" class="produkt-tabs_swiper-button-img">
 </div><div class="produkt-tabs_swiper-button is-button-right pointer-events-on"><img src="{{ 'arrow-2.svg' | asset_url }}" loading="lazy" alt="" class="produkt-tabs_swiper-button-img">
-</div></div></div></div><div id="w-node-_07b27f89-2fe2-f78d-c7be-eaee5102ac2a-c68d81de" class="produkt-tabs_contaier">{% if product.metafields.custom.dots_bild != blank %}    <div li-if="product.metafields.custom.dots_bild != blank" class="produkt-tabs_image-wrapper">
+</div></div></div><div class="produkt-tabs_modal is-open hide"></div></div><div id="w-node-_07b27f89-2fe2-f78d-c7be-eaee5102ac2a-c68d81de" class="produkt-tabs_contaier">{% if product.metafields.custom.dots_bild != blank %}    <div li-if="product.metafields.custom.dots_bild != blank" class="produkt-tabs_image-wrapper">
     <img src="{{ product.metafields.custom.dots_bild | img_url: 'master' }}" loading="lazy" li-object:src="product.metafields.custom.dots_bild | img_url: 'master'" li-object:alt="product.metafields.custom.dots_bild.alt" alt="{{ product.metafields.custom.dots_bild.alt }}" class="produkt-tabs_img is-darken">
     </div>
 {% endif %}{% if product.metafields.custom.dots_bild == blank %}    <div li-if="product.metafields.custom.dots_bild == blank" class="produkt-tabs_image-wrapper">

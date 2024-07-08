@@ -2017,6 +2017,7 @@ figcaption {
 
 .swiper-slide.is-hero {
   width: 100vw;
+  position: relative;
 }
 
 .swiper-slide.is-swiper-dots {
@@ -3623,7 +3624,9 @@ figcaption {
 }
 
 .nav_announcment {
+  z-index: 2;
   background-color: var(--base-color-neutral--black);
+  position: relative;
 }
 
 .nav_announcement-wrapper {
@@ -4137,6 +4140,11 @@ figcaption {
   display: flex;
 }
 
+.produkt_swatch-wrapper {
+  flex-flow: wrap;
+  display: flex;
+}
+
 .produkt_swatch-link {
   background-color: var(--base-color-neutral--neutral-lightest);
   width: 4rem;
@@ -4199,16 +4207,14 @@ figcaption {
 .produkt-tabs_nav-link {
   grid-column-gap: .8rem;
   grid-row-gap: .8rem;
+  border-bottom: 1px solid var(--base-color-neutral--black);
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
   align-items: center;
   padding: .8rem 1rem .8rem 0;
   display: flex;
 }
 
 .produkt-tabs_nav-link.is-not-selected {
-  color: rgba(0, 0, 0, 0);
   cursor: auto;
   background-color: rgba(0, 0, 0, 0);
   padding-right: 0;
@@ -4241,6 +4247,11 @@ figcaption {
   bottom: 0%;
   left: -100%;
   right: auto;
+}
+
+.produkt-tabs_modal.is-open {
+  opacity: 1;
+  left: 0%;
 }
 
 .produkt-tabs_slide {
@@ -5785,6 +5796,10 @@ figcaption {
   opacity: 1;
 }
 
+.nav_menu-link.show {
+  display: flex;
+}
+
 .nav_menu-wrapper {
   z-index: 1;
   background-color: var(--base-color-neutral--white);
@@ -5907,6 +5922,20 @@ figcaption {
   bottom: 0%;
   left: 0%;
   right: 0%;
+}
+
+.dropdown_header-no-animation {
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  display: flex;
+}
+
+.dropdown_header-no-animation.is-big {
+  border-bottom: 1px solid var(--base-color-neutral--black);
+  padding-top: .7rem;
+  padding-bottom: .7rem;
 }
 
 @media screen and (max-width: 991px) {
