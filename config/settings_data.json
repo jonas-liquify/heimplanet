@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "sections": {
@@ -7,7 +16,7 @@
           "nav_link_r3DJWJ": {
             "type": "nav-link",
             "settings": {
-              "url_link": "",
+              "url_link": "#",
               "text_menu_handle": "shop",
               "url_link_1_link": "shopify:\/\/pages\/cloudbreak",
               "text_link_1_text": "Neues Zelt: Cloudbreak",
@@ -50,6 +59,8 @@
           "nav_link_kdXCQ6"
         ],
         "settings": {
+          "collection_bestseller": "",
+          "collection_bestseller_limit": 6
         }
       },
       "footer": {
