@@ -13,8 +13,8 @@
       "type": "collection_hero",
       "settings": {
         "text_subline": "Home \/ Kategorie \/ Zelte",
-        "text_headline": "Bags+Backpacks",
-        "textarea_paragraph": "Home Kategorie Zelte",
+        "text_headline": "{{ article.title }}",
+        "textarea_paragraph": "",
         "url_button_link": "",
         "text_button_text": "Jetzt entdecken",
         "image_bild": "{{ article.image }}"
@@ -28,10 +28,10 @@
     "category": {
       "type": "category",
       "settings": {
-        "text_headline": "Topseller",
+        "text_headline": "{{ article.title }}",
         "url_button_link": "",
         "text_button_text": "Mehr davon",
-        "collection_collection": "",
+        "collection_collection": "aufblasbare-zelte",
         "collection_collection_limit": 6
       }
     },
