@@ -7,7 +7,7 @@
 {% endif %}</div><div class="spacer-medium"></div><div class="hide">
 {{ section.settings.text_blog_handle }}
 </div>
-{% assign blog_handle = section.settings.text_blog_handle | handleize %}
+{% assign blog_handle = section.settings.text_blog_handle %}
 {% assign blog = blogs[blog_handle] %}
 {% assign currentArticle = article.title %}
 <div class="w-dyn-list"><div li-for:inside="article in blog.articles limit: 3" role="list" class="blog_list w-dyn-items">

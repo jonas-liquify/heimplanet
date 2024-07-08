@@ -24,8 +24,7 @@
             {% else %}
               <link rel="apple-touch-icon" type="image/png" href="{{ settings.apple_touch_icon | img_url: '32x32' }}">
             {% endif %}
-<link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css">
-
+        
 <script src="https://consent.cookiefirst.com/banner.js" data-cookiefirst-key="e88df28a-42d6-4569-9c83-4bbb3b8c4b09"></script><!--   Please keep this css code to improve the font quality  --><script defer="" src="{{ 'alpinejs3.js' | asset_url }}"></script><script defer="" auto="" min="" src="https://cdn.jsdelivr.net/gh/liquify-pro/core@latest/script.js"></script><!--   Google Tag Manager   --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -113,7 +112,7 @@ window.addEventListener("cf_init", callbackFnc);
         }{% if forloop.last == false %},{% endif %}{% endfor %}
         ]
         }
-    </script><script type="application/ld+json">{
+</script><script type="application/ld+json">{
          "@context": "https://schema.org",
          "@type": "BreadcrumbList",
          "itemListElement":
@@ -147,7 +146,7 @@ window.addEventListener("cf_init", callbackFnc);
           }
          ]
         }
-    </script><script type="application/ld+json">{
+</script><script type="application/ld+json">{
           "@context": "https://schema.org",
           "@type": "FAQPage",
           "mainEntity": [{% for fa_qs in shop.metaobjects.fa_qs.values %}{
@@ -160,7 +159,18 @@ window.addEventListener("cf_init", callbackFnc);
           }{% if forloop.last == false %},{% endif %}{% endfor %}
           ]
         }
-    </script><script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
+</script><link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css">
+<style>.details_item:nth-child(n+5), .section-announcement {
+    display: none;
+  }
+  .pswp--custom-bg {
+    --pswp-bg: #fff;
+    z-index: 99999990
+  }
+  .is-link-underline a {
+    text-decoration: underline;
+  }
+</style><script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
 <body li-page="product">
 
 <div class="page-wrapper">{% render 'global_styles' %}
@@ -216,33 +226,33 @@ function updateSW6FlagDropdownLinks(currentLang){
     if (window.innerWidth <= 767) {
       if (!init) {
         init = true;
-  $(".swiper-container").each(function (index) {
-    const thumbsSwiper = new Swiper($(this).find(".swiper.is-product-thumbnail")[0], {
-      slidesPerView: "auto",
-      rewind: false,
-      loopedSlides: 8,
-      slideToClickedSlide: true,
-      spaceBetween: "4%",
-    });
-    const swiper = new Swiper($(this).find(".swiper.is-product-gallery")[0], {
-      mousewheel: {
-        forceToAxis: true
-      },
-      thumbs: {
-        swiper: thumbsSwiper,
-        slideThumbActiveClass: "is-active",
-      },
-      keyboard: {
-        enabled: true,
-        onlyInViewport: true
-      },
-      navigation: {
-        nextEl: $(this).find(".swiper-next")[0],
-        prevEl: $(this).find(".swiper-prev")[0],
+        $(".swiper-container").each(function (index) {
+          const thumbsSwiper = new Swiper($(this).find(".swiper.is-product-thumbnail")[0], {
+            slidesPerView: "auto",
+            rewind: false,
+            loopedSlides: 8,
+            slideToClickedSlide: true,
+            spaceBetween: "4%",
+          });
+          const swiper = new Swiper($(this).find(".swiper.is-product-gallery")[0], {
+            mousewheel: {
+              forceToAxis: true
+            },
+            thumbs: {
+              swiper: thumbsSwiper,
+              slideThumbActiveClass: "is-active",
+            },
+            keyboard: {
+              enabled: true,
+              onlyInViewport: true
+            },
+            navigation: {
+              nextEl: $(this).find(".swiper-next")[0],
+              prevEl: $(this).find(".swiper-prev")[0],
+            }
+          });
+        }); 
       }
-    });
-  }); 
-  }
     } else if (init) {
       swiper.destroy();
       init = false;
