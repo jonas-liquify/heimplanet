@@ -37,7 +37,8 @@
 {% endif %}<div class="dropdown_component"><div class="dropdown_header"><div class="text-size-regular">
 {{ section.settings.text_beschreibung }}
 </div>
-<div class="dropdown_symbol"></div></div><div class="dropdown_content"><div class="dropdown-inner-content"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div></div><div class="dropdown_component"><div class="dropdown_header"><div class="text-size-regular">
+<div class="dropdown_symbol"></div></div><div class="dropdown_content"><div class="dropdown-inner-content"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div></div>{% if product.metafields.custom.lieferumfang != blank %}    <div li-if="product.metafields.custom.lieferumfang != blank" class="dropdown_component">
+    <div class="dropdown_header"><div class="text-size-regular">
 {{ section.settings.text_lieferumfang }}
 </div>
 <div class="dropdown_symbol"></div></div><div class="dropdown_content"><div class="dropdown-inner-content"><ul role="list" class="product-header_lieferumfang-liste">{% for item in product.metafields.custom.lieferumfang.value %}    <li li-for="item in product.metafields.custom.lieferumfang.value">
@@ -45,7 +46,8 @@
                             <div li-object="item">{{ item }}</div>
                             
                         </li>
-{% endfor %}</ul></div></div></div><div class="spacer-xsmall"></div><div class="product-header_add-to-cart w-form">{% form 'product', product, class: 'product-header_default-state' %}
+{% endfor %}</ul></div></div>    </div>
+{% endif %}<div class="spacer-xsmall"></div><div class="product-header_add-to-cart w-form">{% form 'product', product, class: 'product-header_default-state' %}
 {% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_option-list">
     <template x-for="(option, optionKey) in product.options" :key="optionKey">
     <div li-element="product-options-loop" class="product-header_option" data-ProductVariantsLoop="true"><div li-element="product-options-name" x-text="option">Variant</div><div class="product-header_radio-list"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
