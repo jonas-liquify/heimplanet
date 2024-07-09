@@ -49,29 +49,29 @@
         "item_N8NE9x": {
           "type": "item",
           "settings": {
-            "text_headline": "Common Material",
-            "text_text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.",
+            "text_headline": "Allgemein",
+            "text_text": "Gängige Materialien für Rucksäcke werden mit Klebstoffen hergestellt, die das Recycling erschweren, da sie sich nicht trennen lassen.",
             "text_zahl": "0%",
-            "text_zahl_text": "RecyclableAfter Use"
+            "text_zahl_text": "recyclebar"
           }
         },
         "item_LPdkap": {
           "type": "item",
           "settings": {
-            "text_headline": "Common Material",
-            "text_text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.",
+            "text_headline": "Recycelt",
+            "text_text": "Auch recycelte Materialien, die mit Klebstoff hergestellt werden, können das Recycling verhindern, da sie nicht getrennt werden können.",
             "text_zahl": "0%",
-            "text_zahl_text": "RecyclableAfter Use"
+            "text_zahl_text": "recyclebar"
           }
         },
         "item_DLWPzA": {
           "type": "item",
           "settings": {
-            "text_headline": "Common Material",
+            "text_headline": "Mono",
             "image_icon": "shopify:\/\/shop_images\/mono-material_endless_black_icon_006cef39-4916-454d-9acf-1bf419a14334.png",
-            "text_text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.",
-            "text_zahl": "0%",
-            "text_zahl_text": "RecyclableAfter Use"
+            "text_text": "Monomaterial bezieht sich auf Einkomponenten-Materialien, die das Recycling erleichtern, indem sie die Probleme der Trennung beseitigen.",
+            "text_zahl": "100%",
+            "text_zahl_text": "recyclebar"
           }
         }
       },
@@ -173,6 +173,7 @@
     },
     "content_image_jmaGYj": {
       "type": "content_image",
+      "disabled": true,
       "settings": {
         "text_headline": "Medium length heading goes here",
         "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
