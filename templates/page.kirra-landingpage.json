@@ -62,15 +62,67 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-Detail-1.jpg"
       }
     },
-    "l_reveal_slider_VLT7q4": {
-      "type": "l_reveal_slider",
+    "l_step_slider_j9haTQ": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_CjqL3C": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-Detail-4.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_MnLBGy": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-Detail-2.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_MPk8Th": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-4-Season-2022-2_abeee766-1590-4eda-a176-654410fac402.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_wdTWag": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-Detail-3.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_4pfEb4": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Cairo-Camo-Details-12.jpg",
+            "text_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_CjqL3C",
+        "feature_MnLBGy",
+        "feature_MPk8Th",
+        "feature_wdTWag",
+        "feature_4pfEb4"
+      ],
       "settings": {
-        "text_headline": "3 VARIANTEN",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "text_vorher": "This is some text inside of a div block.",
-        "text_nachher": "This is some text inside of a div block.",
-        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-2022-12_bf1a3606-e953-4f73-8c7c-e7c1b98347f1.jpg",
-        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Kirra-4-Season-2022-1_e00dba41-cae2-4396-a6cd-68e53a2d2e77.jpg"
+        "text_headline": "DETAILS MAKE THE DIFFERENCE",
+        "checkbox_swiper_script": true
+      }
+    },
+    "l_produkt_eggWD9": {
+      "type": "l_produkt",
+      "settings": {
+        "text_headline": "Kirra",
+        "textarea_beschreibung": "",
+        "text_preis": "ab 849€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Jetzt bestellen",
+        "url_produkt_link": "shopify:\/\/products\/kirra-classic",
+        "checkbox_swiper_script": true
       }
     }
   },
@@ -83,6 +135,7 @@
     "l_content_left_pPjq4W",
     "l_content_right_LryRzB",
     "l_content_left_CYXdHL",
-    "l_reveal_slider_VLT7q4"
+    "l_step_slider_j9haTQ",
+    "l_produkt_eggWD9"
   ]
 }
