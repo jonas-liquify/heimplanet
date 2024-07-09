@@ -22,19 +22,6 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-4-Season-7.jpg"
       }
     },
-    "l_hero_rBP8aj": {
-      "type": "l_hero",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-XL-4-Season-66-North-4-Season-Wide-Product_467ef9eb-ec9d-43dc-8d1a-8b365728a9e4.jpg"
-      }
-    },
     "l_gallery_iRNdJn": {
       "type": "l_gallery",
       "settings": {
@@ -92,7 +79,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero",
-    "l_hero_rBP8aj",
     "l_gallery_iRNdJn",
     "l_text_logos_jwzrrf",
     "l_content_left_kNPRTV",
