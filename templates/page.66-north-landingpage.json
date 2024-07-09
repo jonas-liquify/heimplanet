@@ -12,19 +12,52 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
+        "text_subline": "HEIMPLANET X 66°NORTH",
+        "text_headline": "THE CAVE XL 4-SEASON",
+        "textarea_longer_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-4-Season-7.jpg"
+      }
+    },
+    "l_hero_rBP8aj": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_longer_text": "",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-XL-4-Season-66-North-4-Season-Wide-Product_467ef9eb-ec9d-43dc-8d1a-8b365728a9e4.jpg"
+      }
+    },
+    "l_gallery_iRNdJn": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-The-Cave-XL-4-Season-66-North-4-Season-Wide-Product_467ef9eb-ec9d-43dc-8d1a-8b365728a9e4.jpg",
+        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-4-Season-26.jpg",
+        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-4-Season-3.jpg"
+      }
+    },
+    "l_text_logos_jwzrrf": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "HEIMPLANET X 66°NORTH",
+        "text_headline": "THE CAVE XL 4-SEASON",
+        "text_text": "Das Zelt wurde entwickelt und getestet, um allen Jahreszeiten in Island standzuhalten - einem Land, das für seine dramatischen Wetterbedingungen und Temperaturen bekannt ist. Seine überragende Stärke verdankt das The Cave XL 4-Season seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten und hochwertigen wetterfesten, langlebigen Materialien, die Wind, Schnee und Regen standhalten. Die leuchtend orange Farbe ist von den Schutzhütten im isländischen Hochland inspiriert und so konzipiert, dass sie sich von der isländischen Landschaft abhebt."
       }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero"
+    "l_hero",
+    "l_hero_rBP8aj",
+    "l_gallery_iRNdJn",
+    "l_text_logos_jwzrrf"
   ]
 }
