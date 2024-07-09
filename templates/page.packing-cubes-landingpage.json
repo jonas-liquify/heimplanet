@@ -106,10 +106,22 @@
           "settings": {
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-7.jpg"
           }
+        },
+        "produkt_slider_DrBMEE": {
+          "type": "produkt-slider",
+          "settings": {
+          }
+        },
+        "produkt_slider_Kk3qgH": {
+          "type": "produkt-slider",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "produkt_slider_KiwGwA"
+        "produkt_slider_KiwGwA",
+        "produkt_slider_DrBMEE",
+        "produkt_slider_Kk3qgH"
       ],
       "settings": {
         "text_headline": "Packing Cubes, Re-Store Edition",
@@ -117,7 +129,8 @@
         "text_preis": "39€",
         "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
         "text_button_text": "Jetzt bestellen",
-        "url_produkt_link": ""
+        "url_produkt_link": "",
+        "checkbox_swiper_script": true
       }
     }
   },
