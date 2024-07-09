@@ -50,6 +50,30 @@
         "text_headline": "THE CAVE XL 4-SEASON",
         "text_text": "Das Zelt wurde entwickelt und getestet, um allen Jahreszeiten in Island standzuhalten - einem Land, das für seine dramatischen Wetterbedingungen und Temperaturen bekannt ist. Seine überragende Stärke verdankt das The Cave XL 4-Season seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten und hochwertigen wetterfesten, langlebigen Materialien, die Wind, Schnee und Regen standhalten. Die leuchtend orange Farbe ist von den Schutzhütten im isländischen Hochland inspiriert und so konzipiert, dass sie sich von der isländischen Landschaft abhebt."
       }
+    },
+    "l_content_left_kNPRTV": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "DAS ZELT",
+        "textarea_text": "Das Aufstellen unserer Zelte funktioniert intuitiv und folgt einem einfachen Prinzip: Ausrollen, aufblasen - fertig! Das Besondere: der aufblasbare Rahmen, Innen- und Außenzelt funktionieren als Einheit und müssen nicht zusammengebaut werden. Mit einer Pumpe lässt sich das Zelt in weniger als einer Minute aufstellen und bietet Platz für 3 Personen.",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-4-Season-27.jpg"
+      }
+    },
+    "l_content_right_ekDYjD": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-4-Season-6_49d47978-f764-4f87-90e5-2444cda860a1.jpg",
+        "text_headline": "GEODÄTISCHES PRINZIP",
+        "textarea_text": "Seine überragende Stärke verdankt das The Cave XL 4-Season seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten - hierdurch ist eine hervorragende Stabilität garantiert - auch bei starken Winden, Regen und Schnee!"
+      }
+    },
+    "l_content_left_9WJEQb": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "DAS MATERIAL",
+        "textarea_text": "Beim neuen Außenzeltstoff haben wir gezielt nach einem Material gesucht, das belastbarer aber auch leichter sein sollte, als bisher. Deshalb haben wir uns für ein High Tenacity Polyester mit 40D Garnstärke entschieden und eine Double Ripstop Konstruktion. High Tenacity Polyester Garn hat eine höhere Zugfestigkeit als reguläre Polyester Garne. Dementsprechend hat unser neuer Zeltstoff auch eine höhere Reißfestigkeit. Für uns ist Polyester nach wie vor - besonders mit einem High Tenacity Polyester Garn - der beste Zeltstoff für unsere Zeltkonstruktionen.",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-4-Season-17.jpg"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -58,6 +82,9 @@
     "l_hero",
     "l_hero_rBP8aj",
     "l_gallery_iRNdJn",
-    "l_text_logos_jwzrrf"
+    "l_text_logos_jwzrrf",
+    "l_content_left_kNPRTV",
+    "l_content_right_ekDYjD",
+    "l_content_left_9WJEQb"
   ]
 }
