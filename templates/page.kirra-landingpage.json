@@ -12,19 +12,77 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
+        "text_subline": "Neu",
+        "text_headline": "Kirra",
+        "textarea_longer_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent.jpg"
+      }
+    },
+    "l_gallery_YdPA6W": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-2.jpg",
+        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-1.jpg",
+        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-Kirra-Cairo-Camo-2022-6.jpg"
+      }
+    },
+    "l_text_logos_TCmCXK": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "CLASSIC, CAIRO CAMO & 4-SEASON",
+        "text_headline": "UNSER NEUES MODELL",
+        "text_text": "Kirra ist unser neues aufblasbares Zelt für 2 Personen mit viel Equipment. Dank seiner besonderen Rahmenstruktur überzeugt Kirra mit einem guten Gleichgewicht zwischen Komfort und Effizienz."
+      }
+    },
+    "l_content_left_pPjq4W": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "MEHR PLATZ",
+        "textarea_text": "Dank einer neuen Variante unseres Inflatable Diamond Grid (IDG) konnten wir effizienter mit den Streben des Airframes umgehen. Dies führt zu einem stabilen Zelt mit weniger Gewicht. Bei einer Grundfläche von 5,2 m² (Innenzelt 4,2 m²) wiegt Kirra nur 3,8 kg.",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Cairo-Camo-Lifestyle-1.jpg"
+      }
+    },
+    "l_content_right_LryRzB": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-New-Colorway-1.jpg",
+        "text_headline": "COLORWAYS",
+        "textarea_text": "Das Kirra hat eine neue & einheitliche Farbgestaltung. Beim Innenzelt setzen wir ein schwarzes Mesh ein, das besser mit dem neuen Farbkonzept harmonisiert. Bei den Airframes haben wir ebenfalls die Farbe vereinheitlicht, so dass alle nun in einem sehr dunklen Anthrazit gehalten sind, das perfekt zu allen drei Farbwegen passt. Kirra ist jetzt in drei Farben erhältlich: Classic (Light Grey), 4-Season (Dark Red) & Cairo Camo (Signature Pattern)."
+      }
+    },
+    "l_content_left_CYXdHL": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "LUFTZIRKULATION",
+        "textarea_text": "Der Kirra verfügt über eine gut durchdachte Belüftung mit 4 verstellbaren Luftöffnungen. Die Form des Kirra trägt wesentlich zur Luftzirkulation bei. Zwei untere Öffnungen sorgen für die Luftzufuhr und zwei obere Öffnungen für die Luftabfuhr des Zeltes. Die unteren und oberen Belüftungsöffnungen können in beliebigem Umfang geöffnet werden.",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-Detail-1.jpg"
+      }
+    },
+    "l_reveal_slider_VLT7q4": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "3 VARIANTEN",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_vorher": "This is some text inside of a div block.",
+        "text_nachher": "This is some text inside of a div block.",
+        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-2022-12_bf1a3606-e953-4f73-8c7c-e7c1b98347f1.jpg",
+        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Kirra-4-Season-2022-1_e00dba41-cae2-4396-a6cd-68e53a2d2e77.jpg"
       }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero"
+    "l_hero",
+    "l_gallery_YdPA6W",
+    "l_text_logos_TCmCXK",
+    "l_content_left_pPjq4W",
+    "l_content_right_LryRzB",
+    "l_content_left_CYXdHL",
+    "l_reveal_slider_VLT7q4"
   ]
 }

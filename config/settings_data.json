@@ -59,6 +59,8 @@
           "nav_link_kdXCQ6"
         ],
         "settings": {
+          "url_storefinder_link": "",
+          "text_storefinder": "Storefinder",
           "collection_bestseller": "",
           "collection_bestseller_limit": 6
         }
@@ -74,7 +76,7 @@
       "l_header": {
         "type": "l_header",
         "settings": {
-          "url_button_url": "shopify:\/\/products\/the-cave-x-maharishi-limited-edition",
+          "url_button_url": "shopify:\/\/products\/kirra-classic",
           "text_button_text": "Jetzt Bestellen"
         }
       }
