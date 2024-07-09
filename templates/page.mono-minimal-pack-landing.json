@@ -34,12 +34,56 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "MIXED VS MONO MATERIAL",
+        "text_headline": "",
         "textarea_longer_text": "",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack_ocean_blue-Dots-2.jpg"
+      }
+    },
+    "l_grid_QKBzRE": {
+      "type": "l_grid",
+      "blocks": {
+        "item_N8NE9x": {
+          "type": "item",
+          "settings": {
+            "text_headline": "Common Material",
+            "text_text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.",
+            "text_zahl": "0%",
+            "text_zahl_text": "RecyclableAfter Use"
+          }
+        },
+        "item_LPdkap": {
+          "type": "item",
+          "settings": {
+            "text_headline": "Common Material",
+            "text_text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.",
+            "text_zahl": "0%",
+            "text_zahl_text": "RecyclableAfter Use"
+          }
+        },
+        "item_DLWPzA": {
+          "type": "item",
+          "settings": {
+            "text_headline": "Common Material",
+            "image_icon": "shopify:\/\/shop_images\/mono-material_endless_black_icon_006cef39-4916-454d-9acf-1bf419a14334.png",
+            "text_text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.",
+            "text_zahl": "0%",
+            "text_zahl_text": "RecyclableAfter Use"
+          }
+        }
+      },
+      "block_order": [
+        "item_N8NE9x",
+        "item_LPdkap",
+        "item_DLWPzA"
+      ],
+      "settings": {
+        "text_headline": "Mixed VS. Mono Material",
+        "text_mixed_material": "Mixed Material",
+        "text_mono_material": "Mono Material"
       }
     },
     "l_text_logos_AKFc7q": {
@@ -170,6 +214,25 @@
         "text_headline": "Mono Dyecoshell",
         "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
       }
+    },
+    "l_dropdowns_xNJp8M": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_f7YHEE": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen & Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_f7YHEE"
+      ],
+      "settings": {
+        "text_headline": "Mono Dyecoshell",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -178,6 +241,7 @@
     "l_hero",
     "l_text_logos_VMEtyH",
     "l_hero_QNWRAf",
+    "l_grid_QKBzRE",
     "l_text_logos_AKFc7q",
     "l_hero_ipwcRq",
     "l_text_logos_dUJRtJ",
@@ -185,6 +249,7 @@
     "l_produkt_fkQtaR",
     "content_image_Ud8NPx",
     "l_grid_7ewPz9",
-    "l_dropdowns_YeDrRR"
+    "l_dropdowns_YeDrRR",
+    "l_dropdowns_xNJp8M"
   ]
 }
