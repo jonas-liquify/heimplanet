@@ -152,6 +152,7 @@
     },
     "l_gallery_MgmqQN": {
       "type": "l_gallery",
+      "disabled": true,
       "settings": {
         "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-2.jpg",
         "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-5.jpg",
@@ -161,13 +162,25 @@
     "l_produkt_fkQtaR": {
       "type": "l_produkt",
       "settings": {
-        "text_headline": "Bags+Backpacks",
+        "text_headline": "Mono Series Minimal Pack",
         "textarea_beschreibung": "",
         "text_preis": "129€",
         "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
-        "text_button_text": "Jetzt vorbestellen",
+        "text_button_text": "Jetzt bestellen",
         "url_produkt_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
         "checkbox_swiper_script": true
+      }
+    },
+    "content_image_jmaGYj": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Medium length heading goes here",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack-Teaser-2.jpg"
       }
     }
   },
@@ -183,6 +196,7 @@
     "l_hero_ipwcRq",
     "l_text_logos_dUJRtJ",
     "l_gallery_MgmqQN",
-    "l_produkt_fkQtaR"
+    "l_produkt_fkQtaR",
+    "content_image_jmaGYj"
   ]
 }
