@@ -64,6 +64,17 @@
     },
     "l_produkt_4Y6dwp": {
       "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_RhgYPH": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-3-Product.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_RhgYPH"
+      ],
       "settings": {
         "text_headline": "SOLD OUT: THE CAVE XL (4-SEASON) - 66°NORTH LIMITED EDITION",
         "textarea_beschreibung": "",

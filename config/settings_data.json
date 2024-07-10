@@ -76,8 +76,8 @@
       "l_header": {
         "type": "l_header",
         "settings": {
-          "url_button_url": "shopify:\/\/products\/kirra-classic",
-          "text_button_text": "Jetzt Bestellen"
+          "url_button_url": "shopify:\/\/collections\/zelte",
+          "text_button_text": "Zu den Zelten"
         }
       }
     },
