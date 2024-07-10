@@ -152,6 +152,29 @@
         "textarea_text": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-6.jpg"
       }
+    },
+    "l_produkt_Vft7Dw": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_3KYKPL": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-1_bf312372-86c2-4eae-a94b-52defb38bd32.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_3KYKPL"
+      ],
+      "settings": {
+        "text_headline": "KIRRA, WTAPS EDITION",
+        "textarea_beschreibung": "",
+        "text_preis": "1.049€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Jetzt bestellen",
+        "url_produkt_link": "shopify:\/\/products\/kirra-x-wtaps",
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "page.landingpage",
@@ -162,6 +185,7 @@
     "l_text_logos_WYDVXE",
     "l_content_left_K6tA6y",
     "l_content_right_MzQaLt",
-    "l_content_left_dD3iJ6"
+    "l_content_left_dD3iJ6",
+    "l_produkt_Vft7Dw"
   ]
 }
