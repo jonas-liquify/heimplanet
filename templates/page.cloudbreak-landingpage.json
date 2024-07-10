@@ -12,19 +12,87 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
+        "text_subline": "3. BATCH COMING SOON",
+        "text_headline": "CLOUDBREAK",
+        "textarea_longer_text": "Benannt nach einer großen Welle auf den Fiji-Inseln, ist das Cloudbreak ein zuverlässiges, flexibles und einfach zu nutzendes Zelt für Gruppen-, Familiencamping und Overlanding. Cloudbreak - der Mittelpunkt deiner Abenteuer.",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-1.jpg"
+      }
+    },
+    "l_hero_pwTxaV": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_longer_text": "",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-1-1.jpg"
+      }
+    },
+    "l_slider_nzYwHp": {
+      "type": "l_slider",
+      "blocks": {
+        "slider_amrGHh": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-6.jpg"
+          }
+        },
+        "slider_nt9kJH": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-8.jpg"
+          }
+        },
+        "slider_rrTgVL": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-11.jpg"
+          }
+        },
+        "slider_rf8GYF": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-14.jpg"
+          }
+        },
+        "slider_8rXKiK": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-9.jpg"
+          }
+        },
+        "slider_rCiPgG": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-10.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slider_amrGHh",
+        "slider_nt9kJH",
+        "slider_rrTgVL",
+        "slider_rf8GYF",
+        "slider_8rXKiK",
+        "slider_rCiPgG"
+      ],
+      "settings": {
+        "checkbox_swiper_script": true
       }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero"
+    "l_hero",
+    "l_hero_pwTxaV",
+    "l_slider_nzYwHp"
   ]
 }
