@@ -101,11 +101,32 @@
           "settings": {
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-2024-5.jpg"
           }
+        },
+        "fact_YGT4my": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Gruppen- und Familiencamping"
+          }
+        },
+        "fact_9dajdf": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Für bis zu 4 Personen"
+          }
+        },
+        "fact_8Pk4y6": {
+          "type": "fact",
+          "settings": {
+            "text_text": "2 große Eingänge"
+          }
         }
       },
       "block_order": [
         "produkt_slider_jgJiUx",
-        "produkt_slider_GBNbVV"
+        "produkt_slider_GBNbVV",
+        "fact_YGT4my",
+        "fact_9dajdf",
+        "fact_8Pk4y6"
       ],
       "settings": {
         "text_headline": "Cloudbreak",
