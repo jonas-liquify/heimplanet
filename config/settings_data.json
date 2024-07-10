@@ -67,10 +67,38 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "facts_eree39": {
+            "type": "facts",
+            "settings": {
+              "url_fact_link": "",
+              "text_fact": "1% for the Planet"
+            }
+          },
+          "facts_awDEGd": {
+            "type": "facts",
+            "settings": {
+              "url_fact_link": "",
+              "text_fact": "Lebenslange Garantie"
+            }
+          },
+          "facts_J9ehLG": {
+            "type": "facts",
+            "settings": {
+              "url_fact_link": "",
+              "text_fact": "Re-Store Programm"
+            }
+          }
+        },
+        "block_order": [
+          "facts_eree39",
+          "facts_awDEGd",
+          "facts_J9ehLG"
+        ],
         "settings": {
-          "text_newsletter_headline": "Become a Member of the Heimplanet Community and get awesome benefits",
-          "url_button_link": "",
-          "text_button_text": "Button"
+          "text_newsletter_headline": "WERDE TEIL DER COMMUNITY",
+          "url_button_link": "shopify:\/\/pages\/newsletter",
+          "text_button_text": "Jetzt anmelden"
         }
       },
       "l_header": {
