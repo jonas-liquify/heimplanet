@@ -88,12 +88,20 @@
               "url_fact_link": "",
               "text_fact": "Re-Store Programm"
             }
+          },
+          "newsletter_facts_niNGVT": {
+            "type": "newsletter-facts",
+            "settings": {
+              "url_fact_link": "",
+              "text_fact": "10% Gutschein für Newsletter Anmeldung"
+            }
           }
         },
         "block_order": [
           "facts_eree39",
           "facts_awDEGd",
-          "facts_J9ehLG"
+          "facts_J9ehLG",
+          "newsletter_facts_niNGVT"
         ],
         "settings": {
           "text_newsletter_headline": "WERDE TEIL DER COMMUNITY",
