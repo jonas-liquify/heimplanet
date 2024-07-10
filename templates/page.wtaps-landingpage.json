@@ -18,13 +18,150 @@
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-Edition-4-1.jpg"
+      }
+    },
+    "l_gallery_kkUYFT": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-Edition-1-2.jpg",
+        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-Edition-7-1.jpg",
+        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-Edition-6-1.jpg"
+      }
+    },
+    "l_text_logos_WYDVXE": {
+      "type": "l_text_logos",
+      "blocks": {
+        "logo_qNUJTe": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Logo-24.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_qNUJTe"
+      ],
+      "settings": {
+        "text_subline": "HEIMPLANET X WTAPS",
+        "text_headline": "Kirra",
+        "text_text": "KIRRA x WTAPS: Die Designs von WTAPS sind inspiriert von urbaner Kultur - Kirra ist unser aufblasbares Zelt für 2 Personen mit viel Ausstattung. Dank seiner speziellen Rahmenstruktur bietet Kirra ein gutes Gleichgewicht zwischen Komfort und Effizienz. Das geodätische Prinzip macht das Zelt besonders sturmsicher. Das aufblasbare Diamond Grid (IDG) garantiert nicht nur Stabilität, sondern auch einen intuitiven und einfachen Aufbau, damit Sie das Beste aus Ihrem Ausflug herausholen können."
+      }
+    },
+    "l_content_left_K6tA6y": {
+      "type": "l_content_left",
+      "blocks": {
+        "item_YJ3Mzz": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/309042_group_users_people_icon_328e930a-0021-4c0f-baef-bb2e6fe16fc4.png",
+            "text_text": "Zelt für 2 Personen"
+          }
+        },
+        "item_QbrcwA": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/23-05-11_Icon_Transit2.png",
+            "text_text": "Viel Platz mit kleinem Packmass"
+          }
+        },
+        "item_zxCrhF": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/23-05-11_Icon_Transit4.png",
+            "text_text": "Highlight: Kein Erstaufbau notwendig"
+          }
+        },
+        "item_YaGrAR": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/23-05-11_Icon_Carry_Essentials3.png",
+            "text_text": "Velcro Patch"
+          }
+        },
+        "item_w864Ee": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/23-05-11_Icon_Motion4.png",
+            "text_text": "11 Prints"
+          }
+        }
+      },
+      "block_order": [
+        "item_YJ3Mzz",
+        "item_QbrcwA",
+        "item_zxCrhF",
+        "item_YaGrAR",
+        "item_w864Ee"
+      ],
+      "settings": {
+        "text_headline": "KIRRA, WTAPS edition",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-1_bf312372-86c2-4eae-a94b-52defb38bd32.jpg"
+      }
+    },
+    "l_content_right_MzQaLt": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-6.jpg",
+        "text_headline": "Inklusive WTAPS Pumpe",
+        "textarea_text": "Unsere Doppelhubpumpe ist die perfekte Ergänzung zur Kirra, WTAPS Edition. Es genügen wenige Pumpenhübe, um das Zelt aufzustellen. Im Gegensatz zu den meisten anderen Pumpen ist diese Pumpe mit einem Aluminiumkolben ausgestattet, der eine lange Lebensdauer und eine stabile Handhabung ermöglicht. <b>Die Pumpe ist erstmals im Lieferumfang enthalten.<\/b>"
+      }
+    },
+    "l_content_left_dD3iJ6": {
+      "type": "l_content_left",
+      "blocks": {
+        "item_KMHyDd": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "text_text": "Geodätisches Prinzip"
+          }
+        },
+        "item_QGmVR4": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "text_text": "Patentiertes Mehrkammer-Sicherheitssystem"
+          }
+        },
+        "item_jCnXFD": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "text_text": "Doppellagiger Luftrahmen"
+          }
+        },
+        "item_pM9Ce3": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "text_text": "Stabil & widerstandsfähig"
+          }
+        }
+      },
+      "block_order": [
+        "item_KMHyDd",
+        "item_QGmVR4",
+        "item_jCnXFD",
+        "item_pM9Ce3"
+      ],
+      "settings": {
+        "text_headline": "Zelt Technologie",
+        "textarea_text": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-6.jpg"
       }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero"
+    "l_hero",
+    "l_gallery_kkUYFT",
+    "l_text_logos_WYDVXE",
+    "l_content_left_K6tA6y",
+    "l_content_right_MzQaLt",
+    "l_content_left_dD3iJ6"
   ]
 }
