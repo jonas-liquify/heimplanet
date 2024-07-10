@@ -23,12 +23,12 @@
     "jobs": {
       "type": "jobs",
       "settings": {
-        "text_headline": "Karriere &amp; Jobs",
-        "text_button_text": "Mehr davon",
-        "url_button_link": "",
-        "text_kategorie": "Operations",
+        "text_headline": "Karriere & Jobs",
+        "text_button_text": "Mehr erfahren",
+        "url_button_link": "shopify:\/\/pages\/uber-uns",
+        "text_kategorie": "",
         "text_initiativ_bewerbung": "Kein passender Job dabei? Bewirb dich gerne Iniativ",
-        "url_button_link_1": "",
+        "url_button_link_1": "mailto:jobs@heimplanet.com",
         "text_button_text_1": "Initiativbewerbung"
       }
     },
