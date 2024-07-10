@@ -36,6 +36,11 @@
       ],
       "settings": {
       }
+    },
+    "l_html_text_HEAP7j": {
+      "type": "l_html_text",
+      "settings": {
+      }
     }
   },
   "layout": "page.landingpage",
@@ -43,6 +48,7 @@
   "order": [
     "l_header_EcAdzc",
     "l_hero",
-    "l_html_text_LFf6CG"
+    "l_html_text_LFf6CG",
+    "l_html_text_HEAP7j"
   ]
 }

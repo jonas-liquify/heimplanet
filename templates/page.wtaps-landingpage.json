@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "l_header_Y3FV4c": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "shopify:\/\/collections\/zelte",
+        "text_button_text": "Zelte entdecken"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
@@ -180,6 +187,7 @@
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_Y3FV4c",
     "l_hero",
     "l_gallery_kkUYFT",
     "l_text_logos_WYDVXE",
