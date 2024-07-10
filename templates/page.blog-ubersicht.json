@@ -65,12 +65,18 @@
       "settings": {
         "text_headline": "Kategorien"
       }
+    },
+    "blog_articles_qjU4KQ": {
+      "type": "blog_articles",
+      "settings": {
+      }
     }
   },
   "layout": "page.blog-ubersicht",
   "wrapper": "main.main-wrapper",
   "order": [
     "collection_hero",
-    "blog_kategorien"
+    "blog_kategorien",
+    "blog_articles_qjU4KQ"
   ]
 }
