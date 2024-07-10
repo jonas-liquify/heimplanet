@@ -50,7 +50,12 @@
             this._abortController = null;
         },
         toggleMiniCart() {
+            console.log('toggleMiniCart called (minicart.js)');
+
+            LiquifyHelper.handleTriggerClick();
+
             this.getCart();
+            // @todo: check if the change of this.open can be removed.
             this.open = !this.open;
         },
 
