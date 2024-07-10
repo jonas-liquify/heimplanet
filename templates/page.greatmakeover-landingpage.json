@@ -168,6 +168,13 @@
         "url_produkt_link": "shopify:\/\/collections\/zelte",
         "checkbox_swiper_script": true
       }
+    },
+    "l_header_XGWc68": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "shopify:\/\/collections\/zelte",
+        "text_button_text": "Zelte entdecken"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -181,6 +188,7 @@
     "l_content_left_7AWTxD",
     "l_step_slider_JERCak",
     "l_slider_dLA6Cc",
-    "l_produkt_wptYer"
+    "l_produkt_wptYer",
+    "l_header_XGWc68"
   ]
 }
