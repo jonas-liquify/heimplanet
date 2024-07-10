@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "l_header_wcRar9": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "",
+        "text_button_text": "Button Text"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
@@ -194,11 +201,18 @@
         "text_button_text_2": "Button",
         "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack-Teaser-2.jpg"
       }
+    },
+    "l_html_text_fVcPMm": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "<h2>What’s a Rich Text element?<\/h2>\n              <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.<\/p>\n              <h4>Static and dynamic content editing<\/h4>\n              <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any <\/p>"
+      }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_wcRar9",
     "l_hero",
     "l_text_logos_VMEtyH",
     "l_hero_QNWRAf",
@@ -209,6 +223,7 @@
     "l_text_logos_dUJRtJ",
     "l_gallery_MgmqQN",
     "l_produkt_fkQtaR",
-    "content_image_jmaGYj"
+    "content_image_jmaGYj",
+    "l_html_text_fVcPMm"
   ]
 }
