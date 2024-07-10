@@ -83,6 +83,9 @@
         "slider_8rXKiK",
         "slider_rCiPgG"
       ],
+      "custom_css": [
+        "{background-color: black; color: #000000;}"
+      ],
       "settings": {
         "checkbox_swiper_script": true
       }
@@ -127,6 +130,9 @@
         "fact_YGT4my",
         "fact_9dajdf",
         "fact_8Pk4y6"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "text_headline": "Cloudbreak",
