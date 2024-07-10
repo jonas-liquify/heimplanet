@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "l_header_mBXb3d": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "shopify:\/\/pages\/kirra",
+        "text_button_text": "Jetzt shoppen"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
@@ -140,6 +147,7 @@
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_mBXb3d",
     "l_hero",
     "l_gallery_YdPA6W",
     "l_text_logos_TCmCXK",
