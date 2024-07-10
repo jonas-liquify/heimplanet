@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "l_header_RnJyxJ": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "",
+        "text_button_text": "Button Text"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
@@ -19,7 +26,7 @@
         "url_button_link": "",
         "text_button_text_2": "",
         "url_button_link_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Supreme-The-Cave-XL-Edition-Spring-Summer-2024.jpg"
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Tesla-Cybertruck-Basecamp-Tent-2023-Landing-4.jpg"
       }
     },
     "l_html_text_LFf6CG": {
@@ -28,13 +35,14 @@
 
       ],
       "settings": {
-        "html_richtext": "<h2>HEIMPLANET x Supreme® THE CAVE XL<\/h2>\n<p>Die Supreme® Edition des The Cave XL ist exklusiv bei Supreme erhältlich.<\/p>\n<br><br><br>\n<img alt=\"Heimplanet x Supreme\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Supreme-The-Cave-XL-Blue-Camo-8.jpg?v=1716446067\">\n<br><br><br>\n\n<img alt=\"Heimplanet x Supreme\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Supreme-The-Cave-XL-Blue-Camo-11.jpg?v=1716446067\">\n<br><br><br>\n\n<img alt=\"Heimplanet x Supreme\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Supreme-The-Cave-XL-Blue-Camo-13.jpg?v=1716446067\">\n<br><br><br>\n\n<img alt=\"Heimplanet x Supreme - The Cave XL\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Supreme-The-Cave-XL-Blue-Camo-12.jpg?v=1716446068\">\n<br><br><br>\n\n\n\nAlle Infos zum <u><a target=\"_blank\" href=\"\/products\/the-cave-xl-cairo-camo\">The Cave XL<\/a><\/u>!\n\n<br><br><br><br><br><br>"
+        "html_richtext": "<video controls=\"controls\" style=\"max-width: 100%; height: auto;\">\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e4528bfabd7941c7b1f92e7df818c0c4.mp4\" type=\"video\/mp4\">\nNicht unterstützt.\n<\/source><\/video>\n<br><br><br>\n<br>Nimm dein persönliches Basecamp mit auf die Reise! Mit seinem ultraleichten, <u><a href=\"\/blogs\/designraum\/zelttechnik\" target=\"_blank\">geodätischen Luftrahmen<\/a><\/u>\n lässt sich das Cybertruck Basecamp Zelt mit einer Handpumpe in wenigen Minuten ausblasen, ohne dass Zeltstangen erforderlich sind.\n<br><br><br>\n<img alt=\"Heimplanet Tesla Cybertruck Basecamp\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Tesla-Cybertruck-Basecamp-Tent-5-Slim.jpg?v=1701417746\">\n<br><br><br>\nDas grau \n\n<u><a href=\"\/blogs\/projekte\/cairo-camo-pattern\" target=\"_blank\">gemusterte Nylon Innenzelt<\/a><\/u>\n schützt Dich vor den Elementen, während die Sichtfenster für eine angenehme Luftzirkulation sorgen. \n<br><br><br>\n<img alt=\"Heimplanet Tesla Cybertruck Basecamp\" src='https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Tesla-Cybertruck-Basecamp-Tent-6-Slim.jpg?v=1701417746\"'>\n<br><br><br>\n\nEntspanne Dich auf einer bequemen Matratze und genieße den Blick auf die Sterne. Nutze die Steckdose der Ladefläche um Geräte aufzuladen (auch wenn Du nicht an den Landstrom angeschlossen bist). Ein wetterfestes Außenzelt mit ausfahrbarem Vordach bietet zusätzlichen Schutz.\n<br><br><br>\n\n<img alt=\"Heimplanet Tesla Cybertruck Basecamp\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Tesla-Cybertruck-Basecamp-Tent-7-Slim.jpg?v=1701417745\">\n<br><br><br>\n\nDas vollständig zusammenklappbare, in sich geschlossene Paket wird oberhalb der Ladefläche montiert, um Stauraum auf der Ladefläche und Reichweite zu sparen. Aktiviere den Zeltmodus auf dem Touchscreen des Tesla Cybertrucks um Dein Campingerlebnis zu beginnen.\n\n\n<br><br><br>\n\n<video controls=\"controls\" style=\"max-width: 100%; height: auto;\">\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/461fc88608a847ab956f5ee989beb267.mp4\" type=\"video\/mp4\">\nNicht unterstützt.\n<\/source><\/video>\n<br><br><br>\n\n<b>Weitere Informationen:<u> <a href=\"https:\/\/shop.tesla.com\/product\/cybertruck-basecamp\" target=\"_blank\">tesla.com<\/a><\/u><\/b>\n<br><br><br>\n<img alt=\"Heimplanet Tesla Cybertruck Basecamp\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Tesla-Cybertruck-Basecamp-Tent-8-slim.jpg?v=1701423804\">\n<br><br><br>\nBilder &amp; Video: © Tesla, Inc."
       }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_RnJyxJ",
     "l_hero",
     "l_html_text_LFf6CG"
   ]
