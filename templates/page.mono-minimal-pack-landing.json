@@ -161,6 +161,17 @@
     },
     "l_produkt_fkQtaR": {
       "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_EnBQGi": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/HEIMPLANET-Mono-Series-Minimal-Pack-Ocean-Blue-01.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_EnBQGi"
+      ],
       "settings": {
         "text_headline": "Mono Series Minimal Pack",
         "textarea_beschreibung": "",
