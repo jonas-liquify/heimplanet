@@ -66,9 +66,13 @@
         "text_headline": "Kategorien"
       }
     },
-    "blog_articles_qjU4KQ": {
-      "type": "blog_articles",
+    "blog_artikel_UKUjUa": {
+      "type": "blog_artikel",
       "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
       }
     }
   },
@@ -77,6 +81,6 @@
   "order": [
     "collection_hero",
     "blog_kategorien",
-    "blog_articles_qjU4KQ"
+    "blog_artikel_UKUjUa"
   ]
 }
