@@ -1,0 +1,41 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "l_hero": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_longer_text": "",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "",
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Supreme-The-Cave-XL-Edition-Spring-Summer-2024.jpg"
+      }
+    },
+    "l_html_text_LFf6CG": {
+      "type": "l_html_text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "html_richtext": "<h2>HEIMPLANET x Supreme® THE CAVE XL<\/h2>\n<p>Die Supreme® Edition des The Cave XL ist exklusiv bei Supreme erhältlich.<\/p>\n<br><br><br>\n<img alt=\"Heimplanet x Supreme\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Supreme-The-Cave-XL-Blue-Camo-8.jpg?v=1716446067\">\n<br><br><br>\n\n<img alt=\"Heimplanet x Supreme\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Supreme-The-Cave-XL-Blue-Camo-11.jpg?v=1716446067\">\n<br><br><br>\n\n<img alt=\"Heimplanet x Supreme\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Supreme-The-Cave-XL-Blue-Camo-13.jpg?v=1716446067\">\n<br><br><br>\n\n<img alt=\"Heimplanet x Supreme - The Cave XL\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0533\/4738\/5504\/files\/Heimplanet-Supreme-The-Cave-XL-Blue-Camo-12.jpg?v=1716446068\">\n<br><br><br>\n\n\n\nAlle Infos zum <u><a target=\"_blank\" href=\"\/products\/the-cave-xl-cairo-camo\">The Cave XL<\/a><\/u>!\n\n<br><br><br><br><br><br>"
+      }
+    }
+  },
+  "layout": "page.landingpage",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_hero",
+    "l_html_text_LFf6CG"
+  ]
+}
