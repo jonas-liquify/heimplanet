@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "l_header_gc6GQJ": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "shopify:\/\/products\/the-cave-x-maharishi-limited-edition",
+        "text_button_text": "Jetzt shoppen"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
@@ -69,6 +76,7 @@
         "slider_j6rUwq"
       ],
       "settings": {
+        "checkbox_swiper_script": true
       }
     },
     "l_produkt_AkHA7K": {
@@ -89,14 +97,16 @@
         "textarea_beschreibung": "<br>Das aufblasbare Zelt in limitierter Auflage, das die Ästhetik von Maharishi mit dem Zeltdesign von HEIMPLANET verbindet, ist perfekt für 2-3 Personen. Für die Zusammenarbeit hat Maharishi ein besonderes DPM ausgewählt: Golden Tigerstripe Camouflage - eine Reproduktion eines seltenen vietnamesischen Tigerstripe Musters ist.",
         "text_preis": "€1.149,00",
         "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
-        "text_button_text": "ZUM ZELT",
-        "url_produkt_link": "shopify:\/\/products\/the-cave-x-maharishi-limited-edition"
+        "text_button_text": "Jetzt shoppen",
+        "url_produkt_link": "shopify:\/\/products\/the-cave-x-maharishi-limited-edition",
+        "checkbox_swiper_script": true
       }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_gc6GQJ",
     "l_hero",
     "l_content_left_MzcQcD",
     "l_reveal_slider_b4qbGK",
