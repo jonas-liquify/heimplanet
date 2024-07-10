@@ -86,6 +86,36 @@
       "settings": {
         "checkbox_swiper_script": true
       }
+    },
+    "l_produkt_HUW8FT": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_jgJiUx": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-4-2024_8e07354a-0559-4f25-97a7-5857a88358df.jpg"
+          }
+        },
+        "produkt_slider_GBNbVV": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-2024-5.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_jgJiUx",
+        "produkt_slider_GBNbVV"
+      ],
+      "settings": {
+        "text_headline": "Cloudbreak",
+        "textarea_beschreibung": "<br>\n1. BATCH: AUSVERKAUFT <br>\n2. BATCH: AUSVERKAUFT<br>\n<b>3. BATCH: VORBESTELLBAR <\/b>(Versand: September 2024)<br>\n\n<br><br>",
+        "text_preis": "2.749€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Zum Cloudbreak",
+        "url_produkt_link": "shopify:\/\/products\/cloudbreak-classic",
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "page.landingpage",
@@ -93,6 +123,7 @@
   "order": [
     "l_hero",
     "l_hero_pwTxaV",
-    "l_slider_nzYwHp"
+    "l_slider_nzYwHp",
+    "l_produkt_HUW8FT"
   ]
 }
