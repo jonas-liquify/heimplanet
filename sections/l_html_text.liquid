@@ -9,5 +9,5 @@
                             </div>
             {% endif %}
 {% endfor %}
-</div><div class="text-rich-text text-color-white max-width-large w-richtext">{{ section.settings.html_html_richtext }} </div>
-</div></div> {% schema %} {"tag":"div","name":"l_html_text","class":"section_l-html","blocks":[{"name":"Logo","type":"logo","settings":[{"id":"image_logo","type":"image_picker","label":"Logo"}]}],"settings":[{"id":"html_richtext","type":"html","label":"Richtext","default":"\n              <h2>What\u2019s a Rich Text element?<\/h2>\n              <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.<\/p>\n              <h4>Static and dynamic content editing<\/h4>\n              <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any "}],"presets":[{"name":"l_html_text","category":"Liquify"}]} {% endschema %}
+</div><div li-object="section.settings.html" class="text-rich-text text-color-white max-width-large w-richtext">{{ section.settings.html }}</div><div class="li-schema w-embed"></div>
+</div></div> {% schema %} {"tag":"div","name":"l_html_text","class":"section_l-html","blocks":[{"name":"Logo","type":"logo","settings":[{"id":"image_logo","type":"image_picker","label":"Logo"}]}],"settings":[{"type":"html","id":"html","label":"HTML Text"}],"presets":[{"name":"l_html_text","category":"Liquify"}]} {% endschema %}
