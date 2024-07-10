@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "l_header_XGWc68": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "shopify:\/\/collections\/zelte",
+        "text_button_text": "Zelte entdecken"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
@@ -168,18 +175,12 @@
         "url_produkt_link": "shopify:\/\/collections\/zelte",
         "checkbox_swiper_script": true
       }
-    },
-    "l_header_XGWc68": {
-      "type": "l_header",
-      "settings": {
-        "url_button_url": "shopify:\/\/collections\/zelte",
-        "text_button_text": "Zelte entdecken"
-      }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_XGWc68",
     "l_hero",
     "l_gallery_tYcTY6",
     "l_text_logos_433nDz",
@@ -188,7 +189,6 @@
     "l_content_left_7AWTxD",
     "l_step_slider_JERCak",
     "l_slider_dLA6Cc",
-    "l_produkt_wptYer",
-    "l_header_XGWc68"
+    "l_produkt_wptYer"
   ]
 }
