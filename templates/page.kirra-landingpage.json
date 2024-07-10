@@ -115,6 +115,17 @@
     },
     "l_produkt_eggWD9": {
       "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_aVeH7F": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_aVeH7F"
+      ],
       "settings": {
         "text_headline": "Kirra",
         "textarea_beschreibung": "",
