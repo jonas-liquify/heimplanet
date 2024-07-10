@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "l_header_BWhBQX": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "shopify:\/\/products\/cloudbreak-classic",
+        "text_button_text": "Jetzt shoppen"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
@@ -148,6 +155,7 @@
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_BWhBQX",
     "l_hero",
     "l_hero_pwTxaV",
     "l_slider_nzYwHp",
