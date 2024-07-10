@@ -62,17 +62,6 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Cairo-Camo-Lifestyle-1.jpg"
       }
     },
-    "l_reveal_slider_kmwHAn": {
-      "type": "l_reveal_slider",
-      "settings": {
-        "text_headline": "Varianten",
-        "textarea_text": "",
-        "text_vorher": "3-Season",
-        "text_nachher": "4-Season",
-        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Kirra-4-Season-Tent-3.jpg",
-        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-Tent-3.jpg"
-      }
-    },
     "l_step_slider_JERCak": {
       "type": "l_step_slider",
       "blocks": {
@@ -112,7 +101,8 @@
         "feature_d3MdHK"
       ],
       "settings": {
-        "text_headline": "Details"
+        "text_headline": "Details",
+        "checkbox_swiper_script": true
       }
     },
     "l_slider_dLA6Cc": {
@@ -150,6 +140,7 @@
         "slider_q4X9r3"
       ],
       "settings": {
+        "checkbox_swiper_script": true
       }
     },
     "l_produkt_wptYer": {
@@ -171,7 +162,8 @@
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "Jetzt entdecken",
-        "url_produkt_link": "shopify:\/\/collections\/zelte"
+        "url_produkt_link": "shopify:\/\/collections\/zelte",
+        "checkbox_swiper_script": true
       }
     }
   },
@@ -184,7 +176,6 @@
     "l_content_left_ig6i93",
     "l_content_right_y8mUkG",
     "l_content_left_7AWTxD",
-    "l_reveal_slider_kmwHAn",
     "l_step_slider_JERCak",
     "l_slider_dLA6Cc",
     "l_produkt_wptYer"
