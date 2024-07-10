@@ -12,16 +12,36 @@
     "collection_hero": {
       "type": "collection_hero",
       "settings": {
+        "text_subline": "",
+        "text_headline": "Karriere",
+        "textarea_paragraph": "Was uns noch fehlt: Deine tatkräftige Unterstützung! Wir setzen uns leidenschaftlich für den Aufbau einer Kultur ein, in der Unterschiede wertgeschätzt werden.",
+        "url_button_link": "",
+        "text_button_text": "Jetzt entdecken",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Jobs-Karriere-2023.jpg"
       }
     },
     "jobs": {
       "type": "jobs",
       "settings": {
+        "text_headline": "Karriere &amp; Jobs",
+        "text_button_text": "Mehr davon",
+        "url_button_link": "",
+        "text_kategorie": "Operations",
+        "text_initiativ_bewerbung": "Kein passender Job dabei? Bewirb dich gerne Iniativ",
+        "url_button_link_1": "",
+        "text_button_text_1": "Initiativbewerbung"
       }
     },
     "content_image": {
       "type": "content_image",
       "settings": {
+        "text_headline": "Inspiriert von der Begeisterung des Reisens.",
+        "textarea_text": "Es gibt ein besonderes Wort, das nur im Deutschen existiert: Heimat. [ˈhaimaːt]",
+        "url_button_link": "shopify:\/\/collections\/zelte",
+        "text_button_text": "Zelte entdecken",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify:\/\/shop_images\/Heimpanet-Teaser-Website-The-Cave-XL.jpg"
       }
     }
   },
