@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "l_header_UeBxHF": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "shopify:\/\/products\/carry-essentials-packing-cubes-re-store-edition-set",
+        "text_button_text": "Jetzt shoppen"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
@@ -137,6 +144,7 @@
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_UeBxHF",
     "l_hero",
     "l_text_logos_iV7Cd4",
     "l_gallery_VCLFWU",
