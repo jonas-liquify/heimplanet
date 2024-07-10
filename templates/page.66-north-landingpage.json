@@ -9,6 +9,13 @@
 */
 {
   "sections": {
+    "l_header_BMxEye": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "shopify:\/\/collections\/zelte",
+        "text_button_text": "Zu den Zelten"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
@@ -89,6 +96,7 @@
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_BMxEye",
     "l_hero",
     "l_gallery_iRNdJn",
     "l_text_logos_jwzrrf",
