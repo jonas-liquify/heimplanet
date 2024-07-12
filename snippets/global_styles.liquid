@@ -1,5 +1,5 @@
 <style>[li-cloak_disabled="hide"]  { display: none !important; }
-   [x-cloak] { display: none !important; }
+  [x-cloak] { display: none !important; }
   html { font-size: 1.1rem; }
   @media screen and (max-width: 1920px) { html { font-size: calc(0.34375rem + 0.55vw); } }
   @media screen and (max-width: 1600px) { html { font-size: calc(0.01375rem + 0.99125vw); } }
@@ -182,5 +182,13 @@
   }
   .is-darken {
     mix-blend-mode: darken;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
 </style>
