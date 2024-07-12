@@ -6,8 +6,10 @@
 {% endif %}<div class="headline_trenner"></div><h1 class="heading-style-h1">
 {{ section.settings.text_headline }}
 </h1>
-<div class="headline_trenner"></div><div class="text-size-regular"> {{ section.settings.textarea_paragraph }} </div>
-{% if section.settings.url_button-link %}    <div li-if="section.settings.url_button-link" class="button_wrapper is-auto is-auto">
+<div class="headline_trenner"></div>{% if request.page_type == 'collection' %}    <div li-if="request.page_type == 'collection'">
+    <div li-object="collection.description" class="text-size-regular">{{ collection.description }}</div>    </div>
+{% endif %}<div><div class="text-size-regular"> {{ section.settings.textarea_paragraph }} </div>
+</div>{% if section.settings.url_button-link %}    <div li-if="section.settings.url_button-link" class="button_wrapper is-auto is-auto">
     <a class="button w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}</div><img class="hero_image"
