@@ -95,13 +95,40 @@
               "url_fact_link": "",
               "text_fact": "10% Gutschein für Newsletter Anmeldung"
             }
+          },
+          "lieferung_icon_CkhAzb": {
+            "type": "lieferung-icon",
+            "settings": {
+            }
+          },
+          "social_media_GcdYLX": {
+            "type": "social-media",
+            "settings": {
+              "url_social_link": ""
+            }
+          },
+          "social_media_MYENPV": {
+            "type": "social-media",
+            "settings": {
+              "url_social_link": ""
+            }
+          },
+          "social_media_EXxWDF": {
+            "type": "social-media",
+            "settings": {
+              "url_social_link": ""
+            }
           }
         },
         "block_order": [
           "facts_eree39",
           "facts_awDEGd",
           "facts_J9ehLG",
-          "newsletter_facts_niNGVT"
+          "newsletter_facts_niNGVT",
+          "lieferung_icon_CkhAzb",
+          "social_media_GcdYLX",
+          "social_media_MYENPV",
+          "social_media_EXxWDF"
         ],
         "settings": {
           "text_newsletter_headline": "WERDE TEIL DER COMMUNITY",

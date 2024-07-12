@@ -175,15 +175,6 @@
         "url_produkt_link": "shopify:\/\/collections\/zelte",
         "checkbox_swiper_script": true
       }
-    },
-    "l_reveal_slider_NdAxdk": {
-      "type": "l_reveal_slider",
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "text_vorher": "This is some text inside of a div block.",
-        "text_nachher": "This is some text inside of a div block."
-      }
     }
   },
   "layout": "page.landingpage",
@@ -198,7 +189,6 @@
     "l_content_left_7AWTxD",
     "l_step_slider_JERCak",
     "l_slider_dLA6Cc",
-    "l_produkt_wptYer",
-    "l_reveal_slider_NdAxdk"
+    "l_produkt_wptYer"
   ]
 }

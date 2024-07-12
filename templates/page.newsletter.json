@@ -9,15 +9,17 @@
 */
 {
   "sections": {
-    "default": {
-      "type": "default",
+    "newsletter_page_xjynPr": {
+      "type": "newsletter_page",
       "settings": {
+        "text_headline": "Newsletter",
+        "text_text": "Text"
       }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
-    "default"
+    "newsletter_page_xjynPr"
   ]
 }
