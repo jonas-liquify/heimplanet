@@ -1,48 +1,107 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "sections": {
-        "product_hero": {
-            "type": "product_hero"
-        },
-        "product_nav": {
-            "type": "product_nav"
-        },
-        "product_dots": {
-            "type": "product_dots"
-        },
-        "product_video": {
-            "type": "product_video"
-        },
-        "product_videos": {
-            "type": "product_videos"
-        },
-        "product_infos": {
-            "type": "product_infos"
-        },
-        "product_faq": {
-            "type": "product_faq"
-        },
-        "product_images": {
-            "type": "product_images"
-        },
-        "product_recommended": {
-            "type": "product_recommended"
-        },
-        "infos": {
-            "type": "infos"
-        }
+  "sections": {
+    "product_hero": {
+      "type": "product_hero",
+      "settings": {
+        "text_beschreibung": "Beschreibung anzeigen",
+        "text_lieferumfang": "Lieferumfang anzeigen",
+        "text_zubehoer": "Zubehör ergänzen"
+      }
     },
-    "layout": "product",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "product_hero",
-        "product_nav",
-        "product_dots",
-        "product_video",
-        "product_videos",
-        "product_infos",
-        "product_faq",
-        "product_images",
-        "product_recommended",
-        "infos"
-    ]
+    "product_nav": {
+      "type": "product_nav",
+      "settings": {
+        "text_detailinformationen": "Detailinformationen",
+        "text_bewertungen": "Bewertungen"
+      }
+    },
+    "product_dots": {
+      "type": "product_dots",
+      "settings": {
+      }
+    },
+    "product_video": {
+      "type": "product_video",
+      "settings": {
+      }
+    },
+    "product_videos": {
+      "type": "product_videos",
+      "settings": {
+        "text_headline": "Videos Ansehen"
+      }
+    },
+    "product_infos": {
+      "type": "product_infos",
+      "settings": {
+        "text_headline": "Detailinformationen",
+        "text_features": "Features",
+        "text_abmessung": "Abmessung",
+        "text_volumen": "Volumen",
+        "text_material": "Material",
+        "text_packmass": "Packmaß",
+        "text_gewicht": "Gewicht",
+        "text_grund": "Grundfläche",
+        "text_hohe_des_innzenzeltes": "Höhe des Innenzeltes",
+        "text_gesamthohe": "Gesamthöhe",
+        "text_zeltboden": "Zeltboden",
+        "text_innenzelt": "Innenzelt",
+        "text_aussenzelt": "Außenzelt",
+        "text_luftrahmen": "Luftrahmen",
+        "text_aufblaszeit": "Aufpumpzeit",
+        "text_button_text": "Mehr anzeigen",
+        "text_button_text_close": "Weniger Anzeigen",
+        "text_aussen": "Aussen"
+      }
+    },
+    "product_faq": {
+      "type": "product_faq",
+      "settings": {
+        "text_bewertungen": "Bewertungen",
+        "text_headline": "Häufige Fragen &amp; Antworten"
+      }
+    },
+    "product_images": {
+      "type": "product_images",
+      "settings": {
+      }
+    },
+    "product_recommended": {
+      "type": "product_recommended",
+      "settings": {
+        "text_headline": "Ähnliche Produkte"
+      }
+    },
+    "infos": {
+      "type": "infos",
+      "settings": {
+        "text_headline": "VIEL MEHR ALS NUR DETAILS. UNSERE BENEFITS:",
+        "image_icon": "shopify:\/\/shop_images\/icons8-aufgabenliste-96.png",
+        "textarea_text": "<br>\nWELTWEITER VERSAND\n<br><br>\nLEBENSLANGE GARANTIE\n\n<br><br>\nRE:STORE"
+      }
+    }
+  },
+  "layout": "product",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "product_hero",
+    "product_nav",
+    "product_dots",
+    "product_video",
+    "product_videos",
+    "product_infos",
+    "product_faq",
+    "product_images",
+    "product_recommended",
+    "infos"
+  ]
 }
