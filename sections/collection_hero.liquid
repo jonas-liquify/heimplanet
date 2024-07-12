@@ -6,7 +6,7 @@
 {% endif %}<div class="headline_trenner"></div><h1 class="heading-style-h1">
 {{ section.settings.text_headline }}
 </h1>
-<div class="headline_trenner"></div><div class="text-size-regular"> {{ section.settings.richtext_paragraph }} </div>
+<div class="headline_trenner"></div><div class="text-size-regular"> {{ section.settings.textarea_paragraph }} </div>
 {% if section.settings.url_button-link %}    <div li-if="section.settings.url_button-link" class="button_wrapper is-auto is-auto">
     <a class="button w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
     </div>
@@ -14,4 +14,4 @@
      src="{{ section.settings.image_bild | img_url: 'master' }}"
      alt="{{ section.settings.image_bild.alt }}"
      loading="lazy">
-</div></div></div> {% schema %} {"tag":"section","name":"collection_hero","class":"section_small-hero background-color-grey","settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Home \/ Kategorie \/ Zelte"},{"id":"text_headline","type":"text","label":"Headline","default":"Bags+<br\/>Backpacks"},{"id":"richtext_paragraph","type":"richtext","label":"Paragraph","default":"<p>Home Kategorie Zelte<\/p>"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt entdecken"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"collection_hero","category":"Liquify"}]} {% endschema %}
+</div></div></div> {% schema %} {"tag":"section","name":"collection_hero","class":"section_small-hero background-color-grey","settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Home \/ Kategorie \/ Zelte"},{"id":"text_headline","type":"text","label":"Headline","default":"Bags+<br\/>Backpacks"},{"id":"textarea_paragraph","type":"textarea","label":"Paragraph","default":"Home Kategorie Zelte"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt entdecken"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"collection_hero","category":"Liquify"}]} {% endschema %}
