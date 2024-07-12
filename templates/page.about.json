@@ -20,16 +20,47 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Company-Mavericks.jpg"
       }
     },
+    "restore_infos_BLCJgH": {
+      "type": "restore_infos",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_caption_1": "Das Tarp",
+        "text_caption_2": "Das Tarp",
+        "text_zitat": "\"Wir machen Produkte, die lange halten, eine hohe Qualität haben und sehr zeitlos sind. Das ist für uns der beste Weg gegen Ressourcenverschwendung.\"",
+        "text_autor": "Stefan & Stefan",
+        "text_caption_3": "Das Tarp"
+      }
+    },
     "l_text_logos_ga3KCk": {
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
         "text_headline": "Über uns",
-        "text_text": "<br><b>WER IST HEIMPLANET?<\/b><br><br> HEIMPLANET hat es sich zur Aufgabe gemacht, Menschen zu inspirieren, die natürliche Schönheit unseres Planeten zu erleben. Geboren und ansässig im stürmischen Nordeuropa und hervorgegangen aus der Tradition des deutschen Ingenieurwesens, entwickelt HEIMPLANET Outdoor-Produkte, die die perfekte Synergie aus Innovation und Alltagsabenteuer bieten: bessere Materialien und Hightech, von der Natur inspirierte Designs, bei denen praktische Lösungen zu einer Freude werden, wo auch immer Du hingehst!<br><br><b>WARUM WURDE HEIMPLANET GEGRÜNDET?<\/b><br><br> HEIMPLANET wurde in einem Zelt geboren. Nach der Frustration, bei einem Campingausflug an der europäischen Küste jeden Tag im Dunkeln, im Regen und im Sturm ein Zelt aufzustellen, machten sich die beiden Gründer Stefan und Stefan daran, das Zelt der Zukunft zu entwickeln. Ein besseres Zelt, das von natürlichen Mustern und Designs inspiriert ist, mathematischer Logik folgt und so konstruiert ist, dass es den Elementen standhält. Ein Zuhause, oder \"Heim\", in der Wildnis unseres Planeten.<br><br><b>WELCHE PHILOSOPHIE VERFOLGT HEIMPLANET?<\/b><br><br>Auch in Zukunft gilt bei HEIMPLANET der Ruf nach fortschrittlichem Denken und Handeln. Es handelt sich um eine Denk- und Verhaltenseigenschaft, die Entwicklung nicht als einen linearen Weg, sondern als einen kontinuierlichen Zyklus der Inspiration betrachtet. Wir betrachten Rückschläge als Chancen und Herausforderungen für den Status Quo. <br><br>#whereveryougo"
+        "text_text": "WER IST HEIMPLANET? HEIMPLANET hat es sich zur Aufgabe gemacht, Menschen zu inspirieren, die natürliche Schönheit unseres Planeten zu erleben. Geboren und ansässig im stürmischen Nordeuropa und hervorgegangen aus der Tradition des deutschen Ingenieurwesens, entwickelt HEIMPLANET Outdoor-Produkte, die die perfekte Synergie aus Innovation und Alltagsabenteuer bieten: bessere Materialien und Hightech, von der Natur inspirierte Designs, bei denen praktische Lösungen zu einer Freude werden, wo auch immer Du hingehst!WARUM WURDE HEIMPLANET GEGRÜNDET? HEIMPLANET wurde in einem Zelt geboren. Nach der Frustration, bei einem Campingausflug an der europäischen Küste jeden Tag im Dunkeln, im Regen und im Sturm ein Zelt aufzustellen, machten sich die beiden Gründer Stefan und Stefan daran, das Zelt der Zukunft zu entwickeln. Ein besseres Zelt, das von natürlichen Mustern und Designs inspiriert ist, mathematischer Logik folgt und so konstruiert ist, dass es den Elementen standhält. Ein Zuhause, oder \"Heim\", in der Wildnis unseres Planeten.WELCHE PHILOSOPHIE VERFOLGT HEIMPLANET?Auch in Zukunft gilt bei HEIMPLANET der Ruf nach fortschrittlichem Denken und Handeln. Es handelt sich um eine Denk- und Verhaltenseigenschaft, die Entwicklung nicht als einen linearen Weg, sondern als einen kontinuierlichen Zyklus der Inspiration betrachtet. Wir betrachten Rückschläge als Chancen und Herausforderungen für den Status Quo. #whereveryougo"
       }
     },
     "store": {
       "type": "store",
+      "blocks": {
+        "adresse_xPVF8a": {
+          "type": "adresse",
+          "settings": {
+            "text_adresse": "Adresse"
+          }
+        },
+        "adresse_9dQJUy": {
+          "type": "adresse",
+          "settings": {
+            "text_adresse": "Adresse"
+          }
+        }
+      },
+      "block_order": [
+        "adresse_xPVF8a",
+        "adresse_9dQJUy"
+      ],
       "settings": {
         "text_headline": "HPT STORE HAMBURG",
         "text_button_text_1": "Mehr erfahren",
@@ -77,6 +108,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "collection_hero",
+    "restore_infos_BLCJgH",
     "l_text_logos_ga3KCk",
     "store",
     "jobs",

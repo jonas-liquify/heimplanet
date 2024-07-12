@@ -12,7 +12,7 @@
     "collection_hero": {
       "type": "collection_hero",
       "settings": {
-        "text_subline": "Home \/ Kategorie \/ Zelte",
+        "text_subline": "",
         "text_headline": "{{ article.title }}",
         "textarea_paragraph": "",
         "url_button_link": "",
