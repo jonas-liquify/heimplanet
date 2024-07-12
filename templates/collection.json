@@ -15,7 +15,7 @@
         "text_subline": "",
         "text_headline": "{{ collection.title }}",
         "textarea_paragraph": "",
-        "url_button_link": "#",
+        "url_button_link": "",
         "text_button_text": "Jetzt entdecken",
         "image_bild": "{{ collection.image }}"
       }
