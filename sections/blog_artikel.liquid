@@ -10,8 +10,8 @@
 {% assign blog_handle = section.settings.text_blog_handle %}
 {% assign blog = blogs[blog_handle] %}
 {% assign currentArticle = article.title %}
-<div class="w-dyn-list"><div li-for:inside="article in blog.articles limit: 3" role="list" class="blog_list w-dyn-items">
-        {% for article in blog.articles limit: 3 %}                            
+<div class="w-dyn-list"><div li-for:inside="article in blog.articles" role="list" class="blog_list w-dyn-items">
+        {% for article in blog.articles %}                            
                             {% if article.title != currentArticle %}    <div li-if="article.title != currentArticle" role="listitem" class="w-dyn-item">
     <a li-object:href="article.url" href="{{ article.url }}" class="artikel-kachel_item-grid w-inline-block"><div id="w-node-_6c3c594a-673d-af69-2fd3-9eb56ce456da-4b06a7bd" class="artikel-kachel_wrapper"><div item="link" class="artikel-kachel_link"><img src="{{ article.image | img_url: 'master' }}" loading="lazy" li-object:src="article.image | img_url: 'master'" li-object:alt="article.image.alt" alt="{{ article.image.alt }}" class="artikel-kachel_img">
 </div><div class="artikel-kachel_headline"><div class="artikel-kachel_headline-2"><h3 li-object="article.title" class="heading-style-h3">{{ article.title }}</h3></div><p li-object="article.excerpt" class="text-size-regular max-height-3-lines">{{ article.excerpt }}</p></div></div></a>    </div>
