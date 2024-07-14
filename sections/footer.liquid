@@ -26,7 +26,7 @@
 <div class="footer_newsletter-acts">{% for block in section.blocks %}
     {% if block.type == "newsletter-facts" %}
                     <div li-block="Newsletter-Facts" id="w-node-_7a15f5ef-34cc-083f-6140-a7b96e674612-cf39daf1" class="footer_facts-item">
-                                    <a class="footer_facts heading-medium w-inline-block" href="{{ block.settings.url_fact_link }}"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon"><div>{{ block.settings.text_fact }}</div> </a>
+                                    <a class="footer_facts heading-medium is-newsletter w-inline-block" href="{{ block.settings.url_fact_link }}"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon is-newsletter"><div>{{ block.settings.text_fact }}</div> </a>
 
                             </div>
             {% endif %}
