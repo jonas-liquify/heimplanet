@@ -22,5 +22,5 @@
 </div></div></div><div class="cart_table outline-solid-1"><div class="cart_grid is-header w-hidden-tiny"><div id="w-node-e70215e6-46ed-17af-2aa7-195241f33b23-c68d81bf" class="cart_table-header"><p class="heading-style-h3">Comment</p></div></div><div class="cart_content"><div class="form_field-wrapper"><textarea class="form-input is-text-area w-input" maxlength="5000" name="note" data-name="field" placeholder="Comment" id="CartNote"></textarea></div></div></div></div>{% endform %}
 <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>    </div>
 {% endif %}{% if cart.item_count == 0 %}    <div li-if="cart.item_count == 0" class="cart_empty outline-solid-1">
-    <div>Keine Produkte im Warenkorb.</div><a href="../index.html" class="button w-button">Weiter Shoppen</a>    </div>
+    <div>Keine Produkte im Warenkorb.</div><a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="button w-button">Weiter Shoppen</a>    </div>
 {% endif %}</div></div> {% schema %} {"tag":"section","name":"cart","class":"section_account background-color-grey","presets":[{"name":"cart","category":"Liquify"}]} {% endschema %}
