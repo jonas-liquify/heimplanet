@@ -34,7 +34,7 @@
       "settings": {
         "text_subline": "Mono Series Minimal Pack",
         "text_headline": "The Most Eco-Friendly Bag we can make today",
-        "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können. <br><br>Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
+        "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können. Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
       }
     },
     "l_produkt_k78fLq": {
@@ -172,21 +172,21 @@
     "l_grid_C46ipg": {
       "type": "l_grid",
       "blocks": {
-        "item_BrfUJ6": {
+        "item_apNPKm": {
           "type": "item",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/HEIMPLANET-Mono-Series-Minimal-Pack-Ocean-Blue-01.jpg",
-            "text_headline": "Ocean Blue",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Pack-Midnight-Burgundy-Landing-2024.jpg",
+            "text_headline": "Midnight Burgundy",
             "text_text": "",
             "text_zahl": "100%",
             "text_zahl_text": "recyclebar"
           }
         },
-        "item_apNPKm": {
+        "item_BrfUJ6": {
           "type": "item",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-Lauritz-Kuntscher-4.jpg",
-            "text_headline": "Midnight Burgundy",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Pack-Ocean-Blue-Landing-1.jpg",
+            "text_headline": "Ocean Blue",
             "text_text": "",
             "text_zahl": "100%",
             "text_zahl_text": "recyclebar"
@@ -195,7 +195,7 @@
         "item_4q6PP4": {
           "type": "item",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-3.jpg",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Pack-Diamond--Black-Landing-2024.jpg",
             "text_headline": "Diamond Black",
             "image_icon": "shopify:\/\/shop_images\/mono-material_endless_black_icon_006cef39-4916-454d-9acf-1bf419a14334.png",
             "text_text": "",
@@ -205,8 +205,8 @@
         }
       },
       "block_order": [
-        "item_BrfUJ6",
         "item_apNPKm",
+        "item_BrfUJ6",
         "item_4q6PP4"
       ],
       "settings": {
