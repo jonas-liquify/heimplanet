@@ -1,10 +1,15 @@
 <style>[li-cloak_disabled="hide"]  { display: none !important; }
-  [x-cloak] { display: none !important; }
-  html { font-size: 1.1rem; }
-  @media screen and (max-width: 1920px) { html { font-size: calc(0.34375rem + 0.55vw); } }
-  @media screen and (max-width: 1600px) { html { font-size: calc(0.01375rem + 0.99125vw); } }
-  @media screen and (max-width: 991px) { html { font-size: calc(0.48125rem + 0.72875vw); } }
-  @media screen and (max-width: 479px) { html { font-size: calc(0.70125rem + 0.78475vw); } }
+   [x-cloak] { display: none !important; }
+  html { font-size: calc(0.5625rem + 0.375vw); }
+@media screen and (max-width:2400px) { 
+  html { font-size: calc(0.5625rem + 0.375vw); } 
+}
+@media screen and (max-width:1440px) { 
+  html { font-size: calc(0.7314255983350677rem + 0.18730489073881376vw); } 
+}
+@media screen and (max-width:479px) { 
+  html { font-size: calc(0.6745292887029289rem + 0.7531380753138075vw); } 
+}
   /* Make text look crisper and more legible in all browsers */
   body {
     -webkit-font-smoothing: antialiased;
@@ -83,7 +88,7 @@
     display: inline-flex;
   }
   /* These classes are never overwritten */
-  .hide, .w-dyn-empty {
+  .hide {
     display: none !important;
   }
   @media screen and (max-width: 991px) {
@@ -180,15 +185,29 @@
     opacity: 50% !important;
     pointer-events: none !important;
   }
-  .is-darken {
-    mix-blend-mode: darken;
+  .w-dyn-empty {
+  	display: none;
   }
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
+  .w-select { -webkit-appearance: none; -moz-appearance: none; }
+  .w-nav-overlay {
+  	z-index: 99999 !important;
   }
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
+.button-link:hover .button-link_underline,
+.button-link:hover .icon-embed-xsmall {
+    animation: slide 0.5s forwards;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    51% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
 </style>

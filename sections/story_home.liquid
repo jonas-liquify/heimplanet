@@ -1,0 +1,49 @@
+<div class="padding-global"><div class="container-large"><div class="story_content"><div class="story_content-top"><div id="w-node-_1af409e9-05b4-5a11-3303-e29fd03bbd46-d03bbd41" class="other-span">
+{{ section.settings.text_subheading }}
+</div>
+<div id="w-node-_1af409e9-05b4-5a11-3303-e29fd03bbd48-d03bbd41" class="max-width-large"><h3 id="w-node-_1af409e9-05b4-5a11-3303-e29fd03bbd49-d03bbd41" class="heading-style-h3">
+{{ section.settings.text_main_heading }}
+</h3>
+</div></div><div id="w-node-_35e9b648-0aed-e205-2d2a-1bcabce817e4-d03bbd41" class="swiper is-story"><div class="swiper-wrapper story_content-bot">{% for block in section.blocks %}
+    {% if block.type == "story" %}
+                    <div li-block="Story" id="w-node-_1af409e9-05b4-5a11-3303-e29fd03bbd50-d03bbd41" class="swiper-slide story_content-item">
+                                    <img class="story_content-item-img"
+     src="{{ block.settings.image_bild | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild.alt }}"
+     loading="lazy">
+
+                                    <div class="story_content-item-text"><h3 class="heading-style-h5">
+{{ block.settings.text_heading }}
+</h3>
+<div class="max-width-xmedium"><p class="text-size-medium text-color-hazel90">
+{{ block.settings.text_paragraph_text }}
+</p>
+</div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", function() {
+  var swiper = new Swiper(".swiper.is-story", {
+    slidesPerView: 1.2, // Default to mobile settings
+    spaceBetween: 20,
+    effect: 'slide', // Add slide effect
+    speed: 800,
+    a11y: false,
+    scrollbar: {
+      el: '.swiper-scrollbar-story',
+      draggable: true,
+    },
+    breakpoints: {
+      // when window width is >= 768px (tablet size)
+      768: {
+        slidesPerView: 1.5,
+      },
+      // when window width is >= 1024px (desktop size)
+      1024: {
+        slidesPerView: 3,
+         spaceBetween: 24, // Set spaceBetween to 0 for desktop
+      }
+    }
+  });
+});
+</script></div><div class="swiper-scrollbar-story"><div class="swiper-scrollbar-drag"></div></div></div></div></div> {% schema %} {"tag":"section","name":"story_home","class":"section_story background-color-standard-grey","blocks":[{"name":"Story","type":"story","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_heading","type":"text","label":"Heading","default":"Quality materials"},{"id":"text_paragraph_text","type":"text","label":"Paragraph Text","default":"Quality leather is more than just a material; it's a testament to craftsmanship and durability. Each piece of genuine leather tells a story of meticulous tanning processes."}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"OUR STORY"},{"id":"text_main_heading","type":"text","label":"Main Heading","default":"Explore\u00a0 design <span class=\"italic\">thoughts<\/span>, research <span class=\"italic\">a stories<\/span> from BandWerk\u00ae"}],"presets":[{"name":"story_home","category":"Liquify"}]} {% endschema %}

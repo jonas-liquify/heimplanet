@@ -1,0 +1,46 @@
+<div class="padding-global"><div class="container-large"><div class="values_content"><div class="other-span">
+{{ section.settings.text_subheading }}
+</div>
+<div id="w-node-_0e49941b-d634-ce32-97af-4aab5c9d4daf-5c9d4da9" class="swiper is-story"><div class="swiper-wrapper story_content-bot">{% for block in section.blocks %}
+    {% if block.type == "story" %}
+                    <div li-block="Story" id="w-node-_0e49941b-d634-ce32-97af-4aab5c9d4db1-5c9d4da9" class="swiper-slide story_content-item">
+                                    <img class="story_content-item-img"
+     src="{{ block.settings.image_bild | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild.alt }}"
+     loading="lazy">
+
+                                    <div class="story_content-item-text"><h3 class="heading-style-h5">
+{{ block.settings.text_heading }}
+</h3>
+<div class="max-width-xmedium"><p class="text-size-medium text-color-hazel90">
+{{ block.settings.text_paragraph_text }}
+</p>
+</div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", function() {
+  var swiper = new Swiper(".is-story", {
+    slidesPerView: 1.3, // Default to mobile settings
+    spaceBetween: 20,
+    effect: 'slide', // Add slide effect
+    speed: 800,
+    a11y: false,
+    scrollbar: {
+      el: '.swiper-scrollbar-story',
+      draggable: true,
+    },
+    breakpoints: {
+      // when window width is >= 768px (tablet size)
+      768: {
+        slidesPerView: 1.5,
+      },
+      // when window width is >= 1024px (desktop size)
+      1024: {
+        slidesPerView: 3,
+         spaceBetween: 24, // Set spaceBetween to 0 for desktop
+      }
+    }
+  });
+});
+</script></div><div class="swiper-scrollbar-story"><div class="swiper-scrollbar-drag"></div></div></div></div></div> {% schema %} {"tag":"section","name":"3_img_w_t","class":"section_values background-color-standard-grey","blocks":[{"name":"Story","type":"story","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_heading","type":"text","label":"Heading","default":"Quality materials"},{"id":"text_paragraph_text","type":"text","label":"Paragraph Text","default":"Quality leather is more than just a material; it's a testament to craftsmanship and durability. Each piece of genuine leather tells a story of meticulous tanning processes."}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"About us"}],"presets":[{"name":"3_img_w_t","category":"Liquify"}]} {% endschema %}

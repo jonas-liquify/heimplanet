@@ -1,0 +1,18 @@
+<div class="padding-global"><div class="container-large"><div class="new_content"><div class="new_content-text is-logo"><img class="new_content-logo"
+     src="{{ section.settings.image_logo | img_url: 'master' }}"
+     alt="{{ section.settings.image_logo.alt }}"
+     loading="lazy">
+<div class="new_content-text-left"><div class="text-size-small text-style-allcaps">
+{{ section.settings.text_subheading }}
+</div>
+<div class="max-width-640"><h2 class="heading-style-h2">
+{{ section.settings.text_heading }}
+</h2>
+</div><div class="max-width-medium"><p class="text-size-regular">
+{{ section.settings.text_paragraph }}
+</p>
+</div></div></div><img class="new_content-img is-logo"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+</div></div></div> {% schema %} {"tag":"section","name":"bg_img_w_logo","class":"section_new background-color-standard-grey text-color-white","settings":[{"id":"image_logo","type":"image_picker","label":"Logo"},{"id":"text_subheading","type":"text","label":"Subheading","default":"This is some text inside of a div block."},{"id":"text_heading","type":"text","label":"Heading","default":"10 years \u00a0redefining the joy of wearing accessories"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Since we founded the company in 2015, we have followed three principles: high-quality materials, elaborate craftsmanship, and all this at a fair price."},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"bg_img_w_logo","category":"Liquify"}]} {% endschema %}
