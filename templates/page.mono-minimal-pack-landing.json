@@ -19,7 +19,7 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
+        "text_subline": "One Material. Endless Cycles",
         "text_headline": "WE START INTO A NEW ERA",
         "textarea_longer_text": "",
         "text_button_text": "Jetzt shoppen",
@@ -208,14 +208,6 @@
       "settings": {
         "html_richtext": "<h2>What’s a Rich Text element?<\/h2>\n              <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.<\/p>\n              <h4>Static and dynamic content editing<\/h4>\n              <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any<\/p>"
       }
-    },
-    "l_gallery_nxV4YL": {
-      "type": "l_gallery",
-      "settings": {
-        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg",
-        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-2_2a04a5f6-4343-41ff-9f74-fc6952c06308.jpg",
-        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-3-Lauritz-Kuntscher.jpg"
-      }
     }
   },
   "layout": "page.landingpage",
@@ -233,7 +225,6 @@
     "l_gallery_MgmqQN",
     "l_produkt_fkQtaR",
     "content_image_jmaGYj",
-    "l_html_text_fVcPMm",
-    "l_gallery_nxV4YL"
+    "l_html_text_fVcPMm"
   ]
 }
