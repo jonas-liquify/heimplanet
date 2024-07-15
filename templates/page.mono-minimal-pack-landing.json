@@ -81,7 +81,7 @@
       "settings": {
         "text_headline": "Carry the future",
         "textarea_text": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-3-Lauritz-Kuntscher.jpg"
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Lauritz-Kuntscher-2024-25.png"
       }
     },
     "l_text_logos_VMEtyH": {
@@ -106,50 +106,6 @@
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg"
-      }
-    },
-    "l_grid_QKBzRE": {
-      "type": "l_grid",
-      "blocks": {
-        "item_N8NE9x": {
-          "type": "item",
-          "settings": {
-            "text_headline": "Allgemein",
-            "text_text": "Gängige Materialien für Rucksäcke werden mit Klebstoffen hergestellt, die das Recycling erschweren, da sie sich nicht trennen lassen.",
-            "text_zahl": "0%",
-            "text_zahl_text": "recyclebar"
-          }
-        },
-        "item_LPdkap": {
-          "type": "item",
-          "settings": {
-            "text_headline": "Recycelt",
-            "text_text": "Auch recycelte Materialien, die mit Klebstoff hergestellt werden, können das Recycling verhindern, da sie nicht getrennt werden können.",
-            "text_zahl": "0%",
-            "text_zahl_text": "recyclebar"
-          }
-        },
-        "item_DLWPzA": {
-          "type": "item",
-          "settings": {
-            "text_headline": "Mono",
-            "image_icon": "shopify:\/\/shop_images\/mono-material_endless_black_icon_006cef39-4916-454d-9acf-1bf419a14334.png",
-            "text_text": "Monomaterial bezieht sich auf Einkomponenten-Materialien, die das Recycling erleichtern, indem sie die Probleme der Trennung beseitigen.",
-            "text_zahl": "100%",
-            "text_zahl_text": "recyclebar"
-          }
-        }
-      },
-      "block_order": [
-        "item_N8NE9x",
-        "item_LPdkap",
-        "item_DLWPzA"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_headline": "Mixed VS. Mono Material",
-        "text_mixed_material": "Mixed Material",
-        "text_mono_material": "Mono Material"
       }
     },
     "l_text_logos_AKFc7q": {
@@ -263,15 +219,6 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-Lauritz-Kuntscher-7.jpg"
       }
     },
-    "l_gallery_MgmqQN": {
-      "type": "l_gallery",
-      "disabled": true,
-      "settings": {
-        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-2.jpg",
-        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-5.jpg",
-        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-3.jpg"
-      }
-    },
     "l_produkt_fkQtaR": {
       "type": "l_produkt",
       "blocks": {
@@ -345,13 +292,11 @@
     "l_content_left_PFWMRP",
     "l_text_logos_VMEtyH",
     "l_hero_QNWRAf",
-    "l_grid_QKBzRE",
     "l_text_logos_AKFc7q",
     "l_text_logos_GA3zf4",
     "l_grid_C46ipg",
     "l_dropdowns_YeDrRR",
     "l_hero_ipwcRq",
-    "l_gallery_MgmqQN",
     "l_produkt_fkQtaR",
     "l_text_logos_EjnTBw",
     "l_html_text_fVcPMm",
