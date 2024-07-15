@@ -247,10 +247,24 @@
           "settings": {
             "image_bild": "shopify:\/\/shop_images\/HEIMPLANET-Mono-Series-Minimal-Pack-Ocean-Blue-02.jpg"
           }
+        },
+        "produkt_slider_8FCryU": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-2.jpg"
+          }
+        },
+        "produkt_slider_HXwJiP": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-2.jpg"
+          }
         }
       },
       "block_order": [
-        "produkt_slider_EnBQGi"
+        "produkt_slider_EnBQGi",
+        "produkt_slider_8FCryU",
+        "produkt_slider_HXwJiP"
       ],
       "settings": {
         "text_headline": "Mono Series Minimal Pack",
