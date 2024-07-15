@@ -1,0 +1,8 @@
+<div class="padding-global"><div class="container-large"><div class="login_content"><div class="login_content-inner"><div reset-password="" class="login_form w-form"><h1 class="heading-style-h5 text-align-center">Set new password</h1>{% form 'reset_customer_password', class: 'form_form' %}
+<div class="form_field-wrapper-element"><div class="form_field-wrapper"><div class="input_tag">Password</div><input class="form-input-standard w-input" maxlength="256" name="customer[password]" data-name="Field 5" placeholder="Enter your new password" type="password" id="field-5">
+</div><div class="form_field-wrapper"><div class="input_tag">Password</div><input class="form-input-standard w-input" maxlength="256" name="customer[password_confirmation]" data-name="Field 5" placeholder="Confirm new password" type="password" id="field-5" required="">
+</div></div><div class="spacer-9"></div><input type="submit" data-wait="Please Wait" class="checkout-button w-button" value="Submit">
+{% if form.errors %}    <div li-if="form.errors">
+    <div li-object="form.errors | default_errors" class="text-size-regular text-color-red text-align-center">{{ form.errors | default_errors }}</div>    </div>
+{% endif %}{% endform %}
+<div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="login_hinweis-kachel w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"recover","class":"section_login background-color-standard-grey","presets":[{"name":"recover","category":"Liquify"}]} {% endschema %}
