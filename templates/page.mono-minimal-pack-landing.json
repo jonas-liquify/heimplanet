@@ -208,6 +208,17 @@
       "settings": {
         "html_richtext": "<h2>What’s a Rich Text element?<\/h2>\n              <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.<\/p>\n              <h4>Static and dynamic content editing<\/h4>\n              <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any<\/p>"
       }
+    },
+    "blog_EjMTYb": {
+      "type": "blog",
+      "settings": {
+        "text_headline": "",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "article_artikel": "abenteuer\/cycle-of-simplicity",
+        "blog_blog": "",
+        "post_limit_blog": 3
+      }
     }
   },
   "layout": "page.landingpage",
@@ -225,6 +236,7 @@
     "l_gallery_MgmqQN",
     "l_produkt_fkQtaR",
     "content_image_jmaGYj",
-    "l_html_text_fVcPMm"
+    "l_html_text_fVcPMm",
+    "blog_EjMTYb"
   ]
 }
