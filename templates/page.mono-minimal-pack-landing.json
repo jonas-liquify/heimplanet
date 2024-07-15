@@ -50,6 +50,29 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg"
       }
     },
+    "l_produkt_k78fLq": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_FKTzyy": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/HEIMPLANET-Mono-Series-Minimal-Pack-Ocean-Blue-02.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_FKTzyy"
+      ],
+      "settings": {
+        "text_headline": "Mono Series Minimal Pack",
+        "textarea_beschreibung": "",
+        "text_preis": "129€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Jetzt shoppen",
+        "url_produkt_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
+        "checkbox_swiper_script": true
+      }
+    },
     "l_grid_QKBzRE": {
       "type": "l_grid",
       "blocks": {
@@ -87,18 +110,66 @@
         "item_LPdkap",
         "item_DLWPzA"
       ],
+      "disabled": true,
       "settings": {
         "text_headline": "Mixed VS. Mono Material",
         "text_mixed_material": "Mixed Material",
         "text_mono_material": "Mono Material"
       }
     },
+    "l_grid_C46ipg": {
+      "type": "l_grid",
+      "blocks": {
+        "item_BrfUJ6": {
+          "type": "item",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/HEIMPLANET-Mono-Series-Minimal-Pack-Ocean-Blue-01.jpg",
+            "text_headline": "Ocean Blue",
+            "text_text": "",
+            "text_zahl": "100%",
+            "text_zahl_text": "recyclebar"
+          }
+        },
+        "item_apNPKm": {
+          "type": "item",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-Lauritz-Kuntscher-4.jpg",
+            "text_headline": "Midnight Burgundy",
+            "text_text": "",
+            "text_zahl": "100%",
+            "text_zahl_text": "recyclebar"
+          }
+        },
+        "item_4q6PP4": {
+          "type": "item",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-3.jpg",
+            "text_headline": "Diamond Black",
+            "image_icon": "shopify:\/\/shop_images\/mono-material_endless_black_icon_006cef39-4916-454d-9acf-1bf419a14334.png",
+            "text_text": "",
+            "text_zahl": "100%",
+            "text_zahl_text": "recyclebar"
+          }
+        }
+      },
+      "block_order": [
+        "item_BrfUJ6",
+        "item_apNPKm",
+        "item_4q6PP4"
+      ],
+      "settings": {
+        "text_headline": "Dyecoshell Mono",
+        "text_mixed_material": "Aus 50% recyceltem Material",
+        "text_mono_material": "Aus 100% recyceltem Material"
+      }
+    },
     "l_text_logos_AKFc7q": {
       "type": "l_text_logos",
+      "disabled": true,
       "settings": {
         "text_subline": "MONO DYECOSHELL von Heimplanet",
         "text_headline": "So machen wir es",
-        "text_text": "<br>"
+        "text_text": ""
       }
     },
     "l_dropdowns_YeDrRR": {
@@ -190,6 +261,14 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_gallery_bptBAn": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-3-Lauritz-Kuntscher.jpg",
+        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-Lauritz-Kuntscher-1.jpg",
+        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-Lauritz-Kuntscher-8.jpg"
+      }
+    },
     "content_image_jmaGYj": {
       "type": "content_image",
       "disabled": true,
@@ -228,13 +307,16 @@
     "l_hero",
     "l_text_logos_VMEtyH",
     "l_hero_QNWRAf",
+    "l_produkt_k78fLq",
     "l_grid_QKBzRE",
+    "l_grid_C46ipg",
     "l_text_logos_AKFc7q",
     "l_dropdowns_YeDrRR",
     "l_hero_ipwcRq",
     "l_text_logos_dUJRtJ",
     "l_gallery_MgmqQN",
     "l_produkt_fkQtaR",
+    "l_gallery_bptBAn",
     "content_image_jmaGYj",
     "l_html_text_fVcPMm",
     "blog_EjMTYb"
