@@ -1,24 +1,59 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "sections": {
-        "collection_hero": {
-            "type": "collection_hero"
-        },
-        "category": {
-            "type": "category"
-        },
-        "content_image": {
-            "type": "content_image"
-        },
-        "contact": {
-            "type": "contact"
-        }
+  "sections": {
+    "collection_hero": {
+      "type": "collection_hero",
+      "settings": {
+        "text_subline": "Home \/ Kategorie \/ Zelte",
+        "text_headline": "Bags+Backpacks",
+        "textarea_paragraph": "Home Kategorie Zelte",
+        "url_button_link": "",
+        "text_button_text": "Jetzt entdecken"
+      }
     },
-    "layout": "page.re-store",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "collection_hero",
-        "category",
-        "content_image",
-        "contact"
-    ]
+    "category": {
+      "type": "category",
+      "settings": {
+        "text_headline": "Topseller",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "collection_collection": "re-store",
+        "collection_collection_limit": 6
+      }
+    },
+    "content_image": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Medium length heading goes here",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "text_headline": "Wir freuen uns von Dir zu hören.",
+        "text_text": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Wir geben Ihre Daten nicht ohne Ihre ausdrückliche Einwilligung an Dritte weiter. Unsere Datenschutzbestimmungen finden Sie hier."
+      }
+    }
+  },
+  "layout": "page.re-store",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collection_hero",
+    "category",
+    "content_image",
+    "contact"
+  ]
 }
