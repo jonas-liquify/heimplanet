@@ -6094,6 +6094,79 @@ figcaption {
   display: flex;
 }
 
+.section_l-headline-mono {
+  position: relative;
+}
+
+.landingpage_headline-wrapper {
+  padding-top: 3.3rem;
+  padding-bottom: 3.3rem;
+  position: relative;
+}
+
+.landingpage_ecken {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.landingpage_ecken.is-t-right {
+  border-left: 1px solid #000;
+  border-right-width: 0;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.landingpage_ecken.is-b-right {
+  border-width: 1px 0 0 1px;
+  border-top-style: solid;
+  border-top-color: #000;
+  border-left-style: solid;
+  border-left-color: #000;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.landingpage_ecken.is-b-left {
+  border-top: 1px solid #000;
+  border-bottom-width: 0;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+
+.section_l-material {
+  position: relative;
+}
+
+.landingpage_material-flex {
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
+  flex-flow: column;
+  min-height: 35rem;
+  display: flex;
+}
+
+.landingpage_material-content {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .padding-medium {
     padding: 1.5rem;
@@ -7544,6 +7617,12 @@ figcaption {
     align-items: center;
     width: 100%;
   }
+
+  .landingpage_material-content {
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -8142,6 +8221,10 @@ figcaption {
 
   .input-2 {
     height: 3.7em;
+  }
+
+  .landingpage_material-flex {
+    min-height: 27.9rem;
   }
 }
 
