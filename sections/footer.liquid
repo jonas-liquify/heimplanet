@@ -1,135 +1,65 @@
-<section class="section_quick background-color-standard-grey text-color-primary"><div class="padding-global"><div class="container-large"><div class="swiper is-quick"><div class="swiper-wrapper quick_content">{% for block in section.blocks %}
-    {% if block.type == "benefits" %}
-                    <div li-block="Benefits" id="w-node-be2da4fd-4a76-1766-8026-8c696cbd2815-6cbd2811" class="swiper-slide quick_content-item">
-                                    <div class="icon-embed-xsmall-wrapper background-color-hazel20"><img class="icon-embed-xsmall is-contained"
-     src="{{ block.settings.image_image_stats | img_url: 'master' }}"
-     alt="{{ block.settings.image_image_stats.alt }}"
-     loading="lazy">
-</div>
-                                    <div class="quick_content-item-inner"><h6 class="heading-style-h6">
-{{ block.settings.text_heading_stats }}
-</h6>
-<div class="text-size-regular text-color-hazel90">
-{{ block.settings.text_subheading_stats }}
-</div>
-</div>
-                                    <div class="hide w-embed"><style>.quick_content-item:last-child {
-  border-right: 0px;
-}
-</style></div>
-                            </div>
-            {% endif %}
-{% endfor %}
-</div></div><div class="swiper-pagination-quick"><div class="swiper-pagination-bullet-active"></div><div class="swiper-pagination-bullet"></div></div><div class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", function() {
-  var swiper = new Swiper(".swiper.is-quick", {
-    // Default settings for mobile
-    slidesPerView: 1, 
-    spaceBetween: 20,
-    effect: 'slide', 
-    speed: 800,
-    a11y: false,
-    loop: true, 
-    // Pagination settings
-    pagination: {
-      el: '.swiper-pagination-quick',
-      clickable: true,
-    },
-    // Responsive breakpoints
-    breakpoints: {
-      // Desktop
-      1024: {
-        slidesPerView: 'auto', 
-        spaceBetween: 0,
-        noSwiping: true, 
-        allowTouchMove: false, 
-        autoplay: false, 
-        loop: false,
-      },
-      // Tablet
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 20,
-      },
-      // Mobile (default setting)
-      0: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        autoplay: false, 
-      }
-    }
-  });
-});
-</script></div></div></div></section><section class="section_insta background-color-alternate"><div class="padding-global"><div class="container-large"><div class="insta_content"><div id="w-node-e32002d9-67b2-a3b5-18cd-8371c679913e-c679913a" class="insta_content-first"><div class="insta_content-first-inner"><div id="w-node-e32002d9-67b2-a3b5-18cd-8371c6799140-c679913a" class="other-span text-color-a4">
-{{ section.settings.text_subheading_insta }}
-</div>
-<h5 class="heading-style-h5">
-{{ section.settings.text_heading_insta }}
-</h5>
-</div><a class="button w-inline-block" href="{{ section.settings.url_button_link_1 }}"> <div class="text-size-regular text-weight-semibold">{{ section.settings.text_button_text_1 }}</div><div class="icon-embed-xxsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 19 18" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><rect x="0.5" y="0.774902" width="18" height="17" rx="8.5" fill="#FFD102"></rect><path d="M7.82031 6.57178L10.6829 9.2753L7.82031 11.9788L8.90466 13.0029L12.8516 9.2753L8.90466 5.54767L7.82031 6.57178Z" fill="#222121"></path></svg></div> </a>
-</div><img class="insta_content-img"
-     src="{{ section.settings.image_bild_insta | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild_insta.alt }}"
-     loading="lazy">
-<img class="insta_content-img"
-     src="{{ section.settings.image_bild_insta2 | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild_insta2.alt }}"
-     loading="lazy">
-<img class="insta_content-img"
-     src="{{ section.settings.image_bild_insta3 | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild_insta3.alt }}"
-     loading="lazy">
-<img class="insta_content-img show_mobile-landscape"
-     src="{{ section.settings.image_bild_insta3 | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild_insta3.alt }}"
-     loading="lazy">
-</div></div></div></section><div class="padding-global is-first"><div class="container-large"><div class="footer_content-1"><div id="w-node-ff810578-dd3c-fac4-bda2-e9f7dbd60192-cf39daf1" class="footer_content-1-left"><img class="footer_content-1-img"
-     src="{{ section.settings.image_bild | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild.alt }}"
-     loading="lazy">
-<div class="max-width-small"><h5 class="heading-style-h5 m4">Elaborately handmade by skilled artisians</h5></div><div class="footer_content-1-icons"><div><a href="https://www.instagram.com/bandwerk/?hl=de" target="_blank" class="social_container w-inline-block"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 24" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M16.5 2.25H7.5C6.10807 2.25149 4.77358 2.80509 3.78933 3.78933C2.80509 4.77358 2.25149 6.10807 2.25 7.5V16.5C2.25149 17.8919 2.80509 19.2264 3.78933 20.2107C4.77358 21.1949 6.10807 21.7485 7.5 21.75H16.5C17.8919 21.7485 19.2264 21.1949 20.2107 20.2107C21.1949 19.2264 21.7485 17.8919 21.75 16.5V7.5C21.7485 6.10807 21.1949 4.77358 20.2107 3.78933C19.2264 2.80509 17.8919 2.25149 16.5 2.25ZM12 16.5C11.11 16.5 10.24 16.2361 9.49993 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18868 9.44736 8.81802 8.81802C9.44736 8.18868 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49993C16.2361 10.24 16.5 11.11 16.5 12C16.4988 13.1931 16.0243 14.337 15.1806 15.1806C14.337 16.0243 13.1931 16.4988 12 16.5ZM17.625 7.5C17.4025 7.5 17.185 7.43402 17 7.3104C16.815 7.18679 16.6708 7.01109 16.5856 6.80552C16.5005 6.59995 16.4782 6.37375 16.5216 6.15552C16.565 5.93729 16.6722 5.73684 16.8295 5.5795C16.9868 5.42217 17.1873 5.31502 17.4055 5.27162C17.6238 5.22821 17.85 5.25049 18.0555 5.33564C18.2611 5.42078 18.4368 5.56498 18.5604 5.74998C18.684 5.93499 18.75 6.1525 18.75 6.375C18.75 6.67337 18.6315 6.95952 18.4205 7.1705C18.2095 7.38147 17.9234 7.5 17.625 7.5ZM15 12C15 12.5933 14.8241 13.1734 14.4944 13.6667C14.1648 14.1601 13.6962 14.5446 13.1481 14.7716C12.5999 14.9987 11.9967 15.0581 11.4147 14.9424C10.8328 14.8266 10.2982 14.5409 9.87868 14.1213C9.45912 13.7018 9.1734 13.1672 9.05764 12.5853C8.94189 12.0033 9.0013 11.4001 9.22836 10.8519C9.45542 10.3038 9.83994 9.83524 10.3333 9.50559C10.8266 9.17595 11.4067 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" fill="currentColor"></path></svg></div></a></div><div><a href="https://www.facebook.com/bandwerkstraps/?locale=de_DE" target="_blank" class="social_container w-inline-block"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 25 24" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M21.7822 11.9999C21.7791 14.3828 20.9048 16.6824 19.324 18.4655C17.7431 20.2485 15.5648 21.392 13.1994 21.6805C13.1467 21.6864 13.0934 21.6812 13.0429 21.665C12.9924 21.6489 12.9459 21.6222 12.9065 21.5868C12.8671 21.5513 12.8356 21.5079 12.8142 21.4594C12.7928 21.411 12.7818 21.3585 12.7822 21.3055V14.2499H15.0322C15.135 14.2501 15.2368 14.2292 15.3312 14.1884C15.4255 14.1476 15.5106 14.0879 15.5809 14.0129C15.6512 13.9379 15.7054 13.8493 15.74 13.7525C15.7746 13.6557 15.789 13.5528 15.7822 13.4502C15.7656 13.2573 15.6766 13.0779 15.5332 12.9479C15.3897 12.818 15.2023 12.7472 15.0087 12.7499H12.7822V10.4999C12.7822 10.102 12.9402 9.7205 13.2215 9.43919C13.5028 9.15789 13.8844 8.99985 14.2822 8.99985H15.7822C15.885 9.00008 15.9868 8.97916 16.0812 8.9384C16.1755 8.89764 16.2606 8.83791 16.3309 8.76292C16.4012 8.68792 16.4554 8.59927 16.49 8.50246C16.5246 8.40565 16.539 8.30276 16.5322 8.20017C16.5156 8.00698 16.4264 7.82727 16.2825 7.6973C16.1386 7.56733 15.9507 7.49677 15.7569 7.49985H14.2822C13.4865 7.49985 12.7235 7.81592 12.1609 8.37853C11.5983 8.94114 11.2822 9.70421 11.2822 10.4999V12.7499H9.03218C8.92937 12.7496 8.8276 12.7705 8.73321 12.8113C8.63882 12.8521 8.55382 12.9118 8.48348 12.9868C8.41315 13.0618 8.35898 13.1504 8.32436 13.2472C8.28973 13.3441 8.27537 13.447 8.28218 13.5495C8.29877 13.7427 8.38801 13.9224 8.5319 14.0524C8.67579 14.1824 8.86362 14.2529 9.0575 14.2499H11.2822V21.3074C11.2825 21.3603 11.2716 21.4127 11.2503 21.4611C11.2289 21.5095 11.1975 21.5528 11.1582 21.5882C11.1189 21.6237 11.0725 21.6504 11.0221 21.6666C10.9718 21.6828 10.9185 21.6882 10.8659 21.6824C8.4372 21.3866 6.20802 20.1898 4.61963 18.3288C3.03123 16.4678 2.19939 14.0783 2.28875 11.6333C2.47625 6.57079 6.57687 2.45517 11.6431 2.25829C12.9548 2.20748 14.2632 2.42175 15.4901 2.88826C16.7171 3.35477 17.8373 4.06395 18.7838 4.97338C19.7304 5.88281 20.4838 6.97381 20.9989 8.18111C21.5141 9.38842 21.7805 10.6872 21.7822 11.9999Z" fill="currentColor"></path></svg></div></a></div></div></div><div id="w-node-_2a938dd7-5e9d-8f36-88e2-cb49ab69c90f-cf39daf1" class="footer_content-1-right"><div id="w-node-_36d1cc85-5347-01f4-8359-79f7c1e09498-cf39daf1" class="footer_member"><div class="max-width-small"><h5 class="heading-style-h5 m6">
-{{ section.settings.text_newsletter_headline }}
-</h5>
-</div><div class="footer_form-block w-form">{% form 'customer', return_to: '/pages/newsletter-thank-you', class: 'footer_form' %}
-<input class="form-input is-footer w-input" maxlength="256" name="contact[email]" data-name="Email 2" placeholder="E-mail Adress" type="email" id="email-2" required="">
-<div li-object="form.errors | default_errors" class="text-size-regular text-color-red">{{ form.errors | default_errors }}</div><div id="w-node-_36d1cc85-5347-01f4-8359-79f7c1e094a0-cf39daf1" class="hide w-embed"><input type="hidden" name="contact[accepts_marketing]" value="false">
-</div><input type="submit" data-wait="" id="w-node-_36d1cc85-5347-01f4-8359-79f7c1e094a9-cf39daf1" class="submit w-button" value="">
-{% endform %}
-<div class="success-message w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="error-message w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div></div><div class="padding-global"><div class="container-large"><div class="footer_content-2"><div class="footer_link-grid"><div class="footer_link-list"><div class="other-span text-color-c4">about</div><div class="spacer-21"></div>{% for link in linklists['footer-about'].links %}    <div li-for="link in linklists['footer-about'].links" class="footer_link-list-elements">
-                                    
-                            <a li-object:href="link.url" href="{{ link.url }}" class="text-size-medium text-weight-semibold text-color-white is-footer-animated w-inline-block"><div li-object="link.title">{{ link.title }}</div><div class="footer_nav-link-underline"></div></a>
-                            
-                        </div>
-{% endfor %}</div><div id="w-node-_4066907b-0ba3-32b1-a57f-5c933c10636d-cf39daf1" class="footer_link-list"><div class="other-span text-color-c4">support</div><div class="spacer-21"></div>{% for link in linklists['footer-support'].links %}    <div li-for="link in linklists['footer-support'].links" class="footer_link-list-elements">
-                                    
-                            <a li-object:href="link.url" href="{{ link.url }}" class="text-size-medium text-weight-semibold text-color-white is-footer-animated w-inline-block"><div li-object="link.title">{{ link.title }}</div><div class="footer_nav-link-underline"></div></a>
-                            
-                        </div>
-{% endfor %}</div><div id="w-node-a277ba07-3f37-d0b9-c93d-7a3cabb076f8-cf39daf1" class="footer_link-list"><div class="other-span text-color-c4">COLLECTIONS</div><div class="spacer-21"></div>{% for link in linklists['footer-collection'].links %}    <div li-for="link in linklists['footer-collection'].links" class="footer_link-list-elements">
-                                    
-                            <a li-object:href="link.url" href="{{ link.url }}" class="text-size-medium text-weight-semibold text-color-white is-footer-animated w-inline-block"><div li-object="link.title">{{ link.title }}</div><div class="footer_nav-link-underline"></div></a>
-                            
-                        </div>
-{% endfor %}</div><div id="w-node-be013176-9190-737b-b3d2-cedc0f13bf73-cf39daf1" class="footer_link-list"><div class="other-span text-color-c4">contact us</div><div class="spacer-21"></div><div class="footer_link-list-elements"><a href="#" class="text-size-large is-bigger text-style-link text-color-white is-footer-animated w-inline-block"><div>
-{{ section.settings.text_phone_link }}
-</div>
-</a><a href="mailto:{{ section.settings.email_link }}" class="text-size-large is-bigger text-style-link text-color-white is-footer-animated w-inline-block"><div>
-{{ section.settings.text_email_link }}
-</div>
-</a></div></div><div class="footer_link-list"><div class="other-span text-color-c4">PAYMENT METHODS</div><div class="spacer-21"></div><div class="footer_link-list-elements"><ul role="list" class="footer_payment-list w-list-unstyled">{% for type in shop.enabled_payment_types %}    <li li-for="type in shop.enabled_payment_types">
-                                    
-                            <div li-object="type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color'">{{ type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color' }}</div>
-                            
-                        </li>
-{% endfor %}</ul></div></div></div></div></div></div><img class="bandwerk_full-logo"
-     src="{{ section.settings.image_logo_gross | img_url: 'master' }}"
-     alt="{{ section.settings.image_logo_gross.alt }}"
-     loading="lazy">
-<div class="footer_content-3-wrapper"><div class="padding-global"><div class="container-large"><div class="footer_content-3"><div class="footer_content-3-left"><div class="other-span text-color-88">©<span year="">202X</span> BANDWERK</div><div class="footer_content-3-left-outer">{% for block in section.blocks %}
-    {% if block.type == "legal" %}
-                    <div li-block="Legal" class="footer_content-3-left-inner">
-                                    <a class="w-inline-block" href="{{ block.settings.url_link }}"> <div class="other-span text-color-88">{{ block.settings.text_text }}</div> </a>
+<div class="padding-global"><div class="container-large"><div class="footer_facts-grid">{% for block in section.blocks %}
+    {% if block.type == "facts" %}
+                    <div li-block="Facts" class="footer_facts-item">
+                                    <a class="footer_facts heading-medium w-inline-block" href="{{ block.settings.url_fact_link }}"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon"><div>{{ block.settings.text_fact }}</div> </a>
 
                             </div>
             {% endif %}
 {% endfor %}
-</div></div><div><div class="wg-element-wrapper sw7"><div data-hover="true" data-delay="500" class="wg-dropdown-2 w-dropdown"><div lang="en" class="wg-dd-2-togle w-dropdown-toggle"><div class="icon-embed-xsmall text-color-white is-world w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 25 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M12.5 5.3623C11.0883 5.3623 9.7083 5.78092 8.53451 6.56522C7.36072 7.34952 6.44587 8.46428 5.90563 9.76852C5.3654 11.0728 5.22405 12.5079 5.49946 13.8925C5.77487 15.2771 6.45467 16.5489 7.45289 17.5471C8.45111 18.5453 9.72293 19.2251 11.1075 19.5005C12.4921 19.776 13.9272 19.6346 15.2315 19.0944C16.5357 18.5541 17.6505 17.6393 18.4348 16.4655C19.2191 15.2917 19.6377 13.9117 19.6377 12.5C19.6357 10.6076 18.8831 8.79324 17.5449 7.45509C16.2068 6.11695 14.3924 5.3643 12.5 5.3623ZM12.5 6.46041C13.6701 6.45917 14.8152 6.79981 15.7943 7.44047V8.79389L14.2728 10.5605L12.1129 10.8528L12.0916 10.8377L10.7417 9.95514C10.622 9.87083 10.4866 9.8113 10.3436 9.78006C10.2006 9.74882 10.0527 9.7465 9.90879 9.77322C9.76485 9.79995 9.62771 9.8552 9.50543 9.9357C9.38315 10.0162 9.2782 10.1204 9.19676 10.242L7.75961 12.3902C7.63989 12.5692 7.57545 12.7795 7.57431 12.9948L7.55852 15.4814L7.3341 15.6289C6.77929 14.7129 6.47801 13.6659 6.46115 12.5951C6.44429 11.5243 6.71245 10.4683 7.23815 9.53526C7.76385 8.60225 8.52818 7.8258 9.4528 7.28548C10.3774 6.74516 11.4291 6.46041 12.5 6.46041ZM7.99021 16.5129L8.16317 16.3997C8.31419 16.3 8.43826 16.1646 8.52435 16.0055C8.61044 15.8464 8.65588 15.6685 8.65663 15.4875L8.67104 13.001L10.1096 10.8528C10.1166 10.8583 10.1239 10.8633 10.1315 10.8679L11.4815 11.7512C11.7077 11.9109 11.9861 11.9788 12.2605 11.9413L14.4217 11.6483C14.6882 11.6127 14.9324 11.4806 15.108 11.277L16.6296 9.50903C16.7997 9.30966 16.893 9.056 16.8924 8.79389V8.35945C17.6351 9.14514 18.1528 10.116 18.3915 11.1705C18.6303 12.2249 18.5811 13.3241 18.2493 14.3531L17.1416 13.3401C16.9876 13.1987 16.7964 13.1042 16.5906 13.0678C16.3848 13.0313 16.1728 13.0543 15.9796 13.1342L13.8891 14.0023C13.7143 14.0757 13.5614 14.1929 13.445 14.3425C13.3286 14.4922 13.2528 14.6693 13.2248 14.8568L13.0607 15.968C13.0213 16.2354 13.0819 16.508 13.231 16.7335C13.38 16.9591 13.607 17.1217 13.8685 17.1903L15.3414 17.5787L15.5033 17.7414C14.3006 18.4315 12.8969 18.686 11.5285 18.4623C10.16 18.2385 8.91048 17.5501 7.99021 16.5129ZM16.412 17.0983L16.1169 16.8025C15.9792 16.6643 15.8072 16.5653 15.6186 16.5156L14.1472 16.1272L14.3112 15.016L16.401 14.1472L17.7846 15.4155C17.432 16.0544 16.967 16.6245 16.412 17.0983Z" fill="currentColor"></path></svg></div><div class="text-color-white is-nav">English</div><div class="icon-embed-xsmall text-color-white is-nav w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 25 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M11.9991 14.5027L8.99578 11.4994C8.92939 11.4336 8.87669 11.3552 8.84073 11.2689C8.80477 11.1826 8.78625 11.09 8.78625 10.9965C8.78625 10.903 8.80477 10.8104 8.84073 10.7241C8.87669 10.6378 8.92939 10.5594 8.99578 10.4936C9.12849 10.3616 9.30802 10.2876 9.49515 10.2876C9.68229 10.2876 9.86181 10.3616 9.99453 10.4936L12.502 13.0011L15.0095 10.4936C15.1422 10.3616 15.3218 10.2876 15.5089 10.2876C15.696 10.2876 15.8756 10.3616 16.0083 10.4936C16.0739 10.5598 16.1259 10.6383 16.1611 10.7246C16.1964 10.8109 16.2142 10.9033 16.2137 10.9965C16.2142 11.0897 16.1964 11.1821 16.1611 11.2684C16.1259 11.3547 16.0739 11.4332 16.0083 11.4994L13.0049 14.5027C12.9391 14.5691 12.8608 14.6218 12.7744 14.6578C12.6881 14.6938 12.5955 14.7123 12.502 14.7123C12.4085 14.7123 12.3159 14.6938 12.2296 14.6578C12.1433 14.6218 12.065 14.5691 11.9991 14.5027Z" fill="currentColor"></path></svg></div></div><nav class="wg-dd-2-list w-dropdown-list"><a href="#" lang="es" class="wg-dropdown-2-link w-dropdown-link">Español</a><a href="#" lang="de" class="wg-dropdown-2-link w-dropdown-link">Deutsch</a><a href="#" lang="fr" class="wg-dropdown-2-link w-dropdown-link">Français</a><a href="#" class="wg-dropdown-2-link w-dropdown-link">Русский</a></nav></div></div></div></div></div></div></div> {% schema %} {"tag":"footer","name":"footer","class":"section_footer","blocks":[{"name":"Benefits","type":"benefits","settings":[{"id":"image_image_stats","type":"image_picker","label":"Image-Stats"},{"id":"text_heading_stats","type":"text","label":"Heading-Stats","default":"Fast free shipping"},{"id":"text_subheading_stats","type":"text","label":"SubHeading-Stats","default":"Get free shipping on orders of 150e or more"}]},{"name":"Legal","type":"legal","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"text_text","type":"text","label":"Text","default":"terms"}]}],"settings":[{"id":"text_subheading_insta","type":"text","label":"SubHeading-Insta","default":"OUR STORY"},{"id":"text_heading_insta","type":"text","label":"Heading-Insta","default":"Heading"},{"id":"url_button_link_1","type":"url","label":"Button Link #1"},{"id":"text_button_text_1","type":"text","label":"Button Text #1","default":"Discover Cases"},{"id":"image_bild_insta","type":"image_picker","label":"Bild-Insta"},{"id":"image_bild_insta2","type":"image_picker","label":"Bild-Insta2"},{"id":"image_bild_insta3","type":"image_picker","label":"Bild-Insta3"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_newsletter_headline","type":"text","label":"Newsletter-Headline","default":"Stay in the loop with our weekly newsletter"},{"id":"text_phone_link","type":"text","label":"Phone Link","default":"+1 888-683-4938"},{"id":"text_email_link","type":"text","label":"Email Link","default":"service@bandwerk.com"},{"id":"image_logo_gross","type":"image_picker","label":"Logo Gross"}],"presets":[{"name":"footer","category":"Liquify"}]} {% endschema %}
+</div></div></div><div class="footer_trennlinie"></div><div class="padding-global padding-section-small"><div class="container-large"><div class="footer_member-wrapper"><div class="footer_link-grid">{% for link in linklists['footer'].links %}    <div li-for="link in linklists['footer'].links" class="footer_link-list">
+                                    
+                            <div li-object="link.title" class="text-weight-semibold text-style-allcaps">{{ link.title }}</div>
+                            
+                            <div class="spacer-xxsmall"></div>
+                            
+                            {% for child_link in link.links %}    <div li-for="child_link in link.links">
+                                    
+                            <a li-object:href="child_link.url" li-object="child_link.title" href="{{ child_link.url }}" class="text-size-small">{{ child_link.title }}</a>
+                            
+                        </div>
+{% endfor %}
+                            
+                        </div>
+{% endfor %}<div id="w-node-cbc003c4-f4f0-8fc6-aa76-37b5b11c56e5-cf39daf1"></div></div><div id="w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0badd-cf39daf1" class="footer_member"><h2 class="heading-style-h2 text-color-white">
+{{ section.settings.text_newsletter_headline }}
+</h2>
+<div class="footer_newsletter-acts">{% for block in section.blocks %}
+    {% if block.type == "newsletter-facts" %}
+                    <div li-block="Newsletter-Facts" id="w-node-_7a15f5ef-34cc-083f-6140-a7b96e674612-cf39daf1" class="footer_facts-item">
+                                    <a class="footer_facts heading-medium is-newsletter w-inline-block" href="{{ block.settings.url_fact_link }}"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon is-newsletter"><div>{{ block.settings.text_fact }}</div> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><a class="button is-white w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
+</div></div></div></div><div class="footer_trennlinie"></div><div class="padding-global padding-section-xxsmall"><div class="container-large"><div class="footer_grid-payment"><div class="payment-wrapper"><div class="text-size-regular text-color-white">Delivery</div><div class="payment-icons">{% for block in section.blocks %}
+    {% if block.type == "lieferung-icon" %}
+                    <div li-block="Lieferung-icon">
+                                    <div><img class="footer_payment-icon"
+     src="{{ block.settings.image_icon | img_url: 'master' }}"
+     alt="{{ block.settings.image_icon.alt }}"
+     loading="lazy">
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div id="w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0baf2-cf39daf1" class="payment-wrapper"><div class="text-size-regular text-color-white">Payment Method</div><ul role="list" class="footer_payment-list w-list-unstyled">{% for type in shop.enabled_payment_types %}    <li li-for="type in shop.enabled_payment_types">
+                                    
+                            <div li-object="type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color'">{{ type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color' }}</div>
+                            
+                        </li>
+{% endfor %}</ul></div><div class="payment-wrapper"><div class="text-size-regular text-color-white">Social Media</div><div class="payment-icons is-social">{% for block in section.blocks %}
+    {% if block.type == "social-media" %}
+                    <div li-block="Social-media">
+                                    <a class="w-inline-block" href="{{ block.settings.url_social_link }}"> <img class="footer_social-icon" src="{{ block.settings.image_social_icon | img_url: 'master' }}" alt="{{ block.settings.image_social_icon.alt }}" loading="lazy"> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div></div><div class="footer_trennlinie"></div><div class="padding-global padding-section-xxsmall"><div class="container-large"><div class="footer_grid-payment is-inprint"><a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="w-inline-block"><div class="footer_logo w-embed"><svg width="100%" height="100%" viewbox="0 0 176 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_641_3115)"><path d="M9.70004 1.39V0.150002C7.90402 0.470826 6.20696 1.20409 4.74241 2.29208C3.27787 3.38008 2.08581 4.79312 1.26004 6.42C0.581456 7.76541 0.167303 9.22853 0.0400391 10.73C3.19004 8.1 8.53004 3.63 8.97004 3.24C9.21902 3.00334 9.41335 2.71519 9.53943 2.39565C9.66552 2.07612 9.72033 1.73291 9.70004 1.39ZM14.58 7.24C14.9835 6.90471 15.3521 6.52947 15.68 6.12C16.1583 5.44119 16.4134 4.63036 16.41 3.8C16.41 3.8 16.41 3.74 16.41 3.71V1.23C16.413 1.14461 16.3921 1.06009 16.3497 0.985909C16.3073 0.911726 16.2451 0.850809 16.17 0.809998C15.1365 0.390447 14.0493 0.117799 12.94 0V2.53C12.9532 2.99875 12.8602 3.46442 12.668 3.89215C12.4758 4.31988 12.1893 4.69862 11.83 5L2.83004 12.54C2.01337 13.2251 1.4774 14.1868 1.32433 15.2417C1.17125 16.2967 1.41178 17.371 2.00004 18.26C2.23004 18.6 2.48004 18.93 2.74004 19.26C3.07798 19.6635 3.4421 20.0443 3.83004 20.4V18.26C3.83317 17.6173 3.97611 16.983 4.24895 16.401C4.52178 15.8191 4.91798 15.3035 5.41004 14.89L14.22 7.5L14.58 7.24ZM23.41 12.65C20.27 15.28 14.93 19.75 14.49 20.14C14.2377 20.3772 14.04 20.6664 13.9105 20.9875C13.781 21.3087 13.7228 21.6541 13.74 22V23.24C15.7657 22.8763 17.6615 21.9905 19.24 20.67C20.4714 19.6634 21.4823 18.4142 22.21 17C22.8987 15.6585 23.3135 14.1934 23.43 12.69C23.43 12.69 23.43 12.66 23.41 12.65ZM21.47 5.13C21.2405 4.78177 20.9901 4.44782 20.72 4.13C20.3812 3.72724 20.0135 3.34959 19.62 3V5.1C19.617 5.74373 19.4731 6.37899 19.1985 6.96118C18.9238 7.54337 18.525 8.05837 18.03 8.47C18.03 8.47 9.31004 15.79 9.23004 15.87L8.92004 16.13C8.51655 16.4653 8.14801 16.8405 7.82004 17.25C7.33825 17.9276 7.07959 18.7386 7.08004 19.57V22.12C7.0759 22.2056 7.09629 22.2906 7.1388 22.365C7.18132 22.4394 7.2442 22.5001 7.32004 22.54C8.35333 22.9622 9.44047 23.2382 10.55 23.36V20.82C10.5455 20.3574 10.6436 19.8995 10.8373 19.4793C11.031 19.0591 11.3154 18.6871 11.67 18.39L20.67 10.86C21.4846 10.1704 22.0165 9.20479 22.1641 8.14775C22.3117 7.09071 22.0646 6.01635 21.47 5.13Z" fill="currentColor"></path><path d="M46.7505 4.34009H49.5605V19.0001H46.7505V13.0001H41.2905V19.0001H38.4805V4.34009H41.2905V10.2201H46.7505V4.34009Z" fill="currentColor"></path><path d="M57.1998 10.2201H63.3398V13.0001H57.1998V16.2401H63.3398V19.0001H54.3398V4.34009H63.3398V7.14009H57.1998V10.2201Z" fill="currentColor"></path><path d="M70.6401 19.0001H67.8301V4.34009H70.6401V19.0001Z" fill="currentColor"></path><path d="M80.8297 15.0901L78.2597 9.80009V19.0001H75.4697V4.34009H78.2797L81.9197 11.9001L85.5497 4.34009H88.3597V19.0001H85.5697V9.80009L83.0297 15.0901H80.8297Z" fill="currentColor"></path><path d="M96.0004 19.0001H93.1904V4.34009H99.1904C100.503 4.39824 101.742 4.96044 102.65 5.90958C103.558 6.85871 104.065 8.12157 104.065 9.43509C104.065 10.7486 103.558 12.0115 102.65 12.9606C101.742 13.9097 100.503 14.4719 99.1904 14.5301H96.0004V19.0001ZM99.1904 11.6901C99.7729 11.6516 100.319 11.3931 100.718 10.9669C101.117 10.5408 101.339 9.97885 101.339 9.39509C101.339 8.81133 101.117 8.24941 100.718 7.82325C100.319 7.39709 99.7729 7.13856 99.1904 7.10009H96.0004V11.6901H99.1904Z" fill="currentColor"></path><path d="M110.83 16.2501H116.96V19.0001H107.96V4.34009H110.83V16.2501Z" fill="currentColor"></path><path d="M123.44 16.0799L122.39 19.0799H119.45L124.7 4.37988H127.39L132.64 18.9999H129.7L128.65 15.9999L123.44 16.0799ZM126.05 8.64989L124.41 13.4099H127.68L126.05 8.64989Z" fill="currentColor"></path><path d="M147.17 19.0001H144.35L138.9 9.53009V19.0001H136.08V4.34009H138.9L144.35 13.8101V4.34009H147.17V19.0001Z" fill="currentColor"></path><path d="M154.83 10.2201H160.96V13.0001H154.83V16.2401H160.96V19.0001H152.02V4.34009H160.96V7.14009H154.83V10.2201Z" fill="currentColor"></path><path d="M171.04 7.14009V19.0001H168.14V7.14009H164.05V4.34009H175.13V7.14009H171.04Z" fill="currentColor"></path></g><defs><clippath id="clip0_641_3115"><rect width="175.13" height="23.39" fill="white"></rect></clippath></defs></svg></div></a><div id="w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0bb05-cf39daf1" class="inprint-links is-inprint">{% for link in linklists['legal'].links %}    <div li-for="link in linklists['legal'].links">
+                                    
+                            <a li-object="link.title" li-object:href="link.url" href="{{ link.url }}" class="text-size-small text-color-grey">{{ link.title }}</a>
+                            
+                        </div>
+{% endfor %}<a id="privacy-settings" href="#" class="text-size-small text-color-white hide">Cookies</a></div><div class="wg-element-wrapper sw7 hide"><div data-hover="true" data-delay="500" class="wg-dropdown-2 w-dropdown"><div lang="de" class="language-selector w-dropdown-toggle"><div>Deutsch</div><img src="https://uploads-ssl.webflow.com/613f2f905ede8d670775fc8a/61548248f37f3a0faab19498_arrow-drop.svg" loading="lazy" alt="" class="dropdown-aarow">
+</div><nav class="wg-dd-2-list w-dropdown-list"><a href="#" lang="en" class="wg-dropdown-2-link w-dropdown-link">English</a></nav></div></div></div></div></div> {% schema %} {"tag":"footer","name":"footer","class":"section_footer","blocks":[{"name":"Facts","type":"facts","settings":[{"id":"url_fact_link","type":"url","label":"Fact-Link"},{"id":"text_fact","type":"text","label":"Fact","default":"1% for the Planet"}]},{"name":"Newsletter-Facts","type":"newsletter-facts","settings":[{"id":"url_fact_link","type":"url","label":"Fact-Link"},{"id":"text_fact","type":"text","label":"Fact","default":"1% for the Planet"}]},{"name":"Lieferung-icon","type":"lieferung-icon","settings":[{"id":"image_icon","type":"image_picker","label":"icon"}]},{"name":"Social-media","type":"social-media","settings":[{"id":"url_social_link","type":"url","label":"Social-link"},{"id":"image_social_icon","type":"image_picker","label":"social-icon"}]}],"settings":[{"id":"text_newsletter_headline","type":"text","label":"Newsletter-Headline","default":"Become a Member of the Heimplanet Community and get awesome benefits"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"}],"presets":[{"name":"footer","category":"Liquify"}]} {% endschema %}
