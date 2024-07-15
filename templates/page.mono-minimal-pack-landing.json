@@ -16,17 +16,6 @@
         "text_button_text": "Jetzt shoppen"
       }
     },
-    "content_image_MRN98w": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "Mono Series Minimal Pack",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button"
-      }
-    },
     "l_hero_JjbFDH": {
       "type": "l_hero",
       "settings": {
@@ -48,12 +37,23 @@
         "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können. <br><br>Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
       }
     },
+    "content_image_MRN98w": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Mono Series Minimal Pack",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
     "l_hero_QNWRAf": {
       "type": "l_hero",
       "settings": {
         "text_subline": "",
         "text_headline": "",
-        "textarea_longer_text": "Mono Logo + Facts",
+        "textarea_longer_text": "",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
@@ -83,6 +83,40 @@
         "text_button_text": "Jetzt shoppen",
         "url_produkt_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
         "checkbox_swiper_script": true
+      }
+    },
+    "l_content_left_PFWMRP": {
+      "type": "l_content_left",
+      "blocks": {
+        "item_BirhCg": {
+          "type": "item",
+          "settings": {
+            "text_text": "vollständig Recyclebar"
+          }
+        },
+        "item_eKYzdH": {
+          "type": "item",
+          "settings": {
+            "text_text": "aus bis zu 100% recyceltem Material"
+          }
+        },
+        "item_U8CTCB": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/Mono-Material-Endless-Black-Icon_4544ce44-09f8-4ab1-acf7-7c581edfa375.jpg",
+            "text_text": "Dope Dyed"
+          }
+        }
+      },
+      "block_order": [
+        "item_BirhCg",
+        "item_eKYzdH",
+        "item_U8CTCB"
+      ],
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-3-Lauritz-Kuntscher.jpg"
       }
     },
     "l_grid_QKBzRE": {
@@ -340,11 +374,12 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_header_wcRar9",
-    "content_image_MRN98w",
     "l_hero_JjbFDH",
     "l_text_logos_VMEtyH",
+    "content_image_MRN98w",
     "l_hero_QNWRAf",
     "l_produkt_k78fLq",
+    "l_content_left_PFWMRP",
     "l_grid_QKBzRE",
     "l_text_logos_AKFc7q",
     "l_text_logos_GA3zf4",
