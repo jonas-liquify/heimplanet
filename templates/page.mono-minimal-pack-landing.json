@@ -47,7 +47,7 @@
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack_ocean_blue-Dots-2.jpg"
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg"
       }
     },
     "l_grid_QKBzRE": {
@@ -141,12 +141,13 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "MONO DYECOSHELL",
+        "text_headline": "",
         "textarea_longer_text": "",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-Lauritz-Kuntscher-7.jpg"
       }
     },
     "l_text_logos_dUJRtJ": {
