@@ -37,30 +37,6 @@
         "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können. <br><br>Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
       }
     },
-    "content_image_MRN98w": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "Mono Series Minimal Pack",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button"
-      }
-    },
-    "l_hero_QNWRAf": {
-      "type": "l_hero",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
-        "text_button_text": "",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg"
-      }
-    },
     "l_produkt_k78fLq": {
       "type": "l_produkt",
       "blocks": {
@@ -114,9 +90,22 @@
         "item_U8CTCB"
       ],
       "settings": {
-        "text_headline": "Bags+Backpacks",
+        "text_headline": "Carry the future",
         "textarea_text": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-3-Lauritz-Kuntscher.jpg"
+      }
+    },
+    "l_hero_QNWRAf": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Made from Polyester Waste",
+        "textarea_longer_text": "Fully Recycled\nFully Recyclable\nDope Dyed",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg"
       }
     },
     "l_grid_QKBzRE": {
@@ -265,7 +254,7 @@
     "l_hero_ipwcRq": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "JOIN The Mono-Movement",
+        "text_subline": "Join the Mono-Movement",
         "text_headline": "CARRY THE FUTURE",
         "textarea_longer_text": "",
         "text_button_text": "",
@@ -376,10 +365,9 @@
     "l_header_wcRar9",
     "l_hero_JjbFDH",
     "l_text_logos_VMEtyH",
-    "content_image_MRN98w",
-    "l_hero_QNWRAf",
     "l_produkt_k78fLq",
     "l_content_left_PFWMRP",
+    "l_hero_QNWRAf",
     "l_grid_QKBzRE",
     "l_text_logos_AKFc7q",
     "l_text_logos_GA3zf4",
