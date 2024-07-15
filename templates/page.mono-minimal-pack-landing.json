@@ -16,7 +16,15 @@
         "text_button_text": "Jetzt shoppen"
       }
     },
-    "l_hero": {
+    "l_text_logos_EgJGDk": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Mono Series Minimal Pack",
+        "text_text": ""
+      }
+    },
+    "l_hero_JjbFDH": {
       "type": "l_hero",
       "settings": {
         "text_subline": "One Material. Endless Cycles",
@@ -34,7 +42,7 @@
       "settings": {
         "text_subline": "Intro",
         "text_headline": "Mono Series Minimal Pack -> Nachhaltigkeit",
-        "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können.<br><br>Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
+        "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können.Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
       }
     },
     "l_hero_QNWRAf": {
@@ -329,7 +337,8 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_header_wcRar9",
-    "l_hero",
+    "l_text_logos_EgJGDk",
+    "l_hero_JjbFDH",
     "l_text_logos_VMEtyH",
     "l_hero_QNWRAf",
     "l_produkt_k78fLq",
