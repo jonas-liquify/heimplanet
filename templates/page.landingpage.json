@@ -1,21 +1,84 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "l_header_x3bPLH": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "",
+        "text_button_text": "Button Text"
+      }
+    },
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
+        "text_subline": "Test",
+        "text_headline": "Test",
+        "textarea_longer_text": "TestTestTestTestTestTestTestTestTest",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-Lauritz-Kuntscher-8.jpg"
+      }
+    },
+    "l_content_right_Te7dw4": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-Lauritz-Kuntscher-2.jpg",
+        "text_headline": "Mono",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+      }
+    },
+    "blog_7EPC7T": {
+      "type": "blog",
+      "settings": {
+        "text_headline": "Aktuelle beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "article_artikel": "abenteuer\/cycle-of-simplicity",
+        "blog_blog": "abenteuer",
+        "post_limit_blog": 10
+      }
+    },
+    "l_produkt_W8KBtc": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_nhDNXR": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_nhDNXR"
+      ],
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "text_preis": "49€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Jetzt vorbestellen",
+        "url_produkt_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
+        "checkbox_swiper_script": true
       }
     }
   },
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero"
+    "l_header_x3bPLH",
+    "l_hero",
+    "l_content_right_Te7dw4",
+    "blog_7EPC7T",
+    "l_produkt_W8KBtc"
   ]
 }
