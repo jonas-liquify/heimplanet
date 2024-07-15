@@ -16,18 +16,21 @@
         "text_button_text": "Jetzt shoppen"
       }
     },
-    "l_text_logos_EgJGDk": {
-      "type": "l_text_logos",
+    "content_image_MRN98w": {
+      "type": "content_image",
       "settings": {
-        "text_subline": "",
         "text_headline": "Mono Series Minimal Pack",
-        "text_text": ""
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
       }
     },
     "l_hero_JjbFDH": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "One Material. Endless Cycles",
+        "text_subline": "One Material. Endless Cycles.",
         "text_headline": "The Future is now. the future is Mono.",
         "textarea_longer_text": "<br>\nZugehörigkeit klar machen",
         "text_button_text": "Jetzt shoppen",
@@ -337,7 +340,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_header_wcRar9",
-    "l_text_logos_EgJGDk",
+    "content_image_MRN98w",
     "l_hero_JjbFDH",
     "l_text_logos_VMEtyH",
     "l_hero_QNWRAf",
