@@ -22,11 +22,11 @@
     "category": {
       "type": "category",
       "settings": {
-        "text_headline": "Topseller",
+        "text_headline": "Re-Store",
         "url_button_link": "",
         "text_button_text": "Mehr davon",
         "collection_collection": "re-store",
-        "collection_collection_limit": 6
+        "collection_collection_limit": 50
       }
     },
     "content_image": {
