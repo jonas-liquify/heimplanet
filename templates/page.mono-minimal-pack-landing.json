@@ -117,6 +117,23 @@
         "text_mono_material": "Mono Material"
       }
     },
+    "l_text_logos_AKFc7q": {
+      "type": "l_text_logos",
+      "disabled": true,
+      "settings": {
+        "text_subline": "MONO DYECOSHELL von Heimplanet",
+        "text_headline": "So machen wir es",
+        "text_text": ""
+      }
+    },
+    "l_text_logos_GA3zf4": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Neu: Dyecoshell™ Mono",
+        "text_text": "Keine gemischten Materialien. Unser neues Mono-Material sorgt für einen einfachen und effizienten Recycling-Prozess."
+      }
+    },
     "l_grid_C46ipg": {
       "type": "l_grid",
       "blocks": {
@@ -158,18 +175,9 @@
         "item_4q6PP4"
       ],
       "settings": {
-        "text_headline": "Neu: Dyecoshell™ Mono",
+        "text_headline": "",
         "text_mixed_material": "Aus 50% recyceltem Material",
         "text_mono_material": "Aus 100% recyceltem Material"
-      }
-    },
-    "l_text_logos_AKFc7q": {
-      "type": "l_text_logos",
-      "disabled": true,
-      "settings": {
-        "text_subline": "MONO DYECOSHELL von Heimplanet",
-        "text_headline": "So machen wir es",
-        "text_text": ""
       }
     },
     "l_dropdowns_YeDrRR": {
@@ -309,8 +317,9 @@
     "l_hero_QNWRAf",
     "l_produkt_k78fLq",
     "l_grid_QKBzRE",
-    "l_grid_C46ipg",
     "l_text_logos_AKFc7q",
+    "l_text_logos_GA3zf4",
+    "l_grid_C46ipg",
     "l_dropdowns_YeDrRR",
     "l_hero_ipwcRq",
     "l_text_logos_dUJRtJ",
