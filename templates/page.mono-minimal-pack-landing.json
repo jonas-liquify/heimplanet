@@ -44,19 +44,8 @@
       ],
       "settings": {
         "text_subline": "Intro",
-        "text_headline": "Der erste Mono Material Pack, der vollständig recycelbar ist.",
+        "text_headline": "Der erste Mono Material Pack, der vollständig recycelbar ist",
         "text_text": ""
-      }
-    },
-    "l_text_logos_VMEtyH": {
-      "type": "l_text_logos",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "text_subline": "Mono Series Minimal Pack",
-        "text_headline": "The Most Eco-Friendly Bag we can make today",
-        "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können. Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
       }
     },
     "l_content_left_PFWMRP": {
@@ -93,6 +82,17 @@
         "text_headline": "Carry the future",
         "textarea_text": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-3-Lauritz-Kuntscher.jpg"
+      }
+    },
+    "l_text_logos_VMEtyH": {
+      "type": "l_text_logos",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_subline": "Mono Series Minimal Pack",
+        "text_headline": "The Most Eco-Friendly Bag we can make today",
+        "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können. <br><br> Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
       }
     },
     "l_hero_QNWRAf": {
@@ -342,8 +342,8 @@
     "l_header_wcRar9",
     "l_hero_JjbFDH",
     "l_text_logos_qwChiU",
-    "l_text_logos_VMEtyH",
     "l_content_left_PFWMRP",
+    "l_text_logos_VMEtyH",
     "l_hero_QNWRAf",
     "l_grid_QKBzRE",
     "l_text_logos_AKFc7q",
