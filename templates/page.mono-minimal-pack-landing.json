@@ -63,6 +63,7 @@
       "block_order": [
         "produkt_slider_FKTzyy"
       ],
+      "disabled": true,
       "settings": {
         "text_headline": "Mono Series Minimal Pack",
         "textarea_beschreibung": "",
@@ -176,8 +177,8 @@
       ],
       "settings": {
         "text_headline": "",
-        "text_mixed_material": "Aus 50% recyceltem Material",
-        "text_mono_material": "Aus 100% recyceltem Material"
+        "text_mixed_material": "AUS 50% RECYCELTEM MATERIAL",
+        "text_mono_material": "AUS 100% RECYCELTEM MATERIAL"
       }
     },
     "l_dropdowns_YeDrRR": {
@@ -219,22 +220,14 @@
     "l_hero_ipwcRq": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
+        "text_subline": "JOIN The Mono-Movement",
+        "text_headline": "CARRY THE FUTURE",
         "textarea_longer_text": "",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-Lauritz-Kuntscher-7.jpg"
-      }
-    },
-    "l_text_logos_dUJRtJ": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "Join the Mono-Movement",
-        "text_headline": "Trage die Zukunft",
-        "text_text": ""
       }
     },
     "l_gallery_MgmqQN": {
@@ -322,7 +315,6 @@
     "l_grid_C46ipg",
     "l_dropdowns_YeDrRR",
     "l_hero_ipwcRq",
-    "l_text_logos_dUJRtJ",
     "l_gallery_MgmqQN",
     "l_produkt_fkQtaR",
     "l_gallery_bptBAn",
