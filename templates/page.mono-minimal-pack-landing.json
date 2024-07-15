@@ -276,8 +276,17 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_text_logos_EjnTBw": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "text_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?"
+      }
+    },
     "l_gallery_bptBAn": {
       "type": "l_gallery",
+      "disabled": true,
       "settings": {
         "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-3-Lauritz-Kuntscher.jpg",
         "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-Lauritz-Kuntscher-1.jpg",
@@ -332,6 +341,7 @@
     "l_hero_ipwcRq",
     "l_gallery_MgmqQN",
     "l_produkt_fkQtaR",
+    "l_text_logos_EjnTBw",
     "l_gallery_bptBAn",
     "content_image_jmaGYj",
     "l_html_text_fVcPMm",
