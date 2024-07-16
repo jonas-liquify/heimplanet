@@ -44,12 +44,12 @@
             "settings": {
               "url_link": "#",
               "text_menu_handle": "Unternehmen",
-              "url_link_1_link": "",
-              "text_link_1_text": "Text Link",
-              "url_link_2_link": "",
-              "text_link_2_text": "Text Link",
-              "url_link_3_link": "",
-              "text_link_3_text": "Text Link"
+              "url_link_1_link": "shopify:\/\/pages\/cloudbreak",
+              "text_link_1_text": "Neu: Cloudbreak",
+              "url_link_2_link": "shopify:\/\/pages\/the-great-makeover",
+              "text_link_2_text": "The Great Makeover",
+              "url_link_3_link": "shopify:\/\/pages\/collab-66-north-cave-xl-4-season",
+              "text_link_3_text": "HEIMPLANET X 66°NORTH"
             }
           }
         },
