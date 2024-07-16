@@ -6,10 +6,8 @@
     <a class="button is-outline w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}</div><div class="spacer-large"></div><div class="product_list-wrapper w-dyn-list"><div role="list" class="product_list w-dyn-items">{% for product in article.metafields.custom.produkte.value %}    <div li-for="product in article.metafields.custom.produkte.value" role="listitem" class="product_list-item w-dyn-item">
-                                    
-                            {% render 'product_item', product: product %}
+                                    {% render 'product_item', product: product %}
 
-                            
                         </div>
 {% endfor %}</div><div class="hide w-dyn-empty"><div>No items found.</div></div></div></div></div>    </div>
 {% endif %} {% schema %} {"tag":"section","name":"article_products","class":"section_product","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Topseller"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Mehr davon"}],"presets":[{"name":"article_products","category":"Liquify"}]} {% endschema %}

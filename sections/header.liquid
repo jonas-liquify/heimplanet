@@ -15,28 +15,22 @@
                             <a href="#" class="nav_link container w-inline-block"><div li-object="block.settings.menu_handle" class="nav_link-mobil">{{ block.settings.menu_handle }}</div><img loading="lazy" src="{{ 'arrow-drop.svg' | asset_url }}" alt="" class="nav_icon-mobil">
 </a>
                             
-                            <div class="container is--mobil-nav"><div class="hide w-embed">{% assign main_menu_handle = block.settings.menu_handle %}
-                          {% assign main_menu = linklists[main_menu_handle] %}</div><ul role="list" class="nav_list-mobil w-list-unstyled">{% for link in main_menu.links %}    <li li-for="link in main_menu.links">
-                                    
-                            <div class="nav_link is--child">{% if link.links.size == 0 %}    <a href="{{ link.url }}" li-if="link.links.size == 0" itemprop="url">
+                            <div class="container is--mobil-nav">{% assign main_menu_handle = block.settings.text_menu_handle %} {% assign main_menu = linklists[main_menu_handle] %}
+<ul role="list" class="nav_list-mobil w-list-unstyled">{% for link in main_menu.links %}    <li li-for="link in main_menu.links">
+                                    <div class="nav_link is--child">{% if link.links.size == 0 %}    <a href="{{ link.url }}" li-if="link.links.size == 0" itemprop="url">
     {{ link.title }}    </a>
 {% endif %}{% if link.links.size > 0 %}    <a href="#" li-if="link.links.size > 0" itemprop="url">
     <span itemprop="name">{{ link.title }}</span>    </a>
 {% endif %}{% if link.links.size > 0 %}    <img li-if="link.links.size > 0" loading="lazy" alt="" src="../images/arrow-drop.svg" class="nav_icon-mobil">
 {% endif %}</div>
-                            
                             {% if link.links.size > 0 %}    <ul li-if="link.links.size > 0" role="list" class="nav-list-mobil-child w-list-unstyled">
     {% for child_link in link.links %}    <li li-for="child_link in link.links">
-                                    
-                            <a href="{{ child_link.url }}" itemprop="url" class="nav_link is--grand-child"><span itemprop="name">{{ child_link.title }}</span></a>
-                            
+                                    <a href="{{ child_link.url }}" itemprop="url" class="nav_link is--grand-child"><span itemprop="name">{{ child_link.title }}</span></a>
                         </li>
 {% endfor %}    </ul>
 {% endif %}
-                            
                         </li>
 {% endfor %}</ul></div>
-                            
                         </li>
 {% endfor %}</ul></div></div></nav><div class="nav_menu-button w-nav-button"><div class="menu-icon"><div class="menu-icon_line-top"></div><div class="menu-icon_line-middle"><div class="menu-icon_line-middle-inner"></div></div><div class="menu-icon_line-bottom"></div></div></div></div></div><div>{% for block in section.blocks %}
     {% if block.type == "nav-link" %}
@@ -46,24 +40,18 @@
 {% assign main_menu = linklists[main_menu_handle] %}
 <a class="hide w-inline-block" href="{{ block.settings.url_link }}"> <div class="hide">{{ block.settings.text_menu_handle }}</div> </a>
 <div class="nav_big-wrapper"><ul role="list" class="nav_big-grid">{% for link in main_menu.links %}    <li li-for="link in main_menu.links" id="w-node-_22aee016-51fc-9d4b-1e78-07ea364f9ac0-b641c10b" class="dropdown-child-link">
-                                    
-                            {% if link.links.size == 0 %}    <a href="{{ link.url }}" li-if="link.links.size == 0" itemprop="url" class="nav_sitemap-link">
+                                    {% if link.links.size == 0 %}    <a href="{{ link.url }}" li-if="link.links.size == 0" itemprop="url" class="nav_sitemap-link">
     <span itemprop="name">{{ link.title }}</span>    </a>
 {% endif %}
-                            
                             {% if link.links.size > 0 %}    <div li-if="link.links.size > 0" x-on:click="selectedSublink = {{ forloop.index }}" itemprop="url" class="nav_sitemap-link">
     <span itemprop="name">{{ link.title }}</span>    </div>
 {% endif %}
-                            
                             {% if link.links.size > 0 %}    <ul x-bind:class="selectedSublink === {{ forloop.index }} ? 'is-open' : ''" li-if="link.links.size > 0" role="list" class="nav-list">
     {% for child_link in link.links %}    <li li-for="child_link in link.links" class="dropdown-grandchil-link">
-                                    
-                            <a href="{{ child_link.url }}" itemprop="url" class="nav_small-link"><span itemprop="name">{{ child_link.title }}</span></a>
-                            
+                                    <a href="{{ child_link.url }}" itemprop="url" class="nav_small-link"><span itemprop="name">{{ child_link.title }}</span></a>
                         </li>
 {% endfor %}    </ul>
 {% endif %}
-                            
                         </li>
 {% endfor %}</ul><div id="w-node-_22aee016-51fc-9d4b-1e78-07ea364f9acc-b641c10b" class="nav_menu-small-links"><a class="nav_menu-small-link" href="{{ block.settings.url_link_1_link }}"> {{ block.settings.text_link_1_text }} </a>
 <a class="nav_menu-small-link" href="{{ block.settings.url_link_2_link }}"> {{ block.settings.text_link_2_text }} </a>
