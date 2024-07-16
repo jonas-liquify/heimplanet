@@ -20,7 +20,7 @@
                             </div>
             {% endif %}
 {% endfor %}
-</div></div></div><div x-data="" class="padding-global is-second-slider"><div class="container-large"><div><div class="colabs_progress-wrapper"><div class="colabs_progress-bar swiper-progress-bar"></div></div><div class="colabs_thumbnail-slider"><div id="thumbnail-slider" class="colabs_thumbnail-track swiper"><div class="colabs_thumbnail-list swiper-wrapper">{% for block in section.blocks %}    <div li-for="block in section.blocks" class="colabs_thumbnail-slide swiper-slide">
+</div></div></div><div x-data="" class="padding-global is-second-slider"><div class="container-large"><div><div class="colabs_progress-wrapper"><div class="colabs_progress-bar swiper-progress-bar animate"></div></div><div class="colabs_thumbnail-slider"><div id="thumbnail-slider" class="colabs_thumbnail-track swiper"><div class="colabs_thumbnail-list swiper-wrapper">{% for block in section.blocks %}    <div li-for="block in section.blocks" class="colabs_thumbnail-slide swiper-slide">
                                     
                             <div class="colabs_partner-logo"><img src="{{ block.settings.logo_image | img_url: 'large' }}" loading="lazy" li-object:src="block.settings.logo_image | img_url: 'large'" li-object:alt="block.settings.logo_image.alt" alt="{{ block.settings.logo_image.alt }}" class="colabs_partner-logo">
 </div>
