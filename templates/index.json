@@ -12,16 +12,6 @@
     "hero": {
       "type": "hero",
       "blocks": {
-        "hero_slider_DQWqP4": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Fistral-Cairo-Camo-2023-1.jpg",
-            "text_headline": "Unsere Zelte",
-            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!<\/p>",
-            "url_button_link": "shopify:\/\/collections\/zelte",
-            "text_button_text": "Jetzt entdecken"
-          }
-        },
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
           "settings": {
@@ -29,6 +19,16 @@
             "text_headline": "Minimal Pack",
             "richtext_text": "<p><strong>Ab 18. JULI 2024<\/strong> | Der Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.<\/p>",
             "url_button_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
+        "hero_slider_DQWqP4": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Fistral-Cairo-Camo-2023-1.jpg",
+            "text_headline": "Unsere Zelte",
+            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!<\/p>",
+            "url_button_link": "shopify:\/\/collections\/zelte",
             "text_button_text": "Jetzt entdecken"
           }
         },
@@ -86,8 +86,8 @@
         }
       },
       "block_order": [
-        "hero_slider_DQWqP4",
         "hero_slider_zBjUtr",
+        "hero_slider_DQWqP4",
         "hero_slider_LP9zUr",
         "hero_slider_L3fJzp",
         "hero_slider_6ztQE7",
