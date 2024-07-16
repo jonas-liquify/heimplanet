@@ -83,10 +83,39 @@
     },
     "infos": {
       "type": "infos",
+      "blocks": {
+        "info_BtgFdF": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/Frame_6.png",
+            "text_headline": "Weltweiter Versand",
+            "textarea_text": "Wo auch immer Du bist - wir versenden Dein Paket an Deinen Wunschort, überall auf der Welt!"
+          }
+        },
+        "info_aHqxLx": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/Frame-7.svg",
+            "text_headline": "Lebenslange Garantie",
+            "textarea_text": "Wir verwenden nur langlebige Materialien, die so verarbeitet sind, dass sie auch in den schwierigsten Umgebungen eine dauerhafte Leistung gewährleisten."
+          }
+        },
+        "info_fL7raq": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/Frame-8.svg",
+            "text_headline": "Re:Store",
+            "textarea_text": "Unser Ziel ist es, den Lebenszyklus unserer Produkte so weit wie möglich zu verlängern. Schick uns einfach Dein gebrauchtes HEIMPLANET Produkt & im Gegenzug erhältst Du bis zu 20% als Gutschein zurück."
+          }
+        }
+      },
+      "block_order": [
+        "info_BtgFdF",
+        "info_aHqxLx",
+        "info_fL7raq"
+      ],
       "settings": {
-        "text_headline": "VIEL MEHR ALS NUR DETAILS. UNSERE BENEFITS:",
-        "image_icon": "shopify:\/\/shop_images\/icons8-aufgabenliste-96.png",
-        "textarea_text": "<br>\nWELTWEITER VERSAND\n<br><br>\nLEBENSLANGE GARANTIE\n\n<br><br>\nRE:STORE"
+        "text_headline": "Viel mehr als nur Details. Unsere Benefits:"
       }
     }
   },
