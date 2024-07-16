@@ -42,6 +42,14 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave.jpg"
       }
     },
+    "l_text_logos_rRhTt8": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "Re-Store",
+        "text_headline": "Zustände",
+        "text_text": "Greenhorn - Diese Artikel haben noch nicht viel erlebt. Sie können minimale Anzeichen früheren Gebrauchs aufweisen, unterscheiden sich jedoch kaum von neuen Artikeln. Diese Kategorie bietet ein generalüberholtes Produkt, das nahezu brandneu aussieht.<br><br>High-Traveler - Die Ausrüstung in dieser Kategorie kam bereits bei früheren Abenteuern zum Einsatz. Das Produkt kann kosmetische Gebrauchsspuren aufweisen, wurde jedoch gründlich inspiziert und für eine erstklassige Funktionalität wiederhergestellt.<br><br>World Citizen - Diese Artikel haben bereits einiges von der Welt gesehen und sind nun bereit für einen neuen Besitzer. Sie können deutlich erkennbar kosmetische Gebrauchsspuren aufweisen. Auch sie wurden jedoch gründlich getestet und überholt, um eine ausgezeichnete Funktionalität sicherzustellen. <br><br>Diese Kategorie bietet Produkte mit etwas mehr Charakter und Geschichte.Hinweis - Wir sind zu 100% von unseren Re-Store-Artikeln überzeugt. Daher sind sie durch dieselbe lebenslange Garantie abgedeckt, die auch für unsere reguläre Ausrüstung gilt. Klicke hier für weitere Informationen zur lebenslangen Garantie von HEIMPLANET."
+      }
+    },
     "contact": {
       "type": "contact",
       "settings": {
@@ -56,6 +64,7 @@
     "collection_hero",
     "category",
     "content_image",
+    "l_text_logos_rRhTt8",
     "contact"
   ]
 }
