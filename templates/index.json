@@ -12,8 +12,29 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_DQWqP4": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Fistral-Cairo-Camo-2023-1.jpg",
+            "text_headline": "Unsere Zelte",
+            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!<\/p>",
+            "url_button_link": "shopify:\/\/collections\/zelte",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
+        "hero_slider_zBjUtr": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg",
+            "text_headline": "Minimal Pack",
+            "richtext_text": "<p><strong>Ab 18. JULI 2024<\/strong> | Der Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.<\/p>",
+            "url_button_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
         "hero_slider_LP9zUr": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Sets.jpg",
             "text_headline": "HEIMPLANET SETS",
@@ -34,6 +55,7 @@
         },
         "hero_slider_6ztQE7": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Travel-Pack.jpg",
             "text_headline": "TRAVEL PACKS",
@@ -52,16 +74,6 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
-        "hero_slider_XdmXhV": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Mono-Series-Minimal-Pack-Teaser-1.jpg",
-            "text_headline": "Mono Series <br>Minimal Pack",
-            "richtext_text": "<p>Der Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.<\/p>",
-            "url_button_link": "shopify:\/\/products\/mono-series-minimal-pack-blue",
-            "text_button_text": "Mehr erfahren"
-          }
-        },
         "hero_slider_3zKtma": {
           "type": "hero-slider",
           "settings": {
@@ -74,11 +86,12 @@
         }
       },
       "block_order": [
+        "hero_slider_DQWqP4",
+        "hero_slider_zBjUtr",
         "hero_slider_LP9zUr",
         "hero_slider_L3fJzp",
         "hero_slider_6ztQE7",
         "hero_slider_icPbWh",
-        "hero_slider_XdmXhV",
         "hero_slider_3zKtma"
       ],
       "settings": {
