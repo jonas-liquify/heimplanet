@@ -390,6 +390,7 @@
         },
         "partner_i7AWBj": {
           "type": "partner",
+          "disabled": true,
           "settings": {
             "text_headline": "James X Heimplanet",
             "textarea_text": "Einer unserer Gründer war auf einer Wanderung in Norwegen, mit seinem James Brand Chapter an seiner Seite. Irgendwo auf dem Weg fiel ihm sein Messer aus der Tasche und war verloren.",
