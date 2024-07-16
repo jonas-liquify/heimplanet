@@ -12,11 +12,12 @@
     "collection_hero": {
       "type": "collection_hero",
       "settings": {
-        "text_subline": "Home \/ Kategorie \/ Zelte",
-        "text_headline": "Bags+Backpacks",
-        "textarea_paragraph": "Home Kategorie Zelte",
+        "text_subline": "",
+        "text_headline": "Re-Store",
+        "textarea_paragraph": "Das Ziel muss es sein, den Lebenszyklus unserer Produkte so weit wie möglich zu verlängern. Aus diesem Grund haben wir das HEIMPLANET RE-STORE Programm ins Leben gerufen, welches dafür sorgt, dass unsere Produkte länger im Einsatz bleiben.",
         "url_button_link": "",
-        "text_button_text": "Jetzt entdecken"
+        "text_button_text": "Jetzt entdecken",
+        "image_bild": "shopify:\/\/shop_images\/Re-store.jpg"
       }
     },
     "category": {
@@ -32,12 +33,13 @@
     "content_image": {
       "type": "content_image",
       "settings": {
-        "text_headline": "Medium length heading goes here",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "text_headline": "WIE KANN ICH TEILNEHMEN?",
+        "textarea_text": "Schick uns einfach Dein gebrauchtes HEIMPLANET Produkt, indem Du das Formular ausfüllst und schließ Dich uns an, um Deine Ausrüstung zu reparieren, zu teilen und zu recyceln. Im Gegenzug erhältst Du bis zu 20% des Kaufpreises als Gutschein und jeder hat die Möglichkeit, in unserem RE-STORE Shop wiederaufbereitete Produkte zu einem reduzierten Preis zu kaufen, denn das Beste, was wir für unseren Planeten tun können, ist, mehr aus den Dingen zu machen, die wir bereits besitzen und den Verbrauch zu reduzieren!<br><br><b>Der Ablauf<\/b><br><br>  Nach dem Absenden des ausgefüllten Kontaktformulars erhältst Du kurz darauf eine Bestätigungs-E-Mail, in der die weiteren Schritte erläutert werden. Alle eingesandten Produkte werden von einem unserer Mitarbeiter im Hamburger Hafencity Showroom persönlich begutachtet und aufgearbeitet. Wir prüfen Ihr Produkt und Sie erhalten je nach Zustand ein Gutschein von 10% bis 20%.<br><br>  Deinen individuellen Gutscheincode erhältst Du innerhalb von 10 Tagen nach Eintreffen Deines Produktes. Wenn Du noch die Rechnung \/ Quittung hast, füge diese bitte Deiner E-Mail an uns bei. Dies hilft uns, Deine Anfrage schneller zu bearbeiten. Vielen Dank für die Unterstützung dieses Projekts. Wir freuen uns auf Dein Produkt!",
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
-        "text_button_text_2": "Button"
+        "text_button_text_2": "Button",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave.jpg"
       }
     },
     "contact": {
