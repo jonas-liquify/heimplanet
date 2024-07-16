@@ -281,6 +281,16 @@
         "blog_blog": "",
         "post_limit_blog": 3
       }
+    },
+    "l_content_image_bg_LnTMQg": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Common Material",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "text_headline_2": "Common Material",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-Lauritz-Kuntscher-8.jpg"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -300,6 +310,7 @@
     "l_produkt_fkQtaR",
     "l_text_logos_EjnTBw",
     "l_html_text_fVcPMm",
-    "blog_EjMTYb"
+    "blog_EjMTYb",
+    "l_content_image_bg_LnTMQg"
   ]
 }
