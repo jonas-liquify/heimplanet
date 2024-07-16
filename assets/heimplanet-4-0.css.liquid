@@ -3558,12 +3558,7 @@ figcaption {
   left: auto;
   right: 5rem;
 }
-.swiper-pagination-bullet {
-    width: 1rem!important;
-  height: 1rem!important;
-  max-width: 1rem !important;
-  max-height: 1rem !important;
-}
+
 .swiper_bottom-wrapper.is-landingpage-slider {
   align-items: center;
   position: absolute;
@@ -3589,20 +3584,17 @@ figcaption {
   outline-offset: 0px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0);
-  border-radius: 100%;
+  border-radius: 50%;
   outline-width: 2px;
   outline-style: solid;
   flex: none;
   justify-content: center;
   align-items: center;
-  width: 1rem!important;
-  height: 1rem!important;
-  max-width: 1rem !important;
-  max-height: 1rem !important;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
   transition: all .2s;
   display: flex;
-  aspect-ratio: 1;
-  padding: 0px!important;
 }
 
 .swiper_bullet.is-active {
@@ -6727,6 +6719,10 @@ figcaption {
     position: relative;
   }
 
+  .swiper_bottom-wrapper {
+    right: 2.5rem;
+  }
+
   .news_single-artikel {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
@@ -6917,7 +6913,6 @@ figcaption {
     justify-content: space-between;
     align-items: center;
     padding: .8rem 2.5rem;
-    font-family: Simplonmono, sans-serif;
     font-size: 1rem;
     display: flex;
   }
@@ -6951,8 +6946,9 @@ figcaption {
   .nav_link.is-child {
     background-color: var(--base-color-neutral--neutral-lightest);
     border-bottom-width: 0;
-    padding-top: .2rem;
-    padding-bottom: .2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
   }
 
   .nav_mobile-wrapper {
@@ -7634,12 +7630,17 @@ figcaption {
   }
 
   .help-center_list.hide-scrollbar {
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
     position: static;
   }
 
   .help-center_item {
+    white-space: nowrap;
     border-bottom-style: none;
     margin-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 2.1rem;
   }
 
   .produkt-tabs_tab {
@@ -8355,6 +8356,11 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
+  .produkt-tabs_tab {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .login-form {
     margin-bottom: 1em;
     padding: 2rem 1.5em;
@@ -8460,11 +8466,6 @@ figcaption {
 
   .nav_link.is--grand-child {
     font-size: 1rem;
-  }
-
-  .nav_link.is-child {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 
   .breadcrumbs_item {
