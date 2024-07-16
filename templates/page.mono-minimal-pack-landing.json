@@ -291,6 +291,13 @@
         "text_headline_2": "Common Material",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-Lauritz-Kuntscher-4.jpg"
       }
+    },
+    "l_headline_mono_E4pAd7": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -311,6 +318,7 @@
     "l_text_logos_EjnTBw",
     "l_html_text_fVcPMm",
     "blog_EjMTYb",
-    "l_content_image_bg_PnEaN9"
+    "l_content_image_bg_PnEaN9",
+    "l_headline_mono_E4pAd7"
   ]
 }
