@@ -6154,11 +6154,9 @@ figcaption {
   color: #111;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0);
-  border-radius: .8em;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color .2s;
   display: block;
 }
 
@@ -6181,6 +6179,7 @@ figcaption {
 }
 
 .nav_mobile-wrapper {
+  background-color: var(--base-color-neutral--white);
   display: none;
 }
 
@@ -6225,6 +6224,10 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
+  li {
+    margin-bottom: 0;
+  }
+
   .padding-medium {
     padding: 1.5rem;
   }
@@ -6906,13 +6909,23 @@ figcaption {
   }
 
   .nav_list-mobil {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
   }
 
   .nav-list-mobil-child {
+    grid-column-gap: .3rem;
+    grid-row-gap: .3rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     display: flex;
     overflow: hidden;
+  }
+
+  .nav_icon-mobil {
+    width: 1rem;
+    height: 1rem;
   }
 
   .nav_link {
@@ -6927,8 +6940,8 @@ figcaption {
   .nav_link.container {
     justify-content: space-between;
     align-items: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-size: 1em;
     display: flex;
   }
@@ -6942,8 +6955,8 @@ figcaption {
   }
 
   .nav_link.is--grand-child {
-    padding-top: .4rem;
-    padding-bottom: .4rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
     padding-left: 0;
     display: inline-block;
   }
@@ -7759,14 +7772,11 @@ figcaption {
 
   .nav_link.is--child {
     text-transform: none;
-    font-size: 1rem;
-    font-weight: 400;
   }
 
   .nav_link.is--grand-child {
     text-transform: none;
     width: 100%;
-    font-size: 1rem;
   }
 
   .section_bewertungen, .section_bilder, .section_hinweis {
@@ -8384,9 +8394,17 @@ figcaption {
     padding-right: 1.8em;
   }
 
+  .nav_icon-mobil {
+    width: .8rem;
+    height: .8rem;
+  }
+
   .nav_link.is--child {
     text-transform: none;
-    font-weight: 400;
+  }
+
+  .nav_link.is--grand-child {
+    font-size: .85rem;
   }
 
   .breadcrumbs_item {
