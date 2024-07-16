@@ -99,24 +99,48 @@
           "lieferung_icon_CkhAzb": {
             "type": "lieferung-icon",
             "settings": {
+              "image_icon": "shopify:\/\/shop_images\/Group_302.png"
+            }
+          },
+          "lieferung_icon_LAPKFF": {
+            "type": "lieferung-icon",
+            "settings": {
+              "image_icon": "shopify:\/\/shop_images\/Heimplanet-UPS-Logo.png"
+            }
+          },
+          "lieferung_icon_hpVHHM": {
+            "type": "lieferung-icon",
+            "settings": {
+              "image_icon": "shopify:\/\/shop_images\/Heimplanet-Fedex-Logo.png"
             }
           },
           "social_media_GcdYLX": {
             "type": "social-media",
             "settings": {
-              "url_social_link": ""
-            }
-          },
-          "social_media_MYENPV": {
-            "type": "social-media",
-            "settings": {
-              "url_social_link": ""
+              "url_social_link": "https:\/\/www.instagram.com\/heimplanet\/",
+              "image_social_icon": "shopify:\/\/shop_images\/Group_43_0c13d304-a40c-456e-8144-1a0443000720.png"
             }
           },
           "social_media_EXxWDF": {
             "type": "social-media",
             "settings": {
-              "url_social_link": ""
+              "url_social_link": "https:\/\/www.facebook.com\/heimplanet\/",
+              "image_social_icon": "shopify:\/\/shop_images\/Group_41_af866596-c192-4778-ae25-485de85da080.png"
+            }
+          },
+          "social_media_VUGDyc": {
+            "type": "social-media",
+            "settings": {
+              "url_social_link": "https:\/\/www.youtube.com\/channel\/UCxPmJJM8vkH4GDqhaK1HFag",
+              "image_social_icon": "shopify:\/\/shop_images\/Group_40_ea51e12f-9527-4a96-91ba-89a136015048.png"
+            }
+          },
+          "social_media_MYENPV": {
+            "type": "social-media",
+            "disabled": true,
+            "settings": {
+              "url_social_link": "https:\/\/www.pinterest.de\/heimplanet\/",
+              "image_social_icon": "shopify:\/\/shop_images\/Group_42_a4c39591-4885-451a-a108-35dcda871955.png"
             }
           }
         },
@@ -126,9 +150,12 @@
           "facts_J9ehLG",
           "newsletter_facts_niNGVT",
           "lieferung_icon_CkhAzb",
+          "lieferung_icon_LAPKFF",
+          "lieferung_icon_hpVHHM",
           "social_media_GcdYLX",
-          "social_media_MYENPV",
-          "social_media_EXxWDF"
+          "social_media_EXxWDF",
+          "social_media_VUGDyc",
+          "social_media_MYENPV"
         ],
         "settings": {
           "text_newsletter_headline": "WERDE TEIL DER COMMUNITY",
