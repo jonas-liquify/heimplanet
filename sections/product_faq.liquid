@@ -10,11 +10,8 @@
 {{ section.settings.text_headline }}
 </h2>
 <div class="dropdown_symbol"></div></div><div class="dropdown_content is-big"><div class="dropdown-inner-content is-big">{% for faq in product.metafields.custom.faqs.value %}    <div li-for="faq in product.metafields.custom.faqs.value" class="dropdown_component">
-                                    
-                            <div class="dropdown_header"><h3 li-object="faq.frage" class="heading-style-h3">{{ faq.frage }}</h3><div class="dropdown_symbol"></div></div>
-                            
+                                    <div class="dropdown_header"><h3 li-object="faq.frage" class="heading-style-h3">{{ faq.frage }}</h3><div class="dropdown_symbol"></div></div>
                             <div class="dropdown_content"><div class="dropdown-inner-content"><p li-object="faq.antwort" class="text-size-regular max-width-large">{{ faq.antwort }}</p></div></div>
-                            
                         </div>
 {% endfor %}</div></div>    </div>
 {% endif %}</div>    </div>

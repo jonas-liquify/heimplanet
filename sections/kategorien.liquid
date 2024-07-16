@@ -7,10 +7,8 @@
             {% endif %}
 {% endfor %}
 {% for block in section.blocks %}    <li li-for="block in section.blocks" class="kategorie-slider_swiper-item swiper-slide">
-                                    
-                            <a li-object:href="block.settings.url_link" href="{{ block.settings.url_link }}" class="kategorie-slider_item w-inline-block"><img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="eager" li-object:src="block.settings.image_bild | img_url: 'master'" li-object:alt="block.settings.image_bild.alt" alt="{{ block.settings.image_bild.alt }}" class="kategorie-slider_img is-darken">
+                                    <a li-object:href="block.settings.url_link" href="{{ block.settings.url_link }}" class="kategorie-slider_item w-inline-block"><img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="eager" li-object:src="block.settings.image_bild | img_url: 'master'" li-object:alt="block.settings.image_bild.alt" alt="{{ block.settings.image_bild.alt }}" class="kategorie-slider_img is-darken">
 <h3 li-object="block.settings.text_headline" class="heading-style-h4 text-align-center">{{ block.settings.text_headline }}</h3></a>
-                            
                         </li>
 {% endfor %}</ul></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>{% endif %}

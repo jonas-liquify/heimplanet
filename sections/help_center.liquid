@@ -1,7 +1,7 @@
 <div class="padding-global padding-section-medium"><div class="container-large"><div class="text-align-center"><h1 class="heading-style-h1">
 {{ section.settings.text_headline }}
 </h1>
-</div><div class="support_tabs"><div x-tabs="" x-data="" class="produkt-tabs_wrapper"><div class="video-iframe-2 hide"></div><div id="w-node-_76f2750a-5648-1ca7-da32-f18b9e3d694f-b5f7d5b5" class="hide w-embed">{% assign categories = shop.metaobjects.support_titel.values | sort: 'titel' %}</div><ul x-tabs:list="" id="w-node-_76f2750a-5648-1ca7-da32-f18b9e3d6950-b5f7d5b5" role="list" class="help-center_list hide-scrollbar w-list-unstyled">{% for item in shop.metaobjects.support_titel.values %}    <li x-bind:class="$tab.isSelected ? '' : 'is-not-selected'" li-for="item in shop.metaobjects.support_titel.values" x-tabs:tab="" class="help-center_item">
+</div><div class="support_tabs"><div x-tabs="" x-data="" class="produkt-tabs_wrapper"><div class="video-iframe-2 hide"></div><div id="w-node-_76f2750a-5648-1ca7-da32-f18b9e3d694f-b5f7d5b5" class="hide w-embed">{% assign categories = shop.metaobjects.support_titel.values | sort: 'titel' %}</div><ul x-tabs:list="" id=" w-node-_76f2750a-5648-1ca7-da32-f18b9e3d6950-b5f7d5b5" role="list" class="help-center_list hide-scrollbar w-list-unstyled">{% for item in shop.metaobjects.support_titel.values %}    <li x-bind:class="$tab.isSelected ? '' : 'is-not-selected'" li-for="item in shop.metaobjects.support_titel.values" x-tabs:tab="" class="help-center_item">
                                     <img src="{{ item.icon.value | img_url: 'master' }}" loading="lazy" li-object:src="item.icon.value | img_url: 'master'" alt="" class="produkt-tabs_icon is-tabs">
 
                             
