@@ -15,8 +15,8 @@
                             <a href="#" class="nav_link container w-inline-block"><div li-object="block.settings.menu_handle" class="nav_link-mobil">{{ block.settings.menu_handle }}</div><img loading="lazy" src="{{ 'arrow-drop.svg' | asset_url }}" alt="" class="nav_icon-mobil">
 </a>
                             
-                            <div class="container is--mobil-nav"><div class="hide w-embed">{% - assign main_menu_handle = block.settings.menu_handle -%}
-                          {% - assign main_menu = linklists[main_menu_handle] -%}</div><ul role="list" class="nav_list-mobil w-list-unstyled">{% for link in main_menu.links %}    <li li-for="link in main_menu.links">
+                            <div class="container is--mobil-nav"><div class="hide w-embed">{% assign main_menu_handle = block.settings.menu_handle %}
+                          {% assign main_menu = linklists[main_menu_handle] %}</div><ul role="list" class="nav_list-mobil w-list-unstyled">{% for link in main_menu.links %}    <li li-for="link in main_menu.links">
                                     
                             <div class="nav_link is--child">{% if link.links.size == 0 %}    <a href="{{ link.url }}" li-if="link.links.size == 0" itemprop="url">
     {{ link.title }}    </a>
