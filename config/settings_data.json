@@ -71,7 +71,7 @@
           "facts_eree39": {
             "type": "facts",
             "settings": {
-              "url_fact_link": "",
+              "url_fact_link": "shopify:\/\/pages\/1-for-the-planet",
               "text_fact": "1% for the Planet"
             }
           },
@@ -85,7 +85,7 @@
           "facts_J9ehLG": {
             "type": "facts",
             "settings": {
-              "url_fact_link": "",
+              "url_fact_link": "shopify:\/\/pages\/re-store-programm",
               "text_fact": "Re-Store Programm"
             }
           },
