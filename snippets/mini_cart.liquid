@@ -70,10 +70,7 @@
 
                 this.total.items = data.item_count;
 
-                this.products = data.items.map((item) => {
-                    item.title = this.htmlspecialchars_decode(item.title)
-                    return item
-                })
+                
 
                 this.total.price = data.total_price;
                 this.total.weight = data.total_weight;
