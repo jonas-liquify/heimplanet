@@ -3,7 +3,7 @@
 </h2>
 </div></div></div><div class="slider-steps_component"><div class="slider-steps_wrapper pointer-events-off"><div class="slider-steps_toggle"><img src="{{ 'Rectangle-898.svg' | asset_url }}" loading="lazy" alt="" class="slider-steps_arrow">
 <img src="{{ 'Rectangle-25.svg' | asset_url }}" loading="lazy" alt="" class="slider-steps_arrow">
-</div></div><div class="padding-global"><div class="container-large"><div class="swiper is-slider-steps"><div class="swiper-wrapper is-slider-steps">{% for block in section.blocks %}
+</div></div><div class="padding-global"><div class="container-large"><div class="swiper-container"><div class="swiper is-slider-steps"><div class="swiper-wrapper is-slider-steps">{% for block in section.blocks %}
     {% if block.type == "feature" %}
                     <div li-block="Feature" class="swiper-slide is-slider-steps">
                                     <img class="landingpage_slider-img"
@@ -19,4 +19,21 @@
                             </div>
             {% endif %}
 {% endfor %}
-</div></div><div class="swiper-scrollbar"><div class="swiper-scrollbar-drag"></div></div></div></div></div> {% schema %} {"tag":"div","name":"l_step_slider","class":"section_l-reveal","blocks":[{"name":"Feature","type":"feature","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_text","type":"text","label":"text","default":"This is some text inside of a div block."}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Bags+Backpacks"}],"presets":[{"name":"l_step_slider","category":"Liquify"}]} {% endschema %}
+</div></div></div><div class="swiper-scrollbar"><div class="swiper-scrollbar-drag"></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>{% endif %}
+<script>document.addEventListener('DOMContentLoaded', function () {
+  $(".swiper-container").each(function(index) {
+    const swiper = new Swiper($(this).find(".swiper.is-slider-steps")[0], {
+    // speed: sliderDuration,
+    slidesPerView: "auto",
+    spaceBetween: 16,
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      hide: false,
+      draggable: true,
+      snapOnRelease: false,
+      }
+    });
+		});
+});
+</script></div></div></div> {% schema %} {"tag":"div","name":"l_step_slider","class":"section_l-step-slider","blocks":[{"name":"Feature","type":"feature","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_text","type":"text","label":"text","default":"This is some text inside of a div block."}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Bags+Backpacks"},{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"l_step_slider","category":"Liquify"}]} {% endschema %}

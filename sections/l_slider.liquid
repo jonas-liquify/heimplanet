@@ -1,4 +1,4 @@
-<div class="padding-global"><div class="container-large"><div class="swiper_component"><div class="swiper is-gallery-slider"><div class="swiper-wrapper">{% for block in section.blocks %}
+<div class="padding-global"><div class="container-large"><div class="swiper-container"><div class="swiper is-gallery-slider"><div class="swiper-wrapper">{% for block in section.blocks %}
     {% if block.type == "slider" %}
                     <div li-block="Slider" class="swiper-slide is-gallery-slider">
                                     <img class="landingpage-slider_img"
@@ -9,4 +9,18 @@
                             </div>
             {% endif %}
 {% endfor %}
-</div></div><div class="swiper_bottom-wrapper is-landingpage-slider"><div id="swiper-pagination" class="swiper_bullet-wrapper is-slider-main"><div class="swiper_bullet is-active"></div><div class="swiper_bullet"></div></div></div></div></div></div> {% schema %} {"tag":"div","name":"l_slider","class":"section_l-slider","blocks":[{"name":"Slider","type":"slider","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"presets":[{"name":"l_slider","category":"Liquify"}]} {% endschema %}
+</div></div><div class="swiper_bottom-wrapper is-landingpage-slider"><div id="swiper-pagination" class="swiper_bullet-wrapper is-slider-main"><div class="swiper_bullet is-active"></div><div class="swiper_bullet"></div></div></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>{% endif %}
+<script>document.addEventListener('DOMContentLoaded', function () {
+    $(".swiper-container").each(function(index) {
+      const swiper = new Swiper($(this).find(".swiper.is-gallery-slider")[0], {
+        // speed: sliderDuration,
+        slidesPerView: 1,
+        pagination: {
+          el: "#swiper-pagination",
+          clickable: true,
+        },
+      });
+    });
+  });
+</script></div></div> {% schema %} {"tag":"div","name":"l_slider","class":"section_l-slider","blocks":[{"name":"Slider","type":"slider","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"l_slider","category":"Liquify"}]} {% endschema %}

@@ -1,4 +1,4 @@
-{% if product.metafields.custom.dots_headline != blank %}    <div li-if="product.metafields.custom.dots_headline != blank" class="padding-global">
+{% if product.metafields.custom.dots_headline != blank %}    <div li-if="product.metafields.custom.dots_headline != blank" class="padding-global is-subnav">
     <div class="container-large"><div class="produkt_nav-wrapper"><div class="produkt_nav">{% if product.metafields.custom.dots_headline != blank %}    <a href="#highlights" li-if="product.metafields.custom.dots_headline != blank" class="produkt_nav-link">
     Highlights    </a>
 {% endif %}{% if product.metafields.my_fields.video != blank %}    <a href="#video" li-if="product.metafields.my_fields.video != blank" class="produkt_nav-link">
@@ -11,8 +11,8 @@
 <a href="#faqs" class="produkt_nav-link" href="#faqs">
 {{ section.settings.text_bewertungen }}
 </a>
-</div><div class="display-inlineflex"><div class="upsell_titel"><div li-object="product.title" class="text-size-regular text-style-allcaps">{{ product.title }}</div><div class="upsell_price">{% if product.compare_at_price > product.price %}    <div li-if="product.compare_at_price > product.price">
+</div><div class="produkt_nav-cart"><div class="upsell_titel"><div li-object="product.title" class="text-size-regular text-style-allcaps">{{ product.title }}</div><div class="upsell_price">{% if product.compare_at_price > product.price %}    <div li-if="product.compare_at_price > product.price">
     <div li-object="product.compare_at_price | money" class="upsell_price-tag text-style-strikethrough">{{ product.compare_at_price | money }}</div>    </div>
 {% endif %}<div li-object="product.price | money" class="upsell_price-tag">{{ product.price | money }}</div></div></div><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
-<a li-element="direct-add-to-cart" href="#" class="button max-width-full w-button" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" @click="addToCart()">Hinzufügen</a></div></div></div>    </div>
+<a li-element="direct-add-to-cart" href="#" class="button w-button" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" @click="addToCart()">Hinzufügen</a></div></div></div>    </div>
 {% endif %} {% schema %} {"tag":"section","name":"product_nav","class":"section_product-nav","settings":[{"id":"text_detailinformationen","type":"text","label":"Detailinformationen","default":"Detailinformationen"},{"id":"text_bewertungen","type":"text","label":"Bewertungen","default":"Bewertungen"}],"presets":[{"name":"product_nav","category":"Liquify"}]} {% endschema %}
