@@ -29,23 +29,21 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Landing-2024-July.jpg"
       }
     },
-    "l_text_logos_qwChiU": {
-      "type": "l_text_logos",
-      "blocks": {
-        "logo_4wdVzj": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify:\/\/shop_images\/mono-material_endless_black_icon_006cef39-4916-454d-9acf-1bf419a14334.png"
-          }
-        }
-      },
-      "block_order": [
-        "logo_4wdVzj"
-      ],
+    "l_headline_mono_E4pAd7": {
+      "type": "l_headline_mono",
       "settings": {
         "text_subline": "Intro",
-        "text_headline": "Der erste Mono Material Pack, der vollständig recycelbar ist",
-        "text_text": ""
+        "text_headline": "Der erste Mono Material Pack, der vollständig recycelbar ist"
+      }
+    },
+    "l_content_image_bg_PnEaN9": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "Minimal Pack",
+        "text_headline": "One Material. <br>Endless Cycles.",
+        "textarea_text": "Unser neuer nachhaltiger Minimal Pack ist für den täglichen Gebrauch konzipiert und unterstützt die Kreislaufwirtschaft.",
+        "text_headline_2": "",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Ocean-Blue-Lauritz-Kuntscher-2024-11.jpg"
       }
     },
     "l_content_left_PFWMRP": {
@@ -81,7 +79,7 @@
       "settings": {
         "text_headline": "Carry the future: Mono Pack",
         "textarea_text": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Lauritz-Kuntscher-2024-25.png"
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-2_2a04a5f6-4343-41ff-9f74-fc6952c06308.jpg"
       }
     },
     "l_text_logos_VMEtyH": {
@@ -258,10 +256,11 @@
     },
     "l_text_logos_EjnTBw": {
       "type": "l_text_logos",
+      "disabled": true,
       "settings": {
         "text_subline": "Mission",
         "text_headline": "One Material. Endless Cycles.",
-        "text_text": "Unser neuer nachhaltiger Minimal Pack ist für den täglichen Gebrauch konzipiert und unterstützt die Kreislaufwirtschaft."
+        "text_text": ""
       }
     },
     "l_html_text_fVcPMm": {
@@ -281,23 +280,6 @@
         "blog_blog": "",
         "post_limit_blog": 3
       }
-    },
-    "l_content_image_bg_PnEaN9": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Common Material",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        "text_headline_2": "Common Material",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-Lauritz-Kuntscher-4.jpg"
-      }
-    },
-    "l_headline_mono_E4pAd7": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
-      }
     }
   },
   "layout": "page.landingpage",
@@ -305,7 +287,8 @@
   "order": [
     "l_header_wcRar9",
     "l_hero_JjbFDH",
-    "l_text_logos_qwChiU",
+    "l_headline_mono_E4pAd7",
+    "l_content_image_bg_PnEaN9",
     "l_content_left_PFWMRP",
     "l_text_logos_VMEtyH",
     "l_hero_QNWRAf",
@@ -317,8 +300,6 @@
     "l_produkt_fkQtaR",
     "l_text_logos_EjnTBw",
     "l_html_text_fVcPMm",
-    "blog_EjMTYb",
-    "l_content_image_bg_PnEaN9",
-    "l_headline_mono_E4pAd7"
+    "blog_EjMTYb"
   ]
 }
