@@ -10,6 +10,12 @@ const LiquifyHelper = {
         return formatter.format(value);
     },
 
+    htmlspecialchars_decode(string) {
+        let tempElement = document.createElement('textarea');
+        tempElement.innerHTML = string;
+        return tempElement.value;
+    },
+
     triggerClick: function (el) {
         if(!(el instanceof HTMLElement)) {
             console.info(el + ' must be an instance of HTMLElement')
@@ -25,6 +31,19 @@ const LiquifyHelper = {
         });
 
         el.dispatchEvent(ev);
+    },
+
+    /**
+     * Trigger dropdown click to open minicart
+     */
+    handleTriggerClick: function () {
+        let elements = document.querySelectorAll('[li-element="mini-cart-trigger"]');
+        elements.forEach(element => {
+            let closestDropdown = element.closest('.w-dropdown-toggle');
+            if (closestDropdown) {
+                this.triggerClick(closestDropdown);
+            }
+        });
     },
 
     triggerClickById: (id) => {

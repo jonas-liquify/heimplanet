@@ -7,14 +7,10 @@
             {% endif %}
 {% endfor %}
 {% for block in section.blocks %}    <li li-for="block in section.blocks" class="kategorie-slider_swiper-item swiper-slide">
-                                    
-                            <a li-object:href="block.settings.url_link" href="{{ block.settings.url_link }}" class="kategorie-slider_item w-inline-block"><img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="eager" li-object:src="block.settings.image_bild | img_url: 'master'" li-object:alt="block.settings.image_bild.alt" alt="{{ block.settings.image_bild.alt }}" class="kategorie-slider_img is-darken">
+                                    <a li-object:href="block.settings.url_link" href="{{ block.settings.url_link }}" class="kategorie-slider_item w-inline-block"><img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="eager" li-object:src="block.settings.image_bild | img_url: 'master'" li-object:alt="block.settings.image_bild.alt" alt="{{ block.settings.image_bild.alt }}" class="kategorie-slider_img is-darken">
 <h3 li-object="block.settings.text_headline" class="heading-style-h4 text-align-center">{{ block.settings.text_headline }}</h3></a>
-                            
                         </li>
-{% endfor %}</ul></div><div class="padding-global is-absolout pointer-events-off"><div class="container-large is-height"><div class="kategorie-slider_buttons"><a id="kategorie-left" href="#" class="kategorie-slider_button pointer-events-on w-inline-block"><img src="{{ 'arrow.svg' | asset_url }}" loading="lazy" alt="">
-</a><a id="kategorie-right" href="#" class="kategorie-slider_button pointer-events-on w-inline-block"><img src="{{ 'arrow-2.svg' | asset_url }}" loading="lazy" alt="">
-</a></div></div></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+{% endfor %}</ul></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>{% endif %}
 <script>document.addEventListener('DOMContentLoaded', function () {
     $('.swiper-container').each(function (index) {
@@ -37,4 +33,6 @@
       });
     });
   });
-</script></div></div></div> {% schema %} {"tag":"section","name":"kategorien","class":"section_kategorien background-color-grey","blocks":[{"name":"Kategorie","type":"kategorie","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Heading"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"kategorien","category":"Liquify"}]} {% endschema %}
+</script></div></div></div><div class="padding-global is-absolout pointer-events-off"><div class="container-large is-height"><div class="kategorie-slider_buttons"><a id="kategorie-left" href="#" class="kategorie-slider_button pointer-events-on w-inline-block"><img src="{{ 'arrow.svg' | asset_url }}" loading="lazy" alt="" class="kategorie-slider_img">
+</a><a id="kategorie-right" href="#" class="kategorie-slider_button pointer-events-on w-inline-block"><img src="{{ 'arrow-2.svg' | asset_url }}" loading="lazy" alt="" class="kategorie-slider_img">
+</a></div></div></div> {% schema %} {"tag":"section","name":"kategorien","class":"section_kategorien background-color-grey","blocks":[{"name":"Kategorie","type":"kategorie","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Heading"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"kategorien","category":"Liquify"}]} {% endschema %}

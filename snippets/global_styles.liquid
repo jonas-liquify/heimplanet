@@ -1,10 +1,10 @@
 <style>[li-cloak_disabled="hide"]  { display: none !important; }
-   [x-cloak] { display: none !important; }
+  [x-cloak] { display: none !important; }
   html { font-size: 1.1rem; }
   @media screen and (max-width: 1920px) { html { font-size: calc(0.34375rem + 0.55vw); } }
   @media screen and (max-width: 1600px) { html { font-size: calc(0.01375rem + 0.99125vw); } }
   @media screen and (max-width: 991px) { html { font-size: calc(0.48125rem + 0.72875vw); } }
-  @media screen and (max-width: 479px) { html { font-size: calc(0.70125rem + 0.78475vw); } }
+  @media screen and (max-width: 479px) { html { font-size: calc(0.70125rem + 0.72875vw); } }
   /* Make text look crisper and more legible in all browsers */
   body {
     -webkit-font-smoothing: antialiased;
@@ -83,7 +83,7 @@
     display: inline-flex;
   }
   /* These classes are never overwritten */
-  .hide {
+  .hide, .w-dyn-empty {
     display: none !important;
   }
   @media screen and (max-width: 991px) {
@@ -182,5 +182,13 @@
   }
   .is-darken {
     mix-blend-mode: darken;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
 </style>
