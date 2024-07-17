@@ -63,18 +63,18 @@
     "l_content_left_PFWMRP": {
       "type": "l_content_left",
       "blocks": {
-        "item_BirhCg": {
-          "type": "item",
-          "settings": {
-            "image_icon": "shopify:\/\/shop_images\/icons8-ok-96.png",
-            "text_text": "vollständig Recyclebar"
-          }
-        },
         "item_eKYzdH": {
           "type": "item",
           "settings": {
             "image_icon": "shopify:\/\/shop_images\/icons8-ok-96.png",
             "text_text": "aus bis zu 100% recyceltem Material"
+          }
+        },
+        "item_BirhCg": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/icons8-ok-96.png",
+            "text_text": "vollständig Recyclebar"
           }
         },
         "item_U8CTCB": {
@@ -86,8 +86,8 @@
         }
       },
       "block_order": [
-        "item_BirhCg",
         "item_eKYzdH",
+        "item_BirhCg",
         "item_U8CTCB"
       ],
       "settings": {
