@@ -372,7 +372,10 @@ document.addEventListener('alpine:init', () => {
                     console.log('product added');
                     console.log('Dispatch cart events');
                     this.$dispatch('cartupdated');
+                  debugger;
+
                     this.$dispatch('toggleminicart');
+                  
                     this.$dispatch('showcartmessage', {
                         status: data.status,
                         message: data.message,
