@@ -38,12 +38,15 @@
     },
     "l_content_image_bg_PnEaN9": {
       "type": "l_content_image_bg",
+      "custom_css": [
+
+      ],
       "settings": {
         "text_subline": "Minimal Pack",
         "text_headline": "One Material. <br>Endless Cycles.",
         "textarea_text": "Unser neuer nachhaltiger Minimal Pack ist für den täglichen Gebrauch konzipiert und unterstützt die Kreislaufwirtschaft.",
         "text_headline_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Ocean-Blue-Lauritz-Kuntscher-2024-9.jpg"
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Ocean-Blue-Lauritz-Kuntscher-2024-11.jpg"
       }
     },
     "l_content_left_PFWMRP": {
@@ -79,7 +82,7 @@
       "settings": {
         "text_headline": "Carry the future: Mono Pack",
         "textarea_text": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Mood-2_2a04a5f6-4343-41ff-9f74-fc6952c06308.jpg"
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Monopack-Blue-Minimal-Preview.jpg"
       }
     },
     "l_text_logos_VMEtyH": {
