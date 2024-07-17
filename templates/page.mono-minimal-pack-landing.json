@@ -257,24 +257,9 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_text_logos_EjnTBw": {
-      "type": "l_text_logos",
-      "disabled": true,
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "One Material. Endless Cycles.",
-        "text_text": ""
-      }
-    },
-    "l_html_text_fVcPMm": {
-      "type": "l_html_text",
-      "disabled": true,
-      "settings": {
-        "html_richtext": "<h2>What’s a Rich Text element?<\/h2>\n              <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.<\/p>\n              <h4>Static and dynamic content editing<\/h4>\n              <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any<\/p>"
-      }
-    },
     "blog_EjMTYb": {
       "type": "blog",
+      "disabled": true,
       "settings": {
         "text_headline": "",
         "url_button_link": "",
@@ -301,8 +286,6 @@
     "l_dropdowns_YeDrRR",
     "l_hero_ipwcRq",
     "l_produkt_fkQtaR",
-    "l_text_logos_EjnTBw",
-    "l_html_text_fVcPMm",
     "blog_EjMTYb"
   ]
 }
