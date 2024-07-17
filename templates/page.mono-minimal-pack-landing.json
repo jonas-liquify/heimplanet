@@ -43,10 +43,21 @@
       ],
       "settings": {
         "text_subline": "Minimal Pack",
-        "text_headline": "One Material. <br>Endless Cycles.",
+        "text_headline": "One Material. Endless Cycles.",
         "textarea_text": "Unser neuer nachhaltiger Minimal Pack ist für den täglichen Gebrauch konzipiert und unterstützt die Kreislaufwirtschaft.",
         "text_headline_2": "",
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Ocean-Blue-Lauritz-Kuntscher-2024-11.jpg"
+      }
+    },
+    "l_text_logos_VMEtyH": {
+      "type": "l_text_logos",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_subline": "Mono Series Minimal Pack",
+        "text_headline": "The Most Eco-Friendly Bag we can make today",
+        "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können.  Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
       }
     },
     "l_content_left_PFWMRP": {
@@ -82,18 +93,7 @@
       "settings": {
         "text_headline": "Carry the future: Mono Pack",
         "textarea_text": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Monopack-Blue-Minimal-Preview.jpg"
-      }
-    },
-    "l_text_logos_VMEtyH": {
-      "type": "l_text_logos",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "text_subline": "Mono Series Minimal Pack",
-        "text_headline": "The Most Eco-Friendly Bag we can make today",
-        "text_text": "Nach zwei Jahren Forschung und Entwicklung in Zusammenarbeit mit führenden Materialwissenschaftlern sind wir stolz darauf, den neuen Mono Series Minimal Pack vorzustellen - unseren ersten vollständig recycelbaren Rucksack. Dies ist der umweltfreundlichste Rucksack, den wir heute herstellen können. <br><br> Er besteht je nach Farbvariante aus bis zu 100 % recycelten Materialien. Dieser Rucksack markiert nicht nur einen wichtigen Meilenstein für HEIMPLANET, sondern auch den Einstieg in die Kreislaufwirtschaft und eine nachhaltigere Zukunft."
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Ocean-Blue-Lauritz-Kuntscher-2024-12.jpg"
       }
     },
     "l_hero_QNWRAf": {
@@ -292,8 +292,8 @@
     "l_hero_JjbFDH",
     "l_headline_mono_E4pAd7",
     "l_content_image_bg_PnEaN9",
-    "l_content_left_PFWMRP",
     "l_text_logos_VMEtyH",
+    "l_content_left_PFWMRP",
     "l_hero_QNWRAf",
     "l_text_logos_AKFc7q",
     "l_text_logos_GA3zf4",
