@@ -304,7 +304,7 @@ document.addEventListener('alpine:init', () => {
                 this.products = data.items;
 
                 // Trigger dropdown click to open minicart
-                let elements = document.querySelectorAll('[li-element="mini-cart-trigger"]');
+                let elements = document.querySelectorAll('[li-element="mini-cart-toggle"]');
                 elements.forEach(element => {
                     let closestDropdown = element.closest('.w-dropdown-toggle');
                     if (closestDropdown) {
