@@ -1,4 +1,4 @@
-<div class="padding-global"><div class="container-large"><ul role="list" class="breadcrumbs_component w-list-unstyled"><li class="breadcrumbs_item"><a li-object:href="routes.root_url" href="{{ {{ routes.root_url }} }}" class="w-inline-block"><div class="text-size-small">HOME</div></a><img loading="lazy" src="{{ 'expand_more.svg' | asset_url }}" alt="" class="breadcrumbs_icon">
+<div class="padding-global"><div class="container-large"><ul role="list" class="breadcrumbs_component w-list-unstyled"><li class="breadcrumbs_item"><a li-object:href="routes.root_url" href="{{ routes.root_url }}" class="w-inline-block"><div class="text-size-small">HOME</div></a><img loading="lazy" src="{{ 'expand_more.svg' | asset_url }}" alt="" class="breadcrumbs_icon">
 </li>{% if template == 'product' %}    <li li-if="template == 'product'" class="breadcrumbs_item">
     {% if collection.url %}    <div li-if="collection.url">
     <a li-object:href="collection.url" href="{{ collection.url }}" class="breadcrumb_link w-inline-block"><div li-object="collection.title | truncate: 15" class="text-size-small">{{ collection.title | truncate: 15 }}</div></a>    </div>
