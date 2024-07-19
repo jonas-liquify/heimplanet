@@ -416,6 +416,45 @@
       "settings": {
         "checkbox_swiper_script": true
       }
+    },
+    "links_wHbqQM": {
+      "type": "links",
+      "blocks": {
+        "block_AfA3VU": {
+          "type": "block",
+          "settings": {
+            "url_link": "",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Ocean-Blue-Lauritz-Kuntscher-2024-11.jpg",
+            "text_titel": "Bestselling"
+          }
+        },
+        "block_gqt3Cq": {
+          "type": "block",
+          "settings": {
+            "url_link": "",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-6_ddf03d32-fd92-46ce-9b47-5816238ce7c7.jpg",
+            "text_titel": "Bestselling"
+          }
+        },
+        "block_TmmjJJ": {
+          "type": "block",
+          "settings": {
+            "url_link": "",
+            "image_bild": "shopify:\/\/shop_images\/HEIMPLANET-Dots-Mono-Series-Minimal-Pack-Diamond-Black-1.jpg",
+            "text_titel": "Bestselling"
+          }
+        }
+      },
+      "block_order": [
+        "block_AfA3VU",
+        "block_gqt3Cq",
+        "block_TmmjJJ"
+      ],
+      "settings": {
+        "text_headline": "MAGAZIN",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
     }
   },
   "layout": "theme",
@@ -428,6 +467,7 @@
     "links",
     "content_image",
     "blog_qFY9GJ",
-    "colabs_BpYUJe"
+    "colabs_BpYUJe",
+    "links_wHbqQM"
   ]
 }
