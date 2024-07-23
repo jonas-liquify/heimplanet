@@ -21,7 +21,7 @@
                             </div>
             {% endif %}
 {% endfor %}
-<div class="tabs_link is-not-selected hide"></div><div class="padding-global"><div class="container-large text-color-white"><ul role="list" x-ref="tablist" class="tabs_nav-bar">{% for block in section.blocks %}    <li li-for="block in section.blocks" class="tabs_nav-link">
+<div class="padding-global"><div class="container-large text-color-white"><ul role="list" x-ref="tablist" class="tabs_nav-bar">{% for block in section.blocks %}    <li li-for="block in section.blocks" class="tabs_nav-link">
                                     <div x-bind:tabindex="isSelected($el.id) ? 0 : -1" x-on:click="select($el.id)" x-bind:class="isSelected($el.id) ? ' ' : 'is-not-selected'" x-bind:id="$id('tab', whichChild($el.parentElement, $refs.tablist))" x-bind:aria-selected="isSelected($el.id)" class="tabs_link"><img src="{{ block.settings.logo_image | img_url: 'large' }}" loading="lazy" li-object:src="block.settings.logo_image | img_url: 'large'" li-object:alt="block.settings.logo_image.alt" alt="{{ block.settings.logo_image.alt }}" class="tabs_logo">
 </div>
                         </li>
