@@ -77,6 +77,9 @@
     },
     "product_recommended": {
       "type": "product_recommended",
+      "custom_css": [
+        ".product-item_image.is-second {display: none;}"
+      ],
       "settings": {
         "text_headline": "Ähnliche Produkte"
       }
