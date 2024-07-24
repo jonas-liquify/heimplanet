@@ -61,7 +61,7 @@
         "settings": {
           "url_storefinder_link": "shopify:\/\/pages\/shopfinder",
           "text_storefinder": "Storefinder",
-          "collection_bestseller": "",
+          "collection_bestseller": "bekleidung",
           "collection_bestseller_limit": 6
         }
       },
