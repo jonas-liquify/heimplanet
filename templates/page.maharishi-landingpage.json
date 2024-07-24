@@ -39,6 +39,7 @@
     },
     "l_reveal_slider_b4qbGK": {
       "type": "l_reveal_slider",
+      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
