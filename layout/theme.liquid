@@ -1,9 +1,5 @@
 <!doctype html>
-<html data-wf-page="6626c17220428d9ec68d8180" data-wf-site="6626c17220428d9ec68d80f2" lang="de"><head> 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-      $m = $.noConflict(true); 
-    </script><meta charset="utf-8">
+<html data-wf-page="6626c17220428d9ec68d8180" data-wf-site="6626c17220428d9ec68d80f2" lang="de"><head><meta charset="utf-8">
 <title>{{ page_title }}</title><meta content="{{ page_description }}" name="description">
 <meta content="{{ page_title }}" property="og:title">
 <meta content="{{ page_description }}" property="og:description">
@@ -96,12 +92,7 @@ fbq('consent', 'grant');
 };
 window.addEventListener("cf_consent", callbackFnc);
 window.addEventListener("cf_init", callbackFnc);
-</script><script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}
-{% assign pageurl = content_for_header| split:'"pageurl":"' | last | split:'"' | first %} 
-{% assign Shopdomain = pageurl | split : "\/" | first %} 
-<script id='geoshippingbarscript' mlveda='{{Shopdomain}}' src='https://heimplanet-v2.myshopify.com/apps/GeoShippingBar/GeoShipingBarProxy.js'></script>
-{{ 'mlveda-shippingbar.css' | asset_url | stylesheet_tag }} 
-</head>
+</script><script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
 <body>
 
 <div class="page-wrapper">{% render 'global_styles' %}
