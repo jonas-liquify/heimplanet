@@ -9,6 +9,8 @@
 */
 {
   "current": {
+    "favicon": "shopify:\/\/shop_images\/Heimplanet-Favicon-Black_c8b32635-6a53-4dd3-b9f7-63b9c16236ba.png",
+    "apple_touch_icon": "shopify:\/\/shop_images\/Heimplanet-Favicon-Black_c8b32635-6a53-4dd3-b9f7-63b9c16236ba.png",
     "sections": {
       "header": {
         "type": "header",
