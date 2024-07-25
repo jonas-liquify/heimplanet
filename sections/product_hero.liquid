@@ -20,7 +20,7 @@
                 data-pswp-height="1024"
                 data-pswp-width="1024"
                 ><img
-                  loading="lazy"
+                  
                   li-object:src="image.src | product_img_url: 'master'"
                   li-object:alt="image.alt"
                   src="https:{{ image.src | product_img_url: 'original' }}"
@@ -57,7 +57,7 @@
                   loading="lazy"
                   li-object:src="image.src | product_img_url: 'master'"
                   li-object:alt="image.alt"
-                  src="{{ image.src | product_img_url: 'master' }}"
+                  src="https:{{ image.src | product_img_url: 'original' }}"
                   alt="{{ image.alt }}"
                   class="product_thumbnail-image"
                 >
