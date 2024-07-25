@@ -20,10 +20,10 @@
                 data-pswp-height="1024"
                 data-pswp-width="1024"
                 ><img
-                  
+                  loading="lazy"
                   li-object:src="image.src | product_img_url: 'master'"
                   li-object:alt="image.alt"
-                  src="https:{{ image.src | product_img_url: 'original' }}"
+                  src="https:{{ image.src | product_img_url: 'large' }}"
                   alt="{{ image.alt }}"
                   class="product_gallery-image"
                 >
@@ -57,7 +57,7 @@
                   loading="lazy"
                   li-object:src="image.src | product_img_url: 'master'"
                   li-object:alt="image.alt"
-                  src="https:{{ image.src | product_img_url: 'original' }}"
+                  src="{{ image.src | product_img_url: 'small' }}"
                   alt="{{ image.alt }}"
                   class="product_thumbnail-image"
                 >
