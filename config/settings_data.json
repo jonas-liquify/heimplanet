@@ -195,6 +195,12 @@
         "disabled": true,
         "settings": {
         }
+      },
+      "17398511487517060589": {
+        "type": "shopify:\/\/apps\/admetrics-data-studio\/blocks\/conversion\/95b54974-e3ea-4514-839b-d0c971e19c1c",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   }
