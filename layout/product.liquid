@@ -146,19 +146,6 @@ window.addEventListener("cf_init", callbackFnc);
           }
          ]
         }
-</script><script type="application/ld+json">{
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [{% for fa_qs in shop.metaobjects.fa_qs.values %}{
-            "@type": "Question",
-            "name": "{{ fa_qs.frage }}",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "{{ fa_qs.antwort | metafield_tag | strip_html }}"
-            }
-          }{% if forloop.last == false %},{% endif %}{% endfor %}
-          ]
-        }
 </script><link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css">
 <style>.details_item:nth-child(n+5), .section-announcement {
     display: none;
