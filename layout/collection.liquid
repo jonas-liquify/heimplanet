@@ -98,7 +98,7 @@ window.addEventListener("cf_init", callbackFnc);
              "url":"{{ shop.url }}",
              "mainEntity":{"@type":"offerCatalog",
              "name": "{{ collection.title }}",
-             "url": "{{ collection.title }}",
+             "url": "{{ collection.url }}",
              "numberOfItems":{{ collection.products.size }}}
       }
     </script><script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
