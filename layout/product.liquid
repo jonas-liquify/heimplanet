@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "image" : "https://uploads-ssl.webflow.com/613f2f905ede8d670775fc8a/61535dd7664db552e937a4d0_60e5b4da711f563ab4929fcc_heimplanet_logo_black%201.svg",
   "telephone" : "040 9999955 00",
   "email" : "info@heimplanet.com",
-  "priceRange" : "10&euro;-6.000&euro;",
+  "priceRange" : "10€-6.000€",
   "address" : {
     "@type" : "PostalAddress",
     "streetAddress" : "Shanghaiallee 21",
@@ -97,7 +97,7 @@ window.addEventListener("cf_init", callbackFnc);
         "@type": "Product",
         "name": "{{ product.title }}",
        "image": "https:{{ product.featured_image.src | img_url: '1500x1500' }}",
-        "description": "{{ product.description | strip_html }}",
+        "description": "{{ product.description | strip_html | remove: '"' }}",
         "brand": "{{ product.vendor }}",
         "sku": "{{ product.selected_or_first_available_variant.sku }}",
         "offers": [
