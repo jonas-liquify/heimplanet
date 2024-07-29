@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "image" : "https://uploads-ssl.webflow.com/613f2f905ede8d670775fc8a/61535dd7664db552e937a4d0_60e5b4da711f563ab4929fcc_heimplanet_logo_black%201.svg",
   "telephone" : "040 9999955 00",
   "email" : "info@heimplanet.com",
-  "priceRange" : "10&euro;-6.000&euro;",
+  "priceRange" : "10€-6.000€",
   "address" : {
     "@type" : "PostalAddress",
     "streetAddress" : "Shanghaiallee 21",
@@ -97,7 +97,7 @@ window.addEventListener("cf_init", callbackFnc);
         "@type": "Product",
         "name": "{{ product.title }}",
        "image": "https:{{ product.featured_image.src | img_url: '1500x1500' }}",
-        "description": "{{ product.description | strip_html | remove: '"'}}",
+        "description": "{{ product.description | strip_html | remove: '"' }}",
         "brand": "{{ product.vendor }}",
         "sku": "{{ product.selected_or_first_available_variant.sku }}",
         "offers": [
@@ -145,19 +145,6 @@ window.addEventListener("cf_init", callbackFnc);
            }
           }
          ]
-        }
-</script><script type="application/ld+json">{
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [{% for fa_qs in shop.metaobjects.fa_qs.values %}{
-            "@type": "Question",
-            "name": "{{ fa_qs.frage }}",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "{{ fa_qs.antwort | metafield_tag | strip_html }}"
-            }
-          }{% if forloop.last == false %},{% endif %}{% endfor %}
-          ]
         }
 </script><link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css">
 <style>.details_item:nth-child(n+5), .section-announcement {
