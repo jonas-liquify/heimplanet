@@ -51,14 +51,18 @@
           });
         };
       });
+      
       $(".beer-slider").each(function (index, el) {
         $(el).BeerSlider({ start: $(el).data("start") })
       });
+
     })
   }
+
 </script><style>.beer-slider {
     height: 100% !important;
   }
+
   .beer-slider,
   .beer-slider>img {
     width: 100% !important;
