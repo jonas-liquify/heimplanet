@@ -181,7 +181,7 @@
       {% if block.type == 'nav-link' %}
         <div
           li-block="Nav-Link"
-          x-bind:class="selectedLink === {{ forloop.index }} ? 'is-open' : ''"
+          x-show="selectedLink === {{ forloop.index }} ? 'is-open' : ''"
           class="nav_menu-wrapper" x-on:click.outside="selectedLink = 0"
         >
           <div class="nav_menu-wrapper-wrapper">
