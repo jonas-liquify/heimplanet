@@ -13,7 +13,7 @@
     <div li-object="cart.original_total_price | money" class="text-style-strikethrough">{{ cart.original_total_price | money }}</div>    </div>
 {% endif %}<div li-object="cart.total_price | money" class="heading-style-h3">{{ cart.total_price | money }}</div></div></div>{% if cart.total_discounts > 0 %}    <div li-if="cart.total_discounts > 0" class="cart_details-wrapper">
     <div class="text-size-regular">Discount</div><div li-object="cart.total_discount | money">{{ cart.total_discount | money }}</div>    </div>
-{% endif %}</div><div class="cart_action"><input type="submit" data-wait="Please wait..." class="button w-button" value="Zur Kasse" name="checkout">
+{% endif %}</div>{% render 'latori-tem2-cart', vat_id_required: false %}<div class="cart_action"><input type="submit" data-wait="Please wait..." class="button w-button" value="Zur Kasse" name="checkout">
 <input type="submit" data-wait="Please wait..." class="button is-outline w-button" value="Aktualisieren">
 </div></div></div><div class="cart_table outline-solid-1"><div class="cart_grid is-header w-hidden-tiny"><div id="w-node-e70215e6-46ed-17af-2aa7-195241f33b23-c68d81bf" class="cart_table-header"><p class="heading-style-h3">Kommentar</p></div></div><div class="cart_content"><div class="form_field-wrapper"><textarea class="form-input is-text-area w-input" maxlength="5000" name="note" data-name="field" placeholder="Kommentar" id="CartNote"></textarea></div></div></div></div>{% endform %}
 <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>    </div>
