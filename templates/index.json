@@ -12,6 +12,17 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_DVNdYF": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/LauritzKuntscher_Mauritius_Kirra_Mood6.jpg",
+            "text_headline": "KIRRA AUF MAURITIUS",
+            "richtext_text": "<p><strong>Neuer Blogpost -<\/strong> Kirra auf Mauritius. Ein Unvergesslicher Trip mit dem HEIMPLANET Kirra Zelt. <strong>Jetzt zum Magazin für die ganze Geschichte.<\/strong><\/p>",
+            "url_button_link": "https:\/\/heimplanet.com\/blogs\/abenteuer\/kirra-auf-mauritius",
+            "text_button_text": "ZUM MAGAZIN"
+          }
+        },
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
           "settings": {
@@ -97,6 +108,7 @@
         }
       },
       "block_order": [
+        "hero_slider_DVNdYF",
         "hero_slider_zBjUtr",
         "hero_slider_DQWqP4",
         "hero_slider_LP9zUr",
