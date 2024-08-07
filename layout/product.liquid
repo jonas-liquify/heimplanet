@@ -105,7 +105,7 @@ window.addEventListener("cf_init", callbackFnc);
           "@type": "Offer",
           "url": "{{ variant.url }}",
           "priceCurrency": "EUR",
-          "price": "{{ variant.price }}",
+          "price": "{{ variant.price | money }}",
       "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | uri_encode | replace:'+','%20' }}",
           "availability": "{% if variant.available %}https://schema.org/InStock{% else variant.available == false %}https://schema.org/SoldOut{% endif %}",
           "itemCondition": "https://schema.org/NewCondition"
