@@ -8,6 +8,8 @@
 </h1>
 <div class="headline_trenner"></div>{% if request.page_type == 'collection' %}    <div li-if="request.page_type == 'collection'">
     <div li-object="collection.description" class="text-size-regular">{{ collection.description }}</div>    </div>
+{% endif %}{% if request.page_type == 'article' %}    <div li-if="request.page_type == 'article'">
+    <div li-object="article.excerpt" class="text-size-regular">{{ article.excerpt }}</div>    </div>
 {% endif %}<div><div class="text-size-regular"> {{ section.settings.textarea_paragraph }} </div>
 </div><div class="spacer-medium"></div>{% if section.settings.url_button_link %}    <div li-if="section.settings.url_button_link" class="button_wrapper is-auto is-auto">
     <a class="button w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
