@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "image" : "https://uploads-ssl.webflow.com/613f2f905ede8d670775fc8a/61535dd7664db552e937a4d0_60e5b4da711f563ab4929fcc_heimplanet_logo_black%201.svg",
   "telephone" : "040 9999955 00",
   "email" : "info@heimplanet.com",
-  "priceRange" : "10€-6.000€",
+  "priceRange" : "10&euro;-6.000&euro;",
   "address" : {
     "@type" : "PostalAddress",
     "streetAddress" : "Shanghaiallee 21",
@@ -93,11 +93,17 @@ fbq('consent', 'grant');
 window.addEventListener("cf_consent", callbackFnc);
 window.addEventListener("cf_init", callbackFnc);
 </script><script type="application/ld+json">{
+      {% assign fa_current_variant = product.selected_or_first_available_variant %}
+      {% if cart.currency.iso_code == 'GBP' or cart.currency.iso_code == 'USD' or cart.currency.iso_code == 'JPY' or cart.currency.iso_code == 'AUD' or cart.currency.iso_code == 'AED' or cart.currency.iso_code == 'CAD' or cart.currency.iso_code == 'BWP' or cart.currency.iso_code == 'BND' or cart.currency.iso_code == 'DOP' or cart.currency.iso_code == 'GTQ' or cart.currency.iso_code == 'HKD' or cart.currency.iso_code == 'INR' or cart.currency.iso_code == 'ILS' or cart.currency.iso_code == 'YEN' or cart.currency.iso_code == 'KES' or cart.currency.iso_code == 'KOR' or cart.currency.iso_code == 'LBP' or cart.currency.iso_code == 'MYR' or cart.currency.iso_code == 'MXN' or cart.currency.iso_code == 'NPR' or cart.currency.iso_code == 'NZD' or cart.currency.iso_code == 'NIO' or cart.currency.iso_code == 'NGN' or cart.currency.iso_code == 'PKR' or cart.currency.iso_code == 'CNY' or cart.currency.iso_code == 'PHP' or cart.currency.iso_code == 'SGD' or cart.currency.iso_code == 'LKR' or cart.currency.iso_code == 'CHF' or cart.currency.iso_code == 'TWD' or cart.currency.iso_code == 'TSH' or cart.currency.iso_code == 'THB' or cart.currency.iso_code == 'UGX' or cart.currency.iso_code == 'KWD' or cart.currency.iso_code == 'CLP' or cart.currency.iso_code == 'BHD' %}
+{% assign fa_product_price = fa_current_variant.price | money_without_currency | remove:',' %}
+{% else %}
+{% assign fa_product_price = fa_current_variant.price | money_without_currency | remove:'.' | replace: ',', '.' %}
+{% endif %}
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "{{ product.title }}",
        "image": "https:{{ product.featured_image.src | img_url: '1500x1500' }}",
-        "description": "{{ product.description | strip_html | remove: '"' }}",
+        "description": "{{ product.description | strip_html | remove: '"'}}",
         "brand": "{{ product.vendor }}",
         "sku": "{{ product.selected_or_first_available_variant.sku }}",
         "offers": [
@@ -105,14 +111,14 @@ window.addEventListener("cf_init", callbackFnc);
           "@type": "Offer",
           "url": "{{ variant.url }}",
           "priceCurrency": "EUR",
-          "price": "{{ variant.price | money }}",
+          "price": "{{ fa_product_price }}",
       "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | uri_encode | replace:'+','%20' }}",
           "availability": "{% if variant.available %}https://schema.org/InStock{% else variant.available == false %}https://schema.org/SoldOut{% endif %}",
           "itemCondition": "https://schema.org/NewCondition"
         }{% if forloop.last == false %},{% endif %}{% endfor %}
         ]
         }
-</script><script type="application/ld+json">{
+    </script><script type="application/ld+json">{
          "@context": "https://schema.org",
          "@type": "BreadcrumbList",
          "itemListElement":
@@ -145,6 +151,19 @@ window.addEventListener("cf_init", callbackFnc);
            }
           }
          ]
+        }
+</script><script type="application/ld+json">{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [{% for fa_qs in shop.metaobjects.fa_qs.values %}{
+            "@type": "Question",
+            "name": "{{ fa_qs.frage }}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{{ fa_qs.antwort | metafield_tag | strip_html }}"
+            }
+          }{% if forloop.last == false %},{% endif %}{% endfor %}
+          ]
         }
 </script><link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css">
 <style>.details_item:nth-child(n+5), .section-announcement {
