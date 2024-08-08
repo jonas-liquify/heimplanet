@@ -9,8 +9,16 @@
 */
 {
   "sections": {
+    "l_header_trans_white_mchna3": {
+      "type": "l_header_trans_white",
+      "settings": {
+        "url_button_url": "",
+        "text_button_text": "Button Text"
+      }
+    },
     "l_header_trans_DXr4qd": {
       "type": "l_header_trans",
+      "disabled": true,
       "settings": {
         "url_button_url": "",
         "text_button_text": "Button Text"
@@ -152,6 +160,7 @@
   "layout": "page.landingpage",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_header_trans_white_mchna3",
     "l_header_trans_DXr4qd",
     "l_header_UeBxHF",
     "l_hero",
