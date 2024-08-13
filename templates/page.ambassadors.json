@@ -12,11 +12,21 @@
     "collection_hero": {
       "type": "collection_hero",
       "settings": {
+        "text_subline": "",
+        "text_headline": "Ambassadors",
+        "textarea_paragraph": "Wir sind die Summe der Menschen, die uns umgeben. Dies ist unsere Liste der unglaublichen Persönlichkeiten.",
+        "url_button_link": "",
+        "text_button_text": "Jetzt entdecken",
+        "image_bild": "shopify:\/\/shop_images\/Heimplanet-David-Herzig-5.jpg"
       }
     },
     "article_next": {
       "type": "article_next",
       "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "ambassador"
       }
     }
   },
