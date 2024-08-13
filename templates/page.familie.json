@@ -20,12 +20,10 @@
         "image_bild": "shopify:\/\/shop_images\/Heimplanet-David-Herzig-5.jpg"
       }
     },
-    "article_next": {
-      "type": "article_next",
+    "ambassadors_Xb3DLB": {
+      "type": "ambassadors",
       "settings": {
-        "text_headline": "Weitere Beiträge",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon",
+        "text_headline": "",
         "text_blog_handle": "ambassador"
       }
     }
@@ -34,6 +32,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "collection_hero",
-    "article_next"
+    "ambassadors_Xb3DLB"
   ]
 }
