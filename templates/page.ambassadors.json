@@ -23,7 +23,7 @@
     "article_next": {
       "type": "article_next",
       "settings": {
-        "text_headline": "Weitere Beiträge",
+        "text_headline": "",
         "url_button_link": "",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "ambassador"
