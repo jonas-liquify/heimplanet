@@ -671,6 +671,16 @@ figcaption {
   color: var(--text-color--text-secondary);
 }
 
+.form-input.is-teaser {
+  border-color: var(--base-color-neutral--white);
+  background-color: var(--base-color-neutral--black);
+  color: var(--base-color-neutral--white);
+}
+
+.form-input.is-teaser::placeholder {
+  color: var(--base-color-neutral--white);
+}
+
 .display-inlineflex {
   justify-content: space-between;
   align-items: center;
@@ -5316,36 +5326,6 @@ figcaption {
   position: relative;
 }
 
-.input {
-  text-transform: uppercase;
-  background-color: #0000;
-  border: 1px solid #111;
-  border-radius: 0;
-  height: 3.5rem;
-  margin-bottom: 0;
-  padding: 1.2rem 1.2rem 1.2rem .9rem;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.input:focus {
-  color: #111;
-  border-color: #111;
-}
-
-.input::placeholder {
-  color: #111;
-}
-
-.input.is-teaser {
-  border-color: var(--base-color-neutral--white);
-  background-color: #0000;
-}
-
-.input.is-teaser::placeholder {
-  color: var(--base-color-neutral--white);
-}
-
 .newsletter_check {
   color: #fff;
   align-items: flex-start;
@@ -5355,11 +5335,11 @@ figcaption {
   display: flex;
 }
 
-.newsletter_check.is--kontakt {
+.newsletter_check.is-kontakt {
   margin-top: 0;
 }
 
-.newsletter_check.is--kontakt.is-black {
+.newsletter_check.is-kontakt.is-black {
   color: var(--base-color-neutral--black);
 }
 
@@ -5846,6 +5826,7 @@ figcaption {
 }
 
 .newsletter_bg-image {
+  aspect-ratio: auto;
   object-fit: cover;
   width: 100%;
   min-height: 40rem;
@@ -6017,17 +5998,6 @@ figcaption {
 
 .nav_link-text {
   font-size: 1rem;
-}
-
-.product-item_tag_list-isinner {
-  grid-column-gap: .5rem;
-  grid-row-gap: .5rem;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: flex;
-  position: absolute;
-  inset: 1rem auto auto 1rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -6665,10 +6635,6 @@ figcaption {
 
   .login-form {
     padding: 2rem;
-  }
-
-  .input {
-    height: 4.9rem;
   }
 
   .job-detail_wrapper {
@@ -7473,10 +7439,6 @@ figcaption {
     padding-right: 2.5em;
   }
 
-  .input {
-    height: 4.1rem;
-  }
-
   .page-padding {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -8191,11 +8153,7 @@ figcaption {
     margin-bottom: 1.1rem;
   }
 
-  .input {
-    height: 3.7em;
-  }
-
-  .newsletter_check.is--kontakt {
+  .newsletter_check.is-kontakt {
     flex-direction: row;
   }
 
@@ -8711,7 +8669,7 @@ figcaption {
   place-self: center;
 }
 
-#w-node-_8aed21cf-0a57-4325-7799-712723dcb112-79d1848e, #w-node-_8aed21cf-0a57-4325-7799-712723dcb117-79d1848e, #w-node-_8aed21cf-0a57-4325-7799-712723dcb118-79d1848e {
+#w-node-e7ca6d08-783e-5927-1185-a811e71e9f67-79d1848e, #w-node-e7ca6d08-783e-5927-1185-a811e71e9f6b-79d1848e, #w-node-e7ca6d08-783e-5927-1185-a811e71e9f6f-79d1848e {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -8745,7 +8703,7 @@ figcaption {
   place-self: center;
 }
 
-#w-node-_99d9a5af-959e-a460-1556-af5acb979e00-c69e9300, #w-node-_99d9a5af-959e-a460-1556-af5acb979e04-c69e9300, #w-node-_99d9a5af-959e-a460-1556-af5acb979e05-c69e9300 {
+#w-node-_99d9a5af-959e-a460-1556-af5acb979e00-c69e9300, #w-node-_34981c66-62bf-279c-ae05-8546e0dd9164-c69e9300, #w-node-_99d9a5af-959e-a460-1556-af5acb979e05-c69e9300 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -8781,7 +8739,7 @@ figcaption {
     order: 9999;
   }
 
-  #w-node-a5d35101-6dcf-4413-0600-f323c79b6f24-690d5eea, #w-node-_5f809894-c054-de6b-d814-369a75467d4d-690d5eea, #w-node-_8aed21cf-0a57-4325-7799-712723dcb112-79d1848e, #w-node-_99d9a5af-959e-a460-1556-af5acb979e00-c69e9300 {
+  #w-node-a5d35101-6dcf-4413-0600-f323c79b6f24-690d5eea, #w-node-_5f809894-c054-de6b-d814-369a75467d4d-690d5eea, #w-node-e7ca6d08-783e-5927-1185-a811e71e9f67-79d1848e, #w-node-e7ca6d08-783e-5927-1185-a811e71e9f6b-79d1848e, #w-node-_99d9a5af-959e-a460-1556-af5acb979e00-c69e9300, #w-node-_34981c66-62bf-279c-ae05-8546e0dd9164-c69e9300 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
