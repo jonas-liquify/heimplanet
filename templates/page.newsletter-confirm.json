@@ -12,8 +12,8 @@
     "text_cta": {
       "type": "text_cta",
       "settings": {
-        "text_headline": "Vielen Dank für deine Nachricht!",
-        "text_text": "Wir melden uns in Kürze!"
+        "text_headline": "Vielen Dank!",
+        "text_text": "Jetzt musst Du nur noch Deine Anmeldung in der E-Mail, die wir Dir soeben geschickt haben, bestätigen."
       }
     }
   },
