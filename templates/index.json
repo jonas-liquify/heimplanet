@@ -16,8 +16,9 @@
           "type": "hero-slider",
           "disabled": true,
           "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Mono_Fabric.png",
             "text_headline": "RECYCLING VON DYECOSHELL™ MONO",
-            "richtext_text": "<p>Was mach <a href=\"https:\/\/heimplanet.com\/blogs\/designraum\/dyecoshell_mono\">DYECOSHELL™ MONO<\/a> so besonders und warum ist Recyclebarkeit so wichtig? Finde die Antwort in unserem Designraum.<\/p>",
+            "richtext_text": "<p>Was macht <a href=\"https:\/\/heimplanet.com\/blogs\/designraum\/dyecoshell_mono\">DYECOSHELL™ MONO<\/a> so besonders und warum ist Recyclebarkeit so wichtig? <br\/><strong>Die Antwort findest du in unserem Designraum.<\/strong><\/p>",
             "url_button_link": "https:\/\/heimplanet.com\/blogs\/designraum\/dyecoshell_mono",
             "text_button_text": "ZUM DESIGNRAUM"
           }
