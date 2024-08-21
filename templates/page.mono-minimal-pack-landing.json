@@ -167,8 +167,8 @@
       ],
       "settings": {
         "text_headline": "",
-        "text_mixed_material": "<b>AUS 50% RECYCELTEM MATERIAL<\/b>",
-        "text_mono_material": "<b>AUS 100% RECYCELTEM MATERIAL<\/b>"
+        "text_mixed_material": "STOFF ZU 50% AUS RECYCELTEM MATERIAL",
+        "text_mono_material": "STOFF ZU 100% AUS RECYCELTEM MATERIAL"
       }
     },
     "l_dropdowns_YeDrRR": {
