@@ -136,7 +136,7 @@
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Pack-Midnight-Burgundy-Landing-2024.jpg",
             "text_headline": "Midnight Burgundy",
             "text_text": "",
-            "text_zahl": "100%",
+            "text_zahl": "VOLL",
             "text_zahl_text": "recycelbar"
           }
         },
@@ -146,7 +146,7 @@
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Pack-Ocean-Blue-Landing-1.jpg",
             "text_headline": "Ocean Blue",
             "text_text": "",
-            "text_zahl": "100%",
+            "text_zahl": "VOLL",
             "text_zahl_text": "recycelbar"
           }
         },
@@ -156,7 +156,7 @@
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Pack-Diamond--Black-Landing-2024.jpg",
             "text_headline": "Diamond Black",
             "text_text": "",
-            "text_zahl": "100%",
+            "text_zahl": "VOLL",
             "text_zahl_text": "recycelbar"
           }
         }
@@ -168,8 +168,8 @@
       ],
       "settings": {
         "text_headline": "Neu: Dyecoshell™ Mono",
-        "text_mixed_material": "STOFF ZU 50% AUS RECYCELTEM MATERIAL",
-        "text_mono_material": "STOFF ZU 100% AUS RECYCELTEM MATERIAL"
+        "text_mixed_material": "GEWEBE ZU 50% AUS RECYCELTEM MATERIAL",
+        "text_mono_material": "GEWEBE ZU 100% AUS RECYCELTEM MATERIAL"
       }
     },
     "l_dropdowns_YeDrRR": {
