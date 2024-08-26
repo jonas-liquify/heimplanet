@@ -1,18 +1,8 @@
-{% if product.metafields.custom.dots_headline != blank %}    <div li-if="product.metafields.custom.dots_headline != blank" class="padding-global is-subnav">
-    <div class="container-large"><div class="produkt_nav-wrapper"><div class="produkt_nav">{% if product.metafields.custom.dots_headline != blank %}    <a href="#highlights" li-if="product.metafields.custom.dots_headline != blank" class="produkt_nav-link">
-    Highlights    </a>
-{% endif %}{% if product.metafields.my_fields.video != blank %}    <a href="#video" li-if="product.metafields.my_fields.video != blank" class="produkt_nav-link">
-    Video    </a>
-{% endif %}{% if product.metafields.custom.videos != blank %}    <a href="#videos" li-if="product.metafields.custom.videos != blank" class="produkt_nav-link">
-    Videos    </a>
-{% endif %}<a href="#infos" class="produkt_nav-link" href="#infos">
-{{ section.settings.text_detailinformationen }}
-</a>
-<a href="#faqs" class="produkt_nav-link" href="#faqs">
-{{ section.settings.text_bewertungen }}
-</a>
-</div><div class="produkt_nav-cart"><div class="upsell_titel"><div li-object="product.title" class="text-size-regular text-style-allcaps">{{ product.title }}</div><div class="upsell_price">{% if product.compare_at_price > product.price %}    <div li-if="product.compare_at_price > product.price">
-    <div li-object="product.compare_at_price | money" class="upsell_price-tag text-style-strikethrough">{{ product.compare_at_price | money }}</div>    </div>
-{% endif %}<div li-object="product.price | money" class="upsell_price-tag">{{ product.price | money }}</div></div></div><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
-<a li-element="direct-add-to-cart" href="#" class="button w-button" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" @click="addToCart()">Hinzufügen</a></div></div></div>    </div>
-{% endif %} {% schema %} {"tag":"section","name":"product_nav","class":"section_product-nav","settings":[{"id":"text_detailinformationen","type":"text","label":"Detailinformationen","default":"Detailinformationen"},{"id":"text_bewertungen","type":"text","label":"Bewertungen","default":"Bewertungen"}],"presets":[{"name":"product_nav","category":"Liquify"}]} {% endschema %}
+<div class="padding-global is-nav"><div class="navbar_container"><div class="subnav_titel"><div li-object="product.title" class="text-size-regular text-weight-bold text-style-ptserif">{{ product.title }}</div><div li-object="product.price | money">{{ product.price | money }}</div></div><div class="subnav_component hide-mobile-portrait">{% if product.metafields.my_fields.weinpaket_flasche_1 == blank %}    <a href="#steckbrief" li-if="product.metafields.my_fields.weinpaket_flasche_1 == blank" class="subnav_link w-inline-block">
+    <div>Steckbrief</div>    </a>
+{% endif %}<a href="#Beschreibung" class="subnav_link w-inline-block"><div>Beschreibung</div></a>{% if product.metafields.product.winery != blank %}    <a href="#weingut" li-if="product.metafields.product.winery != blank" class="subnav_link w-inline-block">
+    <div>Weingut</div>    </a>
+{% endif %}{% if product.metafields.my_fields.weinpaket_flasche_1 != blank %}    <a href="#" li-if="product.metafields.my_fields.weinpaket_flasche_1 != blank" class="subnav_link w-inline-block">
+    <div>Inhalt</div>    </a>
+{% endif %}<a href="#" class="subnav_link w-inline-block"><div>Weitere Weine</div></a></div><div class="subnav_buttons"><div x-data="{ open: false }" class="ctas-fixed"><div class="share-button_wrapper is-open hide"></div><div class="hide iwishAddWrap"><a class="iWishAdd product-kachel_like w-inline-block" data-product="{{ product.id }}" data-ptitle="{{ product.title | escape }}" data-variant="{{ product.variants.first.id }}"></a></div><div x-on:click="open = ! open" class="share-button"><div x-bind:class="open ? 'is-open' : ''" class="share-button_wrapper"><div class="w-embed w-script"><script src="https://apps.elfsight.com/p/platform.js" defer=""></script><div class="elfsight-app-d18efea8-b728-4d7e-9e10-acd7c3468435"></div></div><div x-on:click.outside="open ? 'is-open' : ''"></div></div></div></div><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
+<a li-element="direct-add-to-cart" href="#" class="button w-button" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" @click="addToCart()">In den Warenkorb</a></div></div></div> {% schema %} {"tag":"section","name":"product_nav","class":"section_subnav","presets":[{"name":"product_nav","category":"Liquify"}]} {% endschema %}

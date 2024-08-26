@@ -1,0 +1,7 @@
+<div class="padding-global"><div class="container-large"><div class="weingueter_list">{% for article in blog.articles %}    <div li-for="article in blog.articles" class="weingueter_item">
+                                    
+                            {% render 'blog_artikel', article: article %}
+
+                            
+                        </div>
+{% endfor %}</div></div></div> {% schema %} {"tag":"section","name":"blog_list","class":"section_weitere-blogs","presets":[{"name":"blog_list","category":"Liquify"}]} {% endschema %}

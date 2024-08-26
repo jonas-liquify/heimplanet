@@ -1,0 +1,161 @@
+<div class="padding-global padding-section-small"><div x-data="{ filterOpen: false }" class="container-large"><div class="kategorie_filter-grid"><div class="filter_headline"><h2 class="heading-style-h2">Suche</h2><div fs-scrolldisable-element="toggle" x-on:click="filterOpen = ! filterOpen" class="filter_mobil-trigger"><div>Filter & Sortierung</div><div class="icon-embed-custom w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 18 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M5.28 0.566572C4.64 0.67324 4.09333 0.939906 3.64 1.36657C3.18667 1.79324 2.85333 2.29991 2.64 2.88657L2.56 3.20657H0V4.72657H2.56L2.64 5.12657C2.85333 5.71324 3.2 6.21991 3.68 6.64657C4.16 7.07324 4.72 7.33991 5.36 7.44657C5.73333 7.49991 6.14667 7.48657 6.6 7.40657C7.05333 7.32657 7.48 7.15324 7.88 6.88657C8.28 6.61991 8.61333 6.29991 8.88 5.92657C9.14667 5.55324 9.30667 5.20657 9.36 4.88657V4.72657H18V3.20657H9.36V3.12657C9.30667 2.91324 9.2 2.65991 9.04 2.36657C8.88 2.07324 8.69333 1.81991 8.48 1.60657C8.05333 1.12657 7.52 0.806573 6.88 0.646573C6.72 0.593239 6.45333 0.553239 6.08 0.526572C5.70667 0.499906 5.44 0.513239 5.28 0.566572ZM6.32 2.00657C6.74667 2.11324 7.10667 2.31324 7.4 2.60657C7.69333 2.89991 7.86667 3.25991 7.92 3.68657C8.02667 4.27324 7.88 4.80657 7.48 5.28657C7.08 5.76657 6.56 6.00657 5.92 6.00657C5.44 6.00657 5.01333 5.84657 4.64 5.52657C4.26667 5.20657 4.05333 4.80657 4 4.32657C3.89333 3.63324 4.08 3.04657 4.56 2.56657C5.04 2.08657 5.62667 1.89991 6.32 2.00657ZM11.28 8.56657C10.64 8.67324 10.0933 8.93991 9.64 9.36657C9.18667 9.79324 8.85333 10.2999 8.64 10.8866L8.56 11.2066H0V12.7266H8.56L8.64 13.1266C8.85333 13.7132 9.2 14.2199 9.68 14.6466C10.16 15.0732 10.72 15.3399 11.36 15.4466C11.7867 15.4999 12.1867 15.4999 12.56 15.4466C13.2 15.3399 13.76 15.0732 14.24 14.6466C14.72 14.2199 15.0667 13.7132 15.28 13.1266L15.36 12.7266H18V11.2066H15.36V11.1266C15.3067 10.9132 15.2 10.6599 15.04 10.3666C14.88 10.0732 14.6933 9.81991 14.48 9.60657C14.0533 9.12657 13.52 8.80657 12.88 8.64657C12.72 8.59324 12.4533 8.55324 12.08 8.52657C11.7067 8.49991 11.44 8.51324 11.28 8.56657ZM12.32 10.0066C12.7467 10.1132 13.1067 10.3132 13.4 10.6066C13.6933 10.8999 13.8667 11.2599 13.92 11.6866C14.0267 12.2732 13.88 12.8066 13.48 13.2866C13.08 13.7666 12.56 14.0066 11.92 14.0066C11.44 14.0066 11.0133 13.8466 10.64 13.5266C10.2667 13.2066 10.0533 12.8066 10 12.3266C9.89333 11.6332 10.08 11.0466 10.56 10.5666C11.04 10.0866 11.6267 9.89991 12.32 10.0066Z" fill="currentColor"></path></svg></div></div></div><div id="w-node-_272e4d3c-7fb9-dcb2-79ee-2c607c88bacf-6ff8b597" class="kategorie_filter-head"><div class="filter_tags-wrapper"><div li-for:inside="filters in search.filters" class="filter_tags-inner-wrapper">
+        {% for filters in search.filters %}                            
+                            {% for filter_value in filters.active_values %}    <div li-for="filter_value in filters.active_values" class="filter_tag">
+                                    
+                            <div li-object="filter_value.label">{{ filter_value.label }}</div>
+                            
+                            <a li-object:href="filter_value.url_to_remove" href="{{ filter_value.url_to_remove }}" class="w-inline-block"><div class="filter_close-icon-2 w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.1266 16.773L16.7729 17.1266C16.5777 17.3218 16.2611 17.3218 16.0658 17.1266L12 13.0607L7.9341 17.1265C7.73888 17.3218 7.42229 17.3218 7.22702 17.1265L6.87347 16.773C6.6782 16.5777 6.6782 16.2612 6.87347 16.0659L10.9394 12L6.87347 7.93413C6.6782 7.73891 6.6782 7.42232 6.87347 7.22705L7.22702 6.8735C7.42228 6.67824 7.73888 6.67824 7.9341 6.8735L12 10.9394L16.0658 6.8735C16.2611 6.67824 16.5777 6.67824 16.7729 6.8735L17.1266 7.22705C17.3218 7.42231 17.3218 7.73891 17.1266 7.93413L13.0607 12L17.1266 16.0659C17.3218 16.2612 17.3218 16.5777 17.1266 16.773Z" fill="currentColor"></path></svg></div></a>
+                            
+                        </div>
+{% endfor %}
+                            
+                    {% endfor %}    </div>
+</div><div class="hide-tablet"><div class="form-block w-form"><form id="email-form-3" name="email-form-3" data-name="Email Form 3" method="get" class="sort_wrapper" data-wf-page-id="65d38219e69198496ff8b597" data-wf-element-id="9e3403b1-a320-1639-c63b-06a26e1d83fd"><div class="text-size-small text-style-nowrap">Sortierung auswählen:</div><select id="sort-by" li-for:inside="option in search.sort_options" class="sort_select filter_checkbox">
+        {% for option in search.sort_options %}                            
+                            <option value="{{ option.value }}" {% if option.value == search.sort_by %}selected{% elsif option.value == search.default_sort_by %}selected{% endif %}>{{ option.name }}</option>
+                            
+                    {% endfor %}    </select>
+<div class="filter_filter-group-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 12 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.41 0.590088L6 5.17009L10.59 0.59009L12 2.00009L6 8.00009L-2.46532e-07 2.00009L1.41 0.590088Z" fill="currentColor"></path></svg></div></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div>{% paginate search.results by 10 %}
+    <div li-paginate:by="10" li-paginate="search.results" class="collection_filter-wrapper" by="10"><div id="w-node-a4f33919-bf69-bef2-36e2-236b2e47ade9-6ff8b597"><div fs-scrolldisable-element="preserve" x-bind:class="filterOpen ? 'is-open' : ''" class="filter_scroll-wrapper"><div class="filter_filter-bg"></div><div class="filter_filter-group-list is-top"><div class="headline_wrapper is-filter"><div class="heading-style-h3">Filtern nach</div><div class="text-size-small text-color-grey"><span li-object="search.results_count | append: ' '">{{ search.results_count | append: ' ' }}</span>Artikel</div></div><div class="filter_filter-mobile-close"><div fs-scrolldisable-element="toggle" data-filter=" " class="filter-btn text-style-link">Alle entfernen</div><div fs-scrolldisable-element="toggle" x-on:click="filterOpen = ! filterOpen" class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 24" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M18 6L6 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6 6L18 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div></div></div><div class="filter_filter-group-list is-fill"><div class="hide-desktop"><div class="form-block w-form"><form id="email-form-3" name="email-form-3" data-name="Email Form 3" method="get" class="sort_wrapper" data-wf-page-id="65d38219e69198496ff8b597" data-wf-element-id="9e3403b1-a320-1639-c63b-06a26e1d83fd"><div class="text-size-small text-style-nowrap">Sortierung auswählen:</div><select id="sort-by" li-for:inside="option in collection.sort_options" class="sort_select filter_checkbox">
+        {% for option in collection.sort_options %}                            
+                            <option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% elsif option.value == collection.default_sort_by %}selected{% endif %}>{{ option.name }}</option>
+                            
+                    {% endfor %}    </select>
+<div class="filter_filter-group-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 12 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.41 0.590088L6 5.17009L10.59 0.59009L12 2.00009L6 8.00009L-2.46532e-07 2.00009L1.41 0.590088Z" fill="currentColor"></path></svg></div></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div><form action="{{ routes.search_url }}" method="get" role="search" class="filter_holder"><div class="filter_filter-options is-open hide"></div><div fs-scrolldisable-media="(max-width: 992px)" fs-scrolldisable-element="toggle" x-on:click="filterOpen = ! filterOpen" class="{% if filter_value.count == 0 and filter_value.active == false %}filter_form_checkbox filter-btn is-disabled{% else %}filter_form_checkbox filter-btn{% endif %}" data-filter="{% if filter_value.active %}{{ filter_value.url_to_remove | remove: collection.url | remove: '?'}}{% else %}{{ filter_value.url_to_add | remove: collection.url | remove: '?'}}{% endif %}"></div><div class="filter_filter-group-icon is-open hide w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 12 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.41 0.590088L6 5.17009L10.59 0.59009L12 2.00009L6 8.00009L-2.46532e-07 2.00009L1.41 0.590088Z" fill="currentColor"></path></svg></div><div class="form-field-wrapper"><input name="type" type="hidden" class="form_input" value="product">
+<input name="q" placeholder="Suche" type="search" class="form_input" value="{{ search.terms | escape }}">
+<div class="filter_search-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 19 18" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><circle cx="8.27101" cy="8.02476" r="6.74029" transform="rotate(2.55827 8.27101 8.02476)" stroke="currentColor" stroke-width="1.56848"></circle><path d="M13.7148 12.6616L17.3334 15.9616" stroke="currentColor" stroke-width="1.56848" stroke-linecap="square" stroke-linejoin="round"></path></svg></div></div><div class="spacer-small hide-tablet"></div><div li-for:inside="filter in search.filters">
+        {% for filter in search.filters %}                            
+                            {% if filter.values.size > 1 and filter.type == 'list' %}    <div x-init="if (new URLSearchParams(window.location.search).has('{{ filter.param_name }}')) { filter{{forloop.index}} = true; }" li-if="filter.values.size > 1 and filter.type == 'list'" x-data="{ filter{{forloop.index}}: {% if forloop.index > 2%}false{% else %}true{% endif%}}" class="filter_filter-group">
+    <div x-on:click="filter{{forloop.index}} = ! filter{{forloop.index}}" class="filter_filter-group-heading"><div li-object="filter.label" class="text-size-medium is-pt-serif">{{ filter.label }}</div><div x-bind:class="filter{{forloop.index}} ? 'is-open' : ''" class="filter_filter-group-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 12 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.41 0.590088L6 5.17009L10.59 0.59009L12 2.00009L6 8.00009L-2.46532e-07 2.00009L1.41 0.590088Z" fill="currentColor"></path></svg></div></div><div x-bind:class="filter{{forloop.index}} ? 'is-open' : ''" class="filter_filter-options"><div class="filter_list-wrapper"><div class="filter_list" style="{% if filter.label == 'Rebsorte' %}grid-template-columns: 1fr{% endif %}">{% for filter_value in filter.values %}    <div li-for="filter_value in filter.values" class="filter_item">
+                                    
+                            <div fs-scrolldisable-media="(max-width: 992px)" fs-scrolldisable-element="toggle" x-on:click="filterOpen = ! filterOpen" class="{% if filter_value.count == 0 and filter_value.active == false %}filter_form_checkbox filter-btn is-disabled{% else %}filter_form_checkbox filter-btn{% endif %}" href="{% if filter_value.active %}{{ filter_value.url_to_remove }}{% else %}{{ filter_value.url_to_add }}{% endif %}"><div class="{% if filter_value.active %}filter_form_checkbox-icon is-checked{% else %}filter_form_checkbox-icon{% endif %}"></div><div class="{% if filter_value.active %}filter_form_checkbox-label is-checked{% else %}filter_form_checkbox-label{% endif %}"><span li-object="filter_value.label">{{ filter_value.label }}</span><span li-object="filter_value.count | prepend: ' (' | append: ')'">{{ filter_value.count | prepend: ' (' | append: ')' }}</span></div></div>
+                            
+                        </div>
+{% endfor %}</div></div></div>    </div>
+{% endif %}
+                            
+                    {% endfor %}    </div>
+</form></div></div></div><div><ul id="infinity-scroll" role="list" class="product-item_list is-green w-list-unstyled">{% for item in search.results %}    <li li-for="item in search.results" id="w-node-_272e4d3c-7fb9-dcb2-79ee-2c607c88bae8-6ff8b597" class="_w-dyn-item">
+                                    
+                            {% render 'product_item', color: 'green', product: item %}
+
+                        </li>
+{% endfor %}</ul><div id="pagination"><div class="spacer-large"></div>{% if paginate.next %}    <div li-if="paginate.next" class="text-align-center">
+    <a li-object:href="paginate.next.url" href="{{ paginate.next.url }}" class="button w-button">Weitere Produkte</a>    </div>
+{% endif %}</div><div class="collections_loader-wrapper"><img src="{{ 'Vioneers-2.gif' | asset_url }}" loading="lazy" alt="" class="collections_loader">
+</div>{% if search.results_count == 0 %}    <div li-if="search.results_count == 0">
+    <div>Kein Artikel gefunden</div>    </div>
+{% endif %}</div></div>{% endpaginate %}
+<div class="hide w-embed w-script"><script>class RealTimeFilterForm extends HTMLElement {
+    constructor() {
+      super();
+      this.bindEvents();
+    }
+    bindEvents() {
+      this.querySelectorAll('.filter-btn').forEach(button => {
+        button.addEventListener('click', (event) => {
+          event.preventDefault();
+          const filterQuery = button.getAttribute('data-filter');
+          this.updateURLWithFilter(filterQuery);
+          this.fetchAndRenderSection(filterQuery);
+        });
+      });
+    }
+    updateURLWithFilter(filterQuery) {
+      const baseUrl = window.location.origin + window.location.pathname;
+      const newUrl = `${baseUrl}?${filterQuery}`;
+      history.pushState({ path: newUrl }, '', newUrl);
+    }
+    fetchAndRenderSection(filterQuery) {
+      const baseUrl = window.location.origin + window.location.pathname;
+      const sectionId = '{{ section.id }}'; // Make sure to adjust this to your actual section ID
+      const url = `${baseUrl}?section_id={{ section.id }}&${filterQuery}`;
+      fetch(url, {
+        headers: {
+          'Accept': 'text/html',
+          'X-Requested-With': 'XMLHttpRequest'
+        }
+      })
+        .then(response => response.text())
+        .then(html => {
+        const element = document.getElementById('shopify-section-{{ section.id }}');
+        if (element) {
+          element.innerHTML = html;
+          this.reinitializeAjaxinate();
+          this.reinitializeSortButtons();
+        }
+      })
+        .catch(error => console.error('Error fetching section:', error));
+    }
+    reinitializeSortButtons() {
+      document.querySelectorAll('.sort_select').forEach(select => {
+        select.removeEventListener('change', this.handleSortChange); // Remove existing event listener to avoid duplicates
+        select.addEventListener('change', this.handleSortChange); // Add new event listener
+      });
+    }
+    handleSortChange(e) {
+      var value = e.target.value;
+      // Initialize Shopify.queryParams if not done elsewhere
+      if (!Shopify.queryParams) {
+        Shopify.queryParams = {};
+      }
+      // Update only the sort_by parameter
+      Shopify.queryParams.sort_by = value;
+      // Build a new URLSearchParams object, preserving all existing parameters
+      const updatedParams = new URLSearchParams(window.location.search);
+      // Update the sort_by parameter in the URLSearchParams object
+      updatedParams.set('sort_by', value);
+      // Update the URL with the new parameters
+      history.pushState(null, '', '?' + updatedParams.toString());
+      location.search = updatedParams;
+      // Fetch and update the section as needed
+    }
+    reinitializeAjaxinate() {
+      // Check if Ajaxinate is already initialized and if so, destroy or reset it before reinitializing
+      if (window.endlessScroll) {
+        // Assuming Ajaxinate has a method to reset or destroy. If not, you may need to manually clean up.
+        // window.endlessScroll.destroy(); // Example, adjust based on actual API
+      }
+      window.endlessScroll = new Ajaxinate({
+        container: '#infinity-scroll',
+        pagination: '#pagination',
+        method: 'scroll',
+        loadingText: 'L&auml;dt..',
+        offset: 400
+      });
+    }
+  }
+  customElements.define('real-time-filter-form', RealTimeFilterForm);
+  document.addEventListener("DOMContentLoaded", function() {
+    // Moved inside DOMContentLoaded to ensure it runs only after the DOM is fully loaded
+    window.endlessScroll = new Ajaxinate({
+      container: '#infinity-scroll',
+      pagination: '#pagination',
+      method: 'scroll',
+      loadingText: 'L&auml;dt..',
+      offset: 400
+    });
+  });
+</script><script>//sortierung
+  Shopify.queryParams = {};
+  // Preserve existing query parameters
+  if (location.search.length) {
+    var params = location.search.substr(1).split('&');
+    for (var i = 0; i < params.length; i++) {
+      var keyValue = params[i].split('=');
+      if (keyValue.length) {
+        Shopify.queryParams[decodeURIComponent(keyValue[0])] = decodeURIComponent(keyValue[1]);
+      }
+    }
+  }
+  document.addEventListener("DOMContentLoaded", function() {
+    // Update sort_by query parameter on select change
+    document.querySelectorAll('.sort_select').forEach(function(select) {
+      select.addEventListener('change', function(e) {
+        var value = e.target.value;
+        Shopify.queryParams.sort_by = value;
+        location.search = new URLSearchParams(Shopify.queryParams).toString();
+      });
+    });
+  });
+</script></div></div></div> {% schema %} {"tag":"section","name":"search_kategorie","class":"section_collection","presets":[{"name":"search_kategorie","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,23 @@
+<div class="padding-global"><div class="container-large"><div class="ueber-uns_grid"><div id="w-node-_31b0f8f4-c85f-1266-b3e1-7b2e3842f961-3842f95d" class="uber-uns_link"><div class="content-grid ueber-uns max-width-medium"><h2 class="heading-large">
+{{ section.settings.text_headline_1 }}
+</h2>
+<p option:textarea="Textfeld-1"> {{ section.settings.textarea_textfeld_1 }} </p>
+<div id="w-node-_31b0f8f4-c85f-1266-b3e1-7b2e3842f967-3842f95d" class="ueber-uns_facts is-esg">{% for block in section.blocks %}
+    {% if block.type == "fact" %}
+                    <div li-block="Fact" id="w-node-_31b0f8f4-c85f-1266-b3e1-7b2e3842f968-3842f95d" class="weingut-zitat_stats-item is-about">
+                                    <div class="heading-large">
+{{ block.settings.text_fact }}
+</div>
+
+                                    <div class="text-size-regular trans">
+{{ block.settings.text_fact_beschreibung }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div><img class="ueber-uns_bild contain"
+     src="{{ section.settings.image_bild_1 | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild_1.alt }}"
+     loading="lazy">
+</div></div></div> {% schema %} {"tag":"section","name":"content_block","class":"section_esg","blocks":[{"name":"Fact","type":"fact","settings":[{"id":"text_fact","type":"text","label":"Fact","default":"50+"},{"id":"text_fact_beschreibung","type":"text","label":"Fact-Beschreibung","default":"Mitarbeiter"}]}],"settings":[{"id":"text_headline_1","type":"text","label":"Headline-1","default":"Wir sind uns unserer sozialen Verantwortung bewusst."},{"id":"textarea_textfeld_1","type":"textarea","label":"Textfeld-1","default":"Was gibt es sch\u00f6neres, als mit geliebten Menschen Zeit zu verbringen? Die Wertsch\u00e4tzung anderer und der bewusste Umgang mit \u201eQuality Time\u201c ist f\u00fcr uns extrem wichtig. Diese Haltung beinhaltet, dass Werte wie Respekt, Ehrlichkeit,"},{"id":"image_bild_1","type":"image_picker","label":"Bild-1"}],"presets":[{"name":"content_block","category":"Liquify"}]} {% endschema %}

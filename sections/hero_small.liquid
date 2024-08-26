@@ -1,0 +1,11 @@
+<img class="hero_image"
+     src="{{ section.settings.image_blog_hero | img_url: 'master' }}"
+     alt="{{ section.settings.image_blog_hero.alt }}"
+     loading="lazy">
+<div class="hero_overlay"></div><div class="padding-global"><div class="container-large"><div class="subline text-color-white">
+{{ section.settings.text_subline }}
+</div>
+<h1 class="heading-style-h1 text-color-white">
+{{ section.settings.text_headline }}
+</h1>
+</div></div> {% schema %} {"tag":"section","name":"hero_small","class":"section_hero","settings":[{"id":"image_blog_hero","type":"image_picker","label":"Blog-Hero"},{"id":"text_subline","type":"text","label":"Subline","default":"Blog"},{"id":"text_headline","type":"text","label":"Headline","default":"Unsere Blogbeitr\u00e4ge"}],"presets":[{"name":"hero_small","category":"Liquify"}]} {% endschema %}

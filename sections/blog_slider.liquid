@@ -1,0 +1,19 @@
+<div class="padding-global"><div class="container-large"><div class="blog-autor_wrapper"><div class="content-grid max-width-large is-autor"><h2 class="heading-large">
+{{ section.settings.text_headline_autor }}
+</h2>
+<div class="text-size-regular max-width-medium">
+{{ section.settings.text_text_autor }}
+</div>
+</div><img src="{{ 'Freisteller-FG-.png' | asset_url }}" loading="lazy" sizes="(max-width: 479px) 76vw, (max-width: 767px) 54vw, (max-width: 991px) 23vw, 25vw" srcset="{{ 'Freisteller-FG--p-500.png' | asset_url }} 500w, {{ 'Freisteller-FG--p-800.png' | asset_url }} 800w, {{ 'Freisteller-FG-.png' | asset_url }} 1065w" alt="" class="blog-autor_img">
+</div><div class="section_headline"><h2 class="heading-large">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="links_grid is-3">{% for block in section.blocks %}
+    {% if block.type == "artikel" %}
+                    <div li-block="Artikel" id="w-node-_854c6848-baa8-6171-2a51-0d976f44553f-6ff8b53b">
+                                    <a class="links_item w-inline-block" href="{{ block.settings.url_link }}"> <img class="link_bild" src="{{ block.settings.image_bild | img_url: 'master' }}" alt="{{ block.settings.image_bild.alt }}" loading="lazy"><div id="w-node-_854c6848-baa8-6171-2a51-0d976f445542-6ff8b53b" class="links_overlay is-product"><div><h3 class="heading-large text-color-white">{{ block.settings.text_headline }}</h3></div><div class="button is-white">Mehr erfahren</div></div> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div> {% schema %} {"tag":"section","name":"blog_slider","class":"section_weitere-blogs","blocks":[{"name":"Artikel","type":"artikel","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Unsere Winzer sind nat\u00fcrlich, ehrlich und sozial"}]}],"settings":[{"id":"text_headline_autor","type":"text","label":"Headline-Autor","default":"Friedemann B. G\u00f6tz ist Head of Content bei Vioneers"},{"id":"text_text_autor","type":"text","label":"Text-Autor","default":"Er hat Sprachen studiert, war selbst\u00e4ndiger Gastronom und spielt nun f\u00fcr Vioneers mit Aromen und W\u00f6rtern."},{"id":"text_headline","type":"text","label":"Headline","default":"Entdecke Vioneers"}],"presets":[{"name":"blog_slider","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,13 @@
+{% if collection.metafields.my_fields.lage_bild != blank %}    <section li-if="collection.metafields.my_fields.lage_bild != blank" class="section-weingut-lage is-abstand">
+    <div class="padding-global"><div class="container-large"><div class="section_grid"><div id="w-node-ad64942c-57c8-fe26-9545-a951901fe464-6ff8b550" class="content-grid is-content"><div id="w-node-ad64942c-57c8-fe26-9545-a951901fe465-6ff8b550"><div class="subline">
+{{ section.settings.text_text }}
+</div>
+<h2 li-object="collection.metafields.my_fields.lage_headline" class="heading-large max-width-large text-color-white">{{ collection.metafields.my_fields.lage_headline }}</h2></div><div li-object="collection.metafields.my_fields.lage_text" class="text-size-regular text-color-white trans">{{ collection.metafields.my_fields.lage_text }}</div><div id="w-node-ad64942c-57c8-fe26-9545-a951901fe46c-6ff8b550" class="cta-wrapper">{% if collection.metafields.my_fields.lage_fact_1 != blank %}    <div li-if="collection.metafields.my_fields.lage_fact_1 != blank" id="w-node-ad64942c-57c8-fe26-9545-a951901fe46d-6ff8b550" class="weingut-fact_wrapper">
+    <img src="{{ 'sonne.svg' | asset_url }}" loading="lazy" alt="" class="weingut-fact_icon">
+<div li-object="collection.metafields.my_fields.lage_fact_1" class="text-size-regular text-color-gold">{{ collection.metafields.my_fields.lage_fact_1 }}</div>    </div>
+{% endif %}{% if collection.metafields.my_fields.lage_fact_1 != blank %}    <div li-if="collection.metafields.my_fields.lage_fact_1 != blank" id="w-node-ad64942c-57c8-fe26-9545-a951901fe471-6ff8b550" class="weingut-fact_wrapper">
+    <img src="{{ 'sonne.svg' | asset_url }}" loading="lazy" alt="" class="weingut-fact_icon">
+<div li-object="collection.metafields.my_fields.lage_fact_2" class="text-size-regular text-color-gold">{{ collection.metafields.my_fields.lage_fact_2 }}</div>    </div>
+{% endif %}</div></div><img src="{{ collection.metafields.my_fields.lage_bild | img_url: 'master' }}" loading="lazy" li-object:src="collection.metafields.my_fields.lage_bild | img_url: 'master'" li-object:alt="collection.metafields.my_fields.lage_bild.alt" alt="{{ collection.metafields.my_fields.lage_bild.alt }}" class="section_img">
+</div></div></div><div id="lage" class="anchor-link"></div>    </section>
+{% endif %} {% schema %} {"tag":"div","name":"weingut_inhalt","settings":[{"id":"text_text","type":"text","label":"Text","default":"Die Lage"}],"presets":[{"name":"weingut_inhalt","category":"Liquify"}]} {% endschema %}

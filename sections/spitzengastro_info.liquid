@@ -1,0 +1,15 @@
+<div class="padding-global"><div class="container-large"><div class="content-grid max-width-large"><div><h2 class="heading-xlarge">
+{{ section.settings.text_headline }}
+</h2>
+</div><p class="heading-medium"> {{ section.settings.textarea_textfeld }} </p>
+<a class="button w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
+</div><div class="bilder_grid"><div id="w-node-_42efe759-7a6e-0507-6dd7-f641d07163a3-f132b94e" class="bilder_grid-wrapper"><img class="bilder_grid-big"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+</div><div id="w-node-_42efe759-7a6e-0507-6dd7-f641d07163a5-f132b94e" class="bilder_grid-small"><img class="bilder_grid-small-img"
+     src="{{ section.settings.image_bild_2 | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild_2.alt }}"
+     loading="lazy">
+<p class="text-size-small max-width-small"> {{ section.settings.textarea_textfeld_klein }} </p>
+</div></div></div></div> {% schema %} {"tag":"section","name":"spitzengastro_info","class":"section_weingut-bilder","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Gemeinsam Premiumweine in Backnang leidenschaftlich entdecken."},{"id":"textarea_textfeld","type":"textarea","label":"Textfeld","default":"In verschiedenen Formaten werden wir als Vioneers aktiv und m\u00f6chten mit Dir gemeinsam die besten Weine von familiengef\u00fchrten Weine entdecken und f\u00fcr Dich erlebbar machen."},{"id":"text_button_text","type":"text","label":"Button Text","default":"Sie sind Gastronom?"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"image_bild_2","type":"image_picker","label":"Bild-2"},{"id":"textarea_textfeld_klein","type":"textarea","label":"Textfeld-Klein","default":"Ob Winetasting, Messe oder Weinseminar - wir wollen Dir als Weinexperten jederzeit zur Seite stehen und im direkten Kontakt f\u00fcr Dich da sein!"}],"presets":[{"name":"spitzengastro_info","category":"Liquify"}]} {% endschema %}
