@@ -1,0 +1,50 @@
+<div class="padding-global"><div class="container-large"><div class="veranstaltungen_headline"><h2 class="heading-large">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="veranstaltungen_list">{% for block in section.blocks %}
+    {% if block.type == "veranstaltung" %}
+                    <div li-block="Veranstaltung" class="veranstaltungen_wrapper">
+                                    <div class="veranstaltungen_bild-wrapper"><img class="veranstaltungen_bild"
+     src="{{ block.settings.image_bild | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="veranstaltungen_overlay"><h3 class="heading-large">
+{{ block.settings.text_titel }}
+</h3>
+</div></div>
+                                    <div class="veranstaltungen_info"><div class="veranstaltungen_info-wrapper"><img src="{{ 'calender.svg' | asset_url }}" loading="lazy" id="w-node-_01148367-fb0e-dab8-e249-97c813aab26c-13aab25d" alt="" class="veranstaltungen_icon">
+<div id="w-node-_01148367-fb0e-dab8-e249-97c813aab26d-13aab25d" class="veranstaltungen_info-text"><div class="text-size-regular">
+{{ block.settings.text_datum }}
+</div>
+</div></div><div class="veranstaltungen_info-wrapper"><img src="{{ 'location_on.svg' | asset_url }}" loading="lazy" id="w-node-_01148367-fb0e-dab8-e249-97c813aab271-13aab25d" alt="" class="veranstaltungen_icon">
+<div id="w-node-_01148367-fb0e-dab8-e249-97c813aab272-13aab25d" class="veranstaltungen_info-text"><div class="text-size-regular">
+{{ block.settings.text_ort }}
+</div>
+</div></div><div class="veranstaltungen_info-wrapper"><img src="{{ 'contacts.svg' | asset_url }}" loading="lazy" id="w-node-_01148367-fb0e-dab8-e249-97c813aab276-13aab25d" alt="" class="veranstaltungen_icon">
+<div id="w-node-_01148367-fb0e-dab8-e249-97c813aab277-13aab25d" class="veranstaltungen_info-text"><div class="text-size-regular">
+{{ block.settings.text_art }}
+</div>
+</div></div><div id="w-node-_01148367-fb0e-dab8-e249-97c813aab27a-13aab25d" class="veranstaltungen_add-to-card"><a class="button w-button" href="{{ block.settings.url_button_link }}"> {{ block.settings.text_button_text }} </a>
+<div class="product-kachel_pricing"><div class="heading-medium">
+{{ block.settings.text_preis }}
+</div>
+<div class="product-kachel_hinweis hide">Preis pro Ltr: 10,67 € <br>
+Lebensmittelangaben</div></div></div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div>{% for block in section.blocks %}
+    {% if block.type == "empty" %}
+                    <div li-block="Empty" class="veranstaltungen_empty">
+                                    <h3 id="w-node-_01148367-fb0e-dab8-e249-97c813aab285-13aab25d">
+{{ block.settings.text_banner_headline }}
+</h3>
+
+                                    <p id="w-node-_01148367-fb0e-dab8-e249-97c813aab287-13aab25d" class="text-size-regular"> {{ block.settings.textarea_banner_text }} </p>
+
+                                    <a class="button w-button" href="{{ block.settings.url_button_link }}"> {{ block.settings.text_button_text }} </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div id="veranstaltungen" class="anchor-link"></div> {% schema %} {"tag":"section","name":"veranstaltungen","class":"section_veranstaltungen is-green","blocks":[{"name":"Veranstaltung","type":"veranstaltung","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_titel","type":"text","label":"Titel","default":"Heading"},{"id":"text_datum","type":"text","label":"Datum","default":"Samstag, 26. Juli 2022"},{"id":"text_ort","type":"text","label":"Ort","default":"Samstag, 26. Juli 2022"},{"id":"text_art","type":"text","label":"Art","default":"Samstag, 26. Juli 2022"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"text_preis","type":"text","label":"Preis","default":"18,00\u20ac"}]},{"name":"Empty","type":"empty","settings":[{"id":"text_banner_headline","type":"text","label":"Banner Headline","default":"Leider keine Veranstaltungen verf\u00fcgbar."},{"id":"textarea_banner_text","type":"textarea","label":"Banner Text","default":"Registriere Dich f\u00fcr unseren regionalen Newsletter und wir informieren Dich, sobald wir eine neue Veranstaltung ver\u00f6ffentlichen."},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Zum Newsletter eintragen"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Veranstaltungskalender"}],"presets":[{"name":"veranstaltungen","category":"Liquify"}]} {% endschema %}

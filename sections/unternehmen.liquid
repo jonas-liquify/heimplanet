@@ -1,0 +1,14 @@
+<img class="unternehmen_bg"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="bg-overlay"></div><div class="page-padding"><div class="container-large"><div class="padding-section-large"><div class="content-grid"><div id="w-node-_757d7202-e37f-9018-cc85-68b9c8f5e28a-6ff8b4f8"><div class="subline text-color-white">
+{{ section.settings.text_text }}
+</div>
+<h2 class="text-color-white heading-style-h2 max-width-large">
+{{ section.settings.text_headline }}
+</h2>
+</div><p class="text-size-regular text-color-white max-width-medium"> {{ section.settings.textarea_textfeld }} </p>
+<div id="w-node-_757d7202-e37f-9018-cc85-68b9c8f5e291-6ff8b4f8" class="cta-wrapper"><a class="button is-white w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
+<a class="button is-outline is-white w-button" href="{{ section.settings.url_button_link_2 }}"> {{ section.settings.text_button_text_2 }} </a>
+</div></div></div></div></div> {% schema %} {"tag":"section","name":"unternehmen","class":"section_unternehmen","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_text","type":"text","label":"Text","default":"Das Unternehmen"},{"id":"text_headline","type":"text","label":"Headline","default":"Vioneers verk\u00f6rpert diese Haltung beinhaltet, dass Werte wie Respekt, Ehrlichkeit und Anstand."},{"id":"textarea_textfeld","type":"textarea","label":"Textfeld","default":"Du bist auf der Suche nach einem unkomplizierten, leckeren Rotwein und m\u00f6chtest auch mal etwas Neues versuchen? Der Contos da Terra aus Portugal ist ein temperamentvoller Leckerbissen. Sch\u00f6n saftig und beerig, feines Tannin."},{"id":"text_button_text","type":"text","label":"Button Text","default":"Button Text"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Button Text"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}],"presets":[{"name":"unternehmen","category":"Liquify"}]} {% endschema %}

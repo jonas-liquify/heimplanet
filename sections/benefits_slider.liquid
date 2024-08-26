@@ -1,0 +1,46 @@
+<div class="padding-global"><div class="container-large swiper-container"><div class="section_headline"><h2 class="heading-large">
+{{ section.settings.text_headline }}
+</h2>
+<div class="product-slider_buttons"><div class="product-slider_arrows"><div class="swiper-arrows swiper-prev"><div class="swiper-arrow w-embed"><svg width="100%" height="100%" viewbox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00006 10.4999L1 5.5L7.00006 0.500061" stroke="currentColor"></path></svg></div></div><div class="swiper-arrows swiper-next"><div class="swiper-arrow w-embed"><svg width="100%" height="100%" viewbox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00006 10.4999L1 5.5L7.00006 0.500061" stroke="currentColor"></path></svg></div></div></div></div></div><div><div class="swiper is-karriere"><div class="swiper-wrapper">{% for block in section.blocks %}
+    {% if block.type == "benefit" %}
+                    <div li-block="Benefit" class="swiper-slide is-kategorie">
+                                    <div class="benefit_kachel"><img class="benefits_icon"
+     src="{{ block.settings.image_bild | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="benefits_grid"><h3 class="heading-medium">
+{{ block.settings.text_headline }}
+</h3>
+<p class="text-size-small"> {{ block.settings.textarea_textfeld }} </p>
+</div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div class="swiper-scrollbar"></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>{% endif %}
+<script>document.addEventListener('DOMContentLoaded', function () {
+    $('.swiper-container').each(function (index) {
+      const swiper{{section.index}} = new Swiper($(this).find('.swiper.is-karriere')[0], {
+        slidesPerView: "auto",
+        noSwipingSelector: 'input',
+        focusableElements: 'input',
+        spaceBetween: 16,
+        a11y: false,
+        freeMode: {
+          enabled: false,
+          sticky: true,
+        },
+        scrollbar: {
+          el: $(this).find(".swiper-scrollbar")[0],
+          hide: false,
+          draggable: true,
+          snapOnRelease: false,
+        },
+        navigation: {
+          nextEl: $(this).find(".swiper-next")[0],
+          prevEl: $(this).find(".swiper-prev")[0],
+        },
+      });
+    });
+  });
+</script></div></div></div></div> {% schema %} {"tag":"section","name":"benefits_slider","class":"section_benefits","blocks":[{"name":"Benefit","type":"benefit","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Best Buy Toskana"},{"id":"textarea_textfeld","type":"textarea","label":"Textfeld","default":"Unser Weinsortiment estreckt sich auf \u00fcber 420 \u2028verschiede Sorten Wein die wir stehts updaten um Ihnen die beste Weinvielfalt bieten zu k\u00f6nnen"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Work\/life, balanced."},{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"benefits_slider","category":"Liquify"}]} {% endschema %}

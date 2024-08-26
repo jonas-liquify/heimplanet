@@ -1,0 +1,10 @@
+<div class="padding-global"><div class="container-large"><div class="section_headline"><h2 class="heading-large">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="blog_collection w-dyn-list"><div role="list" class="weingueter_list w-dyn-items">{% for article in blog.articles limit: 3 %}    <div li-for="article in blog.articles limit: 3" role="listitem" class="weingueter_item w-dyn-item">
+                                    
+                            {% render 'blog_artikel', article: article %}
+
+                            
+                        </div>
+{% endfor %}</div><div class="w-dyn-empty"><div>No items found.</div></div></div></div></div> {% schema %} {"tag":"section","name":"weitere_blogartikel","class":"section_weitere-blogs is-green","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Weitere Blog Artikel"}],"presets":[{"name":"weitere_blogartikel","category":"Liquify"}]} {% endschema %}

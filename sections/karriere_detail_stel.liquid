@@ -1,0 +1,16 @@
+<div class="padding-global"><div class="container-large"><div class="section_headline"><h2 class="heading-large">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="jobs-list"><div class="subline hide-mobile-landscape">
+{{ section.settings.text_kategorie }}
+</div>
+<div class="karriere_list">{% for article in blogs['jobs'].articles %}    <div li-for="article in blogs['jobs'].articles" class="karriere_item">
+                                    
+                            <a li-object:href="article.url" href="{{ article.url }}" class="job-wrapper w-inline-block"><div><h4 li-object:text="article.title" class="heading-medium">
+{{ article.title }}
+</h4><div li-object:text="article.tags" class="text-size-regular trans">
+{{ article.tags }}
+</div></div><div class="button"><div>Mehr erfahren</div></div></a>
+                            
+                        </div>
+{% endfor %}</div></div></div></div> {% schema %} {"tag":"section","name":"karriere_detail_stel","class":"section_karriere is-green","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Unsere offenen Stellen"},{"id":"text_kategorie","type":"text","label":"kategorie","default":"Operations"}],"presets":[{"name":"karriere_detail_stel","category":"Liquify"}]} {% endschema %}

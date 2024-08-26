@@ -1,0 +1,22 @@
+<img class="newsletter_bg-image"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="bg-overlay"></div><div class="padding-global"><div class="container-large"><div class="login-tabs"><div class="login-form w-form"><h1 class="heading-large text-align-center">
+{{ section.settings.text_headline }}
+</h1>
+<div class="login_hinweis-wrapper"><p class="login_hinweis is-centerd">
+{{ section.settings.text_text }}
+</p>
+</div>{% form 'customer', return_to: '/pages/newsletter-vielen-dank', class: 'input-form' %}
+<div class="input-wrapper"><input class="input w-input" maxlength="256" name="contact[first_name]" data-name="contact[first_name]" placeholder="" type="text" id="contact[first_name]" required="">
+<label for="" class="label">Vorname</label></div><div class="input-wrapper"><input class="input w-input" maxlength="256" name="contact[last_name]" data-name="contact[last_name]" placeholder="" type="text" id="contact[last_name]" required="">
+<label for="" class="label">Nachname</label></div><div class="input-wrapper"><input class="input w-input" maxlength="256" name="contact[email]" data-name="contact[email]" placeholder="" type="email" id="contact[email]-2" required="">
+<label for="" class="label">E-Mail-Adresse</label></div><label id="data" class="w-checkbox newsletter-check is--kontakt w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7df2-24d812ee"><div class="w-checkbox-input w-checkbox-input--inputType-custom news-check is--black"></div><input type="checkbox" name="contact[accepts_marketing]" id="contact[accepts_marketing]" data-name="contact[accepts_marketing]" required="" style="opacity:0;position:absolute;z-index:-1">
+<span for="contact[accepts_marketing]" class="text-size-small text-color-black w-form-label">Mit der Anmeldung zum Newsletter akzeptierst du die <a href="/pages/datenschutz" class="newlstter_link text-color-black">Datenschutzbestimmungen</a>.</span></label><input type="submit" data-wait="Bitte warten..." id="w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7df9-24d812ee" class="button w-button" value="Absenden">
+<a id="w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7dfa-24d812ee" href="https://de.trustpilot.com/review/vioneers.com" target="_blank" class="trust-link w-inline-block"><img id="w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7dfb-24d812ee" loading="lazy" alt="" src="{{ 'trust_1trust.jpg' | asset_url }}" class="sitemap_trust-image">
+</a><div id="w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7dfc-24d812ee" class="w-embed"><input type="hidden" name="locale" value="de">
+<input type="hidden" name="html_type" value="simple">
+</div><div id="w-node-_7ecd48d0-56ce-64b0-69b5-ba802e8b6794-24d812ee" class="hide w-embed"><input type="hidden" name="contact[accepts_marketing]" value="false">
+</div>{% endform %}
+<div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="login_hinweis-kachel w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div> {% schema %} {"tag":"section","name":"newsletter_big","class":"section_kampagne","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Newsletter"},{"id":"text_text","type":"text","label":"Text","default":"Erhalte regelm\u00e4\u00dfig Wine Hacks, Angebote und Stories rund um Wein und Winzer. Als Dankesch\u00f6n bekommst Du mit Deiner Anmeldebest\u00e4tigung einen 5 \u20ac Euro Gutschein f\u00fcr Deine n\u00e4chste Bestellung."}],"presets":[{"name":"newsletter_big","category":"Liquify"}]} {% endschema %}

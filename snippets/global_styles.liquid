@@ -1,10 +1,10 @@
-<style>[li-cloak_disabled="hide"]  { display: none !important; }
+<!--   Google Tag Manager (noscript)   --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBRQJTL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!--   End Google Tag Manager (noscript)   --><style>[li-cloak_disabled="hide"]  { display: none !important; }
   [x-cloak] { display: none !important; }
   html { font-size: 1.1rem; }
   @media screen and (max-width: 1920px) { html { font-size: calc(0.34375rem + 0.55vw); } }
   @media screen and (max-width: 1600px) { html { font-size: calc(0.01375rem + 0.99125vw); } }
   @media screen and (max-width: 991px) { html { font-size: calc(0.48125rem + 0.72875vw); } }
-  @media screen and (max-width: 479px) { html { font-size: calc(0.70125rem + 0.72875vw); } }
+  @media screen and (max-width: 479px) { html { font-size: calc(0.70125rem + 0.78475vw); } }
   /* Make text look crisper and more legible in all browsers */
   body {
     -webkit-font-smoothing: antialiased;
@@ -45,25 +45,6 @@
     margin-right: auto !important;
     margin-left: auto !important;
   }
-  /* 
-  Make the following elements inherit typography styles from the parent and not have hardcoded values. 
-  Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
-  Uncomment this CSS to use it in the project. Leave this message for future hand-off.
-  */
-  /*
-  a,
-  .w-input,
-  .w-select,
-  .w-tab-link,
-  .w-nav-link,
-  .w-dropdown-btn,
-  .w-dropdown-toggle,
-  .w-dropdown-link {
-  color: inherit;
-  text-decoration: inherit;
-  font-size: inherit;
-  }
-  */
   /* Apply "..." after 3 lines of text */
   .text-style-3lines {
     display: -webkit-box;
@@ -83,7 +64,7 @@
     display: inline-flex;
   }
   /* These classes are never overwritten */
-  .hide, .w-dyn-empty {
+  .hide {
     display: none !important;
   }
   @media screen and (max-width: 991px) {
@@ -180,8 +161,29 @@
     opacity: 50% !important;
     pointer-events: none !important;
   }
-  .is-darken {
-    mix-blend-mode: darken;
+  .padding-global {
+    pointer-events: none;
+  }
+  .container-large, .container-medium, .container-small, .navbar_container {
+    pointer-events: auto;
+  }
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+  }
+  html { font-size: 1rem; }
+  @media screen and (max-width:1552px) { html { font-size: calc(0.30837789661319065rem + 0.7130124777183602vw); } }
+  @media screen and (max-width:991px) { html { font-size: calc(-0.1060267857142857rem + 1.7857142857142856vw); } }
+  @media screen and (max-width:767px) { html { font-size: calc(0.3365051903114186rem + 1.384083044982699vw); } }
+  @media screen and (max-width:478px) { html { font-size: calc(-0.0023584905660377358rem + 3.773584905660377vw); } }
+  .splide__arrows, .splide__pagination, .splide__sr{
+    display: none;
+  }
+  .is--open .container.is--dropdown-nav {
+    transition-delay: 200ms;
+    opacity: 100%;
+  }
+  .iwishAddWrap {
+    margin: 0px !important;
   }
   .no-scrollbar::-webkit-scrollbar {
     display: none;
@@ -191,4 +193,154 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+  .product-kachel_like {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .iwishAdded {
+    width: 3rem;
+    height: 3rem;
+  }
+  .splide__slide.is-logo {
+    width: 12rem !important;
+  }
+  /* width */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0px;
+    height: 4px;
+    margin-top: 4px;
+  }
+  /* Track */
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #525252;
+    border-radius: 2px;
+  }
+  /* Handle */
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #fff;
+    opacity: 0.5;
+    border-radius: 2px;
+  }
+  .f-form {
+    margin-top: 0px !important;
+  }
+  .f-weingut_track.swiper-wrapper {
+    display: flex;
+    align-content: stretch !important;
+  }
+  .swiper-slide {
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+  .partner_logo-img, .html_image, .partner_logo {
+    outline: none; 
+  }
+  {% assign preisZiel = 15000 %}
+  .cart_progress-bar-innner {
+    width: {{ cart.total_price | times: 100 | divided_by: preisZiel }}%;
+  }  
+  .show-2 {
+    display: none;
+  }
+  .hide-43569692901640{
+    display: none;
+  }
+  .show-43569692901640{
+    display: block !important;
+  }
+  .shopify-email-marketing-confirmation__container {
+    display: flex!important;
+    margin-top: 4rem!important;
+    padding-top: 1.7rem!important;
+    padding-bottom: 1.7rem!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    align-items: center!important;
+    grid-column-gap: 1rem!important;
+    border-top-left-radius: 0.5rem!important;
+    border-top-right-radius: 0.5rem!important;
+    border-bottom-left-radius: 0.5rem!important;
+    border-bottom-right-radius: 0.5rem!important
+  }
+  .spurit-ros__subscriptions h1, .spurit-ros__account-bar-wrapper  {
+    display: none;
+  }
+  .link .text-link {
+    display: block!important;
+  }
+  .spurit-ros__account-bar-wrapper {
+    display: none;
+  }
+  .unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .swiper-wrapper {
+    touch-action: pan-y!important;
+  }
+  input, textarea {
+    touch-action: manipulation;
+    -ms-touch-action: manipulation;
+    user-scalable: no;
+  }
+  .w-dyn-empty {
+    display: none;
+  }
+  .account-tabs_link.w--current {
+    color: #a38756;
+    border-width: 0 0 1px 0;
+    border-color: #a38756;
+  }
+  .ueber-uns_video {
+    border-radius: 0.3rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .discover_main-video {
+    object-fit: cover;
+  }
+  .product_kachel[data-color*="green"] .product-kachel_bild, .product_kachel[data-color*="green"] .product-kachel_info, .product_kachel[data-color*="green"] .product-kachel_info-2, .product_kachel[data-color*="green"] .product-kachel_buy-wrapper, .product_kachel[data-color*="green"] .product-kachel_name {
+  background-color: var(--bg-green)
+  }
+  select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+  }
+   .shopify-email-marketing-confirmation__container {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+.shopify-policy__container {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+  max-width: auto!important;
+}
+.shopify-challenge__container {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+} 
+.filter_scroll-wrapper.is-open > .filter_filter-bg {
+opacity: 1;
+}
+.karter_overlay-hover path {
+ pointer-events: auto;
+}
+.steckbrief_nachhaltigkeit:last-child {
+  margin-bottom: 0rem!important;
+}
 </style>

@@ -1,0 +1,3 @@
+{% if collection.description != blank %}    <section li-if="collection.description != blank" class="collection_description">
+    <div class="padding-global padding-section-small"><div class="container-large"><p li-object="collection.description" class="text-size-regular max-width-large is-left-mobil">{{ collection.description }}</p></div></div>    </section>
+{% endif %} {% schema %} {"tag":"div","name":"collection_beschreib","class":"section_beschreibung","presets":[{"name":"collection_beschreib","category":"Liquify"}]} {% endschema %}

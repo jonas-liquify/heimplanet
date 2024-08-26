@@ -1,1 +1,11 @@
-<div class="padding-global padding-section-small"><div class="container-large"><h1 li-object="blog.title" class="heading-style-h1">{{ blog.title }}</h1></div></div> {% schema %} {"tag":"header","name":"blog_hero","class":"section_small-hero background-color-grey","presets":[{"name":"blog_hero","category":"Liquify"}]} {% endschema %}
+<img class="hero_image"
+     src="{{ section.settings.image_blog_hero | img_url: 'master' }}"
+     alt="{{ section.settings.image_blog_hero.alt }}"
+     loading="lazy">
+<div class="hero_overlay"></div><div class="padding-global"><div class="container-large"><div class="subline text-color-white">
+{{ section.settings.text_subline }}
+</div>
+<h1 class="heading-xlarge text-color-white">
+{{ section.settings.text_headline }}
+</h1>
+</div></div> {% schema %} {"tag":"section","name":"blog_hero","class":"section_hero","settings":[{"id":"image_blog_hero","type":"image_picker","label":"Blog-Hero"},{"id":"text_subline","type":"text","label":"Subline","default":"Blog"},{"id":"text_headline","type":"text","label":"Headline","default":"Unsere Blogbeitr\u00e4ge"}],"presets":[{"name":"blog_hero","category":"Liquify"}]} {% endschema %}

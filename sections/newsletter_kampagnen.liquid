@@ -1,0 +1,32 @@
+<img class="newsletter_bg-image"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="bg-overlay"></div><div class="padding-global"><div class="container-large"><div class="login-tabs"><div class="hide"><div id="w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7dd7-6ff8b5a2" class="hide">
+{{ section.settings.text_formular }}
+</div>
+<p class="login_hinweis is-centerd">
+{{ section.settings.text_text }}
+</p>
+<p class="login_hinweis is-centerd">
+{{ section.settings.text_button_text }}
+</p>
+<h1 class="heading-large text-align-center">
+{{ section.settings.text_headline }}
+</h1>
+</div><div class="login-form w-form"><h1 class="heading-large text-align-center">
+{{ section.settings.text_headline }}
+</h1>
+<div class="login_hinweis-wrapper"><p class="login_hinweis is-centerd">
+{{ section.settings.text_text }}
+</p>
+</div><form id="wf-form-si-form" name="wf-form-si-form" data-name="si-form" action="https://{{ section.settings.formular }}" method="post" class="input-form" data-wf-page-id="65d38219e69198496ff8b5a2" data-wf-element-id="e648e7bc-00b4-eb9d-a8ca-f4755c4f7de5"><div class="input-wrapper"><input class="input w-input" maxlength="256" name="FIRSTNAME" data-name="FIRSTNAME" placeholder="" type="text" id="FIRSTNAME" required="">
+<label for="" class="label">Vorname</label></div><div class="input-wrapper"><input class="input w-input" maxlength="256" name="LASTNAME" data-name="LASTNAME" placeholder="" type="text" id="LASTNAME" required="">
+<label for="" class="label">Nachname</label></div><div class="input-wrapper"><input class="input w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="" type="email" id="EMAIL" required="">
+<label for="" class="label">E-Mail-Adresse</label></div><label id="data" class="w-checkbox newsletter-check is--kontakt w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7df2-6ff8b5a2"><div class="w-checkbox-input w-checkbox-input--inputType-custom news-check is--black"></div><input type="checkbox" name="Customer-Accepts-Marketing" id="customer[accepts_marketing]" data-name="Customer Accepts Marketing" required="" style="opacity:0;position:absolute;z-index:-1">
+<span for="Customer-Accepts-Marketing" class="text-size-small text-color-black w-form-label">Mit der Anmeldung zum Newsletter akzeptierst du die <a href="/pages/datenschutz" class="newlstter_link text-color-black">Datenschutzbestimmungen</a>.</span></label><input type="submit" data-wait="Bitte warten..." id="w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7df9-6ff8b5a2" class="button w-button" value="Absenden">
+<a id="w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7dfa-6ff8b5a2" href="https://de.trustpilot.com/review/vioneers.com" target="_blank" class="trust-link w-inline-block"><img id="w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7dfb-6ff8b5a2" loading="lazy" alt="" src="{{ 'trust_1trust.jpg' | asset_url }}" class="sitemap_trust-image">
+</a><div id="w-node-e648e7bc-00b4-eb9d-a8ca-f4755c4f7dfc-6ff8b5a2" class="w-embed"><input type="hidden" name="locale" value="de">
+<input type="hidden" name="html_type" value="simple">
+</div><div id="w-node-_7ecd48d0-56ce-64b0-69b5-ba802e8b6794-6ff8b5a2" class="hide w-embed"><input type="hidden" name="contact[accepts_marketing]" value="false">
+</div></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="login_hinweis-kachel w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div> {% schema %} {"tag":"section","name":"newsletter_kampagnen","class":"section_kampagne","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_formular","type":"text","label":"formular","default":"Formular"},{"id":"text_text","type":"text","label":"Text","default":"Erhalte regelm\u00e4\u00dfig Wine Hacks, Angebote und Stories rund um Wein und Winzer. Als Dankesch\u00f6n bekommst Du mit Deiner Anmeldebest\u00e4tigung einen 5 \u20ac Euro Gutschein f\u00fcr Deine n\u00e4chste Bestellung."},{"id":"text_button_text","type":"text","label":"button-text","default":"Erhalte regelm\u00e4\u00dfig Wine Hacks, Angebote und Stories rund um Wein und Winzer. Als Dankesch\u00f6n bekommst Du mit Deiner Anmeldebest\u00e4tigung einen 5 \u20ac Euro Gutschein f\u00fcr Deine n\u00e4chste Bestellung."},{"id":"text_headline","type":"text","label":"Headline","default":"Newsletter"}],"presets":[{"name":"newsletter_kampagnen","category":"Liquify"}]} {% endschema %}

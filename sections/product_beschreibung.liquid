@@ -1,0 +1,38 @@
+<div class="page-padding padding-section-medium"><div class="container-large"><div class="weinbeschreibung_grid"><div id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e33-2b052e2f" class="weinbeschreibung_img-grid"><div id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e34-2b052e2f" class="weinbeschreibung_bild-wrapper"><img src="{% if product.metafields.my_fields.weinbeschreibung_bild != blank %} {{product.metafields.my_fields.weinbeschreibung_bild | img_url: 'master'}} {% else %} {{product.metafields.my_fields.header_bild | img_url: 'master'}} {% endif %}" loading="lazy" id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e35-2b052e2f" alt="{% if product.metafields.my_fields.weinbeschreibung_bild != blank %} {{product.metafields.my_fields.weinbeschreibung_bild.alt}}{% else %}{{product.metafields.my_fields.header_bild.alt}}{% endif %}" class="weinbeschreibung_bild">
+{% if product.metafields.custom.weinbeschreibung_bild_tag!= blank %}    <div li-if="product.metafields.custom.weinbeschreibung_bild_tag!= blank" class="weinbeschreibung_tags">
+    <span li-object="product.metafields.custom.weinbeschreibung_bild_tag">{{ product.metafields.custom.weinbeschreibung_bild_tag }}</span>    </div>
+{% endif %}</div>{% if product.metafields.my_fields.food_pairing_bild_links != blank %}    <div li-if="product.metafields.my_fields.food_pairing_bild_links != blank" id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e36-2b052e2f" class="weinbeschreibung_bild-wrapper hide">
+    <img src="{{ product.metafields.my_fields.food_pairing_bild_links | img_url: 'master' }}" loading="lazy" id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e37-2b052e2f" li-object:src="product.metafields.my_fields.food_pairing_bild_links | img_url: 'master'" alt="{{ product.metafields.my_fields.food_pairing_bild_links.alt }}" li-object:alt="product.metafields.my_fields.food_pairing_bild_links.alt" class="weinbeschreibung_bild">
+{% if product.metafields.custom.food_pairing_bild_links_tag != blank %}    <div li-if="product.metafields.custom.food_pairing_bild_links_tag != blank" class="weinbeschreibung_tags">
+    <span li-object="product.metafields.custom.food_pairing_bild_links_tag">{{ product.metafields.custom.food_pairing_bild_links_tag }}</span>    </div>
+{% endif %}    </div>
+{% endif %}{% if product.metafields.my_fields.food_pairing_bild_rechts != blank %}    <div li-if="product.metafields.my_fields.food_pairing_bild_rechts != blank" id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e38-2b052e2f" class="weinbeschreibung_bild-wrapper hide">
+    <img src="{{ product.metafields.my_fields.food_pairing_bild_rechts | img_url: 'master' }}" loading="lazy" id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e39-2b052e2f" li-object:src="product.metafields.my_fields.food_pairing_bild_rechts | img_url: 'master'" alt="{{ product.metafields.my_fields.food_pairing_bild_rechts.alt }}" li-object:alt="product.metafields.my_fields.food_pairing_bild_rechts.alt" class="weinbeschreibung_bild">
+{% if product.metafields.custom.food_pairing_bild_rechts_tag != blank %}    <div li-if="product.metafields.custom.food_pairing_bild_rechts_tag != blank" class="weinbeschreibung_tags">
+    <span li-object="product.metafields.custom.food_pairing_bild_rechts_tag">{{ product.metafields.custom.food_pairing_bild_rechts_tag }}</span>    </div>
+{% endif %}    </div>
+{% endif %}</div><div id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e3a-2b052e2f" class="weinbeschreibung_right"><div class="content-grid"><div id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e3c-2b052e2f"><div class="subline">
+{{ section.settings.text_subline }}
+</div>
+<h2 li-object="product.metafields.my_fields.weinbeschreibung_headline" class="heading-style-h2">{{ product.metafields.my_fields.weinbeschreibung_headline }}</h2></div><div id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e41-2b052e2f" class="weinbeschreibung_infos">{% if product.metafields.my_fields.weinbeschreibung_text_1 != blank %}    <div li-if="product.metafields.my_fields.weinbeschreibung_text_1 != blank" class="weinbeschreibung_item">
+    <img src="{{ 'auge.svg' | asset_url }}" loading="lazy" option:image="Bild" dimension="master" alt="" class="weinbeschreibung_icon">
+<p li-object="product.metafields.my_fields.weinbeschreibung_text_1" class="text-size-small">{{ product.metafields.my_fields.weinbeschreibung_text_1 }}</p>    </div>
+{% endif %}{% if product.metafields.my_fields.weinbeschreibung_text_2 != blank %}    <div li-if="product.metafields.my_fields.weinbeschreibung_text_2 != blank" class="weinbeschreibung_item">
+    <img src="{{ 'nose.svg' | asset_url }}" loading="lazy" option:image="Bild" dimension="master" alt="" class="weinbeschreibung_icon">
+<p li-object="product.metafields.my_fields.weinbeschreibung_text_2" class="text-size-small">{{ product.metafields.my_fields.weinbeschreibung_text_2 }}</p>    </div>
+{% endif %}{% if product.metafields.my_fields.weinbeschreibung_text_3 != blank %}    <div li-if="product.metafields.my_fields.weinbeschreibung_text_3 != blank" class="weinbeschreibung_item">
+    <img src="{{ 'mund.svg' | asset_url }}" loading="lazy" option:image="Bild" dimension="master" alt="" class="weinbeschreibung_icon">
+<p li-object="product.metafields.my_fields.weinbeschreibung_text_3" class="text-size-small">{{ product.metafields.my_fields.weinbeschreibung_text_3 }}</p>    </div>
+{% endif %}{% if product.metafields.my_fields.weinbeschreibung_text_4 != blank %}    <div li-if="product.metafields.my_fields.weinbeschreibung_text_4 != blank" class="weinbeschreibung_item">
+    <img src="{{ 'glas.svg' | asset_url }}" loading="lazy" option:image="Bild" dimension="master" alt="" class="weinbeschreibung_icon">
+<p li-object="product.metafields.my_fields.weinbeschreibung_text_4" class="text-size-small">{{ product.metafields.my_fields.weinbeschreibung_text_4 }}</p>    </div>
+{% endif %}{% if product.metafields.custom.rarit_ten_weingut_beschreibung != blank %}    <div li-if="product.metafields.custom.rarit_ten_weingut_beschreibung != blank" class="weinbeschreibung_item">
+    <img src="{{ 'weingut_icon.svg' | asset_url }}" loading="lazy" option:image="Bild" dimension="master" alt="" class="weinbeschreibung_icon">
+<p li-object="product.metafields.custom.rarit_ten_weingut_beschreibung" class="text-size-small">{{ product.metafields.custom.rarit_ten_weingut_beschreibung }}</p>    </div>
+{% endif %}</div>{% if product.metafields.my_fields.weinbeschreibung_artikel != blank %}    <a li-if="product.metafields.my_fields.weinbeschreibung_artikel != blank" id="w-node-c3823251-b03e-aa4e-6e91-45cf2b052e56-2b052e2f" href="{{product.metafields.my_fields.weinbeschreibung_artikel}}" class="weinbeschreibung_button w-inline-block">
+    <img src="{{ 'info.svg' | asset_url }}" loading="lazy" alt="" class="weinbeschreibung_info-icon">
+<div>
+{{ section.settings.text_button_text }}
+</div>
+    </a>
+{% endif %}</div></div></div></div></div><div id="Beschreibung" class="anchor-link"></div> {% schema %} {"tag":"section","name":"product_beschreibung","class":"section_weinbescheibung","settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Weinbeschreibung"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Detaillierte Informationen ansehen"}],"presets":[{"name":"product_beschreibung","category":"Liquify"}]} {% endschema %}

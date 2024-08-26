@@ -1,6 +1,7 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('handleVariant', (pProduct = null, optionsByName = null, selectedOrFirstAvailable = null) => ({
         bundle: {},
+        globalBundle: [],
         product: pProduct,
         options_by_name: optionsByName,
         options: pProduct?.options,
@@ -24,6 +25,8 @@ document.addEventListener('alpine:init', () => {
             //     console.log('product', this.product)
             //     console.log('options_by_name', this.options_by_name)
             //     console.log('selected_or_first_available_variant', this.selected_or_first_available_variant)
+
+            this.loadGlobalBundle();
         },
 
         qs(selector) {
@@ -118,17 +121,22 @@ document.addEventListener('alpine:init', () => {
         setInputAvailability(listOfOptions, listOfAvailableOptions) {
             listOfOptions.forEach((input) => {
                 if (listOfAvailableOptions.includes(input.getAttribute('value'))) {
-                    input.classList.remove('disabled');
-                    input.removeAttribute('disabled');
+                    input.classList.remove('data-disabled');
+                    input.removeAttribute('data-disabled');
 
                 } else {
-                    input.classList.add('disabled');
-                    input.setAttribute('disabled', '');
+                    input.classList.add('data-disabled');
+                    input.setAttribute('data-disabled', '');
                 }
             });
 
         },
 
+        /**
+         * Called by x-init.
+         *
+         * @see ProductVariationsContainer
+         */
         activateVariants() {
             this.observeVariants();
 
@@ -156,13 +164,12 @@ document.addEventListener('alpine:init', () => {
             this.updateVariantStatuses()
 
             // @todo: Replace with CSS
-            const css = ' [data-ProductVariantsLoop] input[type=radio]:disabled+span, ' +
-                ' [data-ProductVariantsLoop] input[type=radio].disabled+span{ ' +
+            const css = ' [data-ProductVariantsLoop] input[type=radio].data-disabled + span{ ' +
                 ' text-decoration: line-through; ' +
                 ' opacity: .5; ' +
                 ' } ' +
-                ' .button.max-width-full.w-button:disabled, ' +
-                ' .button.max-width-full.w-button[disabled] { ' +
+                ' .button.max-width-full.w-button:data-disabled, ' +
+                ' .button.max-width-full.w-button[data-disabled] { ' +
                 '  cursor: not-allowed; ' +
                 ' }';
             const style = document.createElement("style")
@@ -189,8 +196,8 @@ document.addEventListener('alpine:init', () => {
             let selector = this.formSelector + " [data-productVariantsLoop] input[name='" + optionName + "']:checked"
             if (this.selectorType === 'select') {
                 selector = this.formSelector + " [data-productVariantsLoop] select[name='" + optionName + "'] option:checked"
-                if (this.qs(selector)?.disabled) {
-                    selector = this.formSelector + " [data-productVariantsLoop] select[name='" + optionName + "'] option:not([disabled])"
+                if (this.qs(selector)['data-disabled'] ?? false) {
+                    selector = this.formSelector + " [data-productVariantsLoop] select[name='" + optionName + "'] option:not([data-disabled])"
                 }
             }
             return this.qs(selector) ? this.qs(selector) : '';
@@ -225,6 +232,36 @@ document.addEventListener('alpine:init', () => {
             return possibleProducts;
         },
 
+        /**
+         * Workaround function that works same as filterVariants but only applies two selected options.
+         * todo: Refactoring.
+         */
+        filterNextAvailableVariant() {
+            const option1 = this.checkedVariantValue(this.options?.[0]);
+            const option2 = this.checkedVariantValue(this.options?.[1]);
+
+            let selectedOptions = [
+                option1,
+                option2,
+            ];
+            selectedOptions = (selectedOptions.filter(i => i)).join('-')
+
+            let possibleProducts = []
+            for (const variant of this.variants) {
+                let variantString = [
+                    option1 ? variant?.option1 : undefined,
+                    option2 ? variant?.option2 : undefined,
+                ];
+                variantString = (variantString.filter(i => i)).join('-')
+
+                if (selectedOptions === variantString) {
+                    possibleProducts.push(variant)
+                }
+            }
+
+            return possibleProducts;
+        },
+
         setUrlParam() {
             const urlParams = new URLSearchParams(window.location.search);
             urlParams.set('variant', this.selected_product_id);
@@ -232,30 +269,54 @@ document.addEventListener('alpine:init', () => {
             window.history.pushState({ ...window.history.state}, '', '?' + urlParams.toString());
         },
 
-        setVariant(pushState = true) {
-            this.updateVariantStatuses()
+        findAvailableVariant() {
             const matchedProducts = this.filterVariants()
 
-            if (matchedProducts.length !== 1) {
-                console.warn('Keine eindeutige Variante', matchedProducts)
-                //this.updateVariantStatuses()
-                this.addToCartButton = false
+            if (matchedProducts.length < 1) {
+                console.log('Keine eindeutige Variante', matchedProducts)
+
+                // Workaround: Try to find the next best available option (fewer filters).
+                const nextAvailableVariant = this.filterNextAvailableVariant()
+                console.log('nextAvailableVariant', nextAvailableVariant)
+
+                if (nextAvailableVariant.length > 0) {
+                    const nextAvailable = nextAvailableVariant.filter(variant => variant.available)
+                    // We settled on the first available Variant to be selected.
+                    return nextAvailable[0]
+                }
+
+                console.log('no next best option found')
+
+                return undefined
+            }
+
+            return matchedProducts[0]
+        },
+
+        setVariant(pushState = true) {
+            const product = this.findAvailableVariant()
+
+            if (! product) {
+                console.log("no product found to set active")
+
                 return
             }
 
+            console.log('set active variant', product)
 
             this.addToCartButton = true
 
-            const matchedProduct = matchedProducts[0];
-            console.log('matchedProducts', matchedProduct)
-            this.selected_product_id = matchedProduct.id
-            this.variantImage = matchedProduct?.featured_image?.src
-            this.price = matchedProduct?.price;
-            this.selected_or_first_available_variant = matchedProduct;
+            this.selected_product_id = product.id
+            this.variantImage = product?.featured_image?.src
+            this.price = product?.price;
+            this.selected_or_first_available_variant = product;
+
             // nur für die Detailseiten
-            if(pushState && this.isMainProduct) {
+            if (pushState && this.isMainProduct) {
                 this.setUrlParam()
             }
+
+            this.updateVariantStatuses()
         },
 
         getAddToCartBody(products) {
@@ -273,6 +334,181 @@ document.addEventListener('alpine:init', () => {
                 headers: {'Content-Type': 'application/json'},
                 body: body
             })
+        },
+
+        getGlobalBundleCartBody() {
+            let globalBundle = this.getGlobalBundleFromLocalStorage();
+
+            return JSON.stringify({
+                'items': globalBundle.map(item => ({
+                        id: item.product.id,
+                        quantity: item.quantity,
+                        properties: {
+                            'bundle': this.bundleName,
+                        }
+                    }))
+                })
+        },
+
+        async addGlobalBundleToCart() {
+            const body = this.getGlobalBundleCartBody()
+
+            await this.callAddToCartApi(body)
+                .then(response => {
+                    let data = response.json();
+
+                    this.clearGlobalBundle();
+                    this.triggerMinicartToggle()
+
+                    this.$dispatch('cartupdated');
+                    this.$dispatch('toggleminicart');
+                    this.$dispatch('showcartmessage', {
+                        status: data.status,
+                        message: data.message,
+                        description: data.description
+                    });
+                });
+        },
+
+        clearGlobalBundle() {
+            this.updateBundleObject([]);
+        },
+
+        /**
+         * Adds a new product to the globalBundle.
+         * If the product is already in the bundle, increase the quantity by 1.
+         */
+        addToGlobalBundle() {
+            console.log('addToGlobalBundle()');
+
+            this.addOrIncreaseGlobalBundleItem(
+                this.getNewGlobalBundleItem()
+            );
+        },
+
+        getNewGlobalBundleItem(productId = undefined, quantity = 1) {
+            let product = this.variants.find(variant => variant.id === productId) ?? this.selected_or_first_available_variant;
+            return {
+                product: Object.assign({}, product),
+                quantity: quantity,
+            }
+        },
+
+        /**
+         * If the product is already in the bundle, increase the quantity by 1.
+         */
+        addOrIncreaseGlobalBundleItem(item) {
+            let globalBundle = this.getGlobalBundleFromLocalStorage();
+            let existingItem = globalBundle.find(bundleItem => bundleItem.product.id === item.product.id);
+
+            if (existingItem) {
+                let quantity = parseInt(existingItem.quantity);
+                quantity += item.quantity;
+                existingItem.quantity = quantity;
+            } else {
+                globalBundle.push(item);
+            }
+
+            this.updateBundleObject(globalBundle);
+        },
+
+        /**
+         * Update the Alpine globalBundle object and save it to local storage.
+         */
+        updateBundleObject(globalBundle) {
+            this.globalBundle = globalBundle;
+            localStorage.setItem('globalBundle', JSON.stringify(globalBundle));
+        },
+
+        /**
+         * One method to handle the various ways to update a bundle item.
+         *
+         * @see ProductVariationsContainer
+         */
+        updateBundleItem(productId, quantity) {
+            this.loadGlobalBundle();
+
+            if (quantity === 0) {
+                this.removeProductFromGlobalBundle(productId);
+                return;
+            }
+
+            if (quantity === '-1') {
+                this.decrementQuantityOfBundleItem(productId);
+                return;
+            }
+
+            if (quantity === '+1') {
+                this.incrementQuantityOfBundleItem(productId);
+                return;
+            }
+
+            this.updateQuantityOfBundleItem(productId, quantity);
+        },
+
+        updateQuantityOfBundleItem(productId, quantity) {
+            let bundle = this.getGlobalBundleFromLocalStorage();
+            let item = bundle.find(item => item.product.id === productId);
+            item.quantity = quantity;
+
+            this.updateBundleObject(bundle);
+        },
+
+        decrementQuantityOfBundleItem(productId) {
+            let bundle = this.getGlobalBundleFromLocalStorage();
+            let item = bundle.find(item => item.product.id === productId);
+
+            if (item.quantity === 1) {
+                this.removeProductFromGlobalBundle(productId);
+
+                return;
+            }
+
+            item.quantity -= 1;
+
+            this.updateBundleObject(bundle);
+        },
+
+        incrementQuantityOfBundleItem(productId) {
+            let bundle = this.getGlobalBundleFromLocalStorage();
+            let item = bundle.find(item => item.product.id === productId);
+            let quantity = parseInt(item.quantity)
+            quantity += 1;
+            item.quantity = quantity;
+            this.updateBundleObject(bundle);
+        },
+
+        /**
+         * Removes a product from the globalBundle.
+         */
+        removeProductFromGlobalBundle(productId) {
+            let id = productId ?? this.selected_or_first_available_variant.id;
+            let bundle = this.getGlobalBundleFromLocalStorage();
+            bundle = bundle.filter(item => item.product.id !== id);
+
+            this.updateBundleObject(bundle);
+        },
+
+        /**
+         * Get the globalBundle from local storage and set it to the globalBundle property.
+         */
+        loadGlobalBundle() {
+            this.getBundleName();
+            this.globalBundle = this.getGlobalBundleFromLocalStorage();
+        },
+
+        getGlobalBundleFromLocalStorage() {
+            return JSON.parse(localStorage.getItem('globalBundle')) ?? [];
+        },
+
+        getBundleName() {
+            this.bundleName = document
+                                .querySelector('[data-bundleName]')
+                                .querySelector('*')
+                                .textContent
+                                .trim() ?? 'Bundle'
+
+            return this.bundleName;
         },
 
         /**
@@ -303,14 +539,7 @@ document.addEventListener('alpine:init', () => {
                 console.log('Items added (addToCartWithBundle()):', data.items);
                 this.products = data.items;
 
-                // Trigger dropdown click to open minicart
-                let elements = document.querySelectorAll('[li-element="mini-cart-toggle"]');
-                elements.forEach(element => {
-                    let closestDropdown = element.closest('.w-dropdown-toggle');
-                    if (closestDropdown) {
-                        LiquifyHelper.triggerClick(closestDropdown);
-                    }
-                });
+                this.triggerMinicartToggle()
 
                 console.log('All items added!');
                 this.$dispatch('cartupdated');
@@ -369,6 +598,19 @@ document.addEventListener('alpine:init', () => {
                     console.error('addToCart error:', error);
                     this.$dispatch('showcartmessage', { status: error.status, message: error.message, description: error.description });
                 });
+        },
+
+        /**
+         * Trigger dropdown click to open minicart.
+         */
+        triggerMinicartToggle() {
+            let elements = document.querySelectorAll('[li-element="mini-cart-toggle"]');
+            elements.forEach(element => {
+                let closestDropdown = element.closest('.w-dropdown-toggle');
+                if (closestDropdown) {
+                    LiquifyHelper.triggerClick(closestDropdown);
+                }
+            });
         },
 
         /**

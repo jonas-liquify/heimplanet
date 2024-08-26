@@ -1,0 +1,11 @@
+<section class="collection_hero is-list"><img class="header_background-image"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="hero_overlay"></div><div class="padding-global"><div class="container-large"><h1 class="heading-style-h1 text-color-white">
+{{ section.settings.text_headline }}
+</h1>
+<div class="spacer-medium"></div><p class="text-size-regular text-color-white max-width-medium">
+{{ section.settings.text_text }}
+</p>
+</div></div></section> {% schema %} {"tag":"div","name":"collection_list_hero","class":"section_collection-hero","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Heading"},{"id":"text_text","type":"text","label":"Text","default":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."}],"presets":[{"name":"collection_list_hero","category":"Liquify"}]} {% endschema %}
