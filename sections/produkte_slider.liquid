@@ -1,0 +1,44 @@
+<div class="padding-global"><div class="container-large"><div class="padding-section-medium swiper-container">{% if section.settings.checkbox_headline_visible == true %}
+<div class="section_headline"><h2 class="heading-style-h2">
+{{ section.settings.text_headline }}
+</h2>
+<div class="product-slider_buttons hide-mobile-portrait"><a class="button is-small w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
+<div class="product-slider_arrows"><a id="w-node-a938b229-9f1b-8dde-506d-a4127822667b-6ff8b4f8" href="#" class="swiper-arrows swiper-prev w-inline-block"><div class="swiper-arrow w-embed"><svg width="100%" height="100%" viewbox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00006 10.4999L1 5.5L7.00006 0.500061" stroke="currentColor"></path></svg></div></a><a href="#" class="swiper-arrows swiper-next w-inline-block"><div class="swiper-arrow w-embed"><svg width="100%" height="100%" viewbox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00006 10.4999L1 5.5L7.00006 0.500061" stroke="currentColor"></path></svg></div></a></div></div></div>{% endif %}
+<div><div class="swiper is-product-slider w-dyn-list"><div role="list" class="swiper-wrapper is-product-slider w-dyn-items">{% for product in section.settings.collection_slider.products limit: section.settings.collection_slider_limit %}
+<div role="listitem" class="swiper-slide is-product-slider w-dyn-item">
+    
+    {% render 'product_item', color: , product: product %}
+
+</div>
+{% endfor %}
+</div><div class="w-dyn-empty"><div>No items found.</div></div></div><div class="swiper-scrollbar"></div><div class="swiper-scrollbar-drag"></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>{% endif %}
+<script>document.addEventListener('DOMContentLoaded', function () {
+    $('.swiper-container').each(function (index) {
+      const swiper{{section.index}} = new Swiper($(this).find('.swiper.is-product-slider')[0], {
+        slidesPerView: 'auto',
+        freeMode: {
+          enabled: false,
+          sticky: true,
+        },
+        spaceBetween: 16,
+        mousewheel: {
+          forceToAxis: true,
+        },
+        noSwipingSelector: 'input',
+        focusableElements: 'input',
+        a11y: false,
+        scrollbar: {
+          el: $(this).find(".swiper-scrollbar")[0],
+          hide: false,
+          draggable: true,
+          snapOnRelease: false,
+        },
+        navigation: {
+          nextEl: $(this).find(".swiper-next")[0],
+          prevEl: $(this).find(".swiper-prev")[0],
+        },
+      });
+    });
+  });
+</script></div></div></div></div> {% schema %} {"tag":"section","name":"produkte_slider","class":"section_produkt-slider","settings":[{"id":"checkbox_headline_visible","type":"checkbox","label":"Headline-Visible","default":true},{"id":"text_headline","type":"text","label":"Headline","default":"Das ist eine h2"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Alle Produkte"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"collection_slider","type":"collection","label":"Slider"},{"type":"range","id":"collection_slider_limit","min":1,"max":99,"step":1,"label":"Limit: Slider","default":6},{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"produkte_slider","category":"Liquify"}]} {% endschema %}

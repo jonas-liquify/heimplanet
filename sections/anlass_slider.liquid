@@ -1,0 +1,38 @@
+<div class="page-padding"><div class="container-large"><div class="padding-section-small"><div class="anlass_grid"><div class="section_headline is-slider show-mobile-portrait"><h2 class="heading-large text-color-white">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="swiper-container is-anlass"><div class="product-slider_buttons is-anlass"><div class="product-slider_arrows is-anlass hide-mobile-landscape pointer-events-off"><a id="w-node-e3c3b29d-f413-82e5-5ac9-c99b279a636a-6ff8b4f8" href="#" class="swiper-arrows swiper-prev is-anlass pointer-events-on w-inline-block"><div class="swiper-arrow is-black w-embed"><svg width="100%" height="100%" viewbox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00006 10.4999L1 5.5L7.00006 0.500061" stroke="currentColor"></path></svg></div></a><div id="w-node-bc41fa6a-d46f-8648-f116-2a197955c59c-6ff8b4f8"></div><a id="w-node-e3c3b29d-f413-82e5-5ac9-c99b279a636c-6ff8b4f8" href="#" class="swiper-arrows swiper-next is-anlass pointer-events-on w-inline-block"><div class="swiper-arrow is-black w-embed"><svg width="100%" height="100%" viewbox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00006 10.4999L1 5.5L7.00006 0.500061" stroke="currentColor"></path></svg></div></a></div></div><div class="swiper is-anlass-slider"><div class="swiper-wrapper is-anlass"><div class="swiper-slide is-kategorie-slider hide-mobile-landscape"><div class="section_headline is-slider"><h2 class="heading-style-h2 text-color-white">
+{{ section.settings.text_headline }}
+</h2>
+</div></div>{% for block in section.blocks %}
+    {% if block.type == "kategorie" %}
+                    <div li-block="Kategorie" class="swiper-slide is-kategorie-slider">
+                                    <a class="anlass_item w-inline-block" href="{{ block.settings.url_link }}"> <img class="anlass_bild" src="{{ block.settings.image_bild | img_url: 'master' }}" alt="{{ block.settings.image_bild.alt }}" loading="lazy"><div class="anlass_overlay"><div class="text-size-regular text-color-white is-anlass">{{ block.settings.text_headline_anlass }}</div></div> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>{% endif %}
+<script>document.addEventListener('DOMContentLoaded', function () {
+    $(".swiper-container").each(function (index) {
+      const swiper{{section.index}} = new Swiper($(this).find(".swiper.is-anlass-slider")[0], {
+        slidesPerView: "auto",
+        freeMode: {
+          enabled: true,
+          sticky: true,
+        },
+        spaceBetween: 16,
+        mousewheel: {       
+          forceToAxis: true,    
+        },  
+        a11y: false,
+        navigation: {
+          nextEl: $(this).find(".swiper-next")[0],
+          prevEl: $(this).find(".swiper-prev")[0],
+          disabledClass: 'hide'
+        },
+      });
+    });
+  });
+</script></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"anlass_slider","class":"section_anlass","blocks":[{"name":"Kategorie","type":"kategorie","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline_anlass","type":"text","label":"Headline-Anlass","default":"This is some text inside of a div block."}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"F\u00fcr welchen Anlass suchst du wein?"},{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"anlass_slider","category":"Liquify"}]} {% endschema %}

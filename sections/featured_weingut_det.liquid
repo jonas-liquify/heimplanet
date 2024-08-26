@@ -1,0 +1,13 @@
+<div class="padding-global"><div class="container-large"><div class="section_grid"><div id="w-node-_0aa30a5a-f375-fc8c-3ef6-c63b6edd862a-6ff8b5a3" class="content-grid is-blog"><div id="w-node-_0aa30a5a-f375-fc8c-3ef6-c63b6edd862b-6ff8b5a3"><div class="subline">
+{{ section.settings.text_subline }}
+</div>
+<h2 class="heading-large max-width-large text-color-white">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="text-size-regular text-color-white trans"> {{ section.settings.textarea_text }} </div>
+<a class="button is-white w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
+</div><img class="section_img"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+</div></div></div> {% schema %} {"tag":"section","name":"featured_weingut_det","class":"section_weingut-lage","settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Featured Weingut"},{"id":"text_headline","type":"text","label":"Headline","default":"Die Weinwelt ist zwar riesig, aber zugleich auch winzig klein."},{"id":"textarea_text","type":"textarea","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla massa nec lorem magna eget amet, nulla bibendum. A et fermentum, arcu orci, dolor. Ultricies vitae id aliquet bibendum orci id maecenas. Nulla nisi ut quis velit aliquam. Natoque nisi viverra ullamcorper nunc massa egestas faucibus."},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"featured_weingut_det","category":"Liquify"}]} {% endschema %}

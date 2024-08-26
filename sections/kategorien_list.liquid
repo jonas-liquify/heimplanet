@@ -1,0 +1,10 @@
+<div class="padding-global"><div class="container-large"><div class="collections_grid">{% for collection in collections %}    <a li-for="collection in collections" li-object:href="collection.url" href="#" class="collections_item w-inline-block">
+                                    <img alt="" loading="lazy" li-object:src="collection.featured_image | img_url: 'master'" src="{{ collection.featured_image | img_url: 'master' }}" class="collections_img">
+
+                            
+                            <div class="bg-overlay"></div>
+                            
+                            <div class="collections_title"><h3 li-object="collection.title" class="heading-style-h3 text-color-white">{{ collection.title }}</h3></div>
+                            
+                        </a>
+{% endfor %}</div></div></div> {% schema %} {"tag":"section","name":"kategorien_list","class":"section_collections","presets":[{"name":"kategorien_list","category":"Liquify"}]} {% endschema %}

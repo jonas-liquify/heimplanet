@@ -1,0 +1,36 @@
+<div class="padding-global"><div class="container-large"><div class="section_headline is-gold"><h2 class="heading-large">
+{{ section.settings.text_headline }}
+</h2>
+<div fs-cmsfilter-element="filters" class="filter-weingut_form w-form"><form id="email-form-2" name="email-form-2" data-name="Email Form 2" method="get" class="filter-weingut_wrapper" data-wf-page-id="65d38219e69198496ff8b5a3" data-wf-element-id="10ff9021-ba7d-4a50-ff57-f7f295970b48"><div class="hide w-embed">{% capture laender %}
+                    {% paginate collections['unser-sortiment'].products by 500 %}
+                    {% for product in collections['unser-sortiment'].products %}
+                    {{ product.metafields.product.countries }}/
+                    {% endfor %}
+                    {% endpaginate %}
+                    {% endcapture %}
+                    {% assign leanderselect = laender | split: "/" | uniq %}
+                  </div><div x-data="" class="input-wrapper is-filter"><select fs-cmsfilter-field="land" class="filter-weingut_select"><option x-bind:value="''">Land wählen</option>{% for item in leanderselect %}    <option li-for="item in leanderselect">
+                                    {{ item }}
+                        </option>
+{% endfor %}</select><img src="{{ 'Rectangle-130.svg' | asset_url }}" loading="lazy" alt="" class="filter-weingut_arrow">
+</div><div class="input-wrapper is-filter"><select id="Sortieren-nach" name="Sortieren-nach" data-name="Sortieren Nach" fs-cmssort-element="trigger" class="filter-weingut_select w-select"><option value="">Sortieren nach</option><option value="name-asc">Name (A-Z)</option><option value="name-desc">Name (Z-A)</option></select><img src="{{ 'Rectangle-130.svg' | asset_url }}" loading="lazy" alt="" class="filter-weingut_arrow">
+</div><input class="hide w-input" maxlength="256" name="Suche-2" fs-cmsfilter-field="land" data-name="Suche 2" placeholder="z.B. Rotwein" type="text" id="Suche-2">
+</form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div><div fs-cmsfilter-showquery="true" fs-cmssort-element="list" fs-cmsfilter-element="list" class="w-dyn-list"><div li-for:inside="collection in collections" role="list" class="links_grid is-3 w-dyn-items">
+        {% for collection in collections %}                            
+                            {% if collection.metafields.my_fields.die_entdeckung_headline != blank %}    <div li-if="collection.metafields.my_fields.die_entdeckung_headline != blank" role="listitem" class="weingueter_item-grid w-dyn-item">
+    <a li-object:href="collection.url" href="{{ collection.url }}" class="weingueter_inhalt w-inline-block"><img src="{{ collection.featured_image | img_url: 'master' }}" loading="lazy" id="w-node-_0c6c888a-b3bd-e55c-67a0-9eeea47c14f5-6ff8b5a3" li-object:src="collection.featured_image | img_url: 'master'" alt="" class="weingueter_img">
+<div class="weingueter_content"><div>{% if collection.metafields.my_fields.weingut_logo != blank %}    <div li-if="collection.metafields.my_fields.weingut_logo != blank">
+    <img src="{{ collection.metafields.my_fields.weingut_logo | img_url: 'master' }}" loading="lazy" li-object:src="collection.metafields.my_fields.weingut_logo | img_url: 'master'" alt="" class="weingueter_logo">
+    </div>
+{% endif %}</div><div><h3 fs-cmssort-field="name" li-object="collection.title" class="heading-medium text-color-white">{{ collection.title }}</h3>{% for product in collection.products limit:1 %}    <div li-for="product in collection.products limit:1" class="weingueter_land">
+                                    
+                            <div data-country="{{ product.metafields.product.countries | handleize }}" class="countryflag"></div>
+                            
+                            <div class="legal_tag text-color-white"><span fs-cmsfilter-field="land" li-object="product.metafields.product.countries | append: ' '">{{ product.metafields.product.countries | append: ' ' }}</span>| <span li-object="product.metafields.product.regions">{{ product.metafields.product.regions }}</span></div>
+                            
+                        </div>
+{% endfor %}</div></div></a>    </div>
+{% endif %}
+                            
+                    {% endfor %}    </div>
+<div class="w-dyn-empty"><div>No items found.</div></div></div></div><div id="shopify-section-Alle-Weinguter" class="anchor-link"></div></div> {% schema %} {"tag":"section","name":"alle_weinguter","class":"section_weinguter","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Alle Weing\u00fcter"}],"presets":[{"name":"alle_weinguter","category":"Liquify"}]} {% endschema %}

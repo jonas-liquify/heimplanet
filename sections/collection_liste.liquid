@@ -1,0 +1,71 @@
+<div class="padding-global padding-section-small"><div x-data="{ filterOpen: false, view: false }" class="container-large"><div id="w-node-_1c6df2e6-959c-975e-ef3e-4cb2341e0754-296d3570"><div class="filter_headline"><div fs-cmsfilter-element="filters" class="filter-weingut_form is-list w-form"><form id="email-form-2" name="email-form-2" data-name="Email Form 2" method="get" class="filter-weingut_wrapper" data-wf-page-id="6661777d250c48cd296d3570" data-wf-element-id="7b48919c-0308-4e52-be64-497537084fec"><div class="kategorie_filter-grid is-list"><div class="kategorie_filter-left"><div class="hide w-embed">{% capture laender %}
+                          {% paginate collections['unser-sortiment'].products by 500 %}
+                          {% for product in collections['unser-sortiment'].products %}
+                          {{ product.metafields.product.countries }}/
+                          {% endfor %}
+                          {% endpaginate %}
+                          {% endcapture %}
+                          {% assign leanderselect = laender | split: "/" | uniq %}
+                        </div><div class="kategorie_filter-input-holder"><input class="kategorie_filter-input w-input" maxlength="256" name="Suche-2" fs-cmsfilter-field="*" data-name="Suche 2" placeholder="z.B. Italien" type="text" id="Suche-2">
+</div><div x-data="" class="kategorie_filter-input-holder"><select fs-cmsfilter-field="land" class="kategorie_filter-input"><option x-bind:value="''">Alle Länder</option>{% for item in leanderselect %}    <option li-for="item in leanderselect">
+                                    {{ item }}
+                        </option>
+{% endfor %}</select><img src="{{ 'Rectangle-130.svg' | asset_url }}" loading="lazy" alt="" class="kategorie_filter-arrow">
+</div></div><div id="w-node-_672e216e-cc8c-3628-5202-96f05a76faac-296d3570" class="kategorie_filter-head"><div class="kategorie_filter-input-holder hide"><select id="Sortieren-nach-2" name="Sortieren-nach-2" data-name="Sortieren Nach 2" fs-cmssort-element="trigger" class="kategorie_filter-input w-select"><option value="">Sortieren nach</option><option value="name-asc">Name (A-Z)</option><option value="name-desc">Name (Z-A)</option></select><img src="{{ 'Rectangle-130.svg' | asset_url }}" loading="lazy" alt="" class="kategorie_filter-arrow">
+</div><div class="hide w-embed">{% capture activefilters %}
+                          {% for filters in collection.filters %}
+                          {% for filter_value in filters.active_values %}
+                          1
+                          {% endfor %}
+                          {% endfor %}
+                          {% endcapture %}</div><div x-on:click="view = !  view" class="kategorie_filter-input-holder is-gold"><div x-show="view === false" class="kategorie_filter-input-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 22 22" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_4339_7175" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="22" height="22"><rect width="22" height="22" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_4339_7175)"><path d="M8.53471 17.1875V15.8125H18.7943V17.1875H8.53471ZM8.53471 11.6875V10.3125H18.7943V11.6875H8.53471ZM8.53471 6.18747V4.81247H18.7943V6.18747H8.53471ZM4.73581 18.0248C4.31644 18.0248 3.95749 17.8755 3.65896 17.5768C3.36028 17.2783 3.21094 16.9193 3.21094 16.5C3.21094 16.0806 3.36028 15.7216 3.65896 15.4231C3.95749 15.1244 4.31644 14.9751 4.73581 14.9751C5.15519 14.9751 5.51414 15.1244 5.81267 15.4231C6.11135 15.7216 6.26069 16.0806 6.26069 16.5C6.26069 16.9193 6.11135 17.2783 5.81267 17.5768C5.51414 17.8755 5.15519 18.0248 4.73581 18.0248ZM4.73581 12.5248C4.31644 12.5248 3.95749 12.3755 3.65896 12.0768C3.36028 11.7783 3.21094 11.4193 3.21094 11C3.21094 10.5806 3.36028 10.2216 3.65896 9.92312C3.95749 9.62444 4.31644 9.4751 4.73581 9.4751C5.15519 9.4751 5.51414 9.62444 5.81267 9.92312C6.11135 10.2216 6.26069 10.5806 6.26069 11C6.26069 11.4193 6.11135 11.7783 5.81267 12.0768C5.51414 12.3755 5.15519 12.5248 4.73581 12.5248ZM4.73581 7.02485C4.31644 7.02485 3.95749 6.87551 3.65896 6.57683C3.36028 6.2783 3.21094 5.91935 3.21094 5.49997C3.21094 5.0806 3.36028 4.72165 3.65896 4.42312C3.95749 4.12444 4.31644 3.9751 4.73581 3.9751C5.15519 3.9751 5.51414 4.12444 5.81267 4.42312C6.11135 4.72165 6.26069 5.0806 6.26069 5.49997C6.26069 5.91935 6.11135 6.2783 5.81267 6.57683C5.51414 6.87551 5.15519 7.02485 4.73581 7.02485Z" fill="white"></path></g></svg></div><div x-show="view === false" class="hide-mobile-portrait">Liste</div><div x-show="view === true" class="kategorie_filter-input-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 25 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_4497_8100" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25"><rect x="0.078125" y="0.820068" width="24" height="24" fill="currentColor"></rect></mask><g mask="url(#mask0_4497_8100)"><path d="M3.07812 11.8201V3.82007H11.0781V11.8201H3.07812ZM3.07812 21.8201V13.8201H11.0781V21.8201H3.07812ZM13.0781 11.8201V3.82007H21.0781V11.8201H13.0781ZM13.0781 21.8201V13.8201H21.0781V21.8201H13.0781ZM5.07812 9.82007H9.07812V5.82007H5.07812V9.82007ZM15.0781 9.82007H19.0781V5.82007H15.0781V9.82007ZM15.0781 19.8201H19.0781V15.8201H15.0781V19.8201ZM5.07812 19.8201H9.07812V15.8201H5.07812V19.8201Z" fill="currentColor"></path></g></svg></div><div x-show="view === true" class="hide-mobile-portrait">Kacheln</div></div></div></div></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div><div x-show="view === false" class="collection-list_item is-header"><div id="w-node-_5ff1232b-43b0-5045-86e9-70643cd01770-296d3570">Name</div><div id="w-node-_3555852c-f473-f849-728e-772dc57a1e84-296d3570">Land</div><div id="w-node-b76ebcfb-fe9f-19ea-49a5-db664d1813c4-296d3570">Gelistete Weine</div><div id="w-node-_0a7ccb1f-8ed1-60f2-da8d-908eb4ed2d9c-296d3570">Weitere Infos</div></div>{% paginate collections by 5000 %}
+    <div li-paginate:by="5000" li-paginate="collections" class="collection-list_wrapper" by="5000">{% assign sorted_collections = collections | sort: 'title' %}
+{% assign sorted_collections = collections | sort: 'title' %}
+<div fs-cmssort-element="list" fs-cmsfilter-showquery="true" fs-cmsfilter-element="list" class="collection-list_group w-dyn-list"><div x-bind:class="view ? 'is-grid' : ''" li-for:inside="collection in sorted_collections" role="list" class="collection-list_group w-dyn-items">
+        {% for collection in sorted_collections %}                            
+                            {% if collection.metafields.my_fields.die_entdeckung_headline != blank or collection.metafields.custom.anzeigen_in_weing_ter_bersicht == true %}    <div li-if="collection.metafields.my_fields.die_entdeckung_headline != blank or collection.metafields.custom.anzeigen_in_weing_ter_bersicht == true" role="listitem" class="collection-list_item-wrapper w-dyn-item">
+    {% assign first_letter = collection.title | slice: 0, 1 | upcase %}
+{% if current_letter != first_letter %}    <div x-show="view === false" li-if="current_letter != first_letter" class="collection-list_buchstabe">
+    {% assign current_letter = first_letter | replace: '0', '#'   | replace: '1', '#'   | replace: '2', '#'   | replace: '3', '#'   | replace: '4', '#'   | replace: '5', '#'   | replace: '6', '#'   | replace: '7', '#'   | replace: '8', '#'   | replace: '9', '#' %}
+<div li-object="current_letter" class="heading-style-h3">{{ current_letter }}</div>    </div>
+{% endif %}<div x-bind:class="view ? 'is-flex' : ''" class="collection-list_item"><img class="collection-list_image" src="{{ collection.featured_image | img_url: 'master' }}" alt="" x-show="view === true" li-object:src="collection.featured_image | img_url: 'master'" x-cloak="" loading="lazy">
+<div x-cloak="" x-show="view === true" class="collection-list_image is-overlay"></div><div fs-cmsfilter-field="name" li-object="collection.title" x-show="view === false" fs-cmssort-field="name" id="w-node-_112e07e9-20e3-9b0c-827a-7d759d00a4e8-296d3570" class="z-index-1">{{ collection.title }}</div><div x-cloak="" li-object="collection.title" x-show="view === true" id="w-node-_33ea1b7c-9842-aae8-dc0b-2dc356c32d2e-296d3570" class="heading-style-h3 z-index-1">{{ collection.title }}</div><div id="w-node-_77507b07-dcda-ec49-3936-e204db3b48a0-296d3570" class="z-index-1">{% for product in collection.products limit:1 %}    <div li-for="product in collection.products limit:1" class="weingueter_land">
+                                    
+                            <div data-country="{{ product.metafields.product.countries | handleize }}" class="countryflag"></div>
+                            
+                            <div class="legal_tag"><span fs-cmsfilter-field="land" li-object="product.metafields.product.countries">{{ product.metafields.product.countries }}</span><span class="collection-list_trenner">|</span><span fs-cmsfilter-field="region" li-object="product.metafields.product.regions">{{ product.metafields.product.regions }}</span></div>
+                            
+                        </div>
+{% endfor %}</div><a x-show="view === false" id="w-node-_82ef0d84-be2f-21f0-6d38-ff10ef49d7fe-296d3570" href="/collections/unser-sortiment?filter.p.m.product.winery={{ collection.title | url_encode }}" class="text-color-gold text-style-link w-inline-block"><div id="w-node-a876f45b-554c-7abb-4144-c903c96e7048-296d3570"><span li-object="collection.all_products_count | append: ' '">{{ collection.all_products_count | append: ' ' }}</span>Weine</div></a>{% if collection.metafields.my_fields.die_entdeckung_headline != blank  %}    <div li-if="collection.metafields.my_fields.die_entdeckung_headline != blank " id="w-node-_452376f5-45b8-77c4-f465-0d170dbda057-296d3570">
+    <a x-show="view === false" li-object:href="collection.url" id="w-node-_79d08726-3c04-81fb-6f8a-aeb9df1eb1e3-296d3570" href="{{ collection.url }}" class="text-color-gold text-style-link w-inline-block"><div id="w-node-_79d08726-3c04-81fb-6f8a-aeb9df1eb1e4-296d3570">Weingut entdecken</div></a>    </div>
+{% endif %}<div x-cloak="" x-show="view === true" class="collection-list_buttons"><a href="/collections/unser-sortiment?filter.p.m.product.winery={{ collection.title | replace: ' ', '+' }}" class="button is-white w-button">Weine entdecken (<span li-object:text="collection.all_products_count">
+{{ collection.all_products_count }}
+</span>)</a>{% if collection.metafields.my_fields.die_entdeckung_headline != blank %}    <div li-if="collection.metafields.my_fields.die_entdeckung_headline != blank" class="collection-list_button">
+    <a li-object:href="collection.url" href="{{ collection.url }}" class="button is-text is-white w-button">Weingut entdecken</a>    </div>
+{% endif %}</div></div>    </div>
+{% endif %}
+                            
+                    {% endfor %}    </div>
+<div class="w-dyn-empty"><div>No items found.</div></div></div><div class="collection-list_group is-grid hide"><div id="w-node-cbd402d4-a0a4-81be-a328-fafb1022e0f5-296d3570" class="collection-list_item is-flex"><div x-show="view === true" class="collection-list_buttons is-hover"><a href="/collections/unser-sortiment?filter.p.m.product.winery={{ collection.title | replace: ' ', '+' }}" class="button is-white w-button">Weine entdecken (<span li-object:text="collection.all_products_count">
+{{ collection.all_products_count }}
+</span>)</a>{% if collection.metafields.my_fields.die_entdeckung_headline != blank %}    <div li-if="collection.metafields.my_fields.die_entdeckung_headline != blank">
+    <a li-object:href="collection.url" href="{{ collection.url }}" class="button is-text is-white w-button">Weingut entdecken</a>    </div>
+{% endif %}</div></div></div></div>{% endpaginate %}
+</div></div><div class="hide w-embed w-script"><script>document.addEventListener('DOMContentLoaded', function() {
+    var items = document.querySelectorAll('.collection-list_item');
+    items.forEach(function(item) {
+      item.addEventListener('mouseover', function() {
+        var buttons = item.querySelector('.collection-list_buttons');
+        if (buttons) {
+          buttons.classList.add('is-hover');
+        }
+      });
+      item.addEventListener('mouseout', function() {
+        var buttons = item.querySelector('.collection-list_buttons');
+        if (buttons) {
+          buttons.classList.remove('is-hover');
+        }
+      });
+    });
+  });
+</script></div></div> {% schema %} {"tag":"section","name":"collection_liste","class":"section_collection background-color-grey","presets":[{"name":"collection_liste","category":"Liquify"}]} {% endschema %}

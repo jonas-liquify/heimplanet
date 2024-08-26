@@ -1,0 +1,24 @@
+<div class="quickfilter_component"><div class="padding-global swiper-container"><div class="quicklink_overlay clickable-off"></div><div id="quickfinder" class="container-large swiper is-quickfinder"><div class="quicklink-grid swiper-wrapper is-filter">{% for block in section.blocks %}
+    {% if block.type == "quicklink" %}
+                    <div li-block="Quicklink" class="quickfilter_block swiper-slide is-filter">
+                                    <a class="quickfilter_item w-inline-block" href="{{ block.settings.url_link }}"> <img class="quickfilter_icon" src="{{ block.settings.image_icon | img_url: 'master' }}" alt="{{ block.settings.image_icon.alt }}" loading="lazy"><div class="text-style-nowrap">{{ block.settings.text_text }}</div> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>{% endif %}
+<script>document.addEventListener('DOMContentLoaded', function () {
+    $('.swiper-container').each(function (index) {
+      const swiper{{section.index}} = new Swiper($(this).find('.swiper.is-quickfinder')[0], {
+        slidesPerView: "auto",
+        spaceBetween: 16,
+        a11y: false,
+        freeMode: true,        
+        mousewheel: {       
+          forceToAxis: true,    
+        },  
+      });
+    });
+  });
+</script></div></div></div></div> {% schema %} {"tag":"div","name":"collection_quickfilt","class":"section_quickfilter","blocks":[{"name":"Quicklink","type":"quicklink","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_text","type":"text","label":"Text","default":"Rotwein"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"collection_quickfilt","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,12 @@
+<div class="padding-global padding-section-small"><div class="container-large"><div class="section_headline"><h2 class="heading-large">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="links_grid is-3">{% for block in section.blocks %}
+    {% if block.type == "weingut" %}
+                    <div li-block="Weingut" class="weingueter_item-grid">
+                                    <a class="weingueter_inhalt w-inline-block" href="{{ block.settings.url_link }}"> <img class="weingueter_img" src="{{ block.settings.image_bild | img_url: 'master' }}" alt="{{ block.settings.image_bild.alt }}" loading="lazy"><div class="weingueter_content"><img class="weingueter_logo" src="{{ block.settings.image_logo | img_url: 'master' }}" alt="{{ block.settings.image_logo.alt }}" loading="lazy"><div><h3 class="heading-medium text-color-white">{{ block.settings.text_headline }}</h3><div class="weingueter_land"><img class="countryflag" src="{{ block.settings.image_flagge | img_url: 'master' }}" alt="{{ block.settings.image_flagge.alt }}" loading="lazy"><div class="legal_tag text-color-white">{{ block.settings.text_text }}</div></div></div></div> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div> {% schema %} {"tag":"section","name":"neue_weingueter","class":"section_weitere-links","blocks":[{"name":"Weingut","type":"weingut","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"image_logo","type":"image_picker","label":"Logo"},{"id":"text_headline","type":"text","label":"Headline","default":"Heading"},{"id":"image_flagge","type":"image_picker","label":"Flagge"},{"id":"text_text","type":"text","label":"Text","default":"Quinto do Popa"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Neue Weing\u00fcter"}],"presets":[{"name":"neue_weingueter","category":"Liquify"}]} {% endschema %}

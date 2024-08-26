@@ -1,0 +1,157 @@
+<div class="padding-global"><div class="container-large"><div class="about-us_content-wrapper"><div class="pairing_headline"><div class="content-grid is-centered max-width-large"><div class="team_heading-wrapper"><div class="subline">
+{{ section.settings.text_subline }}
+</div>
+<h2 class="heading-style-h1">
+{{ section.settings.text_headline }}
+</h2>
+<div class="text-size-large">
+{{ section.settings.text_text }}
+</div>
+</div></div></div><div><div class="team_grid is-about-us"><div id="w-node-f261fdfd-eb10-23e0-a221-1309ea231eaa-6ff8b59c" class="swiper-container"><div class="swiper is-swiper-events"><div class="swiper-wrapper is-swiper-events">{% for block in section.blocks %}
+    {% if block.type == "event-slide" %}
+                    <div li-block="Event Slide" class="swiper-slide is-swiper-events">
+                                    <img class="team_swiper-image"
+     src="{{ block.settings.image_bild_veranstaltung | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild_veranstaltung.alt }}"
+     loading="lazy">
+
+                                    <div class="team_event-content"><div class="heading-style-h4">
+{{ block.settings.text_text }}
+</div>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div class="team_arrow-wrapper"><button aria-label="Previous Slide" class="about-us_arrow is-prev"><div class="about-us_arrow-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" transform="rotate(-180 19.5 19)" fill="white"></circle><path d="M21.6129 24.8055L15.2795 19.5278L21.6129 14.2501" stroke="#A38756" stroke-width="1.5"></path></svg></div></button><button aria-label="Next Slide" class="about-us_arrow is-next"><div class="about-us_arrow-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" fill="white"></circle><path d="M17.3871 13.1945L23.7205 18.4722L17.3871 23.7499" stroke="#A38756" stroke-width="1.5"></path></svg></div></button></div></div><div id="w-node-_9836d246-dbf9-0f8f-8f35-ff5989894dab-6ff8b59c" class="team_ceo"><img class="team_ceo-image"
+     src="{{ section.settings.image_kachel_2_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_kachel_2_bild.alt }}"
+     loading="lazy">
+<div class="team_ceo-content-wrapper"><div class="text-size-small">
+{{ section.settings.text_kachel_2_text }}
+</div>
+<div class="team_bottom-content"><div><div class="heading-style-h3">
+{{ section.settings.text_kachel_2_name }}
+</div>
+<div class="text-size-regular">
+{{ section.settings.text_kachel_2_position }}
+</div>
+</div><div id="w-node-_21155fc2-6b0c-5f74-c358-61aadd6c7ced-6ff8b59c" class="fs_modal-2_component"><div class="fs_modal-2_embed w-embed w-script"><!--   [Finsweet Attributes] Modal   --><script>(()=>{var t="https://cdn.jsdelivr.net/npm/@finsweet/attributes-modal@1/modal.js",e=document.querySelector(`script[src="${t}"]`);e||(e=document.createElement("script"),e.async=!0,e.src=t,document.head.append(e));})();</script></div><div aria-roledescription="open-modal-trigger" class="team_plus-link" fs-scrolldisable-element="disable" role="button" aria-haspopup="dialog" aria-controls="fs-modal-2-popup" fs-modal-element="open-2" aria-expanded="false" tabindex="0"><div class="team_plus-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" fill="white"></circle><path d="M12.5 19.5H27.5" stroke="#A38756" stroke-width="1.5"></path><path d="M20 27L20 12" stroke="#A38756" stroke-width="1.5"></path></svg></div></div></div></div></div></div><div id="w-node-_139d075c-2a33-c2ce-5ba0-d5eb863ee9b9-6ff8b59c" class="team_stelle"><div class="gastro_overlay"></div><div class="team_stelle-heading z-index-1"><div class="text-size-small">
+{{ section.settings.text_kachel_3_subline }}
+</div>
+<div class="heading-style-h3">
+{{ section.settings.text_kachel_3_titel }}
+</div>
+</div><img class="team_stelle-bg-image"
+     src="{{ section.settings.image_kachel_3_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_kachel_3_bild.alt }}"
+     loading="lazy">
+<a href="../pages/karriere.html" class="button is-white w-button">Zu Karriere</a></div><a class="team_instagram w-inline-block" href="{{ section.settings.url_instagram_link }}"> <div class="icon-embed-medium text-color-white w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--iconoir" width="100%" height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8"></path><path d="M3 16V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Z"></path><path stroke-linecap="round" stroke-linejoin="round" d="m17.5 6.51l.01-.011"></path></g></svg></div><div><div class="heading-style-h4">{{ section.settings.text_instagram_hashtag }}</div><div class="text-size-regular trans">{{ section.settings.text_instagram_at }}</div></div> </a>
+</div><div class="spacer-small"></div><div class="team_main-swiper-wrapper"><h3 class="heading-style-h3">
+{{ section.settings.text_team_swiper_headline }}
+</h3>
+<div class="swiper-container is-team-swiper"><div class="swiper is-team-swiper"><div class="swiper-wrapper is-team-swiper">{% for block in section.blocks %}
+    {% if block.type == "team-slide" %}
+                    <div li-block="Team Slide" class="swiper-slide is-team-swiper">
+                                    <img class="team_swiper-image"
+     src="{{ block.settings.image_bild | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild.alt }}"
+     loading="lazy">
+
+                                    <div class="team_bottom-content"><div><div class="heading-style-h3">
+{{ block.settings.text_name }}
+</div>
+</div><div class="fs_modal-2_component"><div class="fs_modal-2_embed w-embed w-script"><!--   [Finsweet Attributes] Modal   --><script>(()=>{var t="https://cdn.jsdelivr.net/npm/@finsweet/attributes-modal@1/modal.js",e=document.querySelector(`script[src="${t}"]`);e||(e=document.createElement("script"),e.async=!0,e.src=t,document.head.append(e));})();</script></div><div aria-roledescription="open-modal-trigger" class="team_plus-link" fs-scrolldisable-element="disable" role="button" aria-haspopup="dialog" aria-controls="fs-modal-{{forloop.index}}-popup" fs-modal-element="open-{{forloop.index}}" aria-expanded="false" tabindex="{{forloop.index}}"><div class="team_plus-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" fill="white"></circle><path d="M12.5 19.5H27.5" stroke="#A38756" stroke-width="1.5"></path><path d="M20 27L20 12" stroke="#A38756" stroke-width="1.5"></path></svg></div></div><div id="fs-modal-2-popup" fs-modal-element="modal-{{forloop.index}}" role="dialog" aria-modal="true" aria-labelledby="fs-modal-{{forloop.index}}-heading" class="fs_modal-2_popup"><div fs-scrolldisable-element="enable" fs-modal-element="close-{{forloop.index}}" aria-hidden="true" class="fs_modal-2_cover"></div><div class="fs_modal-2_wrapper"><img class="fs_modal-2_image"
+     src="{{ block.settings.image_bild | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="fs_modal-2_content"><div id="w-node-_2665d1a4-707f-3f2b-a4cf-521798d5b183-6ff8b59c" class="team_pop-up-heading"><h3 id="fs-modal-2-heading" class="heading-style-h3"><span li-object:text="block.settings.text_name">
+{{ block.settings.text_name }}
+</span><span>
+{{ block.settings.text_nachname }}
+</span>
+</h3><h3 id="fs-modal-2-heading" class="heading-style-h3 text-color-gold">
+{{ block.settings.text_position }}
+</h3>
+</div><div id="w-node-_2665d1a4-707f-3f2b-a4cf-521798d5b188-6ff8b59c" class="team_pop-up-item"><div class="text-size-regular text-weight-semibold">
+{{ block.settings.text_pairings_headline }}
+</div>
+<div class="text-size-small">
+{{ block.settings.text_pairings_text }}
+</div>
+</div><div id="w-node-_2665d1a4-707f-3f2b-a4cf-521798d5b18d-6ff8b59c" class="team_pop-up-item"><div class="text-size-regular text-weight-semibold">
+{{ block.settings.text_soundtrack_headline }}
+</div>
+<a class="text-style-link text-size-regular text-weight-semibold text-color-gold" href="{{ block.settings.url_soundtrack_link }}"> {{ block.settings.text_soundtrack_text }} </a>
+</div><div id="w-node-_2665d1a4-707f-3f2b-a4cf-521798d5b192-6ff8b59c" class="team_pop-up-item"><div class="text-size-regular text-weight-semibold">
+{{ block.settings.text_top_weine_headline }}
+</div>
+<div class="text-size-small">
+{{ block.settings.text_top_weine_text }}
+</div>
+</div><div id="w-node-_18f3fd58-6ce5-6ab1-b627-fa61ca329778-6ff8b59c" class="team_pop-up-item"><div class="text-size-regular text-weight-semibold">
+{{ block.settings.text_pop_up_fav_wein_headline }}
+</div>
+<div class="team_pop-up-product"><div class="team_pop-up-product-image-wrapper"><img class="team_pop-up-wine-img"
+     src="{{ block.settings.image_pop_up_fav_wein_image | img_url: 'master' }}"
+     alt="{{ block.settings.image_pop_up_fav_wein_image.alt }}"
+     loading="lazy">
+</div><div class="team_pop-up-product-text"><div class="text-size-small">
+{{ block.settings.text_pop_up_fav_wein_text }}
+</div>
+<a class="text-style-link text-size-regular text-weight-semibold text-color-gold" href="{{ block.settings.url_pop_up_fav_wein_link }}"> {{ block.settings.text_pop_up_fav_wein_link_text }} </a>
+</div></div></div><a class="button is-gold w-button" href="{{ block.settings.url_kontakt_link }}"> Kontakt aufnehmen </a>
+</div><div aria-roledescription="close-modal-trigger" class="fs_modal-2_close" fs-scrolldisable-element="enable" aria-label="Close modal" role="button" aria-controls="fs-modal-{{forloop.index}}-popup" fs-modal-element="close-{{forloop.index}}" aria-expanded="false" tabindex="{{forloop.index}}"><div class="fs_modal-2_close-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewbox="0 0 24 24"><path fill="CurrentColor" d="M14.5,12l9-9c0.7-0.7,0.7-1.8,0-2.5c-0.7-0.7-1.8-0.7-2.5,0l-9,9l-9-9c-0.7-0.7-1.8-0.7-2.5,0 c-0.7,0.7-0.7,1.8,0,2.5l9,9l-9,9c-0.7,0.7-0.7,1.8,0,2.5c0.7,0.7,1.8,0.7,2.5,0l9-9l9,9c0.7,0.7,1.8,0.7,2.5,0 c0.7-0.7,0.7-1.8,0-2.5L14.5,12z"></path></svg></div></div></div></div></div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div class="team_arrow-wrapper hide-mobile-portrait"><button aria-label="Previous Slide" class="about-us_arrow is-prev"><div class="about-us_arrow-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" transform="rotate(-180 19.5 19)" fill="#A38756"></circle><path d="M21.6129 24.8055L15.2795 19.5278L21.6129 14.2501" stroke="white" stroke-width="1.5"></path></svg></div></button><button aria-label="Next Slide" class="about-us_arrow is-next"><div class="about-us_arrow-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" fill="#A38756"></circle><path d="M17.3871 13.1945L23.7205 18.4722L17.3871 23.7499" stroke="white" stroke-width="1.5"></path></svg></div></button></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>{% endif %}
+<script>document.addEventListener('DOMContentLoaded', function () {
+    $('.swiper-container').each(function (index) {
+      const swiper{{section.index}} = new Swiper($(this).find('.swiper.is-swiper-events')[0], {
+        autoHeight: false,
+        followFinger: true,
+        freeMode: false,
+        loop: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        spaceBetween: 24,
+        mousewheel: {
+          forceToAxis: true
+        },
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true
+        },
+        navigation: {
+          nextEl: $(this).find(".about-us_arrow.is-next")[0],
+          prevEl: $(this).find(".about-us_arrow.is-prev")[0],
+          disabledClass: "swiper-button-disabled"
+        },
+      });
+    });
+    $('.swiper-container').each(function (index) {
+      const swiper2{{section.index}} = new Swiper($(this).find('.swiper.is-team-swiper')[0], {
+        autoHeight: false,
+        followFinger: true,
+        freeMode: false,
+        loop: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        spaceBetween: 24,
+        mousewheel: {
+          forceToAxis: true
+        },
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true
+        },
+        navigation: {
+          nextEl: $(this).find(".about-us_arrow.is-next")[0],
+          prevEl: $(this).find(".about-us_arrow.is-prev")[0],
+          disabledClass: "swiper-button-disabled"
+        },
+      });
+    });
+  });
+</script></div></div></div></div></div> {% schema %} {"tag":"section","name":"uu_team","class":"section_team","blocks":[{"name":"Event Slide","type":"event-slide","settings":[{"id":"image_bild_veranstaltung","type":"image_picker","label":"Bild-Veranstaltung"},{"id":"text_text","type":"text","label":"Text","default":"Vioneers Weihnachtsfeier 2022"}]},{"name":"Team Slide","type":"team-slide","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_name","type":"text","label":"Name","default":"Jochen"},{"id":"text_nachname","type":"text","label":"Nachname","default":"popup"},{"id":"text_position","type":"text","label":"Position","default":"Accessible popup"},{"id":"text_pairings_headline","type":"text","label":"Pairings Headline","default":"Meine Top-Pairings"},{"id":"text_pairings_text","type":"text","label":"Pairings Text","default":"Neapolitanische Pizza mit B\u00fcffelmozarella und frischem Basilikum x El Salvaje Org\u00e1nico Malbec, Casa de Uco."},{"id":"text_soundtrack_headline","type":"text","label":"Soundtrack Headline","default":"Mein Top Wine Soundtrack"},{"id":"url_soundtrack_link","type":"url","label":"Soundtrack Link"},{"id":"text_soundtrack_text","type":"text","label":"Soundtrack Text","default":"Text Link"},{"id":"text_top_weine_headline","type":"text","label":"Top Weine Headline","default":"Meine Top Weine"},{"id":"text_top_weine_text","type":"text","label":"Top Weine Text","default":"Bei Sonnenuntergang im Seepark in Freiburg im Breisgau."},{"id":"text_pop_up_fav_wein_headline","type":"text","label":"Pop-Up Fav Wein Headline","default":"Mein Lieblingswein"},{"id":"image_pop_up_fav_wein_image","type":"image_picker","label":"Pop-Up Fav Wein Image"},{"id":"text_pop_up_fav_wein_text","type":"text","label":"Pop-Up Fav Wein Text","default":"La Belle Vie, Ch\u00e2teau d\u00b4Astros."},{"id":"url_pop_up_fav_wein_link","type":"url","label":"Pop-Up Fav Wein Link"},{"id":"text_pop_up_fav_wein_link_text","type":"text","label":"Pop-Up Fav Wein Link Text","default":"Text Link"},{"id":"url_kontakt_link","type":"url","label":"Kontakt Link"}]}],"settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Weinliebhaber"},{"id":"text_headline","type":"text","label":"Headline","default":"Headline \u00fcber Vioneers wo die Werte angeteasert werden."},{"id":"text_text","type":"text","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa volutpat massa ornare. Scelerisque ullamcorper elit sed vitae lectus varius vel pulvinar."},{"id":"image_kachel_2_bild","type":"image_picker","label":"Kachel 2 Bild"},{"id":"text_kachel_2_text","type":"text","label":"Kachel 2 Text","default":"\u201cAls Pairing-Experten beliefern wir unz\u00e4hlige Gastronomiebetriebe in Deutschland. Ob Bistro, Szene-Bar oder Sternelokal \u00a0t\u00e4glich die \u201cQuality Time\u201d tausender G\u00e4ste.<br\/><br\/>Als Pairing-Experten beliefern wir unz\u00e4hlige Gastronomiebetriebe in Deutschland.\u201d"},{"id":"text_kachel_2_name","type":"text","label":"Kachel 2 Name","default":"Jochen"},{"id":"text_kachel_2_position","type":"text","label":"Kachel 2 Position","default":"Gr\u00fcnder &amp; CEO"},{"id":"text_kachel_3_subline","type":"text","label":"Kachel 3 Subline","default":"Neue offene Stelle"},{"id":"text_kachel_3_titel","type":"text","label":"Kachel 3 Titel","default":"Senior Manager Marketing (w\/m\/d)"},{"id":"image_kachel_3_bild","type":"image_picker","label":"Kachel 3 Bild"},{"id":"url_instagram_link","type":"url","label":"Instagram Link"},{"id":"text_instagram_hashtag","type":"text","label":"Instagram Hashtag","default":"#entdecker"},{"id":"text_instagram_at","type":"text","label":"Instagram AT","default":"@vioneers"},{"id":"text_team_swiper_headline","type":"text","label":"Team Swiper Headline","default":"Das gesamte Vioneers Team"},{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"uu_team","category":"Liquify"}]} {% endschema %}
