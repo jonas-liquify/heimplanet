@@ -1,0 +1,23 @@
+<div class="padding-global"><div class="container-large"><div class="pairing_headline"><img src="{{ 'vioneers-logo.png' | asset_url }}" loading="lazy" sizes="(max-width: 479px) 65vw, (max-width: 767px) 64vw, (max-width: 991px) 62vw, 65vw" srcset="{{ 'vioneers-logo-p-500.png' | asset_url }} 500w, {{ 'vioneers-logo-p-800.png' | asset_url }} 800w, {{ 'vioneers-logo-p-1080.png' | asset_url }} 1080w, {{ 'vioneers-logo.png' | asset_url }} 1767w" alt="" class="about-hero_title-image">
+<div class="padding-medium"></div><div class="content-grid is-centered max-width-large"><div class="about-hero_heading-wrapper"><h1 class="text-size-large">
+{{ section.settings.text_subline }}
+</h1>
+<div class="text-size-large">
+{{ section.settings.text_text }}
+</div>
+</div><p option:textarea="youtube" class="hide">Was gibt es schöneres, als mit geliebten Menschen Zeit zu verbringen? Die Wertschätzung anderer und der bewusste Umgang mit „Quality Time“ ist für uns extrem wichtig. Diese Haltung beinhaltet, dass Werte wie Respekt, Ehrlichkeit, Vertrauen und Fairness eine besondere Rolle spielen. Aber was hat das mit Wein zu tun? Eine ganze Menge!en.</p><div id="w-node-f34b6d83-66df-ca30-3016-97d98f8e52e6-6ff8b59c" class="about-hero_facts">{% for block in section.blocks %}
+    {% if block.type == "fact" %}
+                    <div li-block="Fact" id="w-node-f34b6d83-66df-ca30-3016-97d98f8e52e7-6ff8b59c" class="weingut-zitat_stats-item is-about">
+                                    <div class="heading-style-h2">
+{{ block.settings.text_fact }}
+</div>
+
+                                    <div class="text-size-regular trans">
+{{ block.settings.text_fact_beschreibung }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div id="w-node-f34b6d83-66df-ca30-3016-97d98f8e52ec-6ff8b59c" class="hide"><div fs-3dglobe-element="lat" id="w-node-f34b6d83-66df-ca30-3016-97d98f8e52ed-6ff8b59c">{{collection.metafields.my_fields.die_entdeckung_laditude}}</div><div fs-3dglobe-element="lon" id="w-node-f34b6d83-66df-ca30-3016-97d98f8e52ef-6ff8b59c">{{collection.metafields.my_fields.die_entdeckung_langitude}}</div></div></div></div><div class="w-embed w-iframe"><iframe class="ueber-uns_img" width="100%" height="100%" src="{{ section.settings.textarea_youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div><p class="hide"> {{ section.settings.textarea_youtube }} </p>
+</div></div> {% schema %} {"tag":"section","name":"uu_hero","class":"section_about-hero","blocks":[{"name":"Fact","type":"fact","settings":[{"id":"text_fact","type":"text","label":"Fact","default":"12+"},{"id":"text_fact_beschreibung","type":"text","label":"Fact-Beschreibung","default":"Mitarbeiter"}]}],"settings":[{"id":"text_subline","type":"text","label":"Subline","default":"[<em>veo-neers<\/em>] noun"},{"id":"text_text","type":"text","label":"Text","default":"Vioneers setzt sich zusammen aus Vio [lat.] f\u00fcr \u201ereisen\u201d \/ \u201ePioneers [engl.] f\u00fcr Pioniere. Zudem sehen wir im Wortanfang Vi \u2026\u201d auch das lateinische Wort \u201d vinum \u201d (lat.) f\u00fcr \u201eWein\u201d."},{"id":"textarea_youtube","type":"textarea","label":"youtube","default":"Was gibt es sch\u00f6neres, als mit geliebten Menschen Zeit zu verbringen? Die Wertsch\u00e4tzung anderer und der bewusste Umgang mit \u201eQuality Time\u201c ist f\u00fcr uns extrem wichtig. Diese Haltung beinhaltet, dass Werte wie Respekt, Ehrlichkeit, Vertrauen und Fairness eine besondere Rolle spielen. Aber was hat das mit Wein zu tun? Eine ganze Menge!en."}],"presets":[{"name":"uu_hero","category":"Liquify"}]} {% endschema %}

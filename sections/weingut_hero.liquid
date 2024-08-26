@@ -1,0 +1,5 @@
+<img src="{{ collection.featured_image | img_url: 'master' }}" loading="lazy" li-object:src="collection.featured_image | img_url: 'master'" li-object:alt="collection.featured_image.alt" alt="{{ collection.featured_image.alt }}" class="hero_image">
+<div class="hero_overlay"></div><div class="padding-global"><div class="container-large"><div class="subline text-color-white">
+{{ section.settings.text_subline }}
+</div>
+<h1 li-object="collection.title" class="heading-style-h1 text-color-white">{{ collection.title }}</h1></div></div> {% schema %} {"tag":"section","name":"weingut_hero","class":"section_hero","settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Weingut"}],"presets":[{"name":"weingut_hero","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,11 @@
+<img class="newsletter_bg-image"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+<div class="bg-overlay"></div><div class="page-padding"><div class="container-large"><div class="login-tabs"><div class="login-form"><div class="input-form"><h1 class="heading-large text-align-center">
+{{ section.settings.text_headline }}
+</h1>
+<p class="login_hinweis is-centerd">
+{{ section.settings.text_text }}
+</p>
+</div></div></div></div></div> {% schema %} {"tag":"section","name":"danke_section","class":"section_kampagne","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Vielen Dank"},{"id":"text_text","type":"text","label":"Text","default":"Wir werden uns schnellstm\u00f6glich bei dir melden. <br\/><br\/>Dein <strong>Vioneers Team<\/strong>"}],"presets":[{"name":"danke_section","category":"Liquify"}]} {% endschema %}

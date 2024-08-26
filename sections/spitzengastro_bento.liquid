@@ -1,0 +1,113 @@
+<div class="padding-global"><div class="container-large"><div class="about-us_content-wrapper"><div class="pairing_headline"><div class="content-grid is-centered max-width-large"><div class="team_heading-wrapper"><div class="subline">
+{{ section.settings.text_subline }}
+</div>
+<h2 class="heading-style-h1">
+{{ section.settings.text_headline }}
+</h2>
+<div class="text-size-large">
+{{ section.settings.text_text }}
+</div>
+<a class="button w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
+</div></div></div><div class="gastro_wrapper"><div class="gastro_grid"><div id="w-node-_98284629-462d-d1f0-9ef6-219d3bce92a4-6ff8b599" class="swiper-container"><div class="swiper is-swiper-events"><div class="swiper-wrapper is-swiper-events">{% for block in section.blocks %}
+    {% if block.type == "event-slide" %}
+                    <div li-block="Event Slide" class="swiper-slide is-swiper-events">
+                                    <img class="team_swiper-image"
+     src="{{ block.settings.image_bild_veranstaltung | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild_veranstaltung.alt }}"
+     loading="lazy">
+
+                                    <div class="team_event-content"><div class="heading-style-h4">
+{{ block.settings.text_text }}
+</div>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div class="team_arrow-wrapper"><button aria-label="Previous Slide" class="about-us_arrow is-prev"><div class="about-us_arrow-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" transform="rotate(-180 19.5 19)" fill="white"></circle><path d="M21.6129 24.8055L15.2795 19.5278L21.6129 14.2501" stroke="#A38756" stroke-width="1.5"></path></svg></div></button><button aria-label="Next Slide" class="about-us_arrow is-next"><div class="about-us_arrow-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" fill="white"></circle><path d="M17.3871 13.1945L23.7205 18.4722L17.3871 23.7499" stroke="#A38756" stroke-width="1.5"></path></svg></div></button></div></div><div id="w-node-_1af44952-9f62-c009-7fa9-5eb1b76a6e23-6ff8b599" class="gastro_stars"><div class="gastro_logo-wrapper"><div class="heading-style-h1 is-big">
+{{ section.settings.text_kachel_2_zahl }}
+</div>
+<img src="{{ 'MichelinStar_1.png' | asset_url }}" loading="lazy" alt="" class="gastro_logo">
+</div><div class="heading-style-h3">
+{{ section.settings.text_kachel_2_headline }}
+</div>
+</div><div id="w-node-_1af44952-9f62-c009-7fa9-5eb1b76a6e28-6ff8b599" class="swiper-container"><div class="swiper is-gastro-images"><div class="swiper-wrapper is-gastro-images">{% for block in section.blocks %}
+    {% if block.type == "bilder" %}
+                    <div li-block="Bilder" class="swiper-slide is-gastro-images">
+                                    <img class="gastro_swiper-image"
+     src="{{ block.settings.image_bild | img_url: 'master' }}"
+     alt="{{ block.settings.image_bild.alt }}"
+     loading="lazy">
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div class="gastro_image-arrow-wrapper"><button aria-label="Previous Slide" class="about-us_arrow is-prev"><div class="about-us_arrow-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" transform="rotate(-180 19.5 19)" fill="white"></circle><path d="M21.6129 24.8055L15.2795 19.5278L21.6129 14.2501" stroke="#A38756" stroke-width="1.5"></path></svg></div></button><button aria-label="Next Slide" class="about-us_arrow is-next"><div class="about-us_arrow-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 39 38" fill="none"><circle cx="19.5" cy="19" r="19" fill="white"></circle><path d="M17.3871 13.1945L23.7205 18.4722L17.3871 23.7499" stroke="#A38756" stroke-width="1.5"></path></svg></div></button></div></div><div id="w-node-_1af44952-9f62-c009-7fa9-5eb1b76a6e32-6ff8b599" class="team_ceo"><img class="team_ceo-image"
+     src="{{ section.settings.image_kachel_4_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_kachel_4_bild.alt }}"
+     loading="lazy">
+<div class="team_ceo-content-wrapper"><div class="text-size-small">
+{{ section.settings.text_kachel_4_text }}
+</div>
+<div class="team_bottom-content"><div><div class="heading-style-h3">
+{{ section.settings.text_kachel_4_name }}
+</div>
+<div class="text-size-regular">
+{{ section.settings.text_kachel_4_position }}
+</div>
+</div></div></div></div></div><div class="gastro_banner"><img class="gastro_banner-bg-image"
+     src="{{ section.settings.image_banner_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_banner_bild.alt }}"
+     loading="lazy">
+<div class="gastro_overlay"></div><div class="heading-style-h3 z-index-1">
+{{ section.settings.text_banner_text }}
+</div>
+<a class="button is-gold z-index-1 w-button" href="{{ section.settings.url_banner_button_link }}"> {{ section.settings.text_banner_button_text }} </a>
+</div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>{% endif %}
+<script>document.addEventListener('DOMContentLoaded', function () {
+    $('.swiper-container').each(function (index) {
+      const swiper{{section.index}} = new Swiper($(this).find('.swiper.is-swiper-events')[0], {
+        autoHeight: false,
+        followFinger: true,
+        freeMode: false,
+        loop: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        spaceBetween: 24,
+        mousewheel: {
+          forceToAxis: true
+        },
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true
+        },
+        navigation: {
+          nextEl: $(this).find(".about-us_arrow.is-next")[0],
+          prevEl: $(this).find(".about-us_arrow.is-prev")[0],
+          disabledClass: "swiper-button-disabled"
+        },
+      });
+    });
+    $('.swiper-container').each(function (index) {
+      const swiper2{{section.index}} = new Swiper($(this).find('.swiper.is-gastro-images')[0], {
+        autoHeight: false,
+        followFinger: true,
+        freeMode: false,
+        slidesPerView: "auto",
+        spaceBetween: 24,
+        mousewheel: {
+          forceToAxis: true
+        },
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true
+        },
+        navigation: {
+          nextEl: $(this).find(".about-us_arrow.is-next")[0],
+          prevEl: $(this).find(".about-us_arrow.is-prev")[0],
+          disabledClass: "swiper-button-disabled"
+        },
+      });
+    });
+  });
+</script></div></div></div> {% schema %} {"tag":"section","name":"spitzengastro_bento","class":"section_spitzengastro","blocks":[{"name":"Event Slide","type":"event-slide","settings":[{"id":"image_bild_veranstaltung","type":"image_picker","label":"Bild-Veranstaltung"},{"id":"text_text","type":"text","label":"Text","default":"Vioneers Weihnachtsfeier 2022"}]},{"name":"Bilder","type":"bilder","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Winzerentdecker"},{"id":"text_headline","type":"text","label":"Headline","default":"Wir bei Vioneers sind erfahrene Winzerentdecker &amp; Sucher."},{"id":"text_text","type":"text","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa volutpat massa ornare. Scelerisque ullamcorper elit sed vitae lectus varius vel pulvinar."},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Button Text"},{"id":"text_kachel_2_zahl","type":"text","label":"Kachel 2 Zahl","default":"15"},{"id":"text_kachel_2_headline","type":"text","label":"Kachel 2 Headline","default":"Michelin Sterne l\u00fcgen nicht"},{"id":"image_kachel_4_bild","type":"image_picker","label":"Kachel 4 Bild"},{"id":"text_kachel_4_text","type":"text","label":"Kachel 4 Text","default":"\u201cAls Pairing-Experten beliefern wir unz\u00e4hlige Gastronomiebetriebe in Deutschland. Ob Bistro, Szene-Bar oder Sternelokal \u00a0t\u00e4glich die \u201cQuality Time\u201d tausender G\u00e4ste.<br\/><br\/>Als Pairing-Experten beliefern wir unz\u00e4hlige Gastronomiebetriebe in Deutschland.\u201d"},{"id":"text_kachel_4_name","type":"text","label":"Kachel 4 Name","default":"Jochen"},{"id":"text_kachel_4_position","type":"text","label":"Kachel 4 Position","default":"Gr\u00fcnder &amp; CEO"},{"id":"image_banner_bild","type":"image_picker","label":"Banner Bild"},{"id":"text_banner_text","type":"text","label":"Banner Text","default":"Lieber Gastronom, wir haben dich verstanden.<br\/>Wir sind dein Weinh\u00e4ndler f\u00fcr exklusive Weine."},{"id":"url_banner_button_link","type":"url","label":"Banner Button Link"},{"id":"text_banner_button_text","type":"text","label":"Banner Button Text","default":"Zum Gastronomievertrieb"},{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"spitzengastro_bento","category":"Liquify"}]} {% endschema %}

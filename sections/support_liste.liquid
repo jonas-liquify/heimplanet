@@ -1,0 +1,22 @@
+<div class="padding-global"><div class="container-large"><div class="support_tabs"><div class="produkt-tabs_nav-link is-not-selected hide"><div option:text="Titel" class="heading-medium">Allgemeine Informationen</div></div></div><div x-tabs="" x-data="" class="produkt-tabs_wrapper"><ul x-tabs:list="" id="w-node-e93de64c-50f9-b99a-a692-b559efd8ae0d-6ff8b59b" role="list" class="help-center_list hide-scrollbar w-list-unstyled">{% for item in shop.metaobjects.support_titel.values %}    <li x-bind:class="$tab.isSelected ? '' : 'is-not-selected'" li-for="item in shop.metaobjects.support_titel.values" x-tabs:tab="" class="help-center_item">
+                                    
+                            <div li-object:text="item.titel">
+{{ item.titel }}
+</div>
+                            
+                        </li>
+{% endfor %}<li class="help-center_item is-not-selected hide"></li></ul><div x-tabs:panels="">{% for item in shop.metaobjects.support_titel.values %}    <div li-for="item in shop.metaobjects.support_titel.values" x-tabs:panel="" class="produkt-tabs_tab">
+                                    
+                            <h2 li-object:text="item.titel" class="heading-style-h2">
+{{ item.titel }}
+</h2>
+                            
+                            <div class="w-dyn-list"><div role="list" class="w-dyn-items">{% for faq in item.fa_qs.value %}    <div li-for="faq in item.fa_qs.value" role="listitem" class="w-dyn-item">
+                                    
+                            <div class="dropdown_component"><div class="dropdown-header"><h3 li-object="faq.frage" class="heading-style-h4">{{ faq.frage }}</h3><div class="dropdown-symbol"></div></div><div class="dropdown-content"><div class="dropdown-inner-content"><div li-object="faq.antwort | metafield_tag" class="text-rich-text w-richtext">{{ faq.antwort | metafield_tag }}</div></div></div></div>
+                            
+                        </div>
+{% endfor %}</div><div class="hide w-dyn-empty"><div>No items found.</div></div></div>
+                            
+                        </div>
+{% endfor %}</div></div></div></div><div blog:articles="Allgemeine-Infos" class="hide w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"></div></div><div class="hide w-dyn-empty"><div>No items found.</div></div></div> {% schema %} {"tag":"section","name":"support_liste","class":"section_hilfe-tabs","presets":[{"name":"support_liste","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,9 @@
+<div class="padding-global"><div class="container-large"><div class="section_headline"><h2 class="heading-large">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="swiper w-dyn-list"><div role="list" class="weingut_grid w-dyn-items">{% for product in collection.products %}    <div li-for="product in collection.products" role="listitem" class="swiper-slide w-dyn-item">
+                                    
+                            {% render 'product_item', color: , product: product %}
+
+                        </div>
+{% endfor %}</div><div class="w-dyn-empty"><div>No items found.</div></div></div></div></div><div id="weine" class="anchor-link"></div> {% schema %} {"tag":"section","name":"weingut_weine","class":"section-product-slider","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Weine des Weinguts"}],"presets":[{"name":"weingut_weine","category":"Liquify"}]} {% endschema %}

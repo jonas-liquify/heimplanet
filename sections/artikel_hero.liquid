@@ -1,0 +1,8 @@
+<div class="padding-global"><div class="container-large"><div class="content-grid is-centered"><div><div><div li-object:text="article.tags" class="subline tags">
+{{ article.tags }}
+</div></div><h1 li-object:text="article.title" class="heading-xlarge">
+{{ article.title }}
+</h1></div><div id="w-node-cd311bf8-6daa-0bd3-3243-3acb275b6334-6ff8b53a" class="text-size-medium max-width-large"><p li-object:text="article.excerpt" id="w-node-cd311bf8-6daa-0bd3-3243-3acb275b6335-6ff8b53a" class="text-size-medium max-width-large">
+{{ article.excerpt }}
+</p></div></div><img src="{{ article.image | img_url: 'master' }}" loading="lazy" li-object:src="article.image | img_url: 'master'" alt="" class="blog-titelbild">
+</div></div> {% schema %} {"tag":"section","name":"artikel_hero","class":"section_blog-hero","presets":[{"name":"artikel_hero","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,37 @@
+<div class="page-padding"><div class="container-large"><div class="padding-section-small"><div class="swiper-container"><div class="swiper is-weingut-slider w-dyn-list"><div role="list" class="swiper-wrapper is-weingut-slider w-dyn-items">{% for block in section.blocks %}
+    {% if block.type == "slider" %}
+                    <div li-block="Slider" role="listitem" class="swiper-slide is-weingut-slider w-dyn-item">
+                                    <div class="f-weingut_wrapper"><div id="w-node-d02b561e-e663-a79a-1b94-80b04c33e306-6ff8b4f8" class="f-weingut_left"><div class="content-grid"><div><div class="subline">
+{{ block.settings.text_subline }}
+</div>
+<h2 class="heading-style-h2 text-color-white">
+{{ block.settings.text_headline }}
+</h2>
+</div><p class="text-size-regular text-color-white"> {{ block.settings.textarea_textfeld }} </p>
+<a class="button is-white w-button" href="{{ block.settings.url_button_link }}"> {{ block.settings.text_button_text }} </a>
+</div></div><a class="f-weingut_bild-wrapper w-inline-block" href="{{ block.settings.url_bild_link }}"> {% if block.settings.badge != blank %} <div li-if="block.settings.badge != blank "> <img class="f-weingut_stoerer" src="{{ block.settings.image_badge | img_url: 'master' }}" alt="{{ block.settings.image_badge.alt }}" loading="lazy"> </div>{% endif %}<img class="f-weingut_bild" src="{{ block.settings.image_bild | img_url: 'master' }}" alt="{{ block.settings.image_bild.alt }}" loading="lazy"> </a>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="w-dyn-empty"><div>No items found.</div></div></div><div class="swiper-pagination"><div class="product-slider_arrows is-white"><a id="weingut-swiper-arrow-left" href="#" class="swiper-arrows swiper-prev is-white is-white w-inline-block"><div class="swiper-arrow w-embed"><svg width="100%" height="100%" viewbox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00006 10.4999L1 5.5L7.00006 0.500061" stroke="currentColor"></path></svg></div></a><a id="weingut-swiper-arrow-right" href="#" class="swiper-arrows swiper-next is-white w-inline-block"><div class="swiper-arrow w-embed"><svg width="100%" height="100%" viewbox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00006 10.4999L1 5.5L7.00006 0.500061" stroke="currentColor"></path></svg></div></a></div></div></div><div class="hide w-embed w-script">{% if section.settings.checkbox_swiper_script == true %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>{% endif %}
+<script>document.addEventListener('DOMContentLoaded', function () {
+    $(".swiper-container").each(function (index) {
+      const swiper{{section.index}} = new Swiper($(this).find(".swiper.is-weingut-slider")[0], {
+        slidesPerView: "auto",
+        a11y: false,
+        spaceBetween: 8,
+        loop: true,
+        autoplay: {
+          delay: 10000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: $(this).find(".swiper-next")[0],
+          prevEl: $(this).find(".swiper-prev")[0],
+        },
+      });
+    });
+  });
+</script></div></div></div></div> {% schema %} {"tag":"section","name":"featured_weingut","class":"section_feautured-weingut","blocks":[{"name":"Slider","type":"slider","settings":[{"id":"text_subline","type":"text","label":"subline","default":"Featured Weingut"},{"id":"text_headline","type":"text","label":"Headline","default":"British Columbia"},{"id":"textarea_textfeld","type":"textarea","label":"Textfeld","default":"Die III Freunde sind nun bei Vioneers im Programm. Das wollen wir mit einer Verdreifachungs-Aktion feiern. Und so funktioniert es:<br\/><strong>Wir verdreifachen alle III Freunde Weine der ersten drei Bestellungen Punkt 18 Uhr am Sonntag, 12. Juni.<\/strong><br\/>\u200d<br\/>Die gl\u00fccklichen Gewinner kontaktieren wir noch am Sonntagabend per E-Mail. Bereite jetzt schon Deinen Warenkorb vor und sei bereit f\u00fcr den entscheidenden Klick!"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"url_bild_link","type":"url","label":"Bild-Link"},{"id":"image_badge","type":"image_picker","label":"Badge"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"featured_weingut","category":"Liquify"}]} {% endschema %}

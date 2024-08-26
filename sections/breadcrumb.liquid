@@ -1,22 +1,22 @@
-<div class="padding-global"><div class="container-large"><ul role="list" class="breadcrumbs_component w-list-unstyled"><li class="breadcrumbs_item"><a li-object:href="routes.root_url" href="{{ routes.root_url }}" class="w-inline-block"><div class="text-size-small">HOME</div></a><img loading="lazy" src="{{ 'expand_more.svg' | asset_url }}" alt="" class="breadcrumbs_icon">
+<div class="padding-global is-nav"><div class="navbar_container"><ul role="list" class="breadcrumbs_component w-list-unstyled"><li class="breadcrumbs_item"><a li-object:href="routes.root_url" href="{{ routes.root_url }}" class="breadcrumb_link w-inline-block"><div class="text-size-small text-style-allcaps text-color-grey text-weight-medium">HOME</div></a><img src="{{ 'expand_more.svg' | asset_url }}" loading="lazy" alt="" class="breadcrumbs_icon">
 </li>{% if template == 'product' %}    <li li-if="template == 'product'" class="breadcrumbs_item">
     {% if collection.url %}    <div li-if="collection.url">
-    <a li-object:href="collection.url" href="{{ collection.url }}" class="breadcrumb_link w-inline-block"><div li-object="collection.title | truncate: 15" class="text-size-small">{{ collection.title | truncate: 15 }}</div></a>    </div>
+    <a li-object:href="collection.url" href="{{ collection.url }}" class="breadcrumb_link w-inline-block"><div li-object="collection.title | truncate: 15" class="text-size-small text-style-allcaps text-color-grey text-weight-medium">{{ collection.title | truncate: 15 }}</div></a>    </div>
 {% endif %}{% if collection.url == blank %}    <div li-if="collection.url == blank">
-    <div><div li-object="product.vendor" class="text-size-small">{{ product.vendor }}</div></div>    </div>
-{% endif %}<img loading="lazy" src="{{ 'expand_more.svg' | asset_url }}" alt="" class="breadcrumbs_icon">
+    <a href="/collections/{{product.vendor | handleize}}" class="breadcrumb_link w-inline-block"><div li-object="product.vendor" class="text-size-small text-style-allcaps text-color-grey text-weight-medium">{{ product.vendor }}</div></a>    </div>
+{% endif %}<img src="{{ 'expand_more.svg' | asset_url }}" loading="lazy" alt="" class="breadcrumbs_icon">
     </li>
 {% endif %}{% if template == 'article' %}    <li li-if="template == 'article'" class="breadcrumbs_item">
-    <a li-object:href="blog.url" href="{{ blog.url }}" class="w-inline-block"><div li-object="blog.title" class="text-size-small">{{ blog.title }}</div></a><img loading="lazy" src="{{ 'expand_more.svg' | asset_url }}" alt="" class="breadcrumbs_icon">
+    <a li-object:href="blog.url" href="{{ blog.url }}" class="breadcrumb_link w-inline-block"><div li-object="blog.title" class="text-size-small text-style-allcaps text-color-grey text-weight-medium">{{ blog.title }}</div></a><img src="{{ 'expand_more.svg' | asset_url }}" loading="lazy" alt="" class="breadcrumbs_icon">
     </li>
 {% endif %}{% if template == 'product' %}    <li li-if="template == 'product'" class="breadcrumbs_item">
-    <div li-object="product.title | truncate: 30" class="text-size-small">{{ product.title | truncate: 30 }}</div>    </li>
+    <div li-object="product.title | truncate: 30" class="text-size-small text-style-allcaps text-weight-medium">{{ product.title | truncate: 30 }}</div>    </li>
 {% endif %}{% if template == 'collection' %}    <li li-if="template == 'collection'" class="breadcrumbs_item">
-    <div li-object="collection.title" class="text-size-small">{{ collection.title }}</div>    </li>
+    <div li-object="collection.title" class="text-size-small text-style-allcaps text-weight-medium">{{ collection.title }}</div>    </li>
 {% endif %}{% if template == 'blog' %}    <li li-if="template == 'blog'" class="breadcrumbs_item">
-    <div li-object="blog.title" class="text-size-small">{{ blog.title }}</div>    </li>
+    <div li-object="blog.title" class="text-size-small text-style-allcaps text-weight-medium">{{ blog.title }}</div>    </li>
 {% endif %}{% if template == 'article' %}    <li li-if="template == 'article'" class="breadcrumbs_item">
-    <div li-object="article.title | truncate: 30" class="text-size-small">{{ article.title | truncate: 30 }}</div>    </li>
+    <div li-object="article.title | truncate: 30" class="text-size-small text-style-allcaps text-weight-medium">{{ article.title | truncate: 30 }}</div>    </li>
 {% endif %}{% if template == 'page' %}    <li li-if="template == 'page'" class="breadcrumbs_item">
-    <div li-object="page.title | truncate: 30" class="text-size-small">{{ page.title | truncate: 30 }}</div>    </li>
+    <div li-object="page.title | truncate: 30" class="text-size-small text-style-allcaps text-weight-medium">{{ page.title | truncate: 30 }}</div>    </li>
 {% endif %}</ul></div></div> {% schema %} {"tag":"div","name":"breadcrumb","class":"section_breadcrumbs","presets":[{"name":"breadcrumb","category":"Liquify"}]} {% endschema %}

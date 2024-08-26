@@ -1,0 +1,28 @@
+<div class="padding-global"><div class="container-large"><div class="section_grid"><div id="w-node-ca27b4d7-0deb-602a-276d-9137aaf13785-6ff8b5b5" class="content-grid max-width-medium"><div id="w-node-ca27b4d7-0deb-602a-276d-9137aaf13786-6ff8b5b5" class="anfahrt_headline"><h2 class="heading-large max-width-large text-color-white">
+{{ section.settings.text_headline }}
+</h2>
+<div class="heading-medium text-color-white">
+{{ section.settings.text_subline }}
+</div>
+</div><div id="w-node-ca27b4d7-0deb-602a-276d-9137aaf1378b-6ff8b5b5" class="anfahrt_grid"><div id="w-node-ca27b4d7-0deb-602a-276d-9137aaf1378c-6ff8b5b5" class="anfahrt_item"><img src="{{ 'clock.svg' | asset_url }}" loading="lazy" id="w-node-ca27b4d7-0deb-602a-276d-9137aaf1378d-6ff8b5b5" alt="" class="veranstaltungen_icon">
+<div class="text-size-regular text-color-white trans">
+{{ section.settings.text_oeffnungszeiten }}
+</div>
+</div><div id="w-node-ca27b4d7-0deb-602a-276d-9137aaf13794-6ff8b5b5" class="anfahrt_item"><img src="{{ 'ort-white.svg' | asset_url }}" loading="lazy" id="w-node-ca27b4d7-0deb-602a-276d-9137aaf13795-6ff8b5b5" alt="" class="veranstaltungen_icon">
+<div class="text-size-regular text-color-white trans">
+{{ section.settings.text_adresse }}
+</div>
+</div><div id="w-node-ca27b4d7-0deb-602a-276d-9137aaf13798-6ff8b5b5" class="anfahrt_item"><img src="{{ 'telefon.svg' | asset_url }}" loading="lazy" id="w-node-ca27b4d7-0deb-602a-276d-9137aaf13799-6ff8b5b5" alt="" class="veranstaltungen_icon">
+<div class="text-size-regular text-color-white trans">
+{{ section.settings.text_telefon }}
+</div>
+</div><div id="w-node-ca27b4d7-0deb-602a-276d-9137aaf1379e-6ff8b5b5" class="anfahrt_item"><img src="{{ 'email.svg' | asset_url }}" loading="lazy" id="w-node-ca27b4d7-0deb-602a-276d-9137aaf1379f-6ff8b5b5" alt="" class="veranstaltungen_icon">
+<div class="text-size-regular text-color-white trans">
+{{ section.settings.text_e_mail }}
+</div>
+</div></div><a class="button is-white w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
+</div><img class="section_img"
+     src="{{ section.settings.image_bild | img_url: 'master' }}"
+     alt="{{ section.settings.image_bild.alt }}"
+     loading="lazy">
+</div></div></div><div id="anfahrt" class="anchor-link"></div> {% schema %} {"tag":"section","name":"winespot_anfahrt","class":"section_weingut-lage","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Anfahrt"},{"id":"text_subline","type":"text","label":"Subline","default":"Du hast Lust auf gem\u00fctliche Weinproben, spannende Weinseminare?"},{"id":"text_oeffnungszeiten","type":"text","label":"Oeffnungszeiten","default":"\u00d6ffnungszeiten<br\/>Dienstag - Samstag <br\/>15:00 - 19:00 Uhr"},{"id":"text_adresse","type":"text","label":"Adresse","default":"\u00d6ffnungszeiten<br\/>Dienstag - Samstag <br\/>15:00 - 19:00 Uhr"},{"id":"text_telefon","type":"text","label":"Telefon","default":"\u00d6ffnungszeiten<br\/>Dienstag - Samstag <br\/>15:00 - 19:00 Uhr"},{"id":"text_e_mail","type":"text","label":"E-Mail","default":"\u00d6ffnungszeiten<br\/>Dienstag - Samstag <br\/>15:00 - 19:00 Uhr"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Kontakt aufnehmen"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"winespot_anfahrt","category":"Liquify"}]} {% endschema %}

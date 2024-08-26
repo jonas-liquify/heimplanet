@@ -1,0 +1,24 @@
+<div class="page-padding"><div class="container-large is-flex">{% if localization.market.handle == 'de' %}    <div li-if="localization.market.handle == 'de'">
+    <div>
+{{ section.settings.text_text_de }}
+</div>
+    </div>
+{% endif %}{% if localization.market.handle == 'osterreich' %}    <div li-if="localization.market.handle == 'osterreich'">
+    <div>
+{{ section.settings.text_text_at }}
+</div>
+    </div>
+{% endif %}<div class="hide-mobile-landscape">
+{{ section.settings.text_text_2 }}
+</div>
+{% if localization.market.handle == 'de' %}    <div li-if="localization.market.handle == 'de'" class="hide-mobile-landscape">
+    <div class="hide-mobile-landscape">
+{{ section.settings.text_text_3_de }}
+</div>
+    </div>
+{% endif %}{% if localization.market.handle == 'osterreich' %}    <div li-if="localization.market.handle == 'osterreich'" class="hide-mobile-landscape">
+    <div class="hide-mobile-landscape">
+{{ section.settings.text_text_3_at }}
+</div>
+    </div>
+{% endif %}</div></div> {% schema %} {"tag":"section","name":"announcement_bar","class":"section-announcement","settings":[{"id":"text_text_de","type":"text","label":"Text-DE","default":"Kostenloser DE"},{"id":"text_text_at","type":"text","label":"Text-AT","default":"Kostenloser AT"},{"id":"text_text_2","type":"text","label":"Text-2","default":"Kostenloser Versand ab einem Bestellwert von 50 EUR."},{"id":"text_text_3_de","type":"text","label":"Text-3-DE","default":"Kostenloser DE"},{"id":"text_text_3_at","type":"text","label":"Text-3-AT","default":"Kostenloser AT"}],"presets":[{"name":"announcement_bar","category":"Liquify"}]} {% endschema %}
