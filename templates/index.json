@@ -168,6 +168,14 @@
             "text_headline": "Kleidung"
           }
         },
+        "kategorie_W3zEQc": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify:\/\/collections\/hpt-selected",
+            "image_bild": "shopify:\/\/shop_images\/HPT-Selected-Soto-New-River-Amicus-Combo-5.jpg",
+            "text_headline": "HPT Selected"
+          }
+        },
         "kategorie_46x6YN": {
           "type": "kategorie",
           "settings": {
@@ -184,14 +192,6 @@
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Caps-Beanies-2022.webp",
             "text_headline": "Beanies & Caps"
           }
-        },
-        "kategorie_W3zEQc": {
-          "type": "kategorie",
-          "settings": {
-            "url_link": "shopify:\/\/collections\/hpt-selected",
-            "image_bild": "shopify:\/\/shop_images\/HPT-Selected-Soto-New-River-Amicus-Combo-5.jpg",
-            "text_headline": "HPT Selected"
-          }
         }
       },
       "block_order": [
@@ -199,9 +199,9 @@
         "kategorie_YYhpwV",
         "kategorie_qxbwVX",
         "kategorie_AMyXbw",
+        "kategorie_W3zEQc",
         "kategorie_46x6YN",
-        "kategorie_Qdczmz",
-        "kategorie_W3zEQc"
+        "kategorie_Qdczmz"
       ],
       "settings": {
         "checkbox_swiper_script": true
