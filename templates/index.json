@@ -156,7 +156,7 @@
           "type": "kategorie",
           "settings": {
             "url_link": "shopify:\/\/collections\/taschen",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Daypack-Backpack.jpg",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Ellipse-Backpack.png",
             "text_headline": "Taschen"
           }
         },
@@ -172,12 +172,13 @@
           "type": "kategorie",
           "settings": {
             "url_link": "shopify:\/\/collections\/re-store",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Re-Store-Tents-Backpacks-and-more.jpg",
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-CaveXL-Zelt.png",
             "text_headline": "Re:Store"
           }
         },
         "kategorie_Qdczmz": {
           "type": "kategorie",
+          "disabled": true,
           "settings": {
             "url_link": "https:\/\/heimplanet.com\/collections\/bekleidung?art=Beanies+%26+Caps",
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Caps-Beanies-2022.webp",
@@ -188,7 +189,7 @@
           "type": "kategorie",
           "settings": {
             "url_link": "shopify:\/\/collections\/hpt-selected",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-HPT-Selected_2022.webp",
+            "image_bild": "shopify:\/\/shop_images\/HPT-Selected-Soto-New-River-Amicus-Combo-5.jpg",
             "text_headline": "HPT Selected"
           }
         }
