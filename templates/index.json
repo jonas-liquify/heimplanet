@@ -33,6 +33,16 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
+        "hero_slider_DVNdYF": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Kippensammelaktion_008ba922-62e5-4aa6-99d2-8bd636bb186f.png",
+            "text_headline": "KIPPEN NICHT SCHNIPPEN! 2024",
+            "richtext_text": "<p><strong>Surfrider Foundation <\/strong>against cigarette butts - eine europaweite Kippensammelaktion. <br\/><strong>Jetzt mehr erfahren.<\/strong><\/p>",
+            "url_button_link": "https:\/\/heimplanet.com\/blogs\/projekte\/kippen-nicht-schnippen-2024",
+            "text_button_text": "ZUM PROJEKT"
+          }
+        },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
@@ -41,16 +51,6 @@
             "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!<\/p>",
             "url_button_link": "shopify:\/\/collections\/zelte",
             "text_button_text": "Jetzt entdecken"
-          }
-        },
-        "hero_slider_DVNdYF": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify:\/\/shop_images\/LauritzKuntscher_Mauritius_Kirra_Mood6.jpg",
-            "text_headline": "KIRRA AUF MAURITIUS",
-            "richtext_text": "<p><strong>Neuer Blogpost -<\/strong> Kirra auf Mauritius. Ein Unvergesslicher Trip mit dem HEIMPLANET Kirra Zelt. <strong>Jetzt zum Magazin für die ganze Geschichte.<\/strong><\/p>",
-            "url_button_link": "https:\/\/heimplanet.com\/blogs\/abenteuer\/kirra-auf-mauritius",
-            "text_button_text": "ZUM MAGAZIN"
           }
         },
         "hero_slider_LP9zUr": {
@@ -120,8 +120,8 @@
       "block_order": [
         "hero_slider_FDAzFx",
         "hero_slider_zBjUtr",
-        "hero_slider_DQWqP4",
         "hero_slider_DVNdYF",
+        "hero_slider_DQWqP4",
         "hero_slider_LP9zUr",
         "hero_slider_L3fJzp",
         "hero_slider_6ztQE7",
