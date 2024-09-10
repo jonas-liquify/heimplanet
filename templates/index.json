@@ -12,6 +12,16 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_eJrrgt": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "text_headline": "A PYRENEAN QUEST.",
+            "richtext_text": "<p><strong>700KM | 40.000M <\/strong><br\/>Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren. Jetzt mehr Erfahren! <\/p>",
+            "url_button_link": "https:\/\/heimplanet.com\/blogs\/abenteuer\/three-souls-a-pyrenean-quest",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
         "hero_slider_FDAzFx": {
           "type": "hero-slider",
           "disabled": true,
@@ -104,20 +114,10 @@
             "url_button_link": "shopify:\/\/products\/cloudbreak-classic",
             "text_button_text": "3.Batch VORBESTELLBAR"
           }
-        },
-        "hero_slider_eJrrgt": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify:\/\/shop_images\/MonoSeries_MinimalPack_LifestyleShooting_LauritzKuntscher43_1_-_Kopie.jpg",
-            "text_headline": "Mono Minimal Sets",
-            "richtext_text": "<p>Die neuen Mono Series Minimal Packs jetzt auch im Set erhältlich. Jetzt entdecken!<\/p>",
-            "url_button_link": "https:\/\/heimplanet.com\/collections\/carry-sets",
-            "text_button_text": "Jetzt entdecken"
-          }
         }
       },
       "block_order": [
+        "hero_slider_eJrrgt",
         "hero_slider_FDAzFx",
         "hero_slider_zBjUtr",
         "hero_slider_DVNdYF",
@@ -126,8 +126,7 @@
         "hero_slider_L3fJzp",
         "hero_slider_6ztQE7",
         "hero_slider_icPbWh",
-        "hero_slider_3zKtma",
-        "hero_slider_eJrrgt"
+        "hero_slider_3zKtma"
       ],
       "settings": {
         "checkbox_swiper_script": true
