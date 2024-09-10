@@ -12,16 +12,6 @@
     "hero": {
       "type": "hero",
       "blocks": {
-        "hero_slider_eJrrgt": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "text_headline": "A PYRENEAN QUEST.",
-            "richtext_text": "<p><strong>700KM | 40.000M <\/strong><br\/>Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren. Jetzt mehr Erfahren! <\/p>",
-            "url_button_link": "https:\/\/heimplanet.com\/blogs\/abenteuer\/three-souls-a-pyrenean-quest",
-            "text_button_text": "Jetzt entdecken"
-          }
-        },
         "hero_slider_FDAzFx": {
           "type": "hero-slider",
           "disabled": true,
@@ -31,6 +21,17 @@
             "richtext_text": "<p>Was macht <a href=\"https:\/\/heimplanet.com\/blogs\/designraum\/dyecoshell_mono\">DYECOSHELL™ MONO<\/a> so besonders und warum ist Recyclebarkeit so wichtig? <br\/><strong>Die Antwort findest du in unserem Designraum.<\/strong><\/p>",
             "url_button_link": "https:\/\/heimplanet.com\/blogs\/designraum\/dyecoshell_mono",
             "text_button_text": "ZUM DESIGNRAUM"
+          }
+        },
+        "hero_slider_eJrrgt": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Three_souls._A_pyranean_quest_Banner.png",
+            "text_headline": "A PYRENEAN QUEST",
+            "richtext_text": "<h6><strong>700KM | 40.000M <\/strong><\/h6><p>Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren. <strong>Jetzt mehr Erfahren! <\/strong><\/p>",
+            "url_button_link": "https:\/\/heimplanet.com\/blogs\/abenteuer\/three-souls-a-pyrenean-quest",
+            "text_button_text": "Mehr ERFAHREN"
           }
         },
         "hero_slider_zBjUtr": {
@@ -117,8 +118,8 @@
         }
       },
       "block_order": [
-        "hero_slider_eJrrgt",
         "hero_slider_FDAzFx",
+        "hero_slider_eJrrgt",
         "hero_slider_zBjUtr",
         "hero_slider_DVNdYF",
         "hero_slider_DQWqP4",
