@@ -46,6 +46,7 @@
         },
         "hero_slider_DVNdYF": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify:\/\/shop_images\/Kippensammelaktion_008ba922-62e5-4aa6-99d2-8bd636bb186f.png",
             "text_headline": "KIPPEN NICHT SCHNIPPEN! 2024",
