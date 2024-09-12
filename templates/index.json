@@ -25,7 +25,6 @@
         },
         "hero_slider_eJrrgt": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
             "image_bild": "shopify:\/\/shop_images\/Heimplanet-Three-souls-a-yranean-quest-Banner.jpg",
             "text_headline": "THREE SOULS. A PYRENEAN QUEST",
