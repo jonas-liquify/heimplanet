@@ -12,15 +12,14 @@
     "hero": {
       "type": "hero",
       "blocks": {
-        "hero_slider_FDAzFx": {
+        "hero_slider_L3fJzp": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Mono_Fabric.png",
-            "text_headline": "RECYCLING VON DYECOSHELL™ MONO",
-            "richtext_text": "<p>Was macht <a href=\"https:\/\/heimplanet.com\/blogs\/designraum\/dyecoshell_mono\">DYECOSHELL™ MONO<\/a> so besonders und warum ist Recyclebarkeit so wichtig? <br\/><strong>Die Antwort findest du in unserem Designraum.<\/strong><\/p>",
-            "url_button_link": "https:\/\/heimplanet.com\/blogs\/designraum\/dyecoshell_mono",
-            "text_button_text": "ZUM DESIGNRAUM"
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Re-Store-Packing-Cubes.jpg",
+            "text_headline": "Packing Cubes",
+            "richtext_text": "<p>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität.<\/p>",
+            "url_button_link": "shopify:\/\/products\/carry-essentials-packing-cubes-re-store-edition-set",
+            "text_button_text": "Jetzt entdecken"
           }
         },
         "hero_slider_eJrrgt": {
@@ -31,6 +30,16 @@
             "richtext_text": "<h6><strong>700KM | 40.000M <\/strong><\/h6><p>Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren. <strong>Jetzt mehr Erfahren! <\/strong><\/p>",
             "url_button_link": "https:\/\/heimplanet.com\/blogs\/abenteuer\/three-souls-a-pyrenean-quest",
             "text_button_text": "Mehr ERFAHREN"
+          }
+        },
+        "hero_slider_DQWqP4": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Fistral-Cairo-Camo-2023-1.jpg",
+            "text_headline": "Unsere Zelte",
+            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!<\/p>",
+            "url_button_link": "shopify:\/\/collections\/zelte",
+            "text_button_text": "Jetzt entdecken"
           }
         },
         "hero_slider_zBjUtr": {
@@ -54,16 +63,6 @@
             "text_button_text": "ZUM PROJEKT"
           }
         },
-        "hero_slider_DQWqP4": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Fistral-Cairo-Camo-2023-1.jpg",
-            "text_headline": "Unsere Zelte",
-            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!<\/p>",
-            "url_button_link": "shopify:\/\/collections\/zelte",
-            "text_button_text": "Jetzt entdecken"
-          }
-        },
         "hero_slider_LP9zUr": {
           "type": "hero-slider",
           "disabled": true,
@@ -72,16 +71,6 @@
             "text_headline": "HEIMPLANET SETS",
             "richtext_text": "<p>Entdecke jetzt die neuen CARRY und CAMPING Sets. Für Dich zusammengestellt für mehr Tragekomfort im Alltag und unvergessliche Camping Abenteuer.<\/p>",
             "url_button_link": "shopify:\/\/collections\/camping-sets",
-            "text_button_text": "Jetzt entdecken"
-          }
-        },
-        "hero_slider_L3fJzp": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Re-Store-Packing-Cubes.jpg",
-            "text_headline": "Packing Cubes",
-            "richtext_text": "<p>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität.<\/p>",
-            "url_button_link": "shopify:\/\/products\/carry-essentials-packing-cubes-re-store-edition-set",
             "text_button_text": "Jetzt entdecken"
           }
         },
@@ -115,19 +104,30 @@
             "url_button_link": "shopify:\/\/products\/cloudbreak-classic",
             "text_button_text": "3.Batch VORBESTELLBAR"
           }
+        },
+        "hero_slider_FDAzFx": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify:\/\/shop_images\/Mono_Fabric.png",
+            "text_headline": "RECYCLING VON DYECOSHELL™ MONO",
+            "richtext_text": "<p>Was macht <a href=\"https:\/\/heimplanet.com\/blogs\/designraum\/dyecoshell_mono\">DYECOSHELL™ MONO<\/a> so besonders und warum ist Recyclebarkeit so wichtig? <br\/><strong>Die Antwort findest du in unserem Designraum.<\/strong><\/p>",
+            "url_button_link": "https:\/\/heimplanet.com\/blogs\/designraum\/dyecoshell_mono",
+            "text_button_text": "ZUM DESIGNRAUM"
+          }
         }
       },
       "block_order": [
-        "hero_slider_FDAzFx",
+        "hero_slider_L3fJzp",
         "hero_slider_eJrrgt",
+        "hero_slider_DQWqP4",
         "hero_slider_zBjUtr",
         "hero_slider_DVNdYF",
-        "hero_slider_DQWqP4",
         "hero_slider_LP9zUr",
-        "hero_slider_L3fJzp",
         "hero_slider_6ztQE7",
         "hero_slider_icPbWh",
-        "hero_slider_3zKtma"
+        "hero_slider_3zKtma",
+        "hero_slider_FDAzFx"
       ],
       "settings": {
         "checkbox_swiper_script": true
