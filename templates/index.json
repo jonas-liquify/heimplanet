@@ -32,17 +32,6 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
-        "hero_slider_eJrrgt": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Three-souls-a-yranean-quest-Banner.jpg",
-            "text_headline": "THREE SOULS. A PYRENEAN QUEST",
-            "richtext_text": "<h6><strong>700KM | 40.000M </strong></h6><p>Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren. <strong>Jetzt mehr Erfahren! </strong></p>",
-            "url_button_link": "https://heimplanet.com/blogs/abenteuer/three-souls-a-pyrenean-quest",
-            "text_button_text": "Mehr ERFAHREN"
-          }
-        },
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
           "settings": {
@@ -53,15 +42,25 @@
             "text_button_text": "NEU: Jetzt entdecken"
           }
         },
-        "hero_slider_DVNdYF": {
+        "hero_slider_3zKtma": {
           "type": "hero-slider",
           "disabled": true,
           "settings": {
-            "image_bild": "shopify://shop_images/Kippensammelaktion_008ba922-62e5-4aa6-99d2-8bd636bb186f.png",
-            "text_headline": "KIPPEN NICHT SCHNIPPEN! 2024",
-            "richtext_text": "<p><strong>Surfrider Foundation </strong>against cigarette butts - eine europaweite Kippensammelaktion. <br/><strong>Jetzt mehr erfahren.</strong></p>",
-            "url_button_link": "https://heimplanet.com/blogs/projekte/kippen-nicht-schnippen-2024",
-            "text_button_text": "ZUM PROJEKT"
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Cloudbreak.jpg",
+            "text_headline": "Cloudbreak",
+            "richtext_text": "<p>Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden. #whereveryougo</p>",
+            "url_button_link": "shopify://products/cloudbreak-classic",
+            "text_button_text": "MEHR ERFAHREN"
+          }
+        },
+        "hero_slider_icPbWh": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-HPT-Selected.jpg",
+            "text_headline": "HPT Selected",
+            "richtext_text": "<p>Um Euch die Auswahl etwas zu erleichtern, haben wir in Zusammenarbeit mit ausgewählten Marken unsere persönliche Campingausrüstung zusammengestellt.</p>",
+            "url_button_link": "shopify://collections/hpt-selected",
+            "text_button_text": "Jetzt entdecken"
           }
         },
         "hero_slider_LP9zUr": {
@@ -75,6 +74,17 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
+        "hero_slider_eJrrgt": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Three-souls-a-yranean-quest-Banner.jpg",
+            "text_headline": "THREE SOULS. A PYRENEAN QUEST",
+            "richtext_text": "<h6><strong>700KM | 40.000M </strong></h6><p>Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren. <strong>Jetzt mehr Erfahren! </strong></p>",
+            "url_button_link": "https://heimplanet.com/blogs/abenteuer/three-souls-a-pyrenean-quest",
+            "text_button_text": "Mehr ERFAHREN"
+          }
+        },
         "hero_slider_6ztQE7": {
           "type": "hero-slider",
           "disabled": true,
@@ -86,24 +96,15 @@
             "text_button_text": "Jetzt shoppen"
           }
         },
-        "hero_slider_icPbWh": {
+        "hero_slider_DVNdYF": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Teaser-HPT-Selected.jpg",
-            "text_headline": "HPT Selected",
-            "richtext_text": "<p>Um Euch die Auswahl etwas zu erleichtern, haben wir in Zusammenarbeit mit ausgewählten Marken unsere persönliche Campingausrüstung zusammengestellt.</p>",
-            "url_button_link": "shopify://collections/hpt-selected",
-            "text_button_text": "Jetzt entdecken"
-          }
-        },
-        "hero_slider_3zKtma": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Cloudbreak.jpg",
-            "text_headline": "Cloudbreak",
-            "richtext_text": "<p>Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden. #whereveryougo</p>",
-            "url_button_link": "shopify://products/cloudbreak-classic",
-            "text_button_text": "MEHR ERFAHREN"
+            "image_bild": "shopify://shop_images/Kippensammelaktion_008ba922-62e5-4aa6-99d2-8bd636bb186f.png",
+            "text_headline": "KIPPEN NICHT SCHNIPPEN! 2024",
+            "richtext_text": "<p><strong>Surfrider Foundation </strong>against cigarette butts - eine europaweite Kippensammelaktion. <br/><strong>Jetzt mehr erfahren.</strong></p>",
+            "url_button_link": "https://heimplanet.com/blogs/projekte/kippen-nicht-schnippen-2024",
+            "text_button_text": "ZUM PROJEKT"
           }
         },
         "hero_slider_FDAzFx": {
@@ -121,13 +122,13 @@
       "block_order": [
         "hero_slider_DQWqP4",
         "hero_slider_L3fJzp",
-        "hero_slider_eJrrgt",
         "hero_slider_zBjUtr",
-        "hero_slider_DVNdYF",
-        "hero_slider_LP9zUr",
-        "hero_slider_6ztQE7",
-        "hero_slider_icPbWh",
         "hero_slider_3zKtma",
+        "hero_slider_icPbWh",
+        "hero_slider_LP9zUr",
+        "hero_slider_eJrrgt",
+        "hero_slider_6ztQE7",
+        "hero_slider_DVNdYF",
         "hero_slider_FDAzFx"
       ],
       "settings": {
