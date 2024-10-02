@@ -47,8 +47,8 @@
           "type": "hero-slider",
           "settings": {
             "image_bild": "shopify://shop_images/MonoSeries_MinimalPack_LifestyleShooting_LauritzKuntscher76.jpg",
-            "text_headline": "Vollständig recycelbar",
-            "richtext_text": "<p><strong>THE FUTURE IS NOW, THE FUTURE IS MONO.</strong> Der neue Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.</p>",
+            "text_headline": "THE FUTURE IS NOW",
+            "richtext_text": "<p><strong>THE FUTURE IS MONO.</strong> Der neue Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.</p>",
             "url_button_link": "shopify://pages/mono-series-minimal-pack",
             "text_button_text": "NEU: Jetzt entdecken"
           }
