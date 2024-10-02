@@ -25,6 +25,35 @@
       "settings": {
       }
     },
+    "l_slider_CrFdK4": {
+      "type": "l_slider",
+      "blocks": {
+        "slider_XKX8WY": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Three-souls-a-yranean-quest-Banner.jpg"
+          }
+        },
+        "slider_eqwN3V": {
+          "type": "slider",
+          "settings": {
+          }
+        },
+        "slider_4JBk4w": {
+          "type": "slider",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "slider_XKX8WY",
+        "slider_eqwN3V",
+        "slider_4JBk4w"
+      ],
+      "settings": {
+        "checkbox_swiper_script": true
+      }
+    },
     "article_products_V4qaqk": {
       "type": "article_products",
       "settings": {
@@ -41,6 +70,11 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "article_content_4yVaHr": {
+      "type": "article_content",
+      "settings": {
+      }
     }
   },
   "layout": "article",
@@ -48,6 +82,8 @@
   "order": [
     "collection_hero",
     "article_content",
+    "l_slider_CrFdK4",
+    "article_content_4yVaHr",
     "article_products_V4qaqk",
     "article_next"
   ]
