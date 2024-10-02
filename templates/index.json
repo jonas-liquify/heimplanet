@@ -12,6 +12,16 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_DQWqP4": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-Home.jpg",
+            "text_headline": "Unsere Zelte",
+            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
+            "url_button_link": "shopify://collections/zelte",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
         "hero_slider_L3fJzp": {
           "type": "hero-slider",
           "settings": {
@@ -31,16 +41,6 @@
             "richtext_text": "<h6><strong>700KM | 40.000M </strong></h6><p>Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren. <strong>Jetzt mehr Erfahren! </strong></p>",
             "url_button_link": "https://heimplanet.com/blogs/abenteuer/three-souls-a-pyrenean-quest",
             "text_button_text": "Mehr ERFAHREN"
-          }
-        },
-        "hero_slider_DQWqP4": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-2023-1.jpg",
-            "text_headline": "Unsere Zelte",
-            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
-            "url_button_link": "shopify://collections/zelte",
-            "text_button_text": "Jetzt entdecken"
           }
         },
         "hero_slider_zBjUtr": {
@@ -119,9 +119,9 @@
         }
       },
       "block_order": [
+        "hero_slider_DQWqP4",
         "hero_slider_L3fJzp",
         "hero_slider_eJrrgt",
-        "hero_slider_DQWqP4",
         "hero_slider_zBjUtr",
         "hero_slider_DVNdYF",
         "hero_slider_LP9zUr",
