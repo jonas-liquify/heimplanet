@@ -1,0 +1,54 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "collection_hero": {
+      "type": "collection_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "{{ article.title }}",
+        "textarea_paragraph": "",
+        "url_button_link": "",
+        "text_button_text": "Jetzt entdecken",
+        "image_bild": "{{ article.image }}"
+      }
+    },
+    "article_content": {
+      "type": "article_content",
+      "settings": {
+      }
+    },
+    "article_products_V4qaqk": {
+      "type": "article_products",
+      "settings": {
+        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
+      }
+    }
+  },
+  "layout": "article",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collection_hero",
+    "article_content",
+    "article_products_V4qaqk",
+    "article_next"
+  ]
+}
