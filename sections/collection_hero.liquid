@@ -1,21 +1,4 @@
-<div class="padding-global padding-section-xsmall"><div class="container-large"><div class="hero_grid"><div id="w-node-df2c0d72-b4ac-a50c-adb9-e25b2ecae68a-2ecae686" class="hero_headline">{% if section.settings.text_subline %}    <div li-if="section.settings.text_subline">
-    <div class="text-size-regular">
-{{ section.settings.text_subline }}
-</div>
+<div class="header_background-image-wrapper"><div class="header_overlay-layer"></div>{% if collection.featured_image != blank %}    <div li-if="collection.featured_image != blank">
+    <img src="{{ collection.featured_image | img_url: 'master' }}" loading="eager" li-object:src="collection.featured_image | img_url: 'master'" li-object:alt="collection.featured_image.alt" alt="{{ collection.featured_image.alt }}" class="header_background-image">
     </div>
-{% endif %}<div class="headline_trenner"></div><h1 class="heading-style-h1">
-{{ section.settings.text_headline }}
-</h1>
-<div class="headline_trenner"></div>{% if request.page_type == 'collection' %}    <div li-if="request.page_type == 'collection'">
-    <div li-object="collection.description" class="text-size-regular">{{ collection.description }}</div>    </div>
-{% endif %}{% if request.page_type == 'article' %}    <div li-if="request.page_type == 'article'">
-    <div li-object="article.excerpt" class="text-size-regular">{{ article.excerpt }}</div>    </div>
-{% endif %}<div><div class="text-size-regular"> {{ section.settings.textarea_paragraph }} </div>
-</div><div class="spacer-medium"></div>{% if section.settings.url_button_link %}    <div li-if="section.settings.url_button_link" class="button_wrapper is-auto is-auto">
-    <a class="button w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
-    </div>
-{% endif %}</div><img class="hero_image"
-     src="{{ section.settings.image_bild | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild.alt }}"
-     loading="lazy">
-</div></div></div> {% schema %} {"tag":"section","name":"collection_hero","class":"section_small-hero background-color-grey","settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Home \/ Kategorie \/ Zelte"},{"id":"text_headline","type":"text","label":"Headline","default":"Bags+<br\/>Backpacks"},{"id":"textarea_paragraph","type":"textarea","label":"Paragraph","default":"Home Kategorie Zelte"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt entdecken"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"collection_hero","category":"Liquify"}]} {% endschema %}
+{% endif %}</div><div class="padding-global padding-section-large"><div class="container-small"><div class="text-align-center"><div class="max-width-xlarge align-center"><div class="margin-bottom margin-small"><h1 li-object="collection.title" class="heading-style-h1 text-color-white">{{ collection.title }}</h1></div><p li-object="collection.description" class="text-size-medium text-color-white">{{ collection.description }}</p></div></div></div></div> {% schema %} {"tag":"section","name":"collection_hero","class":"section_small-hero","presets":[{"name":"collection_hero","category":"Liquify"}]} {% endschema %}
