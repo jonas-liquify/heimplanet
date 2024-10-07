@@ -1,0 +1,108 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "l_header_BMxEye": {
+      "type": "l_header",
+      "settings": {
+        "url_button_url": "shopify://collections/zelte",
+        "text_button_text": "Zu den Zelten"
+      }
+    },
+    "l_hero": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "HEIMPLANET X 66°NORTH",
+        "text_headline": "THE CAVE XL 4-SEASON",
+        "textarea_longer_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-66-North-The-Cave-XL-4-Season-7.jpg"
+      }
+    },
+    "l_gallery_iRNdJn": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-66-North-4-Season-Wide-Product_467ef9eb-ec9d-43dc-8d1a-8b365728a9e4.jpg",
+        "image_bild_2": "shopify://shop_images/Heimplanet-66-North-The-Cave-XL-4-Season-26.jpg",
+        "image_bild_3": "shopify://shop_images/Heimplanet-66-North-The-Cave-XL-4-Season-3.jpg"
+      }
+    },
+    "l_text_logos_jwzrrf": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "HEIMPLANET X 66°NORTH",
+        "text_headline": "THE CAVE XL 4-SEASON",
+        "text_text": "Das Zelt wurde entwickelt und getestet, um allen Jahreszeiten in Island standzuhalten - einem Land, das für seine dramatischen Wetterbedingungen und Temperaturen bekannt ist. Seine überragende Stärke verdankt das The Cave XL 4-Season seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten und hochwertigen wetterfesten, langlebigen Materialien, die Wind, Schnee und Regen standhalten. Die leuchtend orange Farbe ist von den Schutzhütten im isländischen Hochland inspiriert und so konzipiert, dass sie sich von der isländischen Landschaft abhebt."
+      }
+    },
+    "l_content_left_kNPRTV": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "DAS ZELT",
+        "textarea_text": "Das Aufstellen unserer Zelte funktioniert intuitiv und folgt einem einfachen Prinzip: Ausrollen, aufblasen - fertig! Das Besondere: der aufblasbare Rahmen, Innen- und Außenzelt funktionieren als Einheit und müssen nicht zusammengebaut werden. Mit einer Pumpe lässt sich das Zelt in weniger als einer Minute aufstellen und bietet Platz für 3 Personen.",
+        "image_bild": "shopify://shop_images/Heimplanet-66-North-The-Cave-XL-4-Season-27.jpg"
+      }
+    },
+    "l_content_right_ekDYjD": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/Heimplanet-66-North-The-Cave-XL-4-Season-6_49d47978-f764-4f87-90e5-2444cda860a1.jpg",
+        "text_headline": "GEODÄTISCHES PRINZIP",
+        "textarea_text": "Seine überragende Stärke verdankt das The Cave XL 4-Season seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten - hierdurch ist eine hervorragende Stabilität garantiert - auch bei starken Winden, Regen und Schnee!"
+      }
+    },
+    "l_content_left_9WJEQb": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "DAS MATERIAL",
+        "textarea_text": "Beim neuen Außenzeltstoff haben wir gezielt nach einem Material gesucht, das belastbarer aber auch leichter sein sollte, als bisher. Deshalb haben wir uns für ein High Tenacity Polyester mit 40D Garnstärke entschieden und eine Double Ripstop Konstruktion. High Tenacity Polyester Garn hat eine höhere Zugfestigkeit als reguläre Polyester Garne. Dementsprechend hat unser neuer Zeltstoff auch eine höhere Reißfestigkeit. Für uns ist Polyester nach wie vor - besonders mit einem High Tenacity Polyester Garn - der beste Zeltstoff für unsere Zeltkonstruktionen.",
+        "image_bild": "shopify://shop_images/Heimplanet-66-North-The-Cave-XL-4-Season-17.jpg"
+      }
+    },
+    "l_produkt_4Y6dwp": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_RhgYPH": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-66-North-The-Cave-XL-3-Product.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_RhgYPH"
+      ],
+      "settings": {
+        "text_headline": "SOLD OUT: THE CAVE XL (4-SEASON) - 66°NORTH LIMITED EDITION",
+        "textarea_beschreibung": "",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "Zu den Zelten",
+        "url_produkt_link": "shopify://collections/zelte",
+        "checkbox_swiper_script": true
+      }
+    }
+  },
+  "layout": "page.landingpage",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_header_BMxEye",
+    "l_hero",
+    "l_gallery_iRNdJn",
+    "l_text_logos_jwzrrf",
+    "l_content_left_kNPRTV",
+    "l_content_right_ekDYjD",
+    "l_content_left_9WJEQb",
+    "l_produkt_4Y6dwp"
+  ]
+}
