@@ -54,6 +54,11 @@
         "checkbox_swiper_script": true
       }
     },
+    "article_content_4yVaHr": {
+      "type": "article_content",
+      "settings": {
+      }
+    },
     "article_products_V4qaqk": {
       "type": "article_products",
       "settings": {
@@ -71,9 +76,10 @@
         "text_blog_handle": "abenteuer"
       }
     },
-    "article_content_4yVaHr": {
-      "type": "article_content",
+    "article_richtext_AR4add": {
+      "type": "article_richtext",
       "settings": {
+        "richtext_text": "<p>What’s a Rich Text element?The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.Static and dynamic content editingA rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and</p>"
       }
     }
   },
@@ -85,6 +91,7 @@
     "l_slider_CrFdK4",
     "article_content_4yVaHr",
     "article_products_V4qaqk",
-    "article_next"
+    "article_next",
+    "article_richtext_AR4add"
   ]
 }
