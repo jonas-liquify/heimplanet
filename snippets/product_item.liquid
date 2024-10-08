@@ -9,5 +9,5 @@
                                     <span li-object="tag">{{ tag }}</span>
                         </div>
 {% endfor %}</div></div><div class="spacer-xxsmall"></div><a li-object:href="product.url" href="{{ product.url }}" class="product-item_text-link w-inline-block"><div class="heading-style-h3 is-product-title"><span li-object="product.title">{{ product.title }}</span></div><div class="product-item_price-wrapper"><div li-object="product.type" class="text-size-small text-color-grey">{{ product.type }}</div><div class="product-item_price">{% if product.compare_at_price_max > product.price %}    <div li-if="product.compare_at_price_max > product.price">
-    <div li-object="product.compare_at_price | money" class="text-size-regular text-style-strikethrough text-style-muted is-price">{{ product.compare_at_price | money }}</div>    </div>
-{% endif %}<div li-object="product.price | money" class="text-size-regular is-price">{{ product.price | money }}</div></div></div></a></div>
+    <div li-object="product.compare_at_price | money" class="text-size-regular text-style-strikethrough text-style-muted is-price">{{ product.selected_or_first_available_variant.compare_at_price | money }}</div>    </div>
+{% endif %}<div li-object="product.price | money" class="text-size-regular is-price">{{ product.selected_or_first_available_variant.price | money }}</div></div></div></a></div>
