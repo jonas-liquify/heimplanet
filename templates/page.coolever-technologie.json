@@ -106,6 +106,7 @@
     },
     "l_text_logos_EDCQVe": {
       "type": "l_text_logos",
+      "disabled": true,
       "settings": {
         "text_subline": "Mission",
         "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
