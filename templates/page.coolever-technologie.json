@@ -9,21 +9,22 @@
  */
 {
   "sections": {
-    "default": {
-      "type": "default",
-      "settings": {
-      }
-    },
     "l_hero_tnmJiD": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "This is some text inside of a div block.",
-        "text_headline": "Medium length hero heading goes here",
-        "textarea_longer_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_subline": "Technologie",
+        "text_headline": "Coolever",
+        "textarea_longer_text": "<br>Funktionsshirts sind ideal für den Sport. Normale T-Shirts & Longsleeves sind perfekt für den Alltag. Die HEIMPLANET COOLEVER Shirts vereinen das Beste aus beidem.",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/6149b21924b7b759bef1aa1e_Heimplanet-Longsleeve-reflective-heather-black-Coolever-mood-4.webp"
+      }
+    },
+    "default": {
+      "type": "default",
+      "settings": {
       }
     }
   },
