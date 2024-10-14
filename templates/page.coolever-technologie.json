@@ -114,6 +114,17 @@
     },
     "l_produkt_iPtrPc": {
       "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_kybg3g": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/COOLEVERT-Shirt_reflectiveLogoBall_schwarz-1_a0675156-34ac-4cc8-8c6e-2da75ffdc593.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_kybg3g"
+      ],
       "settings": {
         "text_headline": "COOLEVER",
         "textarea_beschreibung": "<br>Auf Reisen kannst Du Dein T-Shirt / Longsleeve schnell & einfach waschen, es ist im Handumdrehen wieder trocken und einsatzbereit. Durch das Elasthan ist der Stoff super formstabil und bleibt lange in Form - auch nach häufigem Tragen und Waschen. Das macht dein Shirt auch sehr langlebig und nachhaltig. ",
