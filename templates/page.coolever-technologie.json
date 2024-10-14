@@ -22,9 +22,85 @@
         "image_bild": "shopify://shop_images/6149b21924b7b759bef1aa1e_Heimplanet-Longsleeve-reflective-heather-black-Coolever-mood-4.webp"
       }
     },
+    "l_text_logos_qqgdVp": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "T-Shirts & Longsleeves",
+        "text_headline": "Die Technologie",
+        "text_text": "Dank der einzigartigen COOLEVER Technologie wird Feuchtigkeit sofort vom Material aufgenommen, vom Körper weg transportiert und sorgt so für ein angenehmes Gefühl auf der Haut. Auch nach einer zünftigen Wanderung zum nächsten Gipfel oder einem anstrengenden Lauf oder Workout fühlen sich die T-Shirts und Longsleeves nicht nass und kalt an - selbst wenn man stark geschwitzt hat.<br><br>Alle HEIMPLANET T-Shirts & Longsleeves verwenden die COOLEVER Technologie mit einem verbesserten Stoffquerschnitt, der Schweiß & Feuchtigkeit absorbiert. Die Oberfläche des COOLEVER Garns ist über 30 % größer als die des Garns in herkömmlichen Stoffen, was eine schnellere Verdunstung ermöglicht und ein frisches Gefühl hinterlässt."
+      }
+    },
     "default": {
       "type": "default",
       "settings": {
+      }
+    },
+    "l_content_left_Q9jJDd": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "SCHNELL ABSORBIEREND",
+        "textarea_text": "Innerhalb kurzer Zeit werden Schweiß und Feuchtigkeit absorbiert und getrocknet, wodurch der Feuchtigkeitsgehalt der Haut reguliert und die Haut entlastet wird.",
+        "image_bild": "shopify://shop_images/Heimplanet-COOLEVER-Longsleeve-reflective-Logo-Ball-Mood-3.jpg"
+      }
+    },
+    "l_content_right_G6XinF": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/Heimplanet-COOLEVER-T-Shirt-Dust-reflective-Logo-Ball-Mood-4.jpg",
+        "text_headline": "FEUCHTIGKEITSMANAGEMENT",
+        "textarea_text": "Es verhindert, dass nasse Fasern die Körpertemperatur nach intensivem Training erhöhen oder senken, und es reguliert kontinuierlich und sorgt für ein angenehmes Gefühl."
+      }
+    },
+    "l_content_left_yYpyzA": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "PFLEGELEICHT",
+        "textarea_text": "Nach dem Waschen trocknet die Faser schnell, so dass die Kleidung leicht zu pflegen ist. Dies bleibt auch nach wiederholtem Waschen halbwegs dauerhaft erhalten.",
+        "image_bild": "shopify://shop_images/Heimplanet-COOLEVER-Raglan-Shirt-reflective-Logo-Ball-dust-Mood-3.jpg"
+      }
+    },
+    "l_content_right_XTEt4Y": {
+      "type": "l_content_right",
+      "blocks": {
+        "item_btym9N": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit.png",
+            "text_text": "Mix aus Baumwolle, Polyester und Elasthan"
+          }
+        },
+        "item_NmL4CN": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials2.png",
+            "text_text": "sehr angenehmes Feeling & hoher Tragekomfort"
+          }
+        },
+        "item_JCr6NA": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/icons8-wave-lines-100.png",
+            "text_text": "schnell trocknend: schützt Deinen Körper vor Überhitzung oder Auskühlung"
+          }
+        },
+        "item_yTYMpB": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials9.png",
+            "text_text": "Pflegeleicht: knittert sichtbar weniger "
+          }
+        }
+      },
+      "block_order": [
+        "item_btym9N",
+        "item_NmL4CN",
+        "item_JCr6NA",
+        "item_yTYMpB"
+      ],
+      "settings": {
+        "image_bild": "shopify://shop_images/Heimplanet-COOLEVER-Longsleeve-reflective-Logo-Ball-white-3.jpg",
+        "text_headline": "HAUPTMERKMALE",
+        "textarea_text": ""
       }
     }
   },
@@ -32,6 +108,11 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_tnmJiD",
-    "default"
+    "l_text_logos_qqgdVp",
+    "default",
+    "l_content_left_Q9jJDd",
+    "l_content_right_G6XinF",
+    "l_content_left_yYpyzA",
+    "l_content_right_XTEt4Y"
   ]
 }
