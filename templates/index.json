@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -135,6 +135,16 @@
         "checkbox_swiper_script": true
       }
     },
+    "category": {
+      "type": "category",
+      "settings": {
+        "text_headline": "Topseller",
+        "url_button_link": "shopify://collections/topseller",
+        "text_button_text": "Mehr Erfahren",
+        "collection_collection": "topseller",
+        "collection_collection_limit": 4
+      }
+    },
     "kategorien": {
       "type": "kategorien",
       "blocks": {
@@ -207,16 +217,6 @@
       ],
       "settings": {
         "checkbox_swiper_script": true
-      }
-    },
-    "category": {
-      "type": "category",
-      "settings": {
-        "text_headline": "Topseller",
-        "url_button_link": "shopify://collections/topseller",
-        "text_button_text": "Mehr Erfahren",
-        "collection_collection": "topseller",
-        "collection_collection_limit": 4
       }
     },
     "tabs": {
@@ -460,8 +460,8 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero",
-    "kategorien",
     "category",
+    "kategorien",
     "tabs",
     "links",
     "content_image",
