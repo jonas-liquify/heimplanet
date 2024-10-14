@@ -109,15 +109,19 @@
       "settings": {
         "text_subline": "Mission",
         "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
-        "text_text": "Auf Reisen kannst Du Dein T-Shirt / Longsleeve schnell & einfach waschen, es ist im Handumdrehen wieder trocken und einsatzbereit. Durch das Elasthan ist der Stoff super formstabil und bleibt lange in Form - auch nach häufigem Tragen und Waschen. Das macht dein Shirt auch sehr langlebig und nachhaltig. "
+        "text_text": ""
       }
     },
-    "product_hero_B6kX4k": {
-      "type": "product_hero",
+    "l_produkt_iPtrPc": {
+      "type": "l_produkt",
       "settings": {
-        "text_beschreibung": "Beschreibung anzeigen",
-        "text_lieferumfang": "Lieferumfang anzeigen",
-        "text_zubehoer": "Zubehör ergänzen"
+        "text_headline": "COOLEVER",
+        "textarea_beschreibung": "<br>Auf Reisen kannst Du Dein T-Shirt / Longsleeve schnell & einfach waschen, es ist im Handumdrehen wieder trocken und einsatzbereit. Durch das Elasthan ist der Stoff super formstabil und bleibt lange in Form - auch nach häufigem Tragen und Waschen. Das macht dein Shirt auch sehr langlebig und nachhaltig. ",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "Jetzt shoppen",
+        "url_produkt_link": "shopify://collections/bekleidung",
+        "checkbox_swiper_script": true
       }
     }
   },
@@ -132,6 +136,6 @@
     "l_content_left_yYpyzA",
     "l_content_right_XTEt4Y",
     "l_text_logos_EDCQVe",
-    "product_hero_B6kX4k"
+    "l_produkt_iPtrPc"
   ]
 }
