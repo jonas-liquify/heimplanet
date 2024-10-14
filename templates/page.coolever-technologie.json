@@ -32,6 +32,7 @@
     },
     "default": {
       "type": "default",
+      "disabled": true,
       "settings": {
       }
     },
@@ -102,6 +103,22 @@
         "text_headline": "HAUPTMERKMALE",
         "textarea_text": ""
       }
+    },
+    "l_text_logos_EDCQVe": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "text_text": "Auf Reisen kannst Du Dein T-Shirt / Longsleeve schnell & einfach waschen, es ist im Handumdrehen wieder trocken und einsatzbereit. Durch das Elasthan ist der Stoff super formstabil und bleibt lange in Form - auch nach häufigem Tragen und Waschen. Das macht dein Shirt auch sehr langlebig und nachhaltig. "
+      }
+    },
+    "product_hero_B6kX4k": {
+      "type": "product_hero",
+      "settings": {
+        "text_beschreibung": "Beschreibung anzeigen",
+        "text_lieferumfang": "Lieferumfang anzeigen",
+        "text_zubehoer": "Zubehör ergänzen"
+      }
     }
   },
   "layout": "page",
@@ -113,6 +130,8 @@
     "l_content_left_Q9jJDd",
     "l_content_right_G6XinF",
     "l_content_left_yYpyzA",
-    "l_content_right_XTEt4Y"
+    "l_content_right_XTEt4Y",
+    "l_text_logos_EDCQVe",
+    "product_hero_B6kX4k"
   ]
 }
