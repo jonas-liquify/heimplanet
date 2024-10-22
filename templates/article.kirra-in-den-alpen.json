@@ -13,7 +13,7 @@
       "type": "collection_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "{{ article.title }}",
+        "text_headline": "Kirra",
         "textarea_paragraph": "",
         "url_button_link": "",
         "text_button_text": "Jetzt entdecken",
@@ -46,6 +46,7 @@
         "slider_4JBk4w": {
           "type": "slider",
           "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-7.jpg"
           }
         }
       },
