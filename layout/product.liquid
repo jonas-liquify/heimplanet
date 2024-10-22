@@ -187,7 +187,6 @@
               }
             })
             .then(() => setActiveRadios())
-            .then(() => window.lightbox.init())
             .then(() => {
               $(".swiper-container").each(function(index) {
                 const thumbsSwiper = new Swiper($(this).find(".swiper.is-product-thumbnail")[0], {
