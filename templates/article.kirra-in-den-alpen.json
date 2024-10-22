@@ -31,6 +31,12 @@
     "l_slider_CrFdK4": {
       "type": "l_slider",
       "blocks": {
+        "slider_4JBk4w": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-7.jpg"
+          }
+        },
         "slider_XKX8WY": {
           "type": "slider",
           "settings": {
@@ -42,18 +48,12 @@
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg"
           }
-        },
-        "slider_4JBk4w": {
-          "type": "slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-7.jpg"
-          }
         }
       },
       "block_order": [
+        "slider_4JBk4w",
         "slider_XKX8WY",
-        "slider_eqwN3V",
-        "slider_4JBk4w"
+        "slider_eqwN3V"
       ],
       "settings": {
         "checkbox_swiper_script": true
