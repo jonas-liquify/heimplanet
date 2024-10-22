@@ -176,7 +176,7 @@
         const sectionElement = document.querySelector(sectionSelector);
         if (sectionElement) {
           const sectionId = sectionElement.dataset.sectionId;
-          fetch(`/?section_id=shopify-section-template--20620169511179__product_hero&variant=${variantId}`)
+          fetch(`/?section_id=template--20620169511179__product_hero&variant=${variantId}`)
             .then((response) => response.text())
             .then((html) => {
               const newDocument = new DOMParser().parseFromString(html, "text/html");
