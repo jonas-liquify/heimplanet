@@ -180,8 +180,8 @@
             .then((response) => response.text())
             .then((html) => {
               const newDocument = new DOMParser().parseFromString(html, "text/html");
-              const newSection = newDocument.querySelector(`#shopify-section-template--20620169511179__product_hero`);
-              const currentSection = document.querySelector(`#shopify-section-template--20620169511179__product_hero`);
+              const newSection = newDocument.querySelector(`#shopify-section-${sectionId}`);
+              const currentSection = document.querySelector(`#shopify-section-${sectionId}`);
               if (currentSection && newSection) {
                 currentSection.innerHTML = newSection.innerHTML;
               }
