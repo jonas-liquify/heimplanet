@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection_hero": {
+      "type": "collection_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "{{ article.title }}",
+        "textarea_paragraph": "",
+        "url_button_link": "",
+        "text_button_text": "Jetzt entdecken",
+        "image_bild": "{{ article.image }}"
+      }
+    },
+    "article_content": {
+      "type": "article_content",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "l_slider_CrFdK4": {
+      "type": "l_slider",
+      "blocks": {
+        "slider_XKX8WY": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Three-souls-a-yranean-quest-Banner.jpg"
+          }
+        },
+        "slider_eqwN3V": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg"
+          }
+        },
+        "slider_4JBk4w": {
+          "type": "slider",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "slider_XKX8WY",
+        "slider_eqwN3V",
+        "slider_4JBk4w"
+      ],
+      "settings": {
+        "checkbox_swiper_script": true
+      }
+    },
+    "article_richtext_AR4add": {
+      "type": "article_richtext",
+      "settings": {
+        "richtext_text": "<p>What’s a Rich Text element?The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.Static and dynamic content editingA rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and</p>"
+      }
+    },
+    "article_products_V4qaqk": {
+      "type": "article_products",
+      "settings": {
+        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
+      }
+    }
+  },
+  "layout": "article",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "collection_hero",
+    "article_content",
+    "l_slider_CrFdK4",
+    "article_richtext_AR4add",
+    "article_products_V4qaqk",
+    "article_next"
+  ]
+}
