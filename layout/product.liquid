@@ -173,9 +173,9 @@
         });
       }
       const renderSection = (variantId, sectionSelector) => {
-        const sectionElement = document.querySelector(sectionSelector);
+        const sectionElement = document.querySelector(`#shopify-section-${sectionSelector}`);
         if (sectionElement) {
-          const sectionId = sectionElement.dataset.sectionId;
+          const sectionId = `${sectionSelector}`;
           fetch(`${window.location.pathname}?section_id=${sectionId}&variant=${variantId}`)
             .then((response) => response.text())
             .then((html) => {
