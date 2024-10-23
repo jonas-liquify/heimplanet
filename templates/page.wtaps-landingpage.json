@@ -1,18 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "l_header_Y3FV4c": {
       "type": "l_header",
       "settings": {
-        "url_button_url": "shopify:\/\/collections\/zelte",
+        "url_button_url": "shopify://collections/zelte",
         "text_button_text": "Zelte entdecken"
       }
     },
@@ -26,15 +26,15 @@
         "url_button_link": "",
         "text_button_text_2": "",
         "url_button_link_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-Edition-4-1.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-WTAPS-Kirra-2024-Edition-4-1.jpg"
       }
     },
     "l_gallery_kkUYFT": {
       "type": "l_gallery",
       "settings": {
-        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-Edition-1-2.jpg",
-        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-Edition-7-1.jpg",
-        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-Edition-6-1.jpg"
+        "image_bild_1": "shopify://shop_images/Heimplanet-WTAPS-Kirra-2024-Edition-1-2.jpg",
+        "image_bild_2": "shopify://shop_images/Heimplanet-WTAPS-Kirra-2024-Edition-7-1.jpg",
+        "image_bild_3": "shopify://shop_images/Heimplanet-WTAPS-Kirra-2024-Edition-6-1.jpg"
       }
     },
     "l_text_logos_WYDVXE": {
@@ -43,7 +43,7 @@
         "logo_qNUJTe": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Logo-24.png"
+            "image_logo": "shopify://shop_images/Heimplanet-WTAPS-Logo-24.png"
           }
         }
       },
@@ -62,35 +62,35 @@
         "item_YJ3Mzz": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/309042_group_users_people_icon_328e930a-0021-4c0f-baef-bb2e6fe16fc4.png",
+            "image_icon": "shopify://shop_images/309042_group_users_people_icon_328e930a-0021-4c0f-baef-bb2e6fe16fc4.png",
             "text_text": "Zelt für 2 Personen"
           }
         },
         "item_QbrcwA": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/23-05-11_Icon_Transit2.png",
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit2.png",
             "text_text": "Viel Platz mit kleinem Packmass"
           }
         },
         "item_zxCrhF": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/23-05-11_Icon_Transit4.png",
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit4.png",
             "text_text": "Highlight: Kein Erstaufbau notwendig"
           }
         },
         "item_YaGrAR": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/23-05-11_Icon_Carry_Essentials3.png",
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials3.png",
             "text_text": "Velcro Patch"
           }
         },
         "item_w864Ee": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/23-05-11_Icon_Motion4.png",
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Motion4.png",
             "text_text": "11 Prints"
           }
         }
@@ -104,16 +104,16 @@
       ],
       "settings": {
         "text_headline": "KIRRA, WTAPS edition",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-1_bf312372-86c2-4eae-a94b-52defb38bd32.jpg"
+        "textarea_text": "",
+        "image_bild": "shopify://shop_images/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-1_bf312372-86c2-4eae-a94b-52defb38bd32.jpg"
       }
     },
     "l_content_right_MzQaLt": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kirra-2024-6.jpg",
+        "image_bild": "shopify://shop_images/Heimplanet-WTAPS-Kirra-2024-6.jpg",
         "text_headline": "Inklusive WTAPS Pumpe",
-        "textarea_text": "Unsere Doppelhubpumpe ist die perfekte Ergänzung zur Kirra, WTAPS Edition. Es genügen wenige Pumpenhübe, um das Zelt aufzustellen. Im Gegensatz zu den meisten anderen Pumpen ist diese Pumpe mit einem Aluminiumkolben ausgestattet, der eine lange Lebensdauer und eine stabile Handhabung ermöglicht. <b>Die Pumpe ist erstmals im Lieferumfang enthalten.<\/b>"
+        "textarea_text": "Unsere Doppelhubpumpe ist die perfekte Ergänzung zur Kirra, WTAPS Edition. Es genügen wenige Pumpenhübe, um das Zelt aufzustellen. Im Gegensatz zu den meisten anderen Pumpen ist diese Pumpe mit einem Aluminiumkolben ausgestattet, der eine lange Lebensdauer und eine stabile Handhabung ermöglicht. <b>Die Pumpe ist erstmals im Lieferumfang enthalten.</b>"
       }
     },
     "l_content_left_dD3iJ6": {
@@ -122,28 +122,28 @@
         "item_KMHyDd": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "image_icon": "shopify://shop_images/check.svg",
             "text_text": "Geodätisches Prinzip"
           }
         },
         "item_QGmVR4": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "image_icon": "shopify://shop_images/check.svg",
             "text_text": "Patentiertes Mehrkammer-Sicherheitssystem"
           }
         },
         "item_jCnXFD": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "image_icon": "shopify://shop_images/check.svg",
             "text_text": "Doppellagiger Luftrahmen"
           }
         },
         "item_pM9Ce3": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "image_icon": "shopify://shop_images/check.svg",
             "text_text": "Stabil & widerstandsfähig"
           }
         }
@@ -157,7 +157,7 @@
       "settings": {
         "text_headline": "Zelt Technologie",
         "textarea_text": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-6.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-6.jpg"
       }
     },
     "l_produkt_Vft7Dw": {
@@ -166,7 +166,7 @@
         "produkt_slider_3KYKPL": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-1_bf312372-86c2-4eae-a94b-52defb38bd32.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-WTAPS-Kira-2024-Limited-Edtion-1_bf312372-86c2-4eae-a94b-52defb38bd32.jpg"
           }
         }
       },
@@ -179,7 +179,7 @@
         "text_preis": "1.049€",
         "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
         "text_button_text": "Jetzt bestellen",
-        "url_produkt_link": "shopify:\/\/products\/kirra-x-wtaps",
+        "url_produkt_link": "shopify://products/kirra-x-wtaps",
         "checkbox_swiper_script": true
       }
     }
