@@ -1,18 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "l_header_UeBxHF": {
       "type": "l_header",
       "settings": {
-        "url_button_url": "shopify:\/\/products\/carry-essentials-packing-cubes-re-store-edition-set",
+        "url_button_url": "shopify://products/carry-essentials-packing-cubes-re-store-edition-set",
         "text_button_text": "Jetzt shoppen"
       }
     },
@@ -26,7 +26,7 @@
         "url_button_link": "",
         "text_button_text_2": "",
         "url_button_link_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-10.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-10.jpg"
       }
     },
     "l_text_logos_iV7Cd4": {
@@ -40,9 +40,9 @@
     "l_gallery_VCLFWU": {
       "type": "l_gallery",
       "settings": {
-        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-9.jpg",
-        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-2.jpg",
-        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-7.jpg"
+        "image_bild_1": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-9.jpg",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-2.jpg",
+        "image_bild_3": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-7.jpg"
       }
     },
     "l_content_right_FBHEnC": {
@@ -51,35 +51,35 @@
         "item_C7Actj": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "image_icon": "shopify://shop_images/check.svg",
             "text_text": "Upcycling-Produkt"
           }
         },
         "item_cdwi7p": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "image_icon": "shopify://shop_images/check.svg",
             "text_text": "Leicht und unübersehbar"
           }
         },
         "item_BNEER7": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "image_icon": "shopify://shop_images/check.svg",
             "text_text": "Hergestellt aus Stoffresten unseres Expeditionzelts Mavericks"
           }
         },
         "item_ExyLAT": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "image_icon": "shopify://shop_images/check.svg",
             "text_text": "Wetterfest - 5000mm und wasserabweisende Reißverschlüsse"
           }
         },
         "item_Yb3WcE": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/check.svg",
+            "image_icon": "shopify://shop_images/check.svg",
             "text_text": "Verschiedenfarbige Reißverschlüsse vermeiden Verwirrung"
           }
         }
@@ -92,7 +92,7 @@
         "item_Yb3WcE"
       ],
       "settings": {
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-1.jpg",
+        "image_bild": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-1.jpg",
         "text_headline": "HIGHLIGHTS",
         "textarea_text": ""
       }
@@ -102,7 +102,7 @@
       "settings": {
         "text_headline": "BLEIBT TROCKEN, BLEIBT ORGANISIERT",
         "textarea_text": "Genau wie Mavericks geschaffen wurde, um den härtesten Umgebungen standzuhalten, findet sein Stoff jetzt in einer anderen Form ein neues Leben. Ein Symbol für Anpassungsfähigkeit und Robustheit. Es ist ein Zeugnis für die Idee, dass jedes Material, unabhängig von seinem ursprünglichen Zweck, neu gedacht und neu verwertet werden kann.",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-12.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-12.jpg"
       }
     },
     "l_produkt_RWw8XL": {
@@ -111,24 +111,12 @@
         "produkt_slider_KiwGwA": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-7.jpg"
-          }
-        },
-        "produkt_slider_DrBMEE": {
-          "type": "produkt-slider",
-          "settings": {
-          }
-        },
-        "produkt_slider_Kk3qgH": {
-          "type": "produkt-slider",
-          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-7.jpg"
           }
         }
       },
       "block_order": [
-        "produkt_slider_KiwGwA",
-        "produkt_slider_DrBMEE",
-        "produkt_slider_Kk3qgH"
+        "produkt_slider_KiwGwA"
       ],
       "settings": {
         "text_headline": "Packing Cubes, Re-Store Edition",
@@ -136,7 +124,7 @@
         "text_preis": "39€",
         "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
         "text_button_text": "Jetzt bestellen",
-        "url_produkt_link": "shopify:\/\/products\/carry-essentials-packing-cubes-re-store-edition-set",
+        "url_produkt_link": "shopify://products/carry-essentials-packing-cubes-re-store-edition-set",
         "checkbox_swiper_script": true
       }
     }
