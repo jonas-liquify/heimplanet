@@ -33,8 +33,8 @@
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
-        "text_headline": "<em>»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.«</em>",
-        "text_text": "<br>- R. Buckminster Fuller (Erfinder der geodätischen Kuppel)"
+        "text_headline": "»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.«",
+        "text_text": "- R. Buckminster Fuller (Erfinder der geodätischen Kuppel)"
       }
     },
     "l_dropdowns_QLKfit": {
@@ -101,6 +101,51 @@
         "text_headline": "Geodätisches Prinzip",
         "textarea_text": "HEIMPLANET Zelte sehen anders aus als herkömmliche Zelte. Die herausstechende Ästhetik war allerdings nicht Ziel des Designprozesses, sondern ist eine Konsequenz der Funktionalität. Auf der Suche nach einer passenden Struktur für unsere Zelte, stießen wir auf die sogenannte geodätische Kuppel - die leichteste, stärkste und effizienteste Struktur, die jemals entwickelt wurde. Durch geometrische Transformationen dieser Grundstruktur sind die HEIMPLANET Zeltmodelle entstanden, die ihr heute kennt."
       }
+    },
+    "l_grid_6yDntR": {
+      "type": "l_grid",
+      "blocks": {
+        "item_BqGJK9": {
+          "type": "item",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Technik-Small.jpg",
+            "text_headline": "Inflatable DIamond Grid (IDG)",
+            "text_text": "",
+            "text_zahl": "",
+            "text_zahl_text": ""
+          }
+        },
+        "item_JgmhLx": {
+          "type": "item",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Inner-Tent-Technik.jpg",
+            "text_headline": "Inflatable DIamond Grid + Innenzelt",
+            "text_text": "",
+            "text_zahl": "",
+            "text_zahl_text": ""
+          }
+        },
+        "item_rMBFGH": {
+          "type": "item",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Technik-Small.jpg",
+            "text_headline": "IDG + Innenzelt + Außenzelt",
+            "text_text": "",
+            "text_zahl": "",
+            "text_zahl_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_BqGJK9",
+        "item_JgmhLx",
+        "item_rMBFGH"
+      ],
+      "settings": {
+        "text_headline": "Keine Einzelteile - Das Zelt als Einheit",
+        "text_mixed_material": "",
+        "text_mono_material": ""
+      }
     }
   },
   "layout": "page.landingpage",
@@ -109,6 +154,7 @@
     "l_header_trans_white_mHj3Px",
     "l_hero",
     "l_text_logos_AVETGK",
-    "l_dropdowns_QLKfit"
+    "l_dropdowns_QLKfit",
+    "l_grid_6yDntR"
   ]
 }
