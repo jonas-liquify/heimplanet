@@ -152,6 +152,25 @@
         "text_mixed_material": "Das Aufpumpen unserer Zelte funktioniert intuitiv und folgt einem einfachen Prinzip: Ausrollen, aufpumpen & fertig! Das Besondere: Aufblasbarer Rahmen, Innen- und Außenzelt funktionieren als Einheit und müssen nur einmalig beim sogenannten 'First Assembly' (Erstaufbau) verbunden werden. ",
         "text_mono_material": ""
       }
+    },
+    "l_content_image_bg_Xxcqzb": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "",
+        "text_headline_2": "One-Pump-System und 2-in-1-Ventile",
+        "image_bild": "shopify://shop_images/The-Cave-Cairo-Camo-13.jpg"
+      }
+    },
+    "l_reveal_slider_QzHagy": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_vorher": "This is some text inside of a div block.",
+        "text_nachher": "This is some text inside of a div block."
+      }
     }
   },
   "layout": "page.landingpage",
@@ -161,6 +180,8 @@
     "l_hero",
     "l_text_logos_AVETGK",
     "l_dropdowns_QLKfit",
-    "l_grid_6yDntR"
+    "l_grid_6yDntR",
+    "l_content_image_bg_Xxcqzb",
+    "l_reveal_slider_QzHagy"
   ]
 }
