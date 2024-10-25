@@ -43,25 +43,63 @@
         "dropdown_EBDbhM": {
           "type": "dropdown",
           "settings": {
-            "text_headline": "Häufige Fragen & Antworten",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "text_headline": "Fistral",
+            "textarea_text": "FISTRAL ist der Name unseres aufblasbaren Zelts für 1-2 Personen. Sein kompaktes Design bietet große Flexibilität und ein minimales Packmaß und Gewicht. Zwei Eingänge und zwei Apsiden sorgen für maximalen Komfort. Mit einer Pumpe lässt sich das Zelt in weniger als einer Minute aufstellen.",
+            "image_bild": "shopify://shop_images/IDG_Fistral.png"
           }
         },
         "dropdown_MJRE6g": {
           "type": "dropdown",
           "settings": {
-            "text_headline": "Häufige Fragen &amp; Antworten",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "text_headline": "Kirra",
+            "textarea_text": "Kirra ist unser aufblasbares Zelt für 2 Personen mit viel Equipment. Dank seiner besonderen Rahmenstruktur bietet Kirra ein gutes Gleichgewicht zwischen Komfort und Effizienz. Das geodätische Prinzip macht das Zelt besonders sturmsicher. Das aufblasbare Diamond Grid (IDG) garantiert nicht nur Stabilität, sondern auch einen intuitiven und einfachen Aufbau.",
+            "image_bild": "shopify://shop_images/IDG_Kirra.png"
+          }
+        },
+        "dropdown_Ld9Ni8": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "The Cave",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/IDG_TheCave.png"
+          }
+        },
+        "dropdown_kbVqqE": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Backdoor",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/IDG_Backdoor.png"
+          }
+        },
+        "dropdown_QYJjaz": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Cloudbreak",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/IDG_Cloudbreak.png"
+          }
+        },
+        "dropdown_Ubhy6n": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Mavericks",
+            "textarea_text": "",
+            "image_bild": "shopify://shop_images/IDG_Mavericks_png.png"
           }
         }
       },
       "block_order": [
         "dropdown_EBDbhM",
-        "dropdown_MJRE6g"
+        "dropdown_MJRE6g",
+        "dropdown_Ld9Ni8",
+        "dropdown_kbVqqE",
+        "dropdown_QYJjaz",
+        "dropdown_Ubhy6n"
       ],
       "settings": {
-        "text_headline": "Mono Dyecoshell",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+        "text_headline": "Geodätische Kuppel",
+        "textarea_text": "HEIMPLANET Zelte sehen anders aus als herkömmliche Zelte. Die herausstechende Ästhetik war allerdings nicht Ziel des Designprozesses, sondern ist eine Konsequenz der Funktionalität. Auf der Suche nach einer passenden Struktur für unsere Zelte, stießen wir auf die sogenannte geodätische Kuppel - die leichteste, stärkste und effizienteste Struktur, die jemals entwickelt wurde. Durch geometrische Transformationen dieser Grundstruktur sind die HEIMPLANET Zeltmodelle entstanden, die ihr heute kennt."
       }
     }
   },
