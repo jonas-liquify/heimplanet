@@ -43,6 +43,7 @@
         "dropdown_EBDbhM": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "Fistral",
             "textarea_text": "FISTRAL ist der Name unseres aufblasbaren Zelts für 1-2 Personen. Sein kompaktes Design bietet große Flexibilität und ein minimales Packmaß und Gewicht. Zwei Eingänge und zwei Apsiden sorgen für maximalen Komfort. Mit einer Pumpe lässt sich das Zelt in weniger als einer Minute aufstellen.",
             "image_bild": "shopify://shop_images/IDG_Fistral.png"
@@ -51,6 +52,7 @@
         "dropdown_MJRE6g": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "Kirra",
             "textarea_text": "Kirra ist unser aufblasbares Zelt für 2 Personen mit viel Equipment. Dank seiner besonderen Rahmenstruktur bietet Kirra ein gutes Gleichgewicht zwischen Komfort und Effizienz. Das geodätische Prinzip macht das Zelt besonders sturmsicher. Das aufblasbare Diamond Grid (IDG) garantiert nicht nur Stabilität, sondern auch einen intuitiven und einfachen Aufbau.",
             "image_bild": "shopify://shop_images/IDG_Kirra.png"
@@ -59,6 +61,7 @@
         "dropdown_Ld9Ni8": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "The Cave",
             "textarea_text": "THE CAVE war unser erstes aufblasbares Zelt, immer noch kultig und perfekt für 2-3 Personen. Alles, was Du brauchst, ist eine Pumpe, um Dein Zelt in weniger als einer Minute aufzustellen. Dank seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten THE CAVE ist es extrem stabil und dank der hochwertigen Materialien auch wetterfest sowie langlebig.",
             "image_bild": "shopify://shop_images/IDG_TheCave.png"
@@ -67,6 +70,7 @@
         "dropdown_kbVqqE": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "Backdoor",
             "textarea_text": "Backdoor ist das 4 Personen Zelt von HEIMPLANET - perfekt für Familien oder Gruppen bis zu 4 Personen. Es ist für einen breiten Einsatzbereich konzipiert und eignet sich perfekt für das Camping von Frühling bis Herbst. Der vordere Eingang verfügt über eine geräumige Apsis, die über eine geteilte Innenzelttür einen einfachen Zugang zum Hauptzelt bietet.",
             "image_bild": "shopify://shop_images/IDG_Backdoor.png"
@@ -75,6 +79,7 @@
         "dropdown_QYJjaz": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "Cloudbreak",
             "textarea_text": "Benannt nach einer großen Welle auf den Fiji-Inseln, ist das Cloudbreak ein zuverlässiges, flexibles und einfach zu nutzendes Zelt für Gruppen-, Familiencamping und Overlanding. Mit der zusätzlichen Schlafkabine für bis zu 4 Personen und viel Platz zum Kochen und Wohnen, ist Cloudbreak wie ein Haus zum Mitnehmen.",
             "image_bild": "shopify://shop_images/IDG_Cloudbreak.png"
@@ -83,6 +88,7 @@
         "dropdown_Ubhy6n": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "Mavericks",
             "textarea_text": "Unser Mehrzweckzelt MAVERICKS ist speziell für extreme Bedingungen konzipiert. Es kann zum Beispiel als Basislager oder Gruppenzelt verwendet werden. Es hat eine Innenhöhe von zwei Metern und eine Grundfläche von mehr als 13 Quadratmetern. Das gesamte Zelt kann von einer Person in kürzester Zeit aufgebaut werden.",
             "image_bild": "shopify://shop_images/IDG_Mavericks_png.png"
@@ -109,7 +115,7 @@
           "type": "item",
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Technik-Small.jpg",
-            "text_headline": "Inflatable DIamond Grid (IDG)",
+            "text_headline": "Aufblasbarer Rahmen (IDG)",
             "text_text": "",
             "text_zahl": "",
             "text_zahl_text": ""
@@ -119,7 +125,7 @@
           "type": "item",
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Inner-Tent-Technik.jpg",
-            "text_headline": "Inflatable DIamond Grid + Innenzelt",
+            "text_headline": "Aufblasbarer Rahmen + Innenzelt",
             "text_text": "",
             "text_zahl": "",
             "text_zahl_text": ""
@@ -129,7 +135,7 @@
           "type": "item",
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Technik-Small.jpg",
-            "text_headline": "IDG + Innenzelt + Außenzelt",
+            "text_headline": "Aufblasbarer Rahmen + Innen-/  Außenzelt",
             "text_text": "",
             "text_zahl": "",
             "text_zahl_text": ""
@@ -143,7 +149,7 @@
       ],
       "settings": {
         "text_headline": "Keine Einzelteile - Das Zelt als Einheit",
-        "text_mixed_material": "",
+        "text_mixed_material": "Das Aufpumpen unserer Zelte funktioniert intuitiv und folgt einem einfachen Prinzip: Ausrollen, aufpumpen & fertig! Das Besondere: Aufblasbarer Rahmen, Innen- und Außenzelt funktionieren als Einheit und müssen nur einmalig beim sogenannten 'First Assembly' (Erstaufbau) verbunden werden. ",
         "text_mono_material": ""
       }
     }
