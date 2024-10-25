@@ -60,7 +60,7 @@
           "type": "dropdown",
           "settings": {
             "text_headline": "The Cave",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "textarea_text": "THE CAVE war unser erstes aufblasbares Zelt, immer noch kultig und perfekt für 2-3 Personen. Alles, was Du brauchst, ist eine Pumpe, um Dein Zelt in weniger als einer Minute aufzustellen. Dank seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten THE CAVE ist es extrem stabil und dank der hochwertigen Materialien auch wetterfest sowie langlebig.",
             "image_bild": "shopify://shop_images/IDG_TheCave.png"
           }
         },
@@ -68,7 +68,7 @@
           "type": "dropdown",
           "settings": {
             "text_headline": "Backdoor",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "textarea_text": "Backdoor ist das 4 Personen Zelt von HEIMPLANET - perfekt für Familien oder Gruppen bis zu 4 Personen. Es ist für einen breiten Einsatzbereich konzipiert und eignet sich perfekt für das Camping von Frühling bis Herbst. Der vordere Eingang verfügt über eine geräumige Apsis, die über eine geteilte Innenzelttür einen einfachen Zugang zum Hauptzelt bietet.",
             "image_bild": "shopify://shop_images/IDG_Backdoor.png"
           }
         },
@@ -76,7 +76,7 @@
           "type": "dropdown",
           "settings": {
             "text_headline": "Cloudbreak",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "textarea_text": "Benannt nach einer großen Welle auf den Fiji-Inseln, ist das Cloudbreak ein zuverlässiges, flexibles und einfach zu nutzendes Zelt für Gruppen-, Familiencamping und Overlanding. Mit der zusätzlichen Schlafkabine für bis zu 4 Personen und viel Platz zum Kochen und Wohnen, ist Cloudbreak wie ein Haus zum Mitnehmen.",
             "image_bild": "shopify://shop_images/IDG_Cloudbreak.png"
           }
         },
@@ -84,7 +84,7 @@
           "type": "dropdown",
           "settings": {
             "text_headline": "Mavericks",
-            "textarea_text": "",
+            "textarea_text": "Unser Mehrzweckzelt MAVERICKS ist speziell für extreme Bedingungen konzipiert. Es kann zum Beispiel als Basislager oder Gruppenzelt verwendet werden. Es hat eine Innenhöhe von zwei Metern und eine Grundfläche von mehr als 13 Quadratmetern. Das gesamte Zelt kann von einer Person in kürzester Zeit aufgebaut werden.",
             "image_bild": "shopify://shop_images/IDG_Mavericks_png.png"
           }
         }
