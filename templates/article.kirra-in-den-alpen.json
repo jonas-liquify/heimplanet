@@ -111,6 +111,13 @@
         "checkbox_swiper_script": false
       }
     },
+    "l_headline_mono_4Vq68U": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission Regentest Geglückt",
+        "text_headline": "Regen, Wind & schwieriges terrain <br>das kirra hat standgehalten"
+      }
+    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
@@ -155,13 +162,6 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>das kirra hat standgehalten"
-      }
-    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -183,8 +183,8 @@
     "l_content_right_hKLaVw",
     "l_gallery_67Grn9",
     "l_step_slider_z93mQW",
-    "l_produkt_QbA6R8",
     "l_headline_mono_4Vq68U",
+    "l_produkt_QbA6R8",
     "article_next"
   ]
 }
