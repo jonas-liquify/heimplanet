@@ -28,31 +28,6 @@
         "html_richtext": "<iframe src=\"https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=aLKtON_mEg4VIHaN\" style=\"aspect-ratio: 16 / 9;\" width=\"100%\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" frameborder=\"0\" player=\"\" video=\"\" youtube=\"\"></iframe><p></p><p></p><p></p>"
       }
     },
-    "collection_hero": {
-      "type": "collection_hero",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "Kirra in den Alpen",
-        "textarea_paragraph": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen",
-        "url_button_link": "https://heimplanet.com/products/kirra-classic",
-        "text_button_text": "Zum Kirra",
-        "image_bild": "shopify://shop_images/BIG07602.jpg"
-      }
-    },
-    "article_content": {
-      "type": "article_content",
-      "custom_css": [
-
-      ],
-      "settings": {
-      }
-    },
-    "article_richtext_AR4add": {
-      "type": "article_richtext",
-      "settings": {
-        "richtext_text": "<p>What’s a Rich Text element?The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.Static and dynamic content editingA rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and</p>"
-      }
-    },
     "article_products_V4qaqk": {
       "type": "article_products",
       "settings": {
@@ -61,10 +36,18 @@
         "text_button_text": "Mehr davon"
       }
     },
+    "l_content_right_fX4Dcz": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/BIG07602_8e362c39-d237-4cbf-b0d4-a4ac0ee0152e.jpg",
+        "text_headline": "MISSION ...",
+        "textarea_text": "Manchmal ist es das Abenteuer selbst, das ein Wochenende unvergesslich macht – und genau das war der Fall, als Lukas Bigler und sein Freund Nico das Heimplanet Kirra Zelt in den Urner Alpen testeten. Bei wechselhaftem Herbstwetter und einer ungewissen Prognose wollten die beiden ihre Wanderung zum Griessseeli dennoch nicht absagen. Im Gegenteil: Es war die perfekte Gelegenheit, um das Kirra Zelt in einer der eindrucksvollsten, aber auch anspruchsvollsten Umgebungen auf Herz und Nieren zu testen."
+      }
+    },
     "l_content_left_LMgdf7": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "samstag | ankunft",
+        "text_headline": "Tag 1 // ankunft",
         "textarea_text": "Die Vorzeichen standen auf Regen, aber Lukas und Nico ließen sich davon nicht abschrecken. Am Samstagnachmittag machten sie sich auf den Weg, eine etwa 40-minütige Wanderung durch die herbstliche Dämmerung, die über die Seitenmoräne des Gletschers führte. Angekommen an ihrem Ziel entdeckten sie eine kleine Insel am Rand des Griessseelis – genau der richtige Platz, um das Zelt aufzubauen und die Nacht in der wilden Natur zu verbringen.\n<br><br>\nTrotz des einsetzenden Regens ließ sich das Kirra Zelt dank seiner aufblasbaren Konstruktion innerhalb weniger Minuten und mit einer kleinen Pumpe unkompliziert aufstellen. Schon bald stand das Zelt, bereit, die beiden für die Nacht zu schützen. Durch den starken Regen zog es Lukas und Nico früh in die Schlafsäcke – mit der Hoffnung, am nächsten Morgen von einem epischen Sonnenaufgang über dem Gletschersee geweckt zu werden.",
         "image_bild": "shopify://shop_images/BIG07401_49559bfe-9ef9-46fb-a6a4-20ede6d330a3.jpg"
       }
@@ -73,79 +56,8 @@
       "type": "l_content_right",
       "settings": {
         "image_bild": "shopify://shop_images/BIG07448.jpg",
-        "text_headline": "sonntag | auf geht's",
+        "text_headline": "Tag 2 // Los geht's",
         "textarea_text": "Der Regen begleitete die beiden die ganze Nacht hindurch. Doch das Kirra Zelt hielt stand: Obwohl es frisch war, blieb im Inneren alles angenehm trocken, und das robuste Material zeigte sich den Bedingungen mehr als gewachsen.\n<br><br>\nStatt eines Sonnenaufgangs erwartete Lukas und Nico jedoch eine mystische Szenerie: Der Himmel war von tief hängenden Wolken bedeckt, die in Kombination mit den verschneiten Gipfeln und dem blauen Gletschersee eine epische Kulisse boten. Die Stille und die Atmosphäre waren einmalig – das Kirra Zelt stand mitten in dieser rauen, wilden Landschaft und fügte sich perfekt in die Umgebung ein.\n<br><br>\nNach ein paar Fotos von der Szenerie und dem Zelt machten sich die beiden Freunde zufrieden auf den Heimweg. Das Wetter war zwar nicht ideal gewesen, aber genau das hatte den Ausflug zu einem echten Test für das Kirra gemacht. Und das Zelt hatte seine Aufgabe gemeistert: Es hielt Regen und Nässe mühelos stand und bot den beiden den Schutz und Komfort, den sie sich von einem Abenteuerzelt wünschen.\n<br><br>\nFazit: Das Heimplanet Kirra Zelt hat sich bewährt – sowohl bei Regen als auch in einer der spektakulärsten Landschaften der Schweiz. Die aufblasbare Konstruktion und das robuste Material machen es zu einem treuen Begleiter für alle, die sich auch bei unbeständigem Wetter nicht von ihrem Abenteuer abhalten lassen wollen."
-      }
-    },
-    "l_produkt_QbA6R8": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_NXrEjY": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/BIG07815_6fb0e94e-e317-42c7-a2cc-f593dbac2d7b.jpg"
-          }
-        },
-        "produkt_slider_Vq4m6i": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/BIG07865.jpg"
-          }
-        },
-        "produkt_slider_JPjh6F": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/BIG0760_5fd05633-2ae9-4191-9fc4-c46f7db37067.jpg"
-          }
-        },
-        "produkt_slider_heAKGw": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/BIG07272_ec9199e4-e139-472b-9035-5248e575e692.jpg"
-          }
-        },
-        "produkt_slider_ipBq33": {
-          "type": "produkt-slider",
-          "settings": {
-          }
-        },
-        "fact_tQ3c6w": {
-          "type": "fact",
-          "settings": {
-            "text_text": "5 Jahre Entwicklungszeit"
-          }
-        },
-        "fact_MnxFyG": {
-          "type": "fact",
-          "settings": {
-            "text_text": "5 Jahre Entwicklungszeit"
-          }
-        },
-        "fact_thTQjL": {
-          "type": "fact",
-          "settings": {
-            "text_text": "5 Jahre Entwicklungszeit"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_NXrEjY",
-        "produkt_slider_Vq4m6i",
-        "produkt_slider_JPjh6F",
-        "produkt_slider_heAKGw",
-        "produkt_slider_ipBq33",
-        "fact_tQ3c6w",
-        "fact_MnxFyG",
-        "fact_thTQjL"
-      ],
-      "settings": {
-        "text_headline": "KIRRA, CLASSIC",
-        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
-        "checkbox_swiper_script": true
       }
     },
     "l_step_slider_z93mQW": {
@@ -212,6 +124,62 @@
         "checkbox_swiper_script": false
       }
     },
+    "l_produkt_QbA6R8": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_ipBq33": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/BIG07286.jpg"
+          }
+        },
+        "fact_tQ3c6w": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Hervorragende Stabilität"
+          }
+        },
+        "fact_MnxFyG": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Einfache Handhabung"
+          }
+        },
+        "fact_thTQjL": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Lebenslange Garantie"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_ipBq33",
+        "fact_tQ3c6w",
+        "fact_MnxFyG",
+        "fact_thTQjL"
+      ],
+      "settings": {
+        "text_headline": "KIRRA, CLASSIC",
+        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "Zum Kirra",
+        "url_produkt_link": "shopify://products/kirra-classic",
+        "checkbox_swiper_script": true
+      }
+    },
+    "l_headline_mono_4Vq68U": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission Regentest Geglückt",
+        "text_headline": "Regen, Wind & schwieriges terrain <br>das kirra hat standgehalten"
+      }
+    },
+    "l_gallery_67Grn9": {
+      "type": "l_gallery",
+      "settings": {
+      }
+    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -220,18 +188,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
-      }
-    },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
-      "settings": {
-      }
     }
   },
   "layout": "article",
@@ -239,14 +195,12 @@
   "order": [
     "l_hero_ijQ63U",
     "l_html_text_xL8jRh",
-    "collection_hero",
-    "article_content",
-    "article_richtext_AR4add",
     "article_products_V4qaqk",
+    "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
-    "l_produkt_QbA6R8",
     "l_step_slider_z93mQW",
+    "l_produkt_QbA6R8",
     "l_headline_mono_4Vq68U",
     "l_gallery_67Grn9",
     "article_next"
