@@ -57,18 +57,20 @@
       "settings": {
         "image_bild": "shopify://shop_images/BIG07448.jpg",
         "text_headline": "Tag 2 // Los geht's",
-        "textarea_text": "Der Regen begleitete die beiden die ganze Nacht hindurch. Doch das Kirra Zelt hielt stand: Obwohl es frisch war, blieb im Inneren alles angenehm trocken, und das robuste Material zeigte sich den Bedingungen mehr als gewachsen.\n<br><br>\nStatt eines Sonnenaufgangs erwartete Lukas und Nico jedoch eine mystische Szenerie: Der Himmel war von tief hängenden Wolken bedeckt, die in Kombination mit den verschneiten Gipfeln und dem blauen Gletschersee eine epische Kulisse boten. Die Stille und die Atmosphäre waren einmalig – das Kirra Zelt stand mitten in dieser rauen, wilden Landschaft und fügte sich perfekt in die Umgebung ein.\n<br><br>\nNach ein paar Fotos von der Szenerie und dem Zelt machten sich die beiden Freunde zufrieden auf den Heimweg. Das Wetter war zwar nicht ideal gewesen, aber genau das hatte den Ausflug zu einem echten Test für das Kirra gemacht. Und das Zelt hatte seine Aufgabe gemeistert: Es hielt Regen und Nässe mühelos stand und bot den beiden den Schutz und Komfort, den sie sich von einem Abenteuerzelt wünschen.\n<br><br>\nFazit: Das Heimplanet Kirra Zelt hat sich bewährt – sowohl bei Regen als auch in einer der spektakulärsten Landschaften der Schweiz. Die aufblasbare Konstruktion und das robuste Material machen es zu einem treuen Begleiter für alle, die sich auch bei unbeständigem Wetter nicht von ihrem Abenteuer abhalten lassen wollen."
+        "textarea_text": "Der Regen begleitete die beiden die ganze Nacht hindurch. Doch das Kirra Zelt hielt stand: Obwohl es frisch war, blieb im Inneren alles angenehm trocken, und das robuste Material zeigte sich den Bedingungen mehr als gewachsen.\n<br><br>\nStatt eines Sonnenaufgangs erwartete Lukas und Nico jedoch eine mystische Szenerie: Der Himmel war von tief hängenden Wolken bedeckt, die in Kombination mit den verschneiten Gipfeln und dem blauen Gletschersee eine epische Kulisse boten. Die Stille und die Atmosphäre waren einmalig – das Kirra Zelt stand mitten in dieser rauen, wilden Landschaft und fügte sich perfekt in die Umgebung ein.\n<br><br>\nNach ein paar Fotos von der Szenerie und dem Zelt machten sich die beiden Freunde zufrieden auf den Heimweg. Das Wetter war zwar nicht ideal gewesen, aber genau das hatte den Ausflug zu einem echten Test für das Kirra gemacht. Und das Zelt hatte seine Aufgabe gemeistert: Es hielt Regen und Nässe mühelos stand und bot den beiden den Schutz und Komfort, den sie sich von einem Abenteuerzelt wünschen."
+      }
+    },
+    "l_gallery_67Grn9": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify://shop_images/BIG07273.jpg",
+        "image_bild_2": "shopify://shop_images/BIG07254.jpg",
+        "image_bild_3": "shopify://shop_images/BIG07865_6859fdbe-4133-4b84-9288-437147aa162c.jpg"
       }
     },
     "l_step_slider_z93mQW": {
       "type": "l_step_slider",
       "blocks": {
-        "feature_ARWQ9t": {
-          "type": "feature",
-          "settings": {
-            "text_text": "This is some text inside of a div block."
-          }
-        },
         "feature_YRDDyY": {
           "type": "feature",
           "settings": {
@@ -96,28 +98,13 @@
             "image_bild": "shopify://shop_images/BIG07272.jpg",
             "text_text": "04 willkommen zu hause"
           }
-        },
-        "feature_i3TWmk": {
-          "type": "feature",
-          "settings": {
-            "text_text": "This is some text inside of a div block."
-          }
-        },
-        "feature_8pXryN": {
-          "type": "feature",
-          "settings": {
-            "text_text": "This is some text inside of a div block."
-          }
         }
       },
       "block_order": [
-        "feature_ARWQ9t",
         "feature_YRDDyY",
         "feature_hNwaRE",
         "feature_QXJWWh",
-        "feature_KBNbia",
-        "feature_i3TWmk",
-        "feature_8pXryN"
+        "feature_KBNbia"
       ],
       "settings": {
         "text_headline": "",
@@ -175,11 +162,6 @@
         "text_headline": "Regen, Wind & schwieriges terrain <br>das kirra hat standgehalten"
       }
     },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
-      "settings": {
-      }
-    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -199,10 +181,10 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
+    "l_gallery_67Grn9",
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "l_headline_mono_4Vq68U",
-    "l_gallery_67Grn9",
     "article_next"
   ]
 }
