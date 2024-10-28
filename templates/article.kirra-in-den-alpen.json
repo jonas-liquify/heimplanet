@@ -121,23 +121,25 @@
         "produkt_slider_NXrEjY": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/BIG07602_43d3309b-5014-4c13-afae-da93d061a09d.jpg"
-          }
-        },
-        "produkt_slider_heAKGw": {
-          "type": "produkt-slider",
-          "settings": {
+            "image_bild": "shopify://shop_images/BIG07815_6fb0e94e-e317-42c7-a2cc-f593dbac2d7b.jpg"
           }
         },
         "produkt_slider_Vq4m6i": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/BIG07401_16bb16e0-b141-476f-96aa-65fede3be349.jpg"
+            "image_bild": "shopify://shop_images/BIG07865.jpg"
           }
         },
         "produkt_slider_JPjh6F": {
           "type": "produkt-slider",
           "settings": {
+            "image_bild": "shopify://shop_images/BIG0760_5fd05633-2ae9-4191-9fc4-c46f7db37067.jpg"
+          }
+        },
+        "produkt_slider_heAKGw": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/BIG07272_ec9199e4-e139-472b-9035-5248e575e692.jpg"
           }
         },
         "produkt_slider_ipBq33": {
@@ -166,9 +168,9 @@
       },
       "block_order": [
         "produkt_slider_NXrEjY",
-        "produkt_slider_heAKGw",
         "produkt_slider_Vq4m6i",
         "produkt_slider_JPjh6F",
+        "produkt_slider_heAKGw",
         "produkt_slider_ipBq33",
         "fact_tQ3c6w",
         "fact_MnxFyG",
@@ -191,28 +193,28 @@
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/BIG07815_4b0baf90-08ae-4ef7-b150-811e2078f927.jpg",
-            "text_text": "ausbreiten"
+            "text_text": "01 ausbreiten"
           }
         },
         "feature_hNwaRE": {
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/BIG07239.jpg",
-            "text_text": "aufpumpen"
+            "text_text": "02 aufpumpen"
           }
         },
         "feature_QXJWWh": {
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/BIG0760.jpg",
-            "text_text": "fixieren"
+            "text_text": "03 fixieren"
           }
         },
         "feature_KBNbia": {
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/BIG07272.jpg",
-            "text_text": "willkommen zu hause"
+            "text_text": "04 willkommen zu hause"
           }
         },
         "feature_i3TWmk": {
@@ -237,7 +239,7 @@
         "feature_8pXryN"
       ],
       "settings": {
-        "text_headline": "asdf",
+        "text_headline": "",
         "checkbox_swiper_script": false
       }
     },
