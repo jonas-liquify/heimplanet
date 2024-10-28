@@ -9,15 +9,28 @@
  */
 {
   "sections": {
+    "l_hero_ijQ63U": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "KIRRA IN DEN ALPEN",
+        "textarea_longer_text": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/BIG07273.jpg"
+      }
+    },
     "collection_hero": {
       "type": "collection_hero",
       "settings": {
         "text_subline": "",
         "text_headline": "Kirra in den Alpen",
-        "textarea_paragraph": "",
+        "textarea_paragraph": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen",
         "url_button_link": "https://heimplanet.com/products/kirra-classic",
         "text_button_text": "Zum Kirra",
-        "image_bild": "{{ article.image }}"
+        "image_bild": "shopify://shop_images/BIG07602.jpg"
       }
     },
     "article_content": {
@@ -28,32 +41,38 @@
       "settings": {
       }
     },
+    "l_html_text_xL8jRh": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "<iframe src=\"https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=aLKtON_mEg4VIHaN\" style=\"aspect-ratio: 16 / 9;\" width=\"100%\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" frameborder=\"0\" player=\"\" video=\"\" youtube=\"\"></iframe><p></p><p></p><p></p>"
+      }
+    },
     "l_slider_CrFdK4": {
       "type": "l_slider",
       "blocks": {
-        "slider_4JBk4w": {
-          "type": "slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-7.jpg"
-          }
-        },
         "slider_XKX8WY": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Three-souls-a-yranean-quest-Banner.jpg"
+            "image_bild": "shopify://shop_images/BIG07602_1ec8af69-4b5b-45fb-a17c-b79f0eeb851d.jpg"
           }
         },
         "slider_eqwN3V": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg"
+            "image_bild": "shopify://shop_images/BIG07401.jpg"
+          }
+        },
+        "slider_q3QaUh": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/BIG07387.jpg"
           }
         }
       },
       "block_order": [
-        "slider_4JBk4w",
         "slider_XKX8WY",
-        "slider_eqwN3V"
+        "slider_eqwN3V",
+        "slider_q3QaUh"
       ],
       "settings": {
         "checkbox_swiper_script": true
@@ -65,18 +84,32 @@
         "richtext_text": "<p>What’s a Rich Text element?The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.Static and dynamic content editingA rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and</p>"
       }
     },
-    "l_html_text_xL8jRh": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<iframe src=\"https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=aLKtON_mEg4VIHaN\" style=\"aspect-ratio: 16 / 9;\" width=\"100%\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" frameborder=\"0\" player=\"\" video=\"\" youtube=\"\"></iframe><p></p><p></p>"
-      }
-    },
     "article_products_V4qaqk": {
       "type": "article_products",
       "settings": {
         "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
         "url_button_link": "",
         "text_button_text": "Mehr davon"
+      }
+    },
+    "l_content_right_hKLaVw": {
+      "type": "l_content_right",
+      "blocks": {
+        "item_txMRWQ": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/BIG07401_25b8a63b-db44-4ee4-8599-77d3dc07c87c.jpg",
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        }
+      },
+      "block_order": [
+        "item_txMRWQ"
+      ],
+      "settings": {
+        "image_bild": "shopify://shop_images/BIG07602_8e362c39-d237-4cbf-b0d4-a4ac0ee0152e.jpg",
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     },
     "article_next": {
@@ -87,17 +120,38 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "l_gallery_JfULTP": {
+      "type": "l_gallery",
+      "settings": {
+      }
+    },
+    "l_produkt_QbA6R8": {
+      "type": "l_produkt",
+      "settings": {
+        "text_headline": "KIRRA, CLASSIC",
+        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "JETZT KAUFEN",
+        "url_produkt_link": "shopify://products/kirra-classic",
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
+    "l_hero_ijQ63U",
     "collection_hero",
     "article_content",
+    "l_html_text_xL8jRh",
     "l_slider_CrFdK4",
     "article_richtext_AR4add",
-    "l_html_text_xL8jRh",
     "article_products_V4qaqk",
-    "article_next"
+    "l_content_right_hKLaVw",
+    "article_next",
+    "l_gallery_JfULTP",
+    "l_produkt_QbA6R8"
   ]
 }
