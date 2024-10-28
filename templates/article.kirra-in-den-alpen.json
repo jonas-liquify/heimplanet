@@ -68,7 +68,7 @@
     "l_html_text_xL8jRh": {
       "type": "l_html_text",
       "settings": {
-        "html_richtext": "Text embed"
+        "html_richtext": "<iframe src=\"https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=aLKtON_mEg4VIHaN\" style=\"aspect-ratio: 16 / 9;\" width=\"100%\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" frameborder=\"0\" player=\"\" video=\"\" youtube=\"\"></iframe><p></p><p></p>"
       }
     },
     "article_products_V4qaqk": {
