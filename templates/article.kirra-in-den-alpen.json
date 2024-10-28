@@ -94,20 +94,10 @@
     },
     "l_content_right_hKLaVw": {
       "type": "l_content_right",
-      "blocks": {
-        "item_txMRWQ": {
-          "type": "item",
-          "settings": {
-            "text_text": "Zelt für 2-3 Personen"
-          }
-        }
-      },
-      "block_order": [
-        "item_txMRWQ"
-      ],
       "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "image_bild": "shopify://shop_images/BIG07448.jpg",
+        "text_headline": "Sunday",
+        "textarea_text": "Es war Zeit..."
       }
     },
     "l_gallery_JfULTP": {
@@ -189,6 +179,12 @@
     "l_step_slider_z93mQW": {
       "type": "l_step_slider",
       "blocks": {
+        "feature_ARWQ9t": {
+          "type": "feature",
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
+        },
         "feature_YRDDyY": {
           "type": "feature",
           "settings": {
@@ -231,6 +227,7 @@
         }
       },
       "block_order": [
+        "feature_ARWQ9t",
         "feature_YRDDyY",
         "feature_hNwaRE",
         "feature_QXJWWh",
@@ -251,6 +248,13 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "l_content_left_LMgdf7": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+      }
     }
   },
   "layout": "article",
@@ -267,6 +271,7 @@
     "l_gallery_JfULTP",
     "l_produkt_QbA6R8",
     "l_step_slider_z93mQW",
-    "article_next"
+    "article_next",
+    "l_content_left_LMgdf7"
   ]
 }
