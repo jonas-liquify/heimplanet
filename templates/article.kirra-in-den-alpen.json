@@ -184,15 +184,6 @@
         "checkbox_swiper_script": true
       }
     },
-    "article_next": {
-      "type": "article_next",
-      "settings": {
-        "text_headline": "Weitere Beiträge",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon",
-        "text_blog_handle": "abenteuer"
-      }
-    },
     "l_step_slider_z93mQW": {
       "type": "l_step_slider",
       "blocks": {
@@ -247,7 +238,16 @@
       ],
       "settings": {
         "text_headline": "asdf",
-        "checkbox_swiper_script": true
+        "checkbox_swiper_script": false
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
       }
     }
   },
@@ -264,7 +264,7 @@
     "l_content_right_hKLaVw",
     "l_gallery_JfULTP",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_step_slider_z93mQW"
+    "l_step_slider_z93mQW",
+    "article_next"
   ]
 }
