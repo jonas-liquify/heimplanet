@@ -47,37 +47,6 @@
       "settings": {
       }
     },
-    "l_slider_CrFdK4": {
-      "type": "l_slider",
-      "blocks": {
-        "slider_XKX8WY": {
-          "type": "slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/BIG07602_1ec8af69-4b5b-45fb-a17c-b79f0eeb851d.jpg"
-          }
-        },
-        "slider_eqwN3V": {
-          "type": "slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/BIG07401.jpg"
-          }
-        },
-        "slider_q3QaUh": {
-          "type": "slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/BIG07387.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "slider_XKX8WY",
-        "slider_eqwN3V",
-        "slider_q3QaUh"
-      ],
-      "settings": {
-        "checkbox_swiper_script": true
-      }
-    },
     "article_richtext_AR4add": {
       "type": "article_richtext",
       "settings": {
@@ -92,17 +61,20 @@
         "text_button_text": "Mehr davon"
       }
     },
+    "l_content_left_LMgdf7": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "samstag | ankunft",
+        "textarea_text": "Die Vorzeichen standen auf Regen, aber Lukas und Nico ließen sich davon nicht abschrecken. Am Samstagnachmittag machten sie sich auf den Weg, eine etwa 40-minütige Wanderung durch die herbstliche Dämmerung, die über die Seitenmoräne des Gletschers führte. Angekommen an ihrem Ziel entdeckten sie eine kleine Insel am Rand des Griessseelis – genau der richtige Platz, um das Zelt aufzubauen und die Nacht in der wilden Natur zu verbringen.\n<br><br>\nTrotz des einsetzenden Regens ließ sich das Kirra Zelt dank seiner aufblasbaren Konstruktion innerhalb weniger Minuten und mit einer kleinen Pumpe unkompliziert aufstellen. Schon bald stand das Zelt, bereit, die beiden für die Nacht zu schützen. Durch den starken Regen zog es Lukas und Nico früh in die Schlafsäcke – mit der Hoffnung, am nächsten Morgen von einem epischen Sonnenaufgang über dem Gletschersee geweckt zu werden.",
+        "image_bild": "shopify://shop_images/BIG07401_49559bfe-9ef9-46fb-a6a4-20ede6d330a3.jpg"
+      }
+    },
     "l_content_right_hKLaVw": {
       "type": "l_content_right",
       "settings": {
         "image_bild": "shopify://shop_images/BIG07448.jpg",
-        "text_headline": "Sunday",
-        "textarea_text": "Es war Zeit..."
-      }
-    },
-    "l_gallery_JfULTP": {
-      "type": "l_gallery",
-      "settings": {
+        "text_headline": "sonntag | auf geht's",
+        "textarea_text": "Der Regen begleitete die beiden die ganze Nacht hindurch. Doch das Kirra Zelt hielt stand: Obwohl es frisch war, blieb im Inneren alles angenehm trocken, und das robuste Material zeigte sich den Bedingungen mehr als gewachsen.\n<br><br>\nStatt eines Sonnenaufgangs erwartete Lukas und Nico jedoch eine mystische Szenerie: Der Himmel war von tief hängenden Wolken bedeckt, die in Kombination mit den verschneiten Gipfeln und dem blauen Gletschersee eine epische Kulisse boten. Die Stille und die Atmosphäre waren einmalig – das Kirra Zelt stand mitten in dieser rauen, wilden Landschaft und fügte sich perfekt in die Umgebung ein.\n<br><br>\nNach ein paar Fotos von der Szenerie und dem Zelt machten sich die beiden Freunde zufrieden auf den Heimweg. Das Wetter war zwar nicht ideal gewesen, aber genau das hatte den Ausflug zu einem echten Test für das Kirra gemacht. Und das Zelt hatte seine Aufgabe gemeistert: Es hielt Regen und Nässe mühelos stand und bot den beiden den Schutz und Komfort, den sie sich von einem Abenteuerzelt wünschen.\n<br><br>\nFazit: Das Heimplanet Kirra Zelt hat sich bewährt – sowohl bei Regen als auch in einer der spektakulärsten Landschaften der Schweiz. Die aufblasbare Konstruktion und das robuste Material machen es zu einem treuen Begleiter für alle, die sich auch bei unbeständigem Wetter nicht von ihrem Abenteuer abhalten lassen wollen."
       }
     },
     "l_produkt_QbA6R8": {
@@ -249,11 +221,16 @@
         "text_blog_handle": "abenteuer"
       }
     },
-    "l_content_left_LMgdf7": {
-      "type": "l_content_left",
+    "l_headline_mono_4Vq68U": {
+      "type": "l_headline_mono",
       "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
+      }
+    },
+    "l_gallery_67Grn9": {
+      "type": "l_gallery",
+      "settings": {
       }
     }
   },
@@ -264,14 +241,14 @@
     "l_html_text_xL8jRh",
     "collection_hero",
     "article_content",
-    "l_slider_CrFdK4",
     "article_richtext_AR4add",
     "article_products_V4qaqk",
+    "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
-    "l_gallery_JfULTP",
     "l_produkt_QbA6R8",
     "l_step_slider_z93mQW",
-    "article_next",
-    "l_content_left_LMgdf7"
+    "l_headline_mono_4Vq68U",
+    "l_gallery_67Grn9",
+    "article_next"
   ]
 }
