@@ -22,6 +22,12 @@
         "image_bild": "shopify://shop_images/BIG07273.jpg"
       }
     },
+    "l_html_text_xL8jRh": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "<iframe src=\"https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=aLKtON_mEg4VIHaN\" style=\"aspect-ratio: 16 / 9;\" width=\"100%\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" frameborder=\"0\" player=\"\" video=\"\" youtube=\"\"></iframe><p></p><p></p><p></p>"
+      }
+    },
     "collection_hero": {
       "type": "collection_hero",
       "settings": {
@@ -39,12 +45,6 @@
 
       ],
       "settings": {
-      }
-    },
-    "l_html_text_xL8jRh": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<iframe src=\"https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=aLKtON_mEg4VIHaN\" style=\"aspect-ratio: 16 / 9;\" width=\"100%\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" frameborder=\"0\" player=\"\" video=\"\" youtube=\"\"></iframe><p></p><p></p><p></p>"
       }
     },
     "l_slider_CrFdK4": {
@@ -98,7 +98,6 @@
         "item_txMRWQ": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/BIG07401_25b8a63b-db44-4ee4-8599-77d3dc07c87c.jpg",
             "text_text": "Zelt für 2-3 Personen"
           }
         }
@@ -107,9 +106,82 @@
         "item_txMRWQ"
       ],
       "settings": {
-        "image_bild": "shopify://shop_images/BIG07602_8e362c39-d237-4cbf-b0d4-a4ac0ee0152e.jpg",
         "text_headline": "Bags+Backpacks",
         "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+      }
+    },
+    "l_gallery_JfULTP": {
+      "type": "l_gallery",
+      "settings": {
+      }
+    },
+    "l_produkt_QbA6R8": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_NXrEjY": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/BIG07602_43d3309b-5014-4c13-afae-da93d061a09d.jpg"
+          }
+        },
+        "produkt_slider_heAKGw": {
+          "type": "produkt-slider",
+          "settings": {
+          }
+        },
+        "produkt_slider_Vq4m6i": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/BIG07401_16bb16e0-b141-476f-96aa-65fede3be349.jpg"
+          }
+        },
+        "produkt_slider_JPjh6F": {
+          "type": "produkt-slider",
+          "settings": {
+          }
+        },
+        "produkt_slider_ipBq33": {
+          "type": "produkt-slider",
+          "settings": {
+          }
+        },
+        "fact_tQ3c6w": {
+          "type": "fact",
+          "settings": {
+            "text_text": "5 Jahre Entwicklungszeit"
+          }
+        },
+        "fact_MnxFyG": {
+          "type": "fact",
+          "settings": {
+            "text_text": "5 Jahre Entwicklungszeit"
+          }
+        },
+        "fact_thTQjL": {
+          "type": "fact",
+          "settings": {
+            "text_text": "5 Jahre Entwicklungszeit"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_NXrEjY",
+        "produkt_slider_heAKGw",
+        "produkt_slider_Vq4m6i",
+        "produkt_slider_JPjh6F",
+        "produkt_slider_ipBq33",
+        "fact_tQ3c6w",
+        "fact_MnxFyG",
+        "fact_thTQjL"
+      ],
+      "settings": {
+        "text_headline": "KIRRA, CLASSIC",
+        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "Zum Kirra",
+        "url_produkt_link": "shopify://products/kirra-classic",
+        "checkbox_swiper_script": true
       }
     },
     "article_next": {
@@ -121,20 +193,43 @@
         "text_blog_handle": "abenteuer"
       }
     },
-    "l_gallery_JfULTP": {
-      "type": "l_gallery",
+    "l_step_slider_z93mQW": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_YRDDyY": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/BIG07815_4b0baf90-08ae-4ef7-b150-811e2078f927.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_hNwaRE": {
+          "type": "feature",
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
+        },
+        "feature_QXJWWh": {
+          "type": "feature",
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
+        },
+        "feature_KBNbia": {
+          "type": "feature",
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
+        }
+      },
+      "block_order": [
+        "feature_YRDDyY",
+        "feature_hNwaRE",
+        "feature_QXJWWh",
+        "feature_KBNbia"
+      ],
       "settings": {
-      }
-    },
-    "l_produkt_QbA6R8": {
-      "type": "l_produkt",
-      "settings": {
-        "text_headline": "KIRRA, CLASSIC",
-        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "JETZT KAUFEN",
-        "url_produkt_link": "shopify://products/kirra-classic",
+        "text_headline": "Bags+Backpacks",
         "checkbox_swiper_script": true
       }
     }
@@ -143,15 +238,16 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_html_text_xL8jRh",
     "collection_hero",
     "article_content",
-    "l_html_text_xL8jRh",
     "l_slider_CrFdK4",
     "article_richtext_AR4add",
     "article_products_V4qaqk",
     "l_content_right_hKLaVw",
-    "article_next",
     "l_gallery_JfULTP",
-    "l_produkt_QbA6R8"
+    "l_produkt_QbA6R8",
+    "article_next",
+    "l_step_slider_z93mQW"
   ]
 }
