@@ -13,10 +13,10 @@
       "type": "collection_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "Kirra",
+        "text_headline": "Kirra in den Alpen",
         "textarea_paragraph": "",
-        "url_button_link": "",
-        "text_button_text": "Jetzt entdecken",
+        "url_button_link": "https://heimplanet.com/products/kirra-classic",
+        "text_button_text": "Zum Kirra",
         "image_bild": "{{ article.image }}"
       }
     },
@@ -65,6 +65,12 @@
         "richtext_text": "<p>What’s a Rich Text element?The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.Static and dynamic content editingA rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and</p>"
       }
     },
+    "l_html_text_xL8jRh": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "Text embed"
+      }
+    },
     "article_products_V4qaqk": {
       "type": "article_products",
       "settings": {
@@ -90,6 +96,7 @@
     "article_content",
     "l_slider_CrFdK4",
     "article_richtext_AR4add",
+    "l_html_text_xL8jRh",
     "article_products_V4qaqk",
     "article_next"
   ]
