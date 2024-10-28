@@ -22,10 +22,13 @@
         "image_bild": "shopify://shop_images/BIG07273.jpg"
       }
     },
-    "l_html_text_xL8jRh": {
-      "type": "l_html_text",
+    "l_video_L6k4FT": {
+      "type": "l_video",
+      "custom_css": [
+
+      ],
       "settings": {
-        "html_richtext": "<iframe src=\"https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=aLKtON_mEg4VIHaN\" style=\"aspect-ratio: 16 / 9;\" width=\"100%\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" frameborder=\"0\" player=\"\" video=\"\" youtube=\"\"></iframe><p></p><p></p><p></p>\n\n\n_______________\n\n\n<style>\niframe[title=\"YouTube video player\"] {\n    text-align: center;\n    margin: 0 auto;\n    display: inherit;\n}\n</style>"
+        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
       }
     },
     "article_products_V4qaqk": {
@@ -170,19 +173,13 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_video_L6k4FT": {
-      "type": "l_video",
-      "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_html_text_xL8jRh",
+    "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
@@ -191,7 +188,6 @@
     "l_step_slider_z93mQW",
     "l_headline_mono_4Vq68U",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_video_L6k4FT"
+    "article_next"
   ]
 }
