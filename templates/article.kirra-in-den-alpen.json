@@ -200,22 +200,37 @@
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/BIG07815_4b0baf90-08ae-4ef7-b150-811e2078f927.jpg",
-            "text_text": ""
+            "text_text": "ausbreiten"
           }
         },
         "feature_hNwaRE": {
           "type": "feature",
           "settings": {
-            "text_text": "This is some text inside of a div block."
+            "image_bild": "shopify://shop_images/BIG07239.jpg",
+            "text_text": "aufpumpen"
           }
         },
         "feature_QXJWWh": {
           "type": "feature",
           "settings": {
-            "text_text": "This is some text inside of a div block."
+            "image_bild": "shopify://shop_images/BIG0760.jpg",
+            "text_text": "fixieren"
           }
         },
         "feature_KBNbia": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/BIG07272.jpg",
+            "text_text": "willkommen zu hause"
+          }
+        },
+        "feature_i3TWmk": {
+          "type": "feature",
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
+        },
+        "feature_8pXryN": {
           "type": "feature",
           "settings": {
             "text_text": "This is some text inside of a div block."
@@ -226,10 +241,12 @@
         "feature_YRDDyY",
         "feature_hNwaRE",
         "feature_QXJWWh",
-        "feature_KBNbia"
+        "feature_KBNbia",
+        "feature_i3TWmk",
+        "feature_8pXryN"
       ],
       "settings": {
-        "text_headline": "Bags+Backpacks",
+        "text_headline": "asdf",
         "checkbox_swiper_script": true
       }
     }
