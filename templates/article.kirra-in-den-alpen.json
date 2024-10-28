@@ -170,6 +170,12 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "l_video_L6k4FT": {
+      "type": "l_video",
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
+      }
     }
   },
   "layout": "article",
@@ -185,6 +191,7 @@
     "l_step_slider_z93mQW",
     "l_headline_mono_4Vq68U",
     "l_produkt_QbA6R8",
-    "article_next"
+    "article_next",
+    "l_video_L6k4FT"
   ]
 }
