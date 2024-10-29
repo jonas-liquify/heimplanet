@@ -12,6 +12,17 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_DVNdYF": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
+            "text_headline": "Kirra in den Alpen",
+            "richtext_text": "<p><strong>NEUER BLOGPOST</strong><br/>Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen</p>",
+            "url_button_link": "https://heimplanet.com/blogs/abenteuer/kirra-in-den-alpen",
+            "text_button_text": "ZUM BLOG"
+          }
+        },
         "hero_slider_3zKtma": {
           "type": "hero-slider",
           "settings": {
@@ -95,17 +106,6 @@
             "text_button_text": "Jetzt shoppen"
           }
         },
-        "hero_slider_DVNdYF": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Kippensammelaktion_008ba922-62e5-4aa6-99d2-8bd636bb186f.png",
-            "text_headline": "KIPPEN NICHT SCHNIPPEN! 2024",
-            "richtext_text": "<p><strong>Surfrider Foundation </strong>against cigarette butts - eine europaweite Kippensammelaktion. <br/><strong>Jetzt mehr erfahren.</strong></p>",
-            "url_button_link": "https://heimplanet.com/blogs/projekte/kippen-nicht-schnippen-2024",
-            "text_button_text": "ZUM PROJEKT"
-          }
-        },
         "hero_slider_FDAzFx": {
           "type": "hero-slider",
           "disabled": true,
@@ -119,6 +119,7 @@
         }
       },
       "block_order": [
+        "hero_slider_DVNdYF",
         "hero_slider_3zKtma",
         "hero_slider_L3fJzp",
         "hero_slider_DQWqP4",
@@ -127,7 +128,6 @@
         "hero_slider_LP9zUr",
         "hero_slider_eJrrgt",
         "hero_slider_6ztQE7",
-        "hero_slider_DVNdYF",
         "hero_slider_FDAzFx"
       ],
       "settings": {
