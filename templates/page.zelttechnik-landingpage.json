@@ -168,6 +168,12 @@
         "text_headline": "Patentiertes Mehrkammer-Sicherheitssystem",
         "textarea_text": "<br>Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
       }
+    },
+    "l_video_ePpzYQ": {
+      "type": "l_video",
+      "settings": {
+        "text_video_url": "www.youtube-nocookie.com/embed/7qF8zOxZCN0"
+      }
     }
   },
   "layout": "page.landingpage",
@@ -179,6 +185,7 @@
     "l_dropdowns_QLKfit",
     "l_grid_6yDntR",
     "l_content_left_PiBkGB",
-    "l_content_right_hVEgnd"
+    "l_content_right_hVEgnd",
+    "l_video_ePpzYQ"
   ]
 }
