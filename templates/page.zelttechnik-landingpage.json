@@ -192,6 +192,23 @@
       "settings": {
         "text_video_url": "https://www.youtube-nocookie.com/embed/7qF8zOxZCN0"
       }
+    },
+    "l_html_text_NBnX9z": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "Text"
+      }
+    },
+    "blog_KW84yU": {
+      "type": "blog",
+      "settings": {
+        "text_headline": "Du möchtest mehr über unsere Technologien erfahren?",
+        "url_button_link": "shopify://blogs/designraum/dyecoshell™",
+        "text_button_text": "Zum Blog",
+        "article_artikel": "designraum/dyecoshell™",
+        "blog_blog": "designraum",
+        "post_limit_blog": 3
+      }
     }
   },
   "layout": "page.landingpage",
@@ -206,6 +223,8 @@
     "l_content_left_PiBkGB",
     "l_content_right_hVEgnd",
     "l_content_left_geXH8U",
-    "l_video_ePpzYQ"
+    "l_video_ePpzYQ",
+    "l_html_text_NBnX9z",
+    "blog_KW84yU"
   ]
 }
