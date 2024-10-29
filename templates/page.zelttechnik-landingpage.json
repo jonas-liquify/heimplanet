@@ -153,16 +153,6 @@
         "text_mono_material": ""
       }
     },
-    "l_content_image_bg_RyTW9V": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Common Material",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        "text_headline_2": "Common Material",
-        "image_bild": "shopify://shop_images/The-Cave-Cairo-Camo-12.jpg"
-      }
-    },
     "l_content_left_PiBkGB": {
       "type": "l_content_left",
       "settings": {
@@ -174,8 +164,9 @@
     "l_content_right_hVEgnd": {
       "type": "l_content_right",
       "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "image_bild": "shopify://shop_images/Heimplanet_57_9a1d32a7-ab7d-4921-968f-4823f842db19.jpg",
+        "text_headline": "Patentiertes Mehrkammer-Sicherheitssystem",
+        "textarea_text": "<br>Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
       }
     }
   },
@@ -187,7 +178,6 @@
     "l_text_logos_AVETGK",
     "l_dropdowns_QLKfit",
     "l_grid_6yDntR",
-    "l_content_image_bg_RyTW9V",
     "l_content_left_PiBkGB",
     "l_content_right_hVEgnd"
   ]
