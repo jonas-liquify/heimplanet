@@ -193,12 +193,6 @@
         "text_video_url": "https://www.youtube-nocookie.com/embed/7qF8zOxZCN0"
       }
     },
-    "l_html_text_NBnX9z": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "Text"
-      }
-    },
     "blog_KW84yU": {
       "type": "blog",
       "settings": {
@@ -224,7 +218,6 @@
     "l_content_right_hVEgnd",
     "l_content_left_geXH8U",
     "l_video_ePpzYQ",
-    "l_html_text_NBnX9z",
     "blog_KW84yU"
   ]
 }
