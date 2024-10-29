@@ -153,22 +153,29 @@
         "text_mono_material": ""
       }
     },
-    "l_content_image_bg_Xxcqzb": {
+    "l_content_image_bg_RyTW9V": {
       "type": "l_content_image_bg",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "One-Pump-System und 2-in-1-Ventile"
+        "text_subline": "Mission",
+        "text_headline": "Common Material",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "text_headline_2": "Common Material",
+        "image_bild": "shopify://shop_images/The-Cave-Cairo-Camo-12.jpg"
       }
     },
-    "l_reveal_slider_QzHagy": {
-      "type": "l_reveal_slider",
+    "l_content_left_PiBkGB": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "One-Pump-System und 2-in-1-Ventile",
+        "textarea_text": "<br>Der Luftrahmen verfügt über mehrere Ventile. Da die Streben des Rahmens jedoch über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten (Multi-Chamber-Safety). Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen.",
+        "image_bild": "shopify://shop_images/The-Cave-Cairo-Camo-12.jpg"
+      }
+    },
+    "l_content_right_hVEgnd": {
+      "type": "l_content_right",
       "settings": {
         "text_headline": "Bags+Backpacks",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "text_vorher": "This is some text inside of a div block.",
-        "text_nachher": "This is some text inside of a div block."
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     }
   },
@@ -180,7 +187,8 @@
     "l_text_logos_AVETGK",
     "l_dropdowns_QLKfit",
     "l_grid_6yDntR",
-    "l_content_image_bg_Xxcqzb",
-    "l_reveal_slider_QzHagy"
+    "l_content_image_bg_RyTW9V",
+    "l_content_left_PiBkGB",
+    "l_content_right_hVEgnd"
   ]
 }
