@@ -43,7 +43,7 @@
       "type": "l_content_right",
       "settings": {
         "image_bild": "shopify://shop_images/BIG07602_8e362c39-d237-4cbf-b0d4-a4ac0ee0152e.jpg",
-        "text_headline": "MISSION ...",
+        "text_headline": "MISSION REGENTEST",
         "textarea_text": "Manchmal ist es das Abenteuer selbst, das ein Wochenende unvergesslich macht – und genau das war der Fall, als Lukas Bigler und sein Freund Nico das Heimplanet Kirra Zelt in den Urner Alpen testeten. Bei wechselhaftem Herbstwetter und einer ungewissen Prognose wollten die beiden ihre Wanderung zum Griessseeli dennoch nicht absagen. Im Gegenteil: Es war die perfekte Gelegenheit, um das Kirra Zelt in einer der eindrucksvollsten, aber auch anspruchsvollsten Umgebungen auf Herz und Nieren zu testen."
       }
     },
@@ -69,6 +69,13 @@
         "image_bild_1": "shopify://shop_images/BIG07273.jpg",
         "image_bild_2": "shopify://shop_images/BIG07254.jpg",
         "image_bild_3": "shopify://shop_images/BIG07865_6859fdbe-4133-4b84-9288-437147aa162c.jpg"
+      }
+    },
+    "l_headline_mono_4Vq68U": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission Regentest Geglückt",
+        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
       }
     },
     "l_step_slider_z93mQW": {
@@ -101,24 +108,25 @@
             "image_bild": "shopify://shop_images/BIG07272.jpg",
             "text_text": "04 willkommen zu hause"
           }
+        },
+        "feature_4gTpJL": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/BIG07286.jpg",
+            "text_text": "This is some text inside of a div block."
+          }
         }
       },
       "block_order": [
         "feature_YRDDyY",
         "feature_hNwaRE",
         "feature_QXJWWh",
-        "feature_KBNbia"
+        "feature_KBNbia",
+        "feature_4gTpJL"
       ],
       "settings": {
         "text_headline": "",
-        "checkbox_swiper_script": false
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>das kirra hat standgehalten"
+        "checkbox_swiper_script": true
       }
     },
     "l_produkt_QbA6R8": {
@@ -157,7 +165,7 @@
       ],
       "settings": {
         "text_headline": "KIRRA, CLASSIC",
-        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "textarea_beschreibung": "Kirra ist unser neues aufblasbares Zelt für 2 Personen mit viel Equipment. Dank seiner besonderen Rahmenstruktur bietet Kirra ein gutes Gleichgewicht zwischen Komfort und Effizienz. Das geodätische Prinzip macht das Zelt besonders sturmsicher. Das aufblasbare Diamond Grid (IDG) garantiert nicht nur Stabilität, sondern auch einen intuitiven und einfachen Aufbau, damit Du das Maximum aus Deiner Reise herausholen kannst. Kirra ist eine perfekte Lösung für Alpintouren, wo große Stabilität zwingend erforderlich ist.",
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "Zum Kirra",
@@ -185,8 +193,8 @@
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_gallery_67Grn9",
-    "l_step_slider_z93mQW",
     "l_headline_mono_4Vq68U",
+    "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next"
   ]
