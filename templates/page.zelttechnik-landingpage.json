@@ -43,7 +43,7 @@
         "dropdown_EBDbhM": {
           "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "image_icon": "shopify://shop_images/Heimplanet-Fistral-Classic-1_90f77eb7-7632-43bd-ba71-1b45f2caf66e.jpg",
             "text_headline": "Fistral",
             "textarea_text": "FISTRAL ist der Name unseres aufblasbaren Zelts für 1-2 Personen. Sein kompaktes Design bietet große Flexibilität und ein minimales Packmaß und Gewicht. Zwei Eingänge und zwei Apsiden sorgen für maximalen Komfort. Mit einer Pumpe lässt sich das Zelt in weniger als einer Minute aufstellen.",
             "image_bild": "shopify://shop_images/IDG_Fistral.png"
@@ -52,7 +52,7 @@
         "dropdown_MJRE6g": {
           "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "image_icon": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg",
             "text_headline": "Kirra",
             "textarea_text": "Kirra ist unser aufblasbares Zelt für 2 Personen mit viel Equipment. Dank seiner besonderen Rahmenstruktur bietet Kirra ein gutes Gleichgewicht zwischen Komfort und Effizienz. Das geodätische Prinzip macht das Zelt besonders sturmsicher. Das aufblasbare Diamond Grid (IDG) garantiert nicht nur Stabilität, sondern auch einen intuitiven und einfachen Aufbau.",
             "image_bild": "shopify://shop_images/IDG_Kirra.png"
@@ -61,7 +61,7 @@
         "dropdown_Ld9Ni8": {
           "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-Technik-Small.jpg",
             "text_headline": "The Cave",
             "textarea_text": "THE CAVE war unser erstes aufblasbares Zelt, immer noch kultig und perfekt für 2-3 Personen. Alles, was Du brauchst, ist eine Pumpe, um Dein Zelt in weniger als einer Minute aufzustellen. Dank seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten THE CAVE ist es extrem stabil und dank der hochwertigen Materialien auch wetterfest sowie langlebig.",
             "image_bild": "shopify://shop_images/IDG_TheCave.png"
@@ -70,7 +70,7 @@
         "dropdown_kbVqqE": {
           "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "image_icon": "shopify://shop_images/Heimplanet-Backdoor-Classic-1_79c5362c-91c6-4f59-88ab-bd5c7f42ccd2.jpg",
             "text_headline": "Backdoor",
             "textarea_text": "Backdoor ist das 4 Personen Zelt von HEIMPLANET - perfekt für Familien oder Gruppen bis zu 4 Personen. Es ist für einen breiten Einsatzbereich konzipiert und eignet sich perfekt für das Camping von Frühling bis Herbst. Der vordere Eingang verfügt über eine geräumige Apsis, die über eine geteilte Innenzelttür einen einfachen Zugang zum Hauptzelt bietet.",
             "image_bild": "shopify://shop_images/IDG_Backdoor.png"
@@ -79,7 +79,7 @@
         "dropdown_QYJjaz": {
           "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "image_icon": "shopify://shop_images/Heimplanet-Cloudbreak-2024-1.jpg",
             "text_headline": "Cloudbreak",
             "textarea_text": "Benannt nach einer großen Welle auf den Fiji-Inseln, ist das Cloudbreak ein zuverlässiges, flexibles und einfach zu nutzendes Zelt für Gruppen-, Familiencamping und Overlanding. Mit der zusätzlichen Schlafkabine für bis zu 4 Personen und viel Platz zum Kochen und Wohnen, ist Cloudbreak wie ein Haus zum Mitnehmen.",
             "image_bild": "shopify://shop_images/IDG_Cloudbreak.png"
@@ -88,7 +88,7 @@
         "dropdown_Ubhy6n": {
           "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "image_icon": "shopify://shop_images/Heimplanet-Mavericks-Expedition-2024-1.jpg",
             "text_headline": "Mavericks",
             "textarea_text": "Unser Mehrzweckzelt MAVERICKS ist speziell für extreme Bedingungen konzipiert. Es kann zum Beispiel als Basislager oder Gruppenzelt verwendet werden. Es hat eine Innenhöhe von zwei Metern und eine Grundfläche von mehr als 13 Quadratmetern. Das gesamte Zelt kann von einer Person in kürzester Zeit aufgebaut werden.",
             "image_bild": "shopify://shop_images/IDG_Mavericks_png.png"
@@ -169,6 +169,14 @@
         "textarea_text": "<br>Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
       }
     },
+    "l_content_left_geXH8U": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Doppellagige Konstruktion",
+        "textarea_text": "<br>Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen.",
+        "image_bild": "shopify://shop_images/Cave_CairoCamo_Dolomiten_David_Herzig_9.jpg"
+      }
+    },
     "l_video_ePpzYQ": {
       "type": "l_video",
       "settings": {
@@ -186,6 +194,7 @@
     "l_grid_6yDntR",
     "l_content_left_PiBkGB",
     "l_content_right_hVEgnd",
+    "l_content_left_geXH8U",
     "l_video_ePpzYQ"
   ]
 }
