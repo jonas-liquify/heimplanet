@@ -12,8 +12,8 @@
     "l_header_trans_white_mHj3Px": {
       "type": "l_header_trans_white",
       "settings": {
-        "url_button_url": "",
-        "text_button_text": "Button Text"
+        "url_button_url": "shopify://collections/zelte",
+        "text_button_text": "Zu den Zelten"
       }
     },
     "l_hero": {
@@ -159,8 +159,7 @@
         "text_subline": "",
         "text_headline": "",
         "textarea_text": "",
-        "text_headline_2": "One-Pump-System und 2-in-1-Ventile",
-        "image_bild": "shopify://shop_images/The-Cave-Cairo-Camo-13.jpg"
+        "text_headline_2": "One-Pump-System und 2-in-1-Ventile"
       }
     },
     "l_reveal_slider_QzHagy": {
