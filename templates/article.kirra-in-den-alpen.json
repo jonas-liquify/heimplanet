@@ -113,7 +113,7 @@
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/BIG07286.jpg",
-            "text_text": "This is some text inside of a div block."
+            "text_text": "#whereveryougo"
           }
         }
       },
@@ -164,8 +164,8 @@
         "fact_thTQjL"
       ],
       "settings": {
-        "text_headline": "KIRRA, CLASSIC",
-        "textarea_beschreibung": "Kirra ist unser neues aufblasbares Zelt für 2 Personen mit viel Equipment. Dank seiner besonderen Rahmenstruktur bietet Kirra ein gutes Gleichgewicht zwischen Komfort und Effizienz. Das geodätische Prinzip macht das Zelt besonders sturmsicher. Das aufblasbare Diamond Grid (IDG) garantiert nicht nur Stabilität, sondern auch einen intuitiven und einfachen Aufbau, damit Du das Maximum aus Deiner Reise herausholen kannst. Kirra ist eine perfekte Lösung für Alpintouren, wo große Stabilität zwingend erforderlich ist.",
+        "text_headline": "KIRRA 2 Personen",
+        "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "Zum Kirra",
