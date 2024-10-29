@@ -12,14 +12,14 @@
     "hero": {
       "type": "hero",
       "blocks": {
-        "hero_slider_DQWqP4": {
+        "hero_slider_3zKtma": {
           "type": "hero-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg",
-            "text_headline": "Unsere Zelte",
-            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
-            "url_button_link": "shopify://collections/zelte",
-            "text_button_text": "Jetzt entdecken"
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-Home.jpg",
+            "text_headline": "Cloudbreak",
+            "richtext_text": "<p>Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden. #whereveryougo</p>",
+            "url_button_link": "shopify://products/cloudbreak-classic",
+            "text_button_text": "MEHR ERFAHREN"
           }
         },
         "hero_slider_L3fJzp": {
@@ -32,6 +32,16 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
+        "hero_slider_DQWqP4": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg",
+            "text_headline": "Unsere Zelte",
+            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
+            "url_button_link": "shopify://collections/zelte",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
           "settings": {
@@ -40,17 +50,6 @@
             "richtext_text": "<p><strong>THE FUTURE IS MONO.</strong> Der neue Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.</p>",
             "url_button_link": "shopify://pages/mono-series-minimal-pack",
             "text_button_text": "NEU: Jetzt entdecken"
-          }
-        },
-        "hero_slider_3zKtma": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Cloudbreak.jpg",
-            "text_headline": "Cloudbreak",
-            "richtext_text": "<p>Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden. #whereveryougo</p>",
-            "url_button_link": "shopify://products/cloudbreak-classic",
-            "text_button_text": "MEHR ERFAHREN"
           }
         },
         "hero_slider_icPbWh": {
@@ -120,10 +119,10 @@
         }
       },
       "block_order": [
-        "hero_slider_DQWqP4",
-        "hero_slider_L3fJzp",
-        "hero_slider_zBjUtr",
         "hero_slider_3zKtma",
+        "hero_slider_L3fJzp",
+        "hero_slider_DQWqP4",
+        "hero_slider_zBjUtr",
         "hero_slider_icPbWh",
         "hero_slider_LP9zUr",
         "hero_slider_eJrrgt",
