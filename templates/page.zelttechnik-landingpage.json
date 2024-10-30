@@ -157,51 +157,6 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_grid_6yDntR": {
-      "type": "l_grid",
-      "blocks": {
-        "item_BqGJK9": {
-          "type": "item",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Technik-Small.jpg",
-            "text_headline": "Aufblasbarer Rahmen (IDG)",
-            "text_text": "",
-            "text_zahl": "",
-            "text_zahl_text": ""
-          }
-        },
-        "item_JgmhLx": {
-          "type": "item",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Inner-Tent-Technik.jpg",
-            "text_headline": "Aufblasbarer Rahmen + Innenzelt",
-            "text_text": "",
-            "text_zahl": "",
-            "text_zahl_text": ""
-          }
-        },
-        "item_rMBFGH": {
-          "type": "item",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Technik-Small.jpg",
-            "text_headline": "Aufblasbarer Rahmen + Innen-&  Außenzelt",
-            "text_text": "",
-            "text_zahl": "",
-            "text_zahl_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_BqGJK9",
-        "item_JgmhLx",
-        "item_rMBFGH"
-      ],
-      "settings": {
-        "text_headline": "",
-        "text_mixed_material": "Das Aufpumpen unserer Zelte funktioniert intuitiv und folgt einem einfachen Prinzip: Ausrollen, aufpumpen & fertig! Das Besondere: Aufblasbarer Rahmen, Innen- und Außenzelt funktionieren als Einheit und müssen nur einmalig beim sogenannten 'First Assembly' (Erstaufbau) verbunden werden. ",
-        "text_mono_material": ""
-      }
-    },
     "l_content_left_PiBkGB": {
       "type": "l_content_left",
       "settings": {
@@ -254,7 +209,6 @@
     "l_dropdowns_QLKfit",
     "l_headline_mono_iVyHDi",
     "l_step_slider_pXdNGz",
-    "l_grid_6yDntR",
     "l_content_left_PiBkGB",
     "l_content_right_hVEgnd",
     "l_content_left_geXH8U",
