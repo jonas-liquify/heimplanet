@@ -33,7 +33,7 @@
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
-        "text_headline": "»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.«",
+        "text_headline": "<i>»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.«</i>",
         "text_text": "- R. Buckminster Fuller (Erfinder der geodätischen Kuppel)"
       }
     },
@@ -201,18 +201,11 @@
     "l_content_image_bg_4aJUk4": {
       "type": "l_content_image_bg",
       "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Common Material",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        "text_headline_2": "Common Material"
-      }
-    },
-    "l_content_left_geXH8U": {
-      "type": "l_content_left",
-      "settings": {
-        "text_headline": "Doppellagige Konstruktion",
-        "textarea_text": "<br>Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen.",
-        "image_bild": "shopify://shop_images/Cave_CairoCamo_Dolomiten_David_Herzig_9.jpg"
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "<span style=\"color: #ffffff;\">Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen.</span>",
+        "text_headline_2": "",
+        "image_bild": "shopify://shop_images/Cave_CairoCamo_Dolomiten_Technik-Landingpage.jpg"
       }
     },
     "l_video_ePpzYQ": {
@@ -249,7 +242,6 @@
     "l_content_image_bg_y4pzb3",
     "l_headline_mono_Ppyh3y",
     "l_content_image_bg_4aJUk4",
-    "l_content_left_geXH8U",
     "l_video_ePpzYQ",
     "blog_KW84yU"
   ]
