@@ -161,7 +161,7 @@
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "",
-        "text_headline": "// 03 //One-Pump-System und 2-in-1-Ventile"
+        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
       }
     },
     "l_content_image_bg_zhtTXf": {
@@ -189,14 +189,6 @@
         "textarea_text": "<span style=\"color: #ffffff;\">Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt. </span>",
         "text_headline_2": "",
         "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
-      }
-    },
-    "l_content_right_hVEgnd": {
-      "type": "l_content_right",
-      "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet_57_9a1d32a7-ab7d-4921-968f-4823f842db19.jpg",
-        "text_headline": "Patentiertes Mehrkammer-Sicherheitssystem",
-        "textarea_text": "<br>Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
       }
     },
     "l_headline_mono_Ppyh3y": {
@@ -255,7 +247,6 @@
     "l_content_image_bg_zhtTXf",
     "l_headline_mono_aMAUWx",
     "l_content_image_bg_y4pzb3",
-    "l_content_right_hVEgnd",
     "l_headline_mono_Ppyh3y",
     "l_content_image_bg_4aJUk4",
     "l_content_left_geXH8U",
