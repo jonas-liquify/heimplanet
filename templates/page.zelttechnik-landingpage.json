@@ -199,6 +199,13 @@
         "textarea_text": "<br>Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
       }
     },
+    "l_headline_mono_Ppyh3y": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 05 //<br><br>Doppellagige Konstruktion"
+      }
+    },
     "l_content_left_geXH8U": {
       "type": "l_content_left",
       "settings": {
@@ -223,13 +230,6 @@
         "blog_blog": "designraum",
         "post_limit_blog": 3
       }
-    },
-    "l_headline_mono_Ppyh3y": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
-      }
     }
   },
   "layout": "page.landingpage",
@@ -247,9 +247,9 @@
     "l_headline_mono_aMAUWx",
     "l_content_image_bg_y4pzb3",
     "l_content_right_hVEgnd",
+    "l_headline_mono_Ppyh3y",
     "l_content_left_geXH8U",
     "l_video_ePpzYQ",
-    "blog_KW84yU",
-    "l_headline_mono_Ppyh3y"
+    "blog_KW84yU"
   ]
 }
