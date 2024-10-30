@@ -14,11 +14,10 @@
       "blocks": {
         "hero_slider_DVNdYF": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
             "text_headline": "Kirra in den Alpen",
-            "richtext_text": "<p><strong>NEUER BLOGPOST</strong><br/>Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen</p>",
+            "richtext_text": "<p><strong>NEUER BLOGPOST</strong><br/>Outdoor Fotograf und Videograf Lukas Bigler. Ein Wochenende mit dem Kirra Zelt in den Urner Alpen</p>",
             "url_button_link": "https://heimplanet.com/blogs/abenteuer/kirra-in-den-alpen",
             "text_button_text": "ZUM BLOG"
           }
