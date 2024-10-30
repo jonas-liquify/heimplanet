@@ -157,6 +157,13 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_headline_mono_wnTYgn": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
+      }
+    },
     "l_content_left_PiBkGB": {
       "type": "l_content_left",
       "settings": {
@@ -209,6 +216,7 @@
     "l_dropdowns_QLKfit",
     "l_headline_mono_iVyHDi",
     "l_step_slider_pXdNGz",
+    "l_headline_mono_wnTYgn",
     "l_content_left_PiBkGB",
     "l_content_right_hVEgnd",
     "l_content_left_geXH8U",
