@@ -37,6 +37,19 @@
         "text_text": "- R. Buckminster Fuller (Erfinder der geodätischen Kuppel)"
       }
     },
+    "l_hero_c866cX": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_longer_text": "",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Mavericks_onIce_1.jpg"
+      }
+    },
     "l_headline_mono_khBGAi": {
       "type": "l_headline_mono",
       "settings": {
@@ -204,8 +217,7 @@
         "text_subline": "",
         "text_headline": "",
         "textarea_text": "<span style=\"color: #ffffff;\">Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen.</span>",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/Cave_CairoCamo_Dolomiten_Technik-Landingpage.jpg"
+        "text_headline_2": ""
       }
     },
     "l_video_ePpzYQ": {
@@ -232,6 +244,7 @@
     "l_header_trans_white_mHj3Px",
     "l_hero",
     "l_text_logos_AVETGK",
+    "l_hero_c866cX",
     "l_headline_mono_khBGAi",
     "l_dropdowns_QLKfit",
     "l_headline_mono_iVyHDi",
