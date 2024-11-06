@@ -14,7 +14,6 @@
       "blocks": {
         "hero_slider_DVNdYF": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood9_-_Kopie.jpg",
             "text_headline": "CLOUDBREAK MARS MISSION",
@@ -25,6 +24,7 @@
         },
         "hero_slider_3zKtma": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-Home.jpg",
             "text_headline": "Cloudbreak",
