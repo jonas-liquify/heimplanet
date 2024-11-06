@@ -42,7 +42,7 @@
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-12.jpg",
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V113.jpg",
         "text_headline": "Cloudbreak auf Mars-Mission – Ein Zelt für ein anderes Planetenabenteuer",
         "textarea_text": "Es fühlt sich an, als wäre die Landung geglückt. Unsere Rover stehen still, der rote Staub liegt schwer auf den Reifen. Der Wind wirbelt Sand über die endlose Ebene, wo schroffe Felsen aus der kargen Landschaft ragen. Inmitten dieser marsähnlichen Kulisse, die wir auf Island gefunden haben, schlagen wir unser Basislager auf. Doch statt in einer Raumstation befinden wir uns im Cloudbreak von Heimplanet – ein Zelt, das so futuristisch und widerstandsfähig ist, dass es uns vor der rauen „Mars“-Umgebung perfekt schützt."
       }
@@ -82,9 +82,9 @@
     "l_gallery_67Grn9": {
       "type": "l_gallery",
       "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
+        "image_bild_1": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood7.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
-        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
+        "image_bild_3": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V15.jpg"
       }
     },
     "l_headline_mono_4Vq68U": {
@@ -100,45 +100,29 @@
         "feature_YRDDyY": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
+            "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood1.jpg",
             "text_text": "01 ausbreiten"
           }
         },
         "feature_hNwaRE": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
+            "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V110.jpg",
             "text_text": "02 aufpumpen"
           }
         },
         "feature_4NiLPy": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
+            "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood4.jpg",
             "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
           }
         }
       },
       "block_order": [
         "feature_YRDDyY",
         "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
+        "feature_4NiLPy"
       ],
       "settings": {
         "text_headline": "",
@@ -180,7 +164,7 @@
         "fact_thTQjL"
       ],
       "settings": {
-        "text_headline": "KIRRA 2 Personen",
+        "text_headline": "CLOUDBREAK 4 PERSONEN",
         "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "",
