@@ -43,16 +43,16 @@
       "type": "l_content_right",
       "settings": {
         "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V113.jpg",
-        "text_headline": "Cloudbreak auf Mars-Mission – Ein Zelt für ein anderes Planetenabenteuer",
-        "textarea_text": "Es fühlt sich an, als wäre die Landung geglückt. Der Rover steht still, der rote Staub liegt schwer auf den Reifen. Der Wind wirbelt Sand über die endlose Ebene, wo schroffe Felsen aus der kargen Landschaft ragen. Inmitten dieser marsähnlichen Kulisse, die wir auf Island gefunden haben, schlagen wir unser Basislager auf. Unser Basecamp für die nächsten Tage heißt Cloudbreak. \n<br><br>\nIsland, mit seiner surrealen Vulkanlandschaft, fühlt sich tatsächlich wie eine fremde Welt an. Die schwarzen Sandwüsten, die tiefen Canyons und die majestätischen Vulkane erinnern an die Oberfläche des Mars.  Mit dem ersten Schritt ins Freie fühlten wir uns wie Entdecker einer neuen Welt – bereit, jeden noch so rauen Winkel zu erkunden."
+        "text_headline": "Interplanetares reisen",
+        "textarea_text": "Es fühlt sich an, als wäre die Landung geglückt. Der Rover steht still, der rote Staub liegt schwer auf den Reifen. Der Wind wirbelt Sand über die endlose Ebene, wo schroffe Felsen aus der kargen Landschaft ragen. Inmitten dieser marsähnlichen Kulisse, die wir auf Island gefunden haben, schlagen wir unser Basislager auf. Unser Basecamp für die nächsten Tage heißt Cloudbreak. \n<br><br>\nMit seinen klaren, modernen Linien und einer Struktur, die für extreme Umgebungen ausgelegt ist, passt das Cloudbreak perfekt in die isländische Wildnis. \n\nDas Zelt war schnell errichtet. Einmal verankert, ist es durch nichts mehr zu bewegen."
       }
     },
     "l_content_left_LMgdf7": {
       "type": "l_content_left",
       "settings": {
         "text_headline": "Landung auf dem „Mars“ – Island ruft",
-        "textarea_text": "Das Cloudbreak, wie es majestätisch in der isländischen Wildnis steht, wirkt wie aus einem Sci-Fi-Film entnommen – mit klaren, modernen Linien und einer Struktur, die für extreme Umgebungen ausgelegt ist. Seine Multi-Kammer-Luftgestänge-Technologie machte es uns leicht, das Zelt trotz des starken Windes schnell aufzubauen. Einmal verankert, stand es fest und trotze der unwirtlichen Landschaft. Es war, als könnten wir, egal wo wir sind, jeden Planeten zu unserem „Heimplanet“ machen.\n\n\n<br><br>",
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-4.jpg"
+        "textarea_text": "Island, mit seiner surrealen Vulkanlandschaft, fühlt sich tatsächlich wie eine fremde Welt an. Die schwarzen Sandwüsten, die tiefen Canyons und die majestätischen Vulkane erinnern an die Oberfläche des Mars.  Mit dem ersten Schritt ins Freie fühlten wir uns wie Entdecker einer neuen Welt – bereit, jeden noch so rauen Winkel zu erkunden.\n<br><br>\nIn Island, schienen die Elemente in einem endlosen Kampf zu stehen. Der Wind peitschte über das Land, die Temperaturen sanken schnell, aber das Cloudbreak bot uns Schutz, wie man ihn sich in der kalten Einsamkeit eines fremden Planeten nur wünschen kann. Die dicke, strapazierfähige Ripstop-Nylon-Hülle und das intelligent entworfene Belüftungssystem sorgten dafür, dass wir im Inneren eine warme und trockene Zuflucht hatten – egal, wie die Bedingungen draußen tobten.",
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V17.jpg"
       }
     },
     "l_content_right_hKLaVw": {
@@ -101,21 +101,21 @@
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood1.jpg",
-            "text_text": "01 ausbreiten"
+            "text_text": "make yourself"
           }
         },
         "feature_hNwaRE": {
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V110.jpg",
-            "text_text": "02 aufpumpen"
+            "text_text": "at home"
           }
         },
         "feature_4NiLPy": {
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood4.jpg",
-            "text_text": "03 Fixieren"
+            "text_text": "#whereveryougo"
           }
         }
       },
@@ -147,7 +147,7 @@
         "fact_MnxFyG": {
           "type": "fact",
           "settings": {
-            "text_text": "Einfache Handhabung"
+            "text_text": "Separate Schlafkabine"
           }
         },
         "fact_thTQjL": {
@@ -165,7 +165,7 @@
       ],
       "settings": {
         "text_headline": "CLOUDBREAK 4 PERSONEN",
-        "textarea_beschreibung": "",
+        "textarea_beschreibung": "Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden.",
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "Zum Kirra",
