@@ -160,8 +160,8 @@
         "textarea_beschreibung": "Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden.",
         "text_preis": "",
         "text_hinweis": "",
-        "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
+        "text_button_text": "ZUM CLOUDBREAK",
+        "url_produkt_link": "shopify://products/cloudbreak-classic",
         "checkbox_swiper_script": true
       }
     },
