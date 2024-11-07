@@ -21,6 +21,64 @@
         "url_button_link_2": ""
       }
     },
+    "l_dropdowns_BzMTbG": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_arce8n": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Motion2.png",
+            "text_headline": "01 USE",
+            "textarea_text": "All Heimplanet gear is made to last. There is no need to be overly cautious. However, in the spirit of getting the most out of your equipment we do want to give some tips on how to do so. \n<br><br>\n<b>Overloading</b>: <br>While all the bag's features are highly durable, over loading and over filling your bag can put a strain on handles, seams and zippers and potentially reduce their lifespan. Pack mindfully to ensure your bag stays durable and lasts longer.\n\nAvoid overfilling your bag, as this can strain the handles and seams, leading to wear and tear.\nFoto?\n\n<br><br>\n<b>Exposure to sunlight</b>: <br>+ Prolonged exposure to direct sunlight can cause fading and weaken the material over time.\nFoto?\n\nNo worries about roughing it up",
+            "image_bild": "shopify://shop_images/Heimplanet-Transit-Line-Travel-Pack.jpg"
+          }
+        },
+        "dropdown_UiLXPH": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Motion5.png",
+            "text_headline": "02 CARE",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_j9WAND": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit4.png",
+            "text_headline": "03 Repair",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_mqQCmt": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
+            "text_headline": "04 Re-store",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/Re-store.jpg"
+          }
+        },
+        "dropdown_39zmPd": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Mono-Material-Endless-Black-Icon_4544ce44-09f8-4ab1-acf7-7c581edfa375.jpg",
+            "text_headline": "05 Recycle",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_arce8n",
+        "dropdown_UiLXPH",
+        "dropdown_j9WAND",
+        "dropdown_mqQCmt",
+        "dropdown_39zmPd"
+      ],
+      "settings": {
+        "text_headline": "Mono Dyecoshell",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+      }
+    },
     "l_video_L6k4FT": {
       "type": "l_video",
       "custom_css": [
@@ -160,47 +218,13 @@
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
-    },
-    "l_dropdowns_BzMTbG": {
-      "type": "l_dropdowns",
-      "blocks": {
-        "dropdown_arce8n": {
-          "type": "dropdown",
-          "settings": {
-            "text_headline": "Häufige Fragen & Antworten",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
-        },
-        "dropdown_UiLXPH": {
-          "type": "dropdown",
-          "settings": {
-            "text_headline": "Häufige Fragen & Antworten",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
-        },
-        "dropdown_39zmPd": {
-          "type": "dropdown",
-          "settings": {
-            "text_headline": "Häufige Fragen &amp; Antworten",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
-        }
-      },
-      "block_order": [
-        "dropdown_arce8n",
-        "dropdown_UiLXPH",
-        "dropdown_39zmPd"
-      ],
-      "settings": {
-        "text_headline": "Mono Dyecoshell",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_dropdowns_BzMTbG",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
@@ -211,7 +235,6 @@
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next",
-    "l_html_text_L8c4CD",
-    "l_dropdowns_BzMTbG"
+    "l_html_text_L8c4CD"
   ]
 }
