@@ -109,7 +109,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/23-05-11_Icon_Transit4.png",
             "text_headline": "03 Repair",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "textarea_text": "Assess the Damage: Before starting any repairs, inspect your bag thoroughly to identify all areas that need attention, such as broken zippers, loose stitching, or tears in the fabric.\nStitching and Tears: For small tears or loose seams, use a needle and strong thread that matches the color of your bag. Carefully stitch the area, reinforcing any weak spots with extra stitches. We can recommend … \n+ Foto?\nZipper Repair: If a zipper is stuck, try lubricating it with a small amount of beeswax or graphite pencil. For broken zippers, you might need to replace the zipper entirely, which can be done at home with a zipper kit or by a professional.\n+ Foto?\nHandle and Strap Fixes: If a handle or strap is coming loose, reattach it using strong thread, ensuring the stitching is tight and secure. For more severe damage, consider replacing the handle or strap with a new one.\n+ Foto?\nHardware Replacement: If metal parts like clasps, buckles, or rivets are broken, you can often find replacement hardware at craft or repair stores. Use appropriate tools to remove the old hardware and attach the new pieces.\n+ Foto?\nProfessional Repair: If the damage is beyond your skills, consider taking it to a professional repair service or contact our HEIMPLANET service team. … can handle complex issues like lining replacement, extensive stitching, or custom hardware repair.",
             "image_bild": "shopify://shop_images/Moodbilder_CE_Commuter_001.jpg"
           }
         },
@@ -118,7 +118,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
             "text_headline": "04 Re-store",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "textarea_text": "The Heimplanet Re-Store Program offers a sustainable way to give your used Heimplanet bag a second life. Simply return your gently used bag to us, and in exchange, you'll receive a voucher that can be used toward your next purchase. Your returned bag will be cleaned, refurbished, and made available for resale, extending its lifecycle and reducing waste. This program not only helps the environment by promoting reuse but also rewards you for making eco-friendly choices. Use the contact formular below to join us in our commitment to sustainability and get rewarded for it!",
             "image_bild": "shopify://shop_images/Re-store.jpg"
           }
         },
@@ -127,7 +127,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/Mono-Material-Endless-Black-Icon_4544ce44-09f8-4ab1-acf7-7c581edfa375.jpg",
             "text_headline": "05 Recycle",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "textarea_text": "If your Heimplanet bag is too worn out to reuse, take advantage of our recycling program for Mono-packs. \nuse our contact form for further steps\nBilder die zeigen, wie Metallteile abgemacht werden\n(später: Upcycling produkt aus Versteller)",
             "image_bild": "shopify://shop_images/Mono_Pack_Pixel.png"
           }
         }
@@ -161,49 +161,6 @@
         "text_button_text": "Mehr davon"
       }
     },
-    "l_produkt_QbA6R8": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_ipBq33": {
-          "type": "produkt-slider",
-          "settings": {
-          }
-        },
-        "fact_tQ3c6w": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Hervorragende Stabilität"
-          }
-        },
-        "fact_MnxFyG": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Einfache Handhabung"
-          }
-        },
-        "fact_thTQjL": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Lebenslange Garantie"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_ipBq33",
-        "fact_tQ3c6w",
-        "fact_MnxFyG",
-        "fact_thTQjL"
-      ],
-      "settings": {
-        "text_headline": "adsf",
-        "textarea_beschreibung": "",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "asdf",
-        "url_produkt_link": "shopify://products/kirra-classic",
-        "checkbox_swiper_script": true
-      }
-    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -224,7 +181,6 @@
     "l_dropdowns_BzMTbG",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
-    "l_produkt_QbA6R8",
     "article_next"
   ]
 }
