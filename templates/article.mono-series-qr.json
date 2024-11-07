@@ -22,6 +22,18 @@
         "image_bild": "shopify://shop_images/AI_circle.png"
       }
     },
+    "l_headline_T8pcfn": {
+      "type": "l_headline",
+      "settings": {
+      }
+    },
+    "l_headline_mono_4Vq68U": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "The mono series minimal pack",
+        "text_headline": "'The most eco-friendly bag we can make today'"
+      }
+    },
     "l_grid_xawf9F": {
       "type": "l_grid",
       "blocks": {
@@ -62,38 +74,6 @@
         "text_headline": "CLOSING THE LOOP - with MONO",
         "text_mixed_material": "This is where we come from.",
         "text_mono_material": "This is where we are going!"
-      }
-    },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "text_text": "Ressource Efficiency"
-          }
-        },
-        "feature_AbeA6d": {
-          "type": "feature",
-          "settings": {
-            "text_text": "Durability & Longevity"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "text_text": "Recyclability"
-          }
-        }
-      },
-      "block_order": [
-        "feature_YRDDyY",
-        "feature_AbeA6d",
-        "feature_4NiLPy"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
       }
     },
     "l_dropdowns_BzMTbG": {
@@ -174,39 +154,6 @@
         "text_button_text": "Mehr davon"
       }
     },
-    "l_content_right_fX4Dcz": {
-      "type": "l_content_right",
-      "settings": {
-        "text_headline": "01 USE",
-        "textarea_text": "sadf"
-      }
-    },
-    "l_content_left_LMgdf7": {
-      "type": "l_content_left",
-      "settings": {
-        "text_headline": "02 CARE",
-        "textarea_text": "asdf<br><br>\nasdf"
-      }
-    },
-    "l_content_right_hKLaVw": {
-      "type": "l_content_right",
-      "settings": {
-        "text_headline": "04 REPAIR",
-        "textarea_text": "asdf<br><br>\nasdf"
-      }
-    },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
-      "settings": {
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "asdf",
-        "text_headline": "asdf"
-      }
-    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
@@ -259,10 +206,16 @@
         "text_blog_handle": "abenteuer"
       }
     },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
+    "l_content_image_bg_X4KQcg": {
+      "type": "l_content_image_bg",
+      "custom_css": [
+
+      ],
       "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
+        "text_subline": "The mono series minimal pack",
+        "text_headline": "Welcome to the heimplanet family",
+        "textarea_text": "Thank you for purchasing a Mono Series backpack and believing in our vision for a more sustainable future. In doing so you are joining us on an exciting journey towards more sustainable and eco-friendly backpack design.",
+        "text_headline_2": "“THE MOST ECO-FRIENDLY BAG WE CAN MAKE TODAY”"
       }
     }
   },
@@ -270,18 +223,14 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_headline_T8pcfn",
+    "l_headline_mono_4Vq68U",
     "l_grid_xawf9F",
-    "l_step_slider_z93mQW",
     "l_dropdowns_BzMTbG",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
-    "l_content_right_fX4Dcz",
-    "l_content_left_LMgdf7",
-    "l_content_right_hKLaVw",
-    "l_gallery_67Grn9",
-    "l_headline_mono_4Vq68U",
     "l_produkt_QbA6R8",
     "article_next",
-    "l_html_text_L8c4CD"
+    "l_content_image_bg_X4KQcg"
   ]
 }
