@@ -13,12 +13,13 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "asdf",
+        "text_headline": "TRUE CIRCULARITY",
         "textarea_longer_text": "asdf",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/AI_Circle.webp"
       }
     },
     "l_dropdowns_BzMTbG": {
