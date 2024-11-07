@@ -27,7 +27,7 @@
 
       ],
       "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
+        "text_video_url": ""
       }
     },
     "article_products_V4qaqk": {
@@ -48,14 +48,14 @@
     "l_content_left_LMgdf7": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "asdf",
+        "text_headline": "02 CARE",
         "textarea_text": "asdf<br><br>\nasdf"
       }
     },
     "l_content_right_hKLaVw": {
       "type": "l_content_right",
       "settings": {
-        "text_headline": "asdf",
+        "text_headline": "04 REPAIR",
         "textarea_text": "asdf<br><br>\nasdf"
       }
     },
@@ -160,6 +160,41 @@
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
+    },
+    "l_dropdowns_BzMTbG": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_arce8n": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen & Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_UiLXPH": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen & Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_39zmPd": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen &amp; Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_arce8n",
+        "dropdown_UiLXPH",
+        "dropdown_39zmPd"
+      ],
+      "settings": {
+        "text_headline": "Mono Dyecoshell",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+      }
     }
   },
   "layout": "article",
@@ -176,6 +211,7 @@
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next",
-    "l_html_text_L8c4CD"
+    "l_html_text_L8c4CD",
+    "l_dropdowns_BzMTbG"
   ]
 }
