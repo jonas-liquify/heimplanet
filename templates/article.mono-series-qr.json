@@ -22,16 +22,23 @@
         "image_bild": "shopify://shop_images/AI_circle.png"
       }
     },
-    "l_headline_T8pcfn": {
-      "type": "l_headline",
+    "l_content_image_bg_X4KQcg": {
+      "type": "l_content_image_bg",
+      "custom_css": [
+
+      ],
       "settings": {
+        "text_subline": "",
+        "text_headline": "Welcome to the heimplanet family",
+        "textarea_text": "Thank you for purchasing a Mono Series backpack and believing in our vision for a more sustainable future. In doing so you are joining us on an exciting journey towards more sustainable and eco-friendly backpack design.",
+        "text_headline_2": "“THE MOST ECO-FRIENDLY BAG WE CAN MAKE TODAY”"
       }
     },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
+    "l_content_right_MaMwry": {
+      "type": "l_content_right",
       "settings": {
-        "text_subline": "The mono series minimal pack",
-        "text_headline": "'The most eco-friendly bag we can make today'"
+        "text_headline": "this is why your <br>new bag is important",
+        "textarea_text": "The textile industry significantly contributes to greenhouse gas emissions, resource use, and textile waste. Recycling can mitigate ecological impacts by saving water, energy, and chemicals and by reducing landfill use. Unfortunately, only a small percentage is currently recycled. \n<br><br>\nConventional backpacks typically contain a variety of materials such as nylon, polyester, PU, PE, EVA, metal, acetal, etc. This material diversity requires complex separation processes, which are energy-intensive and uneconomical. The answer to this problem lies in \"Design for Recycling\" concepts.\n<br><br>\nThank you for joining us in this critical endeavor. Together, we are driving progress forward, one"
       }
     },
     "l_grid_xawf9F": {
@@ -133,8 +140,8 @@
         "dropdown_39zmPd"
       ],
       "settings": {
-        "text_headline": "THE LIFECYCLE OF YOUR BAG",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+        "text_headline": "Prolonging the life cycle",
+        "textarea_text": "Our mission is to promote sustainability by extending the life of our products. By focusing on proper use, care & maintenance, repair, and our Re-Store program, we aim to reduce waste and conserve resources. Every step is designed to maximize a product's longevity, helping our customers make more sustainable choices. The longer a product lasts, the greater its positive impact on the environment."
       }
     },
     "l_video_L6k4FT": {
@@ -205,32 +212,19 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_content_image_bg_X4KQcg": {
-      "type": "l_content_image_bg",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "text_subline": "",
-        "text_headline": "Welcome to the heimplanet family",
-        "textarea_text": "Thank you for purchasing a Mono Series backpack and believing in our vision for a more sustainable future. In doing so you are joining us on an exciting journey towards more sustainable and eco-friendly backpack design.",
-        "text_headline_2": "“THE MOST ECO-FRIENDLY BAG WE CAN MAKE TODAY”"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_headline_T8pcfn",
-    "l_headline_mono_4Vq68U",
+    "l_content_image_bg_X4KQcg",
+    "l_content_right_MaMwry",
     "l_grid_xawf9F",
     "l_dropdowns_BzMTbG",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_content_image_bg_X4KQcg"
+    "article_next"
   ]
 }
