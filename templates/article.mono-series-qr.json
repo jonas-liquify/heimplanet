@@ -24,9 +24,7 @@
     },
     "l_content_image_bg_X4KQcg": {
       "type": "l_content_image_bg",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "text_subline": "",
         "text_headline": "Welcome to the heimplanet family",
@@ -67,9 +65,10 @@
           "type": "item",
           "settings": {
             "text_headline": "Recyclability",
+            "image_icon": "shopify://shop_images/Mono-Material-Endless-Black-Icon_4544ce44-09f8-4ab1-acf7-7c581edfa375.jpg",
             "text_text": "Your Mono Series backpack is crafted from a single material, Polyester, using our unique Dyecoshell™ Mono fabric. This mono-material construction simplifies recycling, making it both technological and economically feasible. ",
             "text_zahl": "3/3",
-            "text_zahl_text": "creating <s>waste</s> ressources"
+            "text_zahl_text": "creating waste ressources"
           }
         }
       },
@@ -147,9 +146,7 @@
     },
     "l_video_L6k4FT": {
       "type": "l_video",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "text_video_url": ""
       }
