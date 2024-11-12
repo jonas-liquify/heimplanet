@@ -97,7 +97,7 @@
       "type": "l_content_left",
       "settings": {
         "text_headline": "Prolonging the life cycle",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "textarea_text": "Our mission is to promote sustainability by extending the life of our products. By focusing on proper use, care & maintenance, repair, and our Re-Store program, we aim to reduce waste and conserve resources. Every step is designed to maximize a product's longevity, helping our customers make more sustainable choices. The longer a product lasts, the greater its positive impact on the environment.",
         "image_bild": "shopify://shop_images/Mono-material_Cycle_simple.png"
       }
     },
@@ -158,8 +158,8 @@
         "dropdown_39zmPd"
       ],
       "settings": {
-        "text_headline": "Prolonging the life cycle",
-        "textarea_text": "Our mission is to promote sustainability by extending the life of our products. By focusing on proper use, care & maintenance, repair, and our Re-Store program, we aim to reduce waste and conserve resources. Every step is designed to maximize a product's longevity, helping our customers make more sustainable choices. The longer a product lasts, the greater its positive impact on the environment."
+        "text_headline": "",
+        "textarea_text": ""
       }
     },
     "l_video_L6k4FT": {
