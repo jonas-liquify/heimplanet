@@ -169,10 +169,22 @@
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
+        "produkt_slider_Grb4Ge": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-1.jpg"
+          }
+        },
         "produkt_slider_ipBq33": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-1_89806014-965b-4605-8099-11ac7f997ad6.jpg"
+          }
+        },
+        "produkt_slider_bEKLpF": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-1.jpg"
           }
         },
         "fact_tQ3c6w": {
@@ -195,7 +207,9 @@
         }
       },
       "block_order": [
+        "produkt_slider_Grb4Ge",
         "produkt_slider_ipBq33",
+        "produkt_slider_bEKLpF",
         "fact_tQ3c6w",
         "fact_MnxFyG",
         "fact_thTQjL"
