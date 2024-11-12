@@ -22,27 +22,6 @@
         "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_N72_2163.jpg"
       }
     },
-    "l_hero_8hPHPR": {
-      "type": "l_hero",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_1892.jpg"
-      }
-    },
-    "article_products_V4qaqk": {
-      "type": "article_products",
-      "settings": {
-        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon"
-      }
-    },
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
@@ -64,7 +43,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_Iceland_0064.jpg",
         "text_headline": "Dyecoshell™",
-        "textarea_text": "<br><br>\n<br><br>\nDas Shooting: Naturverbundenheit und Funktionalität im rauen Island"
+        "textarea_text": "Die Bezeichnung Dyecoshell™ setzt sich aus den Begriffen <b>Dye</b>ing und <b>Eco</b>logical zusammen. Dieser Stoff kam erstmalig in unserer Transit Line zum Einsatz. Das Material zeichnet sich durch einen ganz besonderen Färbeprozess aus, der sich Spinnendüsenfärbung nennt."
       }
     },
     "l_content_left_4bPDgi": {
@@ -112,7 +91,7 @@
         "dropdown_p44V8k"
       ],
       "settings": {
-        "text_headline": "",
+        "text_headline": "Farben - Inspiriert von der Natur",
         "textarea_text": ""
       }
     },
@@ -202,8 +181,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_hero_8hPHPR",
-    "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
