@@ -55,6 +55,7 @@
           "type": "item",
           "settings": {
             "text_headline": "Ressource Efficiency",
+            "image_icon": "shopify://shop_images/Resource-efficiency_icon_c77ceb02-b9b8-497a-a054-9862e04f6c15.png",
             "text_text": "Our Dyecoshell™ Mono technology eliminates harmful dyeing processes and uses recycled polyester for significant portions of the fabric (100% for diamond black and 50% for Ocean Blue and Midnight Burgundy). The material also features TPEE laminate instead of conventional PU coatings, making it easier to recycle, less energy-intensive, and less harmful. This results in virgin material with minimal environmental impact.",
             "text_zahl": "1/3",
             "text_zahl_text": "Minimal impact when created"
@@ -64,6 +65,7 @@
           "type": "item",
           "settings": {
             "text_headline": "Durability",
+            "image_icon": "shopify://shop_images/Durability-longevity_icon_2c9a0283-c4ff-46c1-84c9-3566aa2c0a9a.png",
             "text_text": "Despite its recyclability, your Mono Series Minimal Pack is built to last. Its robust textile and durable design reduce the need for replacements, lowering environmental impact over time. all Heimplanet gear, including the Mono Series, comes with a lifetime warranty.",
             "text_zahl": "2/3",
             "text_zahl_text": "Maximum lifetime value"
