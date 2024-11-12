@@ -22,11 +22,17 @@
         "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_N72_2163.jpg"
       }
     },
-    "l_video_L6k4FT": {
-      "type": "l_video",
-      "custom_css": [],
+    "l_hero_8hPHPR": {
+      "type": "l_hero",
       "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/r5teak8n_xQ?si=-w_97ge2dOMsl53Z"
+        "text_subline": "This is some text inside of a div block.",
+        "text_headline": "Medium length hero heading goes here",
+        "textarea_longer_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_1892.jpg"
       }
     },
     "article_products_V4qaqk": {
@@ -40,7 +46,7 @@
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V113.jpg",
+        "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_2067.jpg",
         "text_headline": "ASDF",
         "textarea_text": "Island – das Land der Vulkane, Gletscher, endlosen Wasserfälle und kraftvollen Meeresströmungen. Diese dramatische und doch empfindliche Naturkulisse war nicht nur die perfekte Szenerie für unser Shooting mit dem Mono Series Minimal Pack, sondern auch ein Ort, der uns stetig daran erinnert, dass wir nur Gäste und Zuschauer auf diesem Planeten sind. Der vollständig recyclebare Rucksacke, trägt die Philosophie eines geschlossenen Kreislaufs, in dem jedes Material am Ende zurückkehrt und neu genutzt wird. Inspiriert von der Natur demonstriert der Mono Series Minimal Pack, wie nachhaltiges Design aussehen kann – und warum es so wichtig ist.\n\n<br><br>"
       }
@@ -49,14 +55,14 @@
       "type": "l_content_left",
       "settings": {
         "text_headline": "Unser basislager",
-        "textarea_text": "Der Mono Series Minimal Pack ist mehr als ein durchdachter Alltagsrucksack – er repräsentiert ein nachhaltiges Designprinzip, das als „Mono-Konzept“ bekannt ist. Dieses Konzept basiert auf einer Monomaterialstrategie, das heißt, der gesamte Rucksack wird aus einem einzigen Material, dem Dyecoshell, gefertigt. Dieses innovative Material ist besonders langlebig und umweltfreundlich, und am Ende seines Lebenszyklus lässt es sich vollständig recyceln.\n\nDamit symbolisiert der Mono Series Minimal Pack einen geschlossenen Materialkreislauf, ganz ähnlich dem Kreislauf der Natur. Dieser natürliche Kreislauf, der auf Island besonders eindrucksvoll sichtbar ist – vom fließenden Wasser der Wasserfälle und Gletscher bis hin zu den sich ständig wandelnden Lavagebieten –, zeigt, wie alles in der Natur am Ende zurückkehrt und Teil eines endlosen Zyklus ist. Der Rucksack folgt genau diesem Prinzip: Keine Verschwendung, kein Abfall – stattdessen ein nachhaltiger Zyklus, in dem Ressourcen beständig neu genutzt werden.<br><br>",
-        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V17.jpg"
+        "textarea_text": "Der Mono Series Minimal Pack ist mehr als ein durchdachter Alltagsrucksack – er repräsentiert ein nachhaltiges Designprinzip, das als „Mono-Konzept“ bekannt ist. Dieses Konzept basiert auf einer Monomaterialstrategie, das heißt, der gesamte Rucksack wird aus einem einzigen Material, dem Dyecoshell, gefertigt. Dieses innovative Material ist besonders langlebig und umweltfreundlich, und am Ende seines Lebenszyklus lässt es sich vollständig recyceln.\n<br><br>\nDamit symbolisiert der Mono Series Minimal Pack einen geschlossenen Materialkreislauf, ganz ähnlich dem Kreislauf der Natur. Dieser natürliche Kreislauf, der auf Island besonders eindrucksvoll sichtbar ist – vom fließenden Wasser der Wasserfälle und Gletscher bis hin zu den sich ständig wandelnden Lavagebieten –, zeigt, wie alles in der Natur am Ende zurückkehrt und Teil eines endlosen Zyklus ist. Der Rucksack folgt genau diesem Prinzip: Keine Verschwendung, kein Abfall – stattdessen ein nachhaltiger Zyklus, in dem Ressourcen beständig neu genutzt werden.",
+        "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_Iceland_1046.jpg"
       }
     },
     "l_content_right_hKLaVw": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V12.jpg",
+        "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_Iceland_0064.jpg",
         "text_headline": "Sicherheit oder flexibilität?",
         "textarea_text": "Das Cloudbreak ist ideal für Gruppen und Familien. Für Overland-Camper und Outdoor-Enthusiasten, die einen sicheren, zuverlässigen Unterschlupf suchen, der Komfort und Bewegungsfreiheit bietet. Anders als viele aktuelle Optionen, bei denen man zwischen Sicherheit und Flexibilität wählen muss, bietet das Cloudbreak beides. Viele andere Zelte dieser Größe möchte man liebsten eine ganze Woche nicht bewegen, wenn es denn einmal gelungen ist sie zu errichten. <br><br>Cloudbreak ist anders. Der schnelle Auf- und Abbau garantiert maximale Bewegungsfreiheit. Hat man sich dann für einen Ort entschieden bietet die Geodätische Struktur und die doppellagige Rahmenkonstruktion den nötigen Schutz vor den Elementen. Somit sind auch Road Trips möglich bei denen man jede Nacht unter einem anderen Sternenhimmel einschlafen kann. \n<br><br>\n<br><br>"
       }
@@ -72,9 +78,9 @@
     "l_gallery_67Grn9": {
       "type": "l_gallery",
       "settings": {
-        "image_bild_1": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood8.jpg",
-        "image_bild_2": "shopify://shop_images/Dani-Guindo.png",
-        "image_bild_3": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V15.jpg"
+        "image_bild_1": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_0975.jpg",
+        "image_bild_2": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_2064.jpg",
+        "image_bild_3": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_0799.jpg"
       }
     },
     "l_headline_mono_4Vq68U": {
@@ -145,7 +151,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/mono-material_endless-red.png",
             "text_headline": "Midnight Burgundy",
-            "textarea_text": "Diese kräftige Farbe erinnert an die tiefroten und dunklen Farbtöne des Lavagesteins, das einst flüssig die Erde formte und mit der Zeit abkühlt und wieder in festen Boden übergeht. Diese Lavafelder stehen als Symbol für die Ursprünglichkeit und den Wandel – genauso wie der Rucksack darauf ausgelegt ist, nach seiner Nutzung wieder in den Materialkreislauf zurückzukehren.\n<br><br>\nDas Mono-Material des blauen Rucksacks besteht zu 50% aus bereits recyceltem Material. Die übrigen 50% bestehen aufgrund der komplexeren Farbgebung aus Neufasern. Der Rucksack ist vollständig recycelbar.",
+            "textarea_text": "Diese kräftige Farbe erinnert an die tiefroten und dunklen Farbtöne des Lavagesteins, das einst flüssig die Erde formte und mit der Zeit abkühlt und wieder in festen Boden übergeht. Diese Lavafelder stehen als Symbol für die Ursprünglichkeit und den Wandel – genauso wie der Rucksack darauf ausgelegt ist, nach seiner Nutzung wieder in den Materialkreislauf zurückzukehren.\n<br><br>\nDas Mono-Material des dunkelroten Rucksacks besteht zu 50% aus bereits recyceltem Material. Die übrigen 50% bestehen aufgrund der komplexeren Farbgebung aus Neufasern. Der Rucksack ist vollständig recycelbar.",
             "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_0453.jpg"
           }
         }
@@ -172,13 +178,13 @@
         "fact_tQ3c6w": {
           "type": "fact",
           "settings": {
-            "text_text": "Hervorragende Stabilität"
+            "text_text": "Bis zu 100% aus recyceltem Material"
           }
         },
         "fact_MnxFyG": {
           "type": "fact",
           "settings": {
-            "text_text": "Separate Schlafkabine"
+            "text_text": "Vollständig Recycelbar"
           }
         },
         "fact_thTQjL": {
@@ -224,7 +230,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_video_L6k4FT",
+    "l_hero_8hPHPR",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
