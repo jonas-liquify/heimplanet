@@ -119,6 +119,44 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_dropdowns_4wFm96": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_dHYKCH": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/mono-material_endless-blue.png",
+            "text_headline": "Ocean Blue",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_p44V8k": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/mono-material_endless-red.png",
+            "text_headline": "Midnight Burgundy",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_CRxhmK": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Mono-Material-Endless-Black-Icon_4544ce44-09f8-4ab1-acf7-7c581edfa375.jpg",
+            "text_headline": "Diamond Black",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_dHYKCH",
+        "dropdown_p44V8k",
+        "dropdown_CRxhmK"
+      ],
+      "settings": {
+        "text_headline": "Mono Dyecoshell",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+      }
+    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
@@ -192,6 +230,7 @@
     "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
     "l_step_slider_z93mQW",
+    "l_dropdowns_4wFm96",
     "l_produkt_QbA6R8",
     "article_next",
     "l_html_text_L8c4CD"
