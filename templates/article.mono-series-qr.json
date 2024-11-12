@@ -40,12 +40,12 @@
         "textarea_text": "The textile industry significantly contributes to greenhouse gas emissions, resource use, and textile waste. Recycling can mitigate ecological impacts by saving water, energy, and chemicals and by reducing landfill use. Unfortunately, only a small percentage is currently recycled. \n<br><br>\nConventional backpacks typically contain a variety of materials such as nylon, polyester, PU, PE, EVA, metal, acetal, etc. This material diversity requires complex separation processes, which are energy-intensive and uneconomical. The answer to this problem lies in \"Design for Recycling\" concepts.\n<br><br>\nThank you for joining us in this critical endeavor. Together, we are driving progress forward, one"
       }
     },
-    "l_content_left_3nhLVM": {
+    "l_content_left_dzUanx": {
       "type": "l_content_left",
       "settings": {
         "text_headline": "Bags+Backpacks",
         "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        "image_bild": "shopify://shop_images/Mono-material_Cycle_simple.png"
+        "image_bild": "shopify://shop_images/Mono-material_Cycle_simplified.png"
       }
     },
     "l_grid_xawf9F": {
@@ -75,6 +75,7 @@
           "type": "item",
           "settings": {
             "text_headline": "Recyclability",
+            "image_icon": "shopify://shop_images/mono-material_endless-blue.png",
             "text_text": "Your Mono Series backpack is crafted from a single material, Polyester, using our unique Dyecoshell™ Mono fabric. This mono-material construction simplifies recycling, making it both technological and economically feasible. ",
             "text_zahl": "3/3",
             "text_zahl_text": "creating waste ressources"
@@ -90,6 +91,14 @@
         "text_headline": "CLOSING THE LOOP - with MONO",
         "text_mixed_material": "This is where we come from.",
         "text_mono_material": "This is where we are going!"
+      }
+    },
+    "l_content_left_3nhLVM": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Prolonging the life cycle",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "image_bild": "shopify://shop_images/Mono-material_Cycle_simple.png"
       }
     },
     "l_dropdowns_BzMTbG": {
@@ -184,8 +193,9 @@
     "l_hero_ijQ63U",
     "l_content_image_bg_X4KQcg",
     "l_content_right_MaMwry",
-    "l_content_left_3nhLVM",
+    "l_content_left_dzUanx",
     "l_grid_xawf9F",
+    "l_content_left_3nhLVM",
     "l_dropdowns_BzMTbG",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
