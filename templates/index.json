@@ -43,16 +43,6 @@
             "text_button_text": "MEHR ERFAHREN"
           }
         },
-        "hero_slider_L3fJzp": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Re-Store-Packing-Cubes.jpg",
-            "text_headline": "Packing Cubes",
-            "richtext_text": "<p>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität.</p>",
-            "url_button_link": "shopify://products/carry-essentials-packing-cubes-re-store-edition-set",
-            "text_button_text": "Jetzt entdecken"
-          }
-        },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
@@ -60,6 +50,16 @@
             "text_headline": "Unsere Zelte",
             "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
             "url_button_link": "shopify://collections/zelte",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
+        "hero_slider_L3fJzp": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Re-Store-Packing-Cubes.jpg",
+            "text_headline": "Packing Cubes",
+            "richtext_text": "<p>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität.</p>",
+            "url_button_link": "shopify://products/carry-essentials-packing-cubes-re-store-edition-set",
             "text_button_text": "Jetzt entdecken"
           }
         },
@@ -121,8 +121,8 @@
         "hero_slider_FDAzFx",
         "hero_slider_DVNdYF",
         "hero_slider_3zKtma",
-        "hero_slider_L3fJzp",
         "hero_slider_DQWqP4",
+        "hero_slider_L3fJzp",
         "hero_slider_zBjUtr",
         "hero_slider_icPbWh",
         "hero_slider_LP9zUr",
