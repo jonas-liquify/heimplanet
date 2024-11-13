@@ -14,11 +14,10 @@
       "blocks": {
         "hero_slider_FDAzFx": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Licens_valid_12_months_until_23-10-2025_Foto_OktawianGornik_N72_2163.jpg",
             "text_headline": "Inspiriert vom Kreislauf der Natur",
-            "richtext_text": "<p><strong>NEUER BLOGPOST<br/></strong>Ein Material. Endlose Zyklen - Der Mono Series Minimal Pack auf Island. </p>",
+            "richtext_text": "<p><strong>NEUER BLOGPOST<br/></strong>Der Beginn einer neuen Ära - Der Mono Series Minimal Pack auf Island. </p>",
             "url_button_link": "https://heimplanet.com/blogs/abenteuer/von-der-natur-inspiriert-fur-den-kreislauf-konzipiert",
             "text_button_text": "ZUM MAGAZIN"
           }
