@@ -50,7 +50,8 @@
       "type": "l_content_left",
       "settings": {
         "text_headline": "Design als Philosophie",
-        "textarea_text": "Für uns stellt der Mono Series Minimal Pack weit mehr als nur einen Rucksack dar – er ist ein wichtiger Schritt in Richtung der nachhaltigen Taschen-Entwicklung. Er zeigt, dass es möglich ist, Produkte zu entwerfen, die nach ihrem Gebrauch keine Belastung für die Umwelt darstellen, sondern sich in einen natürlichen Kreislauf der Natur zurückführen lassen. \n<br><br>\nDer Minimal Pack erinnert uns daran, dass Design und Funktion Hand in Hand mit einer nachhaltigen Philosophie gehen können – und dass jeder Schritt, den wir für eine Kreislaufwirtschaft tun, letztendlich zu einer Zukunft führt, in der wir im Einklang mit der Natur leben."
+        "textarea_text": "Für uns stellt der Mono Series Minimal Pack weit mehr als nur einen Rucksack dar – er ist ein wichtiger Schritt in Richtung der nachhaltigen Taschen-Entwicklung. Er zeigt, dass es möglich ist, Produkte zu entwerfen, die nach ihrem Gebrauch keine Belastung für die Umwelt darstellen, sondern sich in einen natürlichen Kreislauf der Natur zurückführen lassen. \n<br><br>\nDer Minimal Pack erinnert uns daran, dass Design und Funktion Hand in Hand mit einer nachhaltigen Philosophie gehen können – und dass jeder Schritt, den wir für eine Kreislaufwirtschaft tun, letztendlich zu einer Zukunft führt, in der wir im Einklang mit der Natur leben.",
+        "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-10.jpg"
       }
     },
     "l_dropdowns_4wFm96": {
@@ -97,7 +98,9 @@
     "l_gallery_67Grn9": {
       "type": "l_gallery",
       "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-01.jpg"
+        "image_bild_1": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-01.jpg",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-03.jpg",
+        "image_bild_3": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-04.jpg"
       }
     },
     "l_produkt_QbA6R8": {
