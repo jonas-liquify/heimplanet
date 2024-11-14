@@ -154,8 +154,8 @@
       "settings": {
         "text_headline": "Mono Series Minimal Pack",
         "textarea_beschreibung": "Der umfreundlichste Rucksack den wir heute herstellen können.",
-        "text_preis": "",
-        "text_hinweis": "",
+        "text_preis": "129€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
         "text_button_text": "ZUM RUCKSACK",
         "url_produkt_link": "shopify://products/mono-series-minimal-pack-diamond-black",
         "checkbox_swiper_script": true
