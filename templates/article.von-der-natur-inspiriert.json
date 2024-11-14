@@ -158,7 +158,7 @@
         "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
         "text_button_text": "ZUM RUCKSACK",
         "url_produkt_link": "shopify://products/mono-series-minimal-pack-diamond-black",
-        "checkbox_swiper_script": true
+        "checkbox_swiper_script": false
       }
     },
     "article_next": {
