@@ -172,6 +172,7 @@
     },
     "l_html_text_L8c4CD": {
       "type": "l_html_text",
+      "disabled": true,
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
