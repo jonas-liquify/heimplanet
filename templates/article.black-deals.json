@@ -14,7 +14,7 @@
       "settings": {
         "text_subline": "Black Deals",
         "text_headline": "Was ist dir der Planet wert?",
-        "textarea_longer_text": "",
+        "textarea_longer_text": "<br>Jetzt teilnehmen und bis zu 30% sparen!",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
@@ -45,8 +45,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "Die Aktion",
-            "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährige BLACK WEEK einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK WEEK werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern.",
-            "image_bild": "shopify://shop_images/Logos-BF_21a4f452-ff24-4138-802c-78a67c7024b1.jpg"
+            "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährige BLACK WEEK einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK WEEK werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern."
           }
         },
         "dropdown_CRxhmK": {
@@ -63,8 +62,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "Organisationen",
-            "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
-            "image_bild": "shopify://shop_images/Logos-BF_21a4f452-ff24-4138-802c-78a67c7024b1.jpg"
+            "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International."
           }
         }
       },
@@ -105,7 +103,7 @@
       "settings": {
         "text_headline": "Organisationen",
         "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
-        "image_bild": "shopify://shop_images/Logos-Organisations_4c4b2d51-39bd-4dc0-a467-748af3f2989f.jpg"
+        "image_bild": "shopify://shop_images/Logos-Organisations.jpg"
       }
     }
   },
