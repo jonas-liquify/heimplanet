@@ -34,22 +34,33 @@
       "settings": {
         "text_subline": "",
         "text_headline": "Gutschein-Codes",
-        "text_text": "<br>30% für den Planeten | 0% für Dich*: 30FORTHEPLANET<br>20% für den Planeten | 10% für Dich*: 20FORTHEPLANET<br>10% für den Planeten | 20% für Dich*: 10FORTHEPLANET<br>0% für den Planeten | 30% für Dich*: 0FORTHEPLANET"
+        "text_text": "30% für den Planeten | 0% für Dich*: 30FORTHEPLANET<br>20% für den Planeten | 10% für Dich*: 20FORTHEPLANET<br>10% für den Planeten | 20% für Dich*: 10FORTHEPLANET<br>0% für den Planeten | 30% für Dich*: 0FORTHEPLANET"
       }
     },
     "l_dropdowns_4wFm96": {
       "type": "l_dropdowns",
       "blocks": {
+        "dropdown_MLxbTF": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "text_headline": "Die Aktion",
+            "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährige BLACK WEEK einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK WEEK werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern.",
+            "image_bild": "shopify://shop_images/Logos-BF_21a4f452-ff24-4138-802c-78a67c7024b1.jpg"
+          }
+        },
         "dropdown_CRxhmK": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "Unser Verständnis von Nachhaltigkeit",
             "textarea_text": "Als Outdoor Marke versuchen wir umweltbewusste Lösungen entlang des gesamten Lebenszyklus unserer Produkte zu finden. Angefangen mit den verwendeten Rohstoffen (z.B. Dyecoshell™), über Nutzungsdauer der Produkte die wir durch eine Lebenslange Garantie so lang wie möglich aufrechterhalten möchten, bis hin zur Zurücknahme und Wiederaufbereitung gebrauchter Artikel in unser Re-Store Programm. <br><br>Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
-            "image_bild": "shopify://shop_images/Logos-BF.jpg"
+            "image_bild": "shopify://shop_images/24-11-12_header02.jpg"
           }
         }
       },
       "block_order": [
+        "dropdown_MLxbTF",
         "dropdown_CRxhmK"
       ],
       "settings": {
