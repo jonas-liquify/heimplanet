@@ -32,13 +32,7 @@
     "l_html_text_ka9mif": {
       "type": "l_html_text",
       "settings": {
-        "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2><br>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET - hier klicken</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 02.12.2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung.<br>"
-      }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
+        "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2><br>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET - hier klicken</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 02.12.2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung."
       }
     },
     "l_content_left_xMVCQy": {
@@ -128,7 +122,6 @@
     "l_hero_KpC3jD",
     "l_newsletter_GnTPcC",
     "l_html_text_ka9mif",
-    "l_html_text_L8c4CD",
     "l_content_left_xMVCQy",
     "l_content_right_gGNkGm",
     "l_content_left_7jQtAh",
