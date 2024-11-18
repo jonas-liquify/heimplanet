@@ -32,46 +32,7 @@
     "l_html_text_ka9mif": {
       "type": "l_html_text",
       "settings": {
-        "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 1. April 2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung."
-      }
-    },
-    "l_dropdowns_4wFm96": {
-      "type": "l_dropdowns",
-      "blocks": {
-        "dropdown_MLxbTF": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
-            "text_headline": "Die Aktion",
-            "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährige BLACK WEEK einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK WEEK werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern."
-          }
-        },
-        "dropdown_CRxhmK": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
-            "text_headline": "Unser Verständnis von Nachhaltigkeit",
-            "textarea_text": "Als Outdoor Marke versuchen wir umweltbewusste Lösungen entlang des gesamten Lebenszyklus unserer Produkte zu finden. Angefangen mit den verwendeten Rohstoffen (z.B. Dyecoshell™), über Nutzungsdauer der Produkte die wir durch eine Lebenslange Garantie so lang wie möglich aufrechterhalten möchten, bis hin zur Zurücknahme und Wiederaufbereitung gebrauchter Artikel in unser Re-Store Programm.",
-            "image_bild": "shopify://shop_images/24-11-12_header02.jpg"
-          }
-        },
-        "dropdown_mmgHpU": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
-            "text_headline": "Organisationen",
-            "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International."
-          }
-        }
-      },
-      "block_order": [
-        "dropdown_MLxbTF",
-        "dropdown_CRxhmK",
-        "dropdown_mmgHpU"
-      ],
-      "settings": {
-        "text_headline": "",
-        "textarea_text": ""
+        "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 1. April 2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung.<br>"
       }
     },
     "l_html_text_L8c4CD": {
@@ -167,7 +128,6 @@
     "l_hero_ijQ63U",
     "l_newsletter_GnTPcC",
     "l_html_text_ka9mif",
-    "l_dropdowns_4wFm96",
     "l_html_text_L8c4CD",
     "l_content_left_xMVCQy",
     "l_content_right_gGNkGm",
