@@ -37,6 +37,12 @@
         "text_text": "30% für den Planeten | 0% für Dich*: 30FORTHEPLANET20% für den Planeten | 10% für Dich*: 20FORTHEPLANET10% für den Planeten | 20% für Dich*: 10FORTHEPLANET0% für den Planeten | 30% für Dich*: 0FORTHEPLANET"
       }
     },
+    "l_html_text_ka9mif": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "<h2>WÄHLE DEINEN CODE</h2><br><p><span>30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET</strong></a></span></p>\n<p><span>20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></span></p>\n<p><span>10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></span></p>\n<p>0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p>"
+      }
+    },
     "l_dropdowns_4wFm96": {
       "type": "l_dropdowns",
       "blocks": {
@@ -169,6 +175,7 @@
     "l_hero_ijQ63U",
     "l_newsletter_GnTPcC",
     "l_text_logos_teiYUz",
+    "l_html_text_ka9mif",
     "l_dropdowns_4wFm96",
     "l_html_text_L8c4CD",
     "l_content_left_xMVCQy",
