@@ -140,13 +140,22 @@
             "image_bild": "shopify://shop_images/Heimplanet-Dawn-Tarp-XL-Cairo-Camo-1.jpg",
             "text_headline": "Tarps"
           }
+        },
+        "kategorie_GX9kWX": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify://collections/hpt-selected",
+            "image_bild": "shopify://shop_images/HPT-Selected-Soto-New-River-Amicus-Combo-5.jpg",
+            "text_headline": "HPT-Selected"
+          }
         }
       },
       "block_order": [
         "kategorie_R6hKzB",
         "kategorie_bayt7G",
         "kategorie_tGHEJn",
-        "kategorie_icUnFD"
+        "kategorie_icUnFD",
+        "kategorie_GX9kWX"
       ],
       "settings": {
         "checkbox_swiper_script": true
