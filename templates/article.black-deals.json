@@ -22,15 +22,29 @@
         "image_bild": "shopify://shop_images/Heimplanet-Black-Week-21.jpg"
       }
     },
+    "l_hero_KpC3jD": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "HEIMPLANET<br>",
+        "text_headline": "BLACK DEALS bis zu 30%",
+        "textarea_longer_text": "<br>Jetzt anmelden & schon ab dem 25. Nov shoppen.",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Black-Week-21.jpg"
+      }
+    },
     "l_newsletter_GnTPcC": {
       "type": "l_newsletter",
       "settings": {
-        "text_headline": "Jetzt anmelden für early access!",
-        "text_text": "Schon ab Montag, 25. November 2024 teilnehmen."
+        "text_headline": "Early access für abonnenten!",
+        "text_text": "Abonnenten shoppen bereits ab  Montag, 25. November 2024 - Jetzt anmelden!"
       }
     },
     "l_html_text_ka9mif": {
       "type": "l_html_text",
+      "disabled": true,
       "settings": {
         "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2><br>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 1. April 2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung.<br>"
       }
@@ -45,7 +59,7 @@
     "l_content_left_xMVCQy": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "Die Aktion",
+        "text_headline": "Was ist dir der Planet wert?",
         "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährigen BLACK DEALS einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK DEALS werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern.",
         "image_bild": "shopify://shop_images/01_2024_HPT_-_011.jpg"
       }
@@ -117,6 +131,7 @@
         "kategorie_icUnFD",
         "kategorie_GX9kWX"
       ],
+      "disabled": true,
       "settings": {
         "checkbox_swiper_script": true
       }
@@ -126,6 +141,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_hero_KpC3jD",
     "l_newsletter_GnTPcC",
     "l_html_text_ka9mif",
     "l_html_text_L8c4CD",
