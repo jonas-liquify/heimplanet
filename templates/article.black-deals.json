@@ -84,6 +84,29 @@
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
+    },
+    "l_content_left_xMVCQy": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Die Aktion",
+        "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährige BLACK WEEK einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK WEEK werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern."
+      }
+    },
+    "l_content_right_gGNkGm": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/24-11-12_header02.jpg",
+        "text_headline": "Unser Verständnis von Nachhaltigkeit",
+        "textarea_text": "Als Outdoor Marke versuchen wir umweltbewusste Lösungen entlang des gesamten Lebenszyklus unserer Produkte zu finden. Angefangen mit den verwendeten Rohstoffen (z.B. Dyecoshell™), über Nutzungsdauer der Produkte die wir durch eine Lebenslange Garantie so lang wie möglich aufrechterhalten möchten, bis hin zur Zurücknahme und Wiederaufbereitung gebrauchter Artikel in unser Re-Store Programm."
+      }
+    },
+    "l_content_left_7jQtAh": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Organisationen",
+        "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
+        "image_bild": "shopify://shop_images/Logos-Organisations_4c4b2d51-39bd-4dc0-a467-748af3f2989f.jpg"
+      }
     }
   },
   "layout": "article",
@@ -93,6 +116,9 @@
     "l_newsletter_GnTPcC",
     "l_text_logos_teiYUz",
     "l_dropdowns_4wFm96",
-    "l_html_text_L8c4CD"
+    "l_html_text_L8c4CD",
+    "l_content_left_xMVCQy",
+    "l_content_right_gGNkGm",
+    "l_content_left_7jQtAh"
   ]
 }
