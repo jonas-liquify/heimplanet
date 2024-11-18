@@ -33,8 +33,8 @@
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
-        "text_headline": "Gutschein-Codes",
-        "text_text": "30% für den Planeten | 0% für Dich*: 30FORTHEPLANET<br>20% für den Planeten | 10% für Dich*: 20FORTHEPLANET<br>10% für den Planeten | 20% für Dich*: 10FORTHEPLANET<br>0% für den Planeten | 30% für Dich*: 0FORTHEPLANET"
+        "text_headline": "Wähle Deinen Code",
+        "text_text": "30% für den Planeten & 0% für Dich*: 30FORTHEPLANET20% für den Planeten & 10% für Dich*: 20FORTHEPLANET10% für den Planeten & 20% für Dich*: 10FORTHEPLANET0% für den Planeten & 30% für Dich*: 0FORTHEPLANET"
       }
     },
     "l_dropdowns_4wFm96": {
@@ -87,13 +87,14 @@
       "type": "l_content_left",
       "settings": {
         "text_headline": "Die Aktion",
-        "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährigen BLACK DEALS einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK DEALS werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern."
+        "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährigen BLACK DEALS einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK DEALS werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern.",
+        "image_bild": "shopify://shop_images/01_2024_HPT_-_011.jpg"
       }
     },
     "l_content_right_gGNkGm": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/24-11-12_header02.jpg",
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood9.jpg",
         "text_headline": "Unser Verständnis von Nachhaltigkeit",
         "textarea_text": "Als Outdoor Marke versuchen wir umweltbewusste Lösungen entlang des gesamten Lebenszyklus unserer Produkte zu finden. Angefangen mit den verwendeten Rohstoffen (z.B. Dyecoshell™), über Nutzungsdauer der Produkte die wir durch eine Lebenslange Garantie so lang wie möglich aufrechterhalten möchten, bis hin zur Zurücknahme und Wiederaufbereitung gebrauchter Artikel in unser Re-Store Programm."
       }
