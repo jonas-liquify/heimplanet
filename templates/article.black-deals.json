@@ -29,6 +29,14 @@
         "text_text": "Schon ab Montag, 25. November 2024 teilnehmen."
       }
     },
+    "l_text_logos_teiYUz": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Gutschein-Codes",
+        "text_text": "<br>30% für den Planeten | 0% für Dich*: 30FORTHEPLANET<br>20% für den Planeten | 10% für Dich*: 20FORTHEPLANET<br>10% für den Planeten | 20% für Dich*: 10FORTHEPLANET<br>0% für den Planeten | 30% für Dich*: 0FORTHEPLANET"
+      }
+    },
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
@@ -91,6 +99,7 @@
   "order": [
     "l_hero_ijQ63U",
     "l_newsletter_GnTPcC",
+    "l_text_logos_teiYUz",
     "l_content_right_fX4Dcz",
     "l_dropdowns_4wFm96",
     "l_html_text_L8c4CD"
