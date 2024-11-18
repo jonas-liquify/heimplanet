@@ -54,14 +54,24 @@
           "settings": {
             "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
             "text_headline": "Unser Verständnis von Nachhaltigkeit",
-            "textarea_text": "Als Outdoor Marke versuchen wir umweltbewusste Lösungen entlang des gesamten Lebenszyklus unserer Produkte zu finden. Angefangen mit den verwendeten Rohstoffen (z.B. Dyecoshell™), über Nutzungsdauer der Produkte die wir durch eine Lebenslange Garantie so lang wie möglich aufrechterhalten möchten, bis hin zur Zurücknahme und Wiederaufbereitung gebrauchter Artikel in unser Re-Store Programm. <br><br>Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
+            "textarea_text": "Als Outdoor Marke versuchen wir umweltbewusste Lösungen entlang des gesamten Lebenszyklus unserer Produkte zu finden. Angefangen mit den verwendeten Rohstoffen (z.B. Dyecoshell™), über Nutzungsdauer der Produkte die wir durch eine Lebenslange Garantie so lang wie möglich aufrechterhalten möchten, bis hin zur Zurücknahme und Wiederaufbereitung gebrauchter Artikel in unser Re-Store Programm.",
             "image_bild": "shopify://shop_images/24-11-12_header02.jpg"
+          }
+        },
+        "dropdown_mmgHpU": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "text_headline": "Organisationen",
+            "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
+            "image_bild": "shopify://shop_images/Logos-BF_21a4f452-ff24-4138-802c-78a67c7024b1.jpg"
           }
         }
       },
       "block_order": [
         "dropdown_MLxbTF",
-        "dropdown_CRxhmK"
+        "dropdown_CRxhmK",
+        "dropdown_mmgHpU"
       ],
       "settings": {
         "text_headline": "",
