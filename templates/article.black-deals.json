@@ -132,12 +132,21 @@
             "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-1_89806014-965b-4605-8099-11ac7f997ad6.jpg",
             "text_headline": "Heading"
           }
+        },
+        "kategorie_icUnFD": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify://collections/tarps",
+            "image_bild": "shopify://shop_images/Heimplanet-Dawn-Tarp-XL-Cairo-Camo-1.jpg",
+            "text_headline": "Tarps"
+          }
         }
       },
       "block_order": [
         "kategorie_R6hKzB",
         "kategorie_bayt7G",
-        "kategorie_tGHEJn"
+        "kategorie_tGHEJn",
+        "kategorie_icUnFD"
       ],
       "settings": {
         "checkbox_swiper_script": true
