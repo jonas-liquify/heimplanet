@@ -87,7 +87,7 @@
       "type": "l_content_left",
       "settings": {
         "text_headline": "Die Aktion",
-        "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährige BLACK WEEK einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK WEEK werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern."
+        "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährigen BLACK DEALS einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK DEALS werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern."
       }
     },
     "l_content_right_gGNkGm": {
@@ -105,6 +105,43 @@
         "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
         "image_bild": "shopify://shop_images/Logos-Organisations.jpg"
       }
+    },
+    "kategorien_FwEEnE": {
+      "type": "kategorien",
+      "blocks": {
+        "kategorie_R6hKzB": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify://collections/bekleidung",
+            "image_bild": "shopify://shop_images/Heimplanet-Apparel-Hoodie-2022-1.webp",
+            "text_headline": "Bekleidung"
+          }
+        },
+        "kategorie_bayt7G": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify://collections/zelte",
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-2022.webp",
+            "text_headline": "Zelte"
+          }
+        },
+        "kategorie_tGHEJn": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify://collections/taschen",
+            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-1_89806014-965b-4605-8099-11ac7f997ad6.jpg",
+            "text_headline": "Heading"
+          }
+        }
+      },
+      "block_order": [
+        "kategorie_R6hKzB",
+        "kategorie_bayt7G",
+        "kategorie_tGHEJn"
+      ],
+      "settings": {
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "article",
@@ -117,6 +154,7 @@
     "l_html_text_L8c4CD",
     "l_content_left_xMVCQy",
     "l_content_right_gGNkGm",
-    "l_content_left_7jQtAh"
+    "l_content_left_7jQtAh",
+    "kategorien_FwEEnE"
   ]
 }
