@@ -38,7 +38,6 @@
     },
     "l_content_left_xMVCQy": {
       "type": "l_content_left",
-      "disabled": true,
       "settings": {
         "text_headline": "Was ist dir der Planet wert?",
         "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährigen BLACK DEALS einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK DEALS werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern.",
@@ -47,7 +46,6 @@
     },
     "l_content_right_gGNkGm": {
       "type": "l_content_right",
-      "disabled": true,
       "settings": {
         "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood9.jpg",
         "text_headline": "Unser Verständnis von Nachhaltigkeit",
@@ -56,7 +54,6 @@
     },
     "l_content_left_7jQtAh": {
       "type": "l_content_left",
-      "disabled": true,
       "settings": {
         "text_headline": "Organisationen",
         "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
