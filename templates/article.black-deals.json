@@ -31,12 +31,14 @@
     },
     "l_html_text_ka9mif": {
       "type": "l_html_text",
+      "disabled": true,
       "settings": {
         "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2><br>Klicke auf den gewünschten Gutscheincode, um diesen automatisch im Warenkorb zu aktivieren oder kopiere ihn für den Checkout.<br><br><br>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 02.12.2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung."
       }
     },
     "l_content_left_xMVCQy": {
       "type": "l_content_left",
+      "disabled": true,
       "settings": {
         "text_headline": "Was ist dir der Planet wert?",
         "textarea_text": "HEIMPLANET Equipment wird von Outdoor-Enthusiasten und Profis gleichermaßen genutzt und ermutigt sie dazu, sich mit ihrer Umgebung vertraut zu machen, ihre Verbindung zur Natur zu erleben und letztendlich selbst zu Botschaftern für Umweltbewusstsein zu werden.<br><br>In diesem Sinne möchten wir die diesjährigen BLACK DEALS einläuten, indem wir unser Engagement für unseren Partner 1% For The Planet bekräftigen. Über die BLACK DEALS werden wir nicht 1%, sondern 30% abgeben wobei du selbst entscheiden kannst, wie viel du in der Lage bist beizusteuern.",
@@ -45,6 +47,7 @@
     },
     "l_content_right_gGNkGm": {
       "type": "l_content_right",
+      "disabled": true,
       "settings": {
         "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood9.jpg",
         "text_headline": "Unser Verständnis von Nachhaltigkeit",
@@ -53,6 +56,7 @@
     },
     "l_content_left_7jQtAh": {
       "type": "l_content_left",
+      "disabled": true,
       "settings": {
         "text_headline": "Organisationen",
         "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
