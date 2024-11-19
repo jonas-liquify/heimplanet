@@ -12,6 +12,17 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_eJrrgt": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify://shop_images/Black_Background.png",
+            "text_headline": "BLACK DEALS",
+            "richtext_text": "<h6><strong>JETZT EARLY ACCESS SICHERN  </strong></h6><p>Black Friday ist der 29.11.<br/>Abonnenten bekommen bereits ab Montag den 25.11. Zugriff auf die exklusiven Anbebote. <br/><strong>Jetzt anmelden und dabei sein! </strong></p>",
+            "url_button_link": "",
+            "text_button_text": "ZUR ANMELDUNG"
+          }
+        },
         "hero_slider_FDAzFx": {
           "type": "hero-slider",
           "settings": {
@@ -95,17 +106,6 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
-        "hero_slider_eJrrgt": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Three-souls-a-yranean-quest-Banner.jpg",
-            "text_headline": "THREE SOULS. A PYRENEAN QUEST",
-            "richtext_text": "<h6><strong>700KM | 40.000M </strong></h6><p>Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren. <strong>Jetzt mehr Erfahren! </strong></p>",
-            "url_button_link": "https://heimplanet.com/blogs/abenteuer/three-souls-a-pyrenean-quest",
-            "text_button_text": "Mehr ERFAHREN"
-          }
-        },
         "hero_slider_6ztQE7": {
           "type": "hero-slider",
           "disabled": true,
@@ -119,6 +119,7 @@
         }
       },
       "block_order": [
+        "hero_slider_eJrrgt",
         "hero_slider_FDAzFx",
         "hero_slider_DVNdYF",
         "hero_slider_3zKtma",
@@ -127,7 +128,6 @@
         "hero_slider_zBjUtr",
         "hero_slider_icPbWh",
         "hero_slider_LP9zUr",
-        "hero_slider_eJrrgt",
         "hero_slider_6ztQE7"
       ],
       "settings": {
