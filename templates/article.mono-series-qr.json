@@ -161,6 +161,7 @@
     },
     "l_video_L6k4FT": {
       "type": "l_video",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "text_video_url": ""
