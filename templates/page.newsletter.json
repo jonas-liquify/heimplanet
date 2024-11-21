@@ -19,12 +19,14 @@
     },
     "l_html_text_3b3jq7": {
       "type": "l_html_text",
+      "disabled": true,
       "settings": {
         "html_richtext": "<div class=\"klaviyo-form-VEVTKH\"></div>"
       }
     },
     "l_text_logos_RcknbQ": {
       "type": "l_text_logos",
+      "disabled": true,
       "settings": {
         "text_subline": "",
         "text_headline": "",
