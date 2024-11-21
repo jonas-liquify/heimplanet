@@ -14,9 +14,9 @@
       "settings": {
         "text_subline": "",
         "text_headline": "BLACK DEALS bis zu 30%",
-        "textarea_longer_text": "<br>Jetzt anmelden & schon ab dem 25. Nov shoppen.",
-        "text_button_text": "",
-        "url_button_link": "",
+        "textarea_longer_text": "<br>Newsletter Abonnenten shoppen bereits ab Montag, 25. November 2024 - jetzt anmelden!",
+        "text_button_text": "JETZT ANMELDEN",
+        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
         "text_button_text_2": "",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Black-Week-21.jpg"
@@ -31,6 +31,7 @@
     },
     "l_newsletter_GnTPcC": {
       "type": "l_newsletter",
+      "disabled": true,
       "settings": {
         "text_headline": "Early access für abonnenten!",
         "text_text": "Abonnenten shoppen bereits ab  Montag, 25. November 2024 - Jetzt anmelden!"
