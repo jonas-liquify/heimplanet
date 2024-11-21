@@ -14,17 +14,17 @@
       "blocks": {
         "hero_slider_eJrrgt": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Black_Background.png",
             "text_headline": "BLACK DEALS",
             "richtext_text": "<h6><strong>JETZT EARLY ACCESS SICHERN  </strong></h6><p>Black Friday ist der 29.11.<br/>Abonnenten bekommen bereits ab Montag den 25.11. Zugriff auf die exklusiven Anbebote. <br/><strong>Jetzt anmelden und dabei sein! </strong></p>",
-            "url_button_link": "",
+            "url_button_link": "shopify://blogs/projekte/black-deals",
             "text_button_text": "ZUR ANMELDUNG"
           }
         },
         "hero_slider_FDAzFx": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-10.jpg",
             "text_headline": "Inspiriert vom Kreislauf der Natur",
@@ -57,6 +57,7 @@
         },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg",
             "text_headline": "Unsere Zelte",
@@ -67,6 +68,7 @@
         },
         "hero_slider_L3fJzp": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Teaser-Re-Store-Packing-Cubes.jpg",
             "text_headline": "Packing Cubes",
@@ -77,6 +79,7 @@
         },
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-2024-July-Black.jpg",
             "text_headline": "THE FUTURE IS NOW",
@@ -87,6 +90,7 @@
         },
         "hero_slider_icPbWh": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Teaser-HPT-Selected.jpg",
             "text_headline": "HPT Selected",
