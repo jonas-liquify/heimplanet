@@ -1,26 +1,33 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "newsletter_page_xjynPr": {
       "type": "newsletter_page",
       "settings": {
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Backdoor-Homepage-Teaser_f88a9da5-72fb-49ed-878a-eeb1d2a806af.jpg",
+        "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Homepage-Teaser_f88a9da5-72fb-49ed-878a-eeb1d2a806af.jpg",
         "text_headline": "Newsletter",
         "text_text": "Verpasse keine Neuigkeiten & werde ein Teil der Community! Abonniere unseren Newsletter und erfahre immer als erstes von neuen Produkten, Limited Editions, Aktionen & vielem mehr!"
+      }
+    },
+    "l_html_text_3b3jq7": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "<div class=\"klaviyo-form-VVz9id\"></div>"
       }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
-    "newsletter_page_xjynPr"
+    "newsletter_page_xjynPr",
+    "l_html_text_3b3jq7"
   ]
 }
