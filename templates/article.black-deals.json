@@ -24,6 +24,7 @@
     },
     "l_html_text_MKkhP7": {
       "type": "l_html_text",
+      "disabled": true,
       "settings": {
         "html_richtext": "<div class=\"klaviyo-form-VEVTKH\"></div>"
       }
