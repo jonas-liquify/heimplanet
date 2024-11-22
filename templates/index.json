@@ -16,7 +16,7 @@
           "type": "hero-slider",
           "settings": {
             "image_bild": "shopify://shop_images/Black_Background.png",
-            "text_headline": "BLACK DEALS",
+            "text_headline": "BLACK DEALS<br>Early Access",
             "richtext_text": "<h6><strong>JETZT EARLY ACCESS SICHERN  </strong></h6><p>Black Friday ist der 29.11.<br/>Abonnenten bekommen bereits ab Montag den 25.11. Zugriff auf die exklusiven Anbebote. <br/><strong>Jetzt anmelden und dabei sein! </strong></p>",
             "url_button_link": "shopify://blogs/projekte/black-deals",
             "text_button_text": "ZUR ANMELDUNG"
