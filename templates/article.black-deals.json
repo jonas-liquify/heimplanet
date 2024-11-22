@@ -22,13 +22,6 @@
         "image_bild": "shopify://shop_images/Heimplanet-Black-Week-21.jpg"
       }
     },
-    "l_html_text_MKkhP7": {
-      "type": "l_html_text",
-      "disabled": true,
-      "settings": {
-        "html_richtext": "<div class=\"klaviyo-form-VEVTKH\"></div>"
-      }
-    },
     "l_html_text_ka9mif": {
       "type": "l_html_text",
       "disabled": true,
@@ -66,6 +59,13 @@
         "text_headline": "Organisationen",
         "textarea_text": "Eine weitere wichtige Säule unseres Nachhaltigkeitskonzeptes, ist die permanente Beteiligung von Umweltschutzorganisationen. HEIMPLANET ist Teil des 1% For The Planet Netzwerks und verpflichtet sich somit 1% aller Umsätze an Organisationen zu spenden, die sich für den Erhalt und Wiederaufbau unserer Natur einsetzen. In unserem Fall sind das die Surfrider Foundation und Wilderness International.",
         "image_bild": "shopify://shop_images/Logos-Organisations.jpg"
+      }
+    },
+    "l_html_text_MKkhP7": {
+      "type": "l_html_text",
+      "disabled": true,
+      "settings": {
+        "html_richtext": "<div class=\"klaviyo-form-VEVTKH\"></div>"
       }
     },
     "kategorien_FwEEnE": {
@@ -129,12 +129,12 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_KpC3jD",
-    "l_html_text_MKkhP7",
     "l_html_text_ka9mif",
     "l_newsletter_GnTPcC",
     "l_content_left_xMVCQy",
     "l_content_right_gGNkGm",
     "l_content_left_7jQtAh",
+    "l_html_text_MKkhP7",
     "kategorien_FwEEnE"
   ]
 }
