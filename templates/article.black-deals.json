@@ -116,6 +116,12 @@
       "settings": {
         "checkbox_swiper_script": true
       }
+    },
+    "l_html_text_MKkhP7": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "<div class=\"klaviyo-form-VEVTKH\"></div>"
+      }
     }
   },
   "layout": "article",
@@ -127,6 +133,7 @@
     "l_content_left_xMVCQy",
     "l_content_right_gGNkGm",
     "l_content_left_7jQtAh",
-    "kategorien_FwEEnE"
+    "kategorien_FwEEnE",
+    "l_html_text_MKkhP7"
   ]
 }
