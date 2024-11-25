@@ -16,8 +16,8 @@
           "type": "hero-slider",
           "settings": {
             "image_bild": "shopify://shop_images/Black_Background.png",
-            "text_headline": "BLACK DEALS<br>Early Access",
-            "richtext_text": "<h6><strong>JETZT EARLY ACCESS SICHERN  </strong></h6><p>Abonnenten bekommen bereits ab Montag den 25.11. Zugriff auf die exklusiven Anbebote. <br/><strong>Jetzt anmelden & vor allen anderen sparen! </strong></p>",
+            "text_headline": "BLACK DEALS <br>jetzt aktiv",
+            "richtext_text": "<h6><strong>JETZT ANMELDEN & RABATTCODES ERHALTEN  </strong></h6><p>Abonnenten bekommen bereits ab Montag den 25.11. Zugriff auf die exklusiven Anbebote. <br/><strong>Jetzt anmelden & vor allen anderen sparen! </strong></p>",
             "url_button_link": "shopify://blogs/projekte/black-deals",
             "text_button_text": "ZUR ANMELDUNG"
           }
