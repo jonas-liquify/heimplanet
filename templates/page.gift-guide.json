@@ -9,15 +9,18 @@
  */
 {
   "sections": {
-    "kategorien_Tkz6d3": {
-      "type": "kategorien",
+    "l_hero_4QgTax": {
+      "type": "l_hero",
       "settings": {
-        "checkbox_swiper_script": true
+        "text_subline": "",
+        "text_headline": "SCHENKE LEBENSLANG",
+        "textarea_longer_text": "Mit de Lebenslangen Garantie von auf alle HE",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-2023-11.jpg"
       }
-    },
-    "collection_products_KgGAQj": {
-      "type": "collection_products",
-      "settings": {}
     },
     "category_G9TbJE": {
       "type": "category",
@@ -48,15 +51,21 @@
         "collection_collection": "geschenke-unter-200",
         "collection_collection_limit": 4
       }
+    },
+    "l_video_HXKG4w": {
+      "type": "l_video",
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/watch?v=9vDUWHHMGPY"
+      }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
-    "kategorien_Tkz6d3",
-    "collection_products_KgGAQj",
+    "l_hero_4QgTax",
     "category_G9TbJE",
     "category_3eAtne",
-    "category_xTiJEw"
+    "category_xTiJEw",
+    "l_video_HXKG4w"
   ]
 }
