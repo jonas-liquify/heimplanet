@@ -9,14 +9,54 @@
  */
 {
   "sections": {
-    "default": {
-      "type": "default",
+    "kategorien_Tkz6d3": {
+      "type": "kategorien",
+      "settings": {
+        "checkbox_swiper_script": true
+      }
+    },
+    "collection_products_KgGAQj": {
+      "type": "collection_products",
       "settings": {}
+    },
+    "category_G9TbJE": {
+      "type": "category",
+      "settings": {
+        "text_headline": "GESCHENKE UNTER 50€",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "collection_collection": "geschenke-unter-50",
+        "collection_collection_limit": 4
+      }
+    },
+    "category_3eAtne": {
+      "type": "category",
+      "settings": {
+        "text_headline": "GESCHENKE UNTER 100€",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "collection_collection": "geschenke-unter-100",
+        "collection_collection_limit": 4
+      }
+    },
+    "category_xTiJEw": {
+      "type": "category",
+      "settings": {
+        "text_headline": "GESCHENKE UNTER 200€",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "collection_collection": "geschenke-unter-200",
+        "collection_collection_limit": 4
+      }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
-    "default"
+    "kategorien_Tkz6d3",
+    "collection_products_KgGAQj",
+    "category_G9TbJE",
+    "category_3eAtne",
+    "category_xTiJEw"
   ]
 }
