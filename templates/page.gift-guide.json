@@ -22,19 +22,6 @@
         "image_bild": "shopify://shop_images/RicoGlueck-Kirra-Cairo-Camo.jpg"
       }
     },
-    "l_hero_q4xJ4j": {
-      "type": "l_hero",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "SCHENKE LEBENSLANG",
-        "textarea_longer_text": "Mit de Lebenslangen Garantie von auf alle HE",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/RicoGlueck-Kirra-Cairo-Camo.jpg"
-      }
-    },
     "l_video_HXKG4w": {
       "type": "l_video",
       "settings": {
@@ -55,7 +42,7 @@
       "type": "category",
       "settings": {
         "text_headline": "GESCHENKE UNTER 100€",
-        "url_button_link": "",
+        "url_button_link": "shopify://products/shelters-zubehoer-mini_pump",
         "text_button_text": "Mehr davon",
         "collection_collection": "geschenke-unter-100",
         "collection_collection_limit": 4
@@ -70,16 +57,23 @@
         "collection_collection": "geschenke-unter-200",
         "collection_collection_limit": 4
       }
+    },
+    "l_headline_mono_qDDEBd": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "SCHENKE LEBENSLANG"
+      }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_4QgTax",
-    "l_hero_q4xJ4j",
     "l_video_HXKG4w",
     "category_G9TbJE",
     "category_3eAtne",
-    "category_xTiJEw"
+    "category_xTiJEw",
+    "l_headline_mono_qDDEBd"
   ]
 }
