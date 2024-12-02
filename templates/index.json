@@ -16,8 +16,8 @@
           "type": "hero-slider",
           "settings": {
             "image_bild": "shopify://shop_images/Black_Background.png",
-            "text_headline": "BLACK DEALS jetzt aktiv",
-            "richtext_text": "<h6><strong>SCHNAPP DIR DEINEN CODE</strong></h6><p>Wir geben 30% - Du kannst entscheiden wie viel du in der Lage bist beizusteuern.</p>",
+            "text_headline": "BLACK DEALS<br>Letzte Chance",
+            "richtext_text": "<h6><strong>DIE DEALS ENDEN HEUTE 23:59 CET</strong></h6><p>Nutze jetzt die letzte Chance, um zu sparen. Wir geben 30% - Du kannst entscheiden wie viel du in der Lage bist beizusteuern.</p>",
             "url_button_link": "shopify://blogs/projekte/black-deals",
             "text_button_text": "ZU DEN CODES"
           }
