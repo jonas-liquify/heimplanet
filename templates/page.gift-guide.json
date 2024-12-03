@@ -13,7 +13,7 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "SCHENKE LEBENSLANG",
+        "text_headline": "SCHENKE EIN LEBEN LANG",
         "textarea_longer_text": "Mit unserer lebenslangen Garantie auf alle HEIMPLANET Produkte.",
         "text_button_text": "Button Text",
         "url_button_link": "",
@@ -64,6 +64,14 @@
         "text_subline": "Mission",
         "text_headline": "SCHENKE LEBENSLANG"
       }
+    },
+    "l_gallery_mhCBxg": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify://shop_images/AE9I3284.jpg",
+        "image_bild_2": "shopify://shop_images/Outdoor_Atmo_Norwegen_Kevin_Ellison_2_1.jpg",
+        "image_bild_3": "shopify://shop_images/Heimpanet_crewneck_light_grey.jpg"
+      }
     }
   },
   "layout": "page",
@@ -74,6 +82,7 @@
     "category_G9TbJE",
     "category_3eAtne",
     "category_xTiJEw",
-    "l_headline_mono_qDDEBd"
+    "l_headline_mono_qDDEBd",
+    "l_gallery_mhCBxg"
   ]
 }
