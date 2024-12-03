@@ -72,6 +72,28 @@
         "image_bild_2": "shopify://shop_images/Outdoor_Atmo_Norwegen_Kevin_Ellison_2_1.jpg",
         "image_bild_3": "shopify://shop_images/Heimpanet_crewneck_light_grey.jpg"
       }
+    },
+    "colabs_LggGjn": {
+      "type": "colabs",
+      "blocks": {
+        "partner_zTAjbH": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "66°NORTH X HEIMPLANET: THE CAVE XL 4-SEASON",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Zelte Entdecken",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "partner_zTAjbH"
+      ],
+      "settings": {
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "page",
@@ -83,6 +105,7 @@
     "category_3eAtne",
     "category_xTiJEw",
     "l_headline_mono_qDDEBd",
-    "l_gallery_mhCBxg"
+    "l_gallery_mhCBxg",
+    "colabs_LggGjn"
   ]
 }
