@@ -22,6 +22,12 @@
         "image_bild": "shopify://shop_images/GT_RGB_XMas_Zelt.jpg"
       }
     },
+    "infos_fqa8rF": {
+      "type": "infos",
+      "settings": {
+        "text_headline": "Alle produkte entdecken"
+      }
+    },
     "l_video_HXKG4w": {
       "type": "l_video",
       "settings": {
@@ -66,7 +72,7 @@
         "image_bild_3": "shopify://shop_images/Heimpanet_crewneck_light_grey.jpg"
       }
     },
-    "infos_fqa8rF": {
+    "infos_7V7DCF": {
       "type": "infos",
       "settings": {
         "text_headline": "Alle produkte entdecken"
@@ -126,18 +132,27 @@
       "settings": {
         "checkbox_swiper_script": true
       }
+    },
+    "l_headline_mono_xqURrK": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Verschenke beständigkeit - mit heimplanet equipment",
+        "text_headline": "'The gift that keeps on giving'"
+      }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_4QgTax",
+    "infos_fqa8rF",
     "l_video_HXKG4w",
     "category_G9TbJE",
     "category_3eAtne",
     "category_xTiJEw",
     "l_gallery_mhCBxg",
-    "infos_fqa8rF",
-    "kategorien_QPzbd9"
+    "infos_7V7DCF",
+    "kategorien_QPzbd9",
+    "l_headline_mono_xqURrK"
   ]
 }
