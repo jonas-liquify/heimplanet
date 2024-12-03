@@ -32,7 +32,7 @@
       "type": "category",
       "settings": {
         "text_headline": "GESCHENKE UNTER 50€",
-        "url_button_link": "",
+        "url_button_link": "shopify://collections/geschenke-unter-50",
         "text_button_text": "Mehr davon",
         "collection_collection": "geschenke-unter-50",
         "collection_collection_limit": 4
