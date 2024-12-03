@@ -73,23 +73,45 @@
         "image_bild_3": "shopify://shop_images/Heimpanet_crewneck_light_grey.jpg"
       }
     },
-    "colabs_LggGjn": {
-      "type": "colabs",
+    "kategorien_QPzbd9": {
+      "type": "kategorien",
       "blocks": {
-        "partner_zTAjbH": {
-          "type": "partner",
+        "kategorie_kTLiG3": {
+          "type": "kategorie",
           "settings": {
-            "text_headline": "HEIMPLANET ZELTE",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Zelte Entdecken",
-            "url_button_link_2": "",
-            "text_button_text_2": "Zelte Entdecken"
+            "url_link": "shopify://collections/bekleidung",
+            "text_headline": "Kleidung"
+          }
+        },
+        "kategorie_3TfADm": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify://collections/zelte",
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-2.jpg",
+            "text_headline": "Aufblasbare Zelte"
+          }
+        },
+        "kategorie_jPrnVn": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify://collections/taschen",
+            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-2024.jpg",
+            "text_headline": "TAschen"
+          }
+        },
+        "kategorie_Kfrybg": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "",
+            "text_headline": "Heading"
           }
         }
       },
       "block_order": [
-        "partner_zTAjbH"
+        "kategorie_kTLiG3",
+        "kategorie_3TfADm",
+        "kategorie_jPrnVn",
+        "kategorie_Kfrybg"
       ],
       "settings": {
         "checkbox_swiper_script": true
@@ -106,6 +128,6 @@
     "category_xTiJEw",
     "l_headline_mono_qDDEBd",
     "l_gallery_mhCBxg",
-    "colabs_LggGjn"
+    "kategorien_QPzbd9"
   ]
 }
