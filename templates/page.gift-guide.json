@@ -29,21 +29,19 @@
         "text_headline": "'The gift that keeps on giving'"
       }
     },
-    "l_hero_KpQj8k": {
-      "type": "l_hero",
+    "l_content_image_bg_B9Kwep": {
+      "type": "l_content_image_bg",
       "settings": {
         "text_subline": "",
         "text_headline": "",
-        "textarea_longer_text": "",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
+        "textarea_text": "",
+        "text_headline_2": "",
         "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
       }
     },
     "l_video_HXKG4w": {
       "type": "l_video",
+      "disabled": true,
       "settings": {
         "text_video_url": "https://www.youtube-nocookie.com/embed/9vDUWHHMGPY?si=zhkJfFLQQyUTaG4l"
       }
@@ -153,7 +151,7 @@
   "order": [
     "l_hero_4QgTax",
     "l_headline_mono_xqURrK",
-    "l_hero_KpQj8k",
+    "l_content_image_bg_B9Kwep",
     "l_video_HXKG4w",
     "category_G9TbJE",
     "category_3eAtne",
