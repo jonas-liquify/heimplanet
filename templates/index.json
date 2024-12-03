@@ -14,6 +14,7 @@
       "blocks": {
         "hero_slider_eJrrgt": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Black_Background.png",
             "text_headline": "BLACK DEALS<br>Letzte Chance",
@@ -57,7 +58,6 @@
         },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg",
             "text_headline": "Unsere Zelte",
