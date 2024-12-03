@@ -15,17 +15,31 @@
         "text_subline": "",
         "text_headline": "SCHENKE EIN LEBEN LANG",
         "textarea_longer_text": "Mit unserer lebenslangen Garantie auf alle HEIMPLANET Produkte.",
-        "text_button_text": "Button Text",
+        "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/GT_RGB_XMas_Zelt.jpg"
       }
     },
-    "infos_fqa8rF": {
-      "type": "infos",
+    "l_headline_mono_xqURrK": {
+      "type": "l_headline_mono",
       "settings": {
-        "text_headline": "Alle produkte entdecken"
+        "text_subline": "Verschenke beständigkeit",
+        "text_headline": "'The gift that keeps on giving'"
+      }
+    },
+    "l_hero_KpQj8k": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_longer_text": "",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
       }
     },
     "l_video_HXKG4w": {
@@ -132,27 +146,20 @@
       "settings": {
         "checkbox_swiper_script": true
       }
-    },
-    "l_headline_mono_xqURrK": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Verschenke beständigkeit",
-        "text_headline": "'The gift that keeps on giving'"
-      }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_4QgTax",
-    "infos_fqa8rF",
+    "l_headline_mono_xqURrK",
+    "l_hero_KpQj8k",
     "l_video_HXKG4w",
     "category_G9TbJE",
     "category_3eAtne",
     "category_xTiJEw",
     "l_gallery_mhCBxg",
     "infos_7V7DCF",
-    "kategorien_QPzbd9",
-    "l_headline_mono_xqURrK"
+    "kategorien_QPzbd9"
   ]
 }
