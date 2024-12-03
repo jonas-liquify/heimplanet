@@ -12,6 +12,36 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_DQWqP4": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg",
+            "text_headline": "Unsere Zelte",
+            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
+            "url_button_link": "shopify://collections/zelte",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
+        "hero_slider_L3fJzp": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Re-Store-Packing-Cubes.jpg",
+            "text_headline": "Packing Cubes",
+            "richtext_text": "<p>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität.</p>",
+            "url_button_link": "shopify://products/carry-essentials-packing-cubes-re-store-edition-set",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
+        "hero_slider_icPbWh": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-HPT-Selected.jpg",
+            "text_headline": "HPT Selected",
+            "richtext_text": "<p>Um Euch die Auswahl etwas zu erleichtern, haben wir in Zusammenarbeit mit ausgewählten Marken unsere persönliche Campingausrüstung zusammengestellt.</p>",
+            "url_button_link": "shopify://collections/hpt-selected",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
         "hero_slider_eJrrgt": {
           "type": "hero-slider",
           "disabled": true,
@@ -56,27 +86,6 @@
             "text_button_text": "MEHR ERFAHREN"
           }
         },
-        "hero_slider_DQWqP4": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg",
-            "text_headline": "Unsere Zelte",
-            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
-            "url_button_link": "shopify://collections/zelte",
-            "text_button_text": "Jetzt entdecken"
-          }
-        },
-        "hero_slider_L3fJzp": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Re-Store-Packing-Cubes.jpg",
-            "text_headline": "Packing Cubes",
-            "richtext_text": "<p>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität.</p>",
-            "url_button_link": "shopify://products/carry-essentials-packing-cubes-re-store-edition-set",
-            "text_button_text": "Jetzt entdecken"
-          }
-        },
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
           "disabled": true,
@@ -86,17 +95,6 @@
             "richtext_text": "<p><strong>THE FUTURE IS MONO.</strong> Der neue Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.</p>",
             "url_button_link": "shopify://pages/mono-series-minimal-pack",
             "text_button_text": "NEU: Jetzt entdecken"
-          }
-        },
-        "hero_slider_icPbWh": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Teaser-HPT-Selected.jpg",
-            "text_headline": "HPT Selected",
-            "richtext_text": "<p>Um Euch die Auswahl etwas zu erleichtern, haben wir in Zusammenarbeit mit ausgewählten Marken unsere persönliche Campingausrüstung zusammengestellt.</p>",
-            "url_button_link": "shopify://collections/hpt-selected",
-            "text_button_text": "Jetzt entdecken"
           }
         },
         "hero_slider_LP9zUr": {
@@ -123,14 +121,14 @@
         }
       },
       "block_order": [
+        "hero_slider_DQWqP4",
+        "hero_slider_L3fJzp",
+        "hero_slider_icPbWh",
         "hero_slider_eJrrgt",
         "hero_slider_FDAzFx",
         "hero_slider_DVNdYF",
         "hero_slider_3zKtma",
-        "hero_slider_DQWqP4",
-        "hero_slider_L3fJzp",
         "hero_slider_zBjUtr",
-        "hero_slider_icPbWh",
         "hero_slider_LP9zUr",
         "hero_slider_6ztQE7"
       ],
