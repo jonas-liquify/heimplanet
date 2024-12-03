@@ -127,6 +127,12 @@
       "settings": {
         "checkbox_swiper_script": true
       }
+    },
+    "infos_fqa8rF": {
+      "type": "infos",
+      "settings": {
+        "text_headline": "Die Details sind mehr als die Details. Unsere Benefits:"
+      }
     }
   },
   "layout": "page",
@@ -137,6 +143,7 @@
     "category_G9TbJE",
     "category_3eAtne",
     "category_xTiJEw",
+    "infos_fqa8rF",
     "l_headline_mono_qDDEBd",
     "l_gallery_mhCBxg",
     "kategorien_QPzbd9"
