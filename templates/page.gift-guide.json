@@ -76,13 +76,6 @@
     "kategorien_QPzbd9": {
       "type": "kategorien",
       "blocks": {
-        "kategorie_kTLiG3": {
-          "type": "kategorie",
-          "settings": {
-            "url_link": "shopify://collections/bekleidung",
-            "text_headline": "Kleidung"
-          }
-        },
         "kategorie_3TfADm": {
           "type": "kategorie",
           "settings": {
@@ -99,19 +92,37 @@
             "text_headline": "TAschen"
           }
         },
+        "kategorie_kTLiG3": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify://collections/bekleidung",
+            "image_bild": "shopify://shop_images/Heimplanet-Crewneck-Light-Grey-2022-1.jpg",
+            "text_headline": "Bekleidung"
+          }
+        },
         "kategorie_Kfrybg": {
           "type": "kategorie",
           "settings": {
-            "url_link": "",
-            "text_headline": "Heading"
+            "url_link": "shopify://collections/hpt-selected",
+            "image_bild": "shopify://shop_images/HPT-Selected-Soto-New-River-Amicus-Combo-1.jpg",
+            "text_headline": "HPT Selected"
+          }
+        },
+        "kategorie_xdCqHk": {
+          "type": "kategorie",
+          "settings": {
+            "url_link": "shopify://collections/re-store",
+            "image_bild": "shopify://shop_images/Heimplanet-Cave-zelt.png",
+            "text_headline": "RE-STORE"
           }
         }
       },
       "block_order": [
-        "kategorie_kTLiG3",
         "kategorie_3TfADm",
         "kategorie_jPrnVn",
-        "kategorie_Kfrybg"
+        "kategorie_kTLiG3",
+        "kategorie_Kfrybg",
+        "kategorie_xdCqHk"
       ],
       "settings": {
         "checkbox_swiper_script": true
