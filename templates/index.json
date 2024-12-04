@@ -12,6 +12,16 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_6ztQE7": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-X-Mas-Gift-Guide-2024.jpg",
+            "text_headline": "SCHENKE EIN LEBEN LANG",
+            "richtext_text": "<p>Mit der <strong>LEBENSLANGEN GARANTIE</strong> von HEIMPLANET. Besuche jetzt unseren Geschenk Guide und verschenke etwas, das Bestand hat.</p>",
+            "url_button_link": "shopify://pages/geschenk-guide",
+            "text_button_text": "GESCHENK GUIDE"
+          }
+        },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
@@ -107,20 +117,10 @@
             "url_button_link": "shopify://collections/camping-sets",
             "text_button_text": "Jetzt entdecken"
           }
-        },
-        "hero_slider_6ztQE7": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Travel-Pack.jpg",
-            "text_headline": "TRAVEL PACKS",
-            "richtext_text": "<p>Unsere Travel Packs (28L & 34L) sind ab sofort wieder verfügbar. Sei als Erstes dabei und sichere dir jetzt einen unserer Travel Packs!</p>",
-            "url_button_link": "shopify://collections/taschen",
-            "text_button_text": "Jetzt shoppen"
-          }
         }
       },
       "block_order": [
+        "hero_slider_6ztQE7",
         "hero_slider_DQWqP4",
         "hero_slider_L3fJzp",
         "hero_slider_icPbWh",
@@ -129,8 +129,7 @@
         "hero_slider_DVNdYF",
         "hero_slider_3zKtma",
         "hero_slider_zBjUtr",
-        "hero_slider_LP9zUr",
-        "hero_slider_6ztQE7"
+        "hero_slider_LP9zUr"
       ],
       "settings": {
         "checkbox_swiper_script": true
