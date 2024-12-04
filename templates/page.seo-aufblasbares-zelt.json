@@ -19,56 +19,40 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "Test",
-        "text_headline": "Test",
-        "textarea_longer_text": "TestTestTestTestTestTestTestTestTest",
+        "text_subline": "",
+        "text_headline": "Aufblasbare Zelte",
+        "textarea_longer_text": "",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-Lauritz-Kuntscher-8.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-1.jpg"
+      }
+    },
+    "category_7VBkXB": {
+      "type": "category",
+      "settings": {
+        "text_headline": "",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "collection_collection": "zelte",
+        "collection_collection_limit": 16
       }
     },
     "l_content_right_Te7dw4": {
       "type": "l_content_right",
       "settings": {
         "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-Lauritz-Kuntscher-2.jpg",
-        "text_headline": "Mono",
+        "text_headline": "Zelttechnik",
         "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     },
-    "blog_7EPC7T": {
-      "type": "blog",
+    "l_text_logos_wCXtXb": {
+      "type": "l_text_logos",
       "settings": {
-        "text_headline": "Aktuelle beiträge",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon",
-        "article_artikel": "abenteuer/cycle-of-simplicity",
-        "blog_blog": "abenteuer",
-        "post_limit_blog": 10
-      }
-    },
-    "l_produkt_W8KBtc": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_nhDNXR": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-2.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_nhDNXR"
-      ],
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        "text_preis": "49€",
-        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
-        "text_button_text": "Jetzt vorbestellen",
-        "url_produkt_link": "shopify://products/mono-series-minimal-pack-blue",
-        "checkbox_swiper_script": true
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "text_text": "HEIMPLANET ist bekannt für seine innovativen und funktionalen aufblasbaren Zelte, die sowohl für Outdoor-Abenteuer als auch für Festivals und andere Veranstaltungen konzipiert sind. Die Zelte zeichnen sich durch ihr einzigartiges Design und ihre Benutzerfreundlichkeit aus.<br><br>Ein herausragendes Merkmal der HEIMPLANET-Zelte ist das sogenannte \"Airframe\"-System, das es ermöglicht, das Zelt in kürzester Zeit aufzubauen. Anstatt herkömmlicher Gestänge werden aufblasbare Luftschläuche verwendet, die nicht nur den Aufbau erleichtern, sondern auch für eine hohe Stabilität und Widerstandsfähigkeit sorgen. Dies macht die Zelte besonders wind- und wetterfest.<br><br>Die Materialien, die bei der Herstellung der Zelte verwendet werden, sind von hoher Qualität und bieten einen ausgezeichneten Schutz vor Nässe und UV-Strahlen. Zudem sind die Zelte in verschiedenen Größen und Designs erhältlich, sodass sie den unterschiedlichen Bedürfnissen von Campern, Reisenden und Festivalbesuchern gerecht werden. <br><br>Ein weiterer Vorteil der HEIMPLANET-Zelte ist ihre Vielseitigkeit. Sie eignen sich nicht nur für Campingausflüge in der Natur, sondern können auch als temporäre Unterkünfte bei Veranstaltungen oder als kreative Lösungen für urbane Räume genutzt werden. Das ansprechende Design sorgt dafür, dass sie nicht nur funktional sind, sondern auch ästhetisch ansprechend wirken.<br><br>Zusammenfassend lässt sich sagen, dass die aufblasbaren Zelte von HEIMPLANET eine hervorragende Wahl für alle sind, die Wert auf Qualität, Funktionalität und ein modernes Design legen. Egal ob beim Camping im Wald oder beim Feiern auf einem Festival – mit einem HEIMPLANET-Zelt ist man bestens ausgestattet."
       }
     }
   },
@@ -77,8 +61,8 @@
   "order": [
     "l_header_x3bPLH",
     "l_hero",
+    "category_7VBkXB",
     "l_content_right_Te7dw4",
-    "blog_7EPC7T",
-    "l_produkt_W8KBtc"
+    "l_text_logos_wCXtXb"
   ]
 }
