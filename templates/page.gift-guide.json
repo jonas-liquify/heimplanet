@@ -39,6 +39,14 @@
         "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
       }
     },
+    "l_text_logos_3rcHVC": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Heute bestellen für rechtzeitige lieferung vor weihnachten",
+        "text_text": "Viel Freude beim Verschenken!"
+      }
+    },
     "l_video_HXKG4w": {
       "type": "l_video",
       "disabled": true,
@@ -152,6 +160,7 @@
     "l_hero_4QgTax",
     "l_headline_mono_xqURrK",
     "l_content_image_bg_B9Kwep",
+    "l_text_logos_3rcHVC",
     "l_video_HXKG4w",
     "category_G9TbJE",
     "category_3eAtne",
