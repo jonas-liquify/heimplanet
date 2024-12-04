@@ -29,30 +29,62 @@
         "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-1.jpg"
       }
     },
+    "l_text_logos_wCXtXb": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "Entdecke die aufblasbaren Zelte von HEIMPLANET",
+        "text_headline": "Die perfekte Lösung für Outdoor-Abenteuer",
+        "text_text": "Wenn es um Camping, Festivals oder Outdoor-Aktivitäten geht, sind die aufblasbaren Zelte von HEIMPLANET die ideale Wahl für alle, die Wert auf Qualität, Funktionalität und ein ansprechendes Design legen. Diese innovativen Zelte bieten nicht nur einen komfortablen Rückzugsort in der Natur, sondern überzeugen auch durch ihre einfache Handhabung und hohe Stabilität."
+      }
+    },
+    "l_content_right_MwpzFH": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/Heimplanet-66-North-The-Cave-XL-4-Season-27.jpg",
+        "text_headline": "Schneller Aufbau",
+        "textarea_text": "Dank des einzigartigen \"Airframe\"-Systems lassen sich die Zelte in wenigen Minuten aufbauen. Anstelle von herkömmlichen Gestängen werden robuste Luftschläuche verwendet, die das Aufstellen erheblich erleichtern."
+      }
+    },
+    "l_content_left_yQNCpx": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Hohe Stabilität",
+        "textarea_text": "Die aufblasbaren Zelte sind so konzipiert, dass sie auch bei windigen Bedingungen stabil bleiben. Die Luftschläuche sorgen für eine gleichmäßige Verteilung des Drucks und erhöhen die Widerstandsfähigkeit gegen äußere Einflüsse.",
+        "image_bild": "shopify://shop_images/Mavericks_onIce_1.jpg"
+      }
+    },
+    "l_content_right_Ma37Xd": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-4.jpg",
+        "text_headline": "Wetterfest & langlebig",
+        "textarea_text": "HEIMPLANET verwendet hochwertige Materialien, die nicht nur wasserabweisend sind, sondern auch UV-Schutz bieten. So bleibt Ihr Zelt selbst bei wechselhaftem Wetter trocken und geschützt."
+      }
+    },
     "category_7VBkXB": {
       "type": "category",
       "settings": {
-        "text_headline": "",
+        "text_headline": "Die Zelte",
         "url_button_link": "",
         "text_button_text": "Mehr davon",
         "collection_collection": "zelte",
         "collection_collection_limit": 16
       }
     },
-    "l_content_right_Te7dw4": {
-      "type": "l_content_right",
+    "l_content_left_gHYnEV": {
+      "type": "l_content_left",
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Midnight-Burgundy-Lauritz-Kuntscher-2.jpg",
-        "text_headline": "Zelttechnik",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "text_headline": "Vielseitige Designs",
+        "textarea_text": "Die Zelte sind in verschiedenen Größen und Farben erhältlich, sodass Sie das perfekte Modell für Ihre Bedürfnisse finden können. Ob für einen Campingausflug zu zweit oder ein Festival mit Freunden – HEIMPLANET hat das passende Zelt.",
+        "image_bild": "shopify://shop_images/SeasonOpening_2024_LauritzKuntscher10.jpg"
       }
     },
-    "l_text_logos_wCXtXb": {
-      "type": "l_text_logos",
+    "l_content_right_TkAXzd": {
+      "type": "l_content_right",
       "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
-        "text_text": "HEIMPLANET ist bekannt für seine innovativen und funktionalen aufblasbaren Zelte, die sowohl für Outdoor-Abenteuer als auch für Festivals und andere Veranstaltungen konzipiert sind. Die Zelte zeichnen sich durch ihr einzigartiges Design und ihre Benutzerfreundlichkeit aus.<br><br>Ein herausragendes Merkmal der HEIMPLANET-Zelte ist das sogenannte \"Airframe\"-System, das es ermöglicht, das Zelt in kürzester Zeit aufzubauen. Anstatt herkömmlicher Gestänge werden aufblasbare Luftschläuche verwendet, die nicht nur den Aufbau erleichtern, sondern auch für eine hohe Stabilität und Widerstandsfähigkeit sorgen. Dies macht die Zelte besonders wind- und wetterfest.<br><br>Die Materialien, die bei der Herstellung der Zelte verwendet werden, sind von hoher Qualität und bieten einen ausgezeichneten Schutz vor Nässe und UV-Strahlen. Zudem sind die Zelte in verschiedenen Größen und Designs erhältlich, sodass sie den unterschiedlichen Bedürfnissen von Campern, Reisenden und Festivalbesuchern gerecht werden. <br><br>Ein weiterer Vorteil der HEIMPLANET-Zelte ist ihre Vielseitigkeit. Sie eignen sich nicht nur für Campingausflüge in der Natur, sondern können auch als temporäre Unterkünfte bei Veranstaltungen oder als kreative Lösungen für urbane Räume genutzt werden. Das ansprechende Design sorgt dafür, dass sie nicht nur funktional sind, sondern auch ästhetisch ansprechend wirken.<br><br>Zusammenfassend lässt sich sagen, dass die aufblasbaren Zelte von HEIMPLANET eine hervorragende Wahl für alle sind, die Wert auf Qualität, Funktionalität und ein modernes Design legen. Egal ob beim Camping im Wald oder beim Feiern auf einem Festival – mit einem HEIMPLANET-Zelt ist man bestens ausgestattet."
+        "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-Mood.jpg",
+        "text_headline": "Nachhaltigkeit",
+        "textarea_text": "HEIMPLANET legt großen Wert auf umweltfreundliche Materialien und Produktionsprozesse. Mit einem Zelt von HEIMPLANET entscheiden Sie sich nicht nur für Qualität, sondern auch für Nachhaltigkeit."
       }
     }
   },
@@ -61,8 +93,12 @@
   "order": [
     "l_header_x3bPLH",
     "l_hero",
+    "l_text_logos_wCXtXb",
+    "l_content_right_MwpzFH",
+    "l_content_left_yQNCpx",
+    "l_content_right_Ma37Xd",
     "category_7VBkXB",
-    "l_content_right_Te7dw4",
-    "l_text_logos_wCXtXb"
+    "l_content_left_gHYnEV",
+    "l_content_right_TkAXzd"
   ]
 }
