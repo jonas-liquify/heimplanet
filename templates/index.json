@@ -16,7 +16,7 @@
           "type": "hero-slider",
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-X-Mas-Gift-Guide-2024.jpg",
-            "text_headline": "SCHENKE MIT LEBENSLANGER GARANTIE",
+            "text_headline": "GESCHENKE MIT LEBENSLANGER GARANTIE",
             "richtext_text": "<p>Sorgenfrei schenken - mit der <strong>LEBENSLANGEN GARANTIE</strong> von HEIMPLANET. Besuche jetzt unseren Geschenk Guide und verschenke etwas, das Bestand hat.</p>",
             "url_button_link": "shopify://pages/geschenk-guide",
             "text_button_text": "GESCHENK GUIDE"
