@@ -22,11 +22,10 @@
         "image_bild": "shopify://shop_images/Heimplanet-X-Mas-Gift-Guide-2024.jpg"
       }
     },
-    "l_headline_mono_xqURrK": {
-      "type": "l_headline_mono",
+    "infos_RmAnhK": {
+      "type": "infos",
       "settings": {
-        "text_subline": "Verschenke beständigkeit",
-        "text_headline": "'The gift that keeps on giving'"
+        "text_headline": "NUR JETZT - verländertes rückgaberecht bis 31.01.2025."
       }
     },
     "l_content_image_bg_B9Kwep": {
@@ -39,7 +38,7 @@
         "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
       }
     },
-    "l_text_logos_3rcHVC": {
+    "l_text_logos_hLKAUe": {
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
@@ -92,10 +91,11 @@
         "image_bild_3": "shopify://shop_images/Heimpanet_crewneck_light_grey.jpg"
       }
     },
-    "infos_7V7DCF": {
-      "type": "infos",
+    "l_headline_mono_xqURrK": {
+      "type": "l_headline_mono",
       "settings": {
-        "text_headline": "Alle produkte entdecken"
+        "text_subline": "Verschenke beständigkeit",
+        "text_headline": "'The gift that keeps on giving'"
       }
     },
     "kategorien_QPzbd9": {
@@ -158,15 +158,15 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_4QgTax",
-    "l_headline_mono_xqURrK",
+    "infos_RmAnhK",
     "l_content_image_bg_B9Kwep",
-    "l_text_logos_3rcHVC",
+    "l_text_logos_hLKAUe",
     "l_video_HXKG4w",
     "category_G9TbJE",
     "category_3eAtne",
     "category_xTiJEw",
     "l_gallery_mhCBxg",
-    "infos_7V7DCF",
+    "l_headline_mono_xqURrK",
     "kategorien_QPzbd9"
   ]
 }
