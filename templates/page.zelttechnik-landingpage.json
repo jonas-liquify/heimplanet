@@ -231,15 +231,17 @@
       "settings": {
         "text_subline": "",
         "text_headline": "",
-        "textarea_text": "<span style=\"color: #ffffff;\">Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen.</span>",
+        "textarea_text": "",
         "text_headline_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
       }
     },
-    "l_html_text_CfzGCN": {
-      "type": "l_html_text",
+    "l_text_logos_YKjAyC": {
+      "type": "l_text_logos",
       "settings": {
-        "html_richtext": "Text"
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen."
       }
     }
   },
@@ -262,6 +264,6 @@
     "l_text_logos_Cpdw9X",
     "l_headline_mono_Ppyh3y",
     "l_content_image_bg_4aJUk4",
-    "l_html_text_CfzGCN"
+    "l_text_logos_YKjAyC"
   ]
 }
