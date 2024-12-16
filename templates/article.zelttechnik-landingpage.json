@@ -30,62 +30,43 @@
         "text_text": "- R. Buckminster Fuller (Erfinder der geodätischen Kuppel)"
       }
     },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
+    "l_hero_wgbkBA": {
+      "type": "l_hero",
       "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_longer_text": "",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
       }
     },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
+    "l_headline_mono_pd3HyJ": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 01 //<br><br>Stabilität - Das Geodätische Prinzip"
+      }
+    },
+    "l_dropdowns_qWbeeY": {
+      "type": "l_dropdowns",
       "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
+        "dropdown_hMhRMd": {
+          "type": "dropdown",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
+            "text_headline": "Häufige Fragen &amp; Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         }
       },
       "block_order": [
-        "feature_YRDDyY",
-        "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
+        "dropdown_hMhRMd"
       ],
       "settings": {
         "text_headline": "",
-        "checkbox_swiper_script": true
+        "textarea_text": "<br>HEIMPLANET Zelte sehen anders aus als herkömmliche Zelte. Die herausstechende Ästhetik war allerdings nicht Ziel des Designprozesses, sondern ist eine Konsequenz der Funktionalität. Auf der Suche nach einer passenden Struktur für unsere Zelte, stießen wir auf die sogenannte geodätische Kuppel - die leichteste, stärkste und effizienteste Struktur, die jemals entwickelt wurde. Durch geometrische Transformationen dieser Grundstruktur sind die HEIMPLANET Zeltmodelle entstanden, die ihr heute kennt."
       }
     }
   },
@@ -94,7 +75,8 @@
   "order": [
     "l_hero_ijQ63U",
     "l_text_logos_icj79J",
-    "l_headline_mono_4Vq68U",
-    "l_step_slider_z93mQW"
+    "l_hero_wgbkBA",
+    "l_headline_mono_pd3HyJ",
+    "l_dropdowns_qWbeeY"
   ]
 }
