@@ -114,6 +114,79 @@
         "text_headline": "",
         "textarea_text": "<br>HEIMPLANET Zelte sehen anders aus als herkömmliche Zelte. Die herausstechende Ästhetik war allerdings nicht Ziel des Designprozesses, sondern ist eine Konsequenz der Funktionalität. Auf der Suche nach einer passenden Struktur für unsere Zelte, stießen wir auf die sogenannte geodätische Kuppel - die leichteste, stärkste und effizienteste Struktur, die jemals entwickelt wurde. Durch geometrische Transformationen dieser Grundstruktur sind die HEIMPLANET Zeltmodelle entstanden, die ihr heute kennt."
       }
+    },
+    "l_headline_mono_eGEaEf": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 02 //<br><br>Keine Einzelteile - Das Zelt als Einheit"
+      }
+    },
+    "l_step_slider_ekn9Jm": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_8gFhR7": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Only-2024.jpg",
+            "text_text": "Aufblasbarer Rahmen (IDG)"
+          }
+        },
+        "feature_WB7RX6": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-6_023ea082-ebbc-4734-abcd-597872e0d8a4_1.jpg",
+            "text_text": "Aufblasbarer Rahmen + Innenzelt"
+          }
+        },
+        "feature_dRkQnw": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-1_7a887133-53ed-4a05-9f24-531008766649.jpg",
+            "text_text": "AUfblasbarer Rahmen + Innen-& Außenzelt"
+          }
+        }
+      },
+      "block_order": [
+        "feature_8gFhR7",
+        "feature_WB7RX6",
+        "feature_dRkQnw"
+      ],
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "checkbox_swiper_script": true
+      }
+    },
+    "l_headline_mono_DCCMrd": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
+      }
+    },
+    "l_content_image_bg_bmGt6k": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Common Material",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "text_headline_2": "Common Material"
+      }
+    },
+    "l_text_logos_RMYmYe": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "text_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?"
+      }
+    },
+    "l_headline_mono_68a6D6": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
+      }
     }
   },
   "layout": "article",
@@ -123,6 +196,12 @@
     "l_text_logos_icj79J",
     "l_hero_wgbkBA",
     "l_headline_mono_pd3HyJ",
-    "l_dropdowns_qWbeeY"
+    "l_dropdowns_qWbeeY",
+    "l_headline_mono_eGEaEf",
+    "l_step_slider_ekn9Jm",
+    "l_headline_mono_DCCMrd",
+    "l_content_image_bg_bmGt6k",
+    "l_text_logos_RMYmYe",
+    "l_headline_mono_68a6D6"
   ]
 }
