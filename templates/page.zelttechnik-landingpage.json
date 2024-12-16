@@ -33,7 +33,7 @@
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
-        "text_headline": "<i>»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.«</i>",
+        "text_headline": "»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.«",
         "text_text": "- R. Buckminster Fuller (Erfinder der geodätischen Kuppel)"
       }
     },
@@ -126,7 +126,7 @@
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "",
-        "text_headline": "// 02 //<br><br>Keine Einzelteile - Das Zelt als Einheit<br>"
+        "text_headline": "// 02 //<br><br>Keine Einzelteile - Das Zelt als Einheit"
       }
     },
     "l_step_slider_pXdNGz": {
@@ -136,7 +136,7 @@
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Only-2024.jpg",
-            "text_text": "AUfblasbarer Rahmen (IDG)"
+            "text_text": "Aufblasbarer Rahmen (IDG)"
           }
         },
         "feature_tQX4td": {
@@ -168,7 +168,7 @@
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "",
-        "text_headline": "// 03 //One-Pump-System und 2-in-1-Ventile"
+        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
       }
     },
     "l_content_image_bg_zhtTXf": {
