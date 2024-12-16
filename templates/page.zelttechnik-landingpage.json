@@ -65,8 +65,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-Fistral-Classic-1_90f77eb7-7632-43bd-ba71-1b45f2caf66e.jpg",
             "text_headline": "Fistral",
-            "textarea_text": "FISTRAL ist der Name unseres aufblasbaren Zelts für 1-2 Personen. Sein kompaktes Design bietet große Flexibilität und ein minimales Packmaß und Gewicht. Zwei Eingänge und zwei Apsiden sorgen für maximalen Komfort. Mit einer Pumpe lässt sich das Zelt in weniger als einer Minute aufstellen.",
-            "image_bild": "shopify://shop_images/Fistral_IDG_Technik_Landing.png"
+            "textarea_text": "FISTRAL ist der Name unseres aufblasbaren Zelts für 1-2 Personen. Sein kompaktes Design bietet große Flexibilität und ein minimales Packmaß und Gewicht. Zwei Eingänge und zwei Apsiden sorgen für maximalen Komfort. Mit einer Pumpe lässt sich das Zelt in weniger als einer Minute aufstellen."
           }
         },
         "dropdown_MJRE6g": {
@@ -220,23 +219,6 @@
         "text_headline_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
       }
-    },
-    "l_video_ePpzYQ": {
-      "type": "l_video",
-      "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/7qF8zOxZCN0"
-      }
-    },
-    "blog_KW84yU": {
-      "type": "blog",
-      "settings": {
-        "text_headline": "Du möchtest mehr über unsere Technologien erfahren?",
-        "url_button_link": "shopify://blogs/designraum/dyecoshell™",
-        "text_button_text": "Zum Blog",
-        "article_artikel": "designraum/dyecoshell™",
-        "blog_blog": "designraum",
-        "post_limit_blog": 3
-      }
     }
   },
   "layout": "page.landingpage",
@@ -255,8 +237,6 @@
     "l_headline_mono_aMAUWx",
     "l_content_image_bg_y4pzb3",
     "l_headline_mono_Ppyh3y",
-    "l_content_image_bg_4aJUk4",
-    "l_video_ePpzYQ",
-    "blog_KW84yU"
+    "l_content_image_bg_4aJUk4"
   ]
 }
