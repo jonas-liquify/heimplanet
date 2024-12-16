@@ -206,9 +206,17 @@
       "settings": {
         "text_subline": "",
         "text_headline": "",
-        "textarea_text": "<span style=\"color: #ffffff;\">Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt. </span>",
+        "textarea_text": "",
         "text_headline_2": "",
         "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
+      }
+    },
+    "l_text_logos_Cpdw9X": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
       }
     },
     "l_headline_mono_Ppyh3y": {
@@ -251,6 +259,7 @@
     "l_text_logos_E9kUhL",
     "l_headline_mono_aMAUWx",
     "l_content_image_bg_y4pzb3",
+    "l_text_logos_Cpdw9X",
     "l_headline_mono_Ppyh3y",
     "l_content_image_bg_4aJUk4",
     "l_html_text_CfzGCN"
