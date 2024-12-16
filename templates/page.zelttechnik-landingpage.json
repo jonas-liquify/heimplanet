@@ -173,15 +173,7 @@
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "",
-        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
-      }
-    },
-    "l_text_logos_E9kUhL": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "text_text": "Der Luftrahmen verfügt über mehrere Ventile. Da die Streben des Rahmens jedoch über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten (Multi-Chamber-Safety). Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen."
+        "text_headline": "// 03 //One-Pump-System und 2-in-1-Ventile"
       }
     },
     "l_content_image_bg_zhtTXf": {
@@ -192,6 +184,14 @@
         "textarea_text": "",
         "text_headline_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg"
+      }
+    },
+    "l_text_logos_E9kUhL": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Der Luftrahmen verfügt über mehrere Ventile. Da die Streben des Rahmens jedoch über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten (Multi-Chamber-Safety). Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen."
       }
     },
     "l_headline_mono_aMAUWx": {
@@ -247,8 +247,8 @@
     "l_headline_mono_iVyHDi",
     "l_step_slider_pXdNGz",
     "l_headline_mono_wnTYgn",
-    "l_text_logos_E9kUhL",
     "l_content_image_bg_zhtTXf",
+    "l_text_logos_E9kUhL",
     "l_headline_mono_aMAUWx",
     "l_content_image_bg_y4pzb3",
     "l_headline_mono_Ppyh3y",
