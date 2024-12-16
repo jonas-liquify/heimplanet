@@ -14,10 +14,10 @@
 </h3>
 </div><div class="dropdown_symbol"></div></div>
                                     <div class="dropdown_content is-big"><div class="dropdowns_content-grid"><p id="w-node-_4d5465ee-bb29-3c58-48be-18a2723349ce-690d5eea" class="text-size-regular max-width-large"> {{ block.settings.textarea_text }} </p>
-<img class="dropdowns_image"
+{% if block.settings.image_bild != blank %}<img class="dropdowns_image"
      src="{{ block.settings.image_bild | img_url: 'master' }}"
      alt="{{ block.settings.image_bild.alt }}"
-     loading="lazy">
+     loading="lazy"> {% endif %}
 </div></div>
                             </div>
             {% endif %}
