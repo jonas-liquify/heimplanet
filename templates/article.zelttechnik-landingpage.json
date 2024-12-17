@@ -157,11 +157,12 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_headline_mono_DCCMrd": {
-      "type": "l_headline_mono",
+    "l_text_logos_7bVAPF": {
+      "type": "l_text_logos",
       "settings": {
         "text_subline": "",
-        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
+        "text_headline": "",
+        "text_text": ""
       }
     },
     "l_content_image_bg_bmGt6k": {
@@ -172,6 +173,13 @@
         "textarea_text": "",
         "text_headline_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg"
+      }
+    },
+    "l_headline_mono_DCCMrd": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
       }
     },
     "l_text_logos_RMYmYe": {
@@ -243,8 +251,9 @@
     "l_dropdowns_qWbeeY",
     "l_headline_mono_eGEaEf",
     "l_step_slider_ekn9Jm",
-    "l_headline_mono_DCCMrd",
+    "l_text_logos_7bVAPF",
     "l_content_image_bg_bmGt6k",
+    "l_headline_mono_DCCMrd",
     "l_text_logos_RMYmYe",
     "l_headline_mono_68a6D6",
     "l_content_image_bg_QdgBbQ",
