@@ -115,6 +115,13 @@
         "textarea_text": "<br>HEIMPLANET Zelte sehen anders aus als herkömmliche Zelte. Die herausstechende Ästhetik war allerdings nicht Ziel des Designprozesses, sondern ist eine Konsequenz der Funktionalität. Auf der Suche nach einer passenden Struktur für unsere Zelte, stießen wir auf die sogenannte geodätische Kuppel - die leichteste, stärkste und effizienteste Struktur, die jemals entwickelt wurde. Durch geometrische Transformationen dieser Grundstruktur sind die HEIMPLANET Zeltmodelle entstanden, die ihr heute kennt."
       }
     },
+    "l_headline_mono_eGEaEf": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 02 //Keine Einzelteile - Das Zelt als Einheit"
+      }
+    },
     "l_step_slider_ekn9Jm": {
       "type": "l_step_slider",
       "blocks": {
@@ -148,13 +155,6 @@
       "settings": {
         "text_headline": "",
         "checkbox_swiper_script": true
-      }
-    },
-    "l_headline_mono_eGEaEf": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 02 //<br><br>Keine Einzelteile - Das Zelt als Einheit"
       }
     },
     "l_content_image_bg_bmGt6k": {
@@ -221,7 +221,7 @@
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "",
-        "text_headline": "// 05 //Doppellagige Konstruktion"
+        "text_headline": "// 05 //<br><br>Doppellagige Konstruktion"
       }
     },
     "l_text_logos_qg9Ftd": {
@@ -241,16 +241,16 @@
     "l_hero_wgbkBA",
     "l_headline_mono_pd3HyJ",
     "l_dropdowns_qWbeeY",
-    "l_step_slider_ekn9Jm",
     "l_headline_mono_eGEaEf",
-    "l_content_image_bg_bmGt6k",
+    "l_step_slider_ekn9Jm",
     "l_headline_mono_DCCMrd",
+    "l_content_image_bg_bmGt6k",
     "l_text_logos_RMYmYe",
-    "l_content_image_bg_QdgBbQ",
     "l_headline_mono_68a6D6",
+    "l_content_image_bg_QdgBbQ",
     "l_text_logos_iNx9t6",
-    "l_content_image_bg_FxTHyt",
     "l_headline_mono_Hxxwqb",
+    "l_content_image_bg_FxTHyt",
     "l_text_logos_qg9Ftd"
   ]
 }
