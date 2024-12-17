@@ -190,13 +190,6 @@
         "text_text": "Der Luftrahmen verfügt über mehrere Ventile. Da die Streben des Rahmens jedoch über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten (Multi-Chamber-Safety). Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen."
       }
     },
-    "l_headline_mono_68a6D6": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 04 //<br><br>Patentiertes Mehrkammer-Sicherheitssystem"
-      }
-    },
     "l_content_image_bg_QdgBbQ": {
       "type": "l_content_image_bg",
       "settings": {
@@ -205,6 +198,13 @@
         "textarea_text": "",
         "text_headline_2": "",
         "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
+      }
+    },
+    "l_headline_mono_68a6D6": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 04 //Patentiertes Mehrkammer-Sicherheitssystem"
       }
     },
     "l_text_logos_iNx9t6": {
@@ -255,8 +255,8 @@
     "l_content_image_bg_bmGt6k",
     "l_headline_mono_DCCMrd",
     "l_text_logos_RMYmYe",
-    "l_headline_mono_68a6D6",
     "l_content_image_bg_QdgBbQ",
+    "l_headline_mono_68a6D6",
     "l_text_logos_iNx9t6",
     "l_headline_mono_Hxxwqb",
     "l_content_image_bg_FxTHyt",
