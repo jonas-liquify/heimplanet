@@ -1,16 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "collection_hero": {
-            "type": "collection_hero"
-        },
-        "contact": {
-            "type": "contact"
-        }
-    },
-    "layout": "page.contact",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "collection_hero",
-        "contact"
-    ]
+  "sections": {
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "text_headline": "Wir freuen uns von Dir zu hören.",
+        "text_text": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Wir geben Ihre Daten nicht ohne Ihre ausdrückliche Einwilligung an Dritte weiter. Unsere Datenschutzbestimmungen finden Sie hier."
+      }
+    }
+  },
+  "layout": "page.contact",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "contact"
+  ]
 }
