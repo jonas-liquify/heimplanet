@@ -27,7 +27,17 @@
       "settings": {
         "text_subline": "",
         "text_headline": "WIR SAGEN DANKE!",
-        "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden!<br><br> Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!"
+        "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden! <br><br><b>Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!</b>"
+      }
+    },
+    "l_content_image_bg_Vtgtqd": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "",
+        "text_headline_2": "",
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V15_2d7e608a-94b7-46ce-9658-a40bb1732543.jpg"
       }
     },
     "l_dropdowns_9tEqDp": {
@@ -59,16 +69,6 @@
       "settings": {
         "text_headline": "NEUE PRODUKTE",
         "textarea_text": "Die diesjährigen Produktneuerungen standen ganz im Zeichen der Kreislaufwirtschaft."
-      }
-    },
-    "l_content_image_bg_Vtgtqd": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V15_2d7e608a-94b7-46ce-9658-a40bb1732543.jpg"
       }
     },
     "l_dropdowns_UWHkmN": {
@@ -174,6 +174,19 @@
         "image_bild": "shopify://shop_images/Heimplanet-Backdoor-4-Season-2022-3_4309846d-9954-48d7-80eb-03c7f9f4290c.jpg"
       }
     },
+    "l_hero_Xh3Rcp": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "BIS ZUM NÄCHSTEN JAHR!",
+        "textarea_longer_text": "",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Backdoor-4-Season-2022-3_4309846d-9954-48d7-80eb-03c7f9f4290c.jpg"
+      }
+    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -196,13 +209,14 @@
   "order": [
     "l_hero_ijQ63U",
     "l_text_logos_KLFPXQ",
-    "l_dropdowns_9tEqDp",
     "l_content_image_bg_Vtgtqd",
+    "l_dropdowns_9tEqDp",
     "l_dropdowns_UWHkmN",
     "l_content_image_bg_yrRWUk",
     "content_image_yVmyhh",
     "l_dropdowns_xUVGWD",
     "l_content_image_bg_bRBjPY",
+    "l_hero_Xh3Rcp",
     "article_next",
     "l_html_text_L8c4CD"
   ]
