@@ -166,13 +166,6 @@
         "image_bild": "shopify://shop_images/Heimplanet-Backdoor-4-Season-2022-3_4309846d-9954-48d7-80eb-03c7f9f4290c.jpg"
       }
     },
-    "l_headline_mono_6UDyBT": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Ohne die Unterstützung",
-        "text_headline": "VIELEN DANK FÜR"
-      }
-    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -188,6 +181,14 @@
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
+    },
+    "l_text_logos_KLFPXQ": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "WIR SAGEN DANKE!",
+        "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden!<br><br> Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!"
+      }
     }
   },
   "layout": "article",
@@ -201,8 +202,8 @@
     "content_image_yVmyhh",
     "l_dropdowns_xUVGWD",
     "l_content_image_bg_bRBjPY",
-    "l_headline_mono_6UDyBT",
     "article_next",
-    "l_html_text_L8c4CD"
+    "l_html_text_L8c4CD",
+    "l_text_logos_KLFPXQ"
   ]
 }
