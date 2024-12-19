@@ -83,19 +83,11 @@
             "textarea_text": "<b>Designverliebte Zeltfirma aus Hamburg trifft auf Streetwear-Ikone aus New York City.</b>\n<br><br>\nFür eine kleine unabhängige Outdoor-Marke aus Norddeutschland wie wir es sind, stellt diese Zusammenarbeit für uns ein besonders surreales Erlebnis aus dem vergangenen Jahr dar. \n<br><br>\nAuch wenn Supreme und Heimplanet aus völlig unterschiedlichen Welten stammen, verbindet uns dennoch eine Leidenschaft für durchdachtes Design und das Bestreben, Grenzen neu zu definieren. Und so war es unser eine Freude unser The Cave XL als Leinwand für eine gemeinsame kreative Vision.<br><br>\n<a href=\"https://heimplanet.com/pages/collab-supreme-the-cave-xl\" target=\"_blank\"><b>HIER GIBT'S NOCH MEHR ZU SEHEN!</b></a>",
             "image_bild": "shopify://shop_images/A15_HeimplanetTent_BlueCamo07.jpg"
           }
-        },
-        "dropdown_FGVMj9": {
-          "type": "dropdown",
-          "settings": {
-            "text_headline": "Häufige Fragen &amp; Antworten",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
         }
       },
       "block_order": [
         "dropdown_x7DtBT",
-        "dropdown_MfRtHx",
-        "dropdown_FGVMj9"
+        "dropdown_MfRtHx"
       ],
       "settings": {
         "text_headline": "Kollaborationen",
@@ -120,8 +112,7 @@
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/FranzXaverAicher_Kirra_Classic_Island_Moody_2022_21.jpg"
+        "text_button_text_2": "Button"
       }
     },
     "l_dropdowns_xUVGWD": {
@@ -161,8 +152,8 @@
         "dropdown_VkfRN7"
       ],
       "settings": {
-        "text_headline": "",
-        "textarea_text": ""
+        "text_headline": "Geschichten",
+        "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt."
       }
     },
     "l_content_image_bg_bRBjPY": {
