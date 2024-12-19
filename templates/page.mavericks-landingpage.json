@@ -20,13 +20,13 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "Zelttechnik",
-        "textarea_longer_text": "<br>Erfahre mehr über unsere Zelte, ihre Funktionen und warum sie aussehen wie sie aussehen.",
+        "text_headline": "Mavericks",
+        "textarea_longer_text": "<br>Konzipiert für die Extreme - unser MAVERICKS. Entwickelt für die härtesten Bedingungen kann es als Basislager oder Gruppenzelt verwendet werden. Mit einer Innenhöhe von zwei Metern und einer Grundfläche von mehr als 13 Quadratmetern ist es für Windgeschwindigkeiten von bis zu 180 km/h ausgelegt. Es wurde unter anderem bei der RedBull Storm Chase eingesetzt - der extremsten Windsurfing-Herausforderung.",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Basecamp-Zelttechnik-Hero.jpg"
+        "image_bild": "shopify://shop_images/Mavericks_onIce_1.jpg"
       }
     },
     "l_video_3z8pkj": {
@@ -35,11 +35,19 @@
         "text_video_url": "https://www.youtube-nocookie.com/embed/1LRkzrO70LY"
       }
     },
+    "l_video_NhXNnz": {
+      "type": "l_video",
+      "disabled": true,
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/k2OehfsOrWw"
+      }
+    },
     "l_content_right_AJHhFq": {
       "type": "l_content_right",
       "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Basecamp-Tent-White-8.jpg",
+        "text_headline": "Flexibilität",
+        "textarea_text": "Das Mavericks ist besonders nützlich, wenn man flexibel sein muss. Selbst im Sturm ist es in Minuten errichtet. Der Rahmen des Mavericks ist außerdem so konzipiert, dass das Zelt auch ohne Abspannung steht. Sollte man z.B. merken, dass man auf unsicherem Grund steht, ist es möglich, das Zelt auch nach dem aufblasen noch einmal zu verrücken."
       }
     },
     "l_content_left_rJMTGY": {
@@ -81,6 +89,7 @@
     "l_header_trans_white_mHj3Px",
     "l_hero",
     "l_video_3z8pkj",
+    "l_video_NhXNnz",
     "l_content_right_AJHhFq",
     "l_content_left_rJMTGY",
     "l_content_right_TP9ggz",
