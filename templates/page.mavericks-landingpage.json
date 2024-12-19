@@ -29,219 +29,50 @@
         "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Basecamp-Zelttechnik-Hero.jpg"
       }
     },
-    "l_text_logos_AVETGK": {
-      "type": "l_text_logos",
+    "l_video_3z8pkj": {
+      "type": "l_video",
       "settings": {
-        "text_subline": "",
-        "text_headline": "»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.«",
-        "text_text": "- R. Buckminster Fuller (Erfinder der geodätischen Kuppel)"
+        "text_video_url": "https://www.youtube.com/watch?v=1LRkzrO70LY"
       }
     },
-    "l_hero_c866cX": {
-      "type": "l_hero",
+    "l_content_right_AJHhFq": {
+      "type": "l_content_right",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
-        "text_button_text": "",
-        "url_button_link": "",
-        "text_button_text_2": "",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     },
-    "l_headline_mono_khBGAi": {
-      "type": "l_headline_mono",
+    "l_content_left_rJMTGY": {
+      "type": "l_content_left",
       "settings": {
-        "text_subline": "",
-        "text_headline": "// 01 //<br><br>Stabilität - Das Geodätische Prinzip"
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     },
-    "l_dropdowns_QLKfit": {
-      "type": "l_dropdowns",
-      "blocks": {
-        "dropdown_EBDbhM": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-Fistral-Classic-1_90f77eb7-7632-43bd-ba71-1b45f2caf66e.jpg",
-            "text_headline": "Fistral",
-            "textarea_text": "FISTRAL ist der Name unseres aufblasbaren Zelts für 1-2 Personen. Sein kompaktes Design bietet große Flexibilität und ein minimales Packmaß und Gewicht. Zwei Eingänge und zwei Apsiden sorgen für maximalen Komfort. Mit einer Pumpe lässt sich das Zelt in weniger als einer Minute aufstellen."
-          }
-        },
-        "dropdown_MJRE6g": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg",
-            "text_headline": "Kirra",
-            "textarea_text": "Kirra ist unser aufblasbares Zelt für 2 Personen mit viel Equipment. Dank seiner besonderen Rahmenstruktur bietet Kirra ein gutes Gleichgewicht zwischen Komfort und Effizienz. Das geodätische Prinzip macht das Zelt besonders sturmsicher. Das aufblasbare Diamond Grid (IDG) garantiert nicht nur Stabilität, sondern auch einen intuitiven und einfachen Aufbau."
-          }
-        },
-        "dropdown_Ld9Ni8": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-Classic-1_7a887133-53ed-4a05-9f24-531008766649.jpg",
-            "text_headline": "The Cave",
-            "textarea_text": "THE CAVE war unser erstes aufblasbares Zelt, immer noch kultig und perfekt für 2-3 Personen. Alles, was Du brauchst, ist eine Pumpe, um Dein Zelt in weniger als einer Minute aufzustellen. Dank seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten THE CAVE ist es extrem stabil und dank der hochwertigen Materialien auch wetterfest sowie langlebig."
-          }
-        },
-        "dropdown_kbVqqE": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-Backdoor-Classic-1_79c5362c-91c6-4f59-88ab-bd5c7f42ccd2.jpg",
-            "text_headline": "Backdoor",
-            "textarea_text": "Backdoor ist das 4 Personen Zelt von HEIMPLANET - perfekt für Familien oder Gruppen bis zu 4 Personen. Es ist für einen breiten Einsatzbereich konzipiert und eignet sich perfekt für das Camping von Frühling bis Herbst. Der vordere Eingang verfügt über eine geräumige Apsis, die über eine geteilte Innenzelttür einen einfachen Zugang zum Hauptzelt bietet."
-          }
-        },
-        "dropdown_QYJjaz": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-Cloudbreak-2024-1.jpg",
-            "text_headline": "Cloudbreak",
-            "textarea_text": "Benannt nach einer großen Welle auf den Fiji-Inseln, ist das Cloudbreak ein zuverlässiges, flexibles und einfach zu nutzendes Zelt für Gruppen-, Familiencamping und Overlanding. Mit der zusätzlichen Schlafkabine für bis zu 4 Personen und viel Platz zum Kochen und Wohnen, ist Cloudbreak wie ein Haus zum Mitnehmen."
-          }
-        },
-        "dropdown_Ubhy6n": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-Mavericks-Expedition-2024-1.jpg",
-            "text_headline": "Mavericks",
-            "textarea_text": "Unser Mehrzweckzelt MAVERICKS ist speziell für extreme Bedingungen konzipiert. Es kann zum Beispiel als Basislager oder Gruppenzelt verwendet werden. Es hat eine Innenhöhe von zwei Metern und eine Grundfläche von mehr als 13 Quadratmetern. Das gesamte Zelt kann von einer Person in kürzester Zeit aufgebaut werden."
-          }
-        }
-      },
-      "block_order": [
-        "dropdown_EBDbhM",
-        "dropdown_MJRE6g",
-        "dropdown_Ld9Ni8",
-        "dropdown_kbVqqE",
-        "dropdown_QYJjaz",
-        "dropdown_Ubhy6n"
-      ],
+    "l_content_right_TP9ggz": {
+      "type": "l_content_right",
       "settings": {
-        "text_headline": "",
-        "textarea_text": "<br>HEIMPLANET Zelte sehen anders aus als herkömmliche Zelte. Die herausstechende Ästhetik war allerdings nicht Ziel des Designprozesses, sondern ist eine Konsequenz der Funktionalität. Auf der Suche nach einer passenden Struktur für unsere Zelte, stießen wir auf die sogenannte geodätische Kuppel - die leichteste, stärkste und effizienteste Struktur, die jemals entwickelt wurde. Durch geometrische Transformationen dieser Grundstruktur sind die HEIMPLANET Zeltmodelle entstanden, die ihr heute kennt."
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     },
-    "l_headline_mono_iVyHDi": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 02 //<br><br>Keine Einzelteile - Das Zelt als Einheit"
-      }
-    },
-    "l_step_slider_pXdNGz": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_Q9FRDq": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Only-2024.jpg",
-            "text_text": "Aufblasbarer Rahmen (IDG)"
-          }
-        },
-        "feature_tQX4td": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-6_023ea082-ebbc-4734-abcd-597872e0d8a4_1.jpg",
-            "text_text": "Aufblasbarer Rahmen + Innenzelt"
-          }
-        },
-        "feature_VTeLBc": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-1_7a887133-53ed-4a05-9f24-531008766649.jpg",
-            "text_text": "AUfblasbarer Rahmen + Innen-& Außenzelt"
-          }
-        }
-      },
-      "block_order": [
-        "feature_Q9FRDq",
-        "feature_tQX4td",
-        "feature_VTeLBc"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
-      }
-    },
-    "l_headline_mono_wnTYgn": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
-      }
-    },
-    "l_content_image_bg_zhtTXf": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg"
-      }
-    },
-    "l_text_logos_E9kUhL": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "text_text": "Der Luftrahmen verfügt über mehrere Ventile. Da die Streben des Rahmens jedoch über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten (Multi-Chamber-Safety). Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen."
-      }
-    },
-    "l_headline_mono_aMAUWx": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 04 //<br><br>Patentiertes Mehrkammer-Sicherheitssystem"
-      }
-    },
-    "l_content_image_bg_y4pzb3": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
-      }
-    },
-    "l_text_logos_Cpdw9X": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "text_text": "Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
-      }
-    },
-    "l_headline_mono_Ppyh3y": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 05 //<br><br>Doppellagige Konstruktion"
-      }
-    },
-    "l_content_image_bg_4aJUk4": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
-      }
-    },
-    "l_text_logos_YKjAyC": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "text_text": "Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen."
-      }
-    },
-    "l_gallery_mQ67D6": {
+    "l_gallery_nXFiiy": {
       "type": "l_gallery",
       "settings": {}
+    },
+    "l_headline_mono_4bmdDE": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
+      }
+    },
+    "l_step_slider_cQnWDP": {
+      "type": "l_step_slider",
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "page.landingpage",
@@ -249,21 +80,12 @@
   "order": [
     "l_header_trans_white_mHj3Px",
     "l_hero",
-    "l_text_logos_AVETGK",
-    "l_hero_c866cX",
-    "l_headline_mono_khBGAi",
-    "l_dropdowns_QLKfit",
-    "l_headline_mono_iVyHDi",
-    "l_step_slider_pXdNGz",
-    "l_headline_mono_wnTYgn",
-    "l_content_image_bg_zhtTXf",
-    "l_text_logos_E9kUhL",
-    "l_headline_mono_aMAUWx",
-    "l_content_image_bg_y4pzb3",
-    "l_text_logos_Cpdw9X",
-    "l_headline_mono_Ppyh3y",
-    "l_content_image_bg_4aJUk4",
-    "l_text_logos_YKjAyC",
-    "l_gallery_mQ67D6"
+    "l_video_3z8pkj",
+    "l_content_right_AJHhFq",
+    "l_content_left_rJMTGY",
+    "l_content_right_TP9ggz",
+    "l_gallery_nXFiiy",
+    "l_headline_mono_4bmdDE",
+    "l_step_slider_cQnWDP"
   ]
 }
