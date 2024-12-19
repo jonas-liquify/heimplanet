@@ -22,6 +22,14 @@
         "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-10.jpg"
       }
     },
+    "l_text_logos_KLFPXQ": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "WIR SAGEN DANKE!",
+        "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden!<br><br> Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!"
+      }
+    },
     "l_dropdowns_9tEqDp": {
       "type": "l_dropdowns",
       "blocks": {
@@ -181,20 +189,13 @@
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
-    },
-    "l_text_logos_KLFPXQ": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "WIR SAGEN DANKE!",
-        "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden!<br><br> Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_text_logos_KLFPXQ",
     "l_dropdowns_9tEqDp",
     "l_content_image_bg_Vtgtqd",
     "l_dropdowns_UWHkmN",
@@ -203,7 +204,6 @@
     "l_dropdowns_xUVGWD",
     "l_content_image_bg_bRBjPY",
     "article_next",
-    "l_html_text_L8c4CD",
-    "l_text_logos_KLFPXQ"
+    "l_html_text_L8c4CD"
   ]
 }
