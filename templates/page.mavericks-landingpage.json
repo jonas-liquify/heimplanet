@@ -12,8 +12,8 @@
     "l_header_trans_white_mHj3Px": {
       "type": "l_header_trans_white",
       "settings": {
-        "url_button_url": "shopify://collections/zelte",
-        "text_button_text": "Zu den Zelten"
+        "url_button_url": "shopify://products/re-stored-mavericks-basecamp",
+        "text_button_text": "Zum Zelt"
       }
     },
     "l_hero": {
