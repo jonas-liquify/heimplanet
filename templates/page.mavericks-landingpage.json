@@ -65,9 +65,15 @@
         "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     },
-    "l_gallery_nXFiiy": {
-      "type": "l_gallery",
-      "settings": {}
+    "l_content_image_bg_FPwUnb": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "",
+        "text_headline_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Details-Abmessungen-Landingpage_b4104c25-02b3-4c86-b3c8-6780589a3130.jpg"
+      }
     },
     "l_headline_mono_4bmdDE": {
       "type": "l_headline_mono",
@@ -94,7 +100,7 @@
     "l_content_right_AJHhFq",
     "l_content_left_rJMTGY",
     "l_content_right_TP9ggz",
-    "l_gallery_nXFiiy",
+    "l_content_image_bg_FPwUnb",
     "l_headline_mono_4bmdDE",
     "l_step_slider_cQnWDP"
   ]
