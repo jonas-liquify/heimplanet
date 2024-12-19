@@ -22,22 +22,6 @@
         "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-10.jpg"
       }
     },
-    "l_content_left_LMgdf7": {
-      "type": "l_content_left",
-      "settings": {
-        "text_headline": "Das Mono-konzept",
-        "textarea_text": "Der Mono Series Minimal Pack ist mehr als ein durchdachter Alltagsrucksack – er repräsentiert ein nachhaltiges Designprinzip, das „Mono-Konzept“. Dieses Konzept basiert auf einer Monomaterialstrategie, das heißt, der gesamte Rucksack wird aus einem einzigen Material gefertigt. In diesem Fall unser eigens entwickeltes <b>Dyecoshell™ Mono.</b> <br><br>\nWährend unser bisheriges Dyecoshell™ die Art und Weise, wie wir neue Produkte herstellen, verbessert hat, markiert <b>Dyecoshell™ Mono</b> die nächste Entwicklungsstufe unseres Produktdesigns mit einem klaren Fokus auf das Leben der Produkte nach ihrer Nutzung. Statt zu Abfall wird der Rucksack wiederum zur wertvollen Ressourece. \nDamit symbolisiert der Mono Series Minimal Pack einen geschlossenen Materialkreislauf und steht somit in besonderem Maße im Einklang mit der Natur. \n<br><br>\n<b>Keine Verschwendung mehr. Eine Material - endlose Zyklen. </b>\n<br><br>\n<a href=\"https://heimplanet.com/blogs/designraum/dyecoshell_mono\" target=\"_blank\"><b>Hier</b> erfährst du mehr über Dyecoshell™ Mono</a>.",
-        "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-06.jpg"
-      }
-    },
-    "l_content_right_hKLaVw": {
-      "type": "l_content_right",
-      "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-02.jpg",
-        "text_headline": "Dyecoshell™",
-        "textarea_text": "Die Bezeichnung Dyecoshell™ setzt sich aus den Begriffen <b>Dye</b>ing und <b>Eco</b>logical zusammen. Dieser Stoff kam erstmalig in unserer Transit Line zum Einsatz. Das Material zeichnet sich durch einen ganz besonderen Färbeprozess aus, der sich Spinnendüsenfärbung nennt. Das Färben ist mit Abstand der ressourcenintensivste Prozess der Stoffherstellung. Das Färben macht normalerweise etwa 89 % des Wasserverbrauchs, 60 % der Energie, 65 % des CO₂-Ausstoßes und 63 % der Chemikalien in der Stoffproduktion aus.<br><br>Spinnendüsenfärbung hingegen verwendet weder Wasser noch Chemikalien. Stattdessen wird ein farbloses Granulat vor der Extrusion mit einem farbigen Granulat gemischt, so dass das Filament direkt in der vorher definierten Farbe extrudiert wird. Beim Weben werden die bereits gefärbten Garne dann zu einem Gewebe verwoben - ganz ohne Färbung.\n<br><br>\nDas Ergebnis ist ein umweltfreundlicherer Stoff, der aufgrund seiner Widerstandsfähigkeit und Abriebfestigkeit extrem langlebig ist.\n<br><br>\n<a href=\"https://heimplanet.com/blogs/designraum/dyecoshell%E2%84%A2\" target=\"_blank\"><b>Hier</b> erfährst du mehr über Dyecoshell™</a>."
-      }
-    },
     "l_dropdowns_9tEqDp": {
       "type": "l_dropdowns",
       "blocks": {
@@ -69,6 +53,16 @@
         "textarea_text": ""
       }
     },
+    "l_content_image_bg_Vtgtqd": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "",
+        "text_headline_2": "",
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V15_2d7e608a-94b7-46ce-9658-a40bb1732543.jpg"
+      }
+    },
     "l_dropdowns_UWHkmN": {
       "type": "l_dropdowns",
       "blocks": {
@@ -98,6 +92,16 @@
       "settings": {
         "text_headline": "Kollaborationen",
         "textarea_text": "Auch dieses Jahr durften wir mit"
+      }
+    },
+    "l_content_image_bg_yrRWUk": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "",
+        "text_headline_2": "",
+        "image_bild": "shopify://shop_images/FranzXaverAicher_Kirra_Classic_Island_Moody_2022_21.jpg"
       }
     },
     "l_dropdowns_xUVGWD": {
@@ -141,6 +145,16 @@
         "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt."
       }
     },
+    "l_content_image_bg_bRBjPY": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "",
+        "text_headline_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Backdoor-4-Season-2022-3_4309846d-9954-48d7-80eb-03c7f9f4290c.jpg"
+      }
+    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -162,11 +176,12 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_content_left_LMgdf7",
-    "l_content_right_hKLaVw",
     "l_dropdowns_9tEqDp",
+    "l_content_image_bg_Vtgtqd",
     "l_dropdowns_UWHkmN",
+    "l_content_image_bg_yrRWUk",
     "l_dropdowns_xUVGWD",
+    "l_content_image_bg_bRBjPY",
     "article_next",
     "l_html_text_L8c4CD"
   ]
