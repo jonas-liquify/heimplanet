@@ -53,8 +53,9 @@
     "l_content_left_rJMTGY": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "text_headline": "Stabilität",
+        "textarea_text": "Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Dir, den gesamten Luftrahmen (IDG) in einem einzigen Schritt aufzublasen. Der Luftrahmen des MAVERICKS kann nach dem Aufblasen in zehn einzelne Kammern unterteilt werden, was eine ausreichende Notstabilität gewährleistet, falls ein Teil beschädigt wird, da alle anderen Streben stabil bleiben. Außerdem lässt sich das defekte Teil sehr leicht lokalisieren, um es zu reparieren oder zu ersetzen.",
+        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Andersen-Lake-Unter-See-2024-1-1.jpg"
       }
     },
     "l_content_right_TP9ggz": {
