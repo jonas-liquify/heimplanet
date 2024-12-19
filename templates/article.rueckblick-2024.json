@@ -126,7 +126,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/logo_ball.png",
             "text_headline": "HEIMPLANET SEASON OPENING 2024",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,\n\n<br><br>\n<a href=\"link\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,\n\n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/season-opening-2024\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
             "image_bild": "shopify://shop_images/Season_Opening_2024.jpg"
           }
         }
