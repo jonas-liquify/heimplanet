@@ -238,6 +238,10 @@
         "text_headline": "",
         "text_text": "Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen."
       }
+    },
+    "l_gallery_mQ67D6": {
+      "type": "l_gallery",
+      "settings": {}
     }
   },
   "layout": "page.landingpage",
@@ -259,6 +263,7 @@
     "l_text_logos_Cpdw9X",
     "l_headline_mono_Ppyh3y",
     "l_content_image_bg_4aJUk4",
-    "l_text_logos_YKjAyC"
+    "l_text_logos_YKjAyC",
+    "l_gallery_mQ67D6"
   ]
 }
