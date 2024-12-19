@@ -41,15 +41,6 @@
     "l_dropdowns_9tEqDp": {
       "type": "l_dropdowns",
       "blocks": {
-        "dropdown_mhLH8U": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
-            "text_headline": "PACKING CUBES, RE-store edition",
-            "textarea_text": "Das glänzende Schwarz steht für den vulkanischen Sand Islands, der sich aus der erstarrten Lava gebildet hat und im Sonnenlicht funkelt. Dieser Sand wird durch Wind und Wasser kontinuierlich in die Natur zurückgeführt – ein Symbol für den ständigen Wandel und die Wiederverwertung in der Natur, genauso wie der Minimal Pack im Sinne der Kreislaufwirtschaft wiederverwendet wird.\n<br><br>\n Das Mono-Material des schwarzen Rucksacks besteht zu 100% aus bereits recyceltem Material. Der Rucksack ist vollständig recycelbar. Ein vollständig geschlossener Kreislauf.\n\n<br><br>\n<a href=\"link\" target=\"_blank\"><b>HIER GEHT'S ZU DEN PACKING CUBES</b></a>",
-            "image_bild": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-9.jpg"
-          }
-        },
         "dropdown_TXUVGw": {
           "type": "dropdown",
           "settings": {
@@ -58,11 +49,20 @@
             "textarea_text": "Das tiefe Blau dieser Variante repräsentiert das Wasser, das rund um Island fließt und sich ständig erneuert. Das Wasser in Seen, Wasserfällen und dem Meer steht als Symbol für den Kreislauf des Lebens und die Rolle, die Wasser im Kreislaufsystem der Natur spielt.\nDer leicht glänzende Stoff erinnert an die Reflektionen der Sonne auf der Wasseroberfläche. \n<br><br> Das Mono-Material des blauen Rucksacks besteht zu 50% aus bereits recyceltem Material. Die übrigen 50% bestehen aufgrund der komplexeren Farbgebung aus Neufasern. Der Rucksack ist vollständig recycelbar.\n\n<br><br>\n<a href=\"link\" target=\"_blank\"><b>HIER GEHT'S ZUM MONO PACK</b></a>",
             "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg"
           }
+        },
+        "dropdown_mhLH8U": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
+            "text_headline": "PACKING CUBES, RE-store edition",
+            "textarea_text": "<b>Was haben ein 10 Personen Expeditionszelt und drei Packing Cubes gemeinsam?</b>\n<br><br>\nMit dem Mono Pack bereits auf dem Weg, lag unser Fokus in diesem Jahr noch einmal stärker auf einem möglichst umweltschonenden und effizienten Umgang mit Ressourcen. \n\n<br><br>\n Das Mono-Material des schwarzen Rucksacks besteht zu 100% aus bereits recyceltem Material. Der Rucksack ist vollständig recycelbar. Ein vollständig geschlossener Kreislauf.\n\n<br><br>\n<a href=\"link\" target=\"_blank\"><b>HIER GEHT'S ZU DEN PACKING CUBES</b></a>",
+            "image_bild": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-9.jpg"
+          }
         }
       },
       "block_order": [
-        "dropdown_mhLH8U",
-        "dropdown_TXUVGw"
+        "dropdown_TXUVGw",
+        "dropdown_mhLH8U"
       ],
       "settings": {
         "text_headline": "Neue produkte",
