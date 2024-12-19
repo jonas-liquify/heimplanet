@@ -12,9 +12,9 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "Von der Natur inspiriert",
-        "text_headline": "Für den Kreislauf konzipiert",
-        "textarea_longer_text": "Ein Material. Endlose Zyklen - Der Mono Series Minimal Pack auf Island.",
+        "text_subline": "Wir feierten <b>design. innovation. zirkularität.</b>",
+        "text_headline": "RÜCKBLICK 2024",
+        "textarea_longer_text": "Lasst uns diesen Weg weiterhin gemeinsam gehen.",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
@@ -91,7 +91,7 @@
         "dropdown_p44V8k"
       ],
       "settings": {
-        "text_headline": "Farben - Inspiriert von der Natur",
+        "text_headline": "Kollaborationen",
         "textarea_text": ""
       }
     },
@@ -101,50 +101,6 @@
         "image_bild_1": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-01.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-03.jpg",
         "image_bild_3": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-04.jpg"
-      }
-    },
-    "l_produkt_QbA6R8": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_Grb4Ge": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Diamond-Black-1.jpg"
-          }
-        },
-        "fact_tQ3c6w": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Bis zu 100% aus recyceltem Material"
-          }
-        },
-        "fact_MnxFyG": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Vollständig Recycelbar"
-          }
-        },
-        "fact_thTQjL": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Lebenslange Garantie"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_Grb4Ge",
-        "fact_tQ3c6w",
-        "fact_MnxFyG",
-        "fact_thTQjL"
-      ],
-      "settings": {
-        "text_headline": "Mono Series Minimal Pack",
-        "textarea_beschreibung": "Der umfreundlichste Rucksack den wir heute herstellen können.",
-        "text_preis": "129€",
-        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
-        "text_button_text": "ZUM RUCKSACK",
-        "url_produkt_link": "shopify://products/mono-series-minimal-pack-diamond-black",
-        "checkbox_swiper_script": false
       }
     },
     "article_next": {
@@ -174,7 +130,6 @@
     "l_content_left_4bPDgi",
     "l_dropdowns_4wFm96",
     "l_gallery_67Grn9",
-    "l_produkt_QbA6R8",
     "article_next",
     "l_html_text_L8c4CD"
   ]
