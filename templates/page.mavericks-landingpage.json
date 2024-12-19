@@ -75,17 +75,46 @@
         "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Details-Abmessungen-Landingpage_b4104c25-02b3-4c86-b3c8-6780589a3130.jpg"
       }
     },
-    "l_headline_mono_4bmdDE": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
-      }
-    },
     "l_step_slider_cQnWDP": {
       "type": "l_step_slider",
+      "blocks": {
+        "feature_CyanNQ": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-5.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_WRCJxg": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Andersen-Lake-Unter-See-2024.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_z6gj3r": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Red-SAREX-exercice-CDT-Charcot_StudioPONANT-Olivier-Blaud-197.jpg",
+            "text_text": ""
+          }
+        },
+        "feature_JFhx9w": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Red-SAREX-Le-Commandant-Charcot-55_Studio-PONANT-Nathalie-Michel.jpg",
+            "text_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_CyanNQ",
+        "feature_WRCJxg",
+        "feature_z6gj3r",
+        "feature_JFhx9w"
+      ],
       "settings": {
-        "text_headline": "Bags+Backpacks",
+        "text_headline": "",
         "checkbox_swiper_script": true
       }
     }
@@ -101,7 +130,6 @@
     "l_content_left_rJMTGY",
     "l_content_right_TP9ggz",
     "l_content_image_bg_FPwUnb",
-    "l_headline_mono_4bmdDE",
     "l_step_slider_cQnWDP"
   ]
 }
