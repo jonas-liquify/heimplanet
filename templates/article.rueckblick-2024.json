@@ -69,8 +69,8 @@
         "dropdown_mhLH8U"
       ],
       "settings": {
-        "text_headline": "NEUE PRODUKTE",
-        "textarea_text": "Die diesjährigen Produktneuerungen standen ganz im Zeichen der Kreislaufwirtschaft."
+        "text_headline": "",
+        "textarea_text": ""
       }
     },
     "content_image_yfjdG8": {
@@ -114,6 +114,15 @@
       "settings": {
         "text_headline": "",
         "textarea_text": ""
+      }
+    },
+    "article_next_ffkxnC": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "This is some text inside of a div block."
       }
     },
     "content_image_pVbAyH": {
@@ -211,6 +220,7 @@
     "l_dropdowns_9tEqDp",
     "content_image_yfjdG8",
     "l_dropdowns_UWHkmN",
+    "article_next_ffkxnC",
     "content_image_pVbAyH",
     "l_dropdowns_xUVGWD",
     "l_content_image_bg_bRBjPY",
