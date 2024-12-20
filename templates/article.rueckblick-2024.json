@@ -27,7 +27,7 @@
       "settings": {
         "text_subline": "",
         "text_headline": "WIR SAGEN DANKE!",
-        "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden! <br><br><b>Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!</b>"
+        "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden! Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!"
       }
     },
     "content_image_yVmyhh": {
@@ -39,7 +39,7 @@
         "text_button_text": "Button",
         "url_button_link_2": "",
         "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
+        "image_bild": "shopify://shop_images/Mono_Series_Minimal_Pack_ocean_blue-b_1.jpg"
       }
     },
     "l_dropdowns_9tEqDp": {
@@ -82,7 +82,7 @@
         "text_button_text": "Button",
         "url_button_link_2": "",
         "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
+        "image_bild": "shopify://shop_images/7V7A4237.jpg"
       }
     },
     "l_dropdowns_UWHkmN": {
@@ -125,7 +125,7 @@
         "text_button_text": "Button",
         "url_button_link_2": "",
         "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/Heimplanet-Season-Opening-Header-1.jpg"
+        "image_bild": "shopify://shop_images/LauritzKuntscher_SeasonOpening2022-076.jpg"
       }
     },
     "l_dropdowns_xUVGWD": {
@@ -169,36 +169,26 @@
         "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt."
       }
     },
-    "l_content_image_bg_bRBjPY": {
-      "type": "l_content_image_bg",
+    "article_next": {
+      "type": "article_next",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Backdoor-4-Season-2022-3_4309846d-9954-48d7-80eb-03c7f9f4290c.jpg"
+        "text_headline": "GESCHICHTEN AUS DER COMMUNITY",
+        "url_button_link": "shopify://blogs/abenteuer",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
       }
     },
     "l_hero_Xh3Rcp": {
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "AUF INS NEUE JAHR.",
+        "text_headline": "BIS ZUM NÄCHSTEN JAHR.",
         "textarea_longer_text": "",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-4.jpg"
-      }
-    },
-    "article_next": {
-      "type": "article_next",
-      "settings": {
-        "text_headline": "MEHR GESCHICHTEN",
-        "url_button_link": "shopify://blogs/abenteuer",
-        "text_button_text": "Mehr davon",
-        "text_blog_handle": "abenteuer"
       }
     }
   },
@@ -213,8 +203,7 @@
     "l_dropdowns_UWHkmN",
     "content_image_pVbAyH",
     "l_dropdowns_xUVGWD",
-    "l_content_image_bg_bRBjPY",
-    "l_hero_Xh3Rcp",
-    "article_next"
+    "article_next",
+    "l_hero_Xh3Rcp"
   ]
 }
