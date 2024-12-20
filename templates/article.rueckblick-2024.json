@@ -116,12 +116,6 @@
         "textarea_text": ""
       }
     },
-    "article_richtext_H4WMaR": {
-      "type": "article_richtext",
-      "settings": {
-        "richtext_text": ""
-      }
-    },
     "content_image_pVbAyH": {
       "type": "content_image",
       "settings": {
@@ -171,8 +165,8 @@
         "dropdown_VkfRN7"
       ],
       "settings": {
-        "text_headline": "",
-        "textarea_text": ""
+        "text_headline": "GESCHICHTEN",
+        "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt."
       }
     },
     "l_content_image_bg_bRBjPY": {
@@ -206,13 +200,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "ambassadors_mkAzdi": {
-      "type": "ambassadors",
-      "settings": {
-        "text_headline": "",
-        "text_blog_handle": "This is some text inside of a div block."
-      }
     }
   },
   "layout": "article",
@@ -224,12 +211,10 @@
     "l_dropdowns_9tEqDp",
     "content_image_yfjdG8",
     "l_dropdowns_UWHkmN",
-    "article_richtext_H4WMaR",
     "content_image_pVbAyH",
     "l_dropdowns_xUVGWD",
     "l_content_image_bg_bRBjPY",
     "l_hero_Xh3Rcp",
-    "article_next",
-    "ambassadors_mkAzdi"
+    "article_next"
   ]
 }
