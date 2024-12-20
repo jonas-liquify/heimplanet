@@ -22,6 +22,16 @@
             "text_button_text": "GESCHENK GUIDE"
           }
         },
+        "hero_slider_FDAzFx": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/LauritzKuntscher_Cloudbreak_Lifestyle_Fuerte26.jpg",
+            "text_headline": "RÜCKBLICK 2024",
+            "richtext_text": "<p>NEUER BLOGPOST!<strong><br/></strong>Es hat einen Grund weshalb der Rückblick unter <strong>ABENTEUER </strong>in unserem <strong>MAGAZIN </strong>zu finden ist! Lass uns gemeinsam zurückblicken.</p>",
+            "url_button_link": "https://heimplanet.com/blogs/abenteuer/ruckblick-2024",
+            "text_button_text": "ZUM RÜCKBLICK"
+          }
+        },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
@@ -61,17 +71,6 @@
             "richtext_text": "<h6><strong>DIE DEALS ENDEN HEUTE 23:59 CET</strong></h6><p>Nutze jetzt die letzte Chance, um zu sparen. Wir geben 30% - Du kannst entscheiden wie viel du in der Lage bist beizusteuern.</p>",
             "url_button_link": "shopify://blogs/projekte/black-deals",
             "text_button_text": "ZU DEN CODES"
-          }
-        },
-        "hero_slider_FDAzFx": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Island-10.jpg",
-            "text_headline": "Inspiriert vom Kreislauf der Natur",
-            "richtext_text": "<p><strong>NEUER BLOGPOST<br/></strong>Der Beginn einer neuen Ära - Der Mono Series Minimal Pack auf Island. </p>",
-            "url_button_link": "https://heimplanet.com/blogs/abenteuer/von-der-natur-inspiriert-fur-den-kreislauf-konzipiert",
-            "text_button_text": "ZUM MAGAZIN"
           }
         },
         "hero_slider_DVNdYF": {
@@ -121,11 +120,11 @@
       },
       "block_order": [
         "hero_slider_6ztQE7",
+        "hero_slider_FDAzFx",
         "hero_slider_DQWqP4",
         "hero_slider_L3fJzp",
         "hero_slider_icPbWh",
         "hero_slider_eJrrgt",
-        "hero_slider_FDAzFx",
         "hero_slider_DVNdYF",
         "hero_slider_3zKtma",
         "hero_slider_zBjUtr",
