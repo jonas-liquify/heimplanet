@@ -33,8 +33,8 @@
     "content_image_yVmyhh": {
       "type": "content_image",
       "settings": {
-        "text_headline": "GESCHICHTEN",
-        "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt.",
+        "text_headline": "NEUE PRODUKTE",
+        "textarea_text": "Die diesjährigen Produktneuerungen standen ganz im Zeichen der Kreislaufwirtschaft.",
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
@@ -73,6 +73,18 @@
         "textarea_text": "Die diesjährigen Produktneuerungen standen ganz im Zeichen der Kreislaufwirtschaft."
       }
     },
+    "content_image_yfjdG8": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "KOLLABORATIONEN",
+        "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt.\n<br><br>\nasdfdsafsdafdsf",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
+      }
+    },
     "l_dropdowns_UWHkmN": {
       "type": "l_dropdowns",
       "blocks": {
@@ -100,8 +112,8 @@
         "dropdown_MfRtHx"
       ],
       "settings": {
-        "text_headline": "Kollaborationen",
-        "textarea_text": "Auch dieses Jahr durften wir mit"
+        "text_headline": "",
+        "textarea_text": ""
       }
     },
     "content_image_pVbAyH": {
@@ -125,7 +137,7 @@
             "image_icon": "shopify://shop_images/Aether_Logo.png",
             "text_headline": "Aether rally 2024",
             "textarea_text": "Das glänzende Schwarz steht für den vulkanischen Sand Islands, der sich aus der erstarrten Lava gebildet hat und im Sonnenlicht funkelt. Dieser Sand wird durch Wind und Wasser kontinuierlich in die Natur zurückgeführt – ein Symbol für den ständigen Wandel und die Wiederverwertung in der Natur, genauso wie der Minimal Pack im Sinne der Kreislaufwirtschaft wiederverwendet wird.\n<br><br>\n Das Mono-Material des schwarzen Rucksacks besteht zu 100% aus bereits recyceltem Material. Der Rucksack ist vollständig recycelbar. Ein vollständig geschlossener Kreislauf.\n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/aether-rally-2024-recap\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
-            "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
+            "image_bild": "shopify://shop_images/Aether_rally_the_cave.jpg"
           }
         },
         "dropdown_PPH3td": {
@@ -188,19 +200,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "disabled": true,
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
-      }
-    },
-    "colabs_qn9aTF": {
-      "type": "colabs",
-      "settings": {
-        "checkbox_swiper_script": true
-      }
     }
   },
   "layout": "article",
@@ -210,13 +209,12 @@
     "l_text_logos_KLFPXQ",
     "content_image_yVmyhh",
     "l_dropdowns_9tEqDp",
+    "content_image_yfjdG8",
     "l_dropdowns_UWHkmN",
     "content_image_pVbAyH",
     "l_dropdowns_xUVGWD",
     "l_content_image_bg_bRBjPY",
     "l_hero_Xh3Rcp",
-    "article_next",
-    "l_html_text_L8c4CD",
-    "colabs_qn9aTF"
+    "article_next"
   ]
 }
