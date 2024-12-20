@@ -30,14 +30,16 @@
         "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden! <br><br><b>Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!</b>"
       }
     },
-    "l_content_image_bg_Vtgtqd": {
-      "type": "l_content_image_bg",
+    "content_image_yVmyhh": {
+      "type": "content_image",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V15_2d7e608a-94b7-46ce-9658-a40bb1732543.jpg"
+        "text_headline": "GESCHICHTEN",
+        "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
       }
     },
     "l_dropdowns_9tEqDp": {
@@ -102,22 +104,12 @@
         "textarea_text": "Auch dieses Jahr durften wir mit"
       }
     },
-    "l_content_image_bg_yrRWUk": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/FranzXaverAicher_Kirra_Classic_Island_Moody_2022_21.jpg"
-      }
-    },
-    "content_image_yVmyhh": {
+    "content_image_pVbAyH": {
       "type": "content_image",
       "settings": {
         "text_headline": "GESCHICHTEN",
         "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt.",
-        "url_button_link": "",
+        "url_button_link": "https://heimplanet.com/",
         "text_button_text": "Button",
         "url_button_link_2": "",
         "text_button_text_2": "Button",
@@ -179,7 +171,7 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "AUF INS NEUE JAHR!",
+        "text_headline": "AUF INS NEUE JAHR.",
         "textarea_longer_text": "",
         "text_button_text": "Button Text",
         "url_button_link": "",
@@ -203,6 +195,12 @@
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
+    },
+    "colabs_qn9aTF": {
+      "type": "colabs",
+      "settings": {
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "article",
@@ -210,15 +208,15 @@
   "order": [
     "l_hero_ijQ63U",
     "l_text_logos_KLFPXQ",
-    "l_content_image_bg_Vtgtqd",
+    "content_image_yVmyhh",
     "l_dropdowns_9tEqDp",
     "l_dropdowns_UWHkmN",
-    "l_content_image_bg_yrRWUk",
-    "content_image_yVmyhh",
+    "content_image_pVbAyH",
     "l_dropdowns_xUVGWD",
     "l_content_image_bg_bRBjPY",
     "l_hero_Xh3Rcp",
     "article_next",
-    "l_html_text_L8c4CD"
+    "l_html_text_L8c4CD",
+    "colabs_qn9aTF"
   ]
 }
