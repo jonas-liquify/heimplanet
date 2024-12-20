@@ -120,7 +120,8 @@
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
-        "text_button_text_2": "Button"
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
       }
     },
     "l_dropdowns_xUVGWD": {
@@ -160,8 +161,8 @@
         "dropdown_VkfRN7"
       ],
       "settings": {
-        "text_headline": "Geschichten",
-        "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt."
+        "text_headline": "",
+        "textarea_text": ""
       }
     },
     "l_content_image_bg_bRBjPY": {
