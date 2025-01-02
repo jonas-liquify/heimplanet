@@ -63,7 +63,7 @@
         "settings": {
           "url_storefinder_link": "shopify://pages/shopfinder",
           "text_storefinder": "Storefinder",
-          "text_announcement": "Kostenloser Versand ab 50€ Bestellwert  | <b>Verlängertes Rückgaberecht bis 31.01.25 <b></b></b>",
+          "text_announcement": "Kostenloser Versand ab 50€ Bestellwert",
           "collection_bestseller": "topseller",
           "collection_bestseller_limit": 6
         }
