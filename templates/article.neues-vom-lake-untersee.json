@@ -64,9 +64,21 @@
     "l_content_right_hKLaVw": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/Dale-Andersen-Field-Report-Preview.png",
+        "image_bild": "shopify://shop_images/screenshot-youtube-Whispers-Beneath-the-Ice-Discovering-the_Hidden-Life-of-Lake-Untersee_png.jpg",
         "text_headline": "AKTUELLES von DALE",
         "textarea_text": "In seinem aktuellsten Blogpost, berichtet Dale Dale Andersen über die Fortschritte seiner antarktischen Astrobiologie-Expedition. Nach einer Phase mit ruhigerem Wetter konnte das Team weitere Zelte und Ausrüstung aufstellen und das Camp erweitern. Ein 3,6 Meter dickes Eisloch in der Nähe des Camps dient als Wasserquelle, die regelmäßig nachgebohrt wird, bevor sie wieder zufriert. Am Morgen des 1. November herrschten stürmische Winde und Schneetreiben, dennoch begann das Team, in einem Bereich mit dünnerem Eis (2,5 Meter) ein Probenloch zu bohren. Das Camp nimmt allmählich Form an, und das Team findet eine Balance zwischen logistischen Aufgaben und wissenschaftlicher Arbeit, um sicher und effizient voranzukommen.\n<br><br>\nWenn du mehr über die Arbeit von Dale und seinem Team erfahren möchtest, schaue dir auch unseren ersten Beitrag:  <a href=\"https://heimplanet.com/blogs/abenteuer/heimplanet-on-a-frozen-planet\" target=\"_blank\"><b>Heimplanet on a Frozen Planet</b></a> an und besuche Dale's Blog <a href=\"https://astrobiology.com/2024/11/dale-andersens-astrobiology-antarctic-status-report-1-november-2024-drilling-dive-holes-through-the-ice.html\" target=\"_blank\"><b>Astrobiology</b></a>.\n<br><br>\nKlicke <a href=\"https://www.youtube.com/watch?v=UoHdBq2KS9g\" target=\"_blank\"><b>hier</b></a>, um Dale's spektakuläre Unterwasseraufnahmen vom Lake Untersee zu sehen."
+      }
+    },
+    "content_image_7pycLD": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/dale_anderson_mavericks_basecamp.jpg"
       }
     },
     "l_produkt_QbA6R8": {
@@ -120,17 +132,6 @@
         "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
-      }
-    },
-    "content_image_7pycLD": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button"
       }
     }
   },
