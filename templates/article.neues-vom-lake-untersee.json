@@ -121,6 +121,17 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "content_image_7pycLD": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
     }
   },
   "layout": "article",
@@ -133,6 +144,7 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
+    "content_image_7pycLD",
     "l_produkt_QbA6R8",
     "article_next"
   ]
