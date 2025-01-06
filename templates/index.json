@@ -33,6 +33,16 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
+        "hero_slider_zBjUtr": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg",
+            "text_headline": "THE FUTURE IS NOW",
+            "richtext_text": "<p><strong>THE FUTURE IS MONO.</strong> Der neue Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.</p>",
+            "url_button_link": "shopify://pages/mono-series-minimal-pack",
+            "text_button_text": "NEU: Jetzt entdecken"
+          }
+        },
         "hero_slider_FDAzFx": {
           "type": "hero-slider",
           "settings": {
@@ -63,50 +73,6 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
-        "hero_slider_eJrrgt": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Black_Background.png",
-            "text_headline": "BLACK DEALS<br>Letzte Chance",
-            "richtext_text": "<h6><strong>DIE DEALS ENDEN HEUTE 23:59 CET</strong></h6><p>Nutze jetzt die letzte Chance, um zu sparen. Wir geben 30% - Du kannst entscheiden wie viel du in der Lage bist beizusteuern.</p>",
-            "url_button_link": "shopify://blogs/projekte/black-deals",
-            "text_button_text": "ZU DEN CODES"
-          }
-        },
-        "hero_slider_DVNdYF": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood9.jpg",
-            "text_headline": "CLOUDBREAK MARS MISSION",
-            "richtext_text": "<p><strong>NEUER BLOGPOST</strong><br/>Mache jeden Ort zu deinem Heimplanet - Outdoor Fotograf & Videograf Dani Guindo zeigt uns wie.</p>",
-            "url_button_link": "shopify://blogs/abenteuer/cloudbreak-mars-mission",
-            "text_button_text": "ZUM BLOG"
-          }
-        },
-        "hero_slider_3zKtma": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-Home.jpg",
-            "text_headline": "Cloudbreak",
-            "richtext_text": "<p>Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden. #whereveryougo</p>",
-            "url_button_link": "shopify://products/cloudbreak-classic",
-            "text_button_text": "MEHR ERFAHREN"
-          }
-        },
-        "hero_slider_zBjUtr": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-2024-July-Black.jpg",
-            "text_headline": "THE FUTURE IS NOW",
-            "richtext_text": "<p><strong>THE FUTURE IS MONO.</strong> Der neue Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.</p>",
-            "url_button_link": "shopify://pages/mono-series-minimal-pack",
-            "text_button_text": "NEU: Jetzt entdecken"
-          }
-        },
         "hero_slider_LP9zUr": {
           "type": "hero-slider",
           "disabled": true,
@@ -122,13 +88,10 @@
       "block_order": [
         "hero_slider_6ztQE7",
         "hero_slider_DQWqP4",
+        "hero_slider_zBjUtr",
         "hero_slider_FDAzFx",
         "hero_slider_L3fJzp",
         "hero_slider_icPbWh",
-        "hero_slider_eJrrgt",
-        "hero_slider_DVNdYF",
-        "hero_slider_3zKtma",
-        "hero_slider_zBjUtr",
         "hero_slider_LP9zUr"
       ],
       "settings": {
