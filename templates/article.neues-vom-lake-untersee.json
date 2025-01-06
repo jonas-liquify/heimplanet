@@ -22,6 +22,14 @@
         "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-6.jpg"
       }
     },
+    "l_text_logos_bi9G6G": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "Von DALE ANDERSON:",
+        "text_headline": "LAKE UNTERSEE",
+        "text_text": "\"Es ist ein Ort, den nur wenige Menschen je gesehen oder sich vorgestellt haben, weit entfernt von vertrauten, alltäglichen Umgebungen. Das Wetter kann ebenso rau sein wie das Gelände, mit Winden und blendendem Schnee, die Geschwindigkeiten von bis zu 180 km/h erreichen. Vier Monate lang ist die Dunkelheit der einzige Begleiter, zusammen mit den Geräuschen von knackendem Eis und dem allgegenwärtigen Heulen der Winde.\""
+      }
+    },
     "l_video_L6k4FT": {
       "type": "l_video",
       "custom_css": [],
@@ -57,8 +65,8 @@
       "type": "l_content_right",
       "settings": {
         "image_bild": "shopify://shop_images/Dale-Andersen-Field-Report-Preview.png",
-        "text_headline": "Tag 2 // Los geht's",
-        "textarea_text": "<br><br>Wenn du mehr über die Arbeit von Dale und seinem Team erfahren möchtest, schaue dir auch unserern ersten Beitrag an und besuche Dale's Blog Mehr zu Lukas Bigler @luke.imaged | <a href=\"https://www.instagram.com/luke.imaged/\" target=\"_blank\">Instagram</a> & <a href=\"https://www.youtube.com/@lukeimaged\" target=\"_blank\">Youtube</a>."
+        "text_headline": "AKTUELLES von DALE",
+        "textarea_text": "In seinem aktuellsten Blogpost, berichtet Dale Dale Andersen über die Fortschritte seiner antarktischen Astrobiologie-Expedition. Nach einer Phase mit ruhigerem Wetter konnte das Team weitere Zelte und Ausrüstung aufstellen und das Camp erweitern. Ein 3,6 Meter dickes Eisloch in der Nähe des Camps dient als Wasserquelle, die regelmäßig nachgebohrt wird, bevor sie wieder zufriert. Am Morgen des 1. November herrschten stürmische Winde und Schneetreiben, dennoch begann das Team, in einem Bereich mit dünnerem Eis (2,5 Meter) ein Probenloch zu bohren. Das Camp nimmt allmählich Form an, und das Team findet eine Balance zwischen logistischen Aufgaben und wissenschaftlicher Arbeit, um sicher und effizient voranzukommen.\n<br><br>\nWenn du mehr über die Arbeit von Dale und seinem Team erfahren möchtest, schaue dir auch unseren ersten Beitrag:  <a href=\"https://heimplanet.com/blogs/abenteuer/heimplanet-on-a-frozen-planet\" target=\"_blank\"><b>Heimplanet on a Frozen Planet</b></a> an und besuche Dale's Blog <a href=\"https://astrobiology.com/2024/11/dale-andersens-astrobiology-antarctic-status-report-1-november-2024-drilling-dive-holes-through-the-ice.html\" target=\"_blank\"><b>Astrobiology</b></a>.\n<br><br>\nKlicke <a href=\"https://www.youtube.com/watch?v=UoHdBq2KS9g\" target=\"_blank\"><b>hier</b></a>, um Dale's spektakuläre Unterwasseraufnahmen vom Lake Untersee zu sehen."
       }
     },
     "l_headline_mono_4Vq68U": {
@@ -183,6 +191,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_text_logos_bi9G6G",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
