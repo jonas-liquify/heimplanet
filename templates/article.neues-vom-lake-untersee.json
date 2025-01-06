@@ -22,6 +22,19 @@
         "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-6.jpg"
       }
     },
+    "l_hero_EYYHdU": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Neues vom lake Untersee",
+        "textarea_longer_text": "Einblicke in die Spektakuläre Arbeit von Astrobiologe Dale Anderson & seinem Team",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Dale_Anderson_Weather_Station.jpg"
+      }
+    },
     "l_text_logos_bi9G6G": {
       "type": "l_text_logos",
       "settings": {
@@ -58,7 +71,7 @@
       "settings": {
         "text_headline": "Unsere Zusammenarbeit",
         "textarea_text": "Bei seinem nun 27. Einsatz am Lake Untersee nutzen Dale und sein Team im vergangen Jahr erstmalig unser Expeditionszelt Mavericks. Das Team aus erfahrenen Forschern war auf der Suche nach einem verlässlichen Unterschlupf, der den extremen Wetterbedingungen trotzen kann. Gleichzeitig musste dieser schnell zu errichten sein, da das Wetter auf dem ungeschützten See innerhalb von wenigen Minuten komplett umschwingen kann. \n<br><br>\nDie Zusammenarbeit mit Dale und seinem Team ist für uns eine einmalige Gelegenheit die Forschenden zu unterstützen und gleichzeitig wertvolles Feedback über unser Equipment zu bekommen. Mit Hilfe dieser Einblicke können wir Mavericks immer weiter verbessern und hoffentlich noch viele Expedition auf der ganzen Welt ermöglichen!",
-        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-5.jpg"
+        "image_bild": "shopify://shop_images/Dale_anderson_mavericks_basecamp_2.jpg"
       }
     },
     "l_content_right_hKLaVw": {
@@ -139,6 +152,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_hero_EYYHdU",
     "l_text_logos_bi9G6G",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
