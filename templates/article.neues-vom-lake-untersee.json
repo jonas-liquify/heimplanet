@@ -22,19 +22,6 @@
         "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-6.jpg"
       }
     },
-    "l_hero_EYYHdU": {
-      "type": "l_hero",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "Neues vom lake Untersee",
-        "textarea_longer_text": "Einblicke in die Spektakuläre Arbeit von Astrobiologe Dale Anderson & seinem Team",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Dale_Anderson_Weather_Station.jpg"
-      }
-    },
     "l_text_logos_bi9G6G": {
       "type": "l_text_logos",
       "settings": {
@@ -91,7 +78,7 @@
         "text_button_text": "Button",
         "url_button_link_2": "",
         "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/dale_anderson_mavericks_basecamp.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-7.jpg"
       }
     },
     "l_produkt_QbA6R8": {
@@ -152,7 +139,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_hero_EYYHdU",
     "l_text_logos_bi9G6G",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
