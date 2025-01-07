@@ -175,15 +175,6 @@
         "url_button_link": "",
         "text_button_text": "Mehr davon"
       }
-    },
-    "article_next": {
-      "type": "article_next",
-      "settings": {
-        "text_headline": "Weitere Beiträge",
-        "url_button_link": "shopify://blogs/abenteuer",
-        "text_button_text": "Mehr davon",
-        "text_blog_handle": "abenteuer"
-      }
     }
   },
   "layout": "article",
@@ -197,7 +188,6 @@
     "l_content_left_3nhLVM",
     "l_dropdowns_BzMTbG",
     "l_video_L6k4FT",
-    "article_products_V4qaqk",
-    "article_next"
+    "article_products_V4qaqk"
   ]
 }
