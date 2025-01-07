@@ -87,8 +87,8 @@
       ],
       "settings": {
         "text_headline": "DEN KREISLAUF SCHLIEßEN - mit MONO",
-        "text_mixed_material": "Hier kommen wir her:",
-        "text_mono_material": "Hier gehen wir hin!"
+        "text_mixed_material": "Wo wir herkommen:",
+        "text_mono_material": "Wo wir hingehen:"
       }
     },
     "l_content_left_3nhLVM": {
@@ -124,7 +124,7 @@
           "type": "dropdown",
           "settings": {
             "image_icon": "shopify://shop_images/23-05-11_Icon_Transit4.png",
-            "text_headline": "03 Repair",
+            "text_headline": "03 Reparatur",
             "textarea_text": "Falls Sie größere Schäden feststellen, wenden Sie sich an einen professionellen Reparaturdienst oder kontaktieren Sie uns über service@heimplanet.com oder unser <b><a target=\"_blank\">Kontaktformular</a></b>.\n<br><br><b>TIPPS FÜR SELBSTREPARATUREN</b>\n<br><br><b>Nähte und Risse:</b><br>For small tears or loose seams, use a needle and strong thread that matches the color of your bag. Carefully stitch the area, reinforcing any weak spots with extra stitches.\n\n<br><br><b>Reißverschluss-Reparatur:\n:</b><br>Bei kleinen Rissen oder losen Nähten verwenden Sie eine Nadel und einen stabilen Faden in der Farbe der Tasche. Nähen Sie die Stelle vorsichtig und verstärken Sie schwache Stellen mit zusätzlichen Stichen.\n\n\n\n<br><br><b>Griffe und Gurte:\n:</b><br> Wenn ein Reißverschluss klemmt, versuchen Sie, ihn mit einer kleinen Menge Bienenwachs oder einem Graphitstift zu schmieren. Bei defekten Reißverschlüssen müssen Sie den gesamten Reißverschluss möglicherweise ersetzen. Dies kann mit einem Reparaturset zu Hause oder von einem Fachmann erledigt werden.\n\n\n\n<br><br>\n<b>Hardware Austausch:</b>\n<br>Defekte Metallteile wie Schnallen, Verschlüsse oder Nieten können in Bastel- oder Reparaturgeschäften gefunden werden. Entfernen Sie die alten Beschläge mit geeigneten Werkzeugen und bringen Sie die neuen Teile an.",
             "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Mood-2.jpg"
           }
@@ -134,7 +134,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
             "text_headline": "04 Re-store",
-            "textarea_text": "The Heimplanet Re-Store Program provides a sustainable way to extend the life of your used Heimplanet bag. Your bag will be cleaned, refurbished, and resold, reducing waste and promoting reuse. This program supports the environment and rewards eco-friendly choices. Use the contact form below to join us in our sustainability efforts and earn rewards!\n<br><br><b>How to Participate:</b><br>\nSend us your used HEIMPLANET product by filling out the form. You'll receive up to 20% of the original purchase price as a voucher. This helps to reduce unnecessary consumption and make the most of what we already have!\n<br><br>\n<b>Process:</b><br>\nAfter you submit the form, you'll get a confirmation email with the next steps. Products will be inspected and refurbished at our Hamburg Hafencity showroom. Depending on the condition, you'll receive a voucher for 10% to 20%. If you have the original invoice or receipt, please include it in your email to speed up processing. <br><br>\nThank you for supporting this project—we look forward to your contribution!\n<br><br>\nScroll to the bottom of the <b><a target=\"_blank\">RE-STORE</a></b> page and use the contact form.",
+            "textarea_text": "Das Heimplanet Re-Store Programm bietet dir eine nachhaltige Möglichkeit, die Lebensdauer deiner gebrauchten Heimplanet-Tasche zu verlängern. Deine Tasche wird gereinigt, aufbereitet und weiterverkauft, um Abfall zu reduzieren und Wiederverwendung zu fördern. Dieses Programm unterstützt die Umwelt und belohnt umweltfreundliche Entscheidungen. Nutze das Kontaktformular unten, um an unseren Nachhaltigkeitsbemühungen teilzunehmen und Belohnungen zu erhalten!\n<br><br>\n<b>So nimmst du teil:</b><br>\nSchick uns dein gebrauchtes HEIMPLANET-Produkt, indem du das Formular ausfüllst. Du erhältst bis zu 20 % des ursprünglichen Kaufpreises als Gutschein zurück. Das hilft, unnötigen Konsum zu reduzieren und das Beste aus dem zu machen, was wir bereits haben!\n<br><br>\n<b>Prozess:</b><br>\nNach dem Absenden des Formulars bekommst du eine Bestätigungs-E-Mail mit den nächsten Schritten. Die Produkte werden in unserem Showroom in der Hamburger Hafencity geprüft und aufbereitet. Je nach Zustand bekommst du einen Gutschein über 10 % bis 20 %. Wenn du die Originalrechnung oder den Kassenzettel hast, füge ihn bitte deiner E-Mail bei, um die Bearbeitung zu beschleunigen.\n<br><br>\nDanke, dass du dieses Projekt unterstützt – wir freuen uns auf deinen Beitrag!\n<br><br>\nScroll ganz nach unten auf die <b><a target=\"_blank\">RE-STORE</a></b>-Seite und nutze das Kontaktformular.",
             "image_bild": "shopify://shop_images/Re-store.jpg"
           }
         },
