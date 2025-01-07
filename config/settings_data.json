@@ -210,7 +210,7 @@
       },
       "11434813149838796522": {
         "type": "shopify://apps/pre-order-restock-notifier/blocks/app-embed/1fadf77e-ebd8-4e68-90cb-f24d97d07bde",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       }
     }
