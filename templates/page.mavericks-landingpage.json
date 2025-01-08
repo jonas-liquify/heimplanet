@@ -19,14 +19,21 @@
     "l_hero": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "Mavericks",
+        "text_subline": "Genutzt auf Expedition Weltweit",
+        "text_headline": "Mavericks BASECAMP",
         "textarea_longer_text": "<br>Konzipiert für die Extreme - unser MAVERICKS. Entwickelt für die härtesten Bedingungen kann es als Basislager oder Gruppenzelt verwendet werden. Mit einer Innenhöhe von zwei Metern und einer Grundfläche von mehr als 13 Quadratmetern ist es für Windgeschwindigkeiten von bis zu 180 km/h ausgelegt. Es wurde unter anderem bei der RedBull Storm Chase eingesetzt - der extremsten Windsurfing-Herausforderung.",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Mavericks_onIce_1.jpg"
+      }
+    },
+    "l_headline_mono_wKnzh8": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Entwickelt in Zusammenarbeit mit den Red Bull Stormchasers",
+        "text_headline": "Für Windgeschwindigkeiten bis 180km/h konzipiert"
       }
     },
     "l_video_3z8pkj": {
@@ -124,6 +131,7 @@
   "order": [
     "l_header_trans_white_mHj3Px",
     "l_hero",
+    "l_headline_mono_wKnzh8",
     "l_video_3z8pkj",
     "l_video_NhXNnz",
     "l_content_right_AJHhFq",
