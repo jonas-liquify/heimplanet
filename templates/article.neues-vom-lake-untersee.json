@@ -30,6 +30,14 @@
         "text_text": "\"Es ist ein Ort, den nur wenige Menschen je gesehen oder sich vorgestellt haben, weit entfernt von vertrauten, alltäglichen Umgebungen. Das Wetter kann ebenso rau sein wie das Gelände, mit Winden und blendendem Schnee, die Geschwindigkeiten von bis zu 180 km/h erreichen. Vier Monate lang ist die Dunkelheit der einzige Begleiter, zusammen mit den Geräuschen von knackendem Eis und dem allgegenwärtigen Heulen der Winde.\""
       }
     },
+    "l_text_logos_FyV6Uj": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "SOUND AN!",
+        "text_text": ""
+      }
+    },
     "l_video_L6k4FT": {
       "type": "l_video",
       "custom_css": [],
@@ -140,6 +148,7 @@
   "order": [
     "l_hero_ijQ63U",
     "l_text_logos_bi9G6G",
+    "l_text_logos_FyV6Uj",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
