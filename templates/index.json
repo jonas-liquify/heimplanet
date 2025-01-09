@@ -12,6 +12,16 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_MWnnBG": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Neck-Pouch-A6.jpg",
+            "text_headline": "Neck Pouch",
+            "richtext_text": "<p>Unsere Interpretation eines klassischen Brustbeutels. Alles, was Du brauchst, in Reichweite und immer verfügbar.</p>",
+            "url_button_link": "shopify://collections/taschen",
+            "text_button_text": "Jetzt entdecken"
+          }
+        },
         "hero_slider_6ztQE7": {
           "type": "hero-slider",
           "disabled": true,
@@ -86,6 +96,7 @@
         }
       },
       "block_order": [
+        "hero_slider_MWnnBG",
         "hero_slider_6ztQE7",
         "hero_slider_DQWqP4",
         "hero_slider_zBjUtr",
