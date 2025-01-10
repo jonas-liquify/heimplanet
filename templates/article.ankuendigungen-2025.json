@@ -1,0 +1,209 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "l_hero_ijQ63U": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "Wir feierten <b>design. innovation. kollaboration.</b><br><br>",
+        "text_headline": "RÜCKBLICK 2024",
+        "textarea_longer_text": "<br>Lasst uns diesen Weg weiterhin gemeinsam gehen.",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/LauritzKuntscher_Cloudbreak_Lifestyle_Fuerte26.jpg"
+      }
+    },
+    "l_text_logos_KLFPXQ": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "WIR SAGEN DANKE!",
+        "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden! Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!"
+      }
+    },
+    "content_image_yVmyhh": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Mono_Series_Minimal_Pack_ocean_blue-b_1.jpg"
+      }
+    },
+    "l_dropdowns_9tEqDp": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_TXUVGw": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/mono-material_endless-blue.png",
+            "text_headline": "Mono series minimal pack",
+            "textarea_text": "<b>\"Der umweltfreundlichste Rucksack, den wir heute herstellen können\"</b>\n<br><br>\nDer Mono Series Minimal Pack ist eines der Projekte auf das wir am meisten Stolz sind. Er ist das Ergebnis von über zwei Jahren Forschung und Entwicklung und stellt einen Meilenstein für eine nachhaltigere Taschenproduktion dar. Nach Erfindung des aufblasbaren Zelts stellt der neue Minimal Pack vermutlich den größten Sprung in unserer Produktentwicklung dar. \n<br><br>\n<b>Unser neuer Stoff - Dyecoshell™ Mono</b>\n<br><b>01</b> Vollständig Recycelbar dank Mono-Material-Konzept\n<br><b>02</b> Bis zu 100% aus recyceltem Material Recycelt \n<br><b>03</b> Ressourcenschonendes Material danke 'Dope Dyeing'\n<br><br>\nUm sicherzustellen, dass der Rucksack wie geplant recycelt werden kann, wurde der gesamte Entwicklungsprozess wurde vom <b>Institut für Textiltechnik der RWTH Aache</b>n und dem Fraunhofer-<b>Institut für Chemische Technologie</b> begleitet\n<br><br>\n<a href=\"https://heimplanet.com/pages/mono-series-minimal-pack\" target=\"_blank\"><b>ERFAHRE MEHR ÜBE DEN MONO PACK</b></a>",
+            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Teaser.jpg"
+          }
+        },
+        "dropdown_mhLH8U": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
+            "text_headline": "PACKING CUBES, RE-store edition",
+            "textarea_text": "<b>Was haben ein 10 Personen Expeditionszelt und drei Packing Cubes gemeinsam?</b>\n<br>\n-> Ihre Außenhülle selbstverständlich!\n<br><br>\nMit dem Mono Pack bereits auf dem Weg, lag unser Fokus in diesem Jahr noch einmal stärker auf einem möglichst umweltschonenden und effizienten Umgang mit Ressourcen. Kurzer Hand entschlossen wir uns, ungenutztes Material unseres Expeditionszelts Mavericks zu nutzen und daraus eine Sonderedition unserer beliebten Packing Cubes herzustellen. \n<br><br>\nDen neuen Packing Cubes, Re-Store Edition kam dabei sowohl die Wetterbeständigkeit als auch Robustheit der Mavericks-Hülle zu Gute. Um die Wasserfestigkeit noch einmal zu erhöhen, sind die neuen Cubes zusätzlich mit Wasserdichten Zippern ausgestattet. \n<br><br>\nDank dieser Eigenschaft hat sich der Einsatzzwecke der Cubes deutlich erweitert: \n<br><br>\n<b>01</b> Organizer für Kleidung.\n<br><b>02</b> Tech Pouch für Ladekabel, Powerbanks, Festplatten uvm.\n<br><b>03</b> Kulturtasche wenn Gewicht sparen besonders wichtig ist.\n<br><br>\n<a href=\"https://heimplanet.com/pages/re-store-edition-packing-cubes\" target=\"_blank\"><b>HIER ERFÄHRST DU MEHR ÜBER DIE  NEUEN  PACKING CUBES</b></a>",
+            "image_bild": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-Mood-9.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_TXUVGw",
+        "dropdown_mhLH8U"
+      ],
+      "settings": {
+        "text_headline": "NEUE PRODUKTE",
+        "textarea_text": "Die diesjährigen Produktneuerungen standen ganz im Zeichen der Kreislaufwirtschaft."
+      }
+    },
+    "content_image_yfjdG8": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/7V7A4237.jpg"
+      }
+    },
+    "l_dropdowns_UWHkmN": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_x7DtBT": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Kirra_IDG_Technik_Landing.png",
+            "text_headline": "WTAPS - KIRRA",
+            "textarea_text": "<b>\"Placing things where they should be\"</b>\n<br><br>\nEine Produkt-Kollaboration ist immer ein auch Zweichen gegenseitiger Wertschätzung. Wir sind daher sehr stolz auf die unsere Zusammenarbeit mit WTAPS, einer Marke, die wie wir Wert auf Funktionalität, durchdachtes Design und höcshste Qualtität legt. \n<br><br>\nGemeinsam haben wir das KIRRA x WTAPS entwickelt – ein aufblasbares Zelt für zwei Personen, das die urbane Ästhetik von WTAPS mit unserer Expertise in innovativer Zelttechnologie verbindet.\n<br><br>\nWTAPS ist eine japanische Marke, gegründet 1996 von Tetsu Nishiyama. WTAPS ist bekannt ihren minimalistischen Stil und ihre Liebe zum Detail. Inspiriert von militärischen, utilitaristischen und subkulturellen Elementen, haben sie genau wie wir den Anspruch zeitlose Produkte zu kreieren. In ihrem Leitsatz \"Placing things where they should be\" konnten wir uns sofort identifizieren. \n<br><br>\n<a href=\"https://heimplanet.com/pages/collab-wtaps-kirra\" target=\"_blank\"><b>HIER ERFÄHRST DU MEHR!<button></button></b></a>",
+            "image_bild": "shopify://shop_images/Heimplanet-WTAPS-Kirra-2024-Edition-6-1.jpg"
+          }
+        },
+        "dropdown_MfRtHx": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Cave_IDG_Technik_Landing_50aa9a39-14e2-4c75-8301-c26e4e87affd.png",
+            "text_headline": "SUPREME - THE CAVE XL",
+            "textarea_text": "<b>Designverliebte Zeltfirma aus Hamburg trifft auf Streetwear-Ikone aus New York City.</b>\n<br><br>\nFür eine kleine unabhängige Outdoor-Marke aus Norddeutschland wie wir es sind, stellt diese Zusammenarbeit für uns ein besonders surreales Erlebnis aus dem vergangenen Jahr dar. \n<br><br>\nAuch wenn Supreme und Heimplanet aus völlig unterschiedlichen Welten stammen, verbindet uns dennoch eine Leidenschaft für durchdachtes Design und das Bestreben, Grenzen neu zu definieren. Und so war es unser eine Freude unser The Cave XL als Leinwand für eine gemeinsame kreative Vision.<br><br>\n<a href=\"https://heimplanet.com/pages/collab-supreme-the-cave-xl\" target=\"_blank\"><b>HIER GIBT'S NOCH MEHR ZU SEHEN!</b></a>",
+            "image_bild": "shopify://shop_images/A15_HeimplanetTent_BlueCamo07.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_x7DtBT",
+        "dropdown_MfRtHx"
+      ],
+      "settings": {
+        "text_headline": "KOLLABORATIONEN",
+        "textarea_text": "Die Zusammenarbeit mit anderen Marken sind für uns bei Heimplanet eine besondere Gelegenheit, neue Perspektiven zu gewinnen. Ein kreativer Austausch, der uns inspiriert und zeigt, wie vielseitig unsere Vision von Design und Funktion sein kann."
+      }
+    },
+    "content_image_pVbAyH": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/LauritzKuntscher_SeasonOpening2022-076.jpg"
+      }
+    },
+    "l_dropdowns_xUVGWD": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_wJ44Cp": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Aether_Logo.png",
+            "text_headline": "Aether rally 2024",
+            "textarea_text": "Die Aether Rally 2024, die vom 26. bis 28. April im Pioneertown Motel nahe dem Joshua-Tree-Nationalpark stattfand, brachte Abenteurer und Motorenthusiasten für drei Tage voller Fahrten, Gemeinschaft und unvergesslicher Erlebnisse zusammen. \n<br><br>\nFür uns eine grandiose Gelegenheit die Overlanding-Welt mit unseren Zelten zu unterstützen und einen komfortablen Rückzugsort nach den aufregenden Tagesausflügen zu bieten. \n<br><br>\nDie Veranstaltung bot nicht nur die Möglichkeit, die beeindruckende Landschaft Kaliforniens zu erkunden, sondern auch, sich mit Gleichgesinnten auszutauschen und die gemeinsame Leidenschaft für Abenteuer und Natur zu teilen. Aether's Bekleidung und Heimplanet's Outdoor Equipment stellte dabei die perfekte Symbiose für dieses Overland-Abenteuer dar. \n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/aether-rally-2024-recap\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
+            "image_bild": "shopify://shop_images/Aether_rally_the_cave.jpg"
+          }
+        },
+        "dropdown_PPH3td": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Cavalleria_2_f2bc29fd-fe05-470f-84b7-ce3d1b320aed.png",
+            "text_headline": "cavalleria 2024",
+            "textarea_text": "Die Tour-Reihe <b>\"Rewild to Rewire\"</b> ist ein außergewöhnliches Erlebnis für Abenteuerlustige, die auf Motorradtouren die Natur in ihrer reinsten Form erleben möchten. Teilnehmer haben die Möglichkeit, auf sorgfältig geplanten Motorradtouren beeindruckende Landschaften zu erkunden, begleitet von Experten aus der Motorcross-Szene, der Kulinarik sowie Fotografie und Videografie. Diese Experten sorgen dafür, dass die Reise nicht nur sicher und spannend, sondern auch inspirierend und genussvoll wird – sei es durch wertvolle Fahrtechniktipps, exklusive kulinarische Erlebnisse oder die perfekte Anleitung, um die schönsten Momente festzuhalten. Es ist die perfekte Gelegenheit, dem Alltag zu entfliehen und unterwegs die Freiheit zu genießen.\n<br><br>\nFür genau solche Abenteuer sind Heimplanet-Zelte. Besonders beim Overlanding, wo man oft nur kurz an einem Ort verweilt, sind ein einfacher Aufbau und Verlässlichkeit entscheidend. Erfahre mehr über Cavalleria und wie du selbst an einer Tour teilnehmen kannst!\n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/cavalleria-rewild-to-rewire\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
+            "image_bild": "shopify://shop_images/AE9I3025.jpg"
+          }
+        },
+        "dropdown_VkfRN7": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
+            "text_headline": "HEIMPLANET SEASON OPENING 2024",
+            "textarea_text": "Wie jedes Jahr war auch das Season Opening 2024 war für das gesamte Heimplanet-Team ein ganz besonderes Ereignis. <br><br>Das Season Opening markiert für uns den offiziellen Start in die Camping-Saison. Gemeinsam mit Familien und Freunden verbrachten wir vier Tage voller Abenteuer, gutem Essen und geselligen Lagerfeuern. In der idyllischen Umgebung von Amt Neuhaus, nahe der Elbe, konnten wir gemeinsam reflektieren und Kraft für die kommende Saison schöpfen!<br><br>Dieses jährliche Camping-Abenteuer stärkt nicht nur unseren Teamgeist, sondern gibt uns auch die Chance unsere eigenen Produkte wieder hautnah zu erleben. Es ist ein besonderes Highlight, das uns immer wieder Inspiriert!\n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/season-opening-2024\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
+            "image_bild": "shopify://shop_images/Season_Opening_2024.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_wJ44Cp",
+        "dropdown_PPH3td",
+        "dropdown_VkfRN7"
+      ],
+      "settings": {
+        "text_headline": "ERLEBNISSE",
+        "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt."
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "GESCHICHTEN AUS DER COMMUNITY",
+        "url_button_link": "shopify://blogs/abenteuer",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
+      }
+    },
+    "l_hero_Xh3Rcp": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "BIS ZUM NÄCHSTEN JAHR.",
+        "textarea_longer_text": "",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-4.jpg"
+      }
+    }
+  },
+  "layout": "article",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_hero_ijQ63U",
+    "l_text_logos_KLFPXQ",
+    "content_image_yVmyhh",
+    "l_dropdowns_9tEqDp",
+    "content_image_yfjdG8",
+    "l_dropdowns_UWHkmN",
+    "content_image_pVbAyH",
+    "l_dropdowns_xUVGWD",
+    "article_next",
+    "l_hero_Xh3Rcp"
+  ]
+}
