@@ -190,6 +190,13 @@
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-4.jpg"
       }
+    },
+    "newsletter_page_dNTxcK": {
+      "type": "newsletter_page",
+      "settings": {
+        "text_headline": "Jetzt anmleden um nichts zu verpassen!",
+        "text_text": "Erfahre als erste/r von Produkt Launches, Aktionen & den neusten Projekten."
+      }
     }
   },
   "layout": "article",
@@ -204,6 +211,7 @@
     "content_image_pVbAyH",
     "l_dropdowns_xUVGWD",
     "article_next",
-    "l_hero_Xh3Rcp"
+    "l_hero_Xh3Rcp",
+    "newsletter_page_dNTxcK"
   ]
 }
