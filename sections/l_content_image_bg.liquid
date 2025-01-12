@@ -8,8 +8,5 @@
 <div class="heading-style-h2">
 {{ section.settings.text_headline_2 }}
 </div>
-</div></div></div></div><div class="landingapge-hero_background-image-wrapper"><img class="landingapge-hero_background-image"
-     src="{{ section.settings.image_bild | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild.alt }}"
-     loading="lazy">
-</div> {% schema %} {"tag":"div","name":"l_content_image_bg","class":"section_l-material","settings":[{"id":"text_subline","type":"text","label":"subline","default":"Mission"},{"id":"text_headline","type":"text","label":"Headline","default":"Common Material"},{"id":"textarea_text","type":"textarea","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. "},{"id":"text_headline_2","type":"text","label":"Headline-2","default":"Common Material"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"l_content_image_bg","category":"Liquify"}]} {% endschema %}
+</div></div></div></div><div class="landingapge-hero_background-image-wrapper"><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="eager" alt="{{ section.settings.image_bild.alt }}" class="landingapge-hero_background-image"}>
+</div> {% schema %} {"tag":"div","name":"L-Content-Image-BG","class":"section_l-material","settings":[{"id":"text_subline","type":"text","label":"subline","default":"Mission"},{"id":"text_headline","type":"text","label":"Headline","default":"Common Material"},{"id":"textarea_text","type":"textarea","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. "},{"id":"text_headline_2","type":"text","label":"Headline-2","default":"Common Material"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"L-Content-Image-BG","category":"Liquify"}]} {% endschema %}

@@ -1,10 +1,7 @@
 <div class="padding-global"><div class="container-large"><div class="swiper-container"><div class="swiper is-gallery-slider"><div class="swiper-wrapper">{% for block in section.blocks %}
     {% if block.type == "slider" %}
                     <div li-block="Slider" class="swiper-slide is-gallery-slider">
-                                    <img class="landingpage-slider_img"
-     src="{{ block.settings.image_bild | img_url: 'master' }}"
-     alt="{{ block.settings.image_bild.alt }}"
-     loading="lazy">
+                                    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="landingpage-slider_img"}>
 
                             </div>
             {% endif %}
@@ -23,4 +20,4 @@
       });
     });
   });
-</script></div></div> {% schema %} {"tag":"div","name":"l_slider","class":"section_l-slider","blocks":[{"name":"Slider","type":"slider","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"l_slider","category":"Liquify"}]} {% endschema %}
+</script></div></div> {% schema %} {"tag":"div","name":"L-Slider","class":"section_l-slider","blocks":[{"name":"Slider","type":"slider","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"L-Slider","category":"Liquify"}]} {% endschema %}
