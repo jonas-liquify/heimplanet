@@ -6,17 +6,14 @@
 </h2>
 </div><div class="spacer-small"></div><p class="text-size-regular max-width-small"> {{ block.settings.textarea_text }} </p>
 <div class="spacer-medium"></div>{% if block.settings.url_button_link %}    <div li-if="block.settings.url_button_link" class="button-group">
-    <a class="button is-white w-button" href="{{ block.settings.url_button_link }}"> {{ block.settings.text_button_text }} </a>
+    <a href="{{ block.settings.url_button_link }}" class="button is-white w-button"> {{ block.settings.text_button_text }} </a>
 {% if block.settings.url_button_link_2 %}    <div li-if="block.settings.url_button_link_2">
-    <a class="button is-white w-button" href="{{ block.settings.url_button_link_2 }}"> {{ block.settings.text_button_text_2 }} </a>
+    <a href="{{ block.settings.url_button_link_2 }}" class="button is-white w-button"> {{ block.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}    </div>
 {% endif %}<div class="li-schema w-embed"></div>
 </div></div></div>
-                                    <div class="tabs_background-image-wrapper"><div class="image-overlay-layer"></div><img class="tabs_background-image"
-     src="{{ block.settings.image_bild | img_url: 'master' }}"
-     alt="{{ block.settings.image_bild.alt }}"
-     loading="lazy">
+                                    <div class="tabs_background-image-wrapper"><div class="image-overlay-layer"></div><img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="eager" alt="{{ block.settings.image_bild.alt }}" class="tabs_background-image"}>
 </div>
                             </div>
             {% endif %}
@@ -25,4 +22,4 @@
                                     <div x-bind:tabindex="isSelected($el.id) ? 0 : -1" x-on:click="select($el.id)" x-bind:class="isSelected($el.id) ? ' ' : 'is-not-selected'" x-bind:id="$id('tab', whichChild($el.parentElement, $refs.tablist))" x-bind:aria-selected="isSelected($el.id)" class="tabs_link"><img src="{{ block.settings.logo_image | img_url: 'large' }}" loading="lazy" li-object:src="block.settings.logo_image | img_url: 'large'" li-object:alt="block.settings.logo_image.alt" alt="{{ block.settings.logo_image.alt }}" class="tabs_logo">
 </div>
                         </li>
-{% endfor %}</ul></div></div></div> {% schema %} {"tag":"section","name":"tabs","class":"section_tabs","blocks":[{"name":"Tab","type":"tab","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Wir bieten eine <br\/>Lebenslange Garantie"},{"id":"textarea_text","type":"textarea","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"},{"id":"url_button_link_2","type":"url","label":"Button-Link-2"},{"id":"text_button_text_2","type":"text","label":"Button-Text-2","default":"Button"},{"type":"image_picker","id":"logo_image","label":"Logo"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"presets":[{"name":"tabs","category":"Liquify"}]} {% endschema %}
+{% endfor %}</ul></div></div></div> {% schema %} {"tag":"section","name":"Tabs","class":"section_tabs","blocks":[{"name":"Tab","type":"tab","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Wir bieten eine <br\/>Lebenslange Garantie"},{"id":"textarea_text","type":"textarea","label":"Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"},{"id":"url_button_link_2","type":"url","label":"Button-Link-2"},{"id":"text_button_text_2","type":"text","label":"Button-Text-2","default":"Button"},{"type":"image_picker","id":"logo_image","label":"Logo"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"presets":[{"name":"Tabs","category":"Liquify"}]} {% endschema %}

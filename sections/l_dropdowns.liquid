@@ -5,21 +5,17 @@
 </div></div><div class="spacer-medium"></div><div class="dropdowns_wrapper">{% for block in section.blocks %}
     {% if block.type == "dropdown" %}
                     <div li-block="Dropdown" class="dropdowns_item">
-                                    <div class="dropdowns_header"><div class="dropdowns_headline"><img class="dropdowns_icon"
-     src="{{ block.settings.image_icon | img_url: 'master' }}"
-     alt="{{ block.settings.image_icon.alt }}"
-     loading="lazy">
+                                    <div class="dropdowns_header"><div class="dropdowns_headline"><img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="dropdowns_icon"}>
 <h3 class="heading-style-h3">
 {{ block.settings.text_headline }}
 </h3>
 </div><div class="dropdown_symbol"></div></div>
                                     <div class="dropdown_content is-big"><div class="dropdowns_content-grid"><p id="w-node-_4d5465ee-bb29-3c58-48be-18a2723349ce-690d5eea" class="text-size-regular max-width-large"> {{ block.settings.textarea_text }} </p>
-{% if block.settings.image_bild != blank %}<img class="dropdowns_image"
-     src="{{ block.settings.image_bild | img_url: 'master' }}"
-     alt="{{ block.settings.image_bild.alt }}"
-     loading="lazy"> {% endif %}
-</div></div>
+{% if block.settings.image_bild != blank %}    <div li-if="block.settings.image_bild != blank" id="w-node-_882e6039-9a94-dd43-e3f4-310e6f584f5b-690d5eea">
+    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" id="w-node-_5ff16b33-6d59-3efd-d93b-5d3fa53df6f5-690d5eea" alt="{{ block.settings.image_bild.alt }}" class="dropdowns_image"}>
+    </div>
+{% endif %}</div></div>
                             </div>
             {% endif %}
 {% endfor %}
-</div></div></div> {% schema %} {"tag":"div","name":"l_dropdowns","class":"section_l-dropdowns background-color-grey","blocks":[{"name":"Dropdown","type":"dropdown","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_headline","type":"text","label":"Headline","default":"H\u00e4ufige Fragen &amp; Antworten"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br\/>um bessere Stoffe, fairere Arbeitsbedingungen,"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Mono Dyecoshell"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br\/>um bessere Stoffe, fairere Arbeitsbedingungen,"}],"presets":[{"name":"l_dropdowns","category":"Liquify"}]} {% endschema %}
+</div></div></div> {% schema %} {"tag":"div","name":"L-Dropdowns","class":"section_l-dropdowns background-color-grey","blocks":[{"name":"Dropdown","type":"dropdown","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_headline","type":"text","label":"Headline","default":"H\u00e4ufige Fragen &amp; Antworten"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br\/>um bessere Stoffe, fairere Arbeitsbedingungen,"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Mono Dyecoshell"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br\/>um bessere Stoffe, fairere Arbeitsbedingungen,"}],"presets":[{"name":"L-Dropdowns","category":"Liquify"}]} {% endschema %}

@@ -1,16 +1,13 @@
 <div class="swiper-container"><div class="swiper is-hero"><div class="swiper-wrapper is-hero">{% for block in section.blocks %}
     {% if block.type == "hero-slider" %}
                     <div li-block="Hero-Slider" class="swiper-slide is-hero">
-                                    <div class="header_background-image-wrapper"><div class="header_overlay-layer"></div><img class="header_background-image"
-     src="{{ block.settings.image_bild | img_url: 'master' }}"
-     alt="{{ block.settings.image_bild.alt }}"
-     loading="lazy">
+                                    <div class="header_background-image-wrapper"><div class="header_overlay-layer"></div><img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="eager" alt="{{ block.settings.image_bild.alt }}" class="header_background-image"}>
 </div>
                                     <div class="padding-global"><div class="container-large"><div class="header_card text-color-white"><div class="header_headline-wrapper"><h1 class="max-width-large">
 {{ block.settings.text_headline }}
 </h1>
 </div><div class="spacer-small"></div><div class="max-width-small"> {{ block.settings.richtext_text }} </div>
-<div class="spacer-medium"></div><div class="button-group"><a class="button is-white w-button" href="{{ block.settings.url_button_link }}"> {{ block.settings.text_button_text }} </a>
+<div class="spacer-medium"></div><div class="button-group"><a href="{{ block.settings.url_button_link }}" class="button is-white w-button"> {{ block.settings.text_button_text }} </a>
 </div></div></div></div>
                             </div>
             {% endif %}
@@ -47,4 +44,4 @@
 			 });
 		});
 });
-</script></div></div> {% schema %} {"tag":"header","name":"hero","class":"section_header-home","blocks":[{"name":"Hero-Slider","type":"hero-slider","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Unsere <br\/>NEUEn ZELTE"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt entdecken"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"hero","category":"Liquify"}]} {% endschema %}
+</script></div></div> {% schema %} {"tag":"header","name":"Hero","class":"section_header-home","blocks":[{"name":"Hero-Slider","type":"hero-slider","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Unsere <br\/>NEUEn ZELTE"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt entdecken"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"Hero","category":"Liquify"}]} {% endschema %}

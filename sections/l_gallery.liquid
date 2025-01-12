@@ -1,13 +1,4 @@
-<div class="landingpage-gallery_component is-first"><img class="landingpage-gallery_image is-first"
-     src="{{ section.settings.image_bild_1 | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild_1.alt }}"
-     loading="lazy">
-</div><div class="landingpage-gallery_component"><img class="landingpage-gallery_image"
-     src="{{ section.settings.image_bild_2 | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild_2.alt }}"
-     loading="lazy">
-<img class="landingpage-gallery_image"
-     src="{{ section.settings.image_bild_3 | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild_3.alt }}"
-     loading="lazy">
-</div> {% schema %} {"tag":"section","name":"l_gallery","class":"section_l-gallery","settings":[{"id":"image_bild_1","type":"image_picker","label":"Bild-1"},{"id":"image_bild_2","type":"image_picker","label":"Bild-2"},{"id":"image_bild_3","type":"image_picker","label":"Bild-3"}],"presets":[{"name":"l_gallery","category":"Liquify"}]} {% endschema %}
+<div class="landingpage-gallery_component is-first"><img src="{{ section.settings.image_bild_1 | img_url: 'master' }}" loading="lazy" id="w-node-_4083d300-27cb-cc46-2ed2-25d4bd8c239c-690d5eea" alt="{{ section.settings.image_bild_1.alt }}" class="landingpage-gallery_image is-first"}>
+</div><div class="landingpage-gallery_component"><img src="{{ section.settings.image_bild_2 | img_url: 'master' }}" loading="lazy" id="w-node-_8ef4a7e4-a507-79f0-f3ba-d3a600a4cd7f-690d5eea" alt="{{ section.settings.image_bild_2.alt }}" class="landingpage-gallery_image"}>
+<img src="{{ section.settings.image_bild_3 | img_url: 'master' }}" loading="lazy" id="w-node-_8ef4a7e4-a507-79f0-f3ba-d3a600a4cd80-690d5eea" alt="{{ section.settings.image_bild_3.alt }}" class="landingpage-gallery_image"}>
+</div> {% schema %} {"tag":"section","name":"L-Gallery","class":"section_l-gallery","settings":[{"id":"image_bild_1","type":"image_picker","label":"Bild-1"},{"id":"image_bild_2","type":"image_picker","label":"Bild-2"},{"id":"image_bild_3","type":"image_picker","label":"Bild-3"}],"presets":[{"name":"L-Gallery","category":"Liquify"}]} {% endschema %}

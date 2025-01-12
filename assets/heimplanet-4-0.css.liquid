@@ -3577,6 +3577,10 @@ figcaption {
   height: 18rem;
 }
 
+.kategorie-slider_img.is-invert {
+  filter: invert();
+}
+
 .kategorie-slider_buttons {
   justify-content: space-between;
   align-items: center;
@@ -3592,6 +3596,16 @@ figcaption {
 
 .kategorie-slider_button.pointer-events-on {
   right: -1.5rem;
+}
+
+.kategorie-slider_button.pointer-events-on.is-invert {
+  position: relative;
+  left: -1.5rem;
+  right: 0;
+}
+
+.kategorie-slider_button.pointer-events-on.is-invert.is-right {
+  left: 1.5rem;
 }
 
 .product-item_price-wrapper {
@@ -5717,6 +5731,7 @@ figcaption {
 }
 
 .mono-grid_item {
+  background-color: var(--base-color-neutral--neutral-lightest);
   flex-flow: column;
   min-height: 34.8rem;
   padding: 1.5rem;
