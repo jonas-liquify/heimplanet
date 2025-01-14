@@ -37,10 +37,24 @@
           "settings": {
             "text_text": "Zelt für 2-3 Personen"
           }
+        },
+        "item_RRw7Ur": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_CUkiQJ": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
         }
       },
       "block_order": [
-        "item_jexh9B"
+        "item_jexh9B",
+        "item_RRw7Ur",
+        "item_CUkiQJ"
       ],
       "settings": {
         "text_headline": "Ein neues Gewand",
@@ -100,18 +114,6 @@
         "image_bild": "shopify://shop_images/Mono_Series_Minimal_Pack_ocean_blue-b_1.jpg"
       }
     },
-    "content_image_yfjdG8": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/7V7A4237.jpg"
-      }
-    },
     "content_image_pVbAyH": {
       "type": "content_image",
       "settings": {
@@ -152,6 +154,17 @@
       "settings": {
         "text_headline": "EIN UPGRADE",
         "textarea_text": ""
+      }
+    },
+    "content_image_yfjdG8": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "EIN UPGRADE",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
       }
     },
     "l_reveal_slider_VrVx78": {
@@ -227,13 +240,13 @@
   "order": [
     "l_hero_ijQ63U",
     "l_text_logos_KLFPXQ",
-    "l_content_right_7kkHy8",
     "l_dropdowns_xUVGWD",
     "content_image_yVmyhh",
-    "content_image_yfjdG8",
     "content_image_pVbAyH",
     "article_next",
     "l_dropdowns_piAT3y",
+    "content_image_yfjdG8",
+    "l_content_right_7kkHy8",
     "l_reveal_slider_VrVx78",
     "l_reveal_slider_JexRH3",
     "l_reveal_slider_wA4qKH",
