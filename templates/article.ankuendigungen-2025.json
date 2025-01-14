@@ -29,38 +29,6 @@
         "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden! Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!"
       }
     },
-    "l_content_right_7kkHy8": {
-      "type": "l_content_right",
-      "blocks": {
-        "item_jexh9B": {
-          "type": "item",
-          "settings": {
-            "text_text": "Zelt für 2-3 Personen"
-          }
-        },
-        "item_RRw7Ur": {
-          "type": "item",
-          "settings": {
-            "text_text": "Zelt für 2-3 Personen"
-          }
-        },
-        "item_CUkiQJ": {
-          "type": "item",
-          "settings": {
-            "text_text": "Zelt für 2-3 Personen"
-          }
-        }
-      },
-      "block_order": [
-        "item_jexh9B",
-        "item_RRw7Ur",
-        "item_CUkiQJ"
-      ],
-      "settings": {
-        "text_headline": "Ein neues Gewand",
-        "textarea_text": "oihaoidhsd"
-      }
-    },
     "l_dropdowns_xUVGWD": {
       "type": "l_dropdowns",
       "blocks": {
@@ -167,6 +135,107 @@
         "text_button_text_2": "Button"
       }
     },
+    "l_content_right_7kkHy8": {
+      "type": "l_content_right",
+      "blocks": {
+        "item_jexh9B": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_RRw7Ur": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_CUkiQJ": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        }
+      },
+      "block_order": [
+        "item_jexh9B",
+        "item_RRw7Ur",
+        "item_CUkiQJ"
+      ],
+      "settings": {
+        "image_bild": "shopify://shop_images/Ankuendigungen_2025.png",
+        "text_headline": "EIN UPGRADE",
+        "textarea_text": "oihaoidhsd"
+      }
+    },
+    "l_content_right_tqKAwn": {
+      "type": "l_content_right",
+      "blocks": {
+        "item_33gAQX": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_GUKf4d": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_fUWwhy": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        }
+      },
+      "block_order": [
+        "item_33gAQX",
+        "item_GUKf4d",
+        "item_fUWwhy"
+      ],
+      "settings": {
+        "image_bild": "shopify://shop_images/Ankuendigungen_2025_1.png",
+        "text_headline": "EIN UPGRADE",
+        "textarea_text": "oihaoidhsd"
+      }
+    },
+    "l_content_right_wAGUW7": {
+      "type": "l_content_right",
+      "blocks": {
+        "item_6wPiJM": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_gQfYa8": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/Cave_IDG_Technik_Landing_50aa9a39-14e2-4c75-8301-c26e4e87affd.png",
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_Ne9PKG": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify://shop_images/IDG_Backdoor.png",
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        }
+      },
+      "block_order": [
+        "item_6wPiJM",
+        "item_gQfYa8",
+        "item_Ne9PKG"
+      ],
+      "settings": {
+        "image_bild": "shopify://shop_images/Ankuendigungen_2025_2.png",
+        "text_headline": "EIN NEUES GEWAND",
+        "textarea_text": "oihaoidhsd"
+      }
+    },
     "l_reveal_slider_VrVx78": {
       "type": "l_reveal_slider",
       "settings": {
@@ -247,6 +316,8 @@
     "l_dropdowns_piAT3y",
     "content_image_yfjdG8",
     "l_content_right_7kkHy8",
+    "l_content_right_tqKAwn",
+    "l_content_right_wAGUW7",
     "l_reveal_slider_VrVx78",
     "l_reveal_slider_JexRH3",
     "l_reveal_slider_wA4qKH",
