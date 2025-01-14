@@ -172,14 +172,14 @@
       ],
       "settings": {
         "image_bild": "shopify://shop_images/Ankuendigungen_2025_1.png",
-        "text_headline": "EIN VERWANDLUNG",
+        "text_headline": "EINE VERWANDLUNG",
         "textarea_text": "oihaoidhsd"
       }
     },
     "l_reveal_slider_grQCaD": {
       "type": "l_reveal_slider",
       "settings": {
-        "text_headline": "EIN VERWANDLUNG",
+        "text_headline": "EINE VERWANDLUNG",
         "textarea_text": "",
         "text_vorher": "",
         "text_nachher": "",
@@ -190,6 +190,7 @@
     "newsletter_page_dNTxcK": {
       "type": "newsletter_page",
       "settings": {
+        "image_bild": "shopify://shop_images/Christian_McLeod_-_Iceland_9_1.jpg",
         "text_headline": "Sei auch im neuen Jahr dabei.",
         "text_text": "Erfahre als erste/r von Produkt Launches, Aktionen & den neusten Projekten. Falls du noch kein Member bist, melde dich jetzt zum Newsletter an!"
       }
