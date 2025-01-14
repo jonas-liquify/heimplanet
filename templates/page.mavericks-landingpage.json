@@ -133,10 +133,17 @@
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Expedition-2024-1.jpg"
           }
+        },
+        "produkt_slider_qeqf9T": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Expedition-2024-3.jpg"
+          }
         }
       },
       "block_order": [
-        "produkt_slider_nUEVWC"
+        "produkt_slider_nUEVWC",
+        "produkt_slider_qeqf9T"
       ],
       "settings": {
         "text_headline": "Mavericks, Basecamp",
