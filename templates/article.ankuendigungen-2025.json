@@ -124,7 +124,7 @@
     "l_reveal_slider_JexRH3": {
       "type": "l_reveal_slider",
       "settings": {
-        "text_headline": "EIN UPGRADE",
+        "text_headline": "EIN NEUES GEWAND",
         "textarea_text": "",
         "text_vorher": "",
         "text_nachher": "",
@@ -135,7 +135,7 @@
     "l_reveal_slider_wA4qKH": {
       "type": "l_reveal_slider",
       "settings": {
-        "text_headline": "EIN UPGRADE",
+        "text_headline": "",
         "textarea_text": "",
         "text_vorher": "",
         "text_nachher": "",
@@ -178,19 +178,8 @@
     },
     "l_reveal_slider_grQCaD": {
       "type": "l_reveal_slider",
-      "blocks": {
-        "fact_UjRzh8": {
-          "type": "fact",
-          "settings": {
-            "text_text": "5 Jahre Entwicklungszeit"
-          }
-        }
-      },
-      "block_order": [
-        "fact_UjRzh8"
-      ],
       "settings": {
-        "text_headline": "EIN UPGRADE",
+        "text_headline": "EIN VERWANDLUNG",
         "textarea_text": "",
         "text_vorher": "",
         "text_nachher": "",
