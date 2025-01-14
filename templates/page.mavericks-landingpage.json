@@ -49,20 +49,20 @@
         "text_video_url": "https://www.youtube-nocookie.com/embed/k2OehfsOrWw"
       }
     },
-    "l_content_right_AJHhFq": {
-      "type": "l_content_right",
-      "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Basecamp-Tent-White-8.jpg",
-        "text_headline": "Flexibilität",
-        "textarea_text": "Das Mavericks ist besonders nützlich, wenn man flexibel sein muss. Selbst im Sturm ist es in Minuten errichtet. Der Rahmen des Mavericks ist außerdem so konzipiert, dass das Zelt auch ohne Abspannung steht. Sollte man z.B. merken, dass man auf unsicherem Grund steht, ist es möglich, das Zelt auch nach dem aufblasen noch einmal zu verrücken."
-      }
-    },
     "l_content_left_rJMTGY": {
       "type": "l_content_left",
       "settings": {
         "text_headline": "Extrem Stabil",
         "textarea_text": "Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Dir, den gesamten Luftrahmen (IDG) in einem einzigen Schritt aufzublasen. Der Luftrahmen des MAVERICKS kann nach dem Aufblasen in zehn einzelne Kammern unterteilt werden, was eine ausreichende Notstabilität gewährleistet, falls ein Teil beschädigt wird, da alle anderen Streben stabil bleiben. Außerdem lässt sich das defekte Teil sehr leicht lokalisieren, um es zu reparieren oder zu ersetzen.",
         "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Red-SAREX-Le-Commandant-Charcot-55_Studio-PONANT-Nathalie-Michel.jpg"
+      }
+    },
+    "l_content_right_AJHhFq": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Basecamp-Tent-White-8.jpg",
+        "text_headline": "Flexibilität",
+        "textarea_text": "Das Mavericks ist besonders nützlich, wenn man flexibel sein muss. Selbst im Sturm ist es in Minuten errichtet. Der Rahmen des Mavericks ist außerdem so konzipiert, dass das Zelt auch ohne Abspannung steht. Sollte man z.B. merken, dass man auf unsicherem Grund steht, ist es möglich, das Zelt auch nach dem aufblasen noch einmal zu verrücken."
       }
     },
     "l_content_right_TP9ggz": {
@@ -124,6 +124,29 @@
         "text_headline": "Eindrücke",
         "checkbox_swiper_script": true
       }
+    },
+    "l_produkt_JmC6JY": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_nUEVWC": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Expedition-2024-1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_nUEVWC"
+      ],
+      "settings": {
+        "text_headline": "Mavericks, Basecamp",
+        "textarea_beschreibung": "",
+        "text_preis": "2.799€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Jetzt bestellen",
+        "url_produkt_link": "shopify://products/re-stored-mavericks-basecamp",
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "page.landingpage",
@@ -134,10 +157,11 @@
     "l_headline_mono_wKnzh8",
     "l_video_3z8pkj",
     "l_video_NhXNnz",
-    "l_content_right_AJHhFq",
     "l_content_left_rJMTGY",
+    "l_content_right_AJHhFq",
     "l_content_right_TP9ggz",
     "l_content_image_bg_FPwUnb",
-    "l_step_slider_cQnWDP"
+    "l_step_slider_cQnWDP",
+    "l_produkt_JmC6JY"
   ]
 }
