@@ -237,6 +237,13 @@
         "text_headline": "Sei auch im neuen Jahr dabei.",
         "text_text": "Erfahre als erste/r von Produkt Launches, Aktionen & den neusten Projekten. Falls du noch kein Member bist, melde dich jetzt zum Newsletter an!"
       }
+    },
+    "l_headline_mono_tB7QTX": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
+      }
     }
   },
   "layout": "article",
@@ -255,6 +262,7 @@
     "l_reveal_slider_wA4qKH",
     "l_content_right_tqKAwn",
     "l_reveal_slider_grQCaD",
-    "newsletter_page_dNTxcK"
+    "newsletter_page_dNTxcK",
+    "l_headline_mono_tB7QTX"
   ]
 }
