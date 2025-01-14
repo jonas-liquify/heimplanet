@@ -70,7 +70,7 @@
       ],
       "settings": {
         "image_bild": "shopify://shop_images/Ankuendigungen_2025.png",
-        "text_headline": "01 EIN UPGRADE",
+        "text_headline": "02 EIN UPGRADE",
         "textarea_text": "Eine verbesserte Version unseres neuesten Beitrags zur Welt des Overland Camping. Etwas neues wird noch besser"
       }
     },
@@ -214,11 +214,11 @@
   "order": [
     "l_hero_ijQ63U",
     "restore_infos_LcRkkA",
-    "l_content_right_7kkHy8",
-    "l_reveal_slider_VrVx78",
     "l_content_right_wAGUW7",
     "l_reveal_slider_JexRH3",
     "l_reveal_slider_wA4qKH",
+    "l_content_right_7kkHy8",
+    "l_reveal_slider_VrVx78",
     "l_content_right_tqKAwn",
     "l_reveal_slider_grQCaD",
     "l_hero_QqdHjC",
