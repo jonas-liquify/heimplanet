@@ -154,13 +154,6 @@
         "text_blog_handle": "abenteuer"
       }
     },
-    "newsletter_page_dNTxcK": {
-      "type": "newsletter_page",
-      "settings": {
-        "text_headline": "Sei auch im neuen Jahr dabei.",
-        "text_text": "Erfahre als erste/r von Produkt Launches, Aktionen & den neusten Projekten. Falls du noch kein Member bist, melde dich jetzt zum Newsletter an!"
-      }
-    },
     "l_reveal_slider_VrVx78": {
       "type": "l_reveal_slider",
       "settings": {
@@ -211,11 +204,21 @@
         "text_subline": "Mission",
         "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
         "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "image_bild_1": "shopify://shop_images/Heimplanet_The_Cave_XL_Backdoor_IDG.png",
         "text_caption_1": "Ein neues Gewand",
+        "image_bild_2": "shopify://shop_images/Cloudbreak_IDG_Technik_Landing.png",
         "text_caption_2": "Ein Upgrade",
         "text_zitat": "\"Wir machen Produkte, die lange halten, eine hohe Qualität haben und sehr zeitlos sind. Das ist für uns der beste Weg gegen Ressourcenverschwendung.\"",
         "text_autor": "",
+        "image_bild_3": "shopify://shop_images/Packing_Cubes_grafik.png",
         "text_caption_3": "Eine Verwandlung"
+      }
+    },
+    "newsletter_page_dNTxcK": {
+      "type": "newsletter_page",
+      "settings": {
+        "text_headline": "Sei auch im neuen Jahr dabei.",
+        "text_text": "Erfahre als erste/r von Produkt Launches, Aktionen & den neusten Projekten. Falls du noch kein Member bist, melde dich jetzt zum Newsletter an!"
       }
     }
   },
