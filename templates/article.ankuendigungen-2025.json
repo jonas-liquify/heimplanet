@@ -12,11 +12,11 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "Was erwartet uns im neuen Jahr",
+        "text_subline": "Was erwartet dich im neuen Jahr",
         "text_headline": "Ankündigungen 2025",
-        "textarea_longer_text": "<br>Neues",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
+        "textarea_longer_text": "Du bist noch kein Newsletter Member, aber möchtest als erster von den neuen Launches erfahren?",
+        "text_button_text": "JETZT ANMELDEN",
+        "url_button_link": "shopify://pages/newsletter",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Christian_McLeod_-_Iceland_9_1.jpg"
@@ -25,9 +25,9 @@
     "restore_infos_LcRkkA": {
       "type": "restore_infos",
       "settings": {
-        "text_subline": "Ihr habt gesprochen - wir haben zugehört",
+        "text_subline": "Unsere mission in 2025",
         "text_headline": "Neues heimplanet equipment",
-        "textarea_text": "Ohne zu viel zu verraten, wollen wir euch schon jetzt mit auf die Reise nehmen und über einige der Dinge sprechen, die euch in der ersten Hälfte des neuen Jahres erwarten. Wenn du noch kein Newsletter Member bist, nutze die Anmeldeform am Ende der Seite, um als erster von den neuen Launches zu Erfahren.",
+        "textarea_text": "Ohne zu viel zu verraten, wollen wir euch schon jetzt mit auf die Reise nehmen und über einige der Dinge sprechen, die euch in der ersten Hälfte des neuen Jahres erwarten.",
         "image_bild_1": "shopify://shop_images/Ankuendigungen_2025_2.png",
         "text_caption_1": "Ein neues Gewand",
         "image_bild_2": "shopify://shop_images/Ankuendigungen_2025.png",
@@ -149,19 +149,19 @@
         "item_33gAQX": {
           "type": "item",
           "settings": {
-            "text_text": "Zelt für 2-3 Personen"
+            "text_text": "Ressourcenschonend"
           }
         },
         "item_GUKf4d": {
           "type": "item",
           "settings": {
-            "text_text": "Zelt für 2-3 Personen"
+            "text_text": "Wasserfest"
           }
         },
         "item_fUWwhy": {
           "type": "item",
           "settings": {
-            "text_text": "Zelt für 2-3 Personen"
+            "text_text": "Immer dabei"
           }
         }
       },
