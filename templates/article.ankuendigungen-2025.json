@@ -133,17 +133,6 @@
         "text_blog_handle": "abenteuer"
       }
     },
-    "l_reveal_slider_VrVx78": {
-      "type": "l_reveal_slider",
-      "settings": {
-        "text_headline": "EIN UPGRADE",
-        "textarea_text": "",
-        "text_vorher": "",
-        "text_nachher": "",
-        "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
-      }
-    },
     "l_dropdowns_piAT3y": {
       "type": "l_dropdowns",
       "blocks": {
@@ -161,8 +150,19 @@
         "dropdown_wdfq6d"
       ],
       "settings": {
-        "text_headline": "",
+        "text_headline": "EIN UPGRADE",
         "textarea_text": ""
+      }
+    },
+    "l_reveal_slider_VrVx78": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "text_vorher": "asdjfdsljhfaljdfjsdf",
+        "text_nachher": "asdsaoidjaoijsöd",
+        "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
       }
     },
     "l_reveal_slider_JexRH3": {
@@ -233,8 +233,8 @@
     "content_image_yfjdG8",
     "content_image_pVbAyH",
     "article_next",
-    "l_reveal_slider_VrVx78",
     "l_dropdowns_piAT3y",
+    "l_reveal_slider_VrVx78",
     "l_reveal_slider_JexRH3",
     "l_reveal_slider_wA4qKH",
     "l_reveal_slider_grQCaD",
