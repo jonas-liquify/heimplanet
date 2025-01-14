@@ -160,9 +160,9 @@
       "settings": {
         "text_headline": "Mehr zu Mavericks",
         "url_button_link": "shopify://blogs/abenteuer",
-        "text_button_text": "Mehr davon",
+        "text_button_text": "Zu den Blogs",
         "article_artikel": "abenteuer/heimplanet-on-a-frozen-planet",
-        "blog_blog": "abenteuer",
+        "blog_blog": "",
         "post_limit_blog": 3
       }
     }
