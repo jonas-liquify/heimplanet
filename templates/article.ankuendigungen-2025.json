@@ -149,12 +149,14 @@
         "item_33gAQX": {
           "type": "item",
           "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials10.png",
             "text_text": "Ressourcenschonend"
           }
         },
         "item_GUKf4d": {
           "type": "item",
           "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials2.png",
             "text_text": "Wasserfest"
           }
         },
@@ -183,8 +185,8 @@
         "textarea_text": "",
         "text_vorher": "",
         "text_nachher": "",
-        "image_bild_1": "shopify://shop_images/Heimplanet_Packing_Cubes_geschwaerzt.png",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-3.jpg"
+        "image_bild_1": "shopify://shop_images/Heimplanet_Packing_Cubes_geschwaerzt_eeb89cc6-fb17-4fd2-811e-12f4b593a702.png",
+        "image_bild_2": "shopify://shop_images/Heimplanet_Packing_Cubes_Re-Store_Edition.png"
       }
     },
     "l_hero_QqdHjC": {
