@@ -14,7 +14,7 @@
       "settings": {
         "text_subline": "Wir feierten design. innovation. kollaboration.",
         "text_headline": "Ankündigungen 2025",
-        "textarea_longer_text": "<br>Lasst uns diesen Weg weiterhin gemeinsam gehen.",
+        "textarea_longer_text": "<br>Was erwartet dich in der ersten Hälfte des neuen Jahres?",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
@@ -27,71 +27,6 @@
         "text_subline": "",
         "text_headline": "WIR SAGEN DANKE!",
         "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden! Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!"
-      }
-    },
-    "l_dropdowns_xUVGWD": {
-      "type": "l_dropdowns",
-      "blocks": {
-        "dropdown_wJ44Cp": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Aether_Logo.png",
-            "text_headline": "Aether rally 2024",
-            "textarea_text": "Die Aether Rally 2024, die vom 26. bis 28. April im Pioneertown Motel nahe dem Joshua-Tree-Nationalpark stattfand, brachte Abenteurer und Motorenthusiasten für drei Tage voller Fahrten, Gemeinschaft und unvergesslicher Erlebnisse zusammen. \n<br><br>\nFür uns eine grandiose Gelegenheit die Overlanding-Welt mit unseren Zelten zu unterstützen und einen komfortablen Rückzugsort nach den aufregenden Tagesausflügen zu bieten. \n<br><br>\nDie Veranstaltung bot nicht nur die Möglichkeit, die beeindruckende Landschaft Kaliforniens zu erkunden, sondern auch, sich mit Gleichgesinnten auszutauschen und die gemeinsame Leidenschaft für Abenteuer und Natur zu teilen. Aether's Bekleidung und Heimplanet's Outdoor Equipment stellte dabei die perfekte Symbiose für dieses Overland-Abenteuer dar. \n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/aether-rally-2024-recap\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
-            "image_bild": "shopify://shop_images/Aether_rally_the_cave.jpg"
-          }
-        },
-        "dropdown_PPH3td": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Cavalleria_2_f2bc29fd-fe05-470f-84b7-ce3d1b320aed.png",
-            "text_headline": "cavalleria 2024",
-            "textarea_text": "Die Tour-Reihe <b>\"Rewild to Rewire\"</b> ist ein außergewöhnliches Erlebnis für Abenteuerlustige, die auf Motorradtouren die Natur in ihrer reinsten Form erleben möchten. Teilnehmer haben die Möglichkeit, auf sorgfältig geplanten Motorradtouren beeindruckende Landschaften zu erkunden, begleitet von Experten aus der Motorcross-Szene, der Kulinarik sowie Fotografie und Videografie. Diese Experten sorgen dafür, dass die Reise nicht nur sicher und spannend, sondern auch inspirierend und genussvoll wird – sei es durch wertvolle Fahrtechniktipps, exklusive kulinarische Erlebnisse oder die perfekte Anleitung, um die schönsten Momente festzuhalten. Es ist die perfekte Gelegenheit, dem Alltag zu entfliehen und unterwegs die Freiheit zu genießen.\n<br><br>\nFür genau solche Abenteuer sind Heimplanet-Zelte. Besonders beim Overlanding, wo man oft nur kurz an einem Ort verweilt, sind ein einfacher Aufbau und Verlässlichkeit entscheidend. Erfahre mehr über Cavalleria und wie du selbst an einer Tour teilnehmen kannst!\n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/cavalleria-rewild-to-rewire\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
-            "image_bild": "shopify://shop_images/AE9I3025.jpg"
-          }
-        },
-        "dropdown_VkfRN7": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/logo_ball.png",
-            "text_headline": "HEIMPLANET SEASON OPENING 2024",
-            "textarea_text": "Wie jedes Jahr war auch das Season Opening 2024 war für das gesamte Heimplanet-Team ein ganz besonderes Ereignis. <br><br>Das Season Opening markiert für uns den offiziellen Start in die Camping-Saison. Gemeinsam mit Familien und Freunden verbrachten wir vier Tage voller Abenteuer, gutem Essen und geselligen Lagerfeuern. In der idyllischen Umgebung von Amt Neuhaus, nahe der Elbe, konnten wir gemeinsam reflektieren und Kraft für die kommende Saison schöpfen!<br><br>Dieses jährliche Camping-Abenteuer stärkt nicht nur unseren Teamgeist, sondern gibt uns auch die Chance unsere eigenen Produkte wieder hautnah zu erleben. Es ist ein besonderes Highlight, das uns immer wieder Inspiriert!\n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/season-opening-2024\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
-            "image_bild": "shopify://shop_images/Season_Opening_2024.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "dropdown_wJ44Cp",
-        "dropdown_PPH3td",
-        "dropdown_VkfRN7"
-      ],
-      "settings": {
-        "text_headline": "ERLEBNISSE",
-        "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt."
-      }
-    },
-    "content_image_yVmyhh": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/Mono_Series_Minimal_Pack_ocean_blue-b_1.jpg"
-      }
-    },
-    "content_image_pVbAyH": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/LauritzKuntscher_SeasonOpening2022-076.jpg"
       }
     },
     "article_next": {
@@ -135,6 +70,22 @@
         "text_button_text_2": "Button"
       }
     },
+    "restore_infos_LcRkkA": {
+      "type": "restore_infos",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "image_bild_1": "shopify://shop_images/Heimplanet_The_Cave_XL_Backdoor_IDG.png",
+        "text_caption_1": "Ein neues Gewand",
+        "image_bild_2": "shopify://shop_images/Cloudbreak_IDG_Technik_Landing.png",
+        "text_caption_2": "Ein Upgrade",
+        "text_zitat": "\"Wir machen Produkte, die lange halten, eine hohe Qualität haben und sehr zeitlos sind. Das ist für uns der beste Weg gegen Ressourcenverschwendung.\"",
+        "text_autor": "",
+        "image_bild_3": "shopify://shop_images/Packing_Cubes_grafik_58dea1f2-4b36-40b2-b43f-7ed8bee08bcd.png",
+        "text_caption_3": "Eine Verwandlung"
+      }
+    },
     "l_content_right_7kkHy8": {
       "type": "l_content_right",
       "blocks": {
@@ -168,37 +119,15 @@
         "textarea_text": "oihaoidhsd"
       }
     },
-    "l_content_right_tqKAwn": {
-      "type": "l_content_right",
-      "blocks": {
-        "item_33gAQX": {
-          "type": "item",
-          "settings": {
-            "text_text": "Zelt für 2-3 Personen"
-          }
-        },
-        "item_GUKf4d": {
-          "type": "item",
-          "settings": {
-            "text_text": "Zelt für 2-3 Personen"
-          }
-        },
-        "item_fUWwhy": {
-          "type": "item",
-          "settings": {
-            "text_text": "Zelt für 2-3 Personen"
-          }
-        }
-      },
-      "block_order": [
-        "item_33gAQX",
-        "item_GUKf4d",
-        "item_fUWwhy"
-      ],
+    "l_reveal_slider_VrVx78": {
+      "type": "l_reveal_slider",
       "settings": {
-        "image_bild": "shopify://shop_images/Ankuendigungen_2025_1.png",
-        "text_headline": "EIN UPGRADE",
-        "textarea_text": "oihaoidhsd"
+        "text_headline": "",
+        "textarea_text": "",
+        "text_vorher": "asdjfdsljhfaljdfjsdf",
+        "text_nachher": "asdsaoidjaoijsöd",
+        "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
       }
     },
     "l_content_right_wAGUW7": {
@@ -236,17 +165,6 @@
         "textarea_text": "oihaoidhsd"
       }
     },
-    "l_reveal_slider_VrVx78": {
-      "type": "l_reveal_slider",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "text_vorher": "asdjfdsljhfaljdfjsdf",
-        "text_nachher": "asdsaoidjaoijsöd",
-        "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
-      }
-    },
     "l_reveal_slider_JexRH3": {
       "type": "l_reveal_slider",
       "settings": {
@@ -269,6 +187,39 @@
         "image_bild_2": "shopify://shop_images/Heimplanet-Backdoor-Classic-1_79c5362c-91c6-4f59-88ab-bd5c7f42ccd2.jpg"
       }
     },
+    "l_content_right_tqKAwn": {
+      "type": "l_content_right",
+      "blocks": {
+        "item_33gAQX": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_GUKf4d": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        },
+        "item_fUWwhy": {
+          "type": "item",
+          "settings": {
+            "text_text": "Zelt für 2-3 Personen"
+          }
+        }
+      },
+      "block_order": [
+        "item_33gAQX",
+        "item_GUKf4d",
+        "item_fUWwhy"
+      ],
+      "settings": {
+        "image_bild": "shopify://shop_images/Ankuendigungen_2025_1.png",
+        "text_headline": "EIN VERWANDLUNG",
+        "textarea_text": "oihaoidhsd"
+      }
+    },
     "l_reveal_slider_grQCaD": {
       "type": "l_reveal_slider",
       "settings": {
@@ -278,22 +229,6 @@
         "text_nachher": "",
         "image_bild_1": "shopify://shop_images/Heimplanet_Packing_Cubes_geschwaerzt.png",
         "image_bild_2": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-3.jpg"
-      }
-    },
-    "restore_infos_LcRkkA": {
-      "type": "restore_infos",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "image_bild_1": "shopify://shop_images/Heimplanet_The_Cave_XL_Backdoor_IDG.png",
-        "text_caption_1": "Ein neues Gewand",
-        "image_bild_2": "shopify://shop_images/Cloudbreak_IDG_Technik_Landing.png",
-        "text_caption_2": "Ein Upgrade",
-        "text_zitat": "\"Wir machen Produkte, die lange halten, eine hohe Qualität haben und sehr zeitlos sind. Das ist für uns der beste Weg gegen Ressourcenverschwendung.\"",
-        "text_autor": "",
-        "image_bild_3": "shopify://shop_images/Packing_Cubes_grafik_58dea1f2-4b36-40b2-b43f-7ed8bee08bcd.png",
-        "text_caption_3": "Eine Verwandlung"
       }
     },
     "newsletter_page_dNTxcK": {
@@ -309,20 +244,17 @@
   "order": [
     "l_hero_ijQ63U",
     "l_text_logos_KLFPXQ",
-    "l_dropdowns_xUVGWD",
-    "content_image_yVmyhh",
-    "content_image_pVbAyH",
     "article_next",
     "l_dropdowns_piAT3y",
     "content_image_yfjdG8",
+    "restore_infos_LcRkkA",
     "l_content_right_7kkHy8",
-    "l_content_right_tqKAwn",
-    "l_content_right_wAGUW7",
     "l_reveal_slider_VrVx78",
+    "l_content_right_wAGUW7",
     "l_reveal_slider_JexRH3",
     "l_reveal_slider_wA4qKH",
+    "l_content_right_tqKAwn",
     "l_reveal_slider_grQCaD",
-    "restore_infos_LcRkkA",
     "newsletter_page_dNTxcK"
   ]
 }
