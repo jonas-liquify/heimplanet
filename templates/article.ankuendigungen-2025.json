@@ -205,6 +205,7 @@
     },
     "newsletter_page_dNTxcK": {
       "type": "newsletter_page",
+      "disabled": true,
       "settings": {
         "image_bild": "shopify://shop_images/Christian_McLeod_-_Iceland_9_1.jpg",
         "text_headline": "Sei auch im neuen Jahr dabei.",
