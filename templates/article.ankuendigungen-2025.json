@@ -12,7 +12,7 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "Wir feierten design. innovation. kollaboration.",
+        "text_subline": "Was erwartet uns im neuen Jahr",
         "text_headline": "Ankündigungen 2025",
         "textarea_longer_text": "<br>Was erwartet dich in der ersten Hälfte des neuen Jahres?",
         "text_button_text": "Button Text",
@@ -21,21 +21,19 @@
         "url_button_link_2": ""
       }
     },
+    "l_headline_mono_tB7QTX": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\""
+      }
+    },
     "l_text_logos_KLFPXQ": {
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
-        "text_headline": "WIR SAGEN DANKE!",
-        "text_text": "Eure Unterstützung, euer Vertrauen und eure Begeisterung für unsere Produkte sind der Antrieb, der uns immer wieder inspiriert,  neue Wege zu gehen und Innovationen zu schaffen. Wir schätzen euren Input - die liebevollen Worte genauso wie das konstruktive Feedback. Euer Input hilft uns, uns stetig weiterzuentwickeln und noch bessere Produkte zu schaffen. Vielen Dank, dass ihr Teil unserer Reise seid und uns dabei unterstützt, immer besser zu werden! Lasst uns gemeinsam auf das vergangene Jahr zurückblicken!"
-      }
-    },
-    "article_next": {
-      "type": "article_next",
-      "settings": {
-        "text_headline": "GESCHICHTEN AUS DER COMMUNITY",
-        "url_button_link": "shopify://blogs/abenteuer",
-        "text_button_text": "Mehr davon",
-        "text_blog_handle": "abenteuer"
+        "text_headline": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\"",
+        "text_text": "R. Buckminster Fuller (Visionär der geodätischen Kuppel)"
       }
     },
     "l_dropdowns_piAT3y": {
@@ -237,21 +235,14 @@
         "text_headline": "Sei auch im neuen Jahr dabei.",
         "text_text": "Erfahre als erste/r von Produkt Launches, Aktionen & den neusten Projekten. Falls du noch kein Member bist, melde dich jetzt zum Newsletter an!"
       }
-    },
-    "l_headline_mono_tB7QTX": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_headline_mono_tB7QTX",
     "l_text_logos_KLFPXQ",
-    "article_next",
     "l_dropdowns_piAT3y",
     "content_image_yfjdG8",
     "restore_infos_LcRkkA",
@@ -262,7 +253,6 @@
     "l_reveal_slider_wA4qKH",
     "l_content_right_tqKAwn",
     "l_reveal_slider_grQCaD",
-    "newsletter_page_dNTxcK",
-    "l_headline_mono_tB7QTX"
+    "newsletter_page_dNTxcK"
   ]
 }
