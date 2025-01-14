@@ -10,7 +10,7 @@
 {{ block.settings.text_adresse }}
 </div>
 <div class="text-size-regular">
-{{ block.settings.text_adresse }}
+{{ block.settings.text_adresse_2 }}
 </div>
 </div>
                             </div>
@@ -21,4 +21,4 @@
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-outline w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}</div></div><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="store_img"}>
-</div></div></div><div id="store" class="anchor-link"></div> {% schema %} {"tag":"section","name":"Store","class":"section_store background-color-grey","blocks":[{"name":"Adresse","type":"adresse","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_adresse","type":"text","label":"Adresse","default":"Adresse"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"HPT STORE HAMBURG"},{"id":"text_button_text_1","type":"text","label":"Button-Text-1","default":"Mehr erfahren"},{"id":"url_button_link_1","type":"url","label":"Button-Link-1"},{"id":"text_button_text_2","type":"text","label":"Button-Text-2","default":"Storefinder"},{"id":"url_button_link_2","type":"url","label":"Button-Link-2"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"Store","category":"Liquify"}]} {% endschema %}
+</div></div></div><div id="store" class="anchor-link"></div> {% schema %} {"tag":"section","name":"Store","class":"section_store background-color-grey","blocks":[{"name":"Adresse","type":"adresse","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_adresse","type":"text","label":"Adresse","default":"Adresse"},{"id":"text_adresse_2","type":"text","label":"Adresse-2","default":"This is some text inside of a div block."}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"HPT STORE HAMBURG"},{"id":"text_button_text_1","type":"text","label":"Button-Text-1","default":"Mehr erfahren"},{"id":"url_button_link_1","type":"url","label":"Button-Link-1"},{"id":"text_button_text_2","type":"text","label":"Button-Text-2","default":"Storefinder"},{"id":"url_button_link_2","type":"url","label":"Button-Link-2"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"Store","category":"Liquify"}]} {% endschema %}
