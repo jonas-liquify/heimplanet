@@ -21,30 +21,19 @@
         "url_button_link_2": ""
       }
     },
-    "content_image_yfjdG8": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "EIN UPGRADE",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button"
-      }
-    },
     "restore_infos_LcRkkA": {
       "type": "restore_infos",
       "settings": {
         "text_subline": "Mission",
         "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
         "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "image_bild_1": "shopify://shop_images/Heimplanet_The_Cave_XL_Backdoor_IDG.png",
+        "image_bild_1": "shopify://shop_images/Ankuendigungen_2025_2.png",
         "text_caption_1": "Ein neues Gewand",
-        "image_bild_2": "shopify://shop_images/Cloudbreak_IDG_Technik_Landing.png",
+        "image_bild_2": "shopify://shop_images/Ankuendigungen_2025.png",
         "text_caption_2": "Ein Upgrade",
         "text_zitat": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\"",
-        "text_autor": "R. Buckminster Fuller (Erfinder der geodätischen Kuppel)",
-        "image_bild_3": "shopify://shop_images/Packing_Cubes_grafik_58dea1f2-4b36-40b2-b43f-7ed8bee08bcd.png",
+        "text_autor": "R. Buckminster Fuller <br>(Visionär hinter der geodätischen Kuppel)",
+        "image_bild_3": "shopify://shop_images/Ankuendigungen_2025_1.png",
         "text_caption_3": "Eine Verwandlung"
       }
     },
@@ -78,7 +67,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/Ankuendigungen_2025.png",
         "text_headline": "EIN UPGRADE",
-        "textarea_text": "oihaoidhsd"
+        "textarea_text": "Etwas neues wird noch besser"
       }
     },
     "l_reveal_slider_VrVx78": {
@@ -213,7 +202,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "content_image_yfjdG8",
     "restore_infos_LcRkkA",
     "l_content_right_7kkHy8",
     "l_reveal_slider_VrVx78",
