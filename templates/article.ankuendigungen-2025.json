@@ -43,19 +43,22 @@
         "item_jexh9B": {
           "type": "item",
           "settings": {
-            "text_text": "Ein neues Design"
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit.png",
+            "text_text": "Bessere Materialien"
           }
         },
         "item_RRw7Ur": {
           "type": "item",
           "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit4.png",
             "text_text": "Neue Features"
           }
         },
         "item_CUkiQJ": {
           "type": "item",
           "settings": {
-            "text_text": "Gleicher..."
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Motion2.png",
+            "text_text": "Mehr Flexibilität"
           }
         }
       },
@@ -67,7 +70,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/Ankuendigungen_2025.png",
         "text_headline": "EIN UPGRADE",
-        "textarea_text": "Etwas neues wird noch besser"
+        "textarea_text": "Eine verbesserte Version unseres neuesten Beitrags zur Welt des Overland Camping. Etwas neues wird noch besser"
       }
     },
     "l_reveal_slider_VrVx78": {
