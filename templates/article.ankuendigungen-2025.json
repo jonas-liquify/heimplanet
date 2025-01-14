@@ -18,7 +18,8 @@
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Christian_McLeod_-_Iceland_9_1.jpg"
       }
     },
     "restore_infos_LcRkkA": {
@@ -186,14 +187,6 @@
         "image_bild_2": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-3.jpg"
       }
     },
-    "l_text_logos_KLFPXQ": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\"",
-        "text_text": "R. Buckminster Fuller (Visionär der geodätischen Kuppel)"
-      }
-    },
     "newsletter_page_dNTxcK": {
       "type": "newsletter_page",
       "settings": {
@@ -214,7 +207,6 @@
     "l_reveal_slider_wA4qKH",
     "l_content_right_tqKAwn",
     "l_reveal_slider_grQCaD",
-    "l_text_logos_KLFPXQ",
     "newsletter_page_dNTxcK"
   ]
 }
