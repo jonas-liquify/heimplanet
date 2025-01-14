@@ -100,27 +100,6 @@
         "image_bild": "shopify://shop_images/Mono_Series_Minimal_Pack_ocean_blue-b_1.jpg"
       }
     },
-    "l_dropdowns_piAT3y": {
-      "type": "l_dropdowns",
-      "blocks": {
-        "dropdown_wdfq6d": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Aether_Logo.png",
-            "text_headline": "Ein neues Gewand",
-            "textarea_text": "Wer sagt, dass bolde statements laut sein müssen?<br><br>\nFür uns eine grandiose Gelegenheit die Overlanding-Welt mit unseren Zelten zu unterstützen und einen komfortablen Rückzugsort nach den aufregenden Tagesausflügen zu bieten. \n<br><br>\nDie Veranstaltung bot nicht nur die Möglichkeit, die beeindruckende Landschaft Kaliforniens zu erkunden, sondern auch, sich mit Gleichgesinnten auszutauschen und die gemeinsame Leidenschaft für Abenteuer und Natur zu teilen. Aether's Bekleidung und Heimplanet's Outdoor Equipment stellte dabei die perfekte Symbiose für dieses Overland-Abenteuer dar. \n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/aether-rally-2024-recap\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
-            "image_bild": "shopify://shop_images/Aether_rally_the_cave.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "dropdown_wdfq6d"
-      ],
-      "settings": {
-        "text_headline": "ERLEBNISSE",
-        "textarea_text": "Zwar sind wir ein Unternehmen mit starkem Fokus auf Produktdesign. Doch auch wir wissen, dass es nicht um das Equipment selbst geht, sondern die Geschichten die es schreibt und Erlebnisse die es prägt."
-      }
-    },
     "content_image_yfjdG8": {
       "type": "content_image",
       "settings": {
@@ -163,6 +142,27 @@
         "text_nachher": "",
         "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
         "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
+      }
+    },
+    "l_dropdowns_piAT3y": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_wdfq6d": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Aether_Logo.png",
+            "text_headline": "Ein neues Gewand",
+            "textarea_text": "Wer sagt, dass bolde statements laut sein müssen?<br><br>\nFür uns eine grandiose Gelegenheit die Overlanding-Welt mit unseren Zelten zu unterstützen und einen komfortablen Rückzugsort nach den aufregenden Tagesausflügen zu bieten. \n<br><br>\nDie Veranstaltung bot nicht nur die Möglichkeit, die beeindruckende Landschaft Kaliforniens zu erkunden, sondern auch, sich mit Gleichgesinnten auszutauschen und die gemeinsame Leidenschaft für Abenteuer und Natur zu teilen. Aether's Bekleidung und Heimplanet's Outdoor Equipment stellte dabei die perfekte Symbiose für dieses Overland-Abenteuer dar. \n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/aether-rally-2024-recap\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
+            "image_bild": "shopify://shop_images/Aether_rally_the_cave.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_wdfq6d"
+      ],
+      "settings": {
+        "text_headline": "",
+        "textarea_text": ""
       }
     },
     "l_reveal_slider_JexRH3": {
@@ -230,11 +230,11 @@
     "l_content_right_7kkHy8",
     "l_dropdowns_xUVGWD",
     "content_image_yVmyhh",
-    "l_dropdowns_piAT3y",
     "content_image_yfjdG8",
     "content_image_pVbAyH",
     "article_next",
     "l_reveal_slider_VrVx78",
+    "l_dropdowns_piAT3y",
     "l_reveal_slider_JexRH3",
     "l_reveal_slider_wA4qKH",
     "l_reveal_slider_grQCaD",
