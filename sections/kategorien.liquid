@@ -1,7 +1,7 @@
 <div class="padding-global"><div class="container-large"><div class="padding-section-small"><div class="kategorie-slider_swiper swiper-container"><div id="swiper-container" class="kategorie-slider_wrapper swiper"><ul role="list" class="kategorie-slider_swiper-list swiper-wrapper w-list-unstyled">{% for block in section.blocks %}
     {% if block.type == "kategorie" %}
                     <li li-block="Kategorie" class="kategorie-slider_swiper-item swiper-slide">
-                                    <a class="kategorie-slider_item w-inline-block" href="{{ block.settings.url_link }}"> <img class="kategorie-slider_img is-darken" src="{{ block.settings.image_bild | img_url: 'master' }}" alt="{{ block.settings.image_bild.alt }}" loading="lazy"><h2 class="heading-style-h4 text-align-center">{{ block.settings.text_headline }}</h2> </a>
+                                    <a href="{{ block.settings.url_link }}" class="kategorie-slider_item w-inline-block"> <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="eager" alt="{{ block.settings.image_bild.alt }}" class="kategorie-slider_img is-darken"><h2 class="heading-style-h4 text-align-center">{{ block.settings.text_headline }}</h2> </a>
 
                             </li>
             {% endif %}
@@ -35,4 +35,4 @@
   });
 </script></div></div></div><div class="padding-global is-absolout pointer-events-off"><div class="container-large is-height"><div class="kategorie-slider_buttons"><a id="kategorie-left" href="#" class="kategorie-slider_button pointer-events-on w-inline-block"><img src="{{ 'arrow.svg' | asset_url }}" loading="lazy" alt="" class="kategorie-slider_img">
 </a><a id="kategorie-right" href="#" class="kategorie-slider_button pointer-events-on w-inline-block"><img src="{{ 'arrow-2.svg' | asset_url }}" loading="lazy" alt="" class="kategorie-slider_img">
-</a></div></div></div> {% schema %} {"tag":"section","name":"kategorien","class":"section_kategorien background-color-grey","blocks":[{"name":"Kategorie","type":"kategorie","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Heading"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"kategorien","category":"Liquify"}]} {% endschema %}
+</a></div></div></div> {% schema %} {"tag":"section","name":"Kategorien","class":"section_kategorien background-color-grey","blocks":[{"name":"Kategorie","type":"kategorie","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Heading"}]}],"settings":[{"id":"checkbox_swiper_script","type":"checkbox","label":"Swiper-Script","default":true}],"presets":[{"name":"Kategorien","category":"Liquify","blocks":[{"type":"kategorie"}]}]} {% endschema %}

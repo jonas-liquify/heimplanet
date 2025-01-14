@@ -1,7 +1,7 @@
 <div class="padding-global"><div class="container-large"><div class="footer_facts-grid">{% for block in section.blocks %}
     {% if block.type == "facts" %}
                     <div li-block="Facts" class="footer_facts-item">
-                                    <a class="footer_facts heading-medium w-inline-block" href="{{ block.settings.url_fact_link }}"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon"><div>{{ block.settings.text_fact }}</div> </a>
+                                    <a href="{{ block.settings.url_fact_link }}" class="footer_facts heading-medium w-inline-block"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon"><div>{{ block.settings.text_fact }}</div> </a>
 
                             </div>
             {% endif %}
@@ -20,19 +20,16 @@
 <div class="footer_newsletter-acts">{% for block in section.blocks %}
     {% if block.type == "newsletter-facts" %}
                     <div li-block="Newsletter-Facts" id="w-node-_7a15f5ef-34cc-083f-6140-a7b96e674612-cf39daf1" class="footer_facts-item">
-                                    <a class="footer_facts heading-medium is-newsletter w-inline-block" href="{{ block.settings.url_fact_link }}"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon is-newsletter"><div>{{ block.settings.text_fact }}</div> </a>
+                                    <a href="{{ block.settings.url_fact_link }}" class="footer_facts heading-medium is-newsletter w-inline-block"> <img src="{{ 'Group-51.svg' | asset_url }}" loading="lazy" alt="" class="footer_facts-icon is-newsletter"><div>{{ block.settings.text_fact }}</div> </a>
 
                             </div>
             {% endif %}
 {% endfor %}
-</div><a class="button is-white w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
+</div><a href="{{ section.settings.url_button_link }}" class="button is-white w-button"> {{ section.settings.text_button_text }} </a>
 </div></div></div></div><div class="footer_trennlinie"></div><div class="padding-global padding-section-xxsmall"><div class="container-large"><div class="footer_grid-payment"><div class="payment-wrapper"><div class="text-size-regular text-color-white">Delivery</div><div class="payment-icons">{% for block in section.blocks %}
     {% if block.type == "lieferung-icon" %}
                     <div li-block="Lieferung-icon">
-                                    <div><img class="footer_payment-icon"
-     src="{{ block.settings.image_icon | img_url: 'master' }}"
-     alt="{{ block.settings.image_icon.alt }}"
-     loading="lazy">
+                                    <div><img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="footer_payment-icon">
 </div>
                             </div>
             {% endif %}
@@ -43,7 +40,7 @@
 {% endfor %}</ul></div><div class="payment-wrapper"><div class="text-size-regular text-color-white">Social Media</div><div class="payment-icons is-social">{% for block in section.blocks %}
     {% if block.type == "social-media" %}
                     <div li-block="Social-media">
-                                    <a class="w-inline-block" href="{{ block.settings.url_social_link }}"> <img class="footer_social-icon" src="{{ block.settings.image_social_icon | img_url: 'master' }}" alt="{{ block.settings.image_social_icon.alt }}" loading="lazy"> </a>
+                                    <a href="{{ block.settings.url_social_link }}" target="_blank" class="w-inline-block"> <img src="{{ block.settings.image_social_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_social_icon.alt }}" class="footer_social-icon"> </a>
 
                             </div>
             {% endif %}
@@ -52,4 +49,4 @@
                                     <a li-object="link.title" li-object:href="link.url" href="{{ link.url }}" class="text-size-small text-color-grey">{{ link.title }}</a>
                         </div>
 {% endfor %}<a id="privacy-settings" href="#" class="text-size-small text-color-white hide">Cookies</a></div><div class="wg-element-wrapper sw7 hide"><div data-hover="true" data-delay="500" class="wg-dropdown-2 w-dropdown"><div lang="de" class="language-selector w-dropdown-toggle"><div>Deutsch</div><img src="https://uploads-ssl.webflow.com/613f2f905ede8d670775fc8a/61548248f37f3a0faab19498_arrow-drop.svg" loading="lazy" alt="" class="dropdown-aarow">
-</div><nav class="wg-dd-2-list w-dropdown-list"><a href="#" lang="en" class="wg-dropdown-2-link w-dropdown-link">English</a></nav></div></div></div></div></div> {% schema %} {"tag":"footer","name":"footer","class":"section_footer","blocks":[{"name":"Facts","type":"facts","settings":[{"id":"url_fact_link","type":"url","label":"Fact-Link"},{"id":"text_fact","type":"text","label":"Fact","default":"1% for the Planet"}]},{"name":"Newsletter-Facts","type":"newsletter-facts","settings":[{"id":"url_fact_link","type":"url","label":"Fact-Link"},{"id":"text_fact","type":"text","label":"Fact","default":"1% for the Planet"}]},{"name":"Lieferung-icon","type":"lieferung-icon","settings":[{"id":"image_icon","type":"image_picker","label":"icon"}]},{"name":"Social-media","type":"social-media","settings":[{"id":"url_social_link","type":"url","label":"Social-link"},{"id":"image_social_icon","type":"image_picker","label":"social-icon"}]}],"settings":[{"id":"text_newsletter_headline","type":"text","label":"Newsletter-Headline","default":"Become a Member of the Heimplanet Community and get awesome benefits"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"}],"presets":[{"name":"footer","category":"Liquify"}]} {% endschema %}
+</div><nav class="wg-dd-2-list w-dropdown-list"><a href="#" lang="en" class="wg-dropdown-2-link w-dropdown-link">English</a></nav></div></div></div></div></div> {% schema %} {"tag":"footer","name":"footer","class":"section_footer","blocks":[{"name":"Facts","type":"facts","settings":[{"id":"url_fact_link","type":"url","label":"Fact-Link"},{"id":"text_fact","type":"text","label":"Fact","default":"1% for the Planet"}]},{"name":"Newsletter-Facts","type":"newsletter-facts","settings":[{"id":"url_fact_link","type":"url","label":"Fact-Link"},{"id":"text_fact","type":"text","label":"Fact","default":"1% for the Planet"}]},{"name":"Lieferung-icon","type":"lieferung-icon","settings":[{"id":"image_icon","type":"image_picker","label":"icon"}]},{"name":"Social-media","type":"social-media","settings":[{"id":"url_social_link","type":"url","label":"Social-link"},{"id":"image_social_icon","type":"image_picker","label":"social-icon"}]}],"settings":[{"id":"text_newsletter_headline","type":"text","label":"Newsletter-Headline","default":"Become a Member of the Heimplanet Community and get awesome benefits"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Button"}],"presets":[{"name":"footer","category":"Liquify","blocks":[{"type":"facts"},{"type":"newsletter-facts"},{"type":"lieferung-icon"},{"type":"social-media"}]}]} {% endschema %}

@@ -7,7 +7,7 @@
                                     <div class="produkt-tabs_slide"><img src="{{ sliderdot.bild | img_url: 'master' }}" loading="lazy" id="w-node-_07b27f89-2fe2-f78d-c7be-eaee5102ac1d-c68d81de" li-object:src="sliderdot.bild | img_url: 'master'" alt="{{ sliderdot.bild.alt }}" li-object:alt="sliderdot.bild.alt" class="produkt-tabs_slider-img">
 <div id="w-node-_07b27f89-2fe2-f78d-c7be-eaee5102ac1e-c68d81de" class="produkt-tabs_right"><h3 li-object="sliderdot.titel" id="w-node-_07b27f89-2fe2-f78d-c7be-eaee5102ac1f-c68d81de" class="heading-style-h3">{{ sliderdot.titel }}</h3><div class="produkt-tabs_trenner"></div><p li-object="sliderdot.beschreibung | metafield_tag" class="text-size-regular is-link-underline">{{ sliderdot.beschreibung | metafield_tag }}</p></div><div fs-scrolldisable-element="toggle" x-on:click="open = false" class="produkt-tabs_close"></div></div>
                         </div>
-{% endfor %}</div></div></div><div class="produkt-tabs_swiper-buttons pointer-events-off"><div class="produkt-tabs_swiper-button is-button-left pointer-events-on pointer-events-on"><img src="{{ 'arrow.svg' | asset_url }}" loading="lazy" alt="" class="produkt-tabs_swiper-button-img">
+{% endfor %}</div></div></div><div class="produkt-tabs_swiper-buttons pointer-events-off"><div class="produkt-tabs_swiper-button is-button-left pointer-events-on"><img src="{{ 'arrow.svg' | asset_url }}" loading="lazy" alt="" class="produkt-tabs_swiper-button-img">
 </div><div class="produkt-tabs_swiper-button is-button-right pointer-events-on"><img src="{{ 'arrow-2.svg' | asset_url }}" loading="lazy" alt="" class="produkt-tabs_swiper-button-img">
 </div></div></div><div class="produkt-tabs_modal is-open hide"></div></div><div id="w-node-_07b27f89-2fe2-f78d-c7be-eaee5102ac2a-c68d81de" class="produkt-tabs_contaier">{% if product.metafields.custom.dots_bild != blank %}    <div li-if="product.metafields.custom.dots_bild != blank" class="produkt-tabs_image-wrapper">
     <img src="{{ product.metafields.custom.dots_bild | img_url: 'master' }}" loading="lazy" li-object:src="product.metafields.custom.dots_bild | img_url: 'master'" li-object:alt="product.metafields.custom.dots_bild.alt" alt="{{ product.metafields.custom.dots_bild.alt }}" class="produkt-tabs_img is-darken">
@@ -23,4 +23,4 @@
                                     
                         </div>
 {% endfor %}</div></div></div>    </div>
-{% endif %}<div id="highlights" class="anchor-link"></div> {% schema %} {"tag":"section","name":"product_dots","class":"section_produkt-interaktiv background-color-grey","presets":[{"name":"product_dots","category":"Liquify"}]} {% endschema %}
+{% endif %}<div id="highlights" class="anchor-link"></div> {% schema %} {"tag":"section","name":"Product-Dots","class":"section_produkt-interaktiv background-color-grey","presets":[{"name":"Product-Dots","category":"Liquify","blocks":[]}]} {% endschema %}
