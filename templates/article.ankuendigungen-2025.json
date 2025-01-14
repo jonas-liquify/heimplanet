@@ -164,12 +164,23 @@
     "l_reveal_slider_VrVx78": {
       "type": "l_reveal_slider",
       "settings": {
-        "text_headline": "Bags+Backpacks",
+        "text_headline": "EIN UPGRADE",
         "textarea_text": "",
         "text_vorher": "",
         "text_nachher": "",
         "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
         "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
+      }
+    },
+    "l_reveal_slider_JexRH3": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "EIN UPGRADE",
+        "textarea_text": "",
+        "text_vorher": "",
+        "text_nachher": "",
+        "image_bild_1": "shopify://shop_images/16_8c20436d-1fa2-431d-9ded-c71548d2c4cd.png",
+        "image_bild_2": "shopify://shop_images/Heimplanet-The-Cave-XL-Cairo-Camo-2_69b7d4d0-138e-40ff-9267-32d12669981a.jpg"
       }
     },
     "restore_infos_LcRkkA": {
@@ -200,6 +211,7 @@
     "article_next",
     "newsletter_page_dNTxcK",
     "l_reveal_slider_VrVx78",
+    "l_reveal_slider_JexRH3",
     "restore_infos_LcRkkA"
   ]
 }
