@@ -187,12 +187,25 @@
         "image_bild_2": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-3.jpg"
       }
     },
+    "l_hero_QqdHjC": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "Du bist noch kein Newsletter Member, aber möchtest als erster von den neuen Launches erfahren?",
+        "text_headline": "JETZT ANMELDEN & erster sein",
+        "textarea_longer_text": "",
+        "text_button_text": "ZUR ANMELDUNG",
+        "url_button_link": "shopify://pages/newsletter",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Christian_McLeod_-_Iceland_9_1.jpg"
+      }
+    },
     "newsletter_page_dNTxcK": {
       "type": "newsletter_page",
       "settings": {
         "image_bild": "shopify://shop_images/Christian_McLeod_-_Iceland_9_1.jpg",
         "text_headline": "Sei auch im neuen Jahr dabei.",
-        "text_text": "Erfahre als erste/r von Produkt Launches, Aktionen & den neusten Projekten. Falls du noch kein Member bist, melde dich jetzt zum Newsletter an!"
+        "text_text": "Erfahre als erste/r von den Produkt Launches, Aktionen & den neusten Projekten. Falls du noch kein Member bist, melde dich jetzt zum Newsletter an!"
       }
     }
   },
@@ -208,6 +221,7 @@
     "l_reveal_slider_wA4qKH",
     "l_content_right_tqKAwn",
     "l_reveal_slider_grQCaD",
+    "l_hero_QqdHjC",
     "newsletter_page_dNTxcK"
   ]
 }
