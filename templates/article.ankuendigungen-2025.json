@@ -183,6 +183,17 @@
         "image_bild_2": "shopify://shop_images/Heimplanet-The-Cave-XL-Cairo-Camo-2_69b7d4d0-138e-40ff-9267-32d12669981a.jpg"
       }
     },
+    "l_reveal_slider_wA4qKH": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "EIN UPGRADE",
+        "textarea_text": "",
+        "text_vorher": "",
+        "text_nachher": "",
+        "image_bild_1": "shopify://shop_images/16_8c20436d-1fa2-431d-9ded-c71548d2c4cd.png",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Backdoor-Classic-1_79c5362c-91c6-4f59-88ab-bd5c7f42ccd2.jpg"
+      }
+    },
     "restore_infos_LcRkkA": {
       "type": "restore_infos",
       "settings": {
@@ -212,6 +223,7 @@
     "newsletter_page_dNTxcK",
     "l_reveal_slider_VrVx78",
     "l_reveal_slider_JexRH3",
+    "l_reveal_slider_wA4qKH",
     "restore_infos_LcRkkA"
   ]
 }
