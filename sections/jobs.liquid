@@ -1,8 +1,8 @@
 <div class="padding-global"><div class="container-large"><div class="headline_container"><div id="w-node-_6680fa1b-f02d-c7dc-ab82-1d6a00fd5d3f-00fd5d3b" class="headline_wrapper"><h2 class="heading-style-h2">
 {{ section.settings.text_headline }}
 </h2>
-<a class="button is-outline hide-mobile-portrait w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
-</div></div><div class="jobs_list"><div class="subline">
+<a href="{{ section.settings.url_button_link }}" class="button is-outline hide-mobile-portrait w-button"> {{ section.settings.text_button_text }} </a>
+</div></div><div class="jobs_list"><div class="subline is-job-wrapper">
 {{ section.settings.text_kategorie }}
 </div>
 {% assign blog_handle = 'jobs' %}
@@ -12,5 +12,5 @@
 {% endfor %}</div><div class="w-dyn-empty"><div>No items found.</div></div></div><div class="jobs_info background-color-alternate"><h4 class="heading-style-h3">
 {{ section.settings.text_initiativ_bewerbung }}
 </h4>
-<a class="button is-outline w-button" href="{{ section.settings.url_button_link_1 }}"> {{ section.settings.text_button_text_1 }} </a>
-</div></div></div></div></div><div id="karriere" class="anchor-link"></div> {% schema %} {"tag":"div","name":"jobs","class":"section_jobs background-color-grey","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Karriere &amp; Jobs"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr davon"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_kategorie","type":"text","label":"kategorie","default":"Operations"},{"id":"text_initiativ_bewerbung","type":"text","label":"initiativ-bewerbung","default":"Kein passender Job dabei? Bewirb dich gerne Iniativ"},{"id":"url_button_link_1","type":"url","label":"Button-Link-1"},{"id":"text_button_text_1","type":"text","label":"Button-Text-1","default":"Initiativbewerbung"}],"presets":[{"name":"jobs","category":"Liquify"}]} {% endschema %}
+<a id="w-node-_6680fa1b-f02d-c7dc-ab82-1d6a00fd5d57-00fd5d3b" href="{{ section.settings.url_button_link_1 }}" class="button is-outline w-button"> {{ section.settings.text_button_text_1 }} </a>
+</div></div></div></div></div><div id="karriere" class="anchor-link"></div> {% schema %} {"tag":"div","name":"Jobs","class":"section_jobs background-color-grey","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Karriere &amp; Jobs"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr davon"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_kategorie","type":"text","label":"kategorie","default":"Operations"},{"id":"text_initiativ_bewerbung","type":"text","label":"initiativ-bewerbung","default":"Kein passender Job dabei? Bewirb dich gerne Iniativ"},{"id":"url_button_link_1","type":"url","label":"Button-Link-1"},{"id":"text_button_text_1","type":"text","label":"Button-Text-1","default":"Initiativbewerbung"}],"presets":[{"name":"Jobs","category":"Liquify","blocks":[]}]} {% endschema %}

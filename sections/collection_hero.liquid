@@ -11,11 +11,8 @@
 {% endif %}{% if request.page_type == 'article' %}    <div li-if="request.page_type == 'article'">
     <div li-object="article.excerpt" class="text-size-regular">{{ article.excerpt }}</div>    </div>
 {% endif %}<div><div class="text-size-regular"> {{ section.settings.textarea_paragraph }} </div>
-</div><div class="spacer-medium"></div>{% if section.settings.url_button_link %}    <div li-if="section.settings.url_button_link" class="button_wrapper is-auto is-auto">
-    <a class="button w-button" href="{{ section.settings.url_button_link }}"> {{ section.settings.text_button_text }} </a>
+</div><div class="spacer-medium"></div>{% if section.settings.url_button_link %}    <div li-if="section.settings.url_button_link" class="button_wrapper is-auto">
+    <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
-{% endif %}</div><img class="hero_image"
-     src="{{ section.settings.image_bild | img_url: 'master' }}"
-     alt="{{ section.settings.image_bild.alt }}"
-     loading="lazy">
-</div></div></div> {% schema %} {"tag":"section","name":"collection_hero","class":"section_small-hero background-color-grey","settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Home \/ Kategorie \/ Zelte"},{"id":"text_headline","type":"text","label":"Headline","default":"Bags+<br\/>Backpacks"},{"id":"textarea_paragraph","type":"textarea","label":"Paragraph","default":"Home Kategorie Zelte"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt entdecken"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"collection_hero","category":"Liquify"}]} {% endschema %}
+{% endif %}</div><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="hero_image">
+</div></div></div> {% schema %} {"tag":"section","name":"Collection-Hero","class":"section_small-hero background-color-grey","settings":[{"id":"text_subline","type":"text","label":"Subline","default":"Home \/ Kategorie \/ Zelte"},{"id":"text_headline","type":"text","label":"Headline","default":"Bags+<br\/>Backpacks"},{"id":"textarea_paragraph","type":"textarea","label":"Paragraph","default":"Home Kategorie Zelte"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Jetzt entdecken"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"Collection-Hero","category":"Liquify","blocks":[]}]} {% endschema %}

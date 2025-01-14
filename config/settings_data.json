@@ -1,16 +1,16 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "favicon": "shopify:\/\/shop_images\/Heimplanet-Favicon-Black_c8b32635-6a53-4dd3-b9f7-63b9c16236ba.png",
-    "apple_touch_icon": "shopify:\/\/shop_images\/Heimplanet-Favicon-Black_c8b32635-6a53-4dd3-b9f7-63b9c16236ba.png",
+    "favicon": "shopify://shop_images/Heimplanet-Favicon-Black_c8b32635-6a53-4dd3-b9f7-63b9c16236ba.png",
+    "apple_touch_icon": "shopify://shop_images/Heimplanet-Favicon-Black_c8b32635-6a53-4dd3-b9f7-63b9c16236ba.png",
     "sections": {
       "header": {
         "type": "header",
@@ -20,11 +20,11 @@
             "settings": {
               "url_link": "#",
               "text_menu_handle": "shop",
-              "url_link_1_link": "shopify:\/\/pages\/cloudbreak",
+              "url_link_1_link": "shopify://pages/cloudbreak",
               "text_link_1_text": "Neues Zelt: Cloudbreak",
-              "url_link_2_link": "shopify:\/\/products\/geschenkgutschein",
+              "url_link_2_link": "shopify://products/geschenkgutschein",
               "text_link_2_text": "Geschenkgutscheine",
-              "url_link_3_link": "shopify:\/\/collections\/limited-editions",
+              "url_link_3_link": "shopify://collections/limited-editions",
               "text_link_3_text": "Limited Editions"
             }
           },
@@ -33,11 +33,11 @@
             "settings": {
               "url_link": "#",
               "text_menu_handle": "Magazin",
-              "url_link_1_link": "shopify:\/\/blogs\/abenteuer\/projekt-wintercamp-in-den-schweizer-alpen",
+              "url_link_1_link": "shopify://blogs/abenteuer/projekt-wintercamp-in-den-schweizer-alpen",
               "text_link_1_text": "Abenteuer: Swiss Alps",
-              "url_link_2_link": "shopify:\/\/blogs\/abenteuer\/cavalleria-rewild-to-rewire",
+              "url_link_2_link": "shopify://blogs/abenteuer/cavalleria-rewild-to-rewire",
               "text_link_2_text": "Abenteuer: Cavalleria",
-              "url_link_3_link": "shopify:\/\/blogs\/abenteuer\/aether-rally-2024-recap",
+              "url_link_3_link": "shopify://blogs/abenteuer/aether-rally-2024-recap",
               "text_link_3_text": "Abenteuer: Aether Rally"
             }
           },
@@ -46,11 +46,11 @@
             "settings": {
               "url_link": "#",
               "text_menu_handle": "Unternehmen",
-              "url_link_1_link": "shopify:\/\/pages\/cloudbreak",
+              "url_link_1_link": "shopify://pages/cloudbreak",
               "text_link_1_text": "Neu: Cloudbreak",
-              "url_link_2_link": "shopify:\/\/pages\/the-great-makeover",
+              "url_link_2_link": "shopify://pages/the-great-makeover",
               "text_link_2_text": "The Great Makeover",
-              "url_link_3_link": "shopify:\/\/pages\/collab-66-north-cave-xl-4-season",
+              "url_link_3_link": "shopify://pages/collab-66-north-cave-xl-4-season",
               "text_link_3_text": "HEIMPLANET X 66°NORTH"
             }
           }
@@ -61,7 +61,8 @@
           "nav_link_kdXCQ6"
         ],
         "settings": {
-          "url_storefinder_link": "shopify:\/\/pages\/shopfinder",
+          "text_announcement": "Kostenloser Versand nach Deutschland ab 50€ Bestellwert",
+          "url_storefinder_link": "shopify://pages/shopfinder",
           "text_storefinder": "Storefinder",
           "collection_bestseller": "topseller",
           "collection_bestseller_limit": 6
@@ -73,21 +74,21 @@
           "facts_eree39": {
             "type": "facts",
             "settings": {
-              "url_fact_link": "shopify:\/\/pages\/1-for-the-planet",
+              "url_fact_link": "shopify://pages/1-for-the-planet",
               "text_fact": "1% for the Planet"
             }
           },
           "facts_awDEGd": {
             "type": "facts",
             "settings": {
-              "url_fact_link": "shopify:\/\/blogs\/projekte\/lebenslanger-support-garantie",
+              "url_fact_link": "shopify://blogs/projekte/lebenslanger-support-garantie",
               "text_fact": "Lebenslange Garantie"
             }
           },
           "facts_J9ehLG": {
             "type": "facts",
             "settings": {
-              "url_fact_link": "shopify:\/\/pages\/re-store-programm",
+              "url_fact_link": "shopify://pages/re-store-programm",
               "text_fact": "Re-Store Programm"
             }
           },
@@ -101,48 +102,48 @@
           "lieferung_icon_CkhAzb": {
             "type": "lieferung-icon",
             "settings": {
-              "image_icon": "shopify:\/\/shop_images\/Group_302.png"
+              "image_icon": "shopify://shop_images/Group_302.png"
             }
           },
           "lieferung_icon_LAPKFF": {
             "type": "lieferung-icon",
             "settings": {
-              "image_icon": "shopify:\/\/shop_images\/Heimplanet-UPS-Logo.png"
+              "image_icon": "shopify://shop_images/Heimplanet-UPS-Logo.png"
             }
           },
           "lieferung_icon_hpVHHM": {
             "type": "lieferung-icon",
             "settings": {
-              "image_icon": "shopify:\/\/shop_images\/Heimplanet-Fedex-Logo.png"
+              "image_icon": "shopify://shop_images/Heimplanet-Fedex-Logo.png"
             }
           },
           "social_media_GcdYLX": {
             "type": "social-media",
             "settings": {
-              "url_social_link": "https:\/\/www.instagram.com\/heimplanet\/",
-              "image_social_icon": "shopify:\/\/shop_images\/Heimplanet-Instagram.png"
+              "url_social_link": "https://www.instagram.com/heimplanet/",
+              "image_social_icon": "shopify://shop_images/Heimplanet-Instagram.png"
             }
           },
           "social_media_EXxWDF": {
             "type": "social-media",
             "settings": {
-              "url_social_link": "https:\/\/www.facebook.com\/heimplanet\/",
-              "image_social_icon": "shopify:\/\/shop_images\/Heimplanet-Facebook.png"
+              "url_social_link": "https://www.facebook.com/heimplanet/",
+              "image_social_icon": "shopify://shop_images/Heimplanet-Facebook.png"
             }
           },
           "social_media_VUGDyc": {
             "type": "social-media",
             "settings": {
-              "url_social_link": "https:\/\/www.youtube.com\/channel\/UCxPmJJM8vkH4GDqhaK1HFag",
-              "image_social_icon": "shopify:\/\/shop_images\/Heimplanet-Youtube.png"
+              "url_social_link": "https://www.youtube.com/channel/UCxPmJJM8vkH4GDqhaK1HFag",
+              "image_social_icon": "shopify://shop_images/Heimplanet-Youtube.png"
             }
           },
           "social_media_MYENPV": {
             "type": "social-media",
             "disabled": true,
             "settings": {
-              "url_social_link": "https:\/\/www.pinterest.de\/heimplanet\/",
-              "image_social_icon": "shopify:\/\/shop_images\/Heimplanet-Pinterest.png"
+              "url_social_link": "https://www.pinterest.de/heimplanet/",
+              "image_social_icon": "shopify://shop_images/Heimplanet-Pinterest.png"
             }
           }
         },
@@ -161,46 +162,56 @@
         ],
         "settings": {
           "text_newsletter_headline": "WERDE TEIL DER COMMUNITY",
-          "url_button_link": "shopify:\/\/pages\/newsletter",
+          "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
           "text_button_text": "Jetzt anmelden"
         }
       },
       "l_header": {
         "type": "l_header",
         "settings": {
-          "url_button_url": "shopify:\/\/products\/mono-series-minimal-pack-blue",
+          "url_button_url": "shopify://products/mono-series-minimal-pack-blue",
           "text_button_text": "Jetzt entdecken"
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
           "position": "right"
         }
       },
       "15181020662106344915": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/popup_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/popup_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "17398511487517060589": {
-        "type": "shopify:\/\/apps\/admetrics-data-studio\/blocks\/conversion\/95b54974-e3ea-4514-839b-d0c971e19c1c",
+        "type": "shopify://apps/admetrics-data-studio/blocks/conversion/95b54974-e3ea-4514-839b-d0c971e19c1c",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "5366966397018820931": {
+        "type": "shopify://apps/instant-a-b-testing/blocks/tracking/63aa07b1-7397-484f-b6dd-f47e11b50223",
+        "disabled": false,
+        "settings": {}
+      },
+      "11434813149838796522": {
+        "type": "shopify://apps/pre-order-restock-notifier/blocks/app-embed/1fadf77e-ebd8-4e68-90cb-f24d97d07bde",
+        "disabled": false,
+        "settings": {}
       }
     }
   }
