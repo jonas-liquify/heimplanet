@@ -87,21 +87,22 @@
         "item_6wPiJM": {
           "type": "item",
           "settings": {
-            "text_text": "Zelt für 2-3 Personen"
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit.png",
+            "text_text": "Neue Stoffe"
           }
         },
         "item_gQfYa8": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/Cave_IDG_Technik_Landing_50aa9a39-14e2-4c75-8301-c26e4e87affd.png",
-            "text_text": "Zelt für 2-3 Personen"
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials3.png",
+            "text_text": "Ein neuer Look"
           }
         },
         "item_Ne9PKG": {
           "type": "item",
           "settings": {
-            "image_icon": "shopify://shop_images/IDG_Backdoor.png",
-            "text_text": "Zelt für 2-3 Personen"
+            "image_icon": "shopify://shop_images/icons8-winter-96.png",
+            "text_text": "Gemacht für jedes Wetter"
           }
         }
       },
@@ -113,7 +114,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/Ankuendigungen_2025_2.png",
         "text_headline": "EIN NEUES GEWAND",
-        "textarea_text": "oihaoidhsd"
+        "textarea_text": "für die Umsetzung wählten wir zwei unserer beliebtesten Zeltenmodelle aus - The Cave XL und BackdoorZwei unserer beliebtesten Zelte"
       }
     },
     "l_reveal_slider_JexRH3": {
