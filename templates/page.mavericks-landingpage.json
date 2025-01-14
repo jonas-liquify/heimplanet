@@ -60,7 +60,7 @@
     "l_content_right_AJHhFq": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Basecamp-Tent-White-8.jpg",
+        "image_bild": "shopify://shop_images/Dale_anderson_mavericks_basecamp_2.jpg",
         "text_headline": "Flexibilität",
         "textarea_text": "Das Mavericks ist besonders nützlich, wenn man flexibel sein muss. Selbst im Sturm ist es in Minuten errichtet. Der Rahmen des Mavericks ist außerdem so konzipiert, dass das Zelt auch ohne Abspannung steht. Sollte man z.B. merken, dass man auf unsicherem Grund steht, ist es möglich, das Zelt auch nach dem aufblasen noch einmal zu verrücken."
       }
@@ -68,7 +68,7 @@
     "l_content_right_TP9ggz": {
       "type": "l_content_right",
       "settings": {
-        "text_headline": "Design",
+        "text_headline": "",
         "textarea_text": "Seine spezielle geodätische Struktur ist für Windgeschwindigkeiten von bis zu 180 km/h ausgelegt."
       }
     },
@@ -154,6 +154,17 @@
         "url_produkt_link": "shopify://products/re-stored-mavericks-basecamp",
         "checkbox_swiper_script": true
       }
+    },
+    "blog_hw4dY4": {
+      "type": "blog",
+      "settings": {
+        "text_headline": "Mehr zu Mavericks",
+        "url_button_link": "shopify://blogs/abenteuer",
+        "text_button_text": "Mehr davon",
+        "article_artikel": "abenteuer/heimplanet-on-a-frozen-planet",
+        "blog_blog": "abenteuer",
+        "post_limit_blog": 3
+      }
     }
   },
   "layout": "page.landingpage",
@@ -169,6 +180,7 @@
     "l_content_right_TP9ggz",
     "l_content_image_bg_FPwUnb",
     "l_step_slider_cQnWDP",
-    "l_produkt_JmC6JY"
+    "l_produkt_JmC6JY",
+    "blog_hw4dY4"
   ]
 }
