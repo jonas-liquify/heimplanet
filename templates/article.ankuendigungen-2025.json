@@ -21,42 +21,6 @@
         "url_button_link_2": ""
       }
     },
-    "l_headline_mono_tB7QTX": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\""
-      }
-    },
-    "l_text_logos_KLFPXQ": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\"",
-        "text_text": "R. Buckminster Fuller (Visionär der geodätischen Kuppel)"
-      }
-    },
-    "l_dropdowns_piAT3y": {
-      "type": "l_dropdowns",
-      "blocks": {
-        "dropdown_wdfq6d": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Aether_Logo.png",
-            "text_headline": "Ein neues Gewand",
-            "textarea_text": "Wer sagt, dass bolde statements laut sein müssen?<br><br>\nFür uns eine grandiose Gelegenheit die Overlanding-Welt mit unseren Zelten zu unterstützen und einen komfortablen Rückzugsort nach den aufregenden Tagesausflügen zu bieten. \n<br><br>\nDie Veranstaltung bot nicht nur die Möglichkeit, die beeindruckende Landschaft Kaliforniens zu erkunden, sondern auch, sich mit Gleichgesinnten auszutauschen und die gemeinsame Leidenschaft für Abenteuer und Natur zu teilen. Aether's Bekleidung und Heimplanet's Outdoor Equipment stellte dabei die perfekte Symbiose für dieses Overland-Abenteuer dar. \n<br><br>\n<a href=\"https://heimplanet.com/blogs/abenteuer/aether-rally-2024-recap\" target=\"_blank\"><b>KLICKE HIER FÜR DIE GANZE GESCHICHTE</b></a>",
-            "image_bild": "shopify://shop_images/Aether_rally_the_cave.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "dropdown_wdfq6d"
-      ],
-      "settings": {
-        "text_headline": "EIN UPGRADE",
-        "textarea_text": ""
-      }
-    },
     "content_image_yfjdG8": {
       "type": "content_image",
       "settings": {
@@ -78,8 +42,8 @@
         "text_caption_1": "Ein neues Gewand",
         "image_bild_2": "shopify://shop_images/Cloudbreak_IDG_Technik_Landing.png",
         "text_caption_2": "Ein Upgrade",
-        "text_zitat": "\"Wir machen Produkte, die lange halten, eine hohe Qualität haben und sehr zeitlos sind. Das ist für uns der beste Weg gegen Ressourcenverschwendung.\"",
-        "text_autor": "",
+        "text_zitat": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\"",
+        "text_autor": "R. Buckminster Fuller (Erfinder der geodätischen Kuppel)",
         "image_bild_3": "shopify://shop_images/Packing_Cubes_grafik_58dea1f2-4b36-40b2-b43f-7ed8bee08bcd.png",
         "text_caption_3": "Eine Verwandlung"
       }
@@ -229,6 +193,14 @@
         "image_bild_2": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-3.jpg"
       }
     },
+    "l_text_logos_KLFPXQ": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\"",
+        "text_text": "R. Buckminster Fuller (Visionär der geodätischen Kuppel)"
+      }
+    },
     "newsletter_page_dNTxcK": {
       "type": "newsletter_page",
       "settings": {
@@ -241,9 +213,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_headline_mono_tB7QTX",
-    "l_text_logos_KLFPXQ",
-    "l_dropdowns_piAT3y",
     "content_image_yfjdG8",
     "restore_infos_LcRkkA",
     "l_content_right_7kkHy8",
@@ -253,6 +222,7 @@
     "l_reveal_slider_wA4qKH",
     "l_content_right_tqKAwn",
     "l_reveal_slider_grQCaD",
+    "l_text_logos_KLFPXQ",
     "newsletter_page_dNTxcK"
   ]
 }
