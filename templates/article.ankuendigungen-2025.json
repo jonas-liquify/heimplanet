@@ -71,7 +71,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/Ankuendigungen_2025_2.png",
         "text_headline": "01 EIN NEUES GEWAND",
-        "textarea_text": "Eine limitierte Auflage von zwei unserer beliebtesten Zeltmodelle als Hommage an die japanische Camping-Ästhetik. Für alle, die Einfachheit, Ordnung und Harmonie mit der Natur schätzen.<br><br>Du musst nicht laut sein, um ein starkes Statement zu setzen <b>#whereveryougo</b>."
+        "textarea_text": "Eine limitierte Auflage von zwei unserer beliebtesten Zeltmodelle als Hommage an die japanische Camping-Ästhetik. Du musst nicht laut sein, um ein starkes Statement zu setzen. <br><br>Für alle, die Einfachheit, Ordnung und Harmonie mit der Natur schätzen <b>#whereveryougo</b>."
       }
     },
     "l_reveal_slider_JexRH3": {
@@ -157,13 +157,14 @@
           "type": "item",
           "settings": {
             "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials2.png",
-            "text_text": "Wasserfest"
+            "text_text": "Atmungsaktiv"
           }
         },
         "item_fUWwhy": {
           "type": "item",
           "settings": {
-            "text_text": "Immer dabei"
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Motion5.png",
+            "text_text": "Elegant"
           }
         }
       },
@@ -175,7 +176,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/Ankuendigungen_2025_1.png",
         "text_headline": "03 EINE VERWANDLUNG",
-        "textarea_text": "oihaoidhsd"
+        "textarea_text": "Durch den Outdoor-Bezug unseres Equipments ist das Bewusstsein für einen verantwortungsvollen Umgang mit Ressourcen in besonderem Maße geschärft.  Neben Langlebigkeit und Recyclingfähigkeit ist die Ressourcen-Effizienz daher eine der tragenden Säulen unserer Designphilosophie. <br><br>Vor diesem Hintergrund wird nun erneut etwas bestehendes verwendet, um damit neue Wege zu gehen <b>#whereveryougo</b>."
       }
     },
     "l_reveal_slider_grQCaD": {
