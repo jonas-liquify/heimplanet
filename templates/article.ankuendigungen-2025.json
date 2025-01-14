@@ -14,7 +14,7 @@
       "settings": {
         "text_subline": "Was erwartet uns im neuen Jahr",
         "text_headline": "Ankündigungen 2025",
-        "textarea_longer_text": "<br>Was erwartet dich in der ersten Hälfte des neuen Jahres?",
+        "textarea_longer_text": "<br>Neues",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
@@ -24,15 +24,15 @@
     "restore_infos_LcRkkA": {
       "type": "restore_infos",
       "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_subline": "Ihr habt gesprochen - wir haben zugehört",
+        "text_headline": "Neues heimplanet equipment",
+        "textarea_text": "Ohne zu viel zu verraten, wollen wir euch schon jetzt mit auf die Reise nehmen und über einige der Dinge sprechen, die euch in der ersten Hälfte des neuen Jahres erwarten. Wenn du noch kein Newsletter Member bist, nutze die Anmeldeform am Ende der Seite, um als erster von den neuen Launches zu Erfahren.",
         "image_bild_1": "shopify://shop_images/Ankuendigungen_2025_2.png",
         "text_caption_1": "Ein neues Gewand",
         "image_bild_2": "shopify://shop_images/Ankuendigungen_2025.png",
         "text_caption_2": "Ein Upgrade",
         "text_zitat": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\"",
-        "text_autor": "R. Buckminster Fuller <br>(Visionär hinter der geodätischen Kuppel)",
+        "text_autor": "R. Buckminster Fuller (Visionär hinter der geodätischen Kuppel)",
         "image_bild_3": "shopify://shop_images/Ankuendigungen_2025_1.png",
         "text_caption_3": "Eine Verwandlung"
       }
