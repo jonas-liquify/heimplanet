@@ -24,12 +24,13 @@
         },
         "hero_slider_6ztQE7": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-6.jpg",
-            "text_headline": "Neues vom Lake Untersee",
-            "richtext_text": "<p><strong>MAGAZIN</strong>: Ein Update unseres liebsten Astrobiologen Dale Andersen und seinem Team aus der Arktis - inkl. Maveticks Sturmtest.<br/><strong>Jetzt im Magazin!</strong></p>",
-            "url_button_link": "shopify://blogs/abenteuer/neues-vom-lake-untersee",
-            "text_button_text": "ZUM MAGAZIN"
+            "image_bild": "shopify://shop_images/Christian_McLeod_-_Iceland_9_1.jpg",
+            "text_headline": "SNEAK PEEK 2025",
+            "richtext_text": "<p><strong>PROJEKTE</strong>: Erfahre was die erste Hälfte des neuen Jahres für dich bereithält.<br/><strong>New year - new gear!</strong></p>",
+            "url_button_link": "https://heimplanet.com/blogs/projekte/ausblick-2025",
+            "text_button_text": "JETZT ENTDECKEN"
           }
         },
         "hero_slider_DQWqP4": {
@@ -44,7 +45,6 @@
         },
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Mood-4.jpg",
             "text_headline": "THE FUTURE IS NOW",
@@ -175,7 +175,7 @@
           "type": "kategorie",
           "settings": {
             "url_link": "shopify://collections/hpt-selected",
-            "image_bild": "shopify://shop_images/HPT-Selected-AeroPress-Coffee-Maker-Clear-Blue-2.jpg",
+            "image_bild": "shopify://shop_images/HPT-Selected-Soto-New-River-Amicus-Combo-5.jpg",
             "text_headline": "HPT Selected"
           }
         }
