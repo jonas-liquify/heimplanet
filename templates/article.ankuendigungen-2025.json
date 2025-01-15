@@ -71,7 +71,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/neo_black_programm_2.png",
         "text_headline": "01 NEO BLACK PRORAMM",
-        "textarea_text": "Eine limitierte Auflage von zwei unserer beliebtesten Zeltmodelle als Hommage an die japanische Camping-Ästhetik. Du musst nicht laut sein, um ein starkes Statement zu setzen. <br><br>Für alle, die Einfachheit, Ordnung und Harmonie mit der Natur schätzen <b>#whereveryougo</b>."
+        "textarea_text": "Eine limitierte Auflage von zwei unserer beliebtesten Artikel als Hommage an die japanische Camping-Ästhetik. Für alle, die Einfachheit, Ordnung und Harmonie mit der Natur schätzen.<br><br>Du musst nicht laut sein, um ein starkes Statement zu setzen  <b>#whereveryougo</b>."
       }
     },
     "l_reveal_slider_JexRH3": {
@@ -201,7 +201,7 @@
         "text_headline": "JETZT ANMELDEN & erster sein",
         "textarea_longer_text": "",
         "text_button_text": "ZUR ANMELDUNG",
-        "url_button_link": "shopify://pages/newsletter",
+        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Christian_McLeod_-_Iceland_9_1.jpg"
