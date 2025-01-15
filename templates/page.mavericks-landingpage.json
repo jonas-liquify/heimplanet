@@ -57,19 +57,19 @@
         "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Red-SAREX-Le-Commandant-Charcot-55_Studio-PONANT-Nathalie-Michel.jpg"
       }
     },
+    "l_content_right_TP9ggz": {
+      "type": "l_content_right",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "Seine spezielle geodätische Struktur ist für Windgeschwindigkeiten von bis zu 180 km/h ausgelegt."
+      }
+    },
     "l_content_right_AJHhFq": {
       "type": "l_content_right",
       "settings": {
         "image_bild": "shopify://shop_images/Dale_anderson_mavericks_basecamp_2.jpg",
         "text_headline": "Flexibilität",
         "textarea_text": "Das Mavericks ist besonders nützlich, wenn man flexibel sein muss. Selbst im Sturm ist es in Minuten errichtet. Der Rahmen des Mavericks ist außerdem so konzipiert, dass das Zelt auch ohne Abspannung steht. Sollte man z.B. merken, dass man auf unsicherem Grund steht, ist es möglich, das Zelt auch nach dem aufblasen noch einmal zu verrücken."
-      }
-    },
-    "l_content_right_TP9ggz": {
-      "type": "l_content_right",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "Seine spezielle geodätische Struktur ist für Windgeschwindigkeiten von bis zu 180 km/h ausgelegt."
       }
     },
     "l_content_image_bg_FPwUnb": {
@@ -176,8 +176,8 @@
     "l_video_3z8pkj",
     "l_video_NhXNnz",
     "l_content_left_rJMTGY",
-    "l_content_right_AJHhFq",
     "l_content_right_TP9ggz",
+    "l_content_right_AJHhFq",
     "l_content_image_bg_FPwUnb",
     "l_step_slider_cQnWDP",
     "l_produkt_JmC6JY",
