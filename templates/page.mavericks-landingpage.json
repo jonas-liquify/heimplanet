@@ -60,16 +60,16 @@
     "l_content_right_TP9ggz": {
       "type": "l_content_right",
       "settings": {
-        "text_headline": "",
-        "textarea_text": "Seine spezielle geodätische Struktur ist für Windgeschwindigkeiten von bis zu 180 km/h ausgelegt."
+        "text_headline": "Schneller Aufbau",
+        "textarea_text": "Das Mavericks definiert das Konzept von Schnelligkeit und Effizienz neu. Je größer das Zelt desto vorteilhafter die Technologie. Dank des einzigartigen aufblasbaren Rahmens steht das Zelt in nur wenigen Minuten, während herkömmliche Basecamps dieser Dimension oft 30 bis 40 Minuten Aufbauzeit erfordern. Ideal für anspruchsvolle Expeditionen und extreme Bedingungen, bei denen jede Minute zählt - weniger Aufwand, mehr Abenteuer."
       }
     },
-    "l_content_right_AJHhFq": {
-      "type": "l_content_right",
+    "l_content_left_de8wzD": {
+      "type": "l_content_left",
       "settings": {
-        "image_bild": "shopify://shop_images/Dale_anderson_mavericks_basecamp_2.jpg",
         "text_headline": "Flexibilität",
-        "textarea_text": "Das Mavericks ist besonders nützlich, wenn man flexibel sein muss. Selbst im Sturm ist es in Minuten errichtet. Der Rahmen des Mavericks ist außerdem so konzipiert, dass das Zelt auch ohne Abspannung steht. Sollte man z.B. merken, dass man auf unsicherem Grund steht, ist es möglich, das Zelt auch nach dem aufblasen noch einmal zu verrücken."
+        "textarea_text": "Das Mavericks ist besonders nützlich, wenn man flexibel sein muss. Selbst im Sturm ist es in Minuten errichtet. Der Rahmen des Mavericks ist außerdem so konzipiert, dass das Zelt auch ohne Abspannung steht. Sollte man z.B. merken, dass man auf unsicherem Grund steht, ist es möglich, das Zelt auch nach dem aufblasen noch einmal zu verrücken.",
+        "image_bild": "shopify://shop_images/Dale_anderson_mavericks_basecamp_2.jpg"
       }
     },
     "l_content_image_bg_FPwUnb": {
@@ -177,7 +177,7 @@
     "l_video_NhXNnz",
     "l_content_left_rJMTGY",
     "l_content_right_TP9ggz",
-    "l_content_right_AJHhFq",
+    "l_content_left_de8wzD",
     "l_content_image_bg_FPwUnb",
     "l_step_slider_cQnWDP",
     "l_produkt_JmC6JY",
