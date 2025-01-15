@@ -44,6 +44,7 @@
         },
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-Mood-4.jpg",
             "text_headline": "THE FUTURE IS NOW",
