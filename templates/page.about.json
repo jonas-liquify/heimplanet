@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection_hero": {
@@ -17,7 +17,7 @@
         "textarea_paragraph": "",
         "url_button_link": "",
         "text_button_text": "Mehr erfahren",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Company-Mavericks.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Company-Mavericks.jpg"
       }
     },
     "restore_infos_BLCJgH": {
@@ -26,13 +26,13 @@
         "text_subline": "Mission",
         "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
         "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Uncrate-The-Cave-All-Black-Limited-Edition-1.jpg",
+        "image_bild_1": "shopify://shop_images/Heimplanet-Uncrate-The-Cave-All-Black-Limited-Edition-1.jpg",
         "text_caption_1": "",
-        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Inflatable-Tents_b0fbc239-01f7-4c0a-9229-e654e5ae0cfd.jpg",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Inflatable-Tents_b0fbc239-01f7-4c0a-9229-e654e5ae0cfd.jpg",
         "text_caption_2": "",
         "text_zitat": "\"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.\"",
         "text_autor": "R. Buckminster Fuller (Erfinder der geodätischen Kuppel)",
-        "image_bild_3": "shopify:\/\/shop_images\/Heimplanet-Fistral-Classic_10f13703-4112-4974-b482-abbda629a428.jpg",
+        "image_bild_3": "shopify://shop_images/Heimplanet-Fistral-Classic_10f13703-4112-4974-b482-abbda629a428.jpg",
         "text_caption_3": ""
       }
     },
@@ -41,7 +41,7 @@
       "settings": {
         "text_subline": "",
         "text_headline": "Über uns",
-        "text_text": "<b><\/b>WER IST HEIMPLANET? <br><br>HEIMPLANET hat es sich zur Aufgabe gemacht, Menschen zu inspirieren, die natürliche Schönheit unseres Planeten zu erleben. Geboren und ansässig im stürmischen Nordeuropa und hervorgegangen aus der Tradition des deutschen Ingenieurwesens, entwickelt HEIMPLANET Outdoor-Produkte, die die perfekte Synergie aus Innovation und Alltagsabenteuer bieten: bessere Materialien und Hightech, von der Natur inspirierte Designs, bei denen praktische Lösungen zu einer Freude werden, wo auch immer Du hingehst! <br><br><b>WARUM WURDE HEIMPLANET GEGRÜNDET? <br><br><\/b>HEIMPLANET wurde in einem Zelt geboren. Nach der Frustration, bei einem Campingausflug an der europäischen Küste jeden Tag im Dunkeln, im Regen und im Sturm ein Zelt aufzustellen, machten sich die beiden Gründer Stefan und Stefan daran, das Zelt der Zukunft zu entwickeln. Ein besseres Zelt, das von natürlichen Mustern und Designs inspiriert ist, mathematischer Logik folgt und so konstruiert ist, dass es den Elementen standhält. Ein Zuhause, oder \"Heim\", in der Wildnis unseres Planeten.<br><br><b>WELCHE PHILOSOPHIE VERFOLGT HEIMPLANET?<\/b><br><br>Auch in Zukunft gilt bei HEIMPLANET der Ruf nach fortschrittlichem Denken und Handeln. Es handelt sich um eine Denk- und Verhaltenseigenschaft, die Entwicklung nicht als einen linearen Weg, sondern als einen kontinuierlichen Zyklus der Inspiration betrachtet. Wir betrachten Rückschläge als Chancen und Herausforderungen für den Status Quo. #whereveryougo"
+        "text_text": "<b></b>WER IST HEIMPLANET? <br><br>HEIMPLANET hat es sich zur Aufgabe gemacht, Menschen zu inspirieren, die natürliche Schönheit unseres Planeten zu erleben. Geboren und ansässig im stürmischen Nordeuropa und hervorgegangen aus der Tradition des deutschen Ingenieurwesens, entwickelt HEIMPLANET Outdoor-Produkte, die die perfekte Synergie aus Innovation und Alltagsabenteuer bieten: bessere Materialien und Hightech, von der Natur inspirierte Designs, bei denen praktische Lösungen zu einer Freude werden, wo auch immer Du hingehst! <br><br><b>WARUM WURDE HEIMPLANET GEGRÜNDET? <br><br></b>HEIMPLANET wurde in einem Zelt geboren. Nach der Frustration, bei einem Campingausflug an der europäischen Küste jeden Tag im Dunkeln, im Regen und im Sturm ein Zelt aufzustellen, machten sich die beiden Gründer Stefan und Stefan daran, das Zelt der Zukunft zu entwickeln. Ein besseres Zelt, das von natürlichen Mustern und Designs inspiriert ist, mathematischer Logik folgt und so konstruiert ist, dass es den Elementen standhält. Ein Zuhause, oder \"Heim\", in der Wildnis unseres Planeten.<br><br><b>WELCHE PHILOSOPHIE VERFOLGT HEIMPLANET?</b><br><br>Auch in Zukunft gilt bei HEIMPLANET der Ruf nach fortschrittlichem Denken und Handeln. Es handelt sich um eine Denk- und Verhaltenseigenschaft, die Entwicklung nicht als einen linearen Weg, sondern als einen kontinuierlichen Zyklus der Inspiration betrachtet. Wir betrachten Rückschläge als Chancen und Herausforderungen für den Status Quo. #whereveryougo"
       }
     },
     "store": {
@@ -50,13 +50,17 @@
         "adresse_xPVF8a": {
           "type": "adresse",
           "settings": {
-            "text_adresse": "Adresse"
+            "image_icon": "shopify://shop_images/2025-Heimplanet-Icon-Store.png",
+            "text_adresse": "HEIMPLANET Entwicklungs GmbH",
+            "text_subline": "Shanghaiallee 21, 20457 Hamburg"
           }
         },
         "adresse_9dQJUy": {
           "type": "adresse",
           "settings": {
-            "text_adresse": "Adresse"
+            "image_icon": "shopify://shop_images/2025-Heimplanet-Icon-Telefon_c851ba10-e5fa-40d9-ae45-6e422d90a779.png",
+            "text_adresse": "Telefon",
+            "text_subline": "040 999995500"
           }
         }
       },
@@ -67,10 +71,10 @@
       "settings": {
         "text_headline": "HPT STORE HAMBURG",
         "text_button_text_1": "Mehr erfahren",
-        "url_button_link_1": "shopify:\/\/blogs\/unternehmen\/hpt-store-hamburg",
+        "url_button_link_1": "shopify://blogs/unternehmen/hpt-store-hamburg",
         "text_button_text_2": "Storefinder",
-        "url_button_link_2": "shopify:\/\/pages\/shopfinder-1",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Store-Hamburg-9.jpg"
+        "url_button_link_2": "shopify://pages/shopfinder-1",
+        "image_bild": "shopify://shop_images/Heimplanet-Store-Hamburg-9.jpg"
       }
     },
     "jobs": {
@@ -90,18 +94,18 @@
       "settings": {
         "text_headline": "HEIMPLANET IST INSPIRIERT VON <br>DER BEGEISTERUNG DES REISENS.",
         "textarea_text": "Auf Reisen fühlt man sich lebendig. Alle Sinne sind wach und man erwartet immer etwas Neues. Man stellt sich ständig auf neue Situationen, neue Menschen, neue Kulturen und neue Umgebungen ein. Man muss sich auf weniger verlassen und kann mehr entdecken. Wenn Du Dich auf die Erfahrung einlässt, lernst Du nicht nur neue Dinge, sondern auch Dich selbst kennen.",
-        "url_button_link": "shopify:\/\/collections\/zelte",
+        "url_button_link": "shopify://collections/zelte",
         "text_button_text": "Zelte",
-        "url_button_link_2": "shopify:\/\/collections\/taschen",
+        "url_button_link_2": "shopify://collections/taschen",
         "text_button_text_2": "Taschen",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet_16.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet_16.jpg"
       }
     },
     "article_next_rK9XDh": {
       "type": "article_next",
       "settings": {
         "text_headline": "Weitere Beiträge",
-        "url_button_link": "shopify:\/\/blogs\/abenteuer",
+        "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
