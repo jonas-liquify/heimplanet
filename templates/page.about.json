@@ -62,11 +62,20 @@
             "text_adresse": "Telefon",
             "text_subline": "040 999995500"
           }
+        },
+        "adresse_EzWUyi": {
+          "type": "adresse",
+          "settings": {
+            "image_icon": "shopify://shop_images/2025-Heimplanet-Icon-Mail.png",
+            "text_adresse": "E-Mail",
+            "text_subline": "info@heimplanet.com"
+          }
         }
       },
       "block_order": [
         "adresse_xPVF8a",
-        "adresse_9dQJUy"
+        "adresse_9dQJUy",
+        "adresse_EzWUyi"
       ],
       "settings": {
         "text_headline": "HPT STORE HAMBURG",
