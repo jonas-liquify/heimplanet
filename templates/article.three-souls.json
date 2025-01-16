@@ -14,50 +14,12 @@
       "settings": {
         "text_subline": "",
         "text_headline": "",
-        "textarea_longer_text": "Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren.",
+        "textarea_longer_text": "",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/40000_elevation.png"
-      }
-    },
-    "l_dropdowns_rTXkBR": {
-      "type": "l_dropdowns",
-      "blocks": {
-        "dropdown_4REVyt": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
-            "text_headline": "Sembène Diallo",
-            "textarea_text": "Ein Niederländisch-Senegaleser (32) mit einer facettenreichen Karriere. Als Künstler und Model drückt er Kreativität und Eleganz aus, während er als IT-Spezialist sein technisches Können unter Beweis stellt. Sembènes sportlicher Hintergrund umfasst Basketball, Laufen, Bouldern, Yoga und Radfahren, was ihn zu einem vielseitigen Athleten macht. Mit dieser Herausforderung will er die Grenzen seiner körperlichen Leistungsfähigkeit und mentalen Freiheit erweitern. Für Trail stellt für ihn eine riesige Leinwand dar, auf der er mit jedem Schritt ein einzigartiges Bild seiner eigenen Stärke und Widerstandskraft malt. Zusammen mit zwei Gleichgesinnten, die ebenfalls die Schönheit der Natur und die Aufregung anspruchsvoller Terrains teilen, hat dieses Abenteuer das Potenzial, einen bleibenden Eindruck zu hinterlassen – nicht nur in uns selbst, sondern auch darüber hinaus. Sembène möchte ein Projekt unterstützen, das Inspiration und Positivität in vielen Kulturen und Ethnien erzeugen kann."
-          }
-        },
-        "dropdown_GFV9G3": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
-            "text_headline": "Kevin Ellison",
-            "textarea_text": "Ein Deutsch-Amerikaner (36), der auf vielen Hochzeiten tanzt. Kevin ist Fotograf und Kreativer sowie Sportwissenschaftler. Zudem hat er Erfahrung als Schauspieler und (Sport-)Model vor der Kamera. Sein sportlicher Hintergrund umfasst Basketball, Capoeira, Surfen sowie Straßen- und Trailrunning, einschließlich einiger Ultramarathons. Er ist fest entschlossen, dieses eigens gestaltete Trailrunning-Abenteuer anzugehen, das ohne Zweifel zu einer seiner größten körperlichen Herausforderungen im Leben werden könnte. Er freut sich darauf, diese monumentale Reise in den Pyrenäen mit seinen Kameraden und Freunden Sembène und Patrick zu teilen. Das Ziel ist, mentale und physische Grenzen zu überschreiten, sich selbst zu übertreffen und das scheinbar Unüberwindbare zu bewältigen. Immer mit dem festen Glauben daran, dass mit Ausdauer und Entschlossenheit jedes Hindernis überwunden werden kann. Durch dieses Projekt möchte er nicht nur sich selbst herausfordern, sondern auch anderen eine Inspirationsquelle sein und ihnen zeigen, dass es keine Grenzen gibt, wenn man es wagt, ohne Einschränkungen zu träumen."
-          }
-        },
-        "dropdown_GrUDKU": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
-            "text_headline": "Patrick Lueke",
-            "textarea_text": "Patrick Lueke (31) aus Benin und Deutschland ist ein Coach für Persönliche Entwicklung, Model und Schauspieler. Sein sportlicher Hintergrund ist vielfältig und umfasst Handball, Fußball, Tricking, Jiu-Jitsu sowie Trail- und Straßenlauf. Diese Quest wird jede körperliche Herausforderung, die er zuvor erlebt hat, in den Schatten stellen. Er fordert sich selbst heraus, all seine Kräfte zu mobilisieren und ein erhöhtes Maß an Bewusstsein und Bereitschaft zu erreichen. Dies bringt ihn dazu, seinen Körper in einer völlig neuen Dimension auf das Terrain einzustimmen, dem er gegenübersteht. Die Möglichkeit, diesen unglaublichen Weg mit zwei seiner besten Freunde zu teilen, ist für ihn eine Ehre und eine einmalige Gelegenheit, die er sich von keiner Angst oder Unsicherheit nehmen lassen wird. Er weiß tief in sich, dass ein loderndes Feuer trägt, das es ihm ermöglicht, alles zu erreichen, was sein Herz begehrt. Diese Reise wird ihm helfen, diese innere Lebenskraft auf intensive und körperliche Weise zu erleben. „Ich möchte mich grenzenlos lebendig fühlen.“"
-          }
-        }
-      },
-      "block_order": [
-        "dropdown_4REVyt",
-        "dropdown_GFV9G3",
-        "dropdown_GrUDKU"
-      ],
-      "settings": {
-        "text_headline": "Three Souls",
-        "textarea_text": "Unsere Mission ist es, von der Atlantikküste bis zum Mittelmeer zu trailrunnen, indem wir die französischen und spanischen Pyrenäen in einem Zeitraum von 2-3 Wochen durchqueren, beginnend am 12. August 2024. Eine wilde Mischung aus selbst entworfenen und unterstützten Routen, mit Elementen der drei großen Strecken (GR11, GR10 & HRP), die die Pyrenäen durchqueren.\n\nAn jedem ihrer Stopps erwartet die drei ein Camp aus HEIMPLANET KIRRA Zelten, um sich von den Strapazen zu erholen und neue Kraft zu schöpfen."
       }
     },
     "article_products_V4qaqk": {
@@ -66,6 +28,14 @@
         "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
         "url_button_link": "",
         "text_button_text": "Mehr davon"
+      }
+    },
+    "l_text_logos_iXk8rJ": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Three Souls",
+        "text_text": "Unsere Mission ist es, von der Atlantikküste bis zum Mittelmeer zu trailrunnen, indem wir die französischen und spanischen Pyrenäen in einem Zeitraum von 2-3 Wochen durchqueren, beginnend am 12. August 2024. Eine wilde Mischung aus selbst entworfenen und unterstützten Routen, mit Elementen der drei großen Strecken (GR11, GR10 & HRP), die die Pyrenäen durchqueren. <br><br>An jedem ihrer Stopps erwartet die drei ein Camp aus HEIMPLANET KIRRA Zelten, um sich von den Strapazen zu erholen und neue Kraft zu schöpfen."
       }
     },
     "l_content_right_fX4Dcz": {
@@ -98,64 +68,6 @@
         "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
         "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
-      }
-    },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
-          }
-        }
-      },
-      "block_order": [
-        "feature_YRDDyY",
-        "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
       }
     },
     "l_produkt_QbA6R8": {
@@ -222,14 +134,12 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_dropdowns_rTXkBR",
     "article_products_V4qaqk",
+    "l_text_logos_iXk8rJ",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_gallery_67Grn9",
-    "l_headline_mono_4Vq68U",
-    "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next",
     "l_html_text_L8c4CD"
