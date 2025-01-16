@@ -1,0 +1,113 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="article_breadcrumbs"><a li-object:href="routes.root_url" href="{{ routes.root_url }}" class="text-weight-semibold text-opacity-40"><span>
+{{ section.settings.text_home }}
+</span>
+</a><img src="{{ 'chevron_right.svg' | asset_url }}" loading="lazy" alt="" class="article_breadcrumb-icon">
+<a li-object:href="blog.url" li-object="blog.title" href="{{ blog.url }}" class="text-weight-semibold text-opacity-40">{{ blog.title }}</a><img src="{{ 'chevron_right.svg' | asset_url }}" loading="lazy" alt="" class="article_breadcrumb-icon">
+<div li-object="article.title | truncate: 20" class="text-weight-semibold">{{ article.title | truncate: 20 }}</div></div><div class="article_component"><div id="content" class="rich-text_text is-article is-underline"><div id="w-node-_2eb95747-994f-e249-1118-2d29eb6c7a95-eb6c7a86" class="rich-text_text-block"><h1 li-object="article.title" class="heading-style-h1">{{ article.title }}</h1></div><img src="{{ article.image | img_url: 'master' }}" loading="eager" id="w-node-_2eb95747-994f-e249-1118-2d29eb6c7a9a-eb6c7a86" li-object:alt="article.image.alt" alt="{{ article.image.alt }}" li-object:src="article.image | img_url: 'master'" class="rich-text_image">
+<div li-object="article.content" id="w-node-_2eb95747-994f-e249-1118-2d29eb6c7a9b-eb6c7a86" class="text-rich-text w-richtext">{{ article.content }}</div></div><div class="rich-text_inhalt-component hide-tablet"><div class="rich-text_inhalt-wrapper"><div class="blog_toc-wrapper"><div class="heading-style-small">
+{{ section.settings.text_inhaltsverzeichnis }}
+</div>
+<div id="toc-wrapper" class="blog_toc-list"><div class="custom-code-toc_script w-embed w-script"><!--   Start Virtual Entity Automatic ToC CREATOR   --><div><style>.toc_item {
+            list-style-type: none;
+        }
+    </style><script>let contentID = "content"; // ID of content
+        let tocID = "toc-wrapper"; // ID to TOC element, if empty use parent div
+        let headingLevels = ["h2", "h3"]; // Define the different levels
+        let offset_size = "6rem"; // Define the offset of the anchor on scroll
+        let toc_container;
+				let anchors = [];
+        if (tocID == "") {
+            var scriptTag = document.getElementsByTagName('script');
+            scriptTag = scriptTag[scriptTag.length - 1];
+            toc_container = scriptTag.parentNode;
+        }
+        window.addEventListener('load', () => {
+            let content = document.getElementById(contentID);
+            if (tocID != "") {
+                toc_container = document.getElementById(tocID);
+            }
+            var toc = document.createElement('ul');
+            toc.className = "toc_uolist";
+            toc_container.appendChild(toc);
+            let sub_eles = content.getElementsByTagName('*');
+            var nesting = [toc];
+            var hadH2 = false;
+            for (const ele of sub_eles) {
+            		if (ele.tagName.toLowerCase() == "h2"){
+                	hadH2 = true;
+                }
+                var i;
+                for (i = 0; i < headingLevels.length; i++) {
+                    var level = headingLevels[i];
+                    if ((level[0] == '.' && ele.className.toLowerCase() == level.slice(1).toLowerCase()) ||
+                        ele.tagName.toLowerCase() == level.toLowerCase()) {
+                        break;
+                    }
+                }
+                if (i < headingLevels.length) {
+                    while (nesting.length - 1 > i)
+                        nesting.pop()
+                    while (nesting.length - 1 < i) {
+                        let nest = document.createElement('ul');
+                        nest.className = "toc_uolist";
+                        nesting[nesting.length - 1].appendChild(nest);
+                        nesting.push(nest);
+                    }
+                    let toc_ele = document.createElement('a');
+                    let anchor = document.createElement('a');
+										anchors.push([anchor, toc_ele]);
+										for (var i = 0; i < ele.innerText.length; i++) {
+				                let germanReplacements = { "&Atilde;&frac14;": "ue", "&Atilde;&oelig;": "Ue", "&Atilde;&bdquo;": "Ae", "&Atilde;&curren;": "ae", '&Atilde;&ndash;': "Oe", "&Atilde;&para;": "oe", "&Atilde;&Yuml;": "ss" }
+				                if (/[a-zA-Z0-9]/.test(ele.innerText[i])) {
+				                    anchor.id += ele.innerText[i];
+				                } else if (ele.innerText[i] == " ") {
+				                    anchor.id += "-";
+				                } else if (ele.innerText[i] in germanReplacements) {
+				                    anchor.id += germanReplacements[ele.innerText[i]];
+				                }
+				            }
+                    anchor.style = "top:-" + offset_size + "; position: relative;"
+                    ele.appendChild(anchor);
+                    toc_ele.href = "#" + anchor.id;
+                    toc_ele.innerText = ele.innerText;
+                    toc_ele.className = "toc_link";
+                    var item = document.createElement('li');
+                    item.appendChild(toc_ele);
+                    item.className = "toc_item";
+                    nesting[nesting.length - 1].appendChild(item);
+                }
+            }
+            if (!hadH2){
+            	toc.style.display = "None";
+              let toHide = document.getElementsByClassName("toc_inner-wrapper");
+              for (var i = 0; i < toHide.length; i++){
+              	toHide[i].style.display = "none";
+              }
+            }
+        });
+				window.addEventListener('scroll', () => {
+				    let cur_active;
+				    let cur_value;
+				    for (var i = 0; i < anchors.length; i++) {
+				        anchors[i][1].classList.remove('toc_is-active');
+				        var pos = anchors[i][0].getBoundingClientRect().top;
+				        if (pos < window.innerHeight / 2) {
+				            if (!cur_value || cur_value < pos) {
+				                cur_value = pos;
+				                cur_active = anchors[i][1];
+				            }
+				        }
+				    }
+				    console.log(cur_active.href);
+				    if (cur_active) {
+				        cur_active.classList.add('toc_is-active');
+				    }
+				});
+    </script></div><!--   End Virtual Entity Automatic ToC CREATOR   --></div><ul role="list" class="toc_uolist hide"><li class="toc_item"><a href="#" class="toc_link toc_is-active">Text Link</a></li><li class="toc_item"><a href="#" class="toc_link">Text Link</a></li></ul></div></div></div><div class="rich-text_info-more"><div class="rich-text_inhalt-cta">{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685d-cb7c685d">
+    <a id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685e-cb7c685d" href="{{ section.settings.url_button_url }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}<img src="{{ section.settings.image_trust_logo | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_trust_logo.alt }}" class="rich-text_img-trust"}>
+</div><div class="text-opacity-70">
+{{ section.settings.text_trust_text }}
+</div>
+</div></div></div></div></div> {% schema %} {"tag":"section","name":"B - Artikel","class":"section_article","settings":[{"id":"text_home","type":"text","label":"Home","default":"Home"},{"id":"text_inhaltsverzeichnis","type":"text","label":"Inhaltsverzeichnis","default":"Inhaltsverzeichnis"},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Angebot einholen"},{"id":"image_trust_logo","type":"image_picker","label":"Trust Logo"},{"id":"text_trust_text","type":"text","label":"Trust Text","default":"Kostenlos in weniger als 2 Minuten"}],"presets":[{"name":"B - Artikel","category":"Liquify"}]} {% endschema %}

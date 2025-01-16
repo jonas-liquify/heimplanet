@@ -1,0 +1,89 @@
+<div class="{% if section.settings.background_color == '' %}padding-global padding-section-small{% else %}padding-global padding-section-small background-color-light-blue{% endif %}"><div class="container-large"><div class="max-width-large align-center"><div li-content-for-blocks="" class="content-centerd_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text">
+                    <div class="max-width-xlarge"> {{ block.settings.richtext_intro_text }} </div>
+
+                </div>
+    {% when 'span-element' %}
+            <div li-block="Span Element">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+</div><div class="friend_three_component"><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="friend_three_img" style="object-position: {{ section.settings.image_bild.presentation.focal_point }}"}>
+</div><div class="friend_three_grid">{% for block in section.blocks %}
+    {% if block.type == "number-block" %}
+                    <div li-block="Number Block" id="w-node-_53ccd81e-108a-7fea-4f47-568015a7f553-15a7f54b" class="friend_three_item">
+                                    <div class="friend_three_top"><img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="icon-1x1-very-large"}>
+<div class="friend_three_number">
+{{ block.settings.text_nummer }}
+</div>
+</div>
+                                    <div class="friend_three_bottom"><p id="w-node-_53ccd81e-108a-7fea-4f47-568015a7f559-15a7f54b" class="heading-style-h3">
+{{ block.settings.text_headline }}
+</p>
+<div id="w-node-_53ccd81e-108a-7fea-4f47-568015a7f55b-15a7f54b"> {{ block.settings.richtext_text }} </div>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="cta-in-section">{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group">
+    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ section.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ section.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}<div class="cta-in-section_checks">{% for block in section.blocks %}
+    {% if block.type == "checkmark" %}
+                    <div li-block="Checkmark" class="cta-in-section_check-item">
+                                    <img loading="lazy" src="{{ 'green-check.svg' | asset_url }}" alt="" class="cta-in-section_check-icon">
+
+                                    <div>
+{{ block.settings.text_text }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div><div class="li-custom"><div class="li-custom w-embed"></div>
+</div> {% schema %} {"tag":"section","name":"C - Empfehlen","class":"section_friend_three","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Wirksam gegen Kalk f\u00fcr maximale Effizienz"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Aqon Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_intro_text","type":"richtext","label":"Intro Text","default":"<p>AQON Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen. Dies sorgt f\u00fcr eine optimale Energieeffizienz und senkt Kosten f\u00fcr Wartung &amp; Instanthaltung<\/p>"}]},{"name":"Span Element","type":"span-element","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Number Block","type":"number-block","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_nummer","type":"text","label":"Nummer","default":"1"},{"id":"text_headline","type":"text","label":"Headline","default":"Anfrage stellen"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Die empfohlene Person f\u00fcllt das Anfrageformular aus oder kontaktiert unser Service-Team telefonisch.<\/p>"}]},{"name":"Checkmark","type":"checkmark","settings":[{"id":"text_text","type":"text","label":"Text","default":"Inkl. kostenlosen Wasserh\u00e4rtetest"}]}],"settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"},{"type":"select","id":"background_color","label":"Hintergrund Farbe","options":[{"value":"","label":"Wei\u00df"},{"value":"background-color-light-blue","label":"Hellblau"}],"default":""}],"presets":[{"name":"C - Empfehlen","category":"Liquify"}]} {% endschema %}

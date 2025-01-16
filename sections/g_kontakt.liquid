@@ -1,0 +1,81 @@
+<div class="padding-global padding-section-medium is-contact"><div class="container-large"><div class="contact_component-grid"><div id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6c9ea-61a6c9e6" class="contact_content-holder"><div class="content-centerd_wrapper text-align-left"><div class="heading-style-small">
+{{ section.settings.text_headline_small }}
+</div>
+<p class="heading-style-h2">
+{{ section.settings.text_hadline }}
+</p>
+</div><div class="checkbox_list-wrapper">{% for block in section.blocks %}
+    {% if block.type == "usps" %}
+                    <div li-block="USPs" id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6c9f1-61a6c9e6" class="checkbox_list-item">
+                                    <img loading="lazy" src="{{ 'check-white.svg' | asset_url }}" alt="" class="checkbox_check">
+
+                                    <div>
+{{ block.settings.text_text }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6c9f7-61a6c9e6" class="contact_person"><img loading="lazy" alt="{{ section.settings.image_person_bild.alt }}" src="{{ section.settings.image_person_bild | img_url: 'master' }}" class="contact_img"}>
+<div class="contact_details"><div class="heading-style-h3">
+{{ section.settings.text_person_name }}
+</div>
+<div class="text-opacity-80">
+{{ section.settings.text_person_position }}
+</div>
+<div class="contact_links">{% for block in section.blocks %}
+    {% if block.type == "link" %}
+                    <div li-block="Link">
+                                    <a href="{{ block.settings.url_link_url }}" class="contact_link-block w-inline-block"> <div>{{ block.settings.text_link_text }}</div><img loading="lazy" src="{{ 'arrow-back-white.svg' | asset_url }}" alt="" class="contact_link-icon"> </a>
+
+                                    <a href="{{ block.settings.url_phone_url }}" class="contact_link-block w-inline-block"> <div>{{ block.settings.text_phone_text }}</div><img loading="lazy" src="{{ 'arrow-back-white.svg' | asset_url }}" alt="" class="contact_link-icon"> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+<div id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6ca04-61a6c9e6" class="text-size-very-tiny"> {{ section.settings.textarea_offnungszeiten }} </div>
+</div></div></div></div><div id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6ca08-61a6c9e6" class="contact_block"><div class="contact_form-block-holder w-form"><form id="email-form" name="email-form" data-name="Email Form" redirect="/pages/vielen-dank" data-redirect="/pages/vielen-dank" action="https://hook.eu2.make.com/emav3s78ceegd6kmcqi2bviceowrygjh" method="get" class="contact_form-holder" data-wf-page-id="66fd23cae94141cab1762083" data-wf-element-id="177a2a30-159f-4ee3-88cd-a56261a6ca0a"><div class="contact_split is-wrap"><div id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6ca0c-61a6c9e6" class="contact_form-item"><label for="element-23" class="field-label">
+{{ section.settings.text_anrede }}
+</label>
+<select id="element-23" name="4" data-name="4" class="input w-select"><option value=""></option><option value="Herr">Herr</option><option value="Frau">Frau</option><option value="Divers">Divers</option></select></div><div id="w-node-_99ad47a4-8ee4-2942-0a1f-7cbaf56e83ea-61a6c9e6" class="contact_form-item"><label for="element-24" class="field-label">
+{{ section.settings.text_vorname }}
+</label>
+<input class="input w-input" maxlength="256" name="1" data-name="1" placeholder="" type="text" id="element-24" required="">
+</div><div id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6ca10-61a6c9e6" class="contact_form-item"><label for="element-25" class="field-label">
+{{ section.settings.text_nachname }}
+</label>
+<input class="input w-input" maxlength="256" name="2" data-name="2" placeholder="" type="text" id="element-25" required="">
+</div></div><div id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6ca14-61a6c9e6" class="contact_form-item"><label for="email" class="field-label">
+{{ section.settings.text_email }}
+</label>
+<input class="input w-input" maxlength="256" name="5" data-name="5" placeholder="" type="email" id="email" required="">
+<div class="text-error">Bitte geben Sie eine richtige E-Mail Adresse ein</div></div><div id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6ca1a-61a6c9e6" class="contact_form-item"><label for="telefonnummer" class="field-label">
+{{ section.settings.text_telefonnummer }}
+</label>
+<input class="input w-input" maxlength="256" name="8" data-name="8" placeholder="" type="tel" id="telefonnummer" required="">
+<div class="text-error">Bitte geben Sie eine richtige Telefonnummer ein</div></div><div id="w-node-_177a2a30-159f-4ee3-88cd-a56261a6ca20-61a6c9e6" class="contact_form-item"><label for="element-28" class="field-label">
+{{ section.settings.text_nachricht }}
+</label>
+<textarea id="element-28" name="6" maxlength="2000" data-name="6" placeholder="" class="text-area w-input"></textarea></div><div id="w-node-aa353b49-bb3d-c4a0-2c6b-20970bbc97aa-61a6c9e6" class="contact_form-checkbox-wrapper"><div> {{ section.settings.richtext_datenschutzinfo }} </div>
+</div><button id="w-node-b4608108-dd6d-bbc7-e2bc-c73098b20935-61a6c9e6" type="submit" class="button">
+{{ section.settings.text_button_text }}
+</button>
+<div class="hide"><input type="hidden" name="language" value="{{ request.locale.iso_code }}">
+<input type="hidden" name="currentpage" value="{{ request.path | prepend: request.origin }}">
+<input type="hidden" name="filled" id="filled-2" value="">
+<input type="hidden" name="15" id="15" value="">
+<input type="hidden" name="10" id="10" value="">
+<input type="hidden" name="12" id="12" value="">
+<input type="hidden" name="13" id="13" value="">
+<input type="hidden" name="14" id="14" value="">
+<input type="hidden" name="redirectUrl" value="/pages/kontaktformular-vielen-dank">
+</div><div id="w-node-_9bb3d2b8-06ed-eed4-d93f-e8a917c86b88-61a6c9e6" class="hide w-embed w-script"><script>window.addEventListener("load", function () {
+    setTimeout(function () {
+        const formInput = document.querySelector("#filled-2");
+        if (formInput) {
+            formInput.value = "filled";
+            console.log("Das versteckte Input-Feld wurde erfolgreich gef&uuml;llt.");
+        }
+    }, 8000); // 10 Sekunden Timeout
+});
+</script></div></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"G - Kontakt","class":"section_contact-form background-color-dark-blue","blocks":[{"name":"USPs","type":"usps","settings":[{"id":"text_text","type":"text","label":"Text","default":"<span class=\"text-weight-semibold\">Semibold Text:<\/span> This is some text inside of a div block."}]},{"name":"Link","type":"link","settings":[{"id":"url_link_url","type":"url","label":"Link URL"},{"id":"text_link_text","type":"text","label":"Link Text","default":"info@aqon-pure.com"},{"id":"url_phone_url","type":"url","label":"Phone URL"},{"id":"text_phone_text","type":"text","label":"Phone Text","default":"+49 (0) 6251 - 59 30 80"}]}],"settings":[{"id":"text_headline_small","type":"text","label":"Headline Small","default":"Kontakt aufnehmen"},{"id":"text_hadline","type":"text","label":"Hadline","default":"Weniger Kalkprobleme in Ihrem Haus. Jetzt unverbindlich anfragen."},{"id":"image_person_bild","type":"image_picker","label":"Person Bild"},{"id":"text_person_name","type":"text","label":"Person Name","default":"Jens Michael"},{"id":"text_person_position","type":"text","label":"Person Position","default":"Technische Beratung &amp; Service"},{"id":"textarea_offnungszeiten","type":"textarea","label":"\u00d6ffnungszeiten","default":"Mo \u2013 Do: 8:00 \u2013 17:00 Uhr\u2028<br\/>Fr: 8:30 \u2013 14:30 Uhr"},{"id":"text_anrede","type":"text","label":"Anrede","default":"Anrede"},{"id":"text_vorname","type":"text","label":"Vorname","default":"Vorname"},{"id":"text_nachname","type":"text","label":"Nachname","default":"Nachname"},{"id":"text_email","type":"text","label":"Email","default":"E-Mail"},{"id":"text_telefonnummer","type":"text","label":"Telefonnummer","default":"Telefonnummer"},{"id":"text_nachricht","type":"text","label":"Nachricht","default":"Nachricht"},{"id":"richtext_datenschutzinfo","type":"richtext","label":"Datenschutzinfo","default":"<p>Ich stimme zu, dass AQON Pure meine Daten zur Bearbeitung meiner Anfrage verwenden darf. Ich habe die Datenschutzbestimmungen gelesen und verstanden.<\/p>"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Jetzt unverbindlich anfragen"}],"presets":[{"name":"G - Kontakt","category":"Liquify"}]} {% endschema %}

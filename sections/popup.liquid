@@ -1,0 +1,38 @@
+<div><div id="popup" class="popup_component hide"><div class="text-size-medium text-weight-semibold">
+{{ section.settings.text_bis_zu }}
+</div>
+<div class="popup_text">
+{{ section.settings.text_700 }}
+</div>
+<div class="text-size-medium text-weight-semibold">
+{{ section.settings.text_black_friday }}
+</div>
+{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ section.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ section.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}<div class="spacer-small"></div><div class="text-style-disclaimer">
+{{ section.settings.text_disclaimer }}
+</div>
+<div id="closepopup" class="popup_close"><img src="{{ 'close-icon.svg' | asset_url }}" loading="lazy" alt="" class="popup_img">
+</div>{% if section.settings.image_bild != blank %}    <div li-if="section.settings.image_bild != blank">
+    <img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="popup_image"}>
+    </div>
+{% endif %}</div><div class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", () => {
+    const popup = document.getElementById("popup");
+    const closePopupButton = document.getElementById("closepopup");
+    // Check if the popup has already been shown
+    if (!localStorage.getItem("popupShown")) {
+      popup.classList.remove("hide");
+    }
+    // Close popup and save to localStorage
+    closePopupButton.addEventListener("click", () => {
+      popup.classList.add("hide");
+      localStorage.setItem("popupShown", "true");
+    });
+  });
+</script></div></div> {% schema %} {"tag":"div","name":"Popup","class":"section_popup","settings":[{"id":"text_bis_zu","type":"text","label":"Bis zu","default":"Jetzt bis zu"},{"id":"text_700","type":"text","label":"700","default":"700\u20ac"},{"id":"text_black_friday","type":"text","label":"Black Friday","default":"Black-Friday Rabatt sichern"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"},{"id":"text_disclaimer","type":"text","label":"Disclaimer","default":"Der Rabatt wird automatisch bei Ihrer Bestellung abgezogen."},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"Popup","category":"Liquify"}]} {% endschema %}

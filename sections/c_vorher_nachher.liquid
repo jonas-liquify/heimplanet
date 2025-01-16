@@ -1,0 +1,101 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="compare_max-width"><div li-content-for-blocks="" class="content-centerd_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text">
+                    <div class="max-width-xlarge"> {{ block.settings.richtext_intro_text }} </div>
+
+                </div>
+    {% when 'span-element' %}
+            <div li-block="Span Element">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+</div><div class="compare_component"><div class="swiper is-compare"><div class="swiper-wrapper">{% for block in section.blocks %}
+    {% if block.type == "slide" %}
+                    <div li-block="Slide" class="swiper-slide">
+                                    <div class="compare_card"><div class="compare_top"><div id="w-node-_5683fd10-6e31-754e-f4f8-24dc28e9b58d-28e9b582" class="compare_img-wrapper"><img src="{{ block.settings.image_bild_vorher | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild_vorher.alt }}" class="compare_img"}>
+<div class="compare_badge-holder"><div class="compare_badge"><div class="text-weight-semibold text-color-white"> {{ block.settings.richtext_vorher }} </div>
+</div></div></div><div id="w-node-_5683fd10-6e31-754e-f4f8-24dc28e9b596-28e9b582" class="compare_img-wrapper"><img src="{{ block.settings.image_bild_nachher | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild_nachher.alt }}" class="compare_img"}>
+<div class="compare_badge-holder"><div class="compare_badge"><div class="text-weight-semibold text-color-white"> {{ block.settings.richtext_nachher }} </div>
+</div></div></div></div><div class="compare_bottom-info">{% if block.settings.checkbox_hinweis_icon == true %}    <img src="{{ 'info-icon.svg' | asset_url }}" loading="lazy" li-if="block.settings.checkbox_hinweis_icon == true" alt="" class="compare_icon">
+{% endif %}<div class="compare_info-text"><div id="w-node-_5683fd10-6e31-754e-f4f8-24dc28e9b5a2-28e9b582" class="heading-style-h3">
+{{ block.settings.text_headline }}
+</div>
+<div id="w-node-_5683fd10-6e31-754e-f4f8-24dc28e9b5a4-28e9b582"> {{ block.settings.richtext_text }} </div>
+</div></div><div class="hide w-embed"></div>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="testimonial_swiper-leff"><div class="compare_swiper-prev"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_7192_3567" style="mask-type:alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="21"><rect x="2.2207" y="22.7769" width="20.5541" height="20.5541" transform="rotate(-90 2.2207 22.7769)" fill="currentColor"></rect></mask><g mask="url(#mask0_7192_3567)"><path d="M11.6406 12.4997L15.5801 16.4392L14.3811 17.6382L9.24258 12.4997L14.3811 7.36116L15.5801 8.56014L11.6406 12.4997Z" fill="currentColor"></path></g></svg></div></div></div><div class="testimonial_swiper-right"><div class="compare_swiper-next"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_7192_3574" style="mask-type:alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="21"><rect x="22.7793" y="2.22314" width="20.5541" height="20.5541" transform="rotate(90 22.7793 2.22314)" fill="currentColor"></rect></mask><g mask="url(#mask0_7192_3574)"><path d="M13.3594 12.5003L9.41992 8.5608L10.6189 7.36182L15.7574 12.5003L10.6189 17.6388L9.41992 16.4399L13.3594 12.5003Z" fill="currentColor"></path></g></svg></div></div></div></div></div></div></div>{% if section.settings.checkbox_pfeil == true %}
+<div class="direction-holder"><img loading="lazy" src="{{ 'line-green.svg' | asset_url }}" alt="" class="direction-icon">
+</div>{% endif %}
+<div class="hide w-embed w-script"><script>pageFunctions.addFunction('sliderVorher', function() {
+    const swiperIsCompare = new Swiper('.is-compare', {
+      // Default parameters
+      slidesPerView: 1,
+      spaceBetween: 32,
+      navigation: {
+        nextEl: '.compare_swiper-next',
+        prevEl: '.compare_swiper-prev',
+      },
+      // Responsive breakpoints
+      /*breakpoints: {
+    // when window width is >= 320px
+    479: {
+     slidesPerView: 2,
+        spaceBetween: 50,
+    },
+    // when window width is >= 480px
+    767: {
+     slidesPerView: 2,
+        spaceBetween: 50,
+    },
+    // when window width is >= 640px
+    991: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    }
+  },*/
+      centeredSlides: true,
+    })
+    });
+</script></div> {% schema %} {"tag":"section","name":"C - Vorher Nachher","class":"section_compare background-color-light-blue","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Wirksam gegen Kalk f\u00fcr maximale Effizienz"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Aqon Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_intro_text","type":"richtext","label":"Intro Text","default":"<p>AQON Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen. Dies sorgt f\u00fcr eine optimale Energieeffizienz und senkt Kosten f\u00fcr Wartung &amp; Instanthaltung<\/p>"}]},{"name":"Span Element","type":"span-element","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Slide","type":"slide","settings":[{"id":"image_bild_vorher","type":"image_picker","label":"Bild vorher"},{"id":"richtext_vorher","type":"richtext","label":"Vorher","default":"<p>Vorher ohne AQON Pure<\/p>"},{"id":"image_bild_nachher","type":"image_picker","label":"Bild nachher"},{"id":"richtext_nachher","type":"richtext","label":"Nachher","default":"<p>Nachher mit AQON Pure<\/p>"},{"id":"text_headline","type":"text","label":"Headline","default":"Heading"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Auf Glas und Keramikoberfl\u00e4chen lagert sich kalt weniger ab. Nach einer bestimmten Zeit wird der Kalk aber trotzdem sichtbar, so wie bei allen anderen Oberfl\u00e4chen. Ganz auf Putzen kann man also nicht verzichten, man kann aber aufjedenfall mit Ersparnissen rechnen.<\/p>"},{"type":"checkbox","id":"checkbox_hinweis_icon","label":"Hinweis Icon","default":true}]}],"settings":[{"id":"checkbox_pfeil","type":"checkbox","label":"Pfeil","default":true}],"presets":[{"name":"C - Vorher Nachher","category":"Liquify"}]} {% endschema %}

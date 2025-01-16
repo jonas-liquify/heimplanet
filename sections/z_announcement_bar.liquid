@@ -1,0 +1,25 @@
+<div class="nav_container"><div class="dislaimer_component"><div class="dislaimer_message"><div class="text-size-tiny is-marquee">
+{{ section.settings.text_text }}
+</div>
+</div><div class="disclaimer_blocks">{% for block in section.blocks %}
+    {% if block.type == "link" %}
+                    <div li-block="Link" class="hide-tablet">
+                                    <a href="{{ block.settings.url_link }}" class="disclaimer_block w-inline-block"> <div class="text-weight-semibold">{{ block.settings.text_text }}</div> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+{% if localization.available_languages.size > 1 %}    <div li-if="localization.available_languages.size > 1" class="li-language-element">
+    <div class="li-language-wrapper">{% form 'localization' %}
+<div data-delay="300" data-hover="true" class="li-langauge-dropdown w-dropdown"><div lang="{{ localization.language.iso_code}}" class="disclaimer_block is-lang w-dropdown-toggle"><div li-object="localization.language.name" class="text-weight-semibold is-in-switcher">{{ localization.language.name }}</div><img src="{{ 'arrow_back_ios_new_white.svg' | asset_url }}" loading="lazy" alt="" class="disclaimer_dropdown">
+</div><nav li-for:inside="language in localization.available_languages" class="li-language-list w-dropdown-list">
+        {% for language in localization.available_languages %}                            
+                            {% unless localization.language.iso_code == language.iso_code %}    <div li-unless="localization.language.iso_code == language.iso_code">
+    <a href="#" li-object="language.name" lang="{{ language.iso_code }}" data-value="{{ language.iso_code }}" hreflang="{{ language.iso_code }}" class="li-language-link w-dropdown-link">{{ language.name }}</a>    </div>
+{% endunless %}
+                            
+                    {% endfor %}    </nav>
+</div><input type="hidden" name="language_code" value="{{ localization.language.iso_code }}">
+{% endform %}
+</div>    </div>
+{% endif %}</div></div></div> {% schema %} {"tag":"div","name":"Z - Announcement Bar","class":"section_disclaimer","blocks":[{"name":"Link","type":"link","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"text_text","type":"text","label":"Text","default":"F\u00fcr Gewerbekunden"}]}],"settings":[{"id":"text_text","type":"text","label":"Text","default":"+++ Das ist eine Ank\u00fcndigung bzw. Nachrich\u00a0\u00a0Das ist eine Ank\u00fcndigung bzw. Nachrich +++"}],"presets":[{"name":"Z - Announcement Bar","category":"Liquify"}]} {% endschema %}

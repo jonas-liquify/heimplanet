@@ -1,0 +1,467 @@
+<div class="padding-global padding-section-medium is-richtext"><div class="container-large">{% if section.settings.checkbox_intro_block == true %}
+<div class="rich-text_intro"><div li-content-for-blocks="" class="content-centerd_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text">
+                    <div class="max-width-xlarge"> {{ block.settings.richtext_intro_text }} </div>
+
+                </div>
+    {% when 'span-element' %}
+            <div li-block="Span Element">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+<div class="rich-text_tags">{% for block in section.blocks %}
+    {% if block.type == "button-navigation" %}
+                    <div li-block="Button Navigation" id="w-node-dc08a734-20ae-8755-54b8-264f28368050-950067f1">
+                                    <a id="w-node-dc08a734-20ae-8755-54b8-264f28368051-950067f1" href="{{ block.settings.url_link }}" class="button is-secondary is-anchor w-inline-block"> <div>{{ block.settings.text_text }}</div> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div>{% endif %}
+<div class="rich-text_component">{% if section.settings.inhaltsverzeichnis %}    <div li-if="section.settings.inhaltsverzeichnis" class="rich-text_inhalt-component">
+    <div class="rich-text_inhalt-wrapper"><div class="blog_toc-wrapper"><div class="heading-style-small">
+{{ section.settings.text_inhaltsverzeichnis }}
+</div>
+<div id="toc-wrapper" class="blog_toc-list"><div class="custom-code-toc_script w-embed w-script"><!--   Start Virtual Entity Automatic ToC CREATOR   --><div><style>.toc_item {
+            list-style-type: none;
+        }
+    </style><script>let contentID = "content"; // ID of content
+        let tocID = "toc-wrapper"; // ID to TOC element, if empty use parent div
+        let headingLevels = [{{ section.settings.headline_level }}]; // Define the different levels
+        let offset_size = "6rem"; // Define the offset of the anchor on scroll
+        let toc_container;
+				let anchors = [];
+        if (tocID == "") {
+            var scriptTag = document.getElementsByTagName('script');
+            scriptTag = scriptTag[scriptTag.length - 1];
+            toc_container = scriptTag.parentNode;
+        }
+        window.addEventListener('load', () => {
+            let content = document.getElementById(contentID);
+            if (tocID != "") {
+                toc_container = document.getElementById(tocID);
+            }
+            var toc = document.createElement('ul');
+            toc.className = "toc_uolist";
+            toc_container.appendChild(toc);
+            let sub_eles = content.getElementsByTagName('*');
+            var nesting = [toc];
+            var hadH2 = false;
+            for (const ele of sub_eles) {
+            		if (ele.tagName.toLowerCase() == "h2" || ele.tagName.toLowerCase() == "h3"){
+                	hadH2 = true;
+                }
+                var i;
+                for (i = 0; i < headingLevels.length; i++) {
+                    var level = headingLevels[i];
+                    if ((level[0] == '.' && ele.className.toLowerCase() == level.slice(1).toLowerCase()) ||
+                        ele.tagName.toLowerCase() == level.toLowerCase()) {
+                        break;
+                    }
+                }
+                if (i < headingLevels.length) {
+                    while (nesting.length - 1 > i)
+                        nesting.pop()
+                    while (nesting.length - 1 < i) {
+                        let nest = document.createElement('ul');
+                        nest.className = "toc_uolist";
+                        nesting[nesting.length - 1].appendChild(nest);
+                        nesting.push(nest);
+                    }
+                    let toc_ele = document.createElement('a');
+                    let anchor = document.createElement('a');
+										anchors.push([anchor, toc_ele]);
+										for (var i = 0; i < ele.innerText.length; i++) {
+				                let germanReplacements = { "&Atilde;&frac14;": "ue", "&Atilde;&oelig;": "Ue", "&Atilde;&bdquo;": "Ae", "&Atilde;&curren;": "ae", '&Atilde;&ndash;': "Oe", "&Atilde;&para;": "oe", "&Atilde;&Yuml;": "ss" }
+				                if (/[a-zA-Z0-9]/.test(ele.innerText[i])) {
+				                    anchor.id += ele.innerText[i];
+				                } else if (ele.innerText[i] == " ") {
+				                    anchor.id += "-";
+				                } else if (ele.innerText[i] in germanReplacements) {
+				                    anchor.id += germanReplacements[ele.innerText[i]];
+				                }
+				            }
+                    anchor.style = "top:-" + offset_size + "; position: relative;"
+                    ele.appendChild(anchor);
+                    toc_ele.href = "#" + anchor.id;
+                    toc_ele.innerText = ele.innerText;
+                    toc_ele.className = "toc_link";
+                    var item = document.createElement('li');
+                    item.appendChild(toc_ele);
+                    item.className = "toc_item";
+                    nesting[nesting.length - 1].appendChild(item);
+                }
+            }
+            if (!hadH2){
+            	toc.style.display = "None";
+              let toHide = document.getElementsByClassName("toc_inner-wrapper");
+              for (var i = 0; i < toHide.length; i++){
+              	toHide[i].style.display = "none";
+              }
+            }
+        });
+				window.addEventListener('scroll', () => {
+				    let cur_active;
+				    let cur_value;
+				    for (var i = 0; i < anchors.length; i++) {
+				        anchors[i][1].classList.remove('toc_is-active');
+				        var pos = anchors[i][0].getBoundingClientRect().top;
+				        if (pos < window.innerHeight / 2) {
+				            if (!cur_value || cur_value < pos) {
+				                cur_value = pos;
+				                cur_active = anchors[i][1];
+				            }
+				        }
+				    }
+				    console.log(cur_active.href);
+				    if (cur_active) {
+				        cur_active.classList.add('toc_is-active');
+				    }
+				});
+    </script></div><!--   End Virtual Entity Automatic ToC CREATOR   --></div><div class="li-custom w-embed"></div>
+<ul role="list" class="toc_uolist hide"><li class="toc_item"><a href="#" class="toc_link toc_is-active">Text Link</a></li><li class="toc_item"><a href="#" class="toc_link">Text Link</a></li></ul></div></div></div><div class="rich-text_info-more"><div class="rich-text_inhalt-cta">{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685d-cb7c685d">
+    <a id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685e-cb7c685d" href="{{ section.settings.url_button_url }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}<img src="{{ section.settings.image_trust_logo | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_trust_logo.alt }}" class="rich-text_img-trust"}>
+</div><div class="text-opacity-70">
+{{ section.settings.text_trust_text }}
+</div>
+</div>    </div>
+{% endif %}<div id="content" li-content-for-blocks="" class="rich-text_text is-underline">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'anchor' %}
+            <div li-block="Anchor" class="anchor">
+                    <div id="{{ block.settings.text_id | handleize }}"><div class="hide">
+{{ block.settings.text_id }}
+</div>
+</div>
+                </div>
+    {% when 'h2' %}
+            <div li-block="H2">
+                    <h2 class="heading-style-h1 is-richtext">
+{{ block.settings.text_headline }}
+</h2>
+
+                </div>
+    {% when 'h3' %}
+            <div li-block="H3">
+                    <h3 class="heading-style-h2 is-richtext">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'h4' %}
+            <div li-block="H4">
+                    <h4 class="heading-style-h3 is-richtext">
+{{ block.settings.text_headline }}
+</h4>
+
+                </div>
+    {% when 'paragraph' %}
+            <div li-block="Paragraph" id="w-node-c7549cb3-36b1-394d-f214-43f1023cf7b8-023cf7b8">
+                    <div id="w-node-c7549cb3-36b1-394d-f214-43f1023cf7b9-023cf7b8" class="text-size-regular is-richtext"> {{ block.settings.richtext_text }} </div>
+
+                </div>
+    {% when 'hinweis-2' %}
+            <div li-block="Hinweis-2" id="w-node-a927cd90-a0d8-5c88-d82f-19157bf57a01-7bf57a01" class="rich-text_info-block is-version2">
+                    <img loading="lazy" alt="{{ block.settings.image_bild.alt }}" src="{{ block.settings.image_bild | img_url: 'master' }}" class="rich-text_bild is-version-2"}>
+
+                    <div class="rich-text_info-block-inner"><div class="rich-text_content-wrapper">{% if block.settings.image_icon != blank %}    <div li-if="block.settings.image_icon != blank" class="rich-text_info-icon-wrapper">
+    <img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="rich-text_info-icon"}>
+    </div>
+{% endif %}<div class="rich-text_info-content"><h3 id="w-node-a927cd90-a0d8-5c88-d82f-19157bf57a08-7bf57a01" class="text-weight-semibold text-size-regular">
+{{ block.settings.text_headline }}
+</h3>
+<div id="w-node-a927cd90-a0d8-5c88-d82f-19157bf57a0a-7bf57a01"> {{ block.settings.richtext_text }} </div>
+</div></div>{% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685d-cb7c685d">
+    <a id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685e-cb7c685d" href="{{ block.settings.url_button_url }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.richtext_disclaimer != blank %}    <div li-if="block.settings.richtext_disclaimer != blank">
+    <div class="text-style-disclaimer"> {{ block.settings.richtext_disclaimer }} </div>
+    </div>
+{% endif %}</div>
+                </div>
+    {% when 'hinweis' %}
+            <div li-block="Hinweis" id="w-node-_5223348e-5b7b-8999-efb1-917152bfcce7-52bfcce7" class="rich-text_info-block">
+                    {% if block.settings.image_bild %}    <div li-if="block.settings.image_bild">
+    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="rich-text_bild"}>
+    </div>
+{% endif %}
+                    <div class="rich-text_content-wrapper">{% if block.settings.image_icon != blank %}    <div li-if="block.settings.image_icon != blank" class="rich-text_info-icon-wrapper">
+    <img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="rich-text_info-icon"}>
+    </div>
+{% endif %}<div class="rich-text_info-content"><div id="w-node-_5223348e-5b7b-8999-efb1-917152bfccea-52bfcce7" class="text-weight-semibold text-size-regular">
+{{ block.settings.text_headline }}
+</div>
+<div id="w-node-_5223348e-5b7b-8999-efb1-917152bfccec-52bfcce7"> {{ block.settings.richtext_text }} </div>
+</div></div>
+                    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685d-cb7c685d">
+    <a id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685e-cb7c685d" href="{{ block.settings.url_button_url }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}
+                    {% if block.settings.richtext_disclaimer != blank %}    <div li-if="block.settings.richtext_disclaimer != blank">
+    <div class="text-style-disclaimer"> {{ block.settings.richtext_disclaimer }} </div>
+    </div>
+{% endif %}
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'cta' %}
+            <div li-block="CTA" id="w-node-_12bb3ebf-6638-e458-c5bd-6603493527fc-493527fc" class="rich-text_info-block is-image">
+                    <div class="rich-text_content-wrapper"><div class="rich-text_info-content"><div id="w-node-_12bb3ebf-6638-e458-c5bd-6603493527ff-493527fc" class="text-weight-semibold">
+{{ block.settings.text_headline }}
+</div>
+<div id="w-node-_12bb3ebf-6638-e458-c5bd-660349352801-493527fc"> {{ block.settings.richtext_text }} </div>
+{% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685d-cb7c685d">
+    <a id="w-node-e6f13ed3-dbfb-b866-c29c-1e8fcb7c685e-cb7c685d" href="{{ block.settings.url_button_url }}" class="button w-button is-secondary"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}</div></div>
+                    <div id="w-node-_3081a0e8-9f5c-4c1c-d0bd-a2d4933ae335-493527fc" class="rich-text_download-grid">{% if block.settings.image_bild_1 %}    <div li-if="block.settings.image_bild_1" class="rich-text_download-item">
+    <img src="{{ block.settings.image_bild_1 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild_1.alt }}" class="richt-text_bild-right"}>
+{% if block.settings.url_download_link_1 != blank %}    <div li-if="block.settings.url_download_link_1 != blank">
+    <a href="{{ block.settings.url_download_link_1 }}" target="_blank" class="rich-text_download-icon w-inline-block"> <img src="{{ 'download-button.svg' | asset_url }}" loading="lazy" alt=""> </a>
+    </div>
+{% endif %}    </div>
+{% endif %}{% if block.settings.image_bild_2 %}    <div li-if="block.settings.image_bild_2" class="rich-text_download-item">
+    <img src="{{ block.settings.image_bild_2 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild_2.alt }}" class="richt-text_bild-right"}>
+{% if block.settings.url_download_link_2 != blank %}    <div li-if="block.settings.url_download_link_2 != blank">
+    <a href="{{ block.settings.url_download_link_2 }}" target="_blank" class="rich-text_download-icon w-inline-block"> <img src="{{ 'download-button.svg' | asset_url }}" loading="lazy" alt=""> </a>
+    </div>
+{% endif %}    </div>
+{% endif %}{% if block.settings.image_bild_3 %}    <div li-if="block.settings.image_bild_3" class="rich-text_download-item">
+    <img src="{{ block.settings.image_bild_3 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild_3.alt }}" class="richt-text_bild-right"}>
+{% if block.settings.url_download_link_3 != blank %}    <div li-if="block.settings.url_download_link_3 != blank">
+    <a href="{{ block.settings.url_download_link_3 }}" target="_blank" class="rich-text_download-icon w-inline-block"> <img src="{{ 'download-button.svg' | asset_url }}" loading="lazy" alt=""> </a>
+    </div>
+{% endif %}    </div>
+{% endif %}</div>
+                </div>
+    {% when 'bild' %}
+            <div li-block="Bild" id="w-node-_1a1de7f0-b7ff-05d0-b3f6-dfcb29e7ab4f-29e7ab4f" class="rich-text_image-wrapper">
+                    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="rich-text_image"}>
+
+                    <blockquote class="rich-text_block-quote">
+{{ block.settings.text_caption }}
+</blockquote>
+
+                </div>
+    {% when 'span-element-2' %}
+            <div li-block="Span Element 2">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'spacer' %}
+            <div li-block="Spacer">
+                    <div class="{{ block.settings.spacer }}"><div class="hide">
+{{ block.settings.text_text }}
+</div>
+</div>
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'testimonial' %}
+            <div li-block="Testimonial" id="w-node-_51df0da2-388f-1982-15da-7eb5e14233fe-e14233fe" class="rich-text_testimonial">
+                    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="rich-text_testimonial-image"}>
+
+                    <div id="w-node-_51df0da2-388f-1982-15da-7eb5e1423400-e14233fe" class="rich-text_testimonial-content"><div class="rich-text_testimonial-top"><p class="heading-style-h3">
+{{ block.settings.text_headline }}
+</p>
+<div id="w-node-_51df0da2-388f-1982-15da-7eb5e1423404-e14233fe"> {{ block.settings.richtext_text }} </div>
+</div><div class="testimonial_facts"><div class="testimonial_facts-item"><div class="testimonial_facts-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 20 20" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_7266_28009" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect y="0.00012207" width="19.2157" height="19.2157" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_7266_28009)"><path d="M3.20199 16.814V9.30785L1.76081 10.4087L0.800026 9.1277L3.20199 7.2862V4.80417H4.80329V6.0652L9.60722 2.40221L18.4144 9.1277L17.4536 10.3887L16.0124 9.30785V16.814H3.20199ZM4.80329 15.2127H8.80656V12.0101H10.4079V15.2127H14.4111V8.08685L9.60722 4.42386L4.80329 8.08685V15.2127ZM3.20199 4.00352C3.20199 3.33631 3.43551 2.76918 3.90256 2.30213C4.36961 1.83508 4.93674 1.60156 5.60395 1.60156C5.8308 1.60156 6.02096 1.52483 6.17441 1.37137C6.32787 1.21791 6.4046 1.02776 6.4046 0.800903H8.00591C8.00591 1.46811 7.77238 2.03524 7.30534 2.50229C6.83829 2.96934 6.27116 3.20286 5.60395 3.20286C5.3771 3.20286 5.18694 3.27959 5.03348 3.43305C4.88002 3.58651 4.80329 3.77667 4.80329 4.00352H3.20199Z" fill="#000030"></path></g></svg></div><div><span>
+{{ block.settings.text_installation }}
+</span>
+: <strong>
+{{ block.settings.text_installation_wert }}
+</strong>
+</div></div><div id="w-node-_8c9ae5df-06bc-1567-810f-a69f34e27711-e14233fe" class="testimonial_facts-item"><div class="testimonial_facts-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 20 20" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_7266_28009" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect y="0.00012207" width="19.2157" height="19.2157" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_7266_28009)"><path d="M3.20199 16.814V9.30785L1.76081 10.4087L0.800026 9.1277L3.20199 7.2862V4.80417H4.80329V6.0652L9.60722 2.40221L18.4144 9.1277L17.4536 10.3887L16.0124 9.30785V16.814H3.20199ZM4.80329 15.2127H8.80656V12.0101H10.4079V15.2127H14.4111V8.08685L9.60722 4.42386L4.80329 8.08685V15.2127ZM3.20199 4.00352C3.20199 3.33631 3.43551 2.76918 3.90256 2.30213C4.36961 1.83508 4.93674 1.60156 5.60395 1.60156C5.8308 1.60156 6.02096 1.52483 6.17441 1.37137C6.32787 1.21791 6.4046 1.02776 6.4046 0.800903H8.00591C8.00591 1.46811 7.77238 2.03524 7.30534 2.50229C6.83829 2.96934 6.27116 3.20286 5.60395 3.20286C5.3771 3.20286 5.18694 3.27959 5.03348 3.43305C4.88002 3.58651 4.80329 3.77667 4.80329 4.00352H3.20199Z" fill="#000030"></path></g></svg></div><div><span>
+{{ block.settings.text_produkt }}
+</span>
+: <strong>
+{{ block.settings.text_produkt_wert }}
+</strong>
+</div></div><div id="w-node-_8c9ae5df-06bc-1567-810f-a69f34e27719-e14233fe" class="testimonial_facts-item"><div class="testimonial_facts-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 20 20" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_7266_28019" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect y="0.21582" width="19.2157" height="19.2157" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_7266_28019)"><path d="M15.2134 6.62118C15.4402 6.62118 15.6304 6.54445 15.7838 6.39099C15.9373 6.23754 16.014 6.04738 16.014 5.82053C16.014 5.59368 15.9373 5.40352 15.7838 5.25006C15.6304 5.0966 15.4402 5.01988 15.2134 5.01988C14.9865 5.01988 14.7963 5.0966 14.6429 5.25006C14.4894 5.40352 14.4127 5.59368 14.4127 5.82053C14.4127 6.04738 14.4894 6.23754 14.6429 6.39099C14.7963 6.54445 14.9865 6.62118 15.2134 6.62118ZM15.2134 8.22249C14.5328 8.22249 13.9623 7.9923 13.502 7.53193C13.0416 7.07155 12.8114 6.50108 12.8114 5.82053C12.8114 5.15332 13.0416 4.58619 13.502 4.11914C13.9623 3.65209 14.5328 3.41857 15.2134 3.41857C15.8806 3.41857 16.4477 3.65209 16.9147 4.11914C17.3818 4.58619 17.6153 5.15332 17.6153 5.82053C17.6153 6.50108 17.3818 7.07155 16.9147 7.53193C16.4477 7.9923 15.8806 8.22249 15.2134 8.22249ZM9.60878 5.82053C9.94238 5.82053 10.2259 5.7071 10.4595 5.48025C10.693 5.2534 10.8098 4.9665 10.8098 4.61955C10.8098 4.28594 10.693 4.00238 10.4595 3.76885C10.2259 3.53533 9.94238 3.41857 9.60878 3.41857C9.26183 3.41857 8.97493 3.53533 8.74808 3.76885C8.52122 4.00238 8.4078 4.28594 8.4078 4.61955C8.4078 4.9665 8.52122 5.2534 8.74808 5.48025C8.97493 5.7071 9.26183 5.82053 9.60878 5.82053ZM9.60878 7.42184C8.82147 7.42184 8.15759 7.15162 7.61715 6.61117C7.07671 6.07073 6.80649 5.40686 6.80649 4.61955C6.80649 3.84558 7.07671 3.18504 7.61715 2.63793C8.15759 2.09082 8.82147 1.81726 9.60878 1.81726C10.3827 1.81726 11.0433 2.09082 11.5904 2.63793C12.1375 3.18504 12.4111 3.84558 12.4111 4.61955C12.4111 5.40686 12.1375 6.07073 11.5904 6.61117C11.0433 7.15162 10.3827 7.42184 9.60878 7.42184ZM6.40616 10.9247C6.40616 11.325 6.61967 11.7921 7.04669 12.3258C7.4737 12.8596 8.32773 13.707 9.60878 14.8679C10.8631 13.7337 11.7105 12.8996 12.1509 12.3659C12.5912 11.8321 12.8114 11.3517 12.8114 10.9247C12.8114 10.6178 12.7113 10.3576 12.5111 10.1441C12.311 9.93055 12.0641 9.8238 11.7705 9.8238C11.5837 9.8238 11.4069 9.86383 11.2401 9.9439C11.0733 10.024 10.9365 10.1374 10.8298 10.2842L9.86899 11.4251H9.32855L8.36776 10.2842C8.26101 10.1374 8.12423 10.024 7.95743 9.9439C7.79063 9.86383 7.62049 9.8238 7.44701 9.8238C7.1401 9.8238 6.88989 9.93055 6.6964 10.1441C6.50291 10.3576 6.40616 10.6178 6.40616 10.9247ZM4.80486 10.9247C4.80486 10.2175 5.04505 9.59027 5.52544 9.04316C6.00584 8.49605 6.64636 8.22249 7.44701 8.22249C7.86068 8.22249 8.25767 8.3159 8.63799 8.50272C9.0183 8.68954 9.34189 8.94308 9.60878 9.26334C9.87566 8.94308 10.1959 8.68954 10.5696 8.50272C10.9432 8.3159 11.3435 8.22249 11.7705 8.22249C12.5712 8.22249 13.2117 8.49938 13.6921 9.05317C14.1725 9.60695 14.4127 10.2308 14.4127 10.9247C14.4127 11.6319 14.1558 12.3292 13.6421 13.0164C13.1283 13.7036 12.0775 14.7745 10.4895 16.229L9.60878 17.0297L8.72806 16.229C7.11341 14.7612 6.05588 13.687 5.55547 13.0064C5.05506 12.3258 4.80486 11.6319 4.80486 10.9247ZM4.0042 6.62118C4.23105 6.62118 4.42121 6.54445 4.57467 6.39099C4.72813 6.23754 4.80486 6.04738 4.80486 5.82053C4.80486 5.59368 4.72813 5.40352 4.57467 5.25006C4.42121 5.0966 4.23105 5.01988 4.0042 5.01988C3.77735 5.01988 3.5872 5.0966 3.43374 5.25006C3.28028 5.40352 3.20355 5.59368 3.20355 5.82053C3.20355 6.04738 3.28028 6.23754 3.43374 6.39099C3.5872 6.54445 3.77735 6.62118 4.0042 6.62118ZM9.66883 17.8303V16.229H16.014V10.6244H13.6521V9.02314H16.014C16.4544 9.02314 16.8313 9.17994 17.1449 9.49353C17.4585 9.80712 17.6153 10.1841 17.6153 10.6244V17.8303H9.66883ZM3.20355 16.229H9.66883V17.8303H1.60224V10.6244C1.60224 10.1841 1.7557 9.80712 2.06262 9.49353C2.36953 9.17994 2.74985 9.02314 3.20355 9.02314H5.56548V10.6244H3.20355V16.229ZM4.0042 8.22249C3.32365 8.22249 2.75318 7.9923 2.29281 7.53193C1.83243 7.07155 1.60224 6.50108 1.60224 5.82053C1.60224 5.15332 1.83243 4.58619 2.29281 4.11914C2.75318 3.65209 3.32365 3.41857 4.0042 3.41857C4.67141 3.41857 5.23854 3.65209 5.70559 4.11914C6.17264 4.58619 6.40616 5.15332 6.40616 5.82053C6.40616 6.50108 6.17264 7.07155 5.70559 7.53193C5.23854 7.9923 4.67141 8.22249 4.0042 8.22249Z" fill="#000030"></path></g></svg></div><div><span>
+{{ block.settings.text_personen }}
+</span>
+: <strong>
+{{ block.settings.text_personen_wert }}
+</strong>
+</div></div><div id="w-node-_8c9ae5df-06bc-1567-810f-a69f34e27721-e14233fe" class="testimonial_facts-item"><div class="testimonial_facts-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 20 21" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_7266_28024" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="20" height="21"><rect y="0.823608" width="19.2157" height="19.2157" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_7266_28024)"><path d="M9.60784 17.6373C7.83306 17.6373 6.32183 17.0202 5.07414 15.7858C3.82646 14.5515 3.20261 13.0603 3.20261 11.3122C3.20261 10.4315 3.36942 9.61747 3.70302 8.87019C4.03663 8.12291 4.497 7.4557 5.08415 6.86855L9.60784 2.42493L14.1315 6.86855C14.7187 7.4557 15.1791 8.12291 15.5127 8.87019C15.8463 9.61747 16.0131 10.4315 16.0131 11.3122C16.0131 13.0603 15.3892 14.5515 14.1415 15.7858C12.8939 17.0202 11.3826 17.6373 9.60784 17.6373ZM9.60784 16.036V4.66676L6.20507 8.0295C5.73802 8.46986 5.38773 8.96693 5.15421 9.52072C4.92068 10.0745 4.80392 10.6717 4.80392 11.3122C4.80392 12.6066 5.27097 13.7175 6.20507 14.6449C7.13916 15.5723 8.27342 16.036 9.60784 16.036Z" fill="#1C1B1F"></path></g></svg></div><div><span>
+{{ block.settings.text_wasser }}
+</span>
+: <strong>
+{{ block.settings.text_wasser_wert }}
+</strong>
+</div></div></div></div>
+                </div>
+    {% when 'faq' %}
+            <div li-block="FAQ" data-w-id="9a0d7d56-82ac-c888-57b3-e31d56410e3e" class="faq_item">
+                    <div class="faq_question"><h2 class="heading-style-h3">
+{{ block.settings.text_headline }}
+</h2>
+<div class="faq_icon"><div class="faq_icon-line"></div><div class="faq_icon-line is-vertical"></div></div></div>
+                    <div class="faq_answer"><div class="faq_answer-wrapper"><div> {{ block.settings.richtext_antwort }} </div>
+<div fs-cmsfilter-field="category" class="hide">
+{{ block.settings.text_kategorie }}
+</div>
+</div></div>
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'disclaimer' %}
+            <div li-block="Disclaimer">
+                    <div class="text-style-disclaimer"> {{ block.settings.richtext_text }} </div>
+
+                </div>
+    {% when 'tabelle' %}
+            <div li-block="Tabelle" class="table_component is-small">
+                    <div class="table_table-wrapper"><div class="table_bg-grid"><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a48-f76d6a45" class="table_white-bg"></div><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a49-f76d6a45" class="table_white-bg is-highlighted"><div class="table_highlight-white-bg-div"></div></div></div><div class="w-layout-grid table_top-row is-small"><div class="table_empty-space"></div><div class="table_top-row-content"><div class="table_top-row-wrapper is-small"><div class="table_header text-size-regular">
+{{ block.settings.text_spalten_titel }}
+</div>
+</div></div><div class="table_top-row-content"><div class="table_top-row-wrapper is-small"><img src="{{ 'aqon-pure-logo.svg' | asset_url }}" loading="lazy" alt="" class="table_logo">
+</div></div><div class="table_top-row-content"></div></div><div class="table_checks"><div class="w-layout-grid table_row"><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a57-f76d6a45" class="table_feature is-small"><div class="text-size-small text-weight-semibold text-style-allcaps">
+{{ block.settings.text_spalte_1 }}
+</div>
+</div><div class="table_row-content is-left"><img src="{{ 'check-product.svg' | asset_url }}" loading="lazy" alt="" class="table_check">
+</div><div class="table_row-content is-right"><img src="{{ 'check-product.svg' | asset_url }}" loading="lazy" alt="" class="table_check">
+</div></div><div class="w-layout-grid table_row"><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a5f-f76d6a45" class="table_feature is-small"><div class="text-size-small text-weight-semibold text-style-allcaps">
+{{ block.settings.text_spalte_2 }}
+</div>
+</div><div class="table_row-content is-left"><div class="text-color-red text-size-small">
+{{ block.settings.text_spalte_2_rot }}
+</div>
+</div><div class="table_row-content is-right"><img src="{{ 'check-product.svg' | asset_url }}" loading="lazy" alt="" class="table_check">
+</div></div><div class="w-layout-grid table_row"><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a68-f76d6a45" class="table_feature is-small"><div class="text-size-small text-weight-semibold text-style-allcaps">
+{{ block.settings.text_spalte_3 }}
+</div>
+</div><div class="table_row-content is-left"><div class="text-color-red text-size-small">
+{{ block.settings.text_spalte_3_rot }}
+</div>
+</div><div class="table_row-content is-right"><img src="{{ 'check-product.svg' | asset_url }}" loading="lazy" alt="" class="table_check">
+</div></div><div class="w-layout-grid table_row"><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a71-f76d6a45" class="table_feature is-small"><div class="text-size-small text-weight-semibold text-style-allcaps">
+{{ block.settings.text_spalte_4 }}
+</div>
+</div><div class="table_row-content is-left"><div class="text-color-red text-size-small">
+{{ block.settings.text_spalte_4_rot }}
+</div>
+</div><div class="table_row-content is-right"><img src="{{ 'check-product.svg' | asset_url }}" loading="lazy" alt="" class="table_check">
+</div></div><div class="w-layout-grid table_row"><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a7a-f76d6a45" class="table_feature is-small"><div class="text-size-small text-weight-semibold text-style-allcaps">
+{{ block.settings.text_spalte_5 }}
+</div>
+</div><div class="table_row-content is-left"><div class="text-color-red text-size-small">
+{{ block.settings.text_spalte_5_rot }}
+</div>
+</div><div class="table_row-content is-right"><img src="{{ 'check-product.svg' | asset_url }}" loading="lazy" alt="" class="table_check">
+</div></div><div class="w-layout-grid table_row"><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a83-f76d6a45" class="table_feature is-small"><div class="text-size-small text-weight-semibold text-style-allcaps">
+{{ block.settings.text_spalte_6 }}
+</div>
+</div><div class="table_row-content is-left"><div class="text-size-small">
+{{ block.settings.text_spalte_6_schwarz }}
+</div>
+</div><div class="table_row-content is-right"><div class="text-weight-semibold text-size-small">
+{{ block.settings.text_spalte_6_bold }}
+</div>
+</div></div><div class="w-layout-grid table_row"><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a8d-f76d6a45" class="table_feature is-small"><div class="text-size-small text-weight-semibold text-style-allcaps">
+{{ block.settings.text_spalte_7 }}
+</div>
+</div><div class="table_row-content is-left"><div class="text-size-small">
+{{ block.settings.text_spalte_7_schwarz }}
+</div>
+</div><div class="table_row-content is-right"><div class="text-weight-semibold text-size-small">
+{{ block.settings.text_spalte_7_bold }}
+</div>
+</div></div><div class="w-layout-grid table_row"><div id="w-node-_6a0069f9-f5c3-bd7a-8661-29c8f76d6a97-f76d6a45" class="table_feature is-small"><div class="text-size-small text-weight-semibold text-style-allcaps">
+{{ block.settings.text_spalte_8 }}
+</div>
+</div><div class="table_row-content is-left"><div class="text-size-small">
+{{ block.settings.text_spalte_8_rot }}
+</div>
+</div><div class="table_row-content is-right"><div class="text-weight-semibold text-size-small">
+{{ block.settings.text_spalte_8_bold }}
+</div>
+</div></div></div></div>
+                </div>
+    {% when 'funnel' %}
+            <div li-block="Funnel" class="funnel_wrapper">
+                    <a id="w-node-f469d484-2fe9-0340-ceb0-ae7526ef56a5-26ef56a3" href="{{ block.settings.url_link_1 }}" class="funnel_item w-inline-block"> <div class="text-size-regular text-weight-semibold">{{ block.settings.text_text_1 }}</div><img src="{{ block.settings.image_bild_1 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild_1.alt }}" class="funnel_item-image"}> </a>
+
+                    <a id="w-node-f469d484-2fe9-0340-ceb0-ae7526ef56aa-26ef56a3" href="{{ block.settings.url_link_2 }}" class="funnel_item w-inline-block"> <div class="text-size-regular text-weight-semibold">{{ block.settings.text_text_2 }}</div><img src="{{ block.settings.image_bild_2 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild_2.alt }}" class="funnel_item-image"}> </a>
+
+                    <a id="w-node-f469d484-2fe9-0340-ceb0-ae7526ef56af-26ef56a3" href="{{ block.settings.url_link_3 }}" class="funnel_item w-inline-block"> <div class="text-size-regular text-weight-semibold">{{ block.settings.text_text_3 }}</div><img src="{{ block.settings.image_bild_3 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild_3.alt }}" class="funnel_item-image"}> </a>
+
+                    <a id="w-node-f469d484-2fe9-0340-ceb0-ae7526ef56b4-26ef56a3" href="{{ block.settings.url_link_4 }}" class="funnel_item w-inline-block"> <div class="text-size-regular text-weight-semibold">{{ block.settings.text_text_4 }}</div><img src="{{ block.settings.image_bild_4 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild_4.alt }}" class="funnel_item-image"}> </a>
+
+                </div>
+    {% when 'single-buttons' %}
+            <div li-block="Single Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+    {% when 'download' %}
+            <div li-block="Download">
+                    <a href="{{ block.settings.url_download_url }}" class="download_wrapper w-inline-block"> <div class="download_headline"><div class="icon-1x1-large is-download w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 40 40" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_7306_24555" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="40" height="40"><rect width="40" height="40" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_7306_24555)"><path d="M13.75 29.5821H26.2499V27.0822H13.75V29.5821ZM13.75 22.9154H26.2499V20.4155H13.75V22.9154ZM10.5128 35.8321C9.67094 35.8321 8.95833 35.5404 8.375 34.9571C7.79167 34.3738 7.5 33.6612 7.5 32.8193V7.17836C7.5 6.33647 7.79167 5.62386 8.375 5.04053C8.95833 4.45719 9.67094 4.16553 10.5128 4.16553H23.75L32.4999 12.9154V32.8193C32.4999 33.6612 32.2083 34.3738 31.6249 34.9571C31.0416 35.5404 30.329 35.8321 29.4871 35.8321H10.5128ZM22.5 14.1654V6.66549H10.5128C10.3846 6.66549 10.2671 6.7189 10.1602 6.82574C10.0534 6.9326 9.99996 7.05014 9.99996 7.17836V32.8193C9.99996 32.9475 10.0534 33.065 10.1602 33.1719C10.2671 33.2787 10.3846 33.3322 10.5128 33.3322H29.4871C29.6153 33.3322 29.7328 33.2787 29.8397 33.1719C29.9465 33.065 30 32.9475 30 32.8193V14.1654H22.5Z" fill="#1C1B1F"></path></g></svg></div><div><div class="text-size-medium text-weight-semibold">{{ block.settings.text_name }}</div><div class="text-size-regular">{{ block.settings.text_subline }}</div></div></div><div class="icon-1x1-large w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 38 38" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><rect width="38" height="38" rx="19" fill="#000030"></rect><mask id="mask0_7306_24561" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="38" height="38"><rect width="38" height="38" fill="#1C1B1F"></rect></mask><g mask="url(#mask0_7306_24561)"><mask id="mask1_7306_24561" style="mask-type:alpha" maskunits="userSpaceOnUse" x="7" y="7" width="24" height="24"><rect x="7" y="7" width="24" height="24" fill="#D9D9D9"></rect></mask><g mask="url(#mask1_7306_24561)"><path d="M19 23L14 18L15.4 16.55L18 19.15V11H20V19.15L22.6 16.55L24 18L19 23ZM13 27C12.45 27 11.9792 26.8042 11.5875 26.4125C11.1958 26.0208 11 25.55 11 25V22H13V25H25V22H27V25C27 25.55 26.8042 26.0208 26.4125 26.4125C26.0208 26.8042 25.55 27 25 27H13Z" fill="white"></path></g></g></svg></div> </a>
+
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+</div></div></div>{% if section.settings.checkbox_pfeil == true %}
+<div class="direction-holder"><img loading="lazy" src="{{ 'line-green.svg' | asset_url }}" alt="" class="direction-icon">
+</div>{% endif %}
+<div class="hide w-embed"></div>
+ {% schema %} {"tag":"section","name":"C - Rich Text","class":"section_rich-text","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Wirksam gegen Kalk f\u00fcr maximale Effizienz"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Aqon Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_intro_text","type":"richtext","label":"Intro Text","default":"<p>AQON Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen. Dies sorgt f\u00fcr eine optimale Energieeffizienz und senkt Kosten f\u00fcr Wartung &amp; Instanthaltung<\/p>"}]},{"name":"Span Element","type":"span-element","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Button Navigation","type":"button-navigation","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"text_text","type":"text","label":"Text","default":"Weniger Kosten"}]},{"name":"Anchor","type":"anchor","settings":[{"id":"text_id","type":"text","label":"ID","default":"mehr-erfahre"}]},{"name":"H2","type":"h2","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"5 Gr\u00fcnde f\u00fcr eine Enth\u00e4rtungsanlage von AQON PURE in Ihrem Haus."}]},{"name":"H3","type":"h3","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"5 Gr\u00fcnde f\u00fcr eine Enth\u00e4rtungsanlage von AQON PURE in Ihrem Haus."}]},{"name":"H4","type":"h4","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"5 Gr\u00fcnde f\u00fcr eine Enth\u00e4rtungsanlage von AQON PURE in Ihrem Haus."}]},{"name":"Paragraph","type":"paragraph","settings":[{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"}]},{"name":"Hinweis-2","type":"hinweis-2","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_headline","type":"text","label":"Headline","default":"Was kostet eine Enth\u00e4rtungsanlage von AQON Pure?"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>AQON Pure gibt es bereits ab 1.490 \u20ac zu kaufen! Zus\u00e4tzlich zu den initialen Anschaffungskosten kommen lediglich die einmaligen Montage-Kosten dazu. Die Kosten der Montage liegen zwischen 285\u20ac - 695\u20ac. Die Kosten des Einbau sind dabei abh\u00e4ngig vom vorhandenen Rohrleitungsverlaufs in Ihrem Haus. Da die AQON PURE-Produkte lediglich eine freie, gerade und leicht zug\u00e4ngliche Rohrstrecke von 40cm - 60cm ben\u00f6tigen, ist der Einbau jedoch deutlich einfacher und g\u00fcnstiger als<\/p>"},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Angebot einholen"},{"id":"richtext_disclaimer","type":"richtext","label":"Disclaimer","default":"<p>[1] Neben der katalytischen Impfkristallbildung gibt es noch weitere Verfahren zur Impfkristallbildung, die ihre Wirksamkeit in der Praxis bewiesen haben [1]. Die Effektivit\u00e4t der chemiefreien Wasserbehandlung ist bereits auch durch renommierte Wissenschaftler belegt [2, 3, 4] (u. a. durch katalytische Wirkung oder durch Einwirkung von elektromagnetischen Feldern [5]) und folgt folgenden grundlegenden Prinzipien:<\/p>"}]},{"name":"Hinweis","type":"hinweis","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_headline","type":"text","label":"Headline","default":"Was kostet eine Enth\u00e4rtungsanlage von AQON Pure?"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>AQON Pure gibt es bereits ab 1.490 \u20ac zu kaufen! Zus\u00e4tzlich zu den initialen Anschaffungskosten kommen lediglich die einmaligen Montage-Kosten dazu. Die Kosten der Montage liegen zwischen 285\u20ac - 695\u20ac. Die Kosten des Einbau sind dabei abh\u00e4ngig vom vorhandenen Rohrleitungsverlaufs in Ihrem Haus. Da die AQON PURE-Produkte lediglich eine freie, gerade und leicht zug\u00e4ngliche Rohrstrecke von 40cm - 60cm ben\u00f6tigen, ist der Einbau jedoch deutlich einfacher und g\u00fcnstiger als<\/p>"},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Angebot einholen"},{"id":"richtext_disclaimer","type":"richtext","label":"Disclaimer","default":"<p>[1] Neben der katalytischen Impfkristallbildung gibt es noch weitere Verfahren zur Impfkristallbildung, die ihre Wirksamkeit in der Praxis bewiesen haben [1]. Die Effektivit\u00e4t der chemiefreien Wasserbehandlung ist bereits auch durch renommierte Wissenschaftler belegt [2, 3, 4] (u. a. durch katalytische Wirkung oder durch Einwirkung von elektromagnetischen Feldern [5]) und folgt folgenden grundlegenden Prinzipien:<\/p>"},{"type":"checkbox","id":"checkbox_icon","label":"Image icon","default":false}]},{"name":"CTA","type":"cta","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Weiterf\u00fchrende Informationen"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Die hier gezeigten Informationen zur Untersuchung der Fluid Dynamics Technologie entstammen den original Dokumenten der GSA.<\/p>"},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Angebot einholen"},{"id":"image_bild_1","type":"image_picker","label":"Bild-1"},{"id":"url_download_link_1","type":"url","label":"Download-Link 1"},{"id":"image_bild_2","type":"image_picker","label":"Bild-2"},{"id":"url_download_link_2","type":"url","label":"Download-Link 2"},{"id":"image_bild_3","type":"image_picker","label":"Bild-3"},{"id":"url_download_link_3","type":"url","label":"Download-Link 3"}]},{"name":"Bild","type":"bild","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_caption","type":"text","label":"Caption","default":"Image caption goes here"}]},{"name":"Span Element 2","type":"span-element-2","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Spacer","type":"spacer","settings":[{"id":"text_text","type":"text","label":"text","default":"This is some text inside of a div block."},{"type":"select","id":"spacer","label":"H\u00f6he","options":[{"value":"spacer-small","label":"Klein"},{"value":"spacer-medium","label":"Mittel"},{"value":"spacer-large","label":"Gro\u00df"}],"default":"spacer-small"}]},{"name":"Testimonial","type":"testimonial","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Familie Packmor aus Erfstadt, Nordrhein Westfalen"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>\u201cUnsere Anlagen k\u00f6nnen in jede bestehende Rohrleitung eingesetzt werden, selbst bei schwierigen Platzverh\u00e4ltnissen. Auf Wunsch bieten wir einen Einbauservice.\u201d<\/p>"},{"id":"text_installation","type":"text","label":"Installation","default":"Installation"},{"id":"text_installation_wert","type":"text","label":"Installation - Wert","default":"M\u00e4rz 2024"},{"id":"text_produkt","type":"text","label":"Produkt","default":"Produkt"},{"id":"text_produkt_wert","type":"text","label":"Produkt - Wert","default":"Home s"},{"id":"text_personen","type":"text","label":"Personen","default":"Personen im Haushalt"},{"id":"text_personen_wert","type":"text","label":"Personen - Wert","default":"5 (Einfamlienhaus)"},{"id":"text_wasser","type":"text","label":"Wasser","default":"Wasserh\u00e4rte"},{"id":"text_wasser_wert","type":"text","label":"Wasser - Wert","default":"20\u00b0"}]},{"name":"FAQ","type":"faq","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Frage"},{"id":"richtext_antwort","type":"richtext","label":"Antwort","default":"<p>Antwort<\/p>"},{"id":"text_kategorie","type":"text","label":"Kategorie","default":"This is some text inside of a div block."},{"type":"text","id":"kategorie","label":"Kategorie","default":"Alle FAQs"}]},{"name":"Disclaimer","type":"disclaimer","settings":[{"id":"richtext_text","type":"richtext","label":"Text","default":"<p><strong>[1] <\/strong>Howett, D. (2015). AWT: Catalyst-Based Scale Pre-vention for Domestic Hot Water Systems Full Report. GSA, S. 28. <a href=\"https:\/\/www.gsa.gov\/system\/files\/Applied_Research\/GSAGPGNCWTSaltLakeFinal.pdf\" target=\"_blank\"><strong>https:\/\/www.gsa.gov\/system\/files\/Applied_Research\/GSAGPGNCWTSaltLakeFinal.pdf<\/strong><\/a><strong>[2] <\/strong>GSA. (2015). AWT: Catalyst-based scale preven-tion 4-page brief. GSA, S. 2. <a href=\"https:\/\/www.gsa.gov\/system\/files\/GPG_F<\/p>"}]},{"name":"Tabelle","type":"tabelle","settings":[{"id":"text_spalten_titel","type":"text","label":"Spalten Titel","default":"Wasserenth\u00e4rtungs-anlage mit Salz"},{"id":"text_spalte_1","type":"text","label":"Spalte 1","default":"Reduziert Kalkprobleme"},{"id":"text_spalte_2","type":"text","label":"Spalte 2","default":"Keine Abgabe von Natrium im Wasser"},{"id":"text_spalte_2_rot","type":"text","label":"Spalte 2 - Rot","default":"Abgabe erfolgt"},{"id":"text_spalte_3","type":"text","label":"Spalte 3","default":"Kein Risiko der Verkeimung"},{"id":"text_spalte_3_rot","type":"text","label":"Spalte 3 - Rot","default":"Risiko besteht"},{"id":"text_spalte_4","type":"text","label":"Spalte 4","default":"Keine ABgabe von Chlorid in die umwelt"},{"id":"text_spalte_4_rot","type":"text","label":"Spalte 4 - Rot","default":"Abgabe erfolgt"},{"id":"text_spalte_5","type":"text","label":"Spalte 5","default":"Kein Risiko der Korrosion von leitungen"},{"id":"text_spalte_5_rot","type":"text","label":"Spalte 5 - Rot","default":"Risiko besteht"},{"id":"text_spalte_6","type":"text","label":"Spalte 6","default":"Anschaffungskosten (ohne Einbau)"},{"id":"text_spalte_6_schwarz","type":"text","label":"Spalte 6 - Schwarz","default":"300 \u20ac \u2014 400 \u20ac \/ Jahr"},{"id":"text_spalte_6_bold","type":"text","label":"Spalte 6 - Bold","default":"ab 1.490 \u20ac"},{"id":"text_spalte_7","type":"text","label":"Spalte 7","default":"Kosten f\u00fcr Wartung"},{"id":"text_spalte_7_schwarz","type":"text","label":"Spalte 7 - Schwarz","default":"2.000 \u20ac - 5.000\u20ac"},{"id":"text_spalte_7_bold","type":"text","label":"Spalte 7 - Bold","default":"ab 1.490 \u20ac"},{"id":"text_spalte_8","type":"text","label":"Spalte 8","default":"Kosten f\u00fcr Betriebsmittel (Salz, Strom, Abwasser)"},{"id":"text_spalte_8_rot","type":"text","label":"Spalte 8 - Rot","default":"100 \u20ac \u2014 200 \u20ac \/ Jahr"},{"id":"text_spalte_8_bold","type":"text","label":"Spalte 8 - Bold","default":"ab 1.490 \u20ac"}]},{"name":"Funnel","type":"funnel","settings":[{"id":"url_link_1","type":"url","label":"Link 1"},{"id":"text_text_1","type":"text","label":"Text 1","default":"Einfamilienhaus"},{"id":"image_bild_1","type":"image_picker","label":"Bild 1"},{"id":"url_link_2","type":"url","label":"Link 2"},{"id":"text_text_2","type":"text","label":"Text 2","default":"Mehrfamilienhaus"},{"id":"image_bild_2","type":"image_picker","label":"Bild 2"},{"id":"url_link_3","type":"url","label":"Link 3"},{"id":"text_text_3","type":"text","label":"Text 3","default":"Gewerbe &amp; Industrie"},{"id":"image_bild_3","type":"image_picker","label":"Bild 3"},{"id":"url_link_4","type":"url","label":"Link 4"},{"id":"text_text_4","type":"text","label":"Text 4","default":"Wohnungen"},{"id":"image_bild_4","type":"image_picker","label":"Bild 4"}]},{"name":"Single Buttons","type":"single-buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Download","type":"download","settings":[{"id":"url_download_url","type":"url","label":"Download Url"},{"id":"text_name","type":"text","label":"Name","default":"Preisliste"},{"id":"text_subline","type":"text","label":"Subline","default":"PDF \u00b7 25 MB"}]}],"settings":[{"id":"checkbox_intro_block","type":"checkbox","label":"Intro Block","default":true},{"id":"text_inhaltsverzeichnis","type":"text","label":"Inhaltsverzeichnis","default":"Inhaltsverzeichnis"},{"type":"select","id":"headline_level","label":"Inhaltsverzeichnis Headlines","options":[{"value":"'h3'","label":"H3"},{"value":"'h3', 'h2'","label":"H2 + H3"},{"value":"'h3', 'h2', 'h4'","label":"H2 + H3 + H4"}],"default":"'h3'"},{"id":"url_button_url","type":"url","label":"Button-Url"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Angebot einholen"},{"id":"image_trust_logo","type":"image_picker","label":"Trust Logo"},{"id":"text_trust_text","type":"text","label":"Trust Text","default":"Kostenlos in weniger als 2 Minuten"},{"id":"checkbox_pfeil","type":"checkbox","label":"Pfeil","default":true},{"type":"checkbox","id":"inhaltsverzeichnis","label":"Inhaltsverzeichnis","default":true}],"presets":[{"name":"C - Rich Text","category":"Liquify"}]} {% endschema %}

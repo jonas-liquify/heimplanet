@@ -1,0 +1,126 @@
+<div class="padding-global padding-section-medium is-contact"><div class="container-large"><div class="contact_component-grid"><div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c61-c2762c5d" class="contact_content-holder"><div class="content-centerd_wrapper text-align-left"><div class="heading-style-small">
+{{ section.settings.text_headline_small }}
+</div>
+<p class="heading-style-h2">
+{{ section.settings.text_hadline }}
+</p>
+</div><div class="checkbox_list-wrapper">{% for block in section.blocks %}
+    {% if block.type == "usps" %}
+                    <div li-block="USPs" id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c68-c2762c5d" class="checkbox_list-item">
+                                    <img loading="lazy" src="{{ 'check-white.svg' | asset_url }}" alt="" class="checkbox_check">
+
+                                    <div>
+{{ block.settings.text_text }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c6e-c2762c5d" class="contact_person"><img loading="lazy" alt="{{ section.settings.image_person_bild.alt }}" src="{{ section.settings.image_person_bild | img_url: 'master' }}" class="contact_img"}>
+<div class="contact_details"><div class="heading-style-h3">
+{{ section.settings.text_person_name }}
+</div>
+<div class="text-opacity-80">
+{{ section.settings.text_person_position }}
+</div>
+<div class="contact_links">{% for block in section.blocks %}
+    {% if block.type == "link" %}
+                    <div li-block="Link">
+                                    <a href="{{ block.settings.url_link_url }}" class="contact_link-block w-inline-block"> <div>{{ block.settings.text_link_text }}</div><img loading="lazy" src="{{ 'arrow-back-white.svg' | asset_url }}" alt="" class="contact_link-icon"> </a>
+
+                                    <a href="{{ block.settings.url_phone_url }}" class="contact_link-block w-inline-block"> <div>{{ block.settings.text_phone_text }}</div><img loading="lazy" src="{{ 'arrow-back-white.svg' | asset_url }}" alt="" class="contact_link-icon"> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+<div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c7f-c2762c5d" class="text-size-very-tiny"> {{ section.settings.textarea_offnungszeiten }} </div>
+</div></div></div></div><div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c83-c2762c5d" class="contact_block"><div class="contact_form-block-holder w-form"><form method="get" class="contact_form-holder" name="email-form" data-name="Email Form" action="https://hook.eu1.make.com/l6hcyk5farvwz7fou6rbm6l97d6sc8gw" id="email-form" redirect="/pages/vielen-dank" data-redirect="/pages/vielen-dank" x-data="formValidation()" data-wf-page-id="66fd32484d6fc7fe9a42dcbe" data-wf-element-id="94a7266c-0e5d-d85e-4e2d-89a9c2762c85"><div class="contact_split is-wrap"><div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c87-c2762c5d" class="contact_form-item"><label for="element-29" class="field-label">
+{{ section.settings.text_anrede }}
+</label>
+<select id="element-29" name="493" data-name="493" class="input w-select"><option value=""></option><option value="Herr">Herr</option><option value="Frau">Frau</option><option value="Divers">Divers</option></select></div><div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c8b-c2762c5d" class="contact_form-item"><label for="element-30" class="field-label">
+{{ section.settings.text_vorname }}
+</label>
+<input class="input w-input" maxlength="256" name="20" data-name="20" placeholder="" type="text" id="element-30" required="">
+</div><div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c8f-c2762c5d" class="contact_form-item"><label for="element-31" class="field-label">
+{{ section.settings.text_nachname }}
+</label>
+<input class="input w-input" maxlength="256" name="21" data-name="21" placeholder="" type="text" id="element-31" required="">
+</div></div><div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c93-c2762c5d" class="contact_form-item"><label for="element-32" class="field-label">
+{{ section.settings.text_email }}
+</label>
+<input class="input w-input" x-on:input="validateEmail" maxlength="256" name="145" x-on:blur="onBlurEmail" data-name="145" placeholder="" x-model="email" type="text" id="element-32" required="">
+<div class="text-error">Bitte geben Sie eine richtige E-Mail Adresse ein</div></div><div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c99-c2762c5d" class="contact_form-item"><label for="element-33" class="field-label">
+{{ section.settings.text_telefonnummer }}
+</label>
+<input class="input w-input" x-on:input="validatePhoneNumber" maxlength="256" name="146" x-on:blur="onBlurPhoneNumber" data-name="146" placeholder="" x-model="phoneNumber" type="text" id="element-33" required="">
+<div class="text-error">Bitte geben Sie eine richtige Telefonnummer ein</div></div><div id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762c9f-c2762c5d" class="contact_form-item"><label for="element-34" class="field-label">
+{{ section.settings.text_nachricht }}
+</label>
+<textarea id="element-34" name="149" maxlength="2000" data-name="149" placeholder="" class="text-area w-input"></textarea></div><label id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762ca3-c2762c5d" class="w-checkbox contact_form-checkbox-wrapper"><div class="w-checkbox-input w-checkbox-input--inputType-custom new_hero_checkbox"></div><input type="checkbox" name="250" id="250" data-name="250" style="opacity:0;position:absolute;z-index:-1">
+<div class="w-form-label" for="250"> {{ section.settings.richtext_datenschutzinfo }} </div>
+</label><button id="w-node-_94a7266c-0e5d-d85e-4e2d-89a9c2762ca7-c2762c5d" type="submit" class="button">
+{{ section.settings.text_button_text }}
+</button>
+<div class="hide"><input type="hidden" name="language" value="{{ request.locale.iso_code }}">
+<input type="hidden" name="currentpage" value="{{ request.path | prepend: request.origin }}">
+<input type="hidden" name="filled" id="filled-3" value="">
+<input type="hidden" name="15" id="15" value="">
+<input type="hidden" name="10" id="10" value="">
+<input type="hidden" name="12" id="12" value="">
+<input type="hidden" name="13" id="13" value="">
+<input type="hidden" name="14" id="14" value="">
+<input type="hidden" name="redirectUrl" value="/pages/kontaktformular-vielen-dank">
+</div><div id="w-node-_0c583a9e-527a-35d6-6199-d3da6c91c957-c2762c5d" class="hide w-embed w-script"><script>window.addEventListener("load", function () {
+    setTimeout(function () {
+        const formInput = document.querySelector("#filled-3");
+        if (formInput) {
+            formInput.value = "filled";
+            console.log("Das versteckte Input-Feld wurde erfolgreich gef&uuml;llt.");
+        }
+    }, 8000); // 10 Sekunden Timeout
+});
+</script></div></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div><div class="hide w-embed w-script"><script>pageFunctions.addFunction('formValidation', function() {
+    function formValidation() {
+      return {
+        email: '',
+        phoneNumber: '',
+        emailTouched: false,
+        phoneNumberTouched: false,
+        validateEmail() {
+          if (!this.emailTouched) return;
+          const emailInput = document.getElementById('E-Mail');
+          const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          const errorText = emailInput.nextElementSibling;
+          if (emailPattern.test(this.email)) {
+            emailInput.classList.remove('is-error');
+            errorText.classList.remove('show');
+          } else {
+            emailInput.classList.add('is-error');
+            errorText.classList.add('show');
+          }
+        },
+        validatePhoneNumber() {
+          if (!this.phoneNumberTouched) return;
+          const phoneInput = document.getElementById('Telefonnummer');
+          const phonePattern = /^[0-9\-\+]{10,15}$/;
+          const errorText = phoneInput.nextElementSibling;
+          if (phonePattern.test(this.phoneNumber)) {
+            phoneInput.classList.remove('is-error');
+            errorText.classList.remove('show');
+          } else {
+            phoneInput.classList.add('is-error');
+            errorText.classList.add('show');
+          }
+        },
+        onBlurEmail() {
+          this.emailTouched = true;
+          this.validateEmail();
+        },
+        onBlurPhoneNumber() {
+          this.phoneNumberTouched = true;
+          this.validatePhoneNumber();
+        }
+      }
+    }
+  });
+</script></div> {% schema %} {"tag":"section","name":"G - Partner Anfrage","class":"section_contact-form background-color-dark-blue","blocks":[{"name":"USPs","type":"usps","settings":[{"id":"text_text","type":"text","label":"Text","default":"<span class=\"text-weight-semibold\">Semibold Text:<\/span> This is some text inside of a div block."}]},{"name":"Link","type":"link","settings":[{"id":"url_link_url","type":"url","label":"Link URL"},{"id":"text_link_text","type":"text","label":"Link Text","default":"info@aqon-pure.com"},{"id":"url_phone_url","type":"url","label":"Phone URL"},{"id":"text_phone_text","type":"text","label":"Phone Text","default":"+49 (0) 6251 - 59 30 80"}]}],"settings":[{"id":"text_headline_small","type":"text","label":"Headline Small","default":"Kontakt aufnehmen"},{"id":"text_hadline","type":"text","label":"Hadline","default":"Weniger Kalkprobleme in Ihrem Haus. Jetzt unverbindlich anfragen."},{"id":"image_person_bild","type":"image_picker","label":"Person Bild"},{"id":"text_person_name","type":"text","label":"Person Name","default":"Jens Michael"},{"id":"text_person_position","type":"text","label":"Person Position","default":"Technische Beratung &amp; Service"},{"id":"textarea_offnungszeiten","type":"textarea","label":"\u00d6ffnungszeiten","default":"Mo \u2013 Do: 8:00 \u2013 17:00 Uhr\u2028<br\/>Fr: 8:30 \u2013 14:30 Uhr"},{"id":"text_anrede","type":"text","label":"Anrede","default":"Anrede"},{"id":"text_vorname","type":"text","label":"Vorname","default":"Vorname"},{"id":"text_nachname","type":"text","label":"Nachname","default":"Nachname"},{"id":"text_email","type":"text","label":"Email","default":"E-Mail"},{"id":"text_telefonnummer","type":"text","label":"Telefonnummer","default":"Telefonnummer"},{"id":"text_nachricht","type":"text","label":"Nachricht","default":"Nachricht"},{"id":"richtext_datenschutzinfo","type":"richtext","label":"Datenschutzinfo","default":"<p>Ich stimme zu, dass AQON Pure meine Daten zur Bearbeitung meiner Anfrage verwenden darf. Ich habe die Datenschutzbestimmungen gelesen und verstanden.<\/p>"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Jetzt unverbindlich anfragen"}],"presets":[{"name":"G - Partner Anfrage","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,92 @@
+<div class="padding-global padding-section-medium"><div x-data="{ artikelCount: 8 } " class="container-large"><div class="max-width-large align-center"><div li-content-for-blocks="" class="content-centerd_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text">
+                    <div class="max-width-xlarge"> {{ block.settings.richtext_intro_text }} </div>
+
+                </div>
+    {% when 'span-element' %}
+            <div li-block="Span Element">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+</div><div class="customer_list">{% for block in section.blocks %}
+    {% if block.type == "testimonial" %}
+                    <div x-transition="" li-block="Testimonial" x-show="artikelCount>= {{ forloop.index }}" id="w-node-_1744bd41-d92b-8a68-10ee-d0d4360165d5-360165cf" class="customer_company_card">
+                                    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" id="w-node-_1744bd41-d92b-8a68-10ee-d0d4360165d6-360165cf" alt="{{ block.settings.image_bild.alt }}" class="customer_company_img"}>
+
+                                    <div id="w-node-_1744bd41-d92b-8a68-10ee-d0d4360165d7-360165cf" class="customer_company_content"><div class="testimonial_content-top"><p class="heading-style-h3">
+{{ block.settings.text_headline }}
+</p>
+<div id="w-node-_1744bd41-d92b-8a68-10ee-d0d4360165db-360165cf"> {{ block.settings.richtext_text }} </div>
+</div><div class="testimonial_facts"><div id="w-node-_1744bd41-d92b-8a68-10ee-d0d4360165de-360165cf" class="testimonial_facts-item"><div class="testimonial_facts-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 20 20" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_7266_28009" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect y="0.00012207" width="19.2157" height="19.2157" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_7266_28009)"><path d="M3.20199 16.814V9.30785L1.76081 10.4087L0.800026 9.1277L3.20199 7.2862V4.80417H4.80329V6.0652L9.60722 2.40221L18.4144 9.1277L17.4536 10.3887L16.0124 9.30785V16.814H3.20199ZM4.80329 15.2127H8.80656V12.0101H10.4079V15.2127H14.4111V8.08685L9.60722 4.42386L4.80329 8.08685V15.2127ZM3.20199 4.00352C3.20199 3.33631 3.43551 2.76918 3.90256 2.30213C4.36961 1.83508 4.93674 1.60156 5.60395 1.60156C5.8308 1.60156 6.02096 1.52483 6.17441 1.37137C6.32787 1.21791 6.4046 1.02776 6.4046 0.800903H8.00591C8.00591 1.46811 7.77238 2.03524 7.30534 2.50229C6.83829 2.96934 6.27116 3.20286 5.60395 3.20286C5.3771 3.20286 5.18694 3.27959 5.03348 3.43305C4.88002 3.58651 4.80329 3.77667 4.80329 4.00352H3.20199Z" fill="#000030"></path></g></svg></div><div><span>
+{{ block.settings.text_titel_1 }}
+</span>
+: <span class="text-weight-semibold">
+{{ block.settings.text_wert_1 }}
+</span>
+</div></div><div id="w-node-_1744bd41-d92b-8a68-10ee-d0d4360165e6-360165cf" class="testimonial_facts-item"><div class="testimonial_facts-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_8455_48718" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect y="0.392578" width="19.2157" height="19.2157" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8455_48718)"><path d="M7.74635 11.3618L8.44692 9.07993L6.60541 7.59872H8.88728L9.60787 5.35689L10.3285 7.59872H12.6103L10.7488 9.07993L11.4494 11.3618L9.60787 9.94063L7.74635 11.3618ZM4.80394 18.8079V12.6228C4.29686 12.0624 3.90321 11.4218 3.62298 10.7012C3.34275 9.98066 3.20264 9.21337 3.20264 8.39937C3.20264 6.61124 3.82314 5.09667 5.06416 3.85566C6.30517 2.61465 7.81974 1.99414 9.60787 1.99414C11.396 1.99414 12.9106 2.61465 14.1516 3.85566C15.3926 5.09667 16.0131 6.61124 16.0131 8.39937C16.0131 9.21337 15.873 9.98066 15.5928 10.7012C15.3125 11.4218 14.9189 12.0624 14.4118 12.6228V18.8079L9.60787 17.2066L4.80394 18.8079ZM9.60787 13.2033C10.9423 13.2033 12.0765 12.7362 13.0106 11.8021C13.9447 10.8681 14.4118 9.73379 14.4118 8.39937C14.4118 7.06495 13.9447 5.93069 13.0106 4.99659C12.0765 4.0625 10.9423 3.59545 9.60787 3.59545C8.27344 3.59545 7.13918 4.0625 6.20509 4.99659C5.27099 5.93069 4.80394 7.06495 4.80394 8.39937C4.80394 9.73379 5.27099 10.8681 6.20509 11.8021C7.13918 12.7362 8.27344 13.2033 9.60787 13.2033ZM6.40525 16.4259L9.60787 15.6053L12.8105 16.4259V13.9439C12.3434 14.2108 11.8397 14.421 11.2992 14.5744C10.7588 14.7279 10.195 14.8046 9.60787 14.8046C9.02072 14.8046 8.45693 14.7279 7.91649 14.5744C7.37604 14.421 6.8723 14.2108 6.40525 13.9439V16.4259Z" fill="#000030"></path></g></svg></div><div><span>
+{{ block.settings.text_titel_2 }}
+</span>
+: <span class="text-weight-semibold">
+{{ block.settings.text_wert_2 }}
+</span>
+</div></div><div id="w-node-_1744bd41-d92b-8a68-10ee-d0d4360165ee-360165cf" class="testimonial_facts-item"><div class="testimonial_facts-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_8455_48732" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect y="0.000976562" width="19.2157" height="19.2157" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8455_48732)"><path d="M8.48682 12.9719L14.1314 7.32734L13.0105 6.20643L8.48682 10.7301L6.20496 8.44826L5.08405 9.56917L8.48682 12.9719ZM4.00316 16.8151C3.5628 16.8151 3.18583 16.6583 2.87224 16.3447C2.55865 16.0311 2.40186 15.6541 2.40186 15.2138V4.00463C2.40186 3.56427 2.55865 3.18729 2.87224 2.8737C3.18583 2.56011 3.5628 2.40332 4.00316 2.40332H15.2123C15.6527 2.40332 16.0296 2.56011 16.3432 2.8737C16.6568 3.18729 16.8136 3.56427 16.8136 4.00463V15.2138C16.8136 15.6541 16.6568 16.0311 16.3432 16.3447C16.0296 16.6583 15.6527 16.8151 15.2123 16.8151H4.00316ZM4.00316 15.2138H15.2123V4.00463H4.00316V15.2138Z" fill="#000030"></path></g></svg></div><div><span>
+{{ block.settings.text_titel_3 }}
+</span>
+: <span class="text-weight-semibold">
+{{ block.settings.text_wert_3 }}
+</span>
+</div></div></div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="content-align-center">{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_19ce5bf4-a715-fb04-0254-aa0fe474c929-e474c929" class="button-group">
+    {% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-_19ce5bf4-a715-fb04-0254-aa0fe474c92a-e474c929">
+    <div x-show="artikelCount < 7" x-on:click="artikelCount = 100" id="w-node-_19ce5bf4-a715-fb04-0254-aa0fe474c92b-e474c929" class="button is-secondary">
+{{ section.settings.text_button_text_2 }}
+</div>
+    </div>
+{% endif %}    </div>
+{% endif %}</div></div></div>{% if section.settings.checkbox_pfeil == true %}
+<div class="direction-holder"><img loading="lazy" src="{{ 'line-green.svg' | asset_url }}" alt="" class="direction-icon">
+</div>{% endif %}
+ {% schema %} {"tag":"section","name":"C - Testimonials B2B","class":"section_customer_company background-color-light-blue","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Wirksam gegen Kalk f\u00fcr maximale Effizienz"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Aqon Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_intro_text","type":"richtext","label":"Intro Text","default":"<p>AQON Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen. Dies sorgt f\u00fcr eine optimale Energieeffizienz und senkt Kosten f\u00fcr Wartung &amp; Instanthaltung<\/p>"}]},{"name":"Span Element","type":"span-element","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Testimonial","type":"testimonial","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Familie Packmor aus Erfstadt, Nordrhein Westfalen"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>\u201cUnsere Anlagen k\u00f6nnen in jede bestehende Rohrleitung eingesetzt werden, selbst bei schwierigen Platzverh\u00e4ltnissen. Auf Wunsch bieten wir einen Einbauservice.\u201d<\/p>"},{"id":"text_titel_1","type":"text","label":"Titel - 1","default":"Installation"},{"id":"text_wert_1","type":"text","label":"Wert - 1","default":"M\u00e4rz 2024"},{"id":"text_titel_2","type":"text","label":"Titel - 2","default":"Installation"},{"id":"text_wert_2","type":"text","label":"Wert - 2","default":"M\u00e4rz 2024"},{"id":"text_titel_3","type":"text","label":"Titel - 3","default":"Installation"},{"id":"text_wert_3","type":"text","label":"Wert - 3","default":"M\u00e4rz 2024"}]}],"settings":[{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Alle Artikel anzeigen"},{"id":"checkbox_pfeil","type":"checkbox","label":"Pfeil","default":true}],"presets":[{"name":"C - Testimonials B2B","category":"Liquify"}]} {% endschema %}

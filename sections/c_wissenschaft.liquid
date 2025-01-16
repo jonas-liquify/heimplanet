@@ -1,0 +1,83 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div li-content-for-blocks="" class="content-centerd_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text">
+                    <div class="max-width-xlarge"> {{ block.settings.richtext_intro_text }} </div>
+
+                </div>
+    {% when 'span-element' %}
+            <div li-block="Span Element">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+<div class="science_component">{% for block in section.blocks %}
+    {% if block.type == "wissenschaft-item" %}
+                    <div li-block="Wissenschaft Item" id="w-node-cb2533ba-3965-61ac-42cb-2f7d8820c23d-8820c238" class="science_item">
+                                    <img loading="lazy" alt="{{ block.settings.image_bild.alt }}" src="{{ block.settings.image_bild | img_url: 'master' }}" class="science_image"}>
+
+                                    <div class="science_content"><div id="w-node-cb2533ba-3965-61ac-42cb-2f7d8820c240-8820c238" class="text-size-medium text-weight-medium"> {{ block.settings.richtext_paragraph }} </div>
+<a id="w-node-cb2533ba-3965-61ac-42cb-2f7d8820c242-8820c238" href="{{ block.settings.url_button_link }}" class="button is-secondary w-button"> {{ block.settings.text_button_text }} </a>
+<div class="text-size-small text-opacity-70"> {{ block.settings.richtext_disclaimer }} </div>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="cta-in-section">{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group">
+    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ section.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ section.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}<div class="cta-in-section_checks">{% for block in section.blocks %}
+    {% if block.type == "checkmark" %}
+                    <div li-block="Checkmark" class="cta-in-section_check-item">
+                                    <img loading="lazy" src="{{ 'green-check.svg' | asset_url }}" alt="" class="cta-in-section_check-icon">
+
+                                    <div>
+{{ block.settings.text_text }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div> {% schema %} {"tag":"section","name":"C - Wissenschaft","class":"section_science","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Wirksam gegen Kalk f\u00fcr maximale Effizienz"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Aqon Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_intro_text","type":"richtext","label":"Intro Text","default":"<p>AQON Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen. Dies sorgt f\u00fcr eine optimale Energieeffizienz und senkt Kosten f\u00fcr Wartung &amp; Instanthaltung<\/p>"}]},{"name":"Span Element","type":"span-element","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Wissenschaft Item","type":"wissenschaft-item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"richtext_paragraph","type":"richtext","label":"Paragraph","default":"<p>Vergleichssieger im RTL Produktvergleich f\u00fcr Wasserenth\u00e4rtungsanlagen 2024<\/p>"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Urkunde als PDF herunterladen"},{"id":"richtext_disclaimer","type":"richtext","label":"Disclaimer","default":"<p>Die Untersuchungen wurden durch die Hohenstein Innovations gGmbH (im Rahmen eines Forschungsprojektes durchgef\u00fchrt. Die Hohenstein Innovations gGmbH verf\u00fcgt \u00fcber langj\u00e4hrige Erfahrung in technischen, chemischen und verfahrenstechnischen Fragestellungen der Umwelttechnologien, der W\u00e4schereitechnik und der Textilchemie. Konstruktionsleitlinien, Methoden zur Qualit\u00e4tspr\u00fcfung von Wassertechnologien, sowie Anforderungskataloge zur Bewertung der Produktperformance im Bereich<\/p>"}]},{"name":"Checkmark","type":"checkmark","settings":[{"id":"text_text","type":"text","label":"Text","default":"Inkl. kostenlosen Wasserh\u00e4rtetest"}]}],"settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}],"presets":[{"name":"C - Wissenschaft","category":"Liquify"}]} {% endschema %}
