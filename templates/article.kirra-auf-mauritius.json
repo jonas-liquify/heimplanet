@@ -48,17 +48,17 @@
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-12.jpg",
-        "text_headline": "MISSION REGENTEST",
-        "textarea_text": "Manchmal ist es das Abenteuer selbst, das ein Wochenende unvergesslich macht – und genau das war der Fall, als Lukas Bigler und sein Freund Nico das Heimplanet Kirra Zelt in den Urner Alpen testeten. Bei wechselhaftem Herbstwetter und einer ungewissen Prognose wollten die beiden ihre Wanderung zum Griessseeli dennoch nicht absagen. Im Gegenteil: Es war die perfekte Gelegenheit, um das Kirra Zelt in einer der eindrucksvollsten, aber auch anspruchsvollsten Umgebungen auf Herz und Nieren zu testen."
+        "image_bild": "shopify://shop_images/LauritzKuntscher_Mauritius_Kirra_Mood8.jpg",
+        "text_headline": "Vorbereitungen",
+        "textarea_text": "Bevor man jedoch sein Zelt im Black River Gorges National Park aufschlagen kann, ist es wichtig, sich eine Erlaubnis von den National Park Authorities einzuholen. Diese Genehmigung stellt sicher, dass der Schutz des empfindlichen Ökosystems gewährleistet bleibt und dass die Besucher über die geltenden Regeln und Vorschriften informiert sind. Der Prozess ist unkompliziert und dient sowohl dem Erhalt der Natur als auch der Sicherheit der Camper."
       }
     },
     "l_content_left_LMgdf7": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "Tag 1 // ankunft",
-        "textarea_text": "Die Vorzeichen standen auf Regen, aber Lukas und Nico ließen sich davon nicht abschrecken. Am Samstagnachmittag machten sie sich auf den Weg, eine etwa 40-minütige Wanderung durch die herbstliche Dämmerung, die über die Seitenmoräne des Gletschers führte. Angekommen an ihrem Ziel entdeckten sie eine kleine Insel am Rand des Griessseelis – genau der richtige Platz, um das Zelt aufzubauen und die Nacht in der wilden Natur zu verbringen.\n<br><br>\nTrotz des einsetzenden Regens ließ sich das Kirra Zelt dank seiner aufblasbaren Konstruktion innerhalb weniger Minuten und mit einer kleinen Pumpe unkompliziert aufstellen. Schon bald stand das Zelt, bereit, die beiden für die Nacht zu schützen. Durch den starken Regen zog es Lukas und Nico früh in die Schlafsäcke – mit der Hoffnung, am nächsten Morgen von einem epischen Sonnenaufgang über dem Gletschersee geweckt zu werden.",
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-4.jpg"
+        "text_headline": "Das Kirra als treuer Begleiter",
+        "textarea_text": "Mein Abenteuer begann früh am Morgen, als ich mich auf den Weg zum Nationalpark machte. Der Park ist das größte Naturschutzgebiet auf Mauritius. Schon bei der Ankunft wurde ich von der üppigen Vegetation und dem Rauschen eines nahegelegenen Wasserfalls begrüßt. Mit dabei hatte ich das Kirra Classic, das sich als perfekter Begleiter für diesen Trip herausstellte. Der Aufbau war schnell gemacht und Zelt stand in wenigen Sekunden stabil und sicher. Das Kirra verfügt über genügend Platz und Komfort, um mich nach einem langen Tag in der Wildnis zu erholen. Innen- und Außenzelt boten in Kombination einen perfekten Schutz sowohl gegen die regelmäßigen Regenschauer und als auch die Insekten. Das tropische Klima von Mauritius kann eine Herausforderung sein, besonders wenn man den dichten Dschungel durchquert. Die hohe Luftfeuchtigkeit und die warmen Temperaturen machten die Wanderungen anstrengend. Gleichzeitig sorgte die üppige Vegetation für ausreichend Schatten und die Möglichkeit, immer wieder eine Pause einzulegen. Ganz entkommen konnte man der Hitze natürlich nie. Dennoch war ich froh über die gute Ventilation meines Kirra Zelts, was das Klima dann doch erträglich machte.\n\n<br><br>\nTrotz des einsetzenden Regens ließ sich das Kirra Zelt dank seiner aufblasbaren Konstruktion innerhalb weniger Minuten und mit einer kleinen Pumpe unkompliziert aufstellen. Schon bald stand das Zelt, bereit, die beiden für die Nacht zu schützen. Durch den starken Regen zog es Lukas und Nico früh in die Schlafsäcke – mit der Hoffnung, am nächsten Morgen von einem epischen Sonnenaufgang über dem Gletschersee geweckt zu werden.",
+        "image_bild": "shopify://shop_images/LauritzKuntscher_Mauritius_Kirra_Mood3.jpg"
       }
     },
     "l_content_right_hKLaVw": {
@@ -180,12 +180,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
-      }
     }
   },
   "layout": "article",
@@ -201,7 +195,6 @@
     "l_gallery_67Grn9",
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD"
+    "article_next"
   ]
 }
