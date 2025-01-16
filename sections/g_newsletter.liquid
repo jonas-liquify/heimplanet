@@ -1,0 +1,44 @@
+{% assign blog = section.settings.blog_hero %}
+<div class="padding-global padding-section-medium is-newsletter"><div class="container-large"><div class="newsletter_component"><div id="w-node-_1acc030b-32ba-9b8d-b20f-c7907d980188-7d980183" class="newsletter_content"><h2>
+{{ section.settings.text_newsletter_heading }}
+</h2>
+<div class="checks">{% for block in section.blocks %}
+    {% if block.type == "check" %}
+                    <div li-block="Check" id="w-node-_1acc030b-32ba-9b8d-b20f-c7907d98018c-7d980183" class="check-item">
+                                    <img loading="lazy" src="{{ 'check-check.svg' | asset_url }}" alt="" class="checks-icon">
+
+                                    <div>
+{{ block.settings.text_text }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div id="w-node-_1acc030b-32ba-9b8d-b20f-c7907d980190-7d980183" class="newsletter_block"><div class="form-cleaned w-form">{% form 'customer', return_to: '/pages/newsletter-danke', class: 'newsletter_form' %}
+<div class="contact_split"><div id="w-node-_1acc030b-32ba-9b8d-b20f-c7907d980194-7d980183" class="contact_form-item"><label for="contact[name]-2" class="form_lable">
+{{ section.settings.text_vorname }}
+</label>
+<input class="input w-input" maxlength="256" name="contact[first_name]" data-name="Contact Name 2" placeholder="" type="text" id="contact[name]-2" required="">
+</div><div id="w-node-_1acc030b-32ba-9b8d-b20f-c7907d980198-7d980183" class="contact_form-item"><label for="contact[email]-2" class="form_lable">
+{{ section.settings.text_email }}
+</label>
+<input class="input w-input" maxlength="256" name="contact[last_name]" data-name="Contact Email 2" placeholder="" type="email" id="contact[email]-2" required="">
+</div><div id="w-node-_1acc030b-32ba-9b8d-b20f-c7907d98019c-7d980183" class="contact_form-item"><label for="contact[email]-2" class="form_lable">
+{{ section.settings.text_email }}
+</label>
+<input class="input w-input" maxlength="256" name="contact[email]" data-name="Contact Email 2" placeholder="" type="email" id="contact[email]-2" required="">
+</div></div><input type="submit" data-wait="Bitte warten..." class="button max-width-full w-button" value="Anmelden">
+<div id="w-node-_1acc030b-32ba-9b8d-b20f-c7907d9801a1-7d980183" class="text-color-primary text-size-tiny"> {{ section.settings.richtext_datenschutz_text }} </div>
+<div class="hide"><input type="hidden" name="language" value="{{ request.locale.iso_code }}">
+<input type="hidden" name="currentpage" value="{{ request.path | prepend: request.origin }}">
+<input type="hidden" name="filled" id="filled" value="">
+<input type="hidden" name="518" id="518" value="">
+<input type="hidden" name="491" id="491" value="">
+<input type="hidden" name="495" id="495" value="">
+<input type="hidden" name="514" id="514" value="">
+<input type="hidden" name="516" id="516" value="">
+<input type="hidden" name="redirectUrl" value="/pages/newsletter-vielen-dank">
+</div>{% endform %}
+<div class="success-message w-form-done"><div>Danke!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div><div class="li-custom w-embed"></div>
+<div class="li-custom w-embed"></div>
+ {% schema %} {"tag":"section","name":"G - Newsletter","class":"section_blog_article","blocks":[{"name":"Check","type":"check","settings":[{"id":"text_text","type":"text","label":"Text","default":"Pressemitteilungen"}]}],"settings":[{"id":"text_newsletter_heading","type":"text","label":"Newsletter Heading","default":"Nichts mehr verpassen. Unser Newsletter."},{"id":"text_vorname","type":"text","label":"Vorname","default":"Vorname"},{"id":"text_email","type":"text","label":"Email","default":"Nachname"},{"id":"richtext_datenschutz_text","type":"richtext","label":"Datenschutz Text","default":"<p>Datenschutz: Die AQON PURE speichert und verarbeitet Deine personenbezogenen Daten auf der Grundlage des Datenschutzes.<\/p>"},{"type":"blog","id":"blog_hero","label":"Blog"},{"type":"range","id":"offset","min":0,"max":50,"step":1,"unit":"Itm","label":"Offset Blog Article","default":1}],"presets":[{"name":"G - Newsletter","category":"Liquify"}]} {% endschema %}

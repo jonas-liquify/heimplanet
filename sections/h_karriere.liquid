@@ -1,0 +1,22 @@
+<div class="padding-global"><div class="container-large"><div class="split-hero_component"><div class="testimonials_component">{% for block in section.blocks %}
+    {% if block.type == "bild-icon" %}
+                    <div li-block="Bild-Icon" class="testimonials_img-wrapper">
+                                    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="testimonials_img"}>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><h1 id="w-node-ae930d98-dfc1-cb8c-c358-7c0d03444b1d-03444b16">
+{{ section.settings.text_headline }}
+</h1>
+<div id="w-node-ae930d98-dfc1-cb8c-c358-7c0d03444b1f-03444b16"> {{ section.settings.richtext_text }} </div>
+{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group">
+    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ section.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ section.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}</div></div></div><img src="{{ section.settings.image_image | img_url: 'master' }}" loading="eager" alt="{{ section.settings.image_image.alt }}" class="split-hero_img"}>
+ {% schema %} {"tag":"section","name":"H - Karriere","class":"section_split-hero background-color-light-blue","blocks":[{"name":"Bild-Icon","type":"bild-icon","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Jetzt deine Karriere bei AQON PURE starten"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Starte jetzt eine Karriere, die deine Leidenschaft f\u00fcr einen umweltfreundlichen Umgang in den Mittelpunkt stellt.<\/p>"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"H - Karriere","category":"Liquify"}]} {% endschema %}

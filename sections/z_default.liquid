@@ -1,0 +1,45 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="default_wrapper"><div li-object="page.content" class="text-rich-text w-richtext">{{ page.content }}</div></div></div></div><div class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", function() {
+    // Alle Tabellen auf der Seite ausw&auml;hlen
+    const tables = document.querySelectorAll("table");
+    // F&uuml;r jede Tabelle einen neuen div-Container erstellen
+    tables.forEach(function(table) {
+      const wrapper = document.createElement("div");
+      wrapper.style.overflowX = "auto";
+      wrapper.style.width = "100%";
+      // Tabelle umwickeln
+      table.parentNode.insertBefore(wrapper, table);
+      wrapper.appendChild(table);
+    });
+  });
+</script><style>table {
+    width: 100%;
+    border-collapse: collapse; /* Verhindert doppelte Rahmen */
+    background-color: white;
+  }
+  table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd; /* D&uuml;nner Rahmen */
+    text-align: left;
+    color: #333; /* Dunkelgrauer Text */
+  }
+  th {
+    padding: 12px 15px!important;
+  }
+  table th {
+    background-color: #333; /* Dunkelgrauer Hintergrund */
+    color: white; /* Wei&szlig;er Text */
+    font-weight: bold;
+  }
+  table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Leicht grauer Hintergrund f&uuml;r abwechselnde Zeilen */
+  }
+  table tr:hover {
+    background-color: #ddd; /* Leicht dunkler Hintergrund bei Hover */
+  }
+  /* F&uuml;r mobile Ger&auml;te */
+  @media (max-width: 600px) {
+    table th, table td {
+      padding: 10px;
+    }
+  }
+</style></div> {% schema %} {"tag":"section","name":"Z - Default","class":"section_default background-color-light-blue","presets":[{"name":"Z - Default","category":"Liquify"}]} {% endschema %}

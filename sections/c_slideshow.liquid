@@ -1,0 +1,128 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="ueber_component"><div x-init="checkHeight()" x-data="{isExpanded: false, showMoreNeeded: false, checkHeight() { if (this.$refs.content.scrollHeight > {{ section.settings.container_height }}) { this.showMoreNeeded = true; }}}" id="w-node-ce05c02e-d191-760d-3615-52a674e14ce8-74e14ce8" class="content-left_wrapper"><div x-bind:style="isExpanded ? '' : 'max-height: {{ section.settings.container_height }}rem; overflow: hidden;'" li-content-for-blocks="" x-ref="content" class="content-left_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text" id="w-node-ce05c02e-d191-760d-3615-52a674e14cef-74e14ce8" class="padding-top padding-small">
+                    <div id="w-node-ce05c02e-d191-760d-3615-52a674e14cf0-74e14ce8"> {{ block.settings.richtext_paragraph }} </div>
+
+                </div>
+    {% when 'hinweis' %}
+            <div li-block="Hinweis" id="w-node-ab6fbc84-d3df-4685-a9d1-b13aab8bf493-74e14ce8" class="map_info-block background-color-white">
+                    <div class="map_item">{% if block.settings.image_icon != blank %}    <div li-if="block.settings.image_icon != blank" class="map_info-icon">
+    <img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="map_info-icon"}>
+    </div>
+{% endif %}<div id="w-node-ab6fbc84-d3df-4685-a9d1-b13aab8bf495-74e14ce8" class="text-size-small"> {{ block.settings.richtext_info_text }} </div>
+</div>
+                    {% if block.settings.richtext_info_text_2 %}    <div li-if="block.settings.richtext_info_text_2" class="map_item">
+    {% if block.settings.image_icon_2 != blank %}    <div li-if="block.settings.image_icon_2 != blank" class="map_info-icon">
+    <img src="{{ block.settings.image_icon_2 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon_2.alt }}" class="map_info-icon"}>
+    </div>
+{% endif %}<div id="w-node-_2b670904-d088-8514-7f77-697d81f2fb37-74e14ce8" class="text-size-small"> {{ block.settings.richtext_info_text_2 }} </div>
+    </div>
+{% endif %}
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons" id="w-node-_475a2583-b255-5ba0-7d20-3a15e9182c4c-74e14ce8">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.url_button_link %}    <div li-if="block.settings.url_button_link" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.url_button_link_2 %}    <div li-if="block.settings.url_button_link_2" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+    {% when 'mehr-anzeigen' %}
+            <div x-show="showMoreNeeded && !isExpanded" x-on:click="isExpanded = true" li-block="Mehr anzeigen" id="w-node-_0248a9f0-9212-c96c-a07e-754b30e50c8d-74e14ce8" class="{% if section.settings.background_color == '' %}card_opener-gradient{% else %}card_opener-gradient is-light-blue{% endif %}">
+                    <div class="mehr-erfahren"><div>
+{{ block.settings.text_mehr_erfahren_text }}
+</div>
+<img src="{{ 'arrow-down.svg' | asset_url }}" loading="lazy" alt="" class="mehr-erfahren-icon">
+</div>
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+<div id="w-node-_884b51aa-83dc-d746-4ef5-7af8437ea34d-74e14ce8" class="li-custom w-embed"></div>
+<div id="w-node-_1306af18-b3cf-f07b-5879-c6612930324f-74e14ce8" class="li-custom w-embed"></div>
+<div class="card_opener-gradient is-light-blue hide"></div><div id="w-node-_47911358-32b4-0a07-8559-b9ba8c19d208-74e14ce8" class="hide w-embed"><style>.background-color-light-blue .map_info-block {
+background-color: white;
+}
+</style></div></div><div id="w-node-_1994afe1-0047-132b-560c-e373dbcfebd8-dbcfebca" class="swiper is-ueber"><div class="swiper-wrapper">{% for block in section.blocks %}
+    {% if block.type == "slider" %}
+                    <div li-block="Slider" class="swiper-slide">
+                                    <img loading="lazy" alt="{{ block.settings.image_bild.alt }}" src="{{ block.settings.image_bild | img_url: 'master' }}" class="swiper-img"}>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="ueber-pagination"><div class="swiper-pagination-bullet"></div><div class="swiper-pagination-bullet swiper-pagination-bullet-active"></div></div><div class="ueber_swiper-right"><div class="ueber_swiper_next"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_7192_3574" style="mask-type:alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="21"><rect x="22.7793" y="2.22314" width="20.5541" height="20.5541" transform="rotate(90 22.7793 2.22314)" fill="currentColor"></rect></mask><g mask="url(#mask0_7192_3574)"><path d="M13.3594 12.5003L9.41992 8.5608L10.6189 7.36182L15.7574 12.5003L10.6189 17.6388L9.41992 16.4399L13.3594 12.5003Z" fill="currentColor"></path></g></svg></div></div></div><div class="ueber_swiper-left"><div class="ueber_swiper_prev"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_7192_3567" style="mask-type:alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="21"><rect x="2.2207" y="22.7769" width="20.5541" height="20.5541" transform="rotate(-90 2.2207 22.7769)" fill="currentColor"></rect></mask><g mask="url(#mask0_7192_3567)"><path d="M11.6406 12.4997L15.5801 16.4392L14.3811 17.6382L9.24258 12.4997L14.3811 7.36116L15.5801 8.56014L11.6406 12.4997Z" fill="currentColor"></path></g></svg></div></div></div></div></div><div class="ueber_facts">{% for block in section.blocks %}
+    {% if block.type == "fact" %}
+                    <div li-block="Fact" id="w-node-_1994afe1-0047-132b-560c-e373dbcfebea-dbcfebca" class="ueber_facts-item">
+                                    <p class="heading-style-h2">
+{{ block.settings.text_headline }}
+</p>
+
+                                    <p>
+{{ block.settings.text_text }}
+</p>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div>{% if section.settings.checkbox_pfeil == true %}
+<div class="direction-holder"><img loading="lazy" src="{{ 'line-green.svg' | asset_url }}" alt="" class="direction-icon">
+</div>{% endif %}
+<div class="hide w-embed w-script"><script>pageFunctions.addFunction('contentSlider', function() {
+	const swiperUeber = new Swiper('.is-ueber', {
+  // Default parameters
+  slidesPerView: 1,
+        spaceBetween: 0,
+         navigation: {
+    nextEl: '.ueber_swiper_next',
+    prevEl: '.ueber_swiper_prev',
+  },
+    pagination: {
+        el: ".ueber-pagination",
+         clickable: true
+      },
+  // Responsive breakpoints
+  /*breakpoints: {
+    // when window width is >= 320px
+    479: {
+     slidesPerView: 2,
+        spaceBetween: 50,
+    },
+    // when window width is >= 480px
+    767: {
+     slidesPerView: 2,
+        spaceBetween: 50,
+    },
+    // when window width is >= 640px
+    991: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    }
+  },*/
+})
+});
+</script></div> {% schema %} {"tag":"section","name":"C - Slideshow","class":"section_ueber background-color-light-blue","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Headline Small"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Ein Familienunternehmen aus S\u00fcdhessen revolutioniert die Wasseraufbereitung."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_paragraph","type":"richtext","label":"Paragraph","default":"<p>Leidenschaft Wasser. Wir sind Konstantin und Maximilian, die K\u00f6pfe hinter AQON PURE. Wasser begleitet uns seit unserer Kindheit. Als Spezialist f\u00fcr Wasseraufbereitung, kamen wir durch das elterliche Familienunternehmen, die AQON Water Solutions GmbH, bereits in jungen Jahren in Kontakt mit Wassertechnik. Wir wissen, dass viele Begriffe und Technologien sehr komplex sein k\u00f6nnen.<\/p>"}]},{"name":"Hinweis","type":"hinweis","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"richtext_info_text","type":"richtext","label":"Info Text","default":"<p>Aktuell bieten wir den Einbauservice in folgenden L\u00e4ndern an:<br\/>Deutschland, \u00d6sterreich &amp; Luxemburg.<\/p>"},{"id":"image_icon_2","type":"image_picker","label":"Icon 2"},{"id":"richtext_info_text_2","type":"richtext","label":"Info Text 2","default":"<p>Aktuell bieten wir den Einbauservice in folgenden L\u00e4ndern an:<br\/>Deutschland, \u00d6sterreich &amp; Luxemburg.<\/p>"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Mehr anzeigen","type":"mehr-anzeigen","settings":[{"id":"text_mehr_erfahren_text","type":"text","label":"Mehr Erfahren Text","default":"Mehr \u00fcber Einbau zum Festpreis"}]},{"name":"Slider","type":"slider","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}]},{"name":"Fact","type":"fact","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"220+"},{"id":"text_text","type":"text","label":"Text","default":"Mitarbeiter in Deutschland"}]}],"settings":[{"type":"range","id":"container_height","min":4,"max":100,"step":1,"unit":"rem","label":"Content H\u00f6he","default":100},{"type":"color_background","id":"background","label":"Background","default":"linear-gradient(0deg, white, hsla(0, 0.00%, 100.00%, 0.00))"},{"id":"checkbox_pfeil","type":"checkbox","label":"Pfeil","default":true}],"presets":[{"name":"C - Slideshow","category":"Liquify"}]} {% endschema %}

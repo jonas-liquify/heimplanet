@@ -1,0 +1,113 @@
+<div class="padding-global"><div class="container-large"><div class="footer_cta"><div class="footer_cta-content"><div class="heading-style-h2">
+{{ section.settings.text_heading_cta }}
+</div>
+<p>
+{{ section.settings.text_text_cta }}
+</p>
+<div id="w-node-_3c837c1d-faa6-1357-b067-c9725ff3628f-cf39daf1" class="footer_cta-links"><a href="{{ section.settings.url_first_link_url }}" class="footer_cta-link"> {{ section.settings.text_first_link_text }} </a>
+<a href="{{ section.settings.url_second_link_url }}" class="footer_cta-link"> {{ section.settings.text_second_link_text }} </a>
+</div></div><div id="w-node-_3c837c1d-faa6-1357-b067-c9725ff36294-cf39daf1" class="footer_img-wrapper"><img loading="lazy" alt="{{ section.settings.image_cta_image.alt }}" src="{{ section.settings.image_cta_image | img_url: 'master' }}" class="footer_img"}>
+<div class="footer_imag-fade"></div></div></div></div></div><div class="padding-global padding-section-small"><div class="container-large">{% if page.metafields.custom.breadcrumb != blank %}    <div li-if="page.metafields.custom.breadcrumb != blank" class="breadcrumb_list">
+    <div class="breadcrumb_item"><a li-object:href="routes.root_url" href="{{ routes.root_url }}" class="text-weight-semibold text-size-small">AQON PURE</a></div>{% for page in page.metafields.custom.breadcrumb.value %}    <div li-for="page in page.metafields.custom.breadcrumb.value" class="breadcrumb_item">
+                                    
+                            <div class="breadcrumb_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 6 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path opacity="0.5" d="M0.798827 0.91211L5.29883 5.41211L0.798828 9.91211L7.76546e-05 9.11336L3.70133 5.41211L7.70075e-05 1.71086L0.798827 0.91211Z" fill="currentColor"></path></svg></div>
+                            
+                            <a li-object:href="page.url | prepend: request.origin" li-object="page.title" href="{{ page.url | prepend: request.origin }}" class="text-weight-semibold text-size-small">{{ page.title }}</a>
+                            
+                        </div>
+{% endfor %}<div class="hide w-embed w-script"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page_title }}",
+  "url": "https://www.aqon-pure.com{{ request.path }}",
+  "description": "{{ page_description }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "AQON PURE",
+    "alternateName": "AQON Water Solutions GmbH",
+    "url": "https://www.aqon-pure.com"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [ 
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "AQON PURE",
+        "item": "https://www.aqon-pure.com"
+      }
+      {% for page in page.metafields.custom.breadcrumb.value %},
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index | plus: 1 }},
+        "name": "{{ page.title }}",
+        "item": "{{ page.url | prepend: request.origin }}"
+      }
+      {% endfor %}
+    ]
+  }
+}
+</script></div>    </div>
+{% endif %}<div class="footer_link-grid">{% for link in linklists['footer'].links %}    <div li-for="link in linklists['footer'].links" class="footer_link-list">
+                                    
+                            <div li-object="link.title" class="text-weight-semibold text-style-allcaps">{{ link.title }}</div>
+                            
+                            {% for child_link in link.links %}    <div li-for="child_link in link.links">
+                                    
+                            <a li-object:href="child_link.url" li-object="child_link.title" href="{{ child_link.url }}" class="text-weight-semibold text-size-small">{{ child_link.title }}</a>
+                            
+                        </div>
+{% endfor %}
+                            
+                        </div>
+{% endfor %}<div class="footer_link-list is-first"><div class="text-weight-semibold text-style-allcaps">
+{{ section.settings.text_auszeichnungen }}
+</div>
+<div class="footer_auszeichnungen"><img src="{{ section.settings.image_first_badge | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_first_badge.alt }}" class="footer_auszeichnung-image"}>
+<img src="{{ section.settings.image_second_badge | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_second_badge.alt }}" class="footer_auszeichnung-image"}>
+<img src="{{ section.settings.image_third_badge | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_third_badge.alt }}" class="footer_auszeichnung-image"}>
+<a id="w-node-_39a2be09-4b27-b39d-7d29-2470ddf3d4ca-cf39daf1" href="{{ section.settings.url_link_auszeichnungen }}" class="mehr-erfahren is-very-small w-inline-block"> <div>{{ section.settings.text_alle_auszeichnungen }}</div><img src="{{ 'arrow-back.svg' | asset_url }}" loading="lazy" alt="" class="mehr-erfahren-icon"> </a>
+</div></div></div></div></div><div class="footer_trennlinie"></div><div class="padding-global"><div class="container-large"><div class="footer_grid-payment"><div class="payment-wrapper"><div class="text-color-white text-weight-semibold text-style-allcaps text-color-primary">
+{{ section.settings.text_lieferung }}
+</div>
+<div class="payment-icons">{% for block in section.blocks %}
+    {% if block.type == "lieferung-icon" %}
+                    <div li-block="Lieferung-icon">
+                                    <div><img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="footer_payment-icon"}>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div><div id="w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0baf2-cf39daf1" class="payment-wrapper"><div class="text-color-white text-weight-semibold text-style-allcaps text-color-primary">
+{{ section.settings.text_zahlungsmethoden }}
+</div>
+<ul role="list" class="footer_payment-list w-list-unstyled">{% for type in shop.enabled_payment_types %}    <li li-for="type in shop.enabled_payment_types">
+                                    
+                            <div li-object="type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color'">{{ type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color' }}</div>
+                            
+                        </li>
+{% endfor %}<li class="footer_payment-item"><div><img loading="lazy" src="{{ 'rechnung.svg' | asset_url }}" alt="" class="footer_payment-img">
+</div></li></ul></div><div class="payment-wrapper"><div class="text-color-white text-weight-semibold text-style-allcaps text-color-primary">
+{{ section.settings.text_social_media }}
+</div>
+<div class="payment-icons is-social">{% for block in section.blocks %}
+    {% if block.type == "social-media" %}
+                    <div li-block="Social-media">
+                                    <a aria-label="Social Media Link" href="{{ block.settings.url_social_link }}" target="_blank" class="w-inline-block"> <img src="{{ block.settings.image_social_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_social_icon.alt }}" class="footer_social-icon"}> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div></div><div class="footer_trennlinie"></div><div class="padding-global"><div class="container-large"><div class="footer_grid-payment is-inprint"><div id="w-node-_308d72fa-2cb6-71f0-22a0-4badddecc1ae-cf39daf1" class="footer_links"><div id="w-node-d6cc5d80-c82b-9e47-4b0b-f1c3978fda02-cf39daf1" class="inprint-links is-inprint">{% for link in linklists['legal'].links %}    <div li-for="link in linklists['legal'].links">
+                                    
+                            <a li-object="link.title" li-object:href="link.url" href="{{ link.url }}" class="text-size-very-tiny text-weight-semibold">{{ link.title }}</a>
+                            
+                        </div>
+{% endfor %}</div><div id="w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0bb05-cf39daf1" class="inprint-links is-inprint">{% for link in linklists['legal-2'].links %}    <div li-for="link in linklists['legal-2'].links">
+                                    
+                            <a li-object="link.title" li-object:href="link.url" href="{{ link.url }}" class="text-size-very-tiny text-weight-semibold">{{ link.title }}</a>
+                            
+                        </div>
+{% endfor %}</div></div><a href="{{ routes.root_url }}" aria-label="Back to Home" li-object:href="routes.root_url" id="w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0bb03-cf39daf1" class="w-inline-block"><img src="{{ 'aqon-pure-logo.svg' | asset_url }}" loading="lazy" alt="" class="footer_logo">
+</a><div class="li-language-wrapper sw7 hide"><div data-hover="true" data-delay="500" class="wg-dropdown-2 w-dropdown"><div lang="de" class="language-selector w-dropdown-toggle"><div>Deutsch</div><img src="https://uploads-ssl.webflow.com/613f2f905ede8d670775fc8a/61548248f37f3a0faab19498_arrow-drop.svg" loading="lazy" alt="" class="dropdown-aarow">
+</div><nav class="wg-dd-2-list w-dropdown-list"><a href="#" lang="en" class="wg-dropdown-2-link w-dropdown-link">English</a></nav></div></div></div></div></div> {% schema %} {"tag":"footer","name":"Z - Footer","class":"section_footer","blocks":[{"name":"Lieferung-icon","type":"lieferung-icon","settings":[{"id":"image_icon","type":"image_picker","label":"icon"}]},{"name":"Social-media","type":"social-media","settings":[{"id":"url_social_link","type":"url","label":"Social-link"},{"id":"image_social_icon","type":"image_picker","label":"social-icon"}]}],"settings":[{"id":"text_heading_cta","type":"text","label":"Heading CTA","default":"Lassen Sie sich pers\u00f6nlich beraten."},{"id":"text_text_cta","type":"text","label":"Text CTA","default":"Unser Technischer Service steht Ihnen gerne f\u00fcr eine pers\u00f6nliche Beratung zur Seite. Rufen Sie an unter:"},{"id":"url_first_link_url","type":"url","label":"First Link URL"},{"id":"text_first_link_text","type":"text","label":"First Link Text","default":"+49 (0) 6251 \/ 59 30 80"},{"id":"url_second_link_url","type":"url","label":"Second Link URL"},{"id":"text_second_link_text","type":"text","label":"Second Link Text","default":"info@aqon-pure.com"},{"id":"image_cta_image","type":"image_picker","label":"CTA Image"},{"id":"text_auszeichnungen","type":"text","label":"Auszeichnungen","default":"Auszeichnungen"},{"id":"image_first_badge","type":"image_picker","label":"First Badge"},{"id":"image_second_badge","type":"image_picker","label":"Second Badge"},{"id":"image_third_badge","type":"image_picker","label":"Third Badge"},{"id":"url_link_auszeichnungen","type":"url","label":"Link Auszeichnungen"},{"id":"text_alle_auszeichnungen","type":"text","label":"Alle Auszeichnungen","default":"Alle Auszeichnungen"},{"id":"text_lieferung","type":"text","label":"Lieferung","default":"Lieferung"},{"id":"text_zahlungsmethoden","type":"text","label":"Zahlungsmethoden","default":"Zahlungsmethoden"},{"id":"text_social_media","type":"text","label":"Social Media","default":"Social Media"}],"presets":[{"name":"Z - Footer","category":"Liquify"}]} {% endschema %}

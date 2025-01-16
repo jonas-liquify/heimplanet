@@ -1,0 +1,21 @@
+<svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 1686553168" filter="url(#filter0_b_7293_17276)">
+<rect x="0.897461" y="0.101562" width="28.1633" height="28.1633" rx="3.67347" fill="#000030" fill-opacity="0.5"/>
+<g id="download">
+<mask id="mask0_7293_17276" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="30" height="29">
+<rect id="Bounding box" x="0.897461" y="0.101562" width="28.1633" height="28.1633" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_7293_17276)">
+<path id="download_2" d="M14.9786 18.8763L9.11123 13.009L10.7541 11.3074L13.8051 14.3585V4.79468H16.152V14.3585L19.2031 11.3074L20.8459 13.009L14.9786 18.8763ZM7.93776 23.5702C7.29235 23.5702 6.73984 23.3404 6.28023 22.8808C5.82062 22.4212 5.59082 21.8687 5.59082 21.2232V17.7028H7.93776V21.2232H22.0194V17.7028H24.3663V21.2232C24.3663 21.8687 24.1365 22.4212 23.6769 22.8808C23.2173 23.3404 22.6648 23.5702 22.0194 23.5702H7.93776Z" fill="white"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_7293_17276" x="-7.14919" y="-7.94509" width="44.2564" height="44.2566" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="4.02332"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7293_17276"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7293_17276" result="shape"/>
+</filter>
+</defs>
+</svg>

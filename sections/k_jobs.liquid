@@ -1,0 +1,32 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="stellen_component"><div class="stellen_filter-wrapper"><h2 class="heading-style-h2">
+{{ section.settings.text_headline }}
+</h2>
+<div id="w-node-_10e2b1f2-5cdf-3f91-d785-5864a0a68166-a0a6815f" class="filter_filters-wrapper hide"><form action="{{ routes.search_url }}" method="get" role="search" class="filter_form_component"><div id="w-node-_9ccc7ad6-ea71-03bd-40b5-aadedcde6652-a0a6815f" class="filter_form"><div id="w-node-_9ccc7ad6-ea71-03bd-40b5-aadedcde6653-a0a6815f" class="filter_form-header"><div class="filter_heading">Filters</div></div><div class="filter_scroll-wrapper"><div class="filter_filter-group-list">{% for filter in collection.filters %}    <div li-for="filter in collection.filters" class="filter_filter-group">
+                                    
+                            {% if filter.values.size > 1 %}    <div li-if="filter.values.size > 1">
+    <div class="filter_filter-group-heading"><div li-object="filter.label" class="text-weight-semibold">{{ filter.label }}</div></div><div class="filter_filter-options"><div class="filter_list-wrapper"><div class="filter_list">{% for filter_value in filter.values %}    <div li-for="filter_value in filter.values" class="filter_item">
+                                    
+                            <a href="{% if filter_value.active %}{{ filter_value.url_to_remove }}{% else %}{{ filter_value.url_to_add }}{% endif %}" class="{% if filter_value.count == 0 and filter_value.active == false %}filter_form_checkbox is-disabled{% else %}filter_form_checkbox{% endif %}"><div class="{% if filter_value.active %}filter_form_checkbox-icon is-checked{% else %}filter_form_checkbox-icon{% endif %}"></div><div class="filter_form_checkbox-label"><span li-object="filter_value.label | append: ' '">{{ filter_value.label | append: ' ' }}</span>(<span li-object="filter_value.count">{{ filter_value.count }}</span>)</div></a>
+                            
+                        </div>
+{% endfor %}</div></div></div>    </div>
+{% endif %}
+                            
+                        </div>
+{% endfor %}</div></div></div></form><a href="#" class="filter_tablet-modal-close-button w-inline-block"><img alt="" src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/624380709031623afe4aee7e_icon_close-modal.svg" class="icon-1x1-small">
+</a></div></div><div class="stellen_list">{% for block in section.blocks %}
+    {% if block.type == "job" %}
+                    <div li-block="Job">
+                                    <a id="w-node-_10e2b1f2-5cdf-3f91-d785-5864a0a68169-a0a6815f" href="{{ block.settings.url_link }}" class="stellen_list-item w-inline-block"> <div class="stellen_list-item-top"><h3 id="w-node-_10e2b1f2-5cdf-3f91-d785-5864a0a6816b-a0a6815f">{{ block.settings.text_headline }}</h3><p id="w-node-_10e2b1f2-5cdf-3f91-d785-5864a0a6816d-a0a6815f">{{ block.settings.text_text }}</p></div><div class="stellen_list-bottom"><div class="stellen_list-info"><img src="{{ block.settings.image_icon_1 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon_1.alt }}" class="stellen_list-image"}><div>{{ block.settings.text_art }}</div></div><div class="stellen_list-info"><img src="{{ block.settings.image_icon_2 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon_2.alt }}" class="stellen_list-image"}><div>{{ block.settings.text_ort }}</div></div></div> </a>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+<div id="w-node-_10e2b1f2-5cdf-3f91-d785-5864a0a68178-a0a6815f" class="stellen_list-cta background-color-dark-blue"><div class="stellen_list-cta-content"><h3>
+{{ section.settings.text_cta_headline }}
+</h3>
+<p id="w-node-_10e2b1f2-5cdf-3f91-d785-5864a0a6817c-a0a6815f">
+{{ section.settings.text_cta_text }}
+</p>
+</div><div><a href="{{ section.settings.url_button_link }}" class="button is-secondary is-white w-button"> {{ section.settings.text_button_text }} </a>
+</div></div></div></div></div></div> {% schema %} {"tag":"section","name":"K - Jobs","class":"section_stellen background-color-light-blue","blocks":[{"name":"Job","type":"job","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"text_headline","type":"text","label":"Headline","default":"Product Designer"},{"id":"text_text","type":"text","label":"Text","default":"We\u2019re looking for a mid-level product designer to join our team."},{"id":"image_icon_1","type":"image_picker","label":"Icon 1"},{"id":"text_art","type":"text","label":"Art","default":"Full-time"},{"id":"image_icon_2","type":"image_picker","label":"Icon 2"},{"id":"text_ort","type":"text","label":"Ort","default":"Full-remote"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Offene Stellen"},{"id":"text_cta_headline","type":"text","label":"CTA Headline","default":"Keine offene Stelle gefunden?"},{"id":"text_cta_text","type":"text","label":"CTA Text","default":"Wir freuen uns auf Ihre Initiativbewerbung"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Jetzt initiativ bewerben"}],"presets":[{"name":"K - Jobs","category":"Liquify"}]} {% endschema %}

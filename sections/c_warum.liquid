@@ -1,0 +1,142 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="clients_max-width"><div li-content-for-blocks="" class="content-centerd_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text">
+                    <div class="max-width-xlarge"> {{ block.settings.richtext_intro_text }} </div>
+
+                </div>
+    {% when 'span-element' %}
+            <div li-block="Span Element">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+</div><div class="why_component"><div id="w-node-_25f770c4-44de-2194-1c61-132b4a730c72-4a730c68" class="why_item"><img loading="lazy" alt="{{ section.settings.image_block_bild_1.alt }}" src="{{ section.settings.image_block_bild_1 | img_url: 'master' }}" class="why_img"}>
+<div class="why_item-text"><h4 class="heading-style-h3">
+{{ section.settings.text_block_headline_1 }}
+</h4>
+<p id="w-node-_25f770c4-44de-2194-1c61-132b4a730c77-4a730c68">
+{{ section.settings.text_block_text_1 }}
+</p>
+</div></div><div id="w-node-_25f770c4-44de-2194-1c61-132b4a730c79-4a730c68" class="why_item"><img loading="lazy" alt="{{ section.settings.image_block_bild_2.alt }}" src="{{ section.settings.image_block_bild_2 | img_url: 'master' }}" class="why_img"}>
+<div class="why_item-text"><h4 class="heading-style-h3">
+{{ section.settings.text_block_headline_2 }}
+</h4>
+<p id="w-node-_25f770c4-44de-2194-1c61-132b4a730c7e-4a730c68">
+{{ section.settings.text_block_text_2 }}
+</p>
+</div></div><div id="w-node-_25f770c4-44de-2194-1c61-132b4a730c80-4a730c68" class="why_item"><img loading="lazy" alt="{{ section.settings.image_block_bild_3.alt }}" src="{{ section.settings.image_block_bild_3 | img_url: 'master' }}" class="why_img"}>
+<div class="why_item-text"><p class="heading-style-h3">
+{{ section.settings.text_block_headline_3 }}
+</p>
+<p id="w-node-_25f770c4-44de-2194-1c61-132b4a730c85-4a730c68">
+{{ section.settings.text_block_text_3 }}
+</p>
+</div></div><div id="w-node-_25f770c4-44de-2194-1c61-132b4a730c87-4a730c68" class="why_last-item"><div id="w-node-_25f770c4-44de-2194-1c61-132b4a730c88-4a730c68" class="why_proof"><div class="text-size-tiny text-weight-semibold text-style-allcaps">
+{{ section.settings.text_text_white_box }}
+</div>
+<div class="swiper why_proof-swiper-trigger"><div class="swiper-wrapper why-wrapper">{% for block in section.blocks %}
+    {% if block.type == "why-proof" %}
+                    <div li-block="why-proof" class="swiper-slide">
+                                    <div class="why_swiper_item"><img loading="lazy" alt="{{ block.settings.image_proof_bg_image.alt }}" src="{{ block.settings.image_proof_bg_image | img_url: 'master' }}" class="why_swiper-img"}>
+<div class="why_swiper_logo-wrapper"><img src="{{ block.settings.image_proof_logo | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_proof_logo.alt }}" class="why_swiper_logo"}>
+<a aria-label="tooltip" data-tippy-content="{{ block.settings.text_tooltip }}" href="#" class="tip_button is-why w-inline-block"><div class="tip_icon with-shadow w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7.71552" cy="7.71552" r="7.71552" fill="white"></circle><mask id="mask0_7192_2815" style="mask-type:alpha" maskunits="userSpaceOnUse" x="1" y="1" width="14" height="14"><rect x="1.18555" y="1.18652" width="13.057" height="13.057" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_7192_2815)"><path d="M7.16982 10.4351H8.25791V7.1708H7.16982V10.4351ZM7.71387 6.08271C7.86801 6.08271 7.99731 6.03049 8.10177 5.92603C8.20586 5.82194 8.25791 5.69282 8.25791 5.53867C8.25791 5.38453 8.20586 5.25522 8.10177 5.15077C7.99731 5.04667 7.86801 4.99463 7.71387 4.99463C7.55972 4.99463 7.4306 5.04667 7.32651 5.15077C7.22205 5.25522 7.16982 5.38453 7.16982 5.53867C7.16982 5.69282 7.22205 5.82194 7.32651 5.92603C7.4306 6.03049 7.55972 6.08271 7.71387 6.08271ZM7.71387 13.1553C6.96127 13.1553 6.25402 13.0124 5.5921 12.7266C4.93018 12.4411 4.3544 12.0536 3.86476 11.5639C3.37512 11.0743 2.98758 10.4985 2.70214 9.83661C2.41634 9.17469 2.27344 8.46743 2.27344 7.71484C2.27344 6.96225 2.41634 6.25499 2.70214 5.59308C2.98758 4.93116 3.37512 4.35538 3.86476 3.86574C4.3544 3.3761 4.93018 2.98838 5.5921 2.70258C6.25402 2.41713 6.96127 2.27441 7.71387 2.27441C8.46646 2.27441 9.17371 2.41713 9.83563 2.70258C10.4976 2.98838 11.0733 3.3761 11.563 3.86574C12.0526 4.35538 12.4401 4.93116 12.7256 5.59308C13.0114 6.25499 13.1543 6.96225 13.1543 7.71484C13.1543 8.46743 13.0114 9.17469 12.7256 9.83661C12.4401 10.4985 12.0526 11.0743 11.563 11.5639C11.0733 12.0536 10.4976 12.4411 9.83563 12.7266C9.17371 13.0124 8.46646 13.1553 7.71387 13.1553ZM7.71387 12.0672C8.92889 12.0672 9.95804 11.6456 10.8013 10.8023C11.6446 9.95902 12.0662 8.92987 12.0662 7.71484C12.0662 6.49981 11.6446 5.47067 10.8013 4.6274C9.95804 3.78413 8.92889 3.3625 7.71387 3.3625C6.49884 3.3625 5.46969 3.78413 4.62642 4.6274C3.78316 5.47067 3.36152 6.49981 3.36152 7.71484C3.36152 8.92987 3.78316 9.95902 4.62642 10.8023C5.46969 11.6456 6.49884 12.0672 7.71387 12.0672Z" fill="#4F7FF7"></path></g></svg></div></a><div class="why_swiper_gradient"></div><div class="hide">
+{{ block.settings.text_tooltip }}
+</div>
+</div><img loading="lazy" alt="{{ block.settings.image_proof_bg_image_2.alt }}" src="{{ block.settings.image_proof_bg_image_2 | img_url: 'master' }}" class="why_swiper-img"}>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div><div class="why_why"><div class="text-size-tiny text-weight-semibold text-style-allcaps">
+{{ section.settings.text_text_blue_box }}
+</div>
+<div class="why_reasons">{% for block in section.blocks %}
+    {% if block.type == "warum-wir" %}
+                    <div x-data="{open: false}" li-block="Warum wir" id="w-node-_0169a673-e02d-4b50-cb48-7001443e779d-4a730c68" class="why_reason-item">
+                                    <div x-on:click="open = ! open" class="why_reason-head"><h4 class="text-size-semi-medium">
+{{ block.settings.text_text }}
+</h4>
+<img loading="lazy" src="{{ 'plus_1.svg' | asset_url }}" alt="" class="icon-1x1-medium">
+</div>
+                                    <div x-transition="" x-cloak="" x-show="open" class="why_why is-absolout"><div class="text-size-tiny text-weight-semibold text-style-allcaps">
+{{ block.settings.text_text_blue_box }}
+</div>
+<div class="why_reasons"><div class="why_reason-item"><div class="why_reason-head"><div class="text-size-semi-medium text-weight-semibold">
+{{ block.settings.text_text }}
+</div>
+<img x-on:click="open = ! open" loading="lazy" alt="" src="{{ 'minus.svg' | asset_url }}" class="icon-1x1-medium">
+</div></div><div class="text-size-regular"> {{ block.settings.richtext_beschreibung }} </div>
+</div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div><div class="cta-in-section">{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group">
+    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ section.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ section.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}<div class="cta-in-section_checks">{% for block in section.blocks %}
+    {% if block.type == "checkmark" %}
+                    <div li-block="Checkmark" class="cta-in-section_check-item">
+                                    <img loading="lazy" src="{{ 'green-check.svg' | asset_url }}" alt="" class="cta-in-section_check-icon">
+
+                                    <div>
+{{ block.settings.text_text }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div><div class="hide w-embed w-script"><script>pageFunctions.addFunction('tippy', function() {
+    tippy('[data-tippy-content]', {        
+      animation: 'fade',    
+      duration: 200,      
+      arrow: true,          
+      delay: [0, 50],      
+      arrowType: 'round',  
+      theme: 'translucent',        
+      maxWidth: 220,
+      placement: 'top',
+    })});
+</script></div> {% schema %} {"tag":"section","name":"C - Warum","class":"section_why background-color-light-blue","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Wirksam gegen Kalk f\u00fcr maximale Effizienz"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Aqon Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_intro_text","type":"richtext","label":"Intro Text","default":"<p>AQON Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen. Dies sorgt f\u00fcr eine optimale Energieeffizienz und senkt Kosten f\u00fcr Wartung &amp; Instanthaltung<\/p>"}]},{"name":"Span Element","type":"span-element","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"why-proof","type":"why-proof","settings":[{"id":"image_proof_bg_image","type":"image_picker","label":"Proof BG Image"},{"id":"image_proof_logo","type":"image_picker","label":"Proof Logo"},{"id":"text_tooltip","type":"text","label":"Tooltip","default":"This is some text inside of a div block."},{"id":"image_proof_bg_image_2","type":"image_picker","label":"Proof BG Image 2"}]},{"name":"Warum wir","type":"warum-wir","settings":[{"id":"text_text","type":"text","label":"Text","default":"Nimmt Kalk die harte Wirkung"},{"id":"text_text_blue_box","type":"text","label":"Text - Blue Box","default":"Warum AQON Pure"},{"id":"richtext_beschreibung","type":"richtext","label":"Beschreibung","default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"}]},{"name":"Checkmark","type":"checkmark","settings":[{"id":"text_text","type":"text","label":"Text","default":"Inkl. kostenlosen Wasserh\u00e4rtetest"}]}],"settings":[{"id":"image_block_bild_1","type":"image_picker","label":"Block Bild 1"},{"id":"text_block_headline_1","type":"text","label":"Block Headline 1","default":"Weniger Entkalken"},{"id":"text_block_text_1","type":"text","label":"Block Text 1","default":"Konzentrieren Sie sich auf die wirklich wichtigen Dinge im Leben und nicht aufs Putzen."},{"id":"image_block_bild_2","type":"image_picker","label":"Block Bild 2"},{"id":"text_block_headline_2","type":"text","label":"Block Headline 2","default":"Kostensparend"},{"id":"text_block_text_2","type":"text","label":"Block Text 2","default":"Es entstehen keine Folge- oder Wartungskosten. Wir eine Geld-Zur\u00fcck-Garantie."},{"id":"image_block_bild_3","type":"image_picker","label":"Block Bild 3"},{"id":"text_block_headline_3","type":"text","label":"Block Headline 3","default":"Besseres Trinkwasser"},{"id":"text_block_text_3","type":"text","label":"Block Text 3","default":"Da AQON Pure vollst\u00e4ndig ohne Salz auskommt, wird das Trinkwasser nicht verf\u00e4lscht."},{"id":"text_text_white_box","type":"text","label":"Text - White Box","default":"Wissenschaftlich bewiesen"},{"id":"text_text_blue_box","type":"text","label":"Text - Blue Box","default":"Warum AQON Pure"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}],"presets":[{"name":"C - Warum","category":"Liquify"}]} {% endschema %}

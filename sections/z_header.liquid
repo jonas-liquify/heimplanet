@@ -1,0 +1,63 @@
+<div data-animation="default" class="nav_component w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="1f4a994c-7640-c194-e1f7-4193b5553f7b" role="banner" data-duration="400" data-doc-height="1" x-data=""><div class="nav_container"><div class="nav_left"><a href="{{ routes.root_url }}" aria-label="Back to Home" li-object:href="routes.root_url" class="nav_logo-link w-nav-brand"><img src="{{ 'aqon-pure-logo.svg' | asset_url }}" loading="lazy" alt="" class="nav_logo-img">
+</a><nav role="navigation" id="w-node-_1f4a994c-7640-c194-e1f7-4193b5553f7f-b641c10b" class="nav_menu is-page-height-tablet w-nav-menu"><div li-for:inside="link in linklists['main-menu'].links" class="nav_menu-links">
+        {% for link in linklists['main-menu'].links %}                            
+                            {% if link.title contains '1-' %}    <div data-hover="true" data-delay="200" li-if="link.title contains '1-'" class="nav_menu-dropdown w-dropdown">
+    <div class="nav_dropdown-toggle w-dropdown-toggle">{% if link.links.size > 0 %}    <div li-if="link.links.size > 0" class="dropdown-icon w-embed">
+    <svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path></svg>    </div>
+{% endif %}<div><div><div li-object="link.title | remove: '1-'" class="text-weight-semibold">{{ link.title | remove: '1-' }}</div></div></div></div>{% if link.links.size > 0  %}    <nav li-if="link.links.size > 0 " class="nav_dropdown-list no-scrollbar w-dropdown-list">
+    <div class="padding-global max-width-full"><div class="container-large"><div class="nav_dropdown-grid">{% for child_link in link.links %}    <div li-for="child_link in link.links" id="w-node-_8058838f-9c18-55a2-03f1-9b68fb9e7840-b641c10b">
+                                    
+                            <a li-object:href="child_link.url" id="w-node-afb32276-76e0-acb6-b957-23ff27df967a-b641c10b" href="{{ child_link.url }}" class="nav-dropdown_item w-inline-block"><img src="{{ child_link.object.metafields.custom.navimage | img_url: 'large' }}" loading="lazy" li-object:src="child_link.object.metafields.custom.navimage | img_url: 'large'" alt="" class="nav_dropdown-image">
+<div id="w-node-_87bc49f5-c807-6440-ad31-ec927cbf3dbe-b641c10b" class="nav-dropdown_link"><div li-object="child_link.title" id="w-node-f5a15971-477a-79a6-74c2-410a2574010f-b641c10b" class="text-weight-semibold">{{ child_link.title }}</div></div></a>
+                            
+                        </div>
+{% endfor %}<a id="w-node-_27e9e409-99c2-aa91-39e7-f6fd487beccd-b641c10b" href="{{ section.settings.url_featured_link }}" class="nav-dropdown_cta w-inline-block"> <div id="w-node-_532e434a-ca3f-4560-07bf-024ff1a880af-b641c10b" class="nav-dropdown_top"><div class="subheading-small">{{ section.settings.text_featured_subline }}</div><div class="text-weight-semibold">{{ section.settings.text_featured_headline }}</div></div><div class="mehr-erfahren hide-tablet"><div>{{ section.settings.text_featured_button }}</div><img src="{{ 'arrow-back.svg' | asset_url }}" loading="lazy" alt="" class="mehr-erfahren-icon"></div> </a>
+</div></div></div>    </nav>
+{% endif %}    </div>
+{% endif %}
+                            
+                            {% if link.title contains '2-' %}    <div data-hover="true" data-delay="0" li-if="link.title contains '2-'" class="nav_menu-dropdown-small w-dropdown">
+    <div class="nav_dropdown-toggle w-dropdown-toggle"><div li-object="link.title | remove: '2-'" class="text-weight-semibold">{{ link.title | remove: '2-' }}</div>{% if link.links.size > 0 %}    <div li-if="link.links.size > 0" class="dropdown-icon w-embed">
+    <svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path></svg>    </div>
+{% endif %}</div>{% if link.links.size > 0  %}    <nav li-if="link.links.size > 0 " class="nav_dropdown-list no-scrollbar is-small w-dropdown-list">
+    {% for child_link in link.links %}    <div li-for="child_link in link.links" id="w-node-_9f3f54b8-d583-4100-012b-5d6bdc354c18-b641c10b" class="nav-dropdown_link-wrapper">
+                                    
+                            <a li-object:href="child_link.url" id="w-node-_9f3f54b8-d583-4100-012b-5d6bdc354c19-b641c10b" href="{{ child_link.url }}" class="nav-dropdown_item is-small w-inline-block"><img src="{{ child_link.object.metafields.custom.navimage | img_url: 'small' }}" loading="lazy" li-object:src="child_link.object.metafields.custom.navimage | img_url: 'small'" alt="" class="nav-dropdown_icon">
+<div id="w-node-_9f3f54b8-d583-4100-012b-5d6bdc354c1a-b641c10b" class="nav-dropdown_link"><div li-object="child_link.title" id="w-node-_9f3f54b8-d583-4100-012b-5d6bdc354c1b-b641c10b" class="text-weight-semibold">{{ child_link.title }}</div></div></a>
+                            
+                        </div>
+{% endfor %}    </nav>
+{% endif %}    </div>
+{% endif %}
+                            
+                            {% if link.title contains '3-' %}    <div data-hover="true" data-delay="200" li-if="link.title contains '3-'" class="nav_menu-dropdown w-dropdown">
+    <div class="nav_dropdown-toggle w-dropdown-toggle">{% if link.links.size > 0 %}    <div li-if="link.links.size > 0" class="dropdown-icon w-embed">
+    <svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path></svg>    </div>
+{% endif %}<div><div><div li-object="link.title | remove: '3-'" class="text-weight-semibold">{{ link.title | remove: '3-' }}</div></div></div></div>{% if link.links.size > 0  %}    <nav li-if="link.links.size > 0 " class="nav_dropdown-list no-scrollbar w-dropdown-list">
+    <div class="padding-global max-width-full"><div class="container-large"><div class="nav_dropdown-grid is-4">{% for child_link in link.links %}    <div li-for="child_link in link.links" id="w-node-_4ef564a6-6f31-d6c4-13ac-1484bdb9dab4-b641c10b">
+                                    
+                            <a li-object:href="child_link.url" id="w-node-_4ef564a6-6f31-d6c4-13ac-1484bdb9dab5-b641c10b" href="{{ child_link.url }}" class="nav-dropdown_item w-inline-block"><img src="{{ child_link.object.metafields.custom.navimage | img_url: 'large' }}" loading="lazy" li-object:src="child_link.object.metafields.custom.navimage | img_url: 'large'" alt="" class="nav_dropdown-image">
+<div id="w-node-_4ef564a6-6f31-d6c4-13ac-1484bdb9dab7-b641c10b" class="nav-dropdown_link"><div li-object="child_link.title" id="w-node-_4ef564a6-6f31-d6c4-13ac-1484bdb9dab8-b641c10b" class="text-weight-semibold">{{ child_link.title }}</div></div></a>
+                            
+                        </div>
+{% endfor %}</div></div></div>    </nav>
+{% endif %}    </div>
+{% endif %}
+                            
+                            {% if link.title contains '0-' %}    <div li-if="link.title contains '0-'" id="w-node-_42bc082d-4875-29e6-ca3e-e7697e4c846b-b641c10b" class="nav_menu-dropdown">
+    <a li-object:href="link.url" id="w-node-_7e1ce483-6ec8-67bc-5ede-63015540de15-b641c10b" href="{{ link.url }}" class="nav_dropdown-toggle is-single w-inline-block"><div li-object="link.title | remove: '0-'" class="text-weight-semibold">{{ link.title | remove: '0-' }}</div></a>    </div>
+{% endif %}
+                            
+                    {% endfor %}    </div>
+<div class="nav_mobile-cta"><a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+<div class="nav_mobile-cta-wrapper"><a href="{{ section.settings.url_mobile_link_1 }}" class="disclaimer_block is-black w-inline-block"> <div class="text-weight-semibold">{{ section.settings.text_mobile_link_text_1 }}</div> </a>
+<a href="{{ section.settings.url_mobile_link_2 }}" class="disclaimer_block is-black w-inline-block"> <div class="text-weight-semibold">{{ section.settings.text_mobile_link_text_2 }}</div> </a>
+</div></div><div id="w-node-f2c3a264-22d9-1e7e-2e55-651310638fe9-b641c10b" class="nav_menu-dropdown hide-desktop"><a id="w-node-f2c3a264-22d9-1e7e-2e55-651310638fea-b641c10b" href="{{ section.settings.url_gewerbe_link }}" class="nav_dropdown-toggle is-single w-inline-block"> <div class="text-weight-semibold">{{ section.settings.text_gewerbe_link_text }}</div> </a>
+</div></nav></div><div id="w-node-_4a79d983-50cf-ced4-c018-e65a77c96104-b641c10b" class="nav_right">{% unless section.settings.text_black_friday != blank %}    <div li-unless="section.settings.text_black_friday != blank">
+    <img loading="lazy" alt="{{ section.settings.image_first_trust_image.alt }}" src="{{ section.settings.image_first_trust_image | img_url: 'master' }}" class="hero_trust-img is-nav"}>
+    </div>
+{% endunless %}{% if section.settings.text_black_friday != blank %}    <div li-if="section.settings.text_black_friday != blank" class="nav_blackfriday-wrapper">
+    <a href="{{ section.settings.url_black_friday_link }}" class="w-inline-block"> <div class="nav_blackfriday">{{ section.settings.text_black_friday }}</div> </a>
+    </div>
+{% endif %}<div class="nav_button"><a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+</div><div class="nav_menu-button w-nav-button"><div class="menu-icon"><div class="menu-icon_line-top"></div><div class="menu-icon_line-middle"><div class="menu-icon_line-middle-inner"></div></div><div class="menu-icon_line-bottom"></div></div></div></div></div></div> {% schema %} {"tag":"div","name":"Z - Header","class":"section_navbar","settings":[{"id":"url_featured_link","type":"url","label":"Featured Link"},{"id":"text_featured_subline","type":"text","label":"Featured Subline","default":"Jetzt Neu"},{"id":"text_featured_headline","type":"text","label":"Featured Headline","default":"Der AQON Pure Einbauservice"},{"id":"text_featured_button","type":"text","label":"Featured Button","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Jetzt Kalkprobleme l\u00f6sen"},{"id":"url_mobile_link_1","type":"url","label":"Mobile Link 1"},{"id":"text_mobile_link_text_1","type":"text","label":"Mobile Link Text 1","default":"Gewerbekunden"},{"id":"url_mobile_link_2","type":"url","label":"Mobile Link 2"},{"id":"text_mobile_link_text_2","type":"text","label":"Mobile Link Text 2","default":"Gewerbekunden"},{"id":"url_gewerbe_link","type":"url","label":"Gewerbe Link"},{"id":"text_gewerbe_link_text","type":"text","label":"Gewerbe Link Text","default":"Nav Link"},{"id":"image_first_trust_image","type":"image_picker","label":"First Trust Image"},{"id":"url_black_friday_link","type":"url","label":"Black Friday Link"},{"id":"text_black_friday","type":"text","label":"Black Friday","default":"% Black Friday"}],"presets":[{"name":"Z - Header","category":"Liquify"}]} {% endschema %}

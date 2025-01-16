@@ -1,0 +1,8 @@
+<div class="padding-global"><div class="container-large"><div class="footer_grid-payment is-inprint"><div id="w-node-_35237f1e-4d19-4820-f05b-7e10e8b59e64-e8b59e60" class="inprint-links is-inprint">{% for link in linklists['legal'].links %}    <div li-for="link in linklists['legal'].links">
+                                    
+                            <a li-object="link.title" li-object:href="link.url" href="{{ link.url }}" class="text-size-very-tiny text-weight-semibold">{{ link.title }}</a>
+                            
+                        </div>
+{% endfor %}<a id="privacy-settings" href="#" class="text-size-small text-color-white hide">Cookies</a></div><a href="{{ routes.root_url }}" li-object:href="routes.root_url" id="w-node-_35237f1e-4d19-4820-f05b-7e10e8b59e6a-e8b59e60" class="w-inline-block"><img loading="lazy" src="{{ 'aqon-pure-logo.svg' | asset_url }}" alt="" class="footer_logo">
+</a><div class="li-language-wrapper sw7 hide"><div data-delay="500" data-hover="true" class="wg-dropdown-2 w-dropdown"><div lang="de" class="language-selector w-dropdown-toggle"><div>Deutsch</div><img loading="lazy" src="https://uploads-ssl.webflow.com/613f2f905ede8d670775fc8a/61548248f37f3a0faab19498_arrow-drop.svg" alt="" class="dropdown-aarow">
+</div><nav class="wg-dd-2-list w-dropdown-list"><a href="#" lang="en" class="wg-dropdown-2-link w-dropdown-link">English</a></nav></div></div></div></div></div> {% schema %} {"tag":"footer","name":"Z - Footer Small","class":"section_footer is-small","presets":[{"name":"Z - Footer Small","category":"Liquify"}]} {% endschema %}

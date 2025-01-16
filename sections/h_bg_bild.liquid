@@ -1,0 +1,16 @@
+<div class="padding-global"><div class="container-large"><div class="ueber_hero_component"><div class="ueber_hero_heading-wrapper"><div><h1 class="heading-style-h1">
+{{ section.settings.text_headline }}
+</h1>
+</div><div id="w-node-b54f2be2-b593-ee11-e009-218100128669-00128669" class="hero_button-wrapper">{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group">
+    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ section.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ section.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}<div class="button-group"><img loading="lazy" alt="{{ section.settings.image_first_trust_image.alt }}" src="{{ section.settings.image_first_trust_image | img_url: 'master' }}" class="hero_trust-img"}>
+<img loading="lazy" alt="{{ section.settings.image_second_trust_image.alt }}" src="{{ section.settings.image_second_trust_image | img_url: 'master' }}" class="hero_trust-img"}>
+</div></div></div><img src="{{ section.settings.image_badge | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_badge.alt }}" class="ueber_hero_badge"}>
+</div></div></div><div class="ueber_hero_img-wrapper"><div class="ueber_hero_gradient"></div><img src="{{ section.settings.image_hintergrund_bild | img_url: 'master' }}" loading="eager" alt="{{ section.settings.image_hintergrund_bild.alt }}" class="ueber_hero_img"}>
+</div> {% schema %} {"tag":"section","name":"H - BG Bild","class":"section_ueber_hero","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Mit Leidenschaft f\u00fcr einen umweltfreundlichen Umgang mit Wasser in jedem Zuhause"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"},{"id":"image_first_trust_image","type":"image_picker","label":"First Trust Image"},{"id":"image_second_trust_image","type":"image_picker","label":"Second Trust Image"},{"id":"image_badge","type":"image_picker","label":"Badge"},{"id":"image_hintergrund_bild","type":"image_picker","label":"Hintergrund Bild"}],"presets":[{"name":"H - BG Bild","category":"Liquify"}]} {% endschema %}

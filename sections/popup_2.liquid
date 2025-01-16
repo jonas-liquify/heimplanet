@@ -1,0 +1,32 @@
+<div><div id="popup" class="popup_component is-white hide">{% if section.settings.image_bild != blank %}    <div li-if="section.settings.image_bild != blank">
+    <a href="{{ section.settings.url_bild_link }}" class="w-inline-block"> <img loading="lazy" alt="{{ section.settings.image_bild.alt }}" src="{{ section.settings.image_bild | img_url: 'master' }}" class="popup_image-2"}> </a>
+    </div>
+{% endif %}<div class="popup_text-wrapper"><div class="text-size-regular text-color-red">
+{{ section.settings.text_bis_zu }}
+</div>
+<div class="text-size-medium text-weight-medium">
+{{ section.settings.text_black_friday }}
+</div>
+{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ section.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ section.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}</div><div id="closepopup" class="popup_close"><img loading="lazy" src="{{ 'close-icon.svg' | asset_url }}" alt="" class="popup_img">
+</div></div><div class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", () => {
+    const popup = document.getElementById("popup");
+    const closePopupButton = document.getElementById("closepopup");
+    // Check if the popup has already been shown
+    if (!localStorage.getItem("popupShown")) {
+      popup.classList.remove("hide");
+    }
+    // Close popup and save to localStorage
+    closePopupButton.addEventListener("click", () => {
+      popup.classList.add("hide");
+      localStorage.setItem("popupShown", "true");
+    });
+  });
+</script></div></div> {% schema %} {"tag":"div","name":"Popup-2","class":"section_popup","settings":[{"id":"url_bild_link","type":"url","label":"Bild Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_bis_zu","type":"text","label":"Bis zu","default":"Jetzt bis zu"},{"id":"text_black_friday","type":"text","label":"Black Friday","default":"TV-Beitrag \u00fcber AQON PURE. Jetzt in der ARD Mediathek ansehen."},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}],"presets":[{"name":"Popup-2","category":"Liquify"}]} {% endschema %}

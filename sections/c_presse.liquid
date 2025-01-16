@@ -1,0 +1,107 @@
+<div class="padding-global padding-section-medium"><div x-data="{ artikelCount: 6 }" class="container-large"><div class="presse_articles_top"><div x-init="checkHeight()" x-data="{isExpanded: false, showMoreNeeded: false, checkHeight() { if (this.$refs.content.scrollHeight > {{ section.settings.container_height }}) { this.showMoreNeeded = true; }}}" id="w-node-ce05c02e-d191-760d-3615-52a674e14ce8-74e14ce8" class="content-left_wrapper"><div x-bind:style="isExpanded ? '' : 'max-height: {{ section.settings.container_height }}rem; overflow: hidden;'" li-content-for-blocks="" x-ref="content" class="content-left_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text" id="w-node-ce05c02e-d191-760d-3615-52a674e14cef-74e14ce8">
+                    <div id="w-node-ce05c02e-d191-760d-3615-52a674e14cf0-74e14ce8"> {{ block.settings.richtext_paragraph }} </div>
+
+                </div>
+    {% when 'hinweis' %}
+            <div li-block="Hinweis" id="w-node-ab6fbc84-d3df-4685-a9d1-b13aab8bf493-74e14ce8" class="map_info-block">
+                    <div class="map_item">{% if block.settings.image_icon != blank %}    <div li-if="block.settings.image_icon != blank" class="map_info-icon">
+    <img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="map_info-icon"}>
+    </div>
+{% endif %}<div id="w-node-ab6fbc84-d3df-4685-a9d1-b13aab8bf495-74e14ce8" class="text-size-small"> {{ block.settings.richtext_info_text }} </div>
+</div>
+                    {% if block.settings.richtext_info_text_2 %}    <div li-if="block.settings.richtext_info_text_2" class="map_item">
+    {% if block.settings.image_icon_2 != blank %}    <div li-if="block.settings.image_icon_2 != blank" class="map_info-icon">
+    <img src="{{ block.settings.image_icon_2 | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon_2.alt }}" class="map_info-icon"}>
+    </div>
+{% endif %}<div id="w-node-_2b670904-d088-8514-7f77-697d81f2fb37-74e14ce8" class="text-size-small"> {{ block.settings.richtext_info_text_2 }} </div>
+    </div>
+{% endif %}
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons" id="w-node-_475a2583-b255-5ba0-7d20-3a15e9182c4c-74e14ce8">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.url_button_link %}    <div li-if="block.settings.url_button_link" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.url_button_link_2 %}    <div li-if="block.settings.url_button_link_2" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+    {% when 'mehr-anzeigen' %}
+            <div x-show="showMoreNeeded && !isExpanded" x-on:click="isExpanded = true" li-block="Mehr anzeigen" id="w-node-_0248a9f0-9212-c96c-a07e-754b30e50c8d-74e14ce8" class="{% if section.settings.background_color == '' %}card_opener-gradient{% else %}card_opener-gradient is-light-blue{% endif %}">
+                    <div class="mehr-erfahren"><div>
+{{ block.settings.text_mehr_erfahren_text }}
+</div>
+<img src="{{ 'arrow-down.svg' | asset_url }}" loading="lazy" alt="" class="mehr-erfahren-icon">
+</div>
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+<div id="w-node-_884b51aa-83dc-d746-4ef5-7af8437ea34d-74e14ce8" class="li-custom w-embed"></div>
+<div id="w-node-_1306af18-b3cf-f07b-5879-c6612930324f-74e14ce8" class="li-custom w-embed"></div>
+<div class="card_opener-gradient is-light-blue hide"></div><div id="w-node-_47911358-32b4-0a07-8559-b9ba8c19d208-74e14ce8" class="hide w-embed"><style>.background-color-light-blue .map_info-block {
+background-color: white;
+}
+</style></div></div></div><div class="presse_articles_component">{% for block in section.blocks %}
+    {% if block.type == "artikel" %}
+                    <div x-show="artikelCount>= {{ forloop.index }}" li-block="Artikel" class="presse_articles_item">
+                                    <div id="w-node-_6bf27407-1f08-ae8a-268b-be376d40e7d5-6d40e7ce" class="presse_article_content"><img src="{{ block.settings.image_logo | img_url: 'master' }}" loading="lazy" id="w-node-_6bf27407-1f08-ae8a-268b-be376d40e7d6-6d40e7ce" alt="{{ block.settings.image_logo.alt }}" class="presse_article_logo"}>
+<div class="teaser_content"><p class="heading-style-medium">
+{{ block.settings.text_headline }}
+</p>
+<p id="w-node-_6bf27407-1f08-ae8a-268b-be376d40e7da-6d40e7ce" class="text-size-small"><span>
+{{ block.settings.text_ort }}
+</span>
+· <span>
+{{ block.settings.text_datum }}
+</span>
+<br>
+</p><div id="w-node-_6bf27407-1f08-ae8a-268b-be376d40e7e1-6d40e7ce" class="text-size-small"> {{ block.settings.richtext_text }} </div>
+</div><div class="presse_articles_button-group">{% if block.settings.url_link != blank %}    <div li-if="block.settings.url_link != blank">
+    <a href="{{ block.settings.url_link }}" class="button is-presse w-inline-block"> <img src="{{ 'arrow-side-top.svg' | asset_url }}" loading="lazy" alt="" class="icon-1x1-semi-medium"><div>{{ block.settings.text_link_text }}</div> </a>
+    </div>
+{% endif %}{% if block.settings.url_download != blank %}    <div li-if="block.settings.url_download != blank">
+    <a href="{{ block.settings.url_download }}" class="button is-teaser-downlod w-inline-block"> <img src="{{ 'download-black.svg' | asset_url }}" loading="lazy" alt="" class="icon-1x1-semi-medium"> </a>
+    </div>
+{% endif %}</div></div>
+                                    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" id="w-node-_6bf27407-1f08-ae8a-268b-be376d40e7eb-6d40e7ce" alt="{{ block.settings.image_bild.alt }}" class="presse_articles_img"}>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="content-align-center">{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_19ce5bf4-a715-fb04-0254-aa0fe474c929-e474c929" class="button-group">
+    {% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-_19ce5bf4-a715-fb04-0254-aa0fe474c92a-e474c929">
+    <div x-show="artikelCount < 7" x-on:click="artikelCount = 100" id="w-node-_19ce5bf4-a715-fb04-0254-aa0fe474c92b-e474c929" class="button is-secondary">
+{{ section.settings.text_button_text_2 }}
+</div>
+    </div>
+{% endif %}    </div>
+{% endif %}</div></div></div>{% if section.settings.checkbox_pfeil == true %}
+<div class="direction-holder"><img loading="lazy" src="{{ 'line-green.svg' | asset_url }}" alt="" class="direction-icon">
+</div>{% endif %}
+ {% schema %} {"tag":"section","name":"C - Presse","class":"section_presse_articles","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Headline Small"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Ein Familienunternehmen aus S\u00fcdhessen revolutioniert die Wasseraufbereitung."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_paragraph","type":"richtext","label":"Paragraph","default":"<p>Leidenschaft Wasser. Wir sind Konstantin und Maximilian, die K\u00f6pfe hinter AQON PURE. Wasser begleitet uns seit unserer Kindheit. Als Spezialist f\u00fcr Wasseraufbereitung, kamen wir durch das elterliche Familienunternehmen, die AQON Water Solutions GmbH, bereits in jungen Jahren in Kontakt mit Wassertechnik. Wir wissen, dass viele Begriffe und Technologien sehr komplex sein k\u00f6nnen.<\/p>"}]},{"name":"Hinweis","type":"hinweis","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"richtext_info_text","type":"richtext","label":"Info Text","default":"<p>Aktuell bieten wir den Einbauservice in folgenden L\u00e4ndern an:<br\/>Deutschland, \u00d6sterreich &amp; Luxemburg.<\/p>"},{"id":"image_icon_2","type":"image_picker","label":"Icon 2"},{"id":"richtext_info_text_2","type":"richtext","label":"Info Text 2","default":"<p>Aktuell bieten wir den Einbauservice in folgenden L\u00e4ndern an:<br\/>Deutschland, \u00d6sterreich &amp; Luxemburg.<\/p>"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Mehr anzeigen","type":"mehr-anzeigen","settings":[{"id":"text_mehr_erfahren_text","type":"text","label":"Mehr Erfahren Text","default":"Mehr \u00fcber Einbau zum Festpreis"}]},{"name":"Artikel","type":"artikel","settings":[{"id":"image_logo","type":"image_picker","label":"Logo"},{"id":"text_headline","type":"text","label":"Headline","default":"\u201cDer Vorteil ist: Wir sind nicht von der Politik abh\u00e4ngig\u201d"},{"id":"text_ort","type":"text","label":"Ort","default":"von Frankfurter Allgemeine Zeitung"},{"id":"text_datum","type":"text","label":"Datum","default":"05.05.2022"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Maximilian und Konstantin Wilk erkl\u00e4ren, wie man aus einem kleinen mittelst\u00e4ndischen Unternehmen einen Wachstumsstar formen kann \u2013 und was Arnold Schwarzenegger damit zu tun hat.<br\/><\/p>"},{"id":"url_link","type":"url","label":"Link"},{"id":"text_link_text","type":"text","label":"Link Text","default":"Weiterlesen"},{"id":"url_download","type":"url","label":"Download"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"type":"range","id":"container_height","min":4,"max":100,"step":1,"unit":"rem","label":"Content H\u00f6he","default":100},{"type":"color_background","id":"background","label":"Background","default":"linear-gradient(0deg, white, hsla(0, 0.00%, 100.00%, 0.00))"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Alle Artikel anzeigen"},{"id":"checkbox_pfeil","type":"checkbox","label":"Pfeil","default":true}],"presets":[{"name":"C - Presse","category":"Liquify"}]} {% endschema %}

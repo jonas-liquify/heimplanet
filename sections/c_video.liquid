@@ -1,0 +1,78 @@
+<div class="padding-global padding-section-medium {{ section.settings.background_color }}"><div x-data="{ open: true }" class="container-large"><div class="max-width-large align-center"><div li-content-for-blocks="" class="content-centerd_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text">
+                    <div class="max-width-xlarge"> {{ block.settings.richtext_intro_text }} </div>
+
+                </div>
+    {% when 'span-element' %}
+            <div li-block="Span Element">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+</div>{% if section.settings.video %}    <div x-on:click="open = ! open" li-if="section.settings.video" class="video_wrapper">
+    <div li-object="section.settings.video | video_tag: controls: true, width: '100%'" class="video_component">{{ section.settings.video | video_tag: controls: true, width: '100%' }}</div><div x-show="open" id="w-node-fd7bebba-2979-79dd-7fc6-5fabe228fca2-f3dc5f56" class="video_cover"><img loading="lazy" alt="{{ section.settings.image_cover_bild.alt }}" src="{{ section.settings.image_cover_bild | img_url: 'master' }}" class="video_cover"}>
+<div class="video_play-button w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 25 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_8525_24819" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25"><rect x="0.689453" y="0.674805" width="24" height="24" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8525_24819)"><path d="M10.1895 17.1748L17.1895 12.6748L10.1895 8.1748V17.1748ZM12.6895 22.6748C11.3061 22.6748 10.0061 22.4123 8.78945 21.8873C7.57279 21.3623 6.51445 20.6498 5.61445 19.7498C4.71445 18.8498 4.00195 17.7915 3.47695 16.5748C2.95195 15.3581 2.68945 14.0581 2.68945 12.6748C2.68945 11.2915 2.95195 9.99147 3.47695 8.7748C4.00195 7.55814 4.71445 6.4998 5.61445 5.5998C6.51445 4.6998 7.57279 3.9873 8.78945 3.4623C10.0061 2.9373 11.3061 2.6748 12.6895 2.6748C14.0728 2.6748 15.3728 2.9373 16.5895 3.4623C17.8061 3.9873 18.8645 4.6998 19.7645 5.5998C20.6645 6.4998 21.377 7.55814 21.902 8.7748C22.427 9.99147 22.6895 11.2915 22.6895 12.6748C22.6895 14.0581 22.427 15.3581 21.902 16.5748C21.377 17.7915 20.6645 18.8498 19.7645 19.7498C18.8645 20.6498 17.8061 21.3623 16.5895 21.8873C15.3728 22.4123 14.0728 22.6748 12.6895 22.6748ZM12.6895 20.6748C14.9228 20.6748 16.8145 19.8998 18.3645 18.3498C19.9145 16.7998 20.6895 14.9081 20.6895 12.6748C20.6895 10.4415 19.9145 8.54981 18.3645 6.9998C16.8145 5.4498 14.9228 4.6748 12.6895 4.6748C10.4561 4.6748 8.56445 5.4498 7.01445 6.9998C5.46445 8.54981 4.68945 10.4415 4.68945 12.6748C4.68945 14.9081 5.46445 16.7998 7.01445 18.3498C8.56445 19.8998 10.4561 20.6748 12.6895 20.6748Z" fill="white"></path></g></svg></div></div>    </div>
+{% endif %}{% if section.settings.video_url != blank %}    <div li-if="section.settings.video_url != blank">
+    <iframe src="{{ section.settings.video_url }}" width="100%" height="100%" title="{{ section.settings.video_title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" class="video_component"></iframe>    </div>
+{% endif %}<div class="video_grid">{% for block in section.blocks %}
+    {% if block.type == "block" %}
+                    <div li-block="Block" id="w-node-_1196982c-cf40-9fd9-91a0-3a6e80aaf4c7-f3dc5f56" class="video_grid-item">
+                                    <img src="{{ block.settings.image_block_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_block_icon.alt }}" class="icon-1x1-very-large"}>
+
+                                    <div id="w-node-_1196982c-cf40-9fd9-91a0-3a6e80aaf4c9-f3dc5f56" class="video_grid-text"><p id="w-node-_1196982c-cf40-9fd9-91a0-3a6e80aaf4ca-f3dc5f56" class="heading-style-h3">
+{{ block.settings.text_block_heading }}
+</p>
+<p id="w-node-_1196982c-cf40-9fd9-91a0-3a6e80aaf4cc-f3dc5f56">
+{{ block.settings.text_block_text }}
+</p>
+</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div><div class="li-custom w-embed"></div>
+<div class="li-custom w-embed"></div>
+<div class="li-custom w-embed"></div>
+<div class="li-custom"><div class="li-custom w-embed"></div>
+</div>{% if section.settings.checkbox_pfeil == true %}
+<div class="direction-holder"><img loading="lazy" src="{{ 'line-green.svg' | asset_url }}" alt="" class="direction-icon">
+</div>{% endif %}
+ {% schema %} {"tag":"section","name":"C - Video","class":"section_video","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Wirksam gegen Kalk f\u00fcr maximale Effizienz"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Aqon Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_intro_text","type":"richtext","label":"Intro Text","default":"<p>AQON Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen. Dies sorgt f\u00fcr eine optimale Energieeffizienz und senkt Kosten f\u00fcr Wartung &amp; Instanthaltung<\/p>"}]},{"name":"Span Element","type":"span-element","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Block","type":"block","settings":[{"id":"image_block_icon","type":"image_picker","label":"Block Icon"},{"id":"text_block_heading","type":"text","label":"Block Heading","default":"Wir sind David"},{"id":"text_block_text","type":"text","label":"Block Text","default":"In einer von gro\u00dfen Spielern dominierten Branche setzen wir auf unkonventionelle Ans\u00e4tze und technologische Innovation."}]}],"settings":[{"id":"image_cover_bild","type":"image_picker","label":"Cover Bild"},{"type":"video","id":"video","label":"Video hochladen"},{"type":"text","id":"video_url","label":"Video Link","default":"https:\/\/www.youtube.com\/embed\/Otq0_c4cSag?si=zX9wjVjld6QdMswV"},{"type":"text","id":"video_titel","label":"Video Titel","default":"Video Titel"},{"type":"select","id":"background_color","label":"Hintergrund Farbe","options":[{"value":"","label":"Wei\u00df"},{"value":"background-color-light-blue","label":"Hellblau"}],"default":""},{"id":"checkbox_pfeil","type":"checkbox","label":"Pfeil","default":true}],"presets":[{"name":"C - Video","category":"Liquify"}]} {% endschema %}

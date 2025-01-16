@@ -1,0 +1,21 @@
+<div class="padding-global"><div class="container-large"><div class="presse_hero_top"><h1 id="w-node-_8a5b660d-ec55-3b04-9ad8-b35d10c7c80c-10c7c808">
+{{ section.settings.text_headline }}
+</h1>
+<div id="w-node-_8a5b660d-ec55-3b04-9ad8-b35d10c7c810-10c7c808"> {{ section.settings.richtext_text }} </div>
+</div><div data-hover-pause="" id="w-node-_1fe325b2-42b4-f822-d9b0-d32cb08b5148-b08b5148" class="clients_component"><div class="clients_logo-row">{% for block in section.blocks %}
+    {% if block.type == "logo" %}
+                    <div li-block="Logo" class="clients_logo-item">
+                                    <img width="136" id="w-node-_1fe325b2-42b4-f822-d9b0-d32cb08b514b-b08b5148" alt="{{ block.settings.image_logo.alt }}" src="{{ block.settings.image_logo | img_url: 'master' }}" loading="eager" class="clients_logo"}>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div li-for:inside="block in section.blocks" class="clients_logo-row">
+        {% for block in section.blocks %}                            
+                            {% if block.type == 'logo' %}    <div li-if="block.type == 'logo'" class="clients_logo-item">
+    <img width="136" id="w-node-_1fe325b2-42b4-f822-d9b0-d32cb08b514e-b08b5148" alt="{{ block.settings.image_logo.alt }}" src="{{ block.settings.image_logo | img_url: 'master' }}" loading="eager" li-object:alt="block.settings.image_logo.alt" li-object:src="block.settings.image_logo | img_url: 'master'" class="clients_logo">
+    </div>
+{% endif %}
+                            
+                    {% endfor %}    </div>
+<div class="{% if section.settings.background_color == '' %}logo_swiper-gradient{% else %}logo_swiper-gradient is-light-blue{% endif %}"></div><div class="logo_swiper-gradient is-light-blue hide"></div></div></div></div> {% schema %} {"tag":"section","name":"H - Small","class":"section_presse_hero background-color-light-blue","blocks":[{"name":"Logo","type":"logo","settings":[{"id":"image_logo","type":"image_picker","label":"Logo"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Bleib auf dem Laufenden. <br\/>Alle Updates von AQON PURE."},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>AQON PURE wird regelm\u00e4\u00dfig in Presse und Medien erw\u00e4hnt, mit Berichten aus Zeitungen, TV und Radio. Zehntausende Haushalte haben AQON PURE am Hauswasseranschluss nachger\u00fcstet, was es zur Erfolgsgeschichte eines mittelst\u00e4ndischen Familienunternehmens macht.<\/p>"}],"presets":[{"name":"H - Small","category":"Liquify"}]} {% endschema %}

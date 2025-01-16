@@ -1,0 +1,82 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="max-width-large align-center"><div li-content-for-blocks="" class="content-centerd_wrapper">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text">
+                    <div class="max-width-xlarge"> {{ block.settings.richtext_intro_text }} </div>
+
+                </div>
+    {% when 'span-element' %}
+            <div li-block="Span Element">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+</div><div class="teaser_component">{% for block in section.blocks %}
+    {% if block.type == "artikel" %}
+                    <div li-block="Artikel" id="w-node-_19bbe707-612f-eca5-03e3-7cf1ec1a0758-ec1a0752" class="teaser_item">
+                                    <img src="{{ block.settings.image_logo | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_logo.alt }}" class="teaser_logo"}>
+
+                                    <div class="teaser_content"><h3 class="heading-style-medium">
+{{ block.settings.text_headline }}
+</h3>
+<p id="w-node-_19bbe707-612f-eca5-03e3-7cf1ec1a075d-ec1a0752" class="text-size-small">
+{{ block.settings.text_datum }}
+</p>
+<div id="w-node-_19bbe707-612f-eca5-03e3-7cf1ec1a075f-ec1a0752" class="text-size-small"> {{ block.settings.richtext_beschreibung }} </div>
+<div class="teaser_button-group">{% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" class="teaser_button">
+    <a href="{{ block.settings.url_button_link }}" class="button is-icon-centered w-inline-block"> <img src="{{ 'arrow-side-top.svg' | asset_url }}" loading="lazy" alt="" class="icon-1x1-semi-medium"><div>{{ block.settings.text_button_text }}</div> </a>
+    </div>
+{% endif %}<a href="{{ block.settings.url_download_link }}" class="button is-teaser-downlod w-inline-block"> <img src="{{ 'download-black.svg' | asset_url }}" loading="lazy" alt="" class="icon-1x1-semi-medium"> </a>
+</div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="content-align-center">{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group">
+    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ section.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ section.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}</div></div></div><div class="w-embed"><style>.teaser_item:hover .teaser_button-group {
+  max-height: 4rem;
+}
+</style></div> {% schema %} {"tag":"section","name":"C - Presse Artikel","class":"section_teaser","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Wirksam gegen Kalk f\u00fcr maximale Effizienz"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Aqon Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_intro_text","type":"richtext","label":"Intro Text","default":"<p>AQON Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen. Dies sorgt f\u00fcr eine optimale Energieeffizienz und senkt Kosten f\u00fcr Wartung &amp; Instanthaltung<\/p>"}]},{"name":"Span Element","type":"span-element","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Artikel","type":"artikel","settings":[{"id":"image_logo","type":"image_picker","label":"Logo"},{"id":"text_headline","type":"text","label":"Headline","default":"\u201cDer Vorteil ist: Wir sind nicht von der Politik abh\u00e4ngig\u201d"},{"id":"text_datum","type":"text","label":"Datum","default":"von Handelsblatt \u00b7 12.09.2024"},{"id":"richtext_beschreibung","type":"richtext","label":"Beschreibung","default":"<p>Maximilian und Konstantin Wilk erkl\u00e4ren, wie man aus einem kleinen mittelst\u00e4ndischen Unternehmen einen Wachstumsstar formen...<\/p>"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Weiterlesen"},{"id":"url_download_link","type":"url","label":"Download Link"}]}],"settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}],"presets":[{"name":"C - Presse Artikel","category":"Liquify"}]} {% endschema %}

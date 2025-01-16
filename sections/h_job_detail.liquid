@@ -1,0 +1,19 @@
+<div class="padding-global"><div class="container-large"><div class="job_detail_component"><h1 class="heading-style-h1">
+{{ section.settings.text_headline }}
+</h1>
+<p>
+{{ section.settings.text_text }}
+</p>
+<div class="job_detail_information">{% for block in section.blocks %}
+    {% if block.type == "stats" %}
+                    <div li-block="Stats" class="job_detail_info-block">
+                                    <img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="icon-1x1-medium"}>
+
+                                    <div class="text-weight-semibold text-style-allcaps">
+{{ block.settings.text_text }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div> {% schema %} {"tag":"section","name":"H - Job Detail","class":"section_job_detail background-color-light-blue","blocks":[{"name":"Stats","type":"stats","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_text","type":"text","label":"Text","default":"Full-Time"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Teamleitung Finanzbuchhaltung (m\/w\/d)"},{"id":"text_text","type":"text","label":"Text","default":"Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."}],"presets":[{"name":"H - Job Detail","category":"Liquify"}]} {% endschema %}

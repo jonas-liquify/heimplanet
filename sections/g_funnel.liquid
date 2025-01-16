@@ -1,0 +1,822 @@
+<div class="padding-global padding-section-medium is-funnel"><div class="container-large"><div class="max-width-large align-center"><div li-content-for-blocks="" class="content-centerd_wrapper is-white">
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when '@app' %}
+            {% render block %}
+    {% when 'headline-small' %}
+            <div li-block="Headline small">
+                    <h2 class="heading-style-small">
+{{ block.settings.text_headline_small }}
+</h2>
+
+                </div>
+    {% when 'headline' %}
+            <div li-block="Headline">
+                    <h3 class="heading-style-h2">
+{{ block.settings.text_headline }}
+</h3>
+
+                </div>
+    {% when 'text' %}
+            <div li-block="Text">
+                    <div class="max-width-xlarge"> {{ block.settings.richtext_intro_text }} </div>
+
+                </div>
+    {% when 'span-element' %}
+            <div li-block="Span Element">
+                    <div class="{{ block.settings.class }}">
+{{ block.settings.text_text }}
+</div>
+
+                    <div class="li-custom w-embed"></div>
+
+                </div>
+    {% when 'buttons' %}
+            <div li-block="Buttons">
+                    {% if block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text != blank or block.settings.text_button_text_2 != blank" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580336-cc580336" class="button-group padding-top padding-small">
+    {% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" id="w-node-f50b8864-b770-3670-2cd2-0a3a2cd2ed87-cc580336">
+    <a aria-label="{{ block.settings.text_button_text }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580337-cc580336" href="{{ block.settings.url_button_link }}" class="button w-button is-white"> {{ block.settings.text_button_text }} </a>
+    </div>
+{% endif %}{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank" id="w-node-bf33479f-2361-66f9-dba6-9cb9a97f87f3-cc580336">
+    <a aria-label="{{ block.settings.text_button_text_2 }}" id="w-node-_646415cb-5361-ecd4-2e80-4b94cc580339-cc580336" href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button is-white"> {{ block.settings.text_button_text_2 }} </a>
+    </div>
+{% endif %}    </div>
+{% endif %}
+                </div>
+        {% endcase %}
+{% endfor %}
+
+</div>
+
+</div><div class="quote_checks">{% for block in section.blocks %}
+    {% if block.type == "checkmark" %}
+                    <div li-block="Checkmark" class="quote_check-item">
+                                    <img loading="lazy" src="{{ 'thick-check.svg' | asset_url }}" alt="" class="quote_check-icon">
+
+                                    <div class="text-size-semi-medium text-weight-semibold">
+{{ block.settings.text_text }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div>{% if section.settings.show_rabatt %}    <div li-if="section.settings.show_rabatt" class="quote_alert">
+    <div class="text-size-medium text-weight-semibold">
+{{ section.settings.text_rabatt_text }}
+</div>
+<div>
+{{ section.settings.text_rabatt_datum }}
+</div>
+    </div>
+{% endif %}<div x-data="{ personen: '1-3', gebaeudetyp: 'Einfamilienhaus', kaltwasser: '', warmwasser2: '', kueche:'', badezimmer: '', wohneinheiten: '' }" class="quote_form w-form"><form method="post" class="quote_component" data-form="multistep" name="wf-form-funnel" data-name="funnel" data-count-card="false" data-enter="true" action="https://hook.eu2.make.com/mt5oi8f1fnoiemgk8e9141f9qgvenl6w" id="wf-form-funnel" data-logic-extra="true" data-wf-page-id="670002d93b57cd6ea664c054" data-wf-element-id="64d5baed-0118-8c92-3ea3-a34bc8653dd4"><div class="quote_top"><div class="quote_step-text"><span>
+{{ section.settings.text_schritt }}
+</span>
+<span data-text="current-step">1</span>/6</div><div data-clickable="true" data-form="progress" class="quote_progress"><div class="multi-form25_progress-bar current"></div><div data-form="progress-indicator" class="multi-form25_progress-bar"></div></div></div><div data-form-step="364" data-form="step" class="quote_step"><div class="quote_headline-wrapper"><div class="heading-style-quote">
+{{ section.settings.text_gebaudetyp }}
+</div>
+</div><div class="quote_data"><div data-name="" data-answer="" class="quote_data"><div class="quote_grid"><label id="Einfamilienhaus" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="3" name="364" data-name="" x-model="gebaeudetyp" data-radio-skip="true" type="radio" id="Einfamilienhaus" data-go-to="einfamilienhaus" style="opacity:0;position:absolute;z-index:-1" value="Einfamilienhaus">
+<img src="{{ 'einfamilienhaus.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_einfamilienhaus }}
+</span>
+<div class="text-size-small position-relativ hide-mobile-landscape">
+{{ section.settings.text_freistehend }}
+</div>
+</label><label id="Mehrfamilienhaus" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="2" name="mehrfamilienhaus" data-name="" x-model="gebaeudetyp" data-radio-skip="true" type="radio" id="Mehrfamilienhaus" data-go-to="mehrfamilienhaus" style="opacity:0;position:absolute;z-index:-1" value="Mehrfamilienhaus">
+<img src="{{ 'mehrfamilienhaus.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_mehrfamilienhaus }}
+</span>
+<div class="text-size-small position-relativ hide-mobile-landscape">
+{{ section.settings.text_wohneinheiten }}
+</div>
+</label><label id="Einzelne Wohnung" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="3" name="364" data-name="" x-model="gebaeudetyp" data-radio-skip="true" type="radio" id="Einzelne Wohnung" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="Einzelne Wohnung">
+<img src="{{ 'einzelne-wohnung.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_einzelne_wohnung }}
+</span>
+</label><label id="Sonstiges" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="11" name="364" data-name="" x-model="gebaeudetyp" data-radio-skip="true" type="radio" id="Sonstiges" data-go-to="gewerbe" style="opacity:0;position:absolute;z-index:-1" value="Sonstiges">
+<img src="{{ 'gewerbe.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_gewerbe }}
+</span>
+<div class="text-size-small position-relativ hide-mobile-landscape">
+{{ section.settings.text_hotellerie }}
+</div>
+</label></div><div class="quote_grid hide"></div></div></div></div><div data-form-step="497" data-form="step" class="quote_step"><div class="quote_headline-wrapper"><div class="heading-style-quote">
+{{ section.settings.text_wie_viele_wohneinheiten }}
+</div>
+</div><div class="quote_data"><div data-name="" data-answer="mehrfamilienhaus" class="quote_data"><div class="quote_grid"><label id="Zweifamilienhaus" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="364" data-name="" x-model="wohneinheiten" data-radio-skip="true" type="radio" id="Zweifamilienhaus" data-go-to="zweifamilienhaus" style="opacity:0;position:absolute;z-index:-1" value="Zweifamilienhaus">
+<img src="{{ 'zweifamilienhaus.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_zweifamilienhaus }}
+</span>
+</label><label id="Dreifamilienhaus" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="364" data-name="" x-model="wohneinheiten" data-radio-skip="true" type="radio" id="Dreifamilienhaus" data-go-to="dreifamilienhaus" style="opacity:0;position:absolute;z-index:-1" value="Dreifamilienhaus">
+<img src="{{ 'freifamilienhaus.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_dreifamilienhaus }}
+</span>
+</label><label id="Vierfamilienhaus" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="364" data-name="" x-model="wohneinheiten" data-radio-skip="true" type="radio" id="Vierfamilienhaus" data-go-to="vierfamilienhaus" style="opacity:0;position:absolute;z-index:-1" value="Vierfamilienhaus">
+<img src="{{ 'vierfamilienhaus.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_vierfamilienhaus }}
+</span>
+</label><label id="Mehrfamilienhaus" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="10" name="364" data-name="" x-model="wohneinheiten" data-radio-skip="true" type="radio" id="Mehrfamilienhaus" data-go-to="mehrfamilienhaus" style="opacity:0;position:absolute;z-index:-1" value="Mehrfamilienhaus">
+<img src="{{ 'grosses-mehrfamilienhaus.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_grosseres_mehrfamilienhaus }}
+</span>
+<div class="text-size-small position-relativ hide-mobile-landscape">
+{{ section.settings.text_5_oder_mehr }}
+</div>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div></div></div><div data-form-step="366" data-form="step" class="quote_step"><div class="quote_headline-wrapper"><div class="heading-style-quote">
+{{ section.settings.text_personen_im_haushalt }}
+</div>
+<div data-answer="einzelne-wohnung" class="heading-style-quote is-headline-1">
+{{ section.settings.text_personen_in_wohnung }}
+</div>
+</div><div class="quote_data"><div data-name="" data-answer="einfamilienhaus" class="quote_data"><div class="quote_grid"><label id="1-3" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="1-3" data-go-to="klein" style="opacity:0;position:absolute;z-index:-1" value="1-3">
+<img src="{{ '1-3-personen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_3_personen }}
+</span>
+</label><label id="4-5" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="4-5" data-go-to="klein" style="opacity:0;position:absolute;z-index:-1" value="4-5">
+<img src="{{ '4-5-personen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_4_5_personen }}
+</span>
+</label><label id="6+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="6+" data-go-to="klein" style="opacity:0;position:absolute;z-index:-1" value="6+">
+<img src="{{ '6-oder-mehr.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_6_oder_mehr_personen }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div><div data-name="" data-answer="einzelne-wohnung" class="quote_data"><div class="quote_grid"><label id="1-3" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="1-3" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="1-3">
+<img src="{{ '1-3-personen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_3_personen }}
+</span>
+</label><label id="4-5" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="4-5" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="4-5">
+<img src="{{ '4-5-personen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_4_5_personen }}
+</span>
+</label><label id="6+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="6+" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="6+">
+<img src="{{ '6-oder-mehr.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_6_oder_mehr_personen }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div><div data-name="" data-answer="zweifamilienhaus" class="quote_data"><div class="quote_grid"><label id="1-3" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="1-3" data-go-to="klein" style="opacity:0;position:absolute;z-index:-1" value="1-3">
+<img src="{{ '1-3-personen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_3_personen }}
+</span>
+</label><label id="4-5" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="4-5" data-go-to="klein" style="opacity:0;position:absolute;z-index:-1" value="4-5">
+<img src="{{ '4-5-personen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_4_5_personen }}
+</span>
+</label><label id="6+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="6+" data-go-to="klein" style="opacity:0;position:absolute;z-index:-1" value="6+">
+<img src="{{ '6-oder-mehr.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_6_oder_mehr_personen }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div><div data-name="" data-answer="dreifamilienhaus" class="quote_data"><div class="quote_grid"><label id="1-5" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="1-5" data-go-to="gross" style="opacity:0;position:absolute;z-index:-1" value="1-5">
+<img src="{{ '1-5-personen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_5_personen }}
+</span>
+</label><label id="6-12" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="6-12" data-go-to="gross" style="opacity:0;position:absolute;z-index:-1" value="6-12">
+<img src="{{ '6-oder-mehr.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_6_12_personen }}
+</span>
+</label><label id="13+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="13+" data-go-to="gross" style="opacity:0;position:absolute;z-index:-1" value="13+">
+<img src="{{ '13-oder-mehr.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_13_oder_mehr_personen }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div><div data-name="" data-answer="vierfamilienhaus" class="quote_data"><div class="quote_grid"><label id="1-5" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="1-5" data-go-to="gross" style="opacity:0;position:absolute;z-index:-1" value="1-5">
+<img src="{{ '1-5-personen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_5_personen }}
+</span>
+</label><label id="6-12" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="6-12" data-go-to="gross" style="opacity:0;position:absolute;z-index:-1" value="6-12">
+<img src="{{ '6-oder-mehr.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_6_12_personen }}
+</span>
+</label><label id="13+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="366" data-name="" x-model="personen" data-radio-skip="true" type="radio" id="13+" data-go-to="gross" style="opacity:0;position:absolute;z-index:-1" value="13+">
+<img src="{{ '13-oder-mehr.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_13_oder_mehr_personen }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div></div></div><div data-form-step="369" data-form="step" class="quote_step"><div class="quote_headline-wrapper"><div class="heading-style-quote">
+{{ section.settings.text_badezimmer_im_haus }}
+</div>
+<div data-answer="einzelne-wohnung" class="heading-style-quote is-headline-1">
+{{ section.settings.text_badezimmer_in_wohnung }}
+</div>
+</div><div class="quote_data"><div data-name="" data-answer="klein" class="quote_data"><div class="quote_grid"><label id="1-2" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="369" data-name="" x-model="badezimmer" data-radio-skip="true" type="radio" id="1-2" data-go-to="wenig-kuechen" style="opacity:0;position:absolute;z-index:-1" value="1-2">
+<img src="{{ '1-2-badezimmer.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_2_badezimmer }}
+</span>
+</label><label id="3-4" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="369" data-name="" x-model="badezimmer" data-radio-skip="true" type="radio" id="3-4" data-go-to="wenig-kuechen" style="opacity:0;position:absolute;z-index:-1" value="3-4">
+<img src="{{ '3-4-badezimmer.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_3_4_badezimmer }}
+</span>
+</label><label id="5+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="369" data-name="" x-model="badezimmer" data-radio-skip="true" type="radio" id="5+" data-go-to="wenig-kuechen" style="opacity:0;position:absolute;z-index:-1" value="5+">
+<img src="{{ '5-oder-mehr-badezimmer.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_5_oder_mehr_badezimmer }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div><div data-name="" data-answer="gross" class="quote_data"><div class="quote_grid"><label id="1-2" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="369" data-name="" x-model="badezimmer" data-radio-skip="true" type="radio" id="1-2" data-go-to="viele-kuechen" style="opacity:0;position:absolute;z-index:-1" value="1-2">
+<img src="{{ '1-2-badezimmer.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_2_badezimmer }}
+</span>
+</label><label id="3-4" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="369" data-name="" x-model="badezimmer" data-radio-skip="true" type="radio" id="3-4" data-go-to="viele-kuechen" style="opacity:0;position:absolute;z-index:-1" value="3-4">
+<img src="{{ '3-4-badezimmer.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_3_4_badezimmer }}
+</span>
+</label><label id="5+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="369" data-name="" x-model="badezimmer" data-radio-skip="true" type="radio" id="5+" data-go-to="viele-kuechen" style="opacity:0;position:absolute;z-index:-1" value="5+">
+<img src="{{ '5-oder-mehr-badezimmer.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_5_oder_mehr_badezimmer }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div><div data-name="" data-answer="einzelne-wohnung" class="quote_data"><div class="quote_grid"><label id="1-2" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="369" data-name="" x-model="badezimmer" data-radio-skip="true" type="radio" id="1-2" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="1-2">
+<img src="{{ '1-2-badezimmer.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_2_badezimmer }}
+</span>
+</label><label id="3-4" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="369" data-name="" x-model="badezimmer" data-radio-skip="true" type="radio" id="3-4" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="3-4">
+<img src="{{ '3-4-badezimmer.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_3_4_badezimmer }}
+</span>
+</label><label id="5+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="369" data-name="" x-model="badezimmer" data-radio-skip="true" type="radio" id="5+" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="5+">
+<img src="{{ '5-oder-mehr-badezimmer.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_5_oder_mehr_badezimmer }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div></div></div><div data-form-step="368" data-form="step" class="quote_step"><div class="quote_headline-wrapper"><div class="heading-style-quote">
+{{ section.settings.text_kuchen_im_haus }}
+</div>
+<div data-answer="einzelne-wohnung" class="heading-style-quote is-headline-1">
+{{ section.settings.text_kuchen_in_wohnung }}
+</div>
+</div><div class="quote_data"><div data-name="" data-answer="wenig-kuechen" class="quote_data"><div class="quote_grid"><label id="1" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="8" name="368" data-name="" x-model="kueche" data-radio-skip="true" type="radio" id="1" data-go-to="loader" style="opacity:0;position:absolute;z-index:-1" value="1">
+<img src="{{ '1-kueche.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_kuche }}
+</span>
+</label><label id="2" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="8" name="368" data-name="" x-model="kueche" data-radio-skip="true" type="radio" id="2" data-go-to="loader" style="opacity:0;position:absolute;z-index:-1" value="2">
+<img src="{{ '2-kuechen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_2_kuchen }}
+</span>
+</label><label id="3+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="8" name="368" data-name="" x-model="kueche" data-radio-skip="true" type="radio" id="3+" data-go-to="loader" style="opacity:0;position:absolute;z-index:-1" value="3+">
+<img src="{{ 'mehr-kuechen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_3_oder_mehr_kuchen }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div><div data-name="" data-answer="einzelne-wohnung" class="quote_data"><div class="quote_grid"><label id="1" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="368" data-name="" x-model="kueche" data-radio-skip="true" type="radio" id="1" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="1">
+<img src="{{ '1-kueche.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_kuche }}
+</span>
+</label><label id="2" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="368" data-name="" x-model="kueche" data-radio-skip="true" type="radio" id="2" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="2">
+<img src="{{ '2-kuechen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_2_kuchen }}
+</span>
+</label><label id="3+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="368" data-name="" x-model="kueche" data-radio-skip="true" type="radio" id="3+" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="3+">
+<img src="{{ 'mehr-kuechen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_3_oder_mehr_kuchen }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div><div data-name="" data-answer="viele-kuechen" class="quote_data"><div class="quote_grid"><label id="1-2" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="8" name="368" data-name="" x-model="kueche" data-radio-skip="true" type="radio" id="1-2" data-go-to="loader" style="opacity:0;position:absolute;z-index:-1" value="1-2">
+<img src="{{ '2-kuechen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_1_2_kuchen }}
+</span>
+</label><label id="3-4" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="8" name="368" data-name="" x-model="kueche" data-radio-skip="true" type="radio" id="3-4" data-go-to="loader" style="opacity:0;position:absolute;z-index:-1" value="3-4">
+<img src="{{ 'mehr-kuechen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_3_4_kuchen }}
+</span>
+</label><label id="5+" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="8" name="368" data-name="" x-model="kueche" data-radio-skip="true" type="radio" id="5+" data-go-to="loader" style="opacity:0;position:absolute;z-index:-1" value="5+">
+<img src="{{ '5-oder-mehr-kuechen.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_5_oder_mehr_kuchen }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div></div></div><div data-form-step="505" data-form="step" class="quote_step"><div class="quote_headline-wrapper"><div class="heading-style-quote">
+{{ section.settings.text_warmwasser_im_haus }}
+</div>
+</div><div class="quote_data"><div data-name="" data-answer="einzelne-wohnung" class="quote_data"><div class="quote_grid"><label id="Zentral für alle Wohneinheiten" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="524" data-name="" x-model="warmwasser2" data-radio-skip="true" type="radio" id="Zentral für alle Wohneinheiten" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="Zentral für alle Wohneinheiten">
+<img src="{{ 'zentrale-fue-wohneinheiten.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_zentral_fur_alle }}
+</span>
+</label><label id="Dezentral für jede Wohneinheit einzeln" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="524" data-name="" x-model="warmwasser2" data-radio-skip="true" type="radio" id="Dezentral für jede Wohneinheit einzeln" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="Dezentral für jede Wohneinheit einzeln">
+<img src="{{ 'dezentral-in-meiner-wohnung.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_dezentral_in_meiner }}
+</span>
+</label><label id="Dezentral" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio hide"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="" name="524" data-name="" x-model="warmwasser2" data-radio-skip="true" type="radio" id="Dezentral" data-go-to="einzelne-wohnung" style="opacity:0;position:absolute;z-index:-1" value="Dezentral">
+<img src="{{ 'dezentral-in-meiner-wohnung.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_dezentral_in_meiner }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div></div></div><div data-form-step="512" data-form="step" class="quote_step"><div class="quote_headline-wrapper"><div class="heading-style-quote">
+{{ section.settings.text_kaltwasser_zuganglich }}
+</div>
+</div><div class="quote_data"><div data-name="" data-answer="einzelne-wohnung" class="quote_data"><div class="quote_grid"><label id="Ja, frei zugänglich" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="8" name="525" data-name="" x-model="kaltwasser" data-radio-skip="true" type="radio" id="Ja, frei zugänglich" data-go-to="loader" style="opacity:0;position:absolute;z-index:-1" value="Ja, frei zugänglich">
+<img src="{{ 'kaltwasserleitung-zugaengling.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_ja_frei_zuganglich }}
+</span>
+</label><label id="Nein, nicht frei zugänglich" class="quote_item w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03 w-radio"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="8" name="525" data-name="" x-model="kaltwasser" data-radio-skip="true" type="radio" id="Nein, nicht frei zugänglich" data-go-to="loader" style="opacity:0;position:absolute;z-index:-1" value="Nein, nicht frei zugänglich">
+<img src="{{ 'kaltwasserleitung-nicht-zugaenglich.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_nein_nicht_frei_zuganglich }}
+</span>
+</label><label id="w-node-aa573d53-86f7-ac62-a214-d458708e3b03-708e3b03" class="quote_item w-radio hide"><div class="quote_bg-blur"></div><div class="w-form-formradioinput w-form-formradioinput--inputType-custom quote_radio w-radio-input"></div><input data-skip-to="8" name="525" data-name="" x-model="kaltwasser" data-radio-skip="true" type="radio" data-go-to="loader" style="opacity:0;position:absolute;z-index:-1" value="">
+<img src="{{ 'kaltwasserleitung-nicht-zugaenglich.svg' | asset_url }}" loading="lazy" id="w-node-aa573d53-86f7-ac62-a214-d458708e3b05-708e3b03" alt="" class="quote_funnel-img">
+<span class="heading-style-h3 position-relativ w-form-label" for="radio">
+{{ section.settings.text_nein_nicht_frei_zuganglich }}
+</span>
+</label></div><div class="quote_grid hide"></div><a data-form="back-btn" id="w-node-_91eb5d4f-bf66-bed8-e117-22700f8b2bbe-24dfd8ef" href="#" class="quote_back w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div>
+{{ section.settings.text_zuruck }}
+</div>
+</a></div></div></div><div id="loader" data-form="step" data-card="true" class="quote_step is-loading"><div x-cloak="" class="quote_overlay"></div><div data-answer="loader" class="icon-embed-large is-rotate w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 58 58" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g clip-path="url(#clip0_8008_48090)"><path d="M32.39 3.84814C32.39 5.69622 30.8711 7.19628 28.9997 7.19628C27.1283 7.19628 25.6094 5.69622 25.6094 3.84814C25.6094 2.00006 27.1283 0.5 28.9997 0.5C30.8711 0.5 32.39 1.99766 32.39 3.84814Z" fill="#10298E"></path><path opacity="0.95" d="M21.6292 4.68607C22.3899 6.37574 21.6219 8.35343 19.9109 9.10706C18.2 9.85829 16.1974 9.09986 15.4343 7.41019C14.6736 5.72052 15.4416 3.74283 17.1525 2.9892C18.8635 2.23797 20.8661 2.9964 21.6292 4.68607Z" fill="#10298E"></path><path opacity="0.89" d="M12.1363 9.77518C13.5289 11.0112 13.6407 13.1305 12.3866 14.5034C11.135 15.8762 8.98901 15.989 7.59886 14.7506C6.20627 13.5121 6.09448 11.3953 7.34853 10.0224C8.60015 8.64713 10.7461 8.53673 12.1363 9.77518Z" fill="#10298E"></path><path opacity="0.82" d="M5.55647 18.2389C7.33791 18.8101 8.31248 20.699 7.73406 22.4583C7.15563 24.2175 5.24296 25.18 3.46152 24.6088C1.68008 24.0375 0.705519 22.1487 1.28394 20.3894C1.86236 18.6301 3.77504 17.6677 5.55647 18.2389Z" fill="#10298E"></path><path opacity="0.75" d="M3.03712 28.6087C4.90118 28.4142 6.5684 29.7487 6.76282 31.5872C6.95725 33.4257 5.60598 35.0745 3.74434 35.2665C1.88271 35.4609 0.215494 34.1265 0.0186365 32.288C-0.175791 30.4495 1.17305 28.8007 3.03712 28.6087Z" fill="#10298E"></path><path opacity="0.68" d="M5.00912 39.0931C6.63016 38.169 8.70323 38.7187 9.64134 40.3195C10.577 41.9204 10.0229 43.9701 8.39944 44.8941C6.77841 45.8182 4.70533 45.2685 3.76722 43.6701C2.83154 42.0692 3.38566 40.0219 5.00912 39.0955V39.0931Z" fill="#10298E"></path><path opacity="0.61" d="M11.1239 47.8833C12.2249 46.388 14.3441 46.0568 15.8607 47.144C17.3748 48.2313 17.7126 50.3242 16.6116 51.8194C15.5107 53.3147 13.3914 53.6459 11.8749 52.5611C10.3608 51.4738 10.023 49.3809 11.1239 47.8833Z" fill="#10298E"></path><path opacity="0.56" d="M20.3348 53.4562C20.7236 51.6465 22.5245 50.4945 24.357 50.8785C26.187 51.2625 27.3584 53.041 26.9672 54.8507C26.5783 56.6603 24.7774 57.8124 22.945 57.4308C21.1149 57.0468 19.9435 55.2683 20.3323 53.4586L20.3348 53.4562Z" fill="#10298E"></path><path opacity="0.49" d="M31.0434 54.8482C30.6545 53.0385 31.8235 51.2624 33.656 50.8784C35.4885 50.4944 37.2894 51.6488 37.6782 53.4561C38.0695 55.2634 36.8981 57.0419 35.0656 57.4283C33.2355 57.8123 31.4347 56.6578 31.0458 54.8482H31.0434Z" fill="#10298E"></path><path opacity="0.42" d="M41.3981 51.8193C40.2971 50.324 40.6325 48.2311 42.149 47.1439C43.6631 46.0567 45.7848 46.3879 46.8858 47.8855C47.9867 49.3808 47.6489 51.4737 46.1372 52.5633C44.6231 53.6506 42.5014 53.3194 41.4005 51.8217L41.3981 51.8193Z" fill="#10298E"></path><path opacity="0.35" d="M49.6083 44.891C47.9873 43.967 47.4332 41.9197 48.3689 40.3188C49.3045 38.7179 51.3776 38.1683 53.0011 39.0947C54.6221 40.0164 55.1762 42.0661 54.243 43.6693C53.3073 45.2702 51.2342 45.8198 49.6108 44.8934L49.6083 44.891Z" fill="#10298E"></path><path opacity="0.28" d="M54.2538 35.2669C52.3922 35.0725 51.0409 33.4261 51.2378 31.5876C51.4347 29.7491 53.1019 28.4123 54.9635 28.6091C56.8251 28.8011 58.174 30.4499 57.9796 32.2884C57.7851 34.1269 56.1155 35.4614 54.2538 35.2669Z" fill="#10298E"></path><path opacity="0.21" d="M54.5408 24.6058C52.7594 25.177 50.8467 24.2146 50.2683 22.4553C49.6899 20.696 50.6645 18.8071 52.4459 18.2359C54.2249 17.6623 56.1376 18.6271 56.7184 20.3864C57.2968 22.1433 56.3223 24.0345 54.5408 24.6058Z" fill="#10298E"></path><path opacity="0.14" d="M50.4085 14.7498C49.0159 15.9882 46.8724 15.8754 45.6208 14.5025C44.3691 13.1273 44.4785 11.0104 45.8735 9.77435C47.2637 8.5359 49.4072 8.6487 50.6613 10.0216C51.9129 11.3944 51.8035 13.5137 50.4109 14.7498H50.4085Z" fill="#10298E"></path><path opacity="0.07" d="M42.5731 7.40916C41.8124 9.09883 39.8074 9.85726 38.0989 9.10603C36.3879 8.3524 35.6175 6.37472 36.3806 4.68505C37.1413 2.99537 39.1463 2.23934 40.8573 2.98817C42.5683 3.73941 43.3387 5.71949 42.5755 7.40916H42.5731Z" fill="#10298E"></path></g><defs><clippath id="clip0_8008_48090"><rect width="58" height="57" fill="white" transform="translate(0 0.5)"></rect></clippath></defs></svg><style>.icon-embed-large.is-rotate{
+  /* Ensure the element is displayed correctly */
+  display: inline-block;
+  /* Animation properties */
+  animation: rotate 2s linear infinite;
+}
+/* Keyframes for rotating the div */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style></div><div class="text-size-medium text-weight-semibold position-relativ">
+{{ section.settings.text_loader_subline }}
+</div>
+<div class="heading-style-h2 max-width-large position-relativ">
+{{ section.settings.text_loader_headline }}
+</div>
+<div data-go-to="result" data-answer="loader"><a id="loader-button" data-form="next-btn" href="#" class="hide w-button">weiter</a></div><div class="position-relativ">
+{{ section.settings.text_loader_text }}
+</div>
+</div><div data-card="true" data-form="step" class="quote_step is-loading"><div x-cloak="" class="quote_overlay"></div><div class="quote_hinweis text-color-green"><div class="quote_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 18 18" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><rect x="0.5" y="0.5" width="17" height="17" rx="8.5" fill="#0DBD74"></rect><path d="M5.11719 9.61974L7.10472 11.6073L12.1729 6.53906" stroke="white" stroke-width="0.866101" stroke-linecap="round"></path></svg></div><div class="text-size-medium text-weight-semibold">
+{{ section.settings.text_ergebnis_subline }}
+</div>
+</div><div class="heading-style-h2 position-relativ">
+{{ section.settings.text_ergebnis_headline }}
+</div>
+<div class="max-width-large position-relativ"> {{ section.settings.richtext_ergebnis_text }} </div>
+<div class="quote_result-grid is-result"><div class="quote_result_item is-result"><div class="text-weight-semibold">
+{{ section.settings.text_ergebnis_wartungskosten }}
+</div>
+<div><div class="quote_grafik-grid"><div class="quote_grafik-block"><div class="quote_zahlen"><div x-show="gebaeudetyp === 'Einzelne Wohnung' && personen === '1-3'">
+{{ section.settings.text_kosten_1 }}
+</div>
+<div x-show="gebaeudetyp === 'Einzelne Wohnung' && personen === '4-5'">
+{{ section.settings.text_kosten_1 }}
+</div>
+<div x-show="gebaeudetyp === 'Einzelne Wohnung' && personen === '6+'">
+{{ section.settings.text_kosten_1 }}
+</div>
+<div x-show="gebaeudetyp === 'Einfamilienhaus' && personen === '1-3'">
+{{ section.settings.text_kosten_1 }}
+</div>
+<div x-show="gebaeudetyp === 'Einfamilienhaus' && personen === '4-5'">
+{{ section.settings.text_kosten_1 }}
+</div>
+<div x-show="gebaeudetyp === 'Einfamilienhaus' && personen === '6+'">
+{{ section.settings.text_kosten_1 }}
+</div>
+<div x-show="wohneinheiten === 'Zweifamilienhaus' && personen === '1-3'">
+{{ section.settings.text_kosten_1 }}
+</div>
+<div x-show="wohneinheiten === 'Zweifamilienhaus' && personen === '4-5'">
+{{ section.settings.text_kosten_1 }}
+</div>
+<div x-show="wohneinheiten === 'Zweifamilienhaus' && personen === '6+'">
+{{ section.settings.text_kosten_1 }}
+</div>
+<div x-show="wohneinheiten === 'Dreifamilienhaus' && personen === '1-5'">
+{{ section.settings.text_kosten_2 }}
+</div>
+<div x-show="wohneinheiten === 'Dreifamilienhaus' && personen === '6-12'">
+{{ section.settings.text_kosten_2 }}
+</div>
+<div x-show="wohneinheiten === 'Dreifamilienhaus' && personen === '13+'">
+{{ section.settings.text_kosten_2 }}
+</div>
+<div x-show="wohneinheiten === 'Vierfamilienhaus' && personen === '1-5'">
+{{ section.settings.text_kosten_2 }}
+</div>
+<div x-show="wohneinheiten === 'Vierfamilienhaus' && personen === '6-12'">
+{{ section.settings.text_kosten_2 }}
+</div>
+<div x-show="wohneinheiten === 'Vierfamilienhaus' && personen === '13+'">
+{{ section.settings.text_kosten_2 }}
+</div>
+</div><div class="quote_grafik-stat"></div></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653e90-c8653dd3" class="quote_grafik-block"><div class="quote_grafik-stat is-blue"></div><div class="quote_zahlen is-blue"><div>
+{{ section.settings.text_0eur }}
+</div>
+</div></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653e95-c8653dd3" class="quote_graph-devider"></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653e96-c8653dd3" class="text-size-very-tiny text-weight-semibold">Enthärtungs-<br>
+anlage mit Salz</div><img id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653e9a-c8653dd3" loading="lazy" alt="" src="{{ 'aqon-pure-logo.svg' | asset_url }}" class="quote_graph-logo">
+</div></div></div><div class="quote_result_item is-result"><div class="text-weight-semibold">
+{{ section.settings.text_ergebnis_betriebskosten }}
+</div>
+<div><div class="quote_grafik-grid"><div class="quote_grafik-block"><div class="quote_zahlen"><div x-show="gebaeudetyp === 'Einfamilienhaus' && personen === '1-3'">
+{{ section.settings.text_kosten_31 }}
+</div>
+<div x-show="gebaeudetyp === 'Einzelne Wohnung' && personen === '1-3'">
+{{ section.settings.text_kosten_31 }}
+</div>
+<div x-show="gebaeudetyp === 'Einfamilienhaus' && personen === '4-5'">
+{{ section.settings.text_kosten_4 }}
+</div>
+<div x-show="gebaeudetyp === 'Einzelne Wohnung' && personen === '4-5'">
+{{ section.settings.text_kosten_4 }}
+</div>
+<div x-show="gebaeudetyp === 'Einfamilienhaus' && personen === '6+'">
+{{ section.settings.text_kosten_5 }}
+</div>
+<div x-show="gebaeudetyp === 'Einzelne Wohnung' && personen === '6+'">
+{{ section.settings.text_kosten_5 }}
+</div>
+<div x-show="wohneinheiten === 'Zweifamilienhaus' && personen === '1-3'">
+{{ section.settings.text_kosten_6 }}
+</div>
+<div x-show="wohneinheiten === 'Zweifamilienhaus' && personen === '4-5'">
+{{ section.settings.text_kosten_7 }}
+</div>
+<div x-show="wohneinheiten === 'Zweifamilienhaus' && personen === '6+'">
+{{ section.settings.text_kosten_8 }}
+</div>
+<div x-show="wohneinheiten === 'Dreifamilienhaus' && personen === '1-5'">
+{{ section.settings.text_kosten_9 }}
+</div>
+<div x-show="wohneinheiten === 'Dreifamilienhaus' && personen === '6-12'">
+{{ section.settings.text_kosten_10 }}
+</div>
+<div x-show="wohneinheiten === 'Dreifamilienhaus' && personen === '13+'">
+{{ section.settings.text_kosten_11 }}
+</div>
+<div x-show="wohneinheiten === 'Vierfamilienhaus' && personen === '1-5'">
+{{ section.settings.text_kosten_12 }}
+</div>
+<div x-show="wohneinheiten === 'Vierfamilienhaus' && personen === '6-12'">
+{{ section.settings.text_kosten_13 }}
+</div>
+<div x-show="wohneinheiten === 'Vierfamilienhaus' && personen === '13+'">
+{{ section.settings.text_kosten_14 }}
+</div>
+</div><div class="quote_grafik-stat"></div></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653ebd-c8653dd3" class="quote_grafik-block"><div class="quote_grafik-stat is-blue"></div><div class="quote_zahlen is-blue"><div>
+{{ section.settings.text_0eur }}
+</div>
+</div></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653ec2-c8653dd3" class="quote_graph-devider"></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653ec3-c8653dd3" class="text-size-very-tiny text-weight-semibold">Enthärtungs-<br>
+anlage mit Salz</div><img id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653ec7-c8653dd3" loading="lazy" alt="" src="{{ 'aqon-pure-logo.svg' | asset_url }}" class="quote_graph-logo">
+</div></div></div><div class="quote_result_item is-graph is-result"><div class="text-weight-semibold">
+{{ section.settings.text_trinkwasser }}
+</div>
+<div><div class="quote_grafik-grid is-result"><div class="quote_result-block"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 25 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><rect x="0.503906" y="0.5" width="24" height="24" rx="12" fill="#C36F00" fill-opacity="0.2"></rect><mask id="mask0_8008_49190" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25"><rect x="0.503906" y="0.5" width="24" height="24" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8008_49190)"><path d="M7.00391 17.1055L12.5039 7.10547L18.0039 17.1055H7.00391ZM12.5039 15.5265C12.6456 15.5265 12.7643 15.4761 12.8602 15.3752C12.956 15.2743 13.0039 15.1493 13.0039 15.0002C13.0039 14.8511 12.956 14.7261 12.8602 14.6252C12.7643 14.5243 12.6456 14.4739 12.5039 14.4739C12.3622 14.4739 12.2435 14.5243 12.1477 14.6252C12.0518 14.7261 12.0039 14.8511 12.0039 15.0002C12.0039 15.1493 12.0518 15.2743 12.1477 15.3752C12.2435 15.4761 12.3622 15.5265 12.5039 15.5265ZM12.0039 13.9476H13.0039V11.316H12.0039V13.9476Z" fill="#C36F00"></path></g></svg></div><div>Erhöhter Natriumswert und Korrosionsrisiko</div></div><div id="w-node-_04e96552-29c5-2efd-f077-32470082a163-c8653dd3" class="quote_result-block is-blue"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 25 25" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><rect x="0.503906" y="0.515137" width="24" height="24" rx="12" fill="#D40510" fill-opacity="0.0627451"></rect><mask id="mask0_8008_49196" style="mask-type:alpha" maskunits="userSpaceOnUse" x="5" y="5" width="15" height="15"><rect x="5.50391" y="5.51514" width="14" height="14" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8008_49196)"><path d="M12.6669 16.5998C12.7836 16.5901 12.8832 16.5439 12.9659 16.4612C13.0485 16.3786 13.0898 16.2789 13.0898 16.1623C13.0898 16.0262 13.0461 15.9168 12.9586 15.8341C12.8711 15.7515 12.7593 15.7151 12.6232 15.7248C12.2246 15.7539 11.8016 15.6446 11.3544 15.3966C10.9072 15.1487 10.6253 14.6991 10.5086 14.0477C10.4891 13.9407 10.4381 13.8532 10.3555 13.7852C10.2728 13.7171 10.178 13.6831 10.0711 13.6831C9.93498 13.6831 9.82318 13.7341 9.73568 13.8362C9.64818 13.9383 9.61901 14.0574 9.64818 14.1935C9.81345 15.0782 10.2023 15.7102 10.8148 16.0894C11.4273 16.4685 12.0447 16.6387 12.6669 16.5998ZM12.5065 18.3498C11.1746 18.3498 10.0638 17.8928 9.17422 16.9789C8.28464 16.0651 7.83984 14.9276 7.83984 13.5664C7.83984 12.5942 8.2263 11.5369 8.99922 10.3946C9.77214 9.2522 10.9412 8.01505 12.5065 6.68311C14.0718 8.01505 15.2409 9.2522 16.0138 10.3946C16.7867 11.5369 17.1732 12.5942 17.1732 13.5664C17.1732 14.9276 16.7284 16.0651 15.8388 16.9789C14.9492 17.8928 13.8385 18.3498 12.5065 18.3498Z" fill="#10109C"></path></g></svg></div><div>Unverfälschte Trinkwasserqualität mit Magnesium und Calcium</div></div><div id="w-node-_38990165-c002-31e8-9a87-b99edc7cb800-c8653dd3" class="quote_graph-devider"></div><div id="w-node-_38990165-c002-31e8-9a87-b99edc7cb801-c8653dd3" class="text-size-very-tiny text-weight-semibold">Enthärtungs-<br>
+anlage mit Salz</div><img id="w-node-_38990165-c002-31e8-9a87-b99edc7cb805-c8653dd3" loading="lazy" alt="" src="{{ 'aqon-pure-logo.svg' | asset_url }}" class="quote_graph-logo">
+</div></div></div></div><a href="#" class="quote_back is-back reloadbutton w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div class="position-relativ">
+{{ section.settings.text_zuruck }}
+</div>
+</a><div data-answer="result" class="quote_submit"><label class="button is-funnel w-radio"><input class="w-form-formradioinput quote_opacity w-radio-input" data-skip-to="12" name="results-weiter" data-name="results-weiter" data-radio-skip="true" type="radio" id="1" data-go-to="last" value="1">
+<span class="text-size-medium text-weight-semibold w-form-label" for="1">
+{{ section.settings.text_ergebnis_button }}
+</span>
+<div class="text-size-tiny">
+{{ section.settings.text_ergebnis_button_subline }}
+</div>
+</label></div><div class="text-size-tiny position-relativ">
+{{ section.settings.text_ergebnis_hinweis }}
+</div>
+</div><div data-form="step" class="quote_step is-result"><div x-cloak="" class="quote_overlay"></div><div class="heading-style-quote position-relativ">
+{{ section.settings.text_weitere_angaben }}
+</div>
+<div class="quote_result-grid"><div class="quote_result_item"><div class="text-size-medium">
+{{ section.settings.text_angaben_immobilie }}
+</div>
+<div class="quote_form-field"><div class="quote_form-grid"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653ee2-c8653dd3" class="contact_form-item"><label for="497" class="field-label">
+{{ section.settings.text_anzahl_wohneinheiten }}
+</label>
+<input class="input w-input" maxlength="256" name="497" data-name="497" min="0" placeholder="5, 10, 30" type="number" id="497" required="" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+</div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653ee6-c8653dd3" class="contact_form-item"><label for="502" class="field-label">
+{{ section.settings.text_jahresverbrauch }}
+</label>
+<input class="input w-input" maxlength="256" name="502" data-name="502" min="0" placeholder="In Kubikmeter" type="number" id="502" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+</div></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653eea-c8653dd3" class="contact_form-item"><label for="element-23" class="field-label">
+{{ section.settings.text_gegen_kalk }}
+</label>
+<select id="element-13" name="509" data-name="509" class="input w-select"><option value="">Wählen</option><option value="Ja">Ja</option><option value="Nein">Nein</option><option value="Ich bin mir nicht sicher">Ich bin mir nicht sicher</option></select></div></div></div><div class="quote_result_item"><div class="text-size-medium">
+{{ section.settings.text_wie_warmwasser }}
+</div>
+<div x-data="{ warmwasser: '' }" class="quote_form-field"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653ef2-c8653dd3" class="contact_form-item"><label for="element-14" class="field-label">
+{{ section.settings.text_warmwassererzeugung }}
+</label>
+<select id="element-14" name="498" data-name="498" x-model="warmwasser" class="input w-select"><option value="">Wählen</option><option value="Zentral für alle Wohneinheiten">Zentral für alle Wohneinheiten</option><option value="Dezentral für jede Wohneinheit einzeln">Dezentral für jede Wohneinheit einzeln</option><option value="Sonstiges (bitte näher erläutern unten)">Sonstiges (bitte näher erläutern unten)</option></select></div><div x-show="warmwasser === 'Zentral für alle Wohneinheiten'" class="quote_form-grid"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653ef7-c8653dd3" class="contact_form-item"><label for="element-15" class="field-label">
+{{ section.settings.text_wasrmwassertemperatur }}
+</label>
+<input class="input w-input" maxlength="256" name="506" data-name="506" min="0" placeholder="In Grad" type="number" id="element-15" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+</div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653efb-c8653dd3" class="contact_form-item"><label for="element-23" class="field-label">
+{{ section.settings.text_zirkulation }}
+</label>
+<select id="element-16" name="507" data-name="507" class="input w-select"><option value="">Wählen</option><option value="Ja">Ja</option><option value="Nein">Nein</option><option value="Ich bin mir nicht sicher">Ich bin mir nicht sicher</option></select></div></div><div x-show="warmwasser === 'Dezentral für jede Wohneinheit einzeln'" class="quote_form-grid"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f00-c8653dd3" class="contact_form-item"><label for="element-23" class="field-label">
+{{ section.settings.text_dezentrale_warmwasser }}
+</label>
+<select id="element-20" name="505" data-name="505" class="input w-select"><option value="">Wählen</option><option value="Durchlauferhitzer">Durchlauferhitzer</option><option value="Gastherme">Gastherme</option><option value="Frischwasserstation mit Wärmetauscher">Frischwasserstation mit Wärmetauscher</option><option value="Warmwasserboiler (<50L)">Warmwasserboiler (<50L)</option><option value="Warmwasserboiler (>50L)">Warmwasserboiler (>50L)</option></select></div></div><div x-show="warmwasser === 'Zentral für alle Wohneinheiten' || warmwasser === 'Dezentral für jede Wohneinheit einzeln' || warmwasser === 'Sonstiges (bitte näher erläutern unten)'" class="quote_form-grid"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f05-c8653dd3" class="contact_form-item"><label for="element-19" class="field-label">
+{{ section.settings.text_warmwasser_mittels }}
+</label>
+<select id="element-19" name="510" data-name="510" class="input w-select"><option value="">Wählen</option><option value="Elektro/Strom">Elektro/Strom</option><option value="Wärmetauscher">Wärmetauscher</option><option value="Solar">Solar</option><option value="Gas">Gas</option><option value="Öl">Öl</option><option value="Feststoff (Pellets etc.)">Feststoff (Pellets etc.)</option><option value="Fernwärme">Fernwärme</option><option value="Wärmepumpe">Wärmepumpe</option></select></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f09-c8653dd3" class="contact_form-item"><label for="element-18" class="field-label">
+{{ section.settings.text_baujahr }}
+</label>
+<input class="input w-input" maxlength="256" name="503" data-name="503" min="0" placeholder="z.B. 1994" type="number" id="element-18">
+</div></div><div x-show="warmwasser === 'Sonstiges (bitte näher erläutern unten)'" id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f0d-c8653dd3" class="contact_form-item"><label for="element-23" class="field-label">
+{{ section.settings.text_beschreibung }}
+</label>
+<textarea id="element-21" name="520" maxlength="5000" data-name="520" placeholder="Bitte beschreiben Sie uns Ihren Anwendungsfall wie Industrie-Anwendungen usw." class="input is-text-area w-input"></textarea></div></div></div></div><a href="#" class="quote_back is-back reloadbutton w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div class="position-relativ">
+{{ section.settings.text_zuruck }}
+</div>
+</a><div data-answer="mehrfamilienhaus" class="quote_submit"><div class="quote_arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 68 69" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M66.8278 57.3639C67.3756 57.8413 67.4326 58.6725 66.9551 59.2203L59.1739 68.1471C58.6964 68.6949 57.8653 68.7519 57.3175 68.2744C56.7697 67.7969 56.7127 66.9658 57.1902 66.418L64.1068 58.483L56.1718 51.5664C55.624 51.0889 55.567 50.2577 56.0445 49.71C56.522 49.1622 57.3532 49.1052 57.901 49.5827L66.8278 57.3639ZM2.74113 0.585934C4.50404 5.90338 5.37288 12.5546 6.64631 19.1298C7.9377 25.7978 9.66389 32.5538 13.1198 38.5009C16.5547 44.4119 21.722 49.563 29.9862 52.9864C38.283 56.4233 49.772 58.1471 65.8732 57.043L66.0532 59.6684C49.7057 60.7894 37.7751 59.0613 28.979 55.4176C20.1503 51.7604 14.5515 46.2022 10.8445 39.8231C7.1586 33.4802 5.36718 26.3655 4.06273 19.6301C2.74032 12.802 1.9351 6.51718 0.243247 1.41407L2.74113 0.585934Z" fill="currentColor"></path></svg></div><label class="button is-funnel w-radio"><input class="w-form-formradioinput quote_opacity w-radio-input" data-skip-to="12" name="results-weiter" data-name="results-weiter" data-radio-skip="true" type="radio" id="1" data-go-to="last" value="1">
+<span class="text-size-medium text-weight-semibold w-form-label" for="1">
+{{ section.settings.text_ergebnis_button }}
+</span>
+<div class="text-size-tiny">
+{{ section.settings.text_ergebnis_button_subline }}
+</div>
+</label><img loading="lazy" alt="{{ section.settings.image_badge.alt }}" src="{{ section.settings.image_badge | img_url: 'master' }}" class="quote_badge"}>
+</div></div><div data-form="step" class="quote_step is-result"><div x-cloak="" class="quote_overlay"></div><div class="heading-style-quote position-relativ">
+{{ section.settings.text_gewerbe_headline }}
+</div>
+<div class="quote_result-grid"><div class="quote_result_item"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f20-c8653dd3" class="contact_form-item"><label for="element-22" class="field-label">
+{{ section.settings.text_gewerbe_label }}
+</label>
+<textarea id="element-22" name="512" maxlength="5000" data-name="512" placeholder="Bitte beschreiben Sie uns Ihren Anwendungsfall wie Industrie-Anwendungen usw." class="input is-text-area is-big w-input"></textarea></div></div></div><a href="#" class="quote_back is-back reloadbutton w-inline-block"><div class="quote_icon-back w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 10 10" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><g opacity="0.5"><mask id="mask0_8305_23862" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="10" height="10"><rect x="10" y="10" width="10" height="10" transform="rotate(-180 10 10)" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_8305_23862)"><path d="M4.46171 5.00022L7 7.53851L6.22748 8.31104L2.91667 5.00022L6.22748 1.68941L7 2.46194L4.46171 5.00022Z" fill="#16283E"></path></g></g></svg></div><div class="position-relativ">
+{{ section.settings.text_zuruck }}
+</div>
+</a><div data-answer="gewerbe" class="quote_submit"><div class="quote_arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 68 69" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M66.8278 57.3639C67.3756 57.8413 67.4326 58.6725 66.9551 59.2203L59.1739 68.1471C58.6964 68.6949 57.8653 68.7519 57.3175 68.2744C56.7697 67.7969 56.7127 66.9658 57.1902 66.418L64.1068 58.483L56.1718 51.5664C55.624 51.0889 55.567 50.2577 56.0445 49.71C56.522 49.1622 57.3532 49.1052 57.901 49.5827L66.8278 57.3639ZM2.74113 0.585934C4.50404 5.90338 5.37288 12.5546 6.64631 19.1298C7.9377 25.7978 9.66389 32.5538 13.1198 38.5009C16.5547 44.4119 21.722 49.563 29.9862 52.9864C38.283 56.4233 49.772 58.1471 65.8732 57.043L66.0532 59.6684C49.7057 60.7894 37.7751 59.0613 28.979 55.4176C20.1503 51.7604 14.5515 46.2022 10.8445 39.8231C7.1586 33.4802 5.36718 26.3655 4.06273 19.6301C2.74032 12.802 1.9351 6.51718 0.243247 1.41407L2.74113 0.585934Z" fill="currentColor"></path></svg></div><label class="button is-funnel w-radio"><input class="w-form-formradioinput quote_opacity w-radio-input" data-skip-to="12" name="results-weiter" data-name="results-weiter" data-radio-skip="true" type="radio" id="1" data-go-to="last" value="1">
+<span class="text-size-medium text-weight-semibold w-form-label" for="1">
+{{ section.settings.text_gewerbe_button }}
+</span>
+<div class="text-size-tiny">
+{{ section.settings.text_gewerbe_button_subline }}
+</div>
+</label><img loading="lazy" alt="{{ section.settings.image_badge.alt }}" src="{{ section.settings.image_badge | img_url: 'master' }}" class="quote_badge"}>
+</div></div><div data-form="step" class="quote_step is-result"><div x-cloak="" class="quote_overlay"></div><div class="heading-style-quote position-relativ">
+{{ section.settings.text_an_wen_angebot }}
+</div>
+<div data-answer="last" class="quote_result-grid"><div class="quote_result_item"><div class="text-size-medium hide-mobile-portrait">
+{{ section.settings.text_kontaktdaten }}
+</div>
+<div class="quote_wrapper"><div class="quote_form-field"><div class="quote_form-grid"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f36-c8653dd3" class="contact_form-item"><label for="element" class="field-label">
+{{ section.settings.text_anrede }}
+</label>
+<select id="element" name="493" data-name="493" required="" class="input w-select"><option value="">Wählen</option><option value="Herr">Herr</option><option value="Frau">Frau</option><option value="Divers">Divers</option></select></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f3a-c8653dd3" class="contact_form-item"><label for="20" class="field-label">
+{{ section.settings.text_vorname_2 }}
+</label>
+<input class="input w-input" maxlength="256" name="20" data-name="20" placeholder="" type="text" id="20" required="">
+</div><div class="contact_form-item"><label for="element-23" class="field-label">
+{{ section.settings.text_nachname }}
+</label>
+<input class="input w-input" maxlength="256" name="21" data-name="21" placeholder="" type="text" id="element-3" required="">
+</div></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f42-c8653dd3" class="quote_form-grid"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f43-c8653dd3" class="contact_form-item"><label for="element-23" class="field-label">
+{{ section.settings.text_e_mail }}
+</label>
+<input class="input w-input" maxlength="256" name="145" data-name="145" placeholder="" type="email" id="element-4" required="">
+</div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f47-c8653dd3" class="contact_form-item"><label for="element-5" class="field-label">
+{{ section.settings.text_telefonnummer }}
+</label>
+<input class="input w-input" maxlength="256" name="146" data-name="146" placeholder="" type="tel" id="element-5" required="">
+</div></div><div id="w-node-_79afda9c-82f4-a094-0661-d3accb929812-c8653dd3" class="quote_form-grid"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f4b-c8653dd3" class="contact_form-item"><label for="element-10" class="field-label">
+{{ section.settings.text_firma_2 }}
+</label>
+<input class="input w-input" autocomplete="organization" maxlength="256" name="13" data-name="13" placeholder="" type="text" id="element-10">
+</div><div id="w-node-ad050cc8-dc24-8199-4d8f-50f7ebfac691-c8653dd3" class="contact_form-item"><label for="element-35" class="field-label">
+{{ section.settings.text_promocode }}
+</label>
+<input class="input w-input" autocomplete="organization" maxlength="256" name="522" data-name="522" placeholder="" type="text" id="element-35">
+</div></div></div><div class="quote_form-field"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f53-c8653dd3" class="contact_form-item is-einbauservice"><label for="element-9" class="field-label">
+{{ section.settings.text_strasse }}
+</label>
+<input class="input w-input" maxlength="256" name="357" data-name="357" placeholder="" type="text" id="element-9">
+</div><div class="quote_form-grid is-einbauservice"><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f58-c8653dd3" class="contact_form-item"><label for="element-6" class="field-label">
+{{ section.settings.text_plz }}
+</label>
+<input class="input w-input" autocomplete="postal-code" maxlength="256" name="361" data-name="361" placeholder="" type="number" id="element-6">
+</div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f5c-c8653dd3" class="contact_form-item"><label for="element-8" class="field-label">
+{{ section.settings.text_ort }}
+</label>
+<input class="input w-input" maxlength="256" name="359" data-name="359" placeholder="" type="text" id="element-8">
+</div></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f60-c8653dd3" class="contact_form-item is-einbauservice"><label for="element-23" class="field-label">
+{{ section.settings.text_land }}
+</label>
+<select name="362" class="input"><option>Land Wählen</option>{% for land in localization.market.metafields.custom.l_nder_funnel.value %}    <option value="{{ land.name }}" li-for="land in localization.market.metafields.custom.l_nder_funnel.value">
+                                    {{ land.name }}
+                        </option>
+{% endfor %}</select></div></div></div><label class="contact_form-checkbox-wrapper"><input type="checkbox" name="375" id="375" data-name="375" class="new_hero_checkbox" value="Ich möchte den wöchentlichen AQON Pure E-Mail Newsletter erhalten. Dieser enthält Produktinformationen, Sonderangebote und Wissenswertes über Wasser.">
+<div class="max-width-large"> {{ section.settings.richtext_newsletter }} </div>
+</label></div></div><div class="quote_submit"><div class="quote_arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 68 69" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M66.8278 57.3639C67.3756 57.8413 67.4326 58.6725 66.9551 59.2203L59.1739 68.1471C58.6964 68.6949 57.8653 68.7519 57.3175 68.2744C56.7697 67.7969 56.7127 66.9658 57.1902 66.418L64.1068 58.483L56.1718 51.5664C55.624 51.0889 55.567 50.2577 56.0445 49.71C56.522 49.1622 57.3532 49.1052 57.901 49.5827L66.8278 57.3639ZM2.74113 0.585934C4.50404 5.90338 5.37288 12.5546 6.64631 19.1298C7.9377 25.7978 9.66389 32.5538 13.1198 38.5009C16.5547 44.4119 21.722 49.563 29.9862 52.9864C38.283 56.4233 49.772 58.1471 65.8732 57.043L66.0532 59.6684C49.7057 60.7894 37.7751 59.0613 28.979 55.4176C20.1503 51.7604 14.5515 46.2022 10.8445 39.8231C7.1586 33.4802 5.36718 26.3655 4.06273 19.6301C2.74032 12.802 1.9351 6.51718 0.243247 1.41407L2.74113 0.585934Z" fill="currentColor"></path></svg></div><button type="submit" data-form="submit-btn" id="submitbutton" class="button is-funnel"><div class="text-size-medium text-weight-semibold">
+{{ section.settings.text_submit_button }}
+</div>
+<div class="text-size-tiny">
+{{ section.settings.text_submit_button_subline }}
+</div>
+</button><img loading="lazy" alt="{{ section.settings.image_badge.alt }}" src="{{ section.settings.image_badge | img_url: 'master' }}" class="quote_badge"}>
+</div><img loading="lazy" alt="{{ section.settings.image_badge.alt }}" src="{{ section.settings.image_badge | img_url: 'master' }}" class="quote_badge is-mobile"}>
+<div class="quote_form-grid is-einbauservice is-active hide"></div><div id="w-node-_64d5baed-0118-8c92-3ea3-a34bc8653f76-c8653dd3" class="contact_form-item is-einbauservice is-active hide"></div><div class="text-size-tiny align-center text-align-center position-relativ">Hier finden Sie unsere <a href="/pages/datenschutz" target="_blank" class="text-style-link">Datenschutzbestimmungen</a></div></div><div class="hide"><input type="hidden" name="language" value="{{ request.locale.iso_code }}">
+<input type="hidden" name="currentpage" value="{{ request.path | prepend: request.origin }}">
+<input type="hidden" name="filled" id="filled" value="">
+<input type="hidden" name="518" id="518" value="">
+<input type="hidden" name="491" id="491" value="">
+<input type="hidden" name="495" id="495" value="">
+<input type="hidden" name="514" id="514" value="">
+<input type="hidden" name="516" id="516" value="">
+<input type="hidden" name="redirectUrl" value="/pages/vielen-dank">
+</div><div class="hide w-embed w-script"><script>// Funktion zum Abrufen der URL-Parameter
+  function getURLParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+  }
+  // IDs aus der URL holen und in die Input-Felder einf&uuml;gen
+  document.getElementById("491").value = getURLParameter("gclid") || "";
+  document.getElementById("495").value = getURLParameter("dicbo") || "";
+  document.getElementById("516").value = getURLParameter("msclkid") || "";
+  document.getElementById("518").value = getURLParameter("fbclid") || "";
+  document.getElementById("514").value = getURLParameter("tblci") || "";
+  console.log(getURLParameter("gclid"));
+</script></div><div class="hide w-embed w-script"><script>// Wait for 1 second before running the script
+ document.querySelectorAll('input[type="radio"]').forEach(function(radio) {
+    radio.addEventListener('change', function(event) {
+        console.log('Radio changed: ', event.target.name, event.target.value); // For debugging
+        let url = new URL(window.location.href); // Get the current URL
+        if (event.target.checked) {
+            // Use the 'name' attribute to set the key, and the 'value' to set the value
+            url.searchParams.set(event.target.name, event.target.value);
+        }
+        console.log('Updated URL: ', url.href); // For debugging
+        window.history.pushState({}, '', url); // Add the updated URL to the page history
+    });
+});
+window.addEventListener('popstate', function() {
+    // Check if the link with data-btn="edit" is visible
+    const editLink = document.querySelector('.reloadbutton');
+    if (editLink && window.getComputedStyle(editLink).display !== 'none') {
+        // Trigger a click on the visible edit link
+        editLink.click();
+    } else {
+        // If the edit link is not visible, check the back link with data-form="back-btn"
+        const backLink = document.querySelector('a[data-form="back-btn"]');
+        if (backLink && window.getComputedStyle(backLink).display !== 'none') {
+            // Trigger a click on the visible back link
+            backLink.click();
+        } else {
+            // If neither link is visible, allow the normal back behavior
+            window.history.back();
+        }
+    }
+});
+function tableFilter() {
+    return {
+        personen: '1-3', // Standardwert, falls nichts ausgew&auml;hlt ist
+        gebaeude: 'Einfamilienhaus', // Standardwert
+        shouldShow(gebaeudeTyp, personenAnzahl) {
+            return this.gebaeude === gebaeudeTyp && this.personen === personenAnzahl;
+        }
+    }
+}
+</script><script>function clickOnButtonAfterLoaderVisible() {
+  const loader = document.querySelector('#loader');
+  const button = document.querySelector('#loader-button');
+  let clicked = false; // Variable to track if the button has already been clicked
+  if (loader) {
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.target.style.display !== 'none' && !clicked) {
+          // If loader is visible and button hasn't been clicked yet
+          setTimeout(() => {
+            if (button && !clicked) {
+              button.click();
+              clicked = true; // Mark as clicked to prevent multiple clicks
+              console.log('Button clicked after 4 seconds of loader visibility');
+              observer.disconnect(); // Stop observing after the first click
+              shown = true;
+            }
+          }, 2000);
+        }
+      });
+    });
+    // Start observing the loader's visibility change
+    observer.observe(loader, { attributes: true, attributeFilter: ['style'] });
+  }
+}
+// Call the function to start watching the loader
+clickOnButtonAfterLoaderVisible();
+</script><script>document.addEventListener("DOMContentLoaded", () => {
+    // Get all elements with the class "reloadbutton"
+    const buttons = document.getElementsByClassName("reloadbutton");
+    // Loop through each button and attach the event listener
+    Array.from(buttons).forEach(button => {
+        button.addEventListener("click", reloadAndKeepScroll);
+    });
+});
+function reloadAndKeepScroll() {
+    // Save the current scroll position
+    sessionStorage.setItem("scrollPosition", window.scrollY);
+    // Remove URL parameters
+    const cleanURL = window.location.origin + window.location.pathname;
+    window.history.replaceState(null, null, cleanURL);
+    // Reload the page
+    location.reload();
+}
+// Scroll to the saved position after reload
+window.addEventListener("load", () => {
+    const scrollPosition = sessionStorage.getItem("scrollPosition");
+    if (scrollPosition) {
+        window.scrollTo(0, parseInt(scrollPosition, 10));
+        sessionStorage.removeItem("scrollPosition"); // Clear the saved scroll position
+    }
+});
+    window.addEventListener("load", function () {
+  setTimeout(function () {
+    // Hier das Formularfeld mit der richtigen ID oder Klasse ausw&auml;hlen
+    const formInput = document.querySelector("#filled"); // Ersetze 'yourInputID' durch die ID des Input-Felds
+    if (formInput) {
+      formInput.value = "filled";
+    }
+  }, 10000); // 10 Sekunden in Millisekunden
+});
+</script><style>.quote_step[style*="display: none"] .is-back {
+    display: none;
+}
+</style><script>document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('wf-form-funnel');
+    const input = document.getElementById('20');
+    const button = document.getElementById('submitbutton');
+    button.addEventListener('click', (event) => {
+      const invalidName = 'RobertBouri';
+      if (input.value.trim() === invalidName) {
+        event.preventDefault(); // Formularabsendung stoppen
+        location.reload(); // Seite neu laden
+      }
+    });
+  });
+</script></div></form><div class="success-message w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="error-message w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div>{% if section.settings.checkbox_pfeil == true %}
+<div class="direction-holder"><img loading="lazy" src="{{ 'line-green.svg' | asset_url }}" alt="" class="direction-icon">
+</div>{% endif %}
+<div class="li-custom w-embed"></div>
+<div class="li-custom w-embed"></div>
+ {% schema %} {"tag":"div","name":"G - Funnel","class":"section_quote","blocks":[{"type":"@app"},{"name":"Headline small","type":"headline-small","settings":[{"id":"text_headline_small","type":"text","label":"Headline small","default":"Wirksam gegen Kalk f\u00fcr maximale Effizienz"}]},{"name":"Headline","type":"headline","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Aqon Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen."}]},{"name":"Text","type":"text","settings":[{"id":"richtext_intro_text","type":"richtext","label":"Intro Text","default":"<p>AQON Pure reduziert Kalkablagerungen in offenen und geschlossenen Wasserkreisl\u00e4ufen. Dies sorgt f\u00fcr eine optimale Energieeffizienz und senkt Kosten f\u00fcr Wartung &amp; Instanthaltung<\/p>"}]},{"name":"Span Element","type":"span-element","settings":[{"id":"text_text","type":"text","label":"Text","default":"This is some text inside of a div block."},{"type":"select","id":"class","label":"Klasse","options":[{"value":"text-size-regular","label":"Text"},{"value":"heading-style-h2","label":"H2"},{"value":"heading-style-h3","label":"H3"},{"value":"heading-style-h4","label":"H4"},{"value":"heading-style-h5","label":"H5"}],"default":"text-size-regular"}]},{"name":"Buttons","type":"buttons","settings":[{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"}]},{"name":"Checkmark","type":"checkmark","settings":[{"id":"text_text","type":"text","label":"Text","default":"Einbauservice zum Festpreis (optional)"}]}],"settings":[{"id":"text_rabatt_text","type":"text","label":"Rabatt Text","default":"Jetzt 600 EUR Jubil\u00e4umsrabatt sichern*"},{"id":"text_rabatt_datum","type":"text","label":"Rabatt Datum","default":"*G\u00fcltig bis 31.10.2024"},{"id":"text_schritt","type":"text","label":"Schritt","default":"Schritt"},{"id":"text_gebaudetyp","type":"text","label":"Geb\u00e4udetyp","default":"In welchem Geb\u00e4udetyp soll die Anlage installiert werden?"},{"id":"text_einfamilienhaus","type":"text","label":"Einfamilienhaus","default":"Einfamilienhaus"},{"id":"text_freistehend","type":"text","label":"Freistehend","default":"Freistehend\/Doppelhaus\/ Reihenhaus"},{"id":"text_mehrfamilienhaus","type":"text","label":"Mehrfamilienhaus","default":"Mehrfamilienhaus"},{"id":"text_wohneinheiten","type":"text","label":"Wohneinheiten","default":"Ab 2 Wohneinheiten oder mehr"},{"id":"text_einzelne_wohnung","type":"text","label":"Einzelne Wohnung","default":"Einzelne Wohnung"},{"id":"text_gewerbe","type":"text","label":"Gewerbe","default":"Gewerbe"},{"id":"text_hotellerie","type":"text","label":"Hotellerie","default":"Hotellerie, Gastronomie, Industrie etc."},{"id":"text_wie_viele_wohneinheiten","type":"text","label":"Wie viele Wohneinheiten","default":"Wie viele Wohneinheiten befinden sich in dem Mehrfamilienhaus?"},{"id":"text_zweifamilienhaus","type":"text","label":"Zweifamilienhaus","default":"Zweifamilienhaus"},{"id":"text_dreifamilienhaus","type":"text","label":"Dreifamilienhaus","default":"Dreifamilienhaus"},{"id":"text_vierfamilienhaus","type":"text","label":"Vierfamilienhaus","default":"Vierfamilienhaus"},{"id":"text_grosseres_mehrfamilienhaus","type":"text","label":"Gr\u00f6\u00dferes Mehrfamilienhaus","default":"Gr\u00f6\u00dferes Mehrfamilienhaus"},{"id":"text_5_oder_mehr","type":"text","label":"5 oder mehr","default":"(ab 5 Wohneinheiten oder mehr)"},{"id":"text_zuruck","type":"text","label":"Zur\u00fcck","default":"Zur\u00fcck"},{"id":"text_personen_im_haushalt","type":"text","label":"Personen im Haushalt","default":"Wie viele Personen leben im gesamten Haus?"},{"id":"text_personen_in_wohnung","type":"text","label":"Personen in Wohnung","default":"Wie viele Personen leben in Ihrer Wohnung?"},{"id":"text_1_3_personen","type":"text","label":"1-3 Personen","default":"1-3 Personen"},{"id":"text_4_5_personen","type":"text","label":"4-5 Personen","default":"4-5 Personen"},{"id":"text_6_oder_mehr_personen","type":"text","label":"6 oder mehr Personen","default":"6 oder mehr Personen"},{"id":"text_1_5_personen","type":"text","label":"1-5 Personen","default":"1-5 Personen"},{"id":"text_6_12_personen","type":"text","label":"6-12 Personen","default":"6-12 Personen"},{"id":"text_13_oder_mehr_personen","type":"text","label":"13 oder mehr Personen","default":"13 oder mehr Personen"},{"id":"text_badezimmer_im_haus","type":"text","label":"Badezimmer im Haus","default":"Wie viele Badezimmer gibt es im gesamten Haus?"},{"id":"text_badezimmer_in_wohnung","type":"text","label":"Badezimmer in Wohnung","default":"Wie viele Badezimmer gibt es in Ihrer Wohnung?"},{"id":"text_1_2_badezimmer","type":"text","label":"1-2 Badezimmer","default":"1-2 Badezimmer"},{"id":"text_3_4_badezimmer","type":"text","label":"3-4 Badezimmer","default":"3-4 Badezimmer"},{"id":"text_5_oder_mehr_badezimmer","type":"text","label":"5 oder mehr Badezimmer","default":"5 oder mehr Badezimmer"},{"id":"text_kuchen_im_haus","type":"text","label":"K\u00fcchen im Haus","default":"Wie viele K\u00fcchen gibt es im gesamten Haus?"},{"id":"text_kuchen_in_wohnung","type":"text","label":"K\u00fcchen in Wohnung","default":"Wie viele K\u00fcchen gibt es in Ihrer Wohnung?"},{"id":"text_1_kuche","type":"text","label":"1 K\u00fcche","default":"1 K\u00fcche"},{"id":"text_2_kuchen","type":"text","label":"2 K\u00fcchen","default":"2 K\u00fcchen"},{"id":"text_3_oder_mehr_kuchen","type":"text","label":"3 oder mehr K\u00fcchen","default":"3 oder mehr K\u00fcchen"},{"id":"text_1_2_kuchen","type":"text","label":"1-2 K\u00fcchen","default":"1-2 K\u00fcchen"},{"id":"text_3_4_kuchen","type":"text","label":"3-4 K\u00fcchen","default":"3-4 K\u00fcchen"},{"id":"text_5_oder_mehr_kuchen","type":"text","label":"5 oder mehr K\u00fcchen","default":"5 oder mehr K\u00fcchen"},{"id":"text_warmwasser_im_haus","type":"text","label":"Warmwasser im Haus","default":"Wie wird das Warmwasser f\u00fcr Ihre Wohnung erzeugt?"},{"id":"text_zentral_fur_alle","type":"text","label":"Zentral f\u00fcr alle","default":"Zentral f\u00fcr alle Wohneinheiten"},{"id":"text_dezentral_in_meiner","type":"text","label":"Dezentral in meiner","default":"Dezentral in meiner Wohnung (z.B. durch eigenen Boiler oder W\u00e4rmetauscher)"},{"id":"text_kaltwasser_zuganglich","type":"text","label":"Kaltwasser zug\u00e4nglich","default":"Ist die Kaltwasserleitung, die Ihre Wohnung versorgt, frei zug\u00e4nglich?"},{"id":"text_ja_frei_zuganglich","type":"text","label":"Ja, frei zug\u00e4nglich","default":"Ja, frei zug\u00e4nglich"},{"id":"text_nein_nicht_frei_zuganglich","type":"text","label":"Nein, nicht frei zug\u00e4nglich","default":"Nein, nicht frei zug\u00e4nglich"},{"id":"text_loader_subline","type":"text","label":"Loader Subline","default":"Einen kurzen Moment bitte"},{"id":"text_loader_headline","type":"text","label":"Loader Headline","default":"Wir pr\u00fcfen, ob AQON PURE f\u00fcr Ihr Haus passend ist und ob ein Angebot m\u00f6glich ist."},{"id":"text_loader_text","type":"text","label":"Loader Text","default":"(Dies dauert nur wenige Sekunden)"},{"id":"text_ergebnis_subline","type":"text","label":"Ergebnis Subline","default":"Vorabpr\u00fcfung erfolgreich"},{"id":"text_ergebnis_headline","type":"text","label":"Ergebnis Headline","default":"Es gibt passende AQON PURE Enth\u00e4rtungsanlagen f\u00fcr Ihr Haus."},{"id":"richtext_ergebnis_text","type":"richtext","label":"Ergebnis Text","default":"<p>Durch eine AQON PURE Enth\u00e4rtungsanlage h\u00e4tten Sie mehrere Vorteile im Vergleich zu einer herk\u00f6mmlichen Enth\u00e4rtungsanlage mit Salz*:<\/p>"},{"id":"text_ergebnis_wartungskosten","type":"text","label":"Ergebnis Wartungskosten","default":"J\u00e4hrliche <br\/>Wartungskosten"},{"id":"text_kosten_1","type":"text","label":"Kosten 1","default":"Ca. 300\u20ac - 400\u20ac"},{"id":"text_kosten_2","type":"text","label":"Kosten 2","default":"Ca. 300\u20ac - 500\u20ac"},{"id":"text_0eur","type":"text","label":"0\u20ac","default":"0\u20ac"},{"id":"text_ergebnis_betriebskosten","type":"text","label":"Ergebnis Betriebskosten","default":"J\u00e4hrliche Kosten f\u00fcr Salz, <br\/>Abwasser &amp; Strom"},{"id":"text_kosten_31","type":"text","label":"Kosten 3.1","default":"Ca. 60\u20ac - 80\u20ac"},{"id":"text_kosten_4","type":"text","label":"Kosten 4","default":"Ca. 100\u20ac - 200\u20ac"},{"id":"text_kosten_5","type":"text","label":"Kosten 5","default":"Ca. 120\u20ac - 240\u20ac"},{"id":"text_kosten_6","type":"text","label":"Kosten 6","default":"Ca. 80\u20ac - 160\u20ac"},{"id":"text_kosten_7","type":"text","label":"Kosten 7","default":"Ca. 100\u20ac - 200\u20ac"},{"id":"text_kosten_8","type":"text","label":"Kosten 8","default":"Ca. 120\u20ac - 240\u20ac"},{"id":"text_kosten_9","type":"text","label":"Kosten 9","default":"Ca. 100\u20ac - 200\u20ac"},{"id":"text_kosten_10","type":"text","label":"Kosten 10","default":"Ca. 180\u20ac - 360\u20ac"},{"id":"text_kosten_11","type":"text","label":"Kosten 11","default":"Ca. 260\u20ac - 520\u20ac"},{"id":"text_kosten_12","type":"text","label":"Kosten 12","default":"Ca. 100\u20ac - 200\u20ac"},{"id":"text_kosten_13","type":"text","label":"Kosten 13","default":"Ca. 180\u20ac - 360\u20ac"},{"id":"text_kosten_14","type":"text","label":"Kosten 14","default":"Ca. 260\u20ac - 520\u20ac"},{"id":"text_trinkwasser","type":"text","label":"Trinkwasser","default":"Trinkwasserquali\u00e4t"},{"id":"text_ergebnis_button","type":"text","label":"Ergebnis Button","default":"Jetzt kostenfreies Angebot erhalten"},{"id":"text_ergebnis_button_subline","type":"text","label":"Ergebnis Button Subline","default":"(nur noch 1 Klick)"},{"id":"text_ergebnis_hinweis","type":"text","label":"Ergebnis Hinweis","default":"*Angaben ohne Gew\u00e4hr. Eine finale Aussage kann erst <br\/>nach individueller Pr\u00fcfung Ihrer Angebotsangaben erfolgen."},{"id":"text_weitere_angaben","type":"text","label":"Weitere Angaben","default":"Wir ben\u00f6tigen weitere Angaben zu Ihrer Immobilie"},{"id":"text_angaben_immobilie","type":"text","label":"Angaben Immobilie","default":"1. Angaben zu Ihrer Immobilie"},{"id":"text_anzahl_wohneinheiten","type":"text","label":"Anzahl Wohneinheiten","default":"Anzahl der Wohneinheiten"},{"id":"text_jahresverbrauch","type":"text","label":"Jahresverbrauch","default":"Gesch\u00e4tzter Jahresverbrauch"},{"id":"text_gegen_kalk","type":"text","label":"gegen Kalk","default":"Ist aktuell eine Wasseraufbereitungsanlage gegen Kalk in Verwendung?"},{"id":"text_wie_warmwasser","type":"text","label":"Wie Warmwasser","default":"2. Wie erfolgt die Warmwassererzeugung?"},{"id":"text_warmwassererzeugung","type":"text","label":"Warmwassererzeugung","default":"Warmwassererzeugung"},{"id":"text_wasrmwassertemperatur","type":"text","label":"Wasrmwassertemperatur","default":"Warmwassertemperatur im Speicher"},{"id":"text_zirkulation","type":"text","label":"Zirkulation","default":"Zirkulationsleitung vorhanden?"},{"id":"text_dezentrale_warmwasser","type":"text","label":"dezentrale Warmwasser","default":"Wie erfolgt die dezentrale Warmwasserzeugung?"},{"id":"text_warmwasser_mittels","type":"text","label":"Warmwasser mittels","default":"Warmwassererzeugung mittels"},{"id":"text_baujahr","type":"text","label":"Baujahr","default":"Baujahr"},{"id":"text_beschreibung","type":"text","label":"Beschreibung","default":"Beschreibung der Warmwassererzeugung"},{"id":"image_badge","type":"image_picker","label":"Badge"},{"id":"text_gewerbe_headline","type":"text","label":"Gewerbe Headline","default":"Wir ben\u00f6tigen weitere Angaben zu Ihrer Anwendung"},{"id":"text_gewerbe_label","type":"text","label":"Gewerbe Label","default":"Beschreibung des Anwendungsfalls"},{"id":"text_gewerbe_button","type":"text","label":"Gewerbe Button","default":"Weiter"},{"id":"text_gewerbe_button_subline","type":"text","label":"Gewerbe Button Subline","default":"(Nur noch 1 Klick)"},{"id":"text_an_wen_angebot","type":"text","label":"an wen Angebot","default":"An wen sollen wir das kostenlose Angebot senden?"},{"id":"text_kontaktdaten","type":"text","label":"Kontaktdaten","default":"Kontaktdaten"},{"id":"text_anrede","type":"text","label":"Anrede","default":"Anrede"},{"id":"text_vorname_2","type":"text","label":"Vorname-2","default":"Vorname"},{"id":"text_nachname","type":"text","label":"Nachname","default":"Nachname"},{"id":"text_e_mail","type":"text","label":"E-Mail","default":"E-Mail-Adresse"},{"id":"text_telefonnummer","type":"text","label":"Telefonnummer","default":"Telefonnummer"},{"id":"text_firma_2","type":"text","label":"Firma-2","default":"Firma (optional)"},{"id":"text_promocode","type":"text","label":"Promocode","default":"Promocode (optional)"},{"id":"text_strasse","type":"text","label":"Stra\u00dfe","default":"Stra\u00dfe und Hausnummer"},{"id":"text_plz","type":"text","label":"PLZ","default":"PLZ"},{"id":"text_ort","type":"text","label":"Ort","default":"Ort"},{"id":"text_land","type":"text","label":"Land","default":"Land"},{"id":"richtext_newsletter","type":"richtext","label":"Newsletter","default":"<p>Newsletter: Ich m\u00f6chte den w\u00f6chentlichen AQON Pure E-Mail Newsletter erhalten. Dieser enth\u00e4lt Produktinformationen, Sonderangebote und Wissenswertes \u00fcber Wasser.<\/p>"},{"id":"text_submit_button","type":"text","label":"Submit Button","default":"Anfrage unverbindlich absenden"},{"id":"text_submit_button_subline","type":"text","label":"Submit Button Subline","default":"(SSL verschl\u00fcsselt &amp; kostenlos)"},{"id":"checkbox_pfeil","type":"checkbox","label":"Pfeil","default":true},{"type":"checkbox","id":"show_rabatt","label":"Show announcement","default":false}],"presets":[{"name":"G - Funnel","category":"Liquify"}]} {% endschema %}

@@ -1,0 +1,148 @@
+<div x-data="{ setactiveProduct: '{{ section.blocks[0].settings.product.id }}'}">{% for block in section.blocks %}
+    {% if block.type == "produkt" %}
+                    <div x-show="setactiveProduct === '{{ block.settings.product.id }}'" li-block="Produkt" class="padding-global padding-section-medium is-product">
+                                    {% assign product = block.settings.product %}
+
+                                    <div class="container-large"><div class="buy-product_grid"><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048ae-816048a8" class="buy-product_showcase"><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048af-816048a8" class="swiper-container is-product-gallery"><div class="swiper is-product-gallery"><div id="my-gallery" class="swiper-wrapper is-product-gallery">{% for image in product.images %}    <div li-for="image in product.images" class="swiper-slide is-product-gallery">
+                                    
+                            <div class="product_gallery-lightbox"><img li-object:src="image.src | product_img_url: 'master'" li-object:alt="image.alt" alt="{{ image.alt }}" src="{{ image.src | product_img_url: 'master' }}" loading="lazy" class="product_gallery-image">
+</div>
+                            
+                        </div>
+{% endfor %}</div></div><div class="product-header_slider-wrapper"><div class="swiper is-product-thumbnail"><div class="swiper-wrapper is-product-thumbnail">{% for image in product.images %}    <div li-for="image in product.images" class="swiper-slide is-product-thumbnail">
+                                    <img li-object:src="image.src | product_img_url: 'master'" li-object:alt="image.alt" alt="{{ image.alt }}" src="{{ image.src | product_img_url: 'master' }}" loading="lazy" class="product_thumbnail-image">
+
+                        </div>
+{% endfor %}</div></div></div><div class="swiper_button-wrapper is-product-slider pointer-events-off z-index-1 hide-mobile-landscape"><a href="#" class="swiper_button swiper-prev pointer-events-on w-inline-block"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_7192_3567" style="mask-type:alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="21"><rect x="2.2207" y="22.7769" width="20.5541" height="20.5541" transform="rotate(-90 2.2207 22.7769)" fill="currentColor"></rect></mask><g mask="url(#mask0_7192_3567)"><path d="M11.6406 12.4997L15.5801 16.4392L14.3811 17.6382L9.24258 12.4997L14.3811 7.36116L15.5801 8.56014L11.6406 12.4997Z" fill="currentColor"></path></g></svg></div></a><a href="#" class="swiper_button swiper-next pointer-events-on w-inline-block"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_7192_3567" style="mask-type:alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="21"><rect x="2.2207" y="22.7769" width="20.5541" height="20.5541" transform="rotate(-90 2.2207 22.7769)" fill="currentColor"></rect></mask><g mask="url(#mask0_7192_3567)"><path d="M11.6406 12.4997L15.5801 16.4392L14.3811 17.6382L9.24258 12.4997L14.3811 7.36116L15.5801 8.56014L11.6406 12.4997Z" fill="currentColor"></path></g></svg></div></a></div><div class="swiper-slide is-product-thumbnail is-active hide"></div><img loading="lazy" alt="{{ block.settings.image_auszeichnung.alt }}" src="{{ block.settings.image_auszeichnung | img_url: 'master' }}" class="buy-product_big-badge"}>
+</div><div class="buy-product_badges"><img loading="lazy" alt="{{ block.settings.image_badge_1.alt }}" src="{{ block.settings.image_badge_1 | img_url: 'master' }}" class="buy-product_badge"}>
+<img loading="lazy" alt="{{ block.settings.image_badge_2.alt }}" src="{{ block.settings.image_badge_2 | img_url: 'master' }}" class="buy-product_badge"}>
+</div></div><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048c5-816048a8" class="buy-product_top-content"><h2 id="w-node-_9e430fa7-4224-1273-4199-fd3dd176aaaf-816048a8" class="buy-product_heading">
+{{ block.settings.text_titel }}
+</h2>
+<div li-object="product.metafields.custom.beschreibung | metafield_tag" id="w-node-ae6e6367-a4ed-9dea-c9f2-3982993e0339-816048a8">{{ product.metafields.custom.beschreibung | metafield_tag }}</div></div><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048c4-816048a8" class="buy-product_content"><div x-data="{ checked: false, einbauserviceID: '', bedingungen: false }" id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048ca-816048a8" class="buy-product_info"><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048cd-816048a8" class="buy-product_row"><div id="w-node-_7899b492-f977-d2b8-59f5-0cd25edecee5-816048a8" class="heading-style-small">
+{{ block.settings.text_system_wahlen }}
+</div>
+<div li-for:inside="block in section.blocks" id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048d0-816048a8" class="buy-product_switch">
+        {% for block in section.blocks %}                            
+                            {% if block.type == 'produkt' %}    <div li-if="block.type == 'produkt'">
+    <div x-on:click="setactiveProduct = '{{ block.settings.product.id }}'" class="buy-product_switch-item"><div x-bind:class="setactiveProduct === '{{ block.settings.product.id }}' ? 'is-active' : ''" id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048d3-816048a8" class="buy-product_image-wrapper"><img li-object:src="block.settings.product.featured_image | product_img_url: 'master'" li-object:alt="block.settings.product.featured_image.alt" alt="{{ block.settings.product.featured_image.alt }}" src="{{ block.settings.product.featured_image | product_img_url: 'master' }}" loading="lazy" class="buy-product_image">
+</div><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048d5-816048a8" class="heading-style-small">
+{{ block.settings.text_produkt_titel }}
+</div>
+</div>    </div>
+{% endif %}
+                            
+                    {% endfor %}    </div>
+</div><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048d7-816048a8" class="divider"></div><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048d8-816048a8" class="buy-product_row"><div id="w-node-_2753e97d-33e7-a744-686d-2c6d0397dbee-816048a8" class="heading-style-small">
+{{ block.settings.text_produktmerkmale }}
+</div>
+<div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048db-816048a8" class="checks"><div li-object="product.metafields.custom.prodduktmerkmale | metafield_tag" class="buy-product_list w-richtext">{{ product.metafields.custom.prodduktmerkmale | metafield_tag }}</div></div></div><div class="divider"></div><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048cb-816048a8" class="form-cleaned w-form">{% form 'product', product, class: 'buy-product_form' %}
+{% if product.metafields.custom.einbauservice_2 != blank and localization.country == 'Deutschland' %}    <div li-if="product.metafields.custom.einbauservice_2 != blank and localization.country == 'Deutschland'" id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048e3-816048a8" class="buy-product_row">
+    {% assign productUpsell = product.metafields.custom.einbauservice_2.value %}
+<div id="w-node-_019127a7-5db6-0412-1cd3-00281c91aabe-816048a8" class="heading-style-small">
+{{ block.settings.text_optional }}
+</div>
+<label id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048e6-816048a8" class="w-checkbox buy-product_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom buy-product_checkbix"></div><input type="checkbox" name="item-3" id="item-3" data-name="Item 3" x-model="checked" style="opacity:0;position:absolute;z-index:-1">
+<div class="w-form-label" for="item-3"> {{ block.settings.richtext_checkbox_1 }} </div>
+</label>    </div>
+{% endif %}<div x-cloak="" x-show="checked" x-transition="" id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048ea-816048a8"><select x-model="einbauserviceID" class="input max-width-full"><option>Bitte wählen</option>{% for variant in productUpsell.variants %}    <option value="{{ variant.id }}" li-for="variant in productUpsell.variants">
+                                    {{ variant.title }} ({{ variant.price | money }})
+                        </option>
+{% endfor %}</select></div><label x-cloak="" x-show="checked" x-transition="" id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048ee-816048a8" class="w-checkbox buy-product_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom buy-product_checkbix"></div><input type="checkbox" name="Bedingungen-Check-2" id="Bedingungen-Check-2" data-name="Bedingungen Check 2" x-model="bedingungen" style="opacity:0;position:absolute;z-index:-1">
+<div class="w-form-label" for="Bedingungen-Check-2"> {{ block.settings.richtext_checkbox_2 }} </div>
+</label>{% if product.metafields.custom.einbauservice_2 != blank and localization.country == 'Deutschland' %}    <div li-if="product.metafields.custom.einbauservice_2 != blank and localization.country == 'Deutschland'" id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048f4-816048a8" class="divider">
+        </div>
+{% endif %}<div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048f5-816048a8"><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba0816048f6-816048a8" class="products_prices"><div li-object="product.price | money" class="{% if product.price < product.compare_at_price %}heading-style-h2 text-color-red{% else %}heading-style-h2{% endif%}">{{ product.price | money }}</div><div li-object="product.compare_at_price | money" class="products_compare-price">{{ product.compare_at_price | money }}</div></div>{% if product.price < product.compare_at_price %}    <div li-if="product.price < product.compare_at_price" class="heading-style-small text-color-red">
+    <span>
+{{ block.settings.text_sie_sparen }}
+</span>
+<span li-object="product.compare_at_price | minus: product.price | money">{{ product.compare_at_price | minus: product.price | money }}</span>    </div>
+{% endif %}<div li-object="block.settings.text_mwst" class="text-size-tiny text-opacity-80">{{ block.settings.text_mwst }}</div></div>{% if product.selected_or_first_available_variant.available and block.settings.benachrichtigung == false %}    <div li-if="product.selected_or_first_available_variant.available and block.settings.benachrichtigung == false" id="w-node-_0fd7631c-16c3-8708-9d28-6ba081604903-816048a8" class="buy-product_delivery">
+    <div class="buy-product_circle"></div><div class="text-weight-semibold text-color-green">
+{{ block.settings.text_auf_lager }}
+</div>
+    </div>
+{% endif %}{% if product.selected_or_first_available_variant.available and block.settings.benachrichtigung == false %}    <a li-if="product.selected_or_first_available_variant.available and block.settings.benachrichtigung == false" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-on:click="einbauserviceID && checked ? addToCart(false, einbauserviceID) : null; setTimeout(() => addToCartAndCheckout(true),500)" x-bind:style="{ 'pointer-events': !checked || (checked && einbauserviceID && bedingungen) ? 'auto' : 'none', opacity: !checked || (checked && einbauserviceID && bedingungen) ? 1 : 0.5 }" id="w-node-a400a4b4-bf3d-8a93-9c81-4fd635d2fc82-816048a8" href="#" class="button w-button">
+    Jetzt kaufen    </a>
+{% endif %}{% unless product.selected_or_first_available_variant.available and block.settings.benachrichtigung == false %}    <a li-unless="product.selected_or_first_available_variant.available and block.settings.benachrichtigung == false" id="w-node-e6d2ffe2-08cc-216a-5ad9-7f8044dbffb8-816048a8" href="#" class="button text-style-muted w-button">
+    Ausverkauft    </a>
+{% endunless %}<div id="w-node-_26682c33-d31c-4e7a-12a4-a28c144aae31-816048a8" class="hide w-embed w-script"><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script></div>{% endform %}
+<div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div>{% if block.settings.benachrichtigung %}    <div li-if="block.settings.benachrichtigung" id="w-node-_30619326-2daf-5aa5-2881-bbb4a82e63a5-816048a8" class="form-cleaned w-form">
+    {% form 'customer', return_to: '/pages/benachrichtigung-danke', class: 'newsletter_form' %}
+<div class="contact_split"><div id="w-node-_30619326-2daf-5aa5-2881-bbb4a82e63b0-816048a8" class="contact_form-item"><label for="contact[email]-2" class="form_lable text-weight-semibold">
+{{ block.settings.text_benachrichtigung }}
+</label>
+<input class="input w-input" maxlength="256" name="contact[email]" data-name="Contact Email 2" placeholder="" type="email" id="contact[email]-2" required="">
+<input type="hidden" name="customer[tags]" value="benachrichtigung">
+<input type="hidden" name="customer[tags]" value="{{ block.settings.product.title }}">
+</div></div><input type="submit" data-wait="Bitte warten..." class="button max-width-full w-button" value="Jetzt benachrichtigen lassen">
+<div id="w-node-_30619326-2daf-5aa5-2881-bbb4a82e63b5-816048a8" class="text-color-primary text-size-tiny"> {{ block.settings.richtext_datenschutz_text }} </div>
+<div class="hide"><input type="hidden" name="language" value="{{ request.locale.iso_code }}">
+<input type="hidden" name="currentpage" value="{{ request.path | prepend: request.origin }}">
+<input type="hidden" name="filled" id="filled" value="">
+<input type="hidden" name="518" id="518" value="">
+<input type="hidden" name="491" id="491" value="">
+<input type="hidden" name="495" id="495" value="">
+<input type="hidden" name="514" id="514" value="">
+<input type="hidden" name="516" id="516" value="">
+<input type="hidden" name="redirectUrl" value="/pages/newsletter-vielen-dank">
+</div>{% endform %}
+<div class="success-message w-form-done"><div>Danke!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>    </div>
+{% endif %}<div class="footer_payment-icons"><div class="footer_versand-icon"><img loading="lazy" src="{{ 'DHL_logo_rgb_BG-1.svg' | asset_url }}" alt="" class="footer_payment-img is-product is-versand">
+<div>
+{{ block.settings.text_versand }}
+</div>
+</div><ul id="w-node-_0fd7631c-16c3-8708-9d28-6ba081604908-816048a8" role="list" class="footer_payment-list is-product w-list-unstyled">{% for type in shop.enabled_payment_types %}    <li li-for="type in shop.enabled_payment_types" class="footer_payment-item">
+                                    
+                            <div li-object="type | payment_type_svg_tag: class: 'footer_payment-img is-product icon--full-color'">{{ type | payment_type_svg_tag: class: 'footer_payment-img is-product icon--full-color' }}</div>
+                            
+                        </li>
+{% endfor %}<li class="footer_payment-item"><div><img loading="lazy" src="{{ 'rechnung.svg' | asset_url }}" alt="" class="footer_payment-img is-product">
+</div></li></ul></div><p id="w-node-_442f760d-2840-2b0f-e8c4-c8e2d09ca30e-816048a8" class="text-size-tiny text-opacity-80">
+{{ block.settings.text_disclaimer }}
+</p>
+</div><div id="w-node-_0fd7631c-16c3-8708-9d28-6ba081604919-816048a8" class="buy-product_more">{% if block.settings.text_download != blank %}    <div li-if="block.settings.text_download != blank" id="w-node-_0fd7631c-16c3-8708-9d28-6ba081604928-816048a8">
+    <a id="w-node-_0fd7631c-16c3-8708-9d28-6ba081604929-816048a8" href="{{ block.settings.url_download_url }}" target="_blank" class="buy-product_more-item w-inline-block"> <div class="buy-product_more-item-left"><img loading="lazy" src="{{ 'quick_reference.svg' | asset_url }}" alt="" class="icon-1x1-semi-medium"><div class="text-weight-semibold">{{ block.settings.text_download }}</div></div><img loading="lazy" src="{{ 'arrow-back.svg' | asset_url }}" alt="" class="icon-1x1-small"> </a>
+    </div>
+{% endif %}{% if block.settings.text_lieferbedingungen != blank %}    <div li-if="block.settings.text_lieferbedingungen != blank" id="w-node-_0fd7631c-16c3-8708-9d28-6ba08160492f-816048a8">
+    <a id="w-node-_0fd7631c-16c3-8708-9d28-6ba081604930-816048a8" href="{{ block.settings.url_lieferbedingungen_url }}" target="_blank" class="buy-product_more-item w-inline-block"> <div class="buy-product_more-item-left"><div class="icon-1x1-semi-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 20 21" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><mask id="mask0_7306_20912" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="20" height="21"><rect y="0.904785" width="20" height="20" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_7306_20912)"><path d="M8.33333 9.02979L10 8.19645L11.6667 9.02979V5.07145H8.33333V9.02979ZM5.83333 15.0715V13.4048H10V15.0715H5.83333ZM4.16667 18.4048C3.70833 18.4048 3.31597 18.2416 2.98958 17.9152C2.66319 17.5888 2.5 17.1965 2.5 16.7381V5.07145C2.5 4.61312 2.66319 4.22076 2.98958 3.89437C3.31597 3.56798 3.70833 3.40479 4.16667 3.40479H15.8333C16.2917 3.40479 16.684 3.56798 17.0104 3.89437C17.3368 4.22076 17.5 4.61312 17.5 5.07145V16.7381C17.5 17.1965 17.3368 17.5888 17.0104 17.9152C16.684 18.2416 16.2917 18.4048 15.8333 18.4048H4.16667ZM4.16667 16.7381H15.8333V5.07145H13.3333V11.7381L10 10.0715L6.66667 11.7381V5.07145H4.16667V16.7381Z" fill="#000030"></path></g></svg></div><div class="text-weight-semibold">{{ block.settings.text_lieferbedingungen }}</div></div><img loading="lazy" src="{{ 'arrow-back.svg' | asset_url }}" alt="" class="icon-1x1-small"> </a>
+    </div>
+{% endif %}</div></div></div></div>
+                                    <div class="li-custom w-embed"></div>
+
+                                    <div li-object="product.metafields.custom.strukturierte_daten" class="hide">{{ product.metafields.custom.strukturierte_daten }}</div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div>{% if section.settings.checkbox_pfeil == true %}
+<div class="direction-holder"><img loading="lazy" src="{{ 'line-green.svg' | asset_url }}" alt="" class="direction-icon">
+</div>{% endif %}
+<div class="hide w-embed w-script"><script>pageFunctions.addFunction('productSlider', function() {
+	$(".swiper-container").each(function (index) {
+    const thumbsSwiper = new Swiper($(this).find(".swiper.is-product-thumbnail")[0], {
+      slidesPerView: "auto",
+      rewind: false,
+      loopedSlides: 8,
+      slideToClickedSlide: true,
+      spaceBetween: "4%",
+    });
+    const swiper = new Swiper($(this).find(".swiper.is-product-gallery")[0], {
+      mousewheel: {
+        forceToAxis: true
+      },
+      thumbs: {
+        swiper: thumbsSwiper,
+        slideThumbActiveClass: "is-active",
+      },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true
+      },
+      navigation: {
+        nextEl: $(this).find(".swiper-next")[0],
+        prevEl: $(this).find(".swiper-prev")[0],
+      }
+    });
+  }); 
+});
+</script></div> {% schema %} {"tag":"section","name":"P - Product Hero","class":"section_buy-product background-color-light-blue","blocks":[{"name":"Produkt","type":"produkt","settings":[{"id":"image_auszeichnung","type":"image_picker","label":"Auszeichnung"},{"id":"image_badge_1","type":"image_picker","label":"Badge 1"},{"id":"image_badge_2","type":"image_picker","label":"Badge 2"},{"id":"text_titel","type":"text","label":"Titel","default":"AQON PURE kaufen"},{"id":"text_system_wahlen","type":"text","label":"System w\u00e4hlen","default":"System W\u00e4hlen"},{"id":"text_produkt_titel","type":"text","label":"Produkt Titel","default":"Home S"},{"id":"text_produktmerkmale","type":"text","label":"Produktmerkmale","default":"Produktmerkmale"},{"id":"text_optional","type":"text","label":"Optional","default":"Optional"},{"id":"richtext_checkbox_1","type":"richtext","label":"Checkbox 1","default":"<p>Einbau zum Festpreis dazubuchen (ab \u20ac285.00)<\/p>"},{"id":"richtext_checkbox_2","type":"richtext","label":"Checkbox 2","default":"<p>Ich habe die Bedingungen f\u00fcr den Einbauservice zum Festpreis inkl. der Anlieferung des Fotomaterials gelesen und akzeptiere diese. <br\/>Zu den Bedingungen<\/p>"},{"id":"text_sie_sparen","type":"text","label":"Sie sparen","default":"Sie sparen\u00a0"},{"id":"text_auf_lager","type":"text","label":"Auf Lager","default":"Auf Lager: Kostenlose EU Lieferung in 5-8 Werktagen"},{"id":"text_benachrichtigung","type":"text","label":"Benachrichtigung","default":"Bei Verf\u00fcgbarkeit benachrichtigen"},{"id":"richtext_datenschutz_text","type":"richtext","label":"Datenschutz Text","default":"<p>Datenschutz: Die AQON PURE speichert und verarbeitet Deine personenbezogenen Daten auf der Grundlage des Datenschutzes.<\/p>"},{"id":"text_versand","type":"text","label":"Versand","default":"Versand mit DHL"},{"id":"text_disclaimer","type":"text","label":"Disclaimer","default":"**Wir bieten eine flexible Ratenzahlung via PayPal ab 69,69 \u20ac pro Monat zu 11,99% p.a. eff. Jahreszins an. W\u00e4hlen Sie hierzu bei Zahlung die Zahlungsart PayPal aus."},{"id":"url_download_url","type":"url","label":"Download Url"},{"id":"text_download","type":"text","label":"Download","default":"Informationen herunterladen"},{"id":"url_lieferbedingungen_url","type":"url","label":"Lieferbedingungen Url"},{"id":"text_lieferbedingungen","type":"text","label":"Lieferbedingungen","default":"Lieferbedingungen"},{"type":"product","id":"product","label":"Product"},{"type":"checkbox","id":"benachrichtigung","label":"Benachrichtige mich"}]}],"settings":[{"id":"checkbox_pfeil","type":"checkbox","label":"Pfeil","default":true}],"presets":[{"name":"P - Product Hero","category":"Liquify"}]} {% endschema %}
