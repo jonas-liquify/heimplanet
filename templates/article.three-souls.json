@@ -13,13 +13,13 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
-        "text_button_text": "Button Text",
+        "text_headline": "Three souls. <br>A pyrenean quest",
+        "textarea_longer_text": "Ein Amateur-Trailrunning-Projekt von drei Freunden mit dem Ziel, das gesamte Pyrenäen-Gebirge zu durchqueren.",
+        "text_button_text": "",
         "url_button_link": "",
-        "text_button_text_2": "Button Text",
+        "text_button_text_2": "",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/40000_elevation.png"
+        "image_bild": "shopify://shop_images/Kevin_Ellison_-_THREE_SOULS_-_Trailrunning_Project.pdf.jpg"
       }
     },
     "article_products_V4qaqk": {
