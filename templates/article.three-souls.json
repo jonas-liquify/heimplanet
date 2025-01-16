@@ -69,6 +69,14 @@
         "image_bild": "shopify://shop_images/Three_souls._A_pyranean_quest_Blog_c4a63ba8-b4ba-4477-bdc1-bfda761df313.jpg"
       }
     },
+    "l_text_logos_rncJFQ": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Unser Warum",
+        "text_text": "Wir wollen euch inspirieren, groß zu träumen. Wenn dein Geist bereit ist, etwas zu tun, du dich vorbereitest und an dich und deine Fähigkeiten glaubst, wird alles möglich. Dies ist eine Reise durch eine der wildesten alpinen Regionen Europas. Eine Hommage an die Welt des Trailrunnings, wie wir sie sehen, fühlen und wie wir als Amateur-Athleten diese Form des Laufens in ihrer reinsten Umgebung interpretieren. Es geht darum, eins mit der Natur zu sein, Teil der Elemente zu werden, und sie erkunden zu dürfen. Die tiefere Erforschung unseres Selbst und das Streben nach kontinuierlicher Weiterentwicklung – körperlich, geistig und spirituell. Wir möchten darüber hinaus auch Türen öffnen und eine Inspiration für Gemeinschaften mit unterschiedlichen ethnischen Hintergründen, gemischten Kulturen und People of Color sein, die in alpinen Gebieten oder in Teilen der Outdoor-Welt weniger vertreten sind. Mit diesem einzigartigen Projekt möchten wir euch einladen, uns auf unserer Trailrunning-Expedition zu begleiten."
+      }
+    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
@@ -104,7 +112,7 @@
         "fact_thTQjL"
       ],
       "settings": {
-        "text_headline": "KIRRA 2 Personen",
+        "text_headline": "KIRRA, Classic",
         "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "",
@@ -120,14 +128,6 @@
         "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
-      }
-    },
-    "l_text_logos_rncJFQ": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "Unser Warum",
-        "text_text": "Wir wollen euch inspirieren, groß zu träumen. Wenn dein Geist bereit ist, etwas zu tun, du dich vorbereitest und an dich und deine Fähigkeiten glaubst, wird alles möglich. Dies ist eine Reise durch eine der wildesten alpinen Regionen Europas. Eine Hommage an die Welt des Trailrunnings, wie wir sie sehen, fühlen und wie wir als Amateur-Athleten diese Form des Laufens in ihrer reinsten Umgebung interpretieren. Es geht darum, eins mit der Natur zu sein, Teil der Elemente zu werden, und sie erkunden zu dürfen. Die tiefere Erforschung unseres Selbst und das Streben nach kontinuierlicher Weiterentwicklung – körperlich, geistig und spirituell. Wir möchten darüber hinaus auch Türen öffnen und eine Inspiration für Gemeinschaften mit unterschiedlichen ethnischen Hintergründen, gemischten Kulturen und People of Color sein, die in alpinen Gebieten oder in Teilen der Outdoor-Welt weniger vertreten sind. Mit diesem einzigartigen Projekt möchten wir euch einladen, uns auf unserer Trailrunning-Expedition zu begleiten."
       }
     }
   },
