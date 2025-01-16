@@ -35,7 +35,7 @@
       "settings": {
         "text_subline": "",
         "text_headline": "Three Souls",
-        "text_text": "Unsere Mission ist es, von der Atlantikküste bis zum Mittelmeer zu trailrunnen, indem wir die französischen und spanischen Pyrenäen in einem Zeitraum von 2-3 Wochen durchqueren, beginnend am 12. August 2024. Eine wilde Mischung aus selbst entworfenen und unterstützten Routen, mit Elementen der drei großen Strecken (GR11, GR10 & HRP), die die Pyrenäen durchqueren. <br><br>An jedem ihrer Stopps erwartet die drei ein Camp aus HEIMPLANET KIRRA Zelten, um sich von den Strapazen zu erholen und neue Kraft zu schöpfen."
+        "text_text": "Unsere Mission ist es, von der Atlantikküste bis zum Mittelmeer zu trailrunnen, indem wir die französischen und spanischen Pyrenäen in einem Zeitraum von 2-3 Wochen durchqueren, beginnend am 12. August 2024. Eine wilde Mischung aus selbst entworfenen und unterstützten Routen, mit Elementen der drei großen Strecken (GR11, GR10 & HRP), die die Pyrenäen durchqueren. An jedem ihrer Stopps erwartet die drei ein Camp aus HEIMPLANET KIRRA Zelten, um sich von den Strapazen zu erholen und neue Kraft zu schöpfen."
       }
     },
     "l_content_right_fX4Dcz": {
@@ -67,14 +67,6 @@
         "textarea_text": "",
         "text_headline_2": "",
         "image_bild": "shopify://shop_images/Three_souls._A_pyranean_quest_Blog_c4a63ba8-b4ba-4477-bdc1-bfda761df313.jpg"
-      }
-    },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
-      "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
-        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
       }
     },
     "l_produkt_QbA6R8": {
@@ -130,10 +122,12 @@
         "text_blog_handle": "abenteuer"
       }
     },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
+    "l_text_logos_rncJFQ": {
+      "type": "l_text_logos",
       "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
+        "text_subline": "",
+        "text_headline": "Unser Warum",
+        "text_text": "Wir wollen euch inspirieren, groß zu träumen. Wenn dein Geist bereit ist, etwas zu tun, du dich vorbereitest und an dich und deine Fähigkeiten glaubst, wird alles möglich. Dies ist eine Reise durch eine der wildesten alpinen Regionen Europas. Eine Hommage an die Welt des Trailrunnings, wie wir sie sehen, fühlen und wie wir als Amateur-Athleten diese Form des Laufens in ihrer reinsten Umgebung interpretieren. Es geht darum, eins mit der Natur zu sein, Teil der Elemente zu werden, und sie erkunden zu dürfen. Die tiefere Erforschung unseres Selbst und das Streben nach kontinuierlicher Weiterentwicklung – körperlich, geistig und spirituell. Wir möchten darüber hinaus auch Türen öffnen und eine Inspiration für Gemeinschaften mit unterschiedlichen ethnischen Hintergründen, gemischten Kulturen und People of Color sein, die in alpinen Gebieten oder in Teilen der Outdoor-Welt weniger vertreten sind. Mit diesem einzigartigen Projekt möchten wir euch einladen, uns auf unserer Trailrunning-Expedition zu begleiten."
       }
     }
   },
@@ -147,9 +141,8 @@
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_content_image_bg_7e9gGy",
-    "l_gallery_67Grn9",
+    "l_text_logos_rncJFQ",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD"
+    "article_next"
   ]
 }
