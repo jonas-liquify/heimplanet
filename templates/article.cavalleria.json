@@ -22,6 +22,14 @@
         "image_bild": "shopify://shop_images/Heimplanet-Cavalleria-Blog-1.jpg"
       }
     },
+    "l_text_logos_mjAXnK": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "\"... and into the forest I go, to lose my mind and find my soul.\" - John Muir",
+        "text_text": "Unsere Gesellschaft glorifiziert das Beschäftigt-Sein, oft auf Kosten echter Verbindung mit uns selbst und der Natur. Cavalleria spricht dieses Verlangen nach Abenteuer und Erfüllung an und erinnert uns daran, dass wahres Glück in bedeutsamen Erfahrungen und tiefen menschlichen Verbindungen liegt, nicht in materiellem Reichtum. Der wachsende Trend zu Outdoor- und Offroad-Abenteuern spiegelt unser kollektives Verlangen nach Authentizität in einer oberflächlichen Welt wider."
+      }
+    },
     "l_video_L6k4FT": {
       "type": "l_video",
       "custom_css": [],
@@ -191,6 +199,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_text_logos_mjAXnK",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
