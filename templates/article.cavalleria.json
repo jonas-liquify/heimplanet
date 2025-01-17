@@ -93,8 +93,10 @@
         "dropdown_j39zQL": {
           "type": "dropdown",
           "settings": {
-            "text_headline": "Häufige Fragen & Antworten",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "text_headline": "Tag 3: Die Magie einfangen",
+            "textarea_text": "Unter der Leitung des Fotografen Javi Echevarria und des Filmemachers Ot Boqué fingen wir jeden aufregenden Moment ein. Von weitläufigen Aussichten bis hin zu aufregenden Actionaufnahmen erzählt jedes Bild eine Geschichte von Abenteuer und Erkundung. Unser Abenteuer kulminierte in einem atemberaubenden Sonnenuntergang in der Nähe von Alfambra, wo wir über die geschaffenen Erinnerungen nachdachten und uns auf die Rückkehr in die Zivilisation vorbereiteten.",
+            "image_bild": "shopify://shop_images/43I3510.jpg"
           }
         },
         "dropdown_wWNMpW": {
