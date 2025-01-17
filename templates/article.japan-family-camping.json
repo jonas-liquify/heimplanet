@@ -62,70 +62,12 @@
         "textarea_text": "簡単に作れるものを選んでいます。短時間で料理する為に、家で下準備をしてジップロックに詰めて、キャンプ場では火を通すだけ。簡単な料理が多いです。\n\n<br><br>Ich wähle leicht zuzubereitende Gerichte. Um in kurzer Zeit zu kochen, bereite ich das Essen zu Hause vor, packe es in einen Ziplock-Beutel und erhitze es dann nur noch auf dem Campingplatz. Oft sind es einfache Gerichte, die uns trotzdem das Gefühl von Zuhause geben, während wir unter den Sternen essen."
       }
     },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
+    "l_content_left_PJmcaY": {
+      "type": "l_content_left",
       "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
-        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
-      }
-    },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
-          }
-        }
-      },
-      "block_order": [
-        "feature_YRDDyY",
-        "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
+        "text_headline": "Warum nutzt ihr das Backdoor Zelt?",
+        "textarea_text": "こんなに簡単に設営できて、しっかり強度もあるテントに出逢えた事に感謝しかありません。全世界の小さい子供連れのキャンパーにオススメしたいです！<br><br>Das Backdoor ist perfekt für uns vier. Ich bin einfach nur dankbar, ein Zelt gefunden zu haben, das so leicht aufzubauen und dennoch robust ist. Ich würde es allen Campern mit kleinen Kindern auf der ganzen Welt empfehlen! Es macht das Camping-Erlebnis so viel einfacher und angenehmer, besonders wenn man die kleinen Dinge des Abenteuers genießen möchte, ohne sich um komplizierte Aufbauten sorgen zu müssen.\n<br><br>\n﻿Kürzlich hat die Familie auch noch unser neues Familien Zelt Cloudbreak zu ihrem Equipment hinzugefügt. Das Cloudbreak ist um einiges größer und trennt im Innenraum Schlaf- und Wohnbereich für mehr Ordnung und einen leichteren Überblick.",
+        "image_bild": "shopify://shop_images/Heimplanet-Japanese-Family-Camping-Blog-4.jpg"
       }
     },
     "l_produkt_QbA6R8": {
@@ -134,7 +76,7 @@
         "produkt_slider_ipBq33": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Classic-1_79c5362c-91c6-4f59-88ab-bd5c7f42ccd2.jpg"
           }
         },
         "fact_tQ3c6w": {
@@ -163,12 +105,12 @@
         "fact_thTQjL"
       ],
       "settings": {
-        "text_headline": "KIRRA 2 Personen",
+        "text_headline": "Backdoor, Classic",
         "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
+        "url_produkt_link": "shopify://products/backdoor-classic",
         "checkbox_swiper_script": true
       }
     },
@@ -179,12 +121,6 @@
         "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
-      }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
     }
   },
@@ -197,11 +133,8 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
-    "l_gallery_67Grn9",
-    "l_headline_mono_4Vq68U",
-    "l_step_slider_z93mQW",
+    "l_content_left_PJmcaY",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD"
+    "article_next"
   ]
 }
