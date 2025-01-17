@@ -78,11 +78,12 @@
         "image_bild_3": "shopify://shop_images/DanPetermann_Bikepacking_Juni2024-22.jpg"
       }
     },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
+    "l_text_logos_haByNk": {
+      "type": "l_text_logos",
       "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Am zweiten Tag setzte ich meine Reise von der Küste, wo ich die Nacht zuvor gezeltet hatte, fort und durchquerte den Wald und die umliegenden Felder der Rostocker Heide. Die Reise führte mich durch winzige Dörfer, die wie von der Zeit vergessen wirkten. Dieser Teil der Reise war genauso bezaubernd mit einer Mischung aus dichten Wäldern und offenen Feldern. Jede Biegung brachte neue Eindrücke und Erfahrungen und verstärkte das Gefühl von Abenteuer und Entdeckung.<br><br>Diese kurze Flucht war mehr als eine Unterbrechung der Routine; sie erinnerte mich an die Freude an der Einfachheit und die Wunder, die jenseits unserer alltäglichen Pfade liegen. Die Kombination aus körperlicher Aktivität, natürlicher Schönheit und dem Nervenkitzel der Erkundung machte diese Erfahrung unvergesslich. Sie lehrte mich, dass selbst kurze Ausflüge tiefgehende und nachhaltige Erholung bieten können.<br><br>Für mich war dies ein perfekter Weg, um einen Neuanfang zu wagen, neue Perspektiven zu finden, die Welt um mich herum wiederzuentdecken und mich daran zu erinnern, dass häufig wirklich weniger mehr ist."
       }
     },
     "l_step_slider_z93mQW": {
@@ -207,7 +208,7 @@
     "l_content_right_hKLaVw",
     "l_content_left_E3tPK7",
     "l_gallery_67Grn9",
-    "l_headline_mono_4Vq68U",
+    "l_text_logos_haByNk",
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next",
