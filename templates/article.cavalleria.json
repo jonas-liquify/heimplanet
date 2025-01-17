@@ -116,16 +116,8 @@
         "dropdown_wWNMpW"
       ],
       "settings": {
-        "text_headline": "Der Ablauf",
+        "text_headline": "Das Abenteuer",
         "textarea_text": ""
-      }
-    },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
-      "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
-        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
       }
     },
     "l_produkt_QbA6R8": {
@@ -199,7 +191,6 @@
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_dropdowns_Gb663R",
-    "l_gallery_67Grn9",
     "l_produkt_QbA6R8",
     "article_next",
     "l_html_text_L8c4CD"
