@@ -102,8 +102,10 @@
         "dropdown_wWNMpW": {
           "type": "dropdown",
           "settings": {
-            "text_headline": "Häufige Fragen & Antworten",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "text_headline": "Tag 4: Heimwärts",
+            "textarea_text": "Widerwillig packten wir zusammen und verabschiedeten uns von der Wildnis Teruels, unsere Geister erweckt und unsere Seelen genährt von den Abenteuern und neu gewonnenen Verbindungen. Was als Test von Ausrüstung, Rezepten und Routen begann, verwandelte sich in eine Reise der Entdeckung und Verbindung, die uns die volle Kraft von Cavalleria offenbarte. Wir wussten, dass wir etwas Besonderem auf der Spur waren.",
+            "image_bild": "shopify://shop_images/43I3287_-_Kopie.jpg"
           }
         }
       },
