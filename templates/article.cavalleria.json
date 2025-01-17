@@ -69,70 +69,59 @@
         "textarea_text": "Um den Geist von Cavalleria aus erster Hand zu erleben, planten wir eine viertägige Reise. Wir konnten es kaum erwarten. In diesem Unterfangen ist HEIMPLANET stolzer Partner von Cavalleria und bietet Komfort und Sicherheit während der Trips in die Wildnis. Unser gemeinsames Engagement für Nachhaltigkeit und Umweltbewusstsein stellt sicher, dass jede Reise mit Cavalleria nur minimale Auswirkungen auf die Natur hat, damit zukünftige Generationen dieselbe Freude und Begeisterung erleben können."
       }
     },
+    "l_dropdowns_Gb663R": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_n36dwR": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "text_headline": "Tag 1: Barcelona nach Teruel",
+            "textarea_text": "Die Aufregung war spürbar, als wir unsere Ausrüstung sammelten und die Enduro-Bikes beluden. An einem frischen Novembermorgen brachen wir von Barcelona auf und steuerten die raue Wildnis rund um Teruel an, ein verstecktes Juwel im Herzen Spaniens. Nach Stunden auf kurvenreichen Straßen erreichten wir das Refugio Forestal Masía de Ligros, unser Zufluchtsort für die Nacht. Bei Sonnenuntergang versammelten wir uns ums Lagerfeuer ließen den Tag Revue passieren.",
+            "image_bild": "shopify://shop_images/Cavalleria_2.png"
+          }
+        },
+        "dropdown_BQrQfn": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Platzhalter-Weiss.png",
+            "text_headline": "Tag 2: In die Wildniss",
+            "textarea_text": "Das Versprechen von Abenteuern begrüßte uns mit dem Morgengrauen. Ausgerüstet erkundeten wir das raue Terrain Teruels auf unseren Bikes. Unsere Route führte uns durch die sich ständig verändernde Landschaft der spanischen Highlands, lokal bekannt als \"Montañas Vacias\" oder leere Berge. Jede Kurve offenbarte atemberaubende Ausblicke und zeigte die rohe Schönheit der Natur. Wir campten in der Nähe von El Hoyón de Ródenas, genossen herzhaftes Lagerfeueressen und Kameradschaft, bevor wir unter einem sternenklaren Himmel einschliefen.",
+            "image_bild": "shopify://shop_images/Cavalleria_1.png"
+          }
+        },
+        "dropdown_j39zQL": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen & Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_wWNMpW": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen & Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_n36dwR",
+        "dropdown_BQrQfn",
+        "dropdown_j39zQL",
+        "dropdown_wWNMpW"
+      ],
+      "settings": {
+        "text_headline": "Der Ablauf",
+        "textarea_text": ""
+      }
+    },
     "l_gallery_67Grn9": {
       "type": "l_gallery",
       "settings": {
         "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
         "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
-      }
-    },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
-          }
-        }
-      },
-      "block_order": [
-        "feature_YRDDyY",
-        "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
       }
     },
     "l_produkt_QbA6R8": {
@@ -205,9 +194,8 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
+    "l_dropdowns_Gb663R",
     "l_gallery_67Grn9",
-    "l_headline_mono_4Vq68U",
-    "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next",
     "l_html_text_L8c4CD"
