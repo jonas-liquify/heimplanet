@@ -22,11 +22,12 @@
         "image_bild": "shopify://shop_images/DanPetermann_Bikepacking_Juni2024-28.jpg"
       }
     },
-    "l_video_L6k4FT": {
-      "type": "l_video",
-      "custom_css": [],
+    "l_text_logos_f7aac3": {
+      "type": "l_text_logos",
       "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Ich habe immer Trost in der Ruhe der Natur gefunden. Durch die ständigen Anforderungen des täglichen Lebens bin ich jedoch oftmals in der Routine städtischen Alltags gefangen. Um dieser Monotonie zu entkommen, habe ich kürzlich ein Bikepacking-Mikroabenteuer unternommen - eine kurzer, aber erfrischender Ausflug, der mir eine wohltuende Abkehr vom Alltagsstress bot."
       }
     },
     "article_products_V4qaqk": {
@@ -40,17 +41,17 @@
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-12.jpg",
-        "text_headline": "MISSION REGENTEST",
-        "textarea_text": "Manchmal ist es das Abenteuer selbst, das ein Wochenende unvergesslich macht – und genau das war der Fall, als Lukas Bigler und sein Freund Nico das Heimplanet Kirra Zelt in den Urner Alpen testeten. Bei wechselhaftem Herbstwetter und einer ungewissen Prognose wollten die beiden ihre Wanderung zum Griessseeli dennoch nicht absagen. Im Gegenteil: Es war die perfekte Gelegenheit, um das Kirra Zelt in einer der eindrucksvollsten, aber auch anspruchsvollsten Umgebungen auf Herz und Nieren zu testen."
+        "image_bild": "shopify://shop_images/DanPetermann_Bikepacking_Juni2024-6.jpg",
+        "text_headline": "Weniger ist manchmal mehr",
+        "textarea_text": "Der minimalistische Ansatz des Bikepackings ermöglicht es mir, mich auf die Einfachheit und Schönheit meiner Umgebung zu fokussieren und diese stärker wertzuschätzen. Gleichzeitig bietet Radfahren für mich das perfekte Reisetempo. Anders als beim Wandern überwindet man schnell große Entfernungen, bleibt aber dennoch langsam genug, um in die Landschaft einzutauchen."
       }
     },
     "l_content_left_LMgdf7": {
       "type": "l_content_left",
       "settings": {
         "text_headline": "Tag 1 // ankunft",
-        "textarea_text": "Die Vorzeichen standen auf Regen, aber Lukas und Nico ließen sich davon nicht abschrecken. Am Samstagnachmittag machten sie sich auf den Weg, eine etwa 40-minütige Wanderung durch die herbstliche Dämmerung, die über die Seitenmoräne des Gletschers führte. Angekommen an ihrem Ziel entdeckten sie eine kleine Insel am Rand des Griessseelis – genau der richtige Platz, um das Zelt aufzubauen und die Nacht in der wilden Natur zu verbringen.\n<br><br>\nTrotz des einsetzenden Regens ließ sich das Kirra Zelt dank seiner aufblasbaren Konstruktion innerhalb weniger Minuten und mit einer kleinen Pumpe unkompliziert aufstellen. Schon bald stand das Zelt, bereit, die beiden für die Nacht zu schützen. Durch den starken Regen zog es Lukas und Nico früh in die Schlafsäcke – mit der Hoffnung, am nächsten Morgen von einem epischen Sonnenaufgang über dem Gletschersee geweckt zu werden.",
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-4.jpg"
+        "textarea_text": "Dieses Gleichgewicht schafft eine intime Verbindung zur Umgebung und lässt Sie Anblicke, Geräusche und Düfte aufnehmen, die sonst unbemerkt bleiben könnten. Als ich aus der Stadt hinaus fuhr, war der Übergang von der urbanen zur natürlichen Szenerie allmählich, aber tiefgreifend - belebte Straßen wichen ruhigen Wäldern und dem meditativen Klang der Wellen. Die Fahrt des ersten Tages verband üppiges Grün und Küstenschönheit perfekt. So machte jeder Tritt in die Pedale Lust auf den Nächsten!.",
+        "image_bild": "shopify://shop_images/Heimplanet-Cycle-of-Simplicity-Blog-1.jpg"
       }
     },
     "l_content_right_hKLaVw": {
@@ -191,7 +192,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_video_L6k4FT",
+    "l_text_logos_f7aac3",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
