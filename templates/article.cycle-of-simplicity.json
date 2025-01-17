@@ -49,7 +49,7 @@
     "l_content_left_LMgdf7": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "Tag 1 // ankunft",
+        "text_headline": "Ruhe der Natur",
         "textarea_text": "Dieses Gleichgewicht schafft eine intime Verbindung zur Umgebung und lässt Sie Anblicke, Geräusche und Düfte aufnehmen, die sonst unbemerkt bleiben könnten. Als ich aus der Stadt hinaus fuhr, war der Übergang von der urbanen zur natürlichen Szenerie allmählich, aber tiefgreifend - belebte Straßen wichen ruhigen Wäldern und dem meditativen Klang der Wellen. Die Fahrt des ersten Tages verband üppiges Grün und Küstenschönheit perfekt. So machte jeder Tritt in die Pedale Lust auf den Nächsten!.",
         "image_bild": "shopify://shop_images/Heimplanet-Cycle-of-Simplicity-Blog-1.jpg"
       }
@@ -57,9 +57,17 @@
     "l_content_right_hKLaVw": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-7.jpg",
-        "text_headline": "Tag 2 // Los geht's",
-        "textarea_text": "Der Regen begleitete die beiden die ganze Nacht hindurch. Doch das Kirra Zelt hielt stand: Obwohl es frisch war, blieb im Inneren alles angenehm trocken, und das robuste Material zeigte sich den Bedingungen mehr als gewachsen.\n<br><br>\nStatt eines Sonnenaufgangs erwartete Lukas und Nico jedoch eine mystische Szenerie: Der Himmel war von tief hängenden Wolken bedeckt, die in Kombination mit den verschneiten Gipfeln und dem blauen Gletschersee eine epische Kulisse boten. Die Stille und die Atmosphäre waren einmalig – das Kirra Zelt stand mitten in dieser rauen, wilden Landschaft und fügte sich perfekt in die Umgebung ein.\n<br><br>\nNach ein paar Fotos von der Szenerie und dem Zelt machten sich die beiden Freunde zufrieden auf den Heimweg. Das Wetter war zwar nicht ideal gewesen, aber genau das hatte den Ausflug zu einem echten Test für das Kirra gemacht. Und das Zelt hatte seine Aufgabe gemeistert: Es hielt Regen und Nässe mühelos stand und bot den beiden den Schutz und Komfort, den sie sich von einem Abenteuerzelt wünschen.<br><br>Mehr zu Lukas Bigler @luke.imaged | <a href=\"https://www.instagram.com/luke.imaged/\" target=\"_blank\">Instagram</a> & <a href=\"https://www.youtube.com/@lukeimaged\" target=\"_blank\">Youtube</a>."
+        "image_bild": "shopify://shop_images/Heimplanet-Cycle-of-Simplicity-Blog-2.jpg",
+        "text_headline": "Vorteile mit dem Fahrrad",
+        "textarea_text": "Einer der größten Vorteile des Radfahrens ist die Fähigkeit, Orte zu erreichen, die mit dem Auto unzugänglich oder zu weit zu Fuß sind. Schmale Pfade und abgelegene Wege eröffneten eine Welt versteckter Schätze und unberührter Landschaften."
+      }
+    },
+    "l_content_left_E3tPK7": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Schönheit im Verborgenen",
+        "textarea_text": "Das Erkunden dieser weniger befahrenen Routen brachte eine neue Perspektive auf vertraute Regionen. Wege, an denen ich unzählige Male vorbeigefahren war, offenbarten plötzlich ihren verborgenen Charme und boten einen frischen und belebenden Blick auf meine Umgebung.",
+        "image_bild": "shopify://shop_images/Heimplanet-Cycle-of-Simplicity-Blog-3.jpg"
       }
     },
     "l_gallery_67Grn9": {
@@ -197,6 +205,7 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
+    "l_content_left_E3tPK7",
     "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
     "l_step_slider_z93mQW",
