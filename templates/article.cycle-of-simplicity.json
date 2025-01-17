@@ -82,7 +82,7 @@
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
-        "text_headline": "",
+        "text_headline": "Wälder, Felder, Freiheit",
         "text_text": "Am zweiten Tag setzte ich meine Reise von der Küste, wo ich die Nacht zuvor gezeltet hatte, fort und durchquerte den Wald und die umliegenden Felder der Rostocker Heide. Die Reise führte mich durch winzige Dörfer, die wie von der Zeit vergessen wirkten. Dieser Teil der Reise war genauso bezaubernd mit einer Mischung aus dichten Wäldern und offenen Feldern. Jede Biegung brachte neue Eindrücke und Erfahrungen und verstärkte das Gefühl von Abenteuer und Entdeckung.<br><br>Diese kurze Flucht war mehr als eine Unterbrechung der Routine; sie erinnerte mich an die Freude an der Einfachheit und die Wunder, die jenseits unserer alltäglichen Pfade liegen. Die Kombination aus körperlicher Aktivität, natürlicher Schönheit und dem Nervenkitzel der Erkundung machte diese Erfahrung unvergesslich. Sie lehrte mich, dass selbst kurze Ausflüge tiefgehende und nachhaltige Erholung bieten können.<br><br>Für mich war dies ein perfekter Weg, um einen Neuanfang zu wagen, neue Perspektiven zu finden, die Welt um mich herum wiederzuentdecken und mich daran zu erinnern, dass häufig wirklich weniger mehr ist."
       }
     },
@@ -92,36 +92,29 @@
         "feature_YRDDyY": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
+            "image_bild": "shopify://shop_images/Heimplanet-Cycle-of-Simplicity-Blog-5.jpg",
+            "text_text": ""
           }
         },
         "feature_hNwaRE": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
+            "image_bild": "shopify://shop_images/Heimplanet-Cycle-of-Simplicity-Blog-6.jpg",
+            "text_text": ""
           }
         },
         "feature_4NiLPy": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
+            "image_bild": "shopify://shop_images/Heimplanet-Cycle-of-Simplicity-Blog-7.jpg",
+            "text_text": ""
           }
         },
         "feature_YVHPA6": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
+            "image_bild": "shopify://shop_images/Heimplanet-Cycle-of-Simplicity-Blog-4.jpg",
+            "text_text": ""
           }
         }
       },
@@ -129,8 +122,7 @@
         "feature_YRDDyY",
         "feature_hNwaRE",
         "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
+        "feature_YVHPA6"
       ],
       "settings": {
         "text_headline": "",
@@ -143,25 +135,25 @@
         "produkt_slider_ipBq33": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Dawn-L-Tarp-Grey-1.webp"
           }
         },
         "fact_tQ3c6w": {
           "type": "fact",
           "settings": {
-            "text_text": "Hervorragende Stabilität"
+            "text_text": "Ideal für Gruppen"
           }
         },
         "fact_MnxFyG": {
           "type": "fact",
           "settings": {
-            "text_text": "Einfache Handhabung"
+            "text_text": "5000mm Wassersäule"
           }
         },
         "fact_thTQjL": {
           "type": "fact",
           "settings": {
-            "text_text": "Lebenslange Garantie"
+            "text_text": "Schützt vor Wind und Leben"
           }
         }
       },
@@ -172,12 +164,12 @@
         "fact_thTQjL"
       ],
       "settings": {
-        "text_headline": "KIRRA 2 Personen",
+        "text_headline": "Dawn L Tarp, Grey",
         "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "",
-        "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
+        "text_button_text": "Zum Tarp",
+        "url_produkt_link": "shopify://products/dawn-l-tarp-grey",
         "checkbox_swiper_script": true
       }
     },
