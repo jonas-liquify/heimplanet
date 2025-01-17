@@ -64,68 +64,33 @@
     "l_content_right_hKLaVw": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-7.jpg",
-        "text_headline": "Tag 2 // Los geht's",
-        "textarea_text": "Der Regen begleitete die beiden die ganze Nacht hindurch. Doch das Kirra Zelt hielt stand: Obwohl es frisch war, blieb im Inneren alles angenehm trocken, und das robuste Material zeigte sich den Bedingungen mehr als gewachsen.\n<br><br>\nStatt eines Sonnenaufgangs erwartete Lukas und Nico jedoch eine mystische Szenerie: Der Himmel war von tief hängenden Wolken bedeckt, die in Kombination mit den verschneiten Gipfeln und dem blauen Gletschersee eine epische Kulisse boten. Die Stille und die Atmosphäre waren einmalig – das Kirra Zelt stand mitten in dieser rauen, wilden Landschaft und fügte sich perfekt in die Umgebung ein.\n<br><br>\nNach ein paar Fotos von der Szenerie und dem Zelt machten sich die beiden Freunde zufrieden auf den Heimweg. Das Wetter war zwar nicht ideal gewesen, aber genau das hatte den Ausflug zu einem echten Test für das Kirra gemacht. Und das Zelt hatte seine Aufgabe gemeistert: Es hielt Regen und Nässe mühelos stand und bot den beiden den Schutz und Komfort, den sie sich von einem Abenteuerzelt wünschen.<br><br>Mehr zu Lukas Bigler @luke.imaged | <a href=\"https://www.instagram.com/luke.imaged/\" target=\"_blank\">Instagram</a> & <a href=\"https://www.youtube.com/@lukeimaged\" target=\"_blank\">Youtube</a>."
+        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Mauritius-Blog.jpg",
+        "text_headline": "Eine Landschaft wie aus dem Bilderbuch",
+        "textarea_text": "Der Black River Gorges National Park ist bekannt für seine vielfältige Flora und Fauna. Während meiner Wanderungen durch den Park stieß ich auf eine erstaunliche Vielfalt an tropischen Pflanzen. Farne, Palmen und exotische Blumen säumten die Pfade, während Vögel mit buntem Gefieder durch das Blätterdach flogen. Ein besonderes Highlight war die Begegnung mit den einheimischen Affen. Diese neugierigen und verspielten Tiere beobachteten mich aufmerksam, während ich mich durch den Dschungel bewegte. Es war ein unvergessliches Erlebnis, diese Tiere in ihrem natürlichen Lebensraum zu sehen."
       }
     },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
+    "l_content_left_TJpmqa": {
+      "type": "l_content_left",
       "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
-        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
+        "text_headline": "Spektakuläre Wasserfälle und farbige Erden",
+        "textarea_text": "Ein weiterer Höhepunkt meines Trips war der Besuch der zahlreichen Wasserfälle im Park. Der Chamarel-Wasserfall, der aus einer Höhe von über 80 Metern in die Tiefe stürzt, war besonders beeindruckend. Allein das Geräusch des rauschenden Wassers in der Ferne wirkte wie eine erfrischende Abkühlung tropischen Hitze.",
+        "image_bild": "shopify://shop_images/LauritzKuntscher_Mauritius_Kirra_Mood10.jpg"
       }
     },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
-          }
-        }
-      },
-      "block_order": [
-        "feature_YRDDyY",
-        "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
-      ],
+    "l_content_right_y4YqRd": {
+      "type": "l_content_right",
       "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
+        "image_bild": "shopify://shop_images/LauritzKuntscher_Mauritius_Kirra_Mood11.jpg",
+        "text_headline": "Sieben Farben",
+        "textarea_text": "Nicht weit vom Wasserfall entfernt liegt die berühmte „Siebenfarbige Erde“ von Chamarel. Dieses geologische Wunder zeigt sich in verschiedenen Schattierungen von Rot, Braun, Violett, Grün und Blau – ein faszinierendes Schauspiel der Natur, das durch vulkanische Aktivitäten entstanden ist."
+      }
+    },
+    "l_text_logos_yHBcCX": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Fazit",
+        "text_text": "Der Black River Gorges National Park auf Mauritius ist ein wahres Paradies für Natur- und Abenteuerliebhaber. Mit dem Kirra war ich ideal ausgerüstet und konnte mich voll und ganz auf die beeindruckenden Landschaften, die Begegnungen mit der einheimischen Tierwelt und die faszinierenden Naturwunder einlassen. Mauritius hat viel mehr zu bieten als nur traumhafte Strände – es ist ein Land voller Abenteuer und Entdeckungen."
       }
     },
     "l_produkt_QbA6R8": {
@@ -192,8 +157,9 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
-    "l_gallery_67Grn9",
-    "l_step_slider_z93mQW",
+    "l_content_left_TJpmqa",
+    "l_content_right_y4YqRd",
+    "l_text_logos_yHBcCX",
     "l_produkt_QbA6R8",
     "article_next"
   ]
