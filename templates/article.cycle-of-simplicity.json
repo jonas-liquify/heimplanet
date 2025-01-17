@@ -129,6 +129,14 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_text_logos_ztTq3X": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Dan Petermann",
+        "text_text": "Erfahren mehr über Dan, seine Arbeit und was er als nächstes vor hat. Folge ihm unter @dan_petermann oder besuche danpetermann.de. Das von Dan genutzte Tarp ist das DAWN Tarp L, grau in Kombination mit unseren Mainstay Tarpstangen - auch im Set erhältlich!"
+      }
+    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
@@ -181,12 +189,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
-      }
     }
   },
   "layout": "article",
@@ -202,8 +204,8 @@
     "l_gallery_67Grn9",
     "l_text_logos_haByNk",
     "l_step_slider_z93mQW",
+    "l_text_logos_ztTq3X",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD"
+    "article_next"
   ]
 }
