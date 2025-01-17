@@ -132,7 +132,7 @@
         "produkt_slider_ipBq33": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-2022-3_1373f77f-e72b-4774-8309-478739b53bf9.jpg"
           }
         },
         "fact_tQ3c6w": {
@@ -161,12 +161,12 @@
         "fact_thTQjL"
       ],
       "settings": {
-        "text_headline": "KIRRA 2 Personen",
+        "text_headline": "KIRRA, 4-Season",
         "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
+        "url_produkt_link": "shopify://products/kirra-4-season",
         "checkbox_swiper_script": true
       }
     },
