@@ -172,12 +172,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
-      }
     }
   },
   "layout": "article",
@@ -192,7 +186,6 @@
     "l_content_right_hKLaVw",
     "l_dropdowns_Gb663R",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD"
+    "article_next"
   ]
 }
