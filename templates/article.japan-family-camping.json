@@ -90,19 +90,12 @@
           "settings": {
             "text_text": "Einfache Handhabung"
           }
-        },
-        "fact_thTQjL": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Lebenslange Garantie"
-          }
         }
       },
       "block_order": [
         "produkt_slider_ipBq33",
         "fact_tQ3c6w",
-        "fact_MnxFyG",
-        "fact_thTQjL"
+        "fact_MnxFyG"
       ],
       "settings": {
         "text_headline": "Backdoor, Classic",
@@ -111,6 +104,43 @@
         "text_hinweis": "",
         "text_button_text": "Zum Backdoor",
         "url_produkt_link": "shopify://products/backdoor-classic",
+        "checkbox_swiper_script": true
+      }
+    },
+    "l_produkt_H3t4b4": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_UbTdCB": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
+          }
+        },
+        "fact_c36YKd": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Lebenslange Garantie"
+          }
+        },
+        "fact_GkwkTh": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Perfekt für Familien"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_UbTdCB",
+        "fact_c36YKd",
+        "fact_GkwkTh"
+      ],
+      "settings": {
+        "text_headline": "Cloudbreak",
+        "textarea_beschreibung": "",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "Zum Cloudbreak",
+        "url_produkt_link": "shopify://products/cloudbreak-classic",
         "checkbox_swiper_script": true
       }
     },
@@ -135,6 +165,7 @@
     "l_content_right_hKLaVw",
     "l_content_left_PJmcaY",
     "l_produkt_QbA6R8",
+    "l_produkt_H3t4b4",
     "article_next"
   ]
 }
