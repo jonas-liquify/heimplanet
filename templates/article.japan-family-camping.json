@@ -13,20 +13,21 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "KIRRA IN DEN ALPEN",
-        "textarea_longer_text": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen.",
-        "text_button_text": "Button Text",
+        "text_headline": "Family Camping - Japan Style",
+        "textarea_longer_text": "Lerne unsere Lieblingsfamilie aus Japan kennen. Die vier nutzen unsere Zelte schon lange und wir freuen uns stets von ihnen zu hören und ihre Reisen zu begleiten.",
+        "text_button_text": "",
         "url_button_link": "",
-        "text_button_text_2": "Button Text",
+        "text_button_text_2": "",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg"
       }
     },
-    "l_video_L6k4FT": {
-      "type": "l_video",
-      "custom_css": [],
+    "l_text_logos_MNj3nC": {
+      "type": "l_text_logos",
       "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
+        "text_subline": "",
+        "text_headline": "Wie sieht für euch ein perfekter Trip aus? ",
+        "text_text": "キャンピングカーで目的地を決める事なく旅に出て、泊まりたい時に泊まって、移動したい時に移動する。そんな旅が理想です。<br><br>Wir reisen in einem Van ohne ein festes Ziel vor Augen. Wir halten an, wann immer wir möchten, und fahren weiter, wann immer es uns passt. Diese Art zu Reisen ist für uns ideal. Es ist die Freiheit, die uns am meisten gefällt – das Gefühl, dass das Abenteuer hinter jeder Ecke auf uns wartet."
       }
     },
     "article_products_V4qaqk": {
@@ -191,7 +192,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_video_L6k4FT",
+    "l_text_logos_MNj3nC",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
