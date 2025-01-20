@@ -1,10 +1,10 @@
 <div class="padding-global padding-section-small"><div class="container-large"><div class="landingpage_logo-wrapper is-left">{% for block in section.blocks %}
     {% if block.type == "logo" %}
                     <div li-block="Logo" class="landingpage_logo">
-                                    <img loading="lazy" alt="{{ block.settings.image_logo.alt }}" src="{{ block.settings.image_logo | img_url: 'master' }}" class="landingpage_img"}>
+                                    <img loading="lazy" alt="{{ block.settings.image_logo.alt }}" src="{{ block.settings.image_logo | img_url: 'master' }}" class="landingpage_img">
 
                             </div>
             {% endif %}
 {% endfor %}
 </div><div li-object="section.settings.html_richtext" class="text-rich-text text-color-white max-width-large w-richtext">{{ section.settings.html_richtext }}</div><div class="li-schema w-embed"></div>
-</div></div> {% schema %} {"tag":"div","name":"L-HTML-Text","class":"section_l-html","blocks":[{"name":"Logo","type":"logo","settings":[{"id":"image_logo","type":"image_picker","label":"Logo"}]}],"settings":[{"id":"html_richtext","type":"html","label":"Richtext","default":"Text"}],"presets":[{"name":"L-HTML-Text","category":"Liquify"}]} {% endschema %}
+</div></div> {% schema %} {"tag":"div","name":"L-HTML-Text","class":"section_l-html","blocks":[{"name":"Logo","type":"logo","settings":[{"id":"image_logo","type":"image_picker","label":"Logo"}]}],"settings":[{"id":"html_richtext","type":"html","label":"Richtext","default":"Text"}],"presets":[{"name":"L-HTML-Text","category":"Liquify","blocks":[{"type":"logo"}]}]} {% endschema %}
