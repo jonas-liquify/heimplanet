@@ -4741,10 +4741,6 @@ figcaption {
   font-size: .8rem;
 }
 
-.subline.is-job-wrapper {
-  min-width: 20%;
-}
-
 .headline_trenner {
   background-color: var(--base-color-neutral--black);
   width: 100%;
@@ -5192,7 +5188,7 @@ figcaption {
   grid-template-columns: .25fr 1fr;
   grid-auto-columns: 1fr;
   margin-top: 2.5rem;
-  display: flex;
+  display: grid;
 }
 
 .jobs_info {
@@ -6805,6 +6801,9 @@ figcaption {
     margin-left: 0;
     margin-right: 0;
   }
+  .swiper-wrapper.is-produkt-slider {
+    max-width: 90vw;
+  }
 
   .padding-bottom {
     padding-top: 0;
@@ -7407,7 +7406,6 @@ figcaption {
   }
 
   .jobs_list {
-    flex-flow: column;
     grid-template-columns: 1fr;
   }
 
@@ -8074,10 +8072,6 @@ figcaption {
   .wg-dropdown-1-link.navbar_account-link {
     padding-top: 0;
     padding-bottom: 0;
-  }
-
-  .subline.is-job-wrapper {
-    min-width: auto;
   }
 
   .headline_trenner {
