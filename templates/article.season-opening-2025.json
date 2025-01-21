@@ -65,104 +65,9 @@
     "l_content_right_hKLaVw": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/SeasonOpening_2024_LauritzKuntscher5.jpg",
-        "text_headline": "Tag 2 // Los geht's",
-        "textarea_text": "Der Regen begleitete die beiden die ganze Nacht hindurch. Doch das Kirra Zelt hielt stand: Obwohl es frisch war, blieb im Inneren alles angenehm trocken, und das robuste Material zeigte sich den Bedingungen mehr als gewachsen.\n<br><br>\nStatt eines Sonnenaufgangs erwartete Lukas und Nico jedoch eine mystische Szenerie: Der Himmel war von tief hängenden Wolken bedeckt, die in Kombination mit den verschneiten Gipfeln und dem blauen Gletschersee eine epische Kulisse boten. Die Stille und die Atmosphäre waren einmalig – das Kirra Zelt stand mitten in dieser rauen, wilden Landschaft und fügte sich perfekt in die Umgebung ein.\n<br><br>\nNach ein paar Fotos von der Szenerie und dem Zelt machten sich die beiden Freunde zufrieden auf den Heimweg. Das Wetter war zwar nicht ideal gewesen, aber genau das hatte den Ausflug zu einem echten Test für das Kirra gemacht. Und das Zelt hatte seine Aufgabe gemeistert: Es hielt Regen und Nässe mühelos stand und bot den beiden den Schutz und Komfort, den sie sich von einem Abenteuerzelt wünschen.<br><br>Mehr zu Lukas Bigler @luke.imaged | <a href=\"https://www.instagram.com/luke.imaged/\" target=\"_blank\">Instagram</a> & <a href=\"https://www.youtube.com/@lukeimaged\" target=\"_blank\">Youtube</a>."
-      }
-    },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
-          }
-        }
-      },
-      "block_order": [
-        "feature_YRDDyY",
-        "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
-      }
-    },
-    "l_produkt_QbA6R8": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_ipBq33": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
-          }
-        },
-        "fact_tQ3c6w": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Hervorragende Stabilität"
-          }
-        },
-        "fact_MnxFyG": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Einfache Handhabung"
-          }
-        },
-        "fact_thTQjL": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Lebenslange Garantie"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_ipBq33",
-        "fact_tQ3c6w",
-        "fact_MnxFyG",
-        "fact_thTQjL"
-      ],
-      "settings": {
-        "text_headline": "KIRRA 2 Personen",
-        "textarea_beschreibung": "",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
-        "checkbox_swiper_script": true
+        "image_bild": "shopify://shop_images/2025-Heimplanet-Season-Opening-24-Blog-3.jpg",
+        "text_headline": "Geschmack und Gemeinschaft",
+        "textarea_text": "Ein besonderes Highlight war wie jedes Jahr das von Camp Chef Casey zubereitete Essen. Über dem offenen Feuer gebraten, gegrillt oder gegart erwartete uns jeden Tag aufs Neue ein wahres Festmahl!"
       }
     },
     "article_next": {
@@ -172,12 +77,6 @@
         "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
-      }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
     }
   },
@@ -191,9 +90,6 @@
     "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
     "l_content_right_hKLaVw",
-    "l_step_slider_z93mQW",
-    "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD"
+    "article_next"
   ]
 }
