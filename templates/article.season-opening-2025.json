@@ -13,20 +13,13 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "KIRRA IN DEN ALPEN",
-        "textarea_longer_text": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen.",
+        "text_headline": "Season Opening 2024",
+        "textarea_longer_text": "4 Tage voller Abenteuer, gutem Essen und knisternden Lagerfeuern. Der Sommer ist da und die Saison ist eröffnet!",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg"
-      }
-    },
-    "l_video_L6k4FT": {
-      "type": "l_video",
-      "custom_css": [],
-      "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
+        "image_bild": "shopify://shop_images/2025-Heimplanet-Season-Opening-24-Blog-1.jpg"
       }
     },
     "article_products_V4qaqk": {
@@ -35,6 +28,14 @@
         "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
         "url_button_link": "",
         "text_button_text": "Mehr davon"
+      }
+    },
+    "l_text_logos_fMmjcf": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Ein Auftakt voller Erlebnisse",
+        "text_text": "Das gesamte Heimplanet Team, zusammen mit Familien und Freunden, versammelte sich erneut zum alljährlichen Season Opening, um die Camping-Saison offiziell zu eröffnen. Von Donnerstag bis Sonntag erlebten wir unvergessliche Tage voller Action, Abenteuer und kulinarischer Highlights."
       }
     },
     "l_content_right_fX4Dcz": {
@@ -67,13 +68,6 @@
         "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
         "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
       }
     },
     "l_step_slider_z93mQW": {
@@ -191,13 +185,12 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_video_L6k4FT",
     "article_products_V4qaqk",
+    "l_text_logos_fMmjcf",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_gallery_67Grn9",
-    "l_headline_mono_4Vq68U",
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next",
