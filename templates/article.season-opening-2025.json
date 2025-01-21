@@ -70,6 +70,14 @@
         "textarea_text": "Ein besonderes Highlight war wie jedes Jahr das von Camp Chef Casey zubereitete Essen. Über dem offenen Feuer gebraten, gegrillt oder gegart erwartete uns jeden Tag aufs Neue ein wahres Festmahl!"
       }
     },
+    "l_text_logos_EzDHW4": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Ein Event voller Inspiration",
+        "text_text": "Für uns ist das Season Opening weit mehr als nur ein Firmenevent. Es ist eine wertvolle Pause vom Alltag, die uns ermöglicht, uns voll und ganz auf die Natur und unsere Gemeinschaft einzulassen. Wir danken allen Teilnehmern und Teilnehmerinnen für ihre Begeisterung und ein unvergessliches Wochenende. Wir freuen uns schon auf das nächste Jahr und die kommenden Abenteuer!<br><br>Bis dahin, bleibt neugierig, bleibt abenteuerlustig #whereveryougo!<br><br>Euer Heimplanet Team"
+      }
+    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -77,14 +85,6 @@
         "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
-      }
-    },
-    "l_text_logos_EzDHW4": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "Ein Event voller Inspiration",
-        "text_text": "Für uns ist das Season Opening weit mehr als nur ein Firmenevent. Es ist eine wertvolle Pause vom Alltag, die uns ermöglicht, uns voll und ganz auf die Natur und unsere Gemeinschaft einzulassen. Wir danken allen Teilnehmern und Teilnehmerinnen für ihre Begeisterung und ein unvergessliches Wochenende. Wir freuen uns schon auf das nächste Jahr und die kommenden Abenteuer!<br><br>Bis dahin, bleibt neugierig, bleibt abenteuerlustig #whereveryougo!<br><br>Euer Heimplanet Team"
       }
     }
   },
@@ -98,7 +98,7 @@
     "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
     "l_content_right_hKLaVw",
-    "article_next",
-    "l_text_logos_EzDHW4"
+    "l_text_logos_EzDHW4",
+    "article_next"
   ]
 }
