@@ -78,6 +78,14 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "l_text_logos_EzDHW4": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "text_text": "Für uns ist das Season Opening weit mehr als nur ein Firmenevent. Es ist eine wertvolle Pause vom Alltag, die uns ermöglicht, uns voll und ganz auf die Natur und unsere Gemeinschaft einzulassen. Wir danken allen Teilnehmern und Teilnehmerinnen für ihre Begeisterung und ein unvergessliches Wochenende. Wir freuen uns schon auf das nächste Jahr und die kommenden Abenteuer!<br><br>Bis dahin, bleibt neugierig, bleibt abenteuerlustig #whereveryougo!<br><br>Euer Heimplanet Team"
+      }
     }
   },
   "layout": "article",
@@ -90,6 +98,7 @@
     "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
     "l_content_right_hKLaVw",
-    "article_next"
+    "article_next",
+    "l_text_logos_EzDHW4"
   ]
 }
