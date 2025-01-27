@@ -13,7 +13,7 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "TROLLTUNGA  ABENTEUER",
+        "text_headline": "TROLLTUNGA  ADVENTURES",
         "textarea_longer_text": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen.",
         "text_button_text": "Button Text",
         "url_button_link": "",
@@ -40,7 +40,7 @@
     "l_headline_mono_4Vq68U": {
       "type": "l_headline_mono",
       "settings": {
-        "text_subline": "asdfsadfsadfsdf",
+        "text_subline": "Ein Text von ©Trolltunga Adventures",
         "text_headline": "Erlebe Trolltunga wie nie zuvor"
       }
     },
@@ -55,9 +55,9 @@
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-12.jpg",
-        "text_headline": "MISSION REGENTEST",
-        "textarea_text": "Manchmal ist es das Abenteuer selbst, das ein Wochenende unvergesslich macht – und genau das war der Fall, als Lukas Bigler und sein Freund Nico das Heimplanet Kirra Zelt in den Urner Alpen testeten. Bei wechselhaftem Herbstwetter und einer ungewissen Prognose wollten die beiden ihre Wanderung zum Griessseeli dennoch nicht absagen. Im Gegenteil: Es war die perfekte Gelegenheit, um das Kirra Zelt in einer der eindrucksvollsten, aber auch anspruchsvollsten Umgebungen auf Herz und Nieren zu testen."
+        "image_bild": "shopify://shop_images/Heimplanet_Trolltunga.jpg",
+        "text_headline": "TROLLTUNGA = TroLL ZUNGE",
+        "textarea_text": "Trolltunga ist eines der bekanntesten Wahrzeichen Norwegens – aber mit unserer Trolltunga Classic Overnight Hike erlebst du es auf eine Weise, die nur wenige kennen. Dank unserer durchdachten Tour und der unvergleichlichen Zuverlässigkeit der Heimplanet-Zelte, die speziell für die anspruchsvollen Bedingungen des norwegischen Hochlands entwickelt wurden, dabei aber leicht und einfach aufzubauen sind."
       }
     },
     "l_content_left_LMgdf7": {
