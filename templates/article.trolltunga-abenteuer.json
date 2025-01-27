@@ -13,13 +13,13 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "KIRRA IN DEN ALPEN",
+        "text_headline": "TROLLTUNGA  ABENTEUER",
         "textarea_longer_text": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen.",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg"
+        "image_bild": "shopify://shop_images/heimplanet_mavericks_trolltunga__solfure_12.jpg"
       }
     },
     "l_video_L6k4FT": {
@@ -82,14 +82,14 @@
         "feature_YRDDyY": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
+            "image_bild": "shopify://shop_images/heimplanet_the_cave_trolltunga_solfure_3.jpg",
             "text_text": "01 ausbreiten"
           }
         },
         "feature_hNwaRE": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
+            "image_bild": "shopify://shop_images/heimplanet_trollunga__solfure_1.jpg",
             "text_text": "02 aufpumpen"
           }
         },
@@ -185,6 +185,27 @@
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
+    },
+    "l_content_image_bg_kKY8WV": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Common Material",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "text_headline_2": "Common Material",
+        "image_bild": "shopify://shop_images/heimplanet_trolltunga__kaptenhall_2.jpg"
+      }
+    },
+    "content_image_xky4FH": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Medium length heading goes here",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
     }
   },
   "layout": "article",
@@ -201,6 +222,8 @@
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next",
-    "l_html_text_L8c4CD"
+    "l_html_text_L8c4CD",
+    "l_content_image_bg_kKY8WV",
+    "content_image_xky4FH"
   ]
 }
