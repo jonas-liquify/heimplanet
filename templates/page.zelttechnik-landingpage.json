@@ -54,7 +54,7 @@
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "",
-        "text_headline": "// 01 //<br>Stabilität - Das Geodätische Prinzip"
+        "text_headline": "// 01 //<br><br>Stabilität - Das Geodätische Prinzip"
       }
     },
     "l_dropdowns_QLKfit": {
@@ -126,7 +126,7 @@
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "",
-        "text_headline": "// 02 //<br><br>Keine Einzelteile - Das Zelt als Einheit"
+        "text_headline": "// 02 //Keine Einzelteile - Das Zelt als Einheit"
       }
     },
     "l_step_slider_pXdNGz": {
