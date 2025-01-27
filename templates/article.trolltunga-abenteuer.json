@@ -22,19 +22,6 @@
         "image_bild": "shopify://shop_images/heimplanet_mavericks_trolltunga__solfure_12.jpg"
       }
     },
-    "l_hero_AAexjH": {
-      "type": "l_hero",
-      "settings": {
-        "text_subline": "Entdecke die Trolltunga Adventures!",
-        "text_headline": "SEI AUCH MIT DABEI",
-        "textarea_longer_text": "",
-        "text_button_text": "JETZT ENTDECKEN",
-        "url_button_link": "https://www.trolltungaadventures.com/",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/heimplanet_trolltunga__kaptenhall_2.jpg"
-      }
-    },
     "l_video_L6k4FT": {
       "type": "l_video",
       "custom_css": [],
@@ -63,18 +50,6 @@
       "settings": {
         "text_subline": "Mission Regentest Geglückt",
         "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
-      }
-    },
-    "content_image_xky4FH": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "Medium length heading goes here",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/heimplanet_trolltunga__kaptenhall_2.jpg"
       }
     },
     "l_content_right_fX4Dcz": {
@@ -180,6 +155,19 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_hero_AAexjH": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "Entdecke die Trolltunga Adventures!",
+        "text_headline": "SEI AUCH MIT DABEI",
+        "textarea_longer_text": "",
+        "text_button_text": "JETZT ENTDECKEN",
+        "url_button_link": "https://www.trolltungaadventures.com/",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/heimplanet_trolltunga__kaptenhall_2.jpg"
+      }
+    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -188,41 +176,22 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
-      }
-    },
-    "l_content_image_bg_kKY8WV": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Common Material",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        "text_headline_2": "Common Material",
-        "image_bild": "shopify://shop_images/heimplanet_trolltunga__kaptenhall_2.jpg"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_hero_AAexjH",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
-    "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
-    "content_image_xky4FH",
+    "l_gallery_67Grn9",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD",
-    "l_content_image_bg_kKY8WV"
+    "l_hero_AAexjH",
+    "article_next"
   ]
 }
