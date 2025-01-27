@@ -25,11 +25,11 @@
     "l_hero_AAexjH": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "TROLLTUNGA  ABENTEUER",
-        "textarea_longer_text": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen.",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
+        "text_subline": "Entdecke die Trolltunga Adventures!",
+        "text_headline": "SEI AUCH MIT DABEI",
+        "textarea_longer_text": "",
+        "text_button_text": "JETZT ENTDECKEN",
+        "url_button_link": "https://www.trolltungaadventures.com/",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/heimplanet_trolltunga__kaptenhall_2.jpg"
