@@ -12,9 +12,9 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "TROLLTUNGA  ADVENTURES",
-        "textarea_longer_text": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen.",
+        "text_subline": "Erlebe Trolltunga wie nie zuvor",
+        "text_headline": "TROLLTUNGA IN NORWEGEN",
+        "textarea_longer_text": "Ein Text von ©Trolltunga Adventures",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
@@ -35,21 +35,6 @@
         "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
         "url_button_link": "",
         "text_button_text": "Mehr davon"
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Ein Text von ©Trolltunga Adventures",
-        "text_headline": "Erlebe Trolltunga wie nie zuvor"
-      }
-    },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
-      "settings": {
-        "image_bild_1": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_6.jpg",
-        "image_bild_2": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_4.jpg",
-        "image_bild_3": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_7.jpg"
       }
     },
     "l_content_right_fX4Dcz": {
@@ -76,47 +61,12 @@
         "textarea_text": "Auf dem Abstieg kannst du Trolltunga ein zweites Mal erleben, oft in einem ganz neuen Licht – eine seltene Gelegenheit für noch mehr unvergessliche Momente.\n<br><br>\nUnsere <b>Heimplanet Zelte</b> sind ein zentraler Bestandteil dieser Tour. Nach jahrelangem Testen verschiedenster Premium-Bergzelte haben wir herausgefunden, dass ihr einzigartiges aufblasbares Design extremen Winden besser standhält als alle anderen – für höchste Sicherheit und Komfort. <br><br>Sie sind nicht nur langlebig, sondern auch unglaublich schnell auf- und abzubauen, was hilft, die empfindliche Natur zu schützen, da wir regelmäßig den Standort unseres Camps wechseln."
       }
     },
-    "l_text_logos_A7BiqH": {
-      "type": "l_text_logos",
+    "l_gallery_67Grn9": {
+      "type": "l_gallery",
       "settings": {
-        "text_subline": "Mission",
-        "text_headline": "",
-        "text_text": "Begleite uns auf ein unvergessliches Abenteuer, das Natur, Komfort und die Magie von Trolltunga auf einzigartige Weise verbindet."
-      }
-    },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/heimplanet_trollunga__solfure_1.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/heimplanet_the_cave_trolltunga_solfure_3.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        }
-      },
-      "block_order": [
-        "feature_hNwaRE",
-        "feature_YRDDyY",
-        "feature_4NiLPy"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
+        "image_bild_1": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_6.jpg",
+        "image_bild_2": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_4.jpg",
+        "image_bild_3": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_7.jpg"
       }
     },
     "l_hero_AAexjH": {
@@ -132,13 +82,12 @@
         "image_bild": "shopify://shop_images/heimplanet_trolltunga__kaptenhall_2.jpg"
       }
     },
-    "article_next": {
-      "type": "article_next",
+    "l_gallery_pUHdkN": {
+      "type": "l_gallery",
       "settings": {
-        "text_headline": "Weitere Beiträge",
-        "url_button_link": "shopify://blogs/abenteuer",
-        "text_button_text": "Mehr davon",
-        "text_blog_handle": "abenteuer"
+        "image_bild_1": "shopify://shop_images/heimplanet_mavericks_trolltunga__Torhveem7.jpg",
+        "image_bild_2": "shopify://shop_images/Heimplanet_backdoor_trolltunga__aarzand_2jpg.jpg",
+        "image_bild_3": "shopify://shop_images/heimplanet_zelte_trolltunga_solfure_15.jpg"
       }
     },
     "collection_hero_YC7jFf": {
@@ -151,6 +100,38 @@
         "text_button_text": "Jetzt entdecken",
         "image_bild": "shopify://shop_images/heimplanet_mavericks_trolltunga__Torhveem7.jpg"
       }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "shopify://blogs/abenteuer",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
+      }
+    },
+    "store_jU6GBY": {
+      "type": "store",
+      "blocks": {
+        "adresse_ndLa8H": {
+          "type": "adresse",
+          "settings": {
+            "image_icon": "shopify://shop_images/Cave_IDG_Technik_Landing_50aa9a39-14e2-4c75-8301-c26e4e87affd.png",
+            "text_adresse": "ENTDECKE",
+            "text_subline": "This is some text inside of a div block."
+          }
+        }
+      },
+      "block_order": [
+        "adresse_ndLa8H"
+      ],
+      "settings": {
+        "text_headline": "UNSER HEIMPLANET EQUIPMENT",
+        "text_button_text_1": "Mehr erfahren",
+        "url_button_link_1": "",
+        "text_button_text_2": "Storefinder",
+        "url_button_link_2": ""
+      }
     }
   },
   "layout": "article",
@@ -159,15 +140,14 @@
     "l_hero_ijQ63U",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
-    "l_headline_mono_4Vq68U",
-    "l_gallery_67Grn9",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
-    "l_text_logos_A7BiqH",
-    "l_step_slider_z93mQW",
+    "l_gallery_67Grn9",
     "l_hero_AAexjH",
+    "l_gallery_pUHdkN",
+    "collection_hero_YC7jFf",
     "article_next",
-    "collection_hero_YC7jFf"
+    "store_jU6GBY"
   ]
 }
