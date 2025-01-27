@@ -37,19 +37,19 @@
         "text_button_text": "Mehr davon"
       }
     },
+    "l_headline_mono_4Vq68U": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "asdfsadfsadfsdf",
+        "text_headline": "Erlebe Trolltunga wie nie zuvor"
+      }
+    },
     "l_gallery_67Grn9": {
       "type": "l_gallery",
       "settings": {
         "image_bild_1": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_6.jpg",
         "image_bild_2": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_4.jpg",
         "image_bild_3": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_7.jpg"
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
       }
     },
     "l_content_right_fX4Dcz": {
