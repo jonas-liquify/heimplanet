@@ -120,6 +120,14 @@
         "textarea_text": ""
       }
     },
+    "l_text_logos_34pLXT": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Die Abenteuer von Cavalleria",
+        "text_text": "Cavalleria bietet sorgfältig kuratierte Erlebnisse, die darauf abzielen, eine ablenkungsfreie Umgebung zu schaffen und es den Teilnehmern zu ermöglichen, sich wieder mit sich selbst, anderen und der Natur zu verbinden. Vom Moment an, in dem die Teilnehmer auf eine ihrer Enduro-Motorradfahrten aufbrechen, werden sie von uns aus ihrer Komfortzone gelockt, brechen aus der Routine aus und genießen unvergleichlichen Spaß und Aufregung. Die Reise wird begleitet von kulinarischen Köstlichkeiten, Gourmet-Lagerfeuer-Dinners und erstklassiger Fotografie und Filmkunst, um die Essenz jedes Abenteuers einzufangen. Während es bei Cavalleria vor allem um Spaß geht, achtet das Team auch darauf lokale Gemeinden entlang des Weges zu unterstützen und stellt sicher, dass die unberührten Umgebungen, die sie erkunden, erhalten bleiben.<br><br>Die Abenteuer von Cavalleria erstrecken sich über 4, 5 oder 6 Tage, wobei jede Reise eine einzigartige Mischung aus Aufregung, Kameradschaft und Selbstentdeckung bietet. Mit abewechsulungsreichen Landschaften ist für jeden abenteuerlustigen Geist etwas dabei.<br><br>Cavalleria möchte so vielen Menschen wie möglich die Teilnahme an ihren Reisen ermöglichen. Deshalb bieten sie auch Trainings-Bootcamps an. Die Bootcamps zielen auf dasselbe ganzheitliche Erlebnis wie die Expeditionen, konzentrieren sich jedoch auf das Lernen. Gewinne Vertrauen in deine eigenen Fähigkeiten und lerne von den besten Enduro-Fahrern der Welt. Dies ist dein Tor zur Offroad-Welt.<br><br>Wenn du bereit bist, die modernen Annehmlichkeiten gegen den Nervenkitzel des Abenteuers und die Schönheit der Natur einzutauschen, dann schließe dich uns auf einer Cavalleria-Expedition oder einem Trainings-Bootcamp an."
+      }
+    },
     "l_html_text_JiPJGd": {
       "type": "l_html_text",
       "settings": {
@@ -191,6 +199,7 @@
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_dropdowns_Gb663R",
+    "l_text_logos_34pLXT",
     "l_html_text_JiPJGd",
     "l_produkt_QbA6R8",
     "article_next"
