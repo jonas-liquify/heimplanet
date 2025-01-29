@@ -12,6 +12,17 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_LP9zUr": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify://shop_images/heimplanet_mavericks_trolltunga__solfure_12.jpg",
+            "text_headline": "HEIMPLANET x TROLLTUNGA",
+            "richtext_text": "<p><strong>ABENTEUER</strong>: <br/>Erlebe Trolltunga wie nie zuvor - Ein Text von ©Trolltunga Adventures. <strong>Jetzt im Magazin!</strong></p>",
+            "url_button_link": "shopify://blogs/abenteuer/trolltunga-adventures",
+            "text_button_text": "Mehr erfahren"
+          }
+        },
         "hero_slider_MWnnBG": {
           "type": "hero-slider",
           "settings": {
@@ -83,28 +94,17 @@
             "url_button_link": "shopify://collections/hpt-selected",
             "text_button_text": "Jetzt entdecken"
           }
-        },
-        "hero_slider_LP9zUr": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/heimplanet_mavericks_trolltunga__solfure_12.jpg",
-            "text_headline": "HEIMPLANET x TROLLTUNGA ADVENTURES",
-            "richtext_text": "<p><strong>MAGAZIN</strong>: <br/>jetzt die neuen CARRY und CAMPING Sets. Für Dich zusammengestellt für mehr Tragekomfort im Alltag und unvergessliche Camping Abenteuer.</p>",
-            "url_button_link": "shopify://blogs/abenteuer/trolltunga-adventures",
-            "text_button_text": "Mehr erfahren"
-          }
         }
       },
       "block_order": [
+        "hero_slider_LP9zUr",
         "hero_slider_MWnnBG",
         "hero_slider_6ztQE7",
         "hero_slider_DQWqP4",
         "hero_slider_zBjUtr",
         "hero_slider_FDAzFx",
         "hero_slider_L3fJzp",
-        "hero_slider_icPbWh",
-        "hero_slider_LP9zUr"
+        "hero_slider_icPbWh"
       ],
       "settings": {
         "checkbox_swiper_script": true
