@@ -88,9 +88,9 @@
           "type": "hero-slider",
           "disabled": true,
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Sets.jpg",
-            "text_headline": "HEIMPLANET SETS",
-            "richtext_text": "<p>Entdecke jetzt die neuen CARRY und CAMPING Sets. Für Dich zusammengestellt für mehr Tragekomfort im Alltag und unvergessliche Camping Abenteuer.</p>",
+            "image_bild": "shopify://shop_images/heimplanet_mavericks_trolltunga__solfure_12.jpg",
+            "text_headline": "HEIMPLANET x TROLLTUNGA ADVENTURES",
+            "richtext_text": "<p><strong>MAGAZIN</strong>: <br/>jetzt die neuen CARRY und CAMPING Sets. Für Dich zusammengestellt für mehr Tragekomfort im Alltag und unvergessliche Camping Abenteuer.</p>",
             "url_button_link": "shopify://collections/camping-sets",
             "text_button_text": "Jetzt entdecken"
           }
