@@ -5,9 +5,9 @@
 {{ block.settings.text_headline }}
 </h2>
 </div><div class="text-size-regular text-color-white max-width-small"> {{ block.settings.textarea_text }} </div>
-{% if section.settings.url_button_link %}    <div li-if="section.settings.url_button_link" class="button-group">
+{% if block.settings.url_button_link %}    <div li-if="block.settings.url_button_link" class="button-group">
     <a href="{{ block.settings.url_button_link }}" class="button is-white w-button"> {{ block.settings.text_button_text }} </a>
-{% if section.settings.url_button_link_2 %}    <div li-if="section.settings.url_button_link_2">
+{% if block.settings.url_button_link_2 %}    <div li-if="block.settings.url_button_link_2">
     <a href="{{ block.settings.url_button_link_2 }}" class="button is-secondary is-white w-button"> {{ block.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}    </div>
