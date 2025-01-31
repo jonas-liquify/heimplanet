@@ -1,5 +1,5 @@
 <script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
-<div li-element="product-variant-container" class="w-layout-grid product-header_layout" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" data-productid="{{ product.id }}" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)"><div id="w-node-_01780521-9e7b-618b-5edd-08ed6205ce99-c68d81de" class="product-header_images"><div id="w-node-dde72f15-2dd1-3c3f-ef72-b299bc1979d2-c68d81de" class="swiper-container is-product-gallery"><div class="swiper is-product-gallery w-dyn-list"><div id="my-gallery" role="list" class="swiper-wrapper is-product-gallery w-dyn-items">{% for image in product.images %}    <div li-for="image in product.images" role="listitem" class="swiper-slide is-product-gallery w-dyn-item">
+<div li-element="product-variant-container" class="w-layout-grid product-header_layout" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)"><div id="w-node-_01780521-9e7b-618b-5edd-08ed6205ce99-c68d81de" class="product-header_images"><div id="w-node-dde72f15-2dd1-3c3f-ef72-b299bc1979d2-c68d81de" class="swiper-container is-product-gallery"><div class="swiper is-product-gallery w-dyn-list"><div id="my-gallery" role="list" class="swiper-wrapper is-product-gallery w-dyn-items">{% for image in product.images %}    <div li-for="image in product.images" role="listitem" class="swiper-slide is-product-gallery w-dyn-item">
                                     <a li-object:href="image.src | product_img_url: 'original'" li-object:data-pswp-width="image.height" li-object:data-pswp-height="image.width" href="{{ image.src | product_img_url: 'original' }}" class="product_gallery-lightbox w-inline-block" data-pswp-width="{{ image.height }}" data-pswp-height="{{ image.width }}"><img loading="lazy" li-object:src="image.src | product_img_url: 'original'" li-object:alt="image.alt" src="{{ image.src | product_img_url: 'original' }}" alt="{{ image.alt }}" class="product_gallery-image">
 </a>
                         </div>
@@ -52,7 +52,7 @@
 {% endif %}<div class="spacer-xsmall"></div><div class="product-header_ad-to-cart-wrapper"><template x-if="selected_or_first_available_variant.available == true">
             <div li-js-if="selected_or_first_available_variant.available == true" class="product-header_quantity">
         <input class="form-input is-quantity w-input" maxlength="256" name="quantity" li-element="add-to-cart-quantity" data-name="quantity" placeholder="1" type="number" id="quantity" required="" x-model="quantity">
-<a li-element="add-to-cart" href="#" class="button max-width-full w-button" @click="addToCart(true)" :disabled="!addToCartButton">In den Warenkorb</a>        </div>
+<a li-element="add-to-cart" href="#" class="button max-width-full w-button" @click="addToCart(event, true)" :disabled="!addToCartButton">In den Warenkorb</a>        </div>
     </template>
 <template x-if="selected_or_first_available_variant.available != true">
             <div li-js-if="selected_or_first_available_variant.available != true">
@@ -70,7 +70,7 @@
     <div li-object=" product.compare_at_price | money" class="upsell_price-tag text-style-strikethrough">{{  product.compare_at_price | money }}</div>    </div>
 {% endif %}<div li-object="product.price | money" class="upsell_price-tag">{{ product.price | money }}</div></div></a>{% if product.available %}    <div li-if="product.available">
     <script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
-<a li-element="direct-add-to-cart" href="#" class="button is-small w-button" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" @click="addToCart(true)">Hinzufügen</a>    </div>
+<a li-element="direct-add-to-cart" href="#" class="button is-small w-button" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" @click="addToCart(event, true)">Hinzufügen</a>    </div>
 {% endif %}{% unless product.available %}    <a li-unless="product.available" href="#" class="button is-small pointer-events-off w-button">
     Nicht verfügbar    </a>
 {% endunless %}</div>
