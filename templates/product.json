@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "product_hero": {
@@ -26,13 +26,11 @@
     },
     "product_dots": {
       "type": "product_dots",
-      "settings": {
-      }
+      "settings": {}
     },
     "product_video": {
       "type": "product_video",
-      "settings": {
-      }
+      "settings": {}
     },
     "product_videos": {
       "type": "product_videos",
@@ -72,8 +70,7 @@
     },
     "product_images": {
       "type": "product_images",
-      "settings": {
-      }
+      "settings": {}
     },
     "product_recommended": {
       "type": "product_recommended",
@@ -90,7 +87,7 @@
         "info_BtgFdF": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/Frame_6.png",
+            "image_icon": "shopify://shop_images/Frame_6.png",
             "text_headline": "Weltweiter Versand",
             "textarea_text": "Wo auch immer Du bist - wir versenden Dein Paket an Deinen Wunschort, überall auf der Welt!"
           }
@@ -98,7 +95,7 @@
         "info_aHqxLx": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/Frame-7.svg",
+            "image_icon": "shopify://shop_images/Frame-7.svg",
             "text_headline": "Lebenslange Garantie",
             "textarea_text": "Wir verwenden nur langlebige Materialien, die so verarbeitet sind, dass sie auch in den schwierigsten Umgebungen eine dauerhafte Leistung gewährleisten."
           }
@@ -106,7 +103,7 @@
         "info_fL7raq": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify:\/\/shop_images\/Frame-8.svg",
+            "image_icon": "shopify://shop_images/Frame-8.svg",
             "text_headline": "Re:Store",
             "textarea_text": "Unser Ziel ist es, den Lebenszyklus unserer Produkte so weit wie möglich zu verlängern. Schick uns einfach Dein gebrauchtes HEIMPLANET Produkt & im Gegenzug erhältst Du bis zu 20% als Gutschein zurück."
           }
@@ -120,6 +117,29 @@
       "settings": {
         "text_headline": "Viel mehr als nur Details. Unsere Benefits:"
       }
+    },
+    "17385839761ba9dc16": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_D96nHk": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "@heimplanet",
+            "title_color": "",
+            "alignment": "left",
+            "margin_top": 50,
+            "margin_bottom": 30,
+            "margin_sides": 130,
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_D96nHk"
+      ],
+      "settings": {}
     }
   },
   "layout": "product",
@@ -134,6 +154,7 @@
     "product_faq",
     "product_images",
     "product_recommended",
-    "infos"
+    "infos",
+    "17385839761ba9dc16"
   ]
 }
