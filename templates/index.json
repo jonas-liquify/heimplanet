@@ -437,11 +437,11 @@
           "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
-            "title_color": "",
-            "alignment": "center",
+            "title_color": "#000000",
+            "alignment": "left",
             "margin_top": 50,
             "margin_bottom": 50,
-            "margin_sides": 30,
+            "margin_sides": 130,
             "background_color": "",
             "feed_id": "",
             "html_area": ""
@@ -451,7 +451,6 @@
       "block_order": [
         "instafeed_app_block_nxX37k"
       ],
-      "disabled": true,
       "settings": {}
     }
   },
