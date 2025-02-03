@@ -35,6 +35,7 @@
         },
         "hero_slider_LP9zUr": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/heimplanet_mavericks_trolltunga__solfure_12.jpg",
             "text_headline": "HEIMPLANET x TROLLTUNGA",
