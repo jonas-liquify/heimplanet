@@ -26,11 +26,11 @@
           "type": "hero-slider",
           "disabled": true,
           "settings": {
-            "image_bild": "shopify://shop_images/Christian_McLeod_-_Iceland_9_1.jpg",
-            "text_headline": "AUSBLICK 2025",
-            "richtext_text": "<p><strong>PROJEKTE</strong>: Wir nehmen euch mit auf die Reise und besprechen was die erste Hälfte des neuen Jahres für dich bereithält.<br/><strong>New year - new gear!</strong></p>",
-            "url_button_link": "shopify://blogs/projekte/ausblick-2025",
-            "text_button_text": "JETZT ENTDECKEN"
+            "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-015.jpg",
+            "text_headline": "CLOUDBREAK IST VORRÜBER",
+            "richtext_text": "<p><strong>PROJEKTE</strong>: CLOUDBREAK V2<br/>Ein neues Kapitel beginnt. <br/><strong>New year - new gear!</strong></p>",
+            "url_button_link": "shopify://blogs/projekte/cloudbreak-v2-ein-neues-kapitel-beginnt",
+            "text_button_text": "MEHR ERFAHREN"
           }
         },
         "hero_slider_LP9zUr": {
