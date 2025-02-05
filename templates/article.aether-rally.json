@@ -122,10 +122,14 @@
         "text_blog_handle": "abenteuer"
       }
     },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
+    "l_content_image_bg_yBciQF": {
+      "type": "l_content_image_bg",
       "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "<p><span data-mce-fragment=\"1\"><br>Du hast die Rally verpasst? Keine Sorge, nächstes Jahr gibt es wieder eine Chance. In der Zwischenzeit, warum schaffst du dir nicht dein eigenes Abenteuer? Entdecken jetzt das HEIMPLANET Zelt-Sortiment und mache die Natur zu deinem Zuhause #whereveryougo. <br><br>Jetzt <strong><span style=\"text-decoration: underline;\"><a href=\"https://heimplanet.com/collections/zelte\">Zelte entdecken</a></span></strong>.<br></span><br>Wenn du mehr über unseren Partner Aether erfahren willst, <a href=\"https://aetherapparel.com/\" target=\"_blank\"><span style=\"text-decoration: underline;\">klicke hier</span>.</a> <br><br></p>",
+        "text_headline_2": "",
+        "image_bild": "shopify://shop_images/M10R2275.jpg"
       }
     }
   },
@@ -141,6 +145,6 @@
     "l_content_right_hKLaVw",
     "l_produkt_QbA6R8",
     "article_next",
-    "l_html_text_L8c4CD"
+    "l_content_image_bg_yBciQF"
   ]
 }
