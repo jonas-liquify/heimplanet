@@ -37,6 +37,14 @@
         "text_button_text": "Mehr davon"
       }
     },
+    "l_gallery_67Grn9": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_6.jpg",
+        "image_bild_2": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_4.jpg",
+        "image_bild_3": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_7.jpg"
+      }
+    },
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
@@ -61,12 +69,28 @@
         "textarea_text": "Auf dem Abstieg kannst du Trolltunga ein zweites Mal erleben, oft in einem ganz neuen Licht – eine seltene Gelegenheit für noch mehr unvergessliche Momente.\n<br><br>\nUnsere <b>Heimplanet Zelte</b> sind ein zentraler Bestandteil dieser Tour. Nach jahrelangem Testen verschiedenster Premium-Bergzelte haben wir herausgefunden, dass ihr einzigartiges aufblasbares Design extremen Winden besser standhält als alle anderen – für höchste Sicherheit und Komfort. <br><br>Sie sind nicht nur langlebig, sondern auch unglaublich schnell auf- und abzubauen, was hilft, die empfindliche Natur zu schützen, da wir regelmäßig den Standort unseres Camps wechseln."
       }
     },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
+    "store_jU6GBY": {
+      "type": "store",
+      "blocks": {
+        "adresse_ndLa8H": {
+          "type": "adresse",
+          "settings": {
+            "image_icon": "shopify://shop_images/IDG_TheCave.png",
+            "text_adresse": "HEIMPLANET ZELTE",
+            "text_subline": "Extrem robust, Einfache Handhabung, Lebenslange Garantie"
+          }
+        }
+      },
+      "block_order": [
+        "adresse_ndLa8H"
+      ],
       "settings": {
-        "image_bild_1": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_6.jpg",
-        "image_bild_2": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_4.jpg",
-        "image_bild_3": "shopify://shop_images/heimplanet_mavericks_trolltunga__kaptenhall_7.jpg"
+        "text_headline": "Ausrollen. aufpumpen. willkommen zuhause.",
+        "text_button_text_1": "JETZT ENTDECKEN",
+        "url_button_link_1": "https://heimplanet.com/collections/zelte",
+        "text_button_text_2": "",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/heimplanet_the_cave_trolltunga_solfure_3.jpg"
       }
     },
     "l_hero_AAexjH": {
@@ -88,30 +112,6 @@
         "image_bild_1": "shopify://shop_images/heimplanet_mavericks_trolltunga__Torhveem7.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet_backdoor_trolltunga__aarzand_2jpg.jpg",
         "image_bild_3": "shopify://shop_images/heimplanet_zelte_trolltunga_solfure_15.jpg"
-      }
-    },
-    "store_jU6GBY": {
-      "type": "store",
-      "blocks": {
-        "adresse_ndLa8H": {
-          "type": "adresse",
-          "settings": {
-            "image_icon": "shopify://shop_images/IDG_TheCave.png",
-            "text_adresse": "HEIMPLANET ZELTE",
-            "text_subline": "Extrem robust, einfache Handhabung, Lebenslange Garantie"
-          }
-        }
-      },
-      "block_order": [
-        "adresse_ndLa8H"
-      ],
-      "settings": {
-        "text_headline": "Ausrollen. aufpumpen. willkommen zuhause.",
-        "text_button_text_1": "JETZT ENTDECKEN",
-        "url_button_link_1": "https://heimplanet.com/collections/zelte",
-        "text_button_text_2": "",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/heimplanet_the_cave_trolltunga_solfure_3.jpg"
       }
     },
     "article_next": {
