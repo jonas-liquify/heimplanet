@@ -49,7 +49,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-015.jpg",
         "text_headline": "CLOUDBREAK HAT ALLES VERÄNDERT",
-        "textarea_text": "Manche Orte sind mehr als nur ein Zwischenstopp – sie werden Teil der Reise. Cloudbreak wurde genau dafür geschaffen. Benannt nach der legendären Welle auf Fidschi, steht der Name für Kraft und unendliche Möglichkeiten – ein zuverlässiger Schutz für alle, die dem Abenteuer überallhin folgen.\n<br><br>\n\nOb auf abgelegenen Overlanding-Trips, beim Familien-Camping oder auf Tour mit Freunden – Cloudbreak wurde zu einem treuen Begleiter für alle, die Freiheit suchen, ohne Sicherheit oder Komfort vernachlässigen zu müssen. Ein echtes Zuhause unterwegs, das Schutz, Raum und Flexibilität perfekt verbindet.\n<br><br>\nMehr als nur ein Zelt, hat Cloudbreak das Camping-Erlebnis für Gruppen und Familien neu definiert. Es hat neue Wege eröffnet und denen, die gemeinsam die Welt erkunden, die perfekte Balance aus Sicherheit, Komfort und Freiheit ermöglicht."
+        "textarea_text": "Mehr als nur ein Zelt, hat Cloudbreak das Camping-Erlebnis für Gruppen und Familien neu definiert. Es hat neue Wege eröffnet und denen, die gemeinsam die Welt erkunden, die perfekte Balance aus Sicherheit, Komfort und Freiheit ermöglicht.\n<br><br>\nManche Orte sind mehr als nur ein Zwischenstopp – sie werden Teil der Reise. Cloudbreak wurde genau dafür geschaffen. Benannt nach der legendären Welle auf Fidschi, steht der Name für Kraft und unendliche Möglichkeiten – ein zuverlässiger Schutz für alle, die dem Abenteuer überallhin folgen.\n<br><br>\n\nOb auf abgelegenen Overlanding-Trips, beim Familien-Camping oder auf Tour mit Freunden – Cloudbreak wurde zu einem treuen Begleiter für alle, die Freiheit suchen, ohne Sicherheit oder Komfort vernachlässigen zu müssen. Ein echtes Zuhause unterwegs, das Schutz, Raum und Flexibilität perfekt verbindet.\n<br><br>"
       }
     },
     "l_content_left_LMgdf7": {
@@ -65,7 +65,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V12.jpg",
         "text_headline": "Das nächste Kapitel - Cloudbreak v2",
-        "textarea_text": "Das Cloudbreak ist ideal für Gruppen und Familien. Für Overland-Camper und Outdoor-Enthusiasten, die einen sicheren, zuverlässigen Unterschlupf suchen, der Komfort und Bewegungsfreiheit bietet. Anders als viele aktuelle Optionen, bei denen man zwischen Sicherheit und Flexibilität wählen muss, bietet das Cloudbreak beides. Viele andere Zelte dieser Größe möchte man liebsten eine ganze Woche nicht bewegen, wenn es denn einmal gelungen ist sie zu errichten. <br><br>Cloudbreak ist anders. Der schnelle Auf- und Abbau garantiert maximale Bewegungsfreiheit. Hat man sich dann für einen Ort entschieden bietet die Geodätische Struktur und die doppellagige Rahmenkonstruktion den nötigen Schutz vor den Elementen. Somit sind auch Road Trips möglich bei denen man jede Nacht unter einem anderen Sternenhimmel einschlafen kann. \n<br><br>\n<br><br>"
+        "textarea_text": "Von Overlanding-Expeditionen über Familienausflüge bis hin zu Gruppenreisen in die Wildnis. Mit Platz für vier Personen, einem separaten Wohnbereich, großen Eingängen für eine nahtlose Verbindung zur Natur und einer durchdachten Belüftung setzte es neue Maßstäbe für Zelte dieser Größe.\n<br><br>\n<br><br>"
       }
     },
     "l_gallery_67Grn9": {
@@ -150,51 +150,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "content_image_CTELya": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "Medium length heading goes here",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button"
-      }
-    },
-    "infos_LYJ8Ey": {
-      "type": "infos",
-      "blocks": {
-        "info_PgXjdT": {
-          "type": "info",
-          "settings": {
-            "text_headline": "Heading",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
-          }
-        },
-        "info_epxmpx": {
-          "type": "info",
-          "settings": {
-            "text_headline": "Heading",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
-          }
-        },
-        "info_LiLWbz": {
-          "type": "info",
-          "settings": {
-            "text_headline": "Heading",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
-          }
-        }
-      },
-      "block_order": [
-        "info_PgXjdT",
-        "info_epxmpx",
-        "info_LiLWbz"
-      ],
-      "settings": {
-        "text_headline": "Die Details sind mehr als die Details. Unsere Benefits:"
-      }
     }
   },
   "layout": "article",
@@ -212,8 +167,6 @@
     "l_step_slider_z93mQW",
     "l_reveal_slider_4QfCiY",
     "l_hero_MXNhGL",
-    "article_next",
-    "content_image_CTELya",
-    "infos_LYJ8Ey"
+    "article_next"
   ]
 }
