@@ -1,0 +1,199 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "l_hero_ijQ63U": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Cloudbreak mars mission",
+        "textarea_longer_text": "Mache jeden Ort zu deinem Heimplanet - Outdoor Fotograf & Videograf Dani Guindo zeigt uns wie.",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood9.jpg"
+      }
+    },
+    "l_video_L6k4FT": {
+      "type": "l_video",
+      "custom_css": [],
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/r5teak8n_xQ?si=-w_97ge2dOMsl53Z"
+      }
+    },
+    "article_products_V4qaqk": {
+      "type": "article_products",
+      "settings": {
+        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
+    },
+    "l_content_right_fX4Dcz": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V113.jpg",
+        "text_headline": "Interplanetares reisen",
+        "textarea_text": "Es fühlt sich an, als wäre die Landung geglückt. Der Rover steht still, der rote Staub liegt schwer auf den Reifen. Der Wind wirbelt Sand über die endlose Ebene, wo schroffe Felsen aus der kargen Landschaft ragen. Inmitten dieser marsähnlichen Kulisse, die wir auf Island gefunden haben, schlagen wir unser Basislager auf. Unser Basecamp für die nächsten Tage heißt Cloudbreak. \n<br><br>\nMit seinen klaren, modernen Linien und einer Struktur, die für extreme Umgebungen ausgelegt ist, passt das Cloudbreak perfekt in die isländische Wildnis. \n\nDas Zelt war schnell errichtet. Einmal verankert, ist es durch nichts mehr zu bewegen."
+      }
+    },
+    "l_content_left_LMgdf7": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Unser basislager",
+        "textarea_text": "Island, mit seiner surrealen Vulkanlandschaft, fühlt sich tatsächlich wie eine fremde Welt an. Die schwarzen Sandwüsten, die tiefen Canyons und die majestätischen Vulkane erinnern an die Oberfläche des Mars.  Mit dem ersten Schritt ins Freie fühlten wir uns wie Entdecker einer neuen Welt – bereit, jeden noch so rauen Winkel zu erkunden.\n<br><br>\nIn Island, schienen die Elemente in einem endlosen Kampf zu stehen. Der Wind peitschte über das Land, die Temperaturen sanken schnell, aber das Cloudbreak bot uns Schutz, wie man ihn sich in der kalten Einsamkeit eines fremden Planeten nur wünschen kann. Die dicke, strapazierfähige Außenhülle und die separate Schlafkabine sorgten für einen warmen und trockenen Zufluchtsort in dem wir uns frei bewegen konnte – egal, wie die Bedingungen draußen tobten.",
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V17.jpg"
+      }
+    },
+    "l_content_right_hKLaVw": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V12.jpg",
+        "text_headline": "Sicherheit oder flexibilität?",
+        "textarea_text": "Das Cloudbreak ist ideal für Gruppen und Familien. Für Overland-Camper und Outdoor-Enthusiasten, die einen sicheren, zuverlässigen Unterschlupf suchen, der Komfort und Bewegungsfreiheit bietet. Anders als viele aktuelle Optionen, bei denen man zwischen Sicherheit und Flexibilität wählen muss, bietet das Cloudbreak beides. Viele andere Zelte dieser Größe möchte man liebsten eine ganze Woche nicht bewegen, wenn es denn einmal gelungen ist sie zu errichten. <br><br>Cloudbreak ist anders. Der schnelle Auf- und Abbau garantiert maximale Bewegungsfreiheit. Hat man sich dann für einen Ort entschieden bietet die Geodätische Struktur und die doppellagige Rahmenkonstruktion den nötigen Schutz vor den Elementen. Somit sind auch Road Trips möglich bei denen man jede Nacht unter einem anderen Sternenhimmel einschlafen kann. \n<br><br>\n<br><br>"
+      }
+    },
+    "l_content_left_4bPDgi": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Auf zu neuen Horizonten",
+        "textarea_text": "Unser Shooting auf Island – oder unserer Mars-Mission, wie wir es scherzhaft nannten – war mehr als nur ein Abenteuer. Es war eine Erkundung des Möglichen. Das Cloudbreak von Heimplanet war unser Partner auf dieser Reise, unser treuer Begleiter, der uns durch unbekanntes Terrain führte und dabei für Sicherheit und Komfort sorgte.\n\nFür alle, die den Ruf des Abenteuers in sich spüren, die immer weiter in die Wildnis vordringen wollen – sei es auf einem anderen Planeten oder hier auf der Erde – ist das Cloudbreak das ultimative Zelt. Es steht nicht nur für Schutz und Widerstandsfähigkeit, sondern auch für den Drang, Neues zu entdecken und die eigenen Grenzen zu überwinden.\n<br><br>\n\nVertrauen in das eigene Equipment ist entscheidend. Es gibt dir das nötige Selbstbewusstsein jede Reise anzutreten und dich auf das ungewisse einzulassen. Egal, ob du in die endlosen Weiten Islands oder ein Abenteuer direkt vor der Haustür antrittst – das Cloudbreak wird dich begleiten, wohin auch immer dein nächstes Abenteuer dich führen mag.\n<br><br>\nMehr zu Dani Guindo  @hollow.sun | <a href=\"https://www.instagram.com/hollow.sun/\" target=\"_blank\">Instagram</a> & <a href=\"https://daniguindo.com/\" target=\"_blank\">Website</a>.",
+        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood10.jpg"
+      }
+    },
+    "l_gallery_67Grn9": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood8.jpg",
+        "image_bild_2": "shopify://shop_images/Dani-Guindo.png",
+        "image_bild_3": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V15.jpg"
+      }
+    },
+    "l_headline_mono_4Vq68U": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Cloudbreak - der Mittelpunkt deiner Abenteuer",
+        "text_headline": "Mache jeden Ort zu deinem heimplanet."
+      }
+    },
+    "l_step_slider_z93mQW": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_YRDDyY": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood1.jpg",
+            "text_text": "make yourself"
+          }
+        },
+        "feature_hNwaRE": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V110.jpg",
+            "text_text": "at home"
+          }
+        },
+        "feature_4NiLPy": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood4.jpg",
+            "text_text": "#whereveryougo"
+          }
+        }
+      },
+      "block_order": [
+        "feature_YRDDyY",
+        "feature_hNwaRE",
+        "feature_4NiLPy"
+      ],
+      "settings": {
+        "text_headline": "",
+        "checkbox_swiper_script": true
+      }
+    },
+    "l_produkt_QbA6R8": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_ipBq33": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
+          }
+        },
+        "fact_tQ3c6w": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Hervorragende Stabilität"
+          }
+        },
+        "fact_MnxFyG": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Separate Schlafkabine"
+          }
+        },
+        "fact_thTQjL": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Lebenslange Garantie"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_ipBq33",
+        "fact_tQ3c6w",
+        "fact_MnxFyG",
+        "fact_thTQjL"
+      ],
+      "settings": {
+        "text_headline": "CLOUDBREAK 4 PERSONEN",
+        "textarea_beschreibung": "Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden.",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "ZUM CLOUDBREAK",
+        "url_produkt_link": "shopify://products/cloudbreak-classic",
+        "checkbox_swiper_script": true
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "shopify://blogs/abenteuer",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
+      }
+    },
+    "l_html_text_L8c4CD": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
+      }
+    }
+  },
+  "layout": "article",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_hero_ijQ63U",
+    "l_video_L6k4FT",
+    "article_products_V4qaqk",
+    "l_content_right_fX4Dcz",
+    "l_content_left_LMgdf7",
+    "l_content_right_hKLaVw",
+    "l_content_left_4bPDgi",
+    "l_gallery_67Grn9",
+    "l_headline_mono_4Vq68U",
+    "l_step_slider_z93mQW",
+    "l_produkt_QbA6R8",
+    "article_next",
+    "l_html_text_L8c4CD"
+  ]
+}
