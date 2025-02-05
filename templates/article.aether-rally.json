@@ -27,7 +27,7 @@
       "settings": {
         "text_subline": "",
         "text_headline": "Aufbruch ins Unbekannte",
-        "text_text": "Vom 26. bis zum 28. April versammelte sich die Community zu drei aufregenden Tagen voller Abenteuer, Kameradschaft und unvergesslicher Erinnerungen im Pioneertown Motel in der Nähe des Joshua-Tree-Nationalparks. Rastlose Seelen aus allen Ecken trafen zusammen und brachten ihre Leidenschaft für Entdeckungen und die Liebe zur offenen Straße zum diesjährigen Treffen mit. Wir von HEIMPLANET sind stolz darauf, Teil des 7. jährlichen Aether Rally gewesen zu sein und den Teilnehmenden Unterschlupf zu bieten.Die Reise begann mit einem Konvoi von Fahrzeugen, die sich ihren Weg nach Pioneertown bahnten, eingebettet in die raue Schönheit der Wüste. Als die Sonne hinter dem Horizont verschwand, beleuchteten die Scheinwerfer die staubigen Pfade, die uns zu unserem Ziel führten. Bei der Ankunft im historischen Pioneertown Motel lag eine spürbare Spannung in der Luft."
+        "text_text": "Vom 26. bis zum 28. April versammelte sich die Community zu drei aufregenden Tagen voller Abenteuer, Kameradschaft und unvergesslicher Erinnerungen im Pioneertown Motel in der Nähe des Joshua-Tree-Nationalparks. Rastlose Seelen aus allen Ecken trafen zusammen und brachten ihre Leidenschaft für Entdeckungen und die Liebe zur offenen Straße zum diesjährigen Treffen mit. Wir von HEIMPLANET sind stolz darauf, Teil des 7. jährlichen Aether Rally gewesen zu sein und den Teilnehmenden Unterschlupf zu bieten.<br><br>Die Reise begann mit einem Konvoi von Fahrzeugen, die sich ihren Weg nach Pioneertown bahnten, eingebettet in die raue Schönheit der Wüste. Als die Sonne hinter dem Horizont verschwand, beleuchteten die Scheinwerfer die staubigen Pfade, die uns zu unserem Ziel führten. Bei der Ankunft im historischen Pioneertown Motel lag eine spürbare Spannung in der Luft."
       }
     },
     "l_video_L6k4FT": {
@@ -67,65 +67,6 @@
         "image_bild": "shopify://shop_images/2L1012116.jpg",
         "text_headline": "Neue Wege, gleiche Leidenschaft",
         "textarea_text": "Während sich der Staub einer weiteren unvergesslichen Aether Rally allmählich legt, freuen wir uns auf die Straße, die vor uns liegt, wo neue Abenteuer und Erfahrungen auf uns warten. Ob als erfahrener Entdecker oder als Neuling, in dieser Community gibt es einen Platz für jeden und jede!"
-      }
-    },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
-      "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
-        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
-      }
-    },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
-          }
-        }
-      },
-      "block_order": [
-        "feature_YRDDyY",
-        "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
       }
     },
     "l_produkt_QbA6R8": {
@@ -198,8 +139,6 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
-    "l_gallery_67Grn9",
-    "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next",
     "l_html_text_L8c4CD"
