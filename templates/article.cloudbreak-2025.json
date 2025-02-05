@@ -12,14 +12,13 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "Cloudbreak mars mission",
-        "textarea_longer_text": "Mache jeden Ort zu deinem Heimplanet - Outdoor Fotograf & Videograf Dani Guindo zeigt uns wie.",
+        "text_subline": "Cloudbreak ist vorrüber.",
+        "text_headline": "Lang lebe cloudbreak.",
+        "textarea_longer_text": "Unser neuestes Zelt bekommt ein Upgrade.",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_Mood9.jpg"
+        "url_button_link_2": ""
       }
     },
     "l_video_L6k4FT": {
