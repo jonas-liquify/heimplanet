@@ -69,6 +69,16 @@
         "textarea_text": "Während sich der Staub einer weiteren unvergesslichen Aether Rally allmählich legt, freuen wir uns auf die Straße, die vor uns liegt, wo neue Abenteuer und Erfahrungen auf uns warten. Ob als erfahrener Entdecker oder als Neuling, in dieser Community gibt es einen Platz für jeden und jede!"
       }
     },
+    "l_content_image_bg_yBciQF": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "<p><span data-mce-fragment=\"1\"><br>Du hast die Rally verpasst? Keine Sorge, nächstes Jahr gibt es wieder eine Chance. In der Zwischenzeit, warum schaffst du dir nicht dein eigenes Abenteuer? Entdecken jetzt das HEIMPLANET Zelt-Sortiment und mache die Natur zu deinem Zuhause #whereveryougo. <br><br>Jetzt <strong><span style=\"text-decoration: underline;\"><a href=\"https://heimplanet.com/collections/zelte\">Zelte entdecken</a></span></strong>.<br></span><br>Wenn du mehr über unseren Partner Aether erfahren willst, <a href=\"https://aetherapparel.com/\" target=\"_blank\"><span style=\"text-decoration: underline;\">klicke hier</span>.</a> <br><br></p>",
+        "text_headline_2": "",
+        "image_bild": "shopify://shop_images/M10R2275.jpg"
+      }
+    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
@@ -121,16 +131,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_content_image_bg_yBciQF": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "<p><span data-mce-fragment=\"1\"><br>Du hast die Rally verpasst? Keine Sorge, nächstes Jahr gibt es wieder eine Chance. In der Zwischenzeit, warum schaffst du dir nicht dein eigenes Abenteuer? Entdecken jetzt das HEIMPLANET Zelt-Sortiment und mache die Natur zu deinem Zuhause #whereveryougo. <br><br>Jetzt <strong><span style=\"text-decoration: underline;\"><a href=\"https://heimplanet.com/collections/zelte\">Zelte entdecken</a></span></strong>.<br></span><br>Wenn du mehr über unseren Partner Aether erfahren willst, <a href=\"https://aetherapparel.com/\" target=\"_blank\"><span style=\"text-decoration: underline;\">klicke hier</span>.</a> <br><br></p>",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/M10R2275.jpg"
-      }
     }
   },
   "layout": "article",
@@ -143,8 +143,8 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
+    "l_content_image_bg_yBciQF",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_content_image_bg_yBciQF"
+    "article_next"
   ]
 }
