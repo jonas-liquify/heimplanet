@@ -40,7 +40,7 @@
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/DaniGuindo_Cloudbreak_Island_V113.jpg",
+        "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-015.jpg",
         "text_headline": "Interplanetares reisen",
         "textarea_text": "Es fühlt sich an, als wäre die Landung geglückt. Der Rover steht still, der rote Staub liegt schwer auf den Reifen. Der Wind wirbelt Sand über die endlose Ebene, wo schroffe Felsen aus der kargen Landschaft ragen. Inmitten dieser marsähnlichen Kulisse, die wir auf Island gefunden haben, schlagen wir unser Basislager auf. Unser Basecamp für die nächsten Tage heißt Cloudbreak. \n<br><br>\nMit seinen klaren, modernen Linien und einer Struktur, die für extreme Umgebungen ausgelegt ist, passt das Cloudbreak perfekt in die isländische Wildnis. \n\nDas Zelt war schnell errichtet. Einmal verankert, ist es durch nichts mehr zu bewegen."
       }
@@ -81,7 +81,14 @@
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "Cloudbreak - der Mittelpunkt deiner Abenteuer",
-        "text_headline": "Mache jeden Ort zu deinem heimplanet."
+        "text_headline": "ein abschied"
+      }
+    },
+    "l_headline_mono_WAhtQj": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Cloudbreak - der Mittelpunkt deiner Abenteuer",
+        "text_headline": "ein abschied"
       }
     },
     "l_step_slider_z93mQW": {
@@ -122,10 +129,10 @@
     "l_reveal_slider_4QfCiY": {
       "type": "l_reveal_slider",
       "settings": {
-        "text_headline": "Bags+Backpacks",
+        "text_headline": "Bald enthüllt.",
         "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
         "text_vorher": "Cloubdreak V1",
-        "text_nachher": "Cloudbreak V2 | reveal coming soon",
+        "text_nachher": "Cloudbreak V2",
         "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
         "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
       }
@@ -165,6 +172,7 @@
     "l_content_left_4bPDgi",
     "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
+    "l_headline_mono_WAhtQj",
     "l_step_slider_z93mQW",
     "l_reveal_slider_4QfCiY",
     "l_hero_MXNhGL",
