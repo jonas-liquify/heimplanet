@@ -69,20 +69,12 @@
         "textarea_text": "Während sich der Staub einer weiteren unvergesslichen Aether Rally allmählich legt, freuen wir uns auf die Straße, die vor uns liegt, wo neue Abenteuer und Erfahrungen auf uns warten. Ob als erfahrener Entdecker oder als Neuling, in dieser Community gibt es einen Platz für jeden und jede!"
       }
     },
-    "l_content_image_bg_yBciQF": {
-      "type": "l_content_image_bg",
+    "l_content_left_tGkEJ4": {
+      "type": "l_content_left",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
+        "text_headline": "Dein Abenteuer beginnt jetzt",
+        "textarea_text": "<p><span data-mce-fragment=\"1\"><br>Du hast die Rally verpasst? Keine Sorge, nächstes Jahr gibt es wieder eine Chance. In der Zwischenzeit, warum schaffst du dir nicht dein eigenes Abenteuer? Entdecken jetzt das HEIMPLANET Zelt-Sortiment und mache die Natur zu deinem Zuhause #whereveryougo. <br><br>Jetzt <strong><span style=\"text-decoration: underline;\"><a href=\"https://heimplanet.com/collections/zelte\">Zelte entdecken</a></span></strong>.<br></span><br>Wenn du mehr über unseren Partner Aether erfahren willst, <a href=\"https://aetherapparel.com/\" target=\"_blank\"><span style=\"text-decoration: underline;\">klicke hier</span>.</a> <br><br></p>",
         "image_bild": "shopify://shop_images/M10R2275.jpg"
-      }
-    },
-    "l_html_text_kCWM9W": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<p><span data-mce-fragment=\"1\"><br>Du hast die Rally verpasst? Keine Sorge, nächstes Jahr gibt es wieder eine Chance. In der Zwischenzeit, warum schaffst du dir nicht dein eigenes Abenteuer? Entdecken jetzt das HEIMPLANET Zelt-Sortiment und mache die Natur zu deinem Zuhause #whereveryougo. <br><br>Jetzt <strong><span style=\"text-decoration: underline;\"><a href=\"https://heimplanet.com/collections/zelte\">Zelte entdecken</a></span></strong>.<br></span><br>Wenn du mehr über unseren Partner Aether erfahren willst, <a href=\"https://aetherapparel.com/\" target=\"_blank\"><span style=\"text-decoration: underline;\">klicke hier</span>.</a> <br><br></p>"
       }
     },
     "article_next": {
@@ -105,8 +97,7 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
-    "l_content_image_bg_yBciQF",
-    "l_html_text_kCWM9W",
+    "l_content_left_tGkEJ4",
     "article_next"
   ]
 }
