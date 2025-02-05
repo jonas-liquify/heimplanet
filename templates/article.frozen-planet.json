@@ -30,6 +30,14 @@
         "text_button_text": "Mehr davon"
       }
     },
+    "l_text_logos_4BxefE": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Expedition ins Unbekannte",
+        "text_text": "Im Oktober 2023 begab sich der Astrobiologe Dale Andersen erneut in die eisige Weite der Antarktis, um eine weitere Forschungsexpedition am geheimnisvollen ‘Untersee’ durchzuführen. Für den Forscher vom Carl Sagan Center, SETI Institute in Mountain, CA ist es die 27. Feldsaison auf dem gefrorenen Kontinent. Als führende Persönlichkeit in der Polarforschung wurde Andersens Arbeit in der BBC-Dokumentation „Frozen Planet II“ vorgestellt und verspricht, neue Einblicke in die unberührte Wildnis dieser abgelegenen Region zu liefern. Seine Erkundungen beleuchten die Implikationen von Lebensformen vor Ort auf die Menschheit und umgekehrt, wobei die komplexe Beziehung zwischen der Umwelt und unserer Spezies hervorgehoben wird. Mit auf seiner Ausrüstungsliste stehen dabei die HEIMPLANET Mavericks und The Cave."
+      }
+    },
     "l_html_text_L8c4CD": {
       "type": "l_html_text",
       "settings": {
@@ -41,7 +49,7 @@
       "settings": {
         "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-12.jpg",
         "text_headline": "MISSION REGENTEST",
-        "textarea_text": "Manchmal ist es das Abenteuer selbst, das ein Wochenende unvergesslich macht – und genau das war der Fall, als Lukas Bigler und sein Freund Nico das Heimplanet Kirra Zelt in den Urner Alpen testeten. Bei wechselhaftem Herbstwetter und einer ungewissen Prognose wollten die beiden ihre Wanderung zum Griessseeli dennoch nicht absagen. Im Gegenteil: Es war die perfekte Gelegenheit, um das Kirra Zelt in einer der eindrucksvollsten, aber auch anspruchsvollsten Umgebungen auf Herz und Nieren zu testen."
+        "textarea_text": ""
       }
     },
     "l_content_left_LMgdf7": {
@@ -66,13 +74,6 @@
         "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
         "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
       }
     },
     "l_step_slider_z93mQW": {
@@ -132,7 +133,7 @@
         "produkt_slider_ipBq33": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Expedition-2024-2.jpg"
           }
         },
         "fact_tQ3c6w": {
@@ -144,13 +145,13 @@
         "fact_MnxFyG": {
           "type": "fact",
           "settings": {
-            "text_text": "Einfache Handhabung"
+            "text_text": "Ideal für größere Gruppen"
           }
         },
         "fact_thTQjL": {
           "type": "fact",
           "settings": {
-            "text_text": "Lebenslange Garantie"
+            "text_text": "Genutzt für Expeditionen"
           }
         }
       },
@@ -161,7 +162,7 @@
         "fact_thTQjL"
       ],
       "settings": {
-        "text_headline": "KIRRA 2 Personen",
+        "text_headline": "Mavericks, Basecamp",
         "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "",
@@ -185,12 +186,12 @@
   "order": [
     "l_hero_ijQ63U",
     "article_products_V4qaqk",
+    "l_text_logos_4BxefE",
     "l_html_text_L8c4CD",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_gallery_67Grn9",
-    "l_headline_mono_4Vq68U",
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next"
