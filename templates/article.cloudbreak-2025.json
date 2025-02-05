@@ -119,6 +119,17 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_reveal_slider_4QfCiY": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_vorher": "Cloubdreak V1",
+        "text_nachher": "Cloudbreak V2 | reveal coming soon",
+        "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
+      }
+    },
     "l_hero_MXNhGL": {
       "type": "l_hero",
       "settings": {
@@ -132,50 +143,6 @@
         "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-007.jpg"
       }
     },
-    "l_produkt_QbA6R8": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_ipBq33": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
-          }
-        },
-        "fact_tQ3c6w": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Hervorragende Stabilität"
-          }
-        },
-        "fact_MnxFyG": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Separate Schlafkabine"
-          }
-        },
-        "fact_thTQjL": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Lebenslange Garantie"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_ipBq33",
-        "fact_tQ3c6w",
-        "fact_MnxFyG",
-        "fact_thTQjL"
-      ],
-      "settings": {
-        "text_headline": "CLOUDBREAK 4 PERSONEN",
-        "textarea_beschreibung": "Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden.",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "ZUM CLOUDBREAK",
-        "url_produkt_link": "shopify://products/cloudbreak-classic",
-        "checkbox_swiper_script": true
-      }
-    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -183,23 +150,6 @@
         "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
-      }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
-      }
-    },
-    "l_reveal_slider_4QfCiY": {
-      "type": "l_reveal_slider",
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "text_vorher": "Cloubdreak V1",
-        "text_nachher": "Cloudbreak V2 | coming soon",
-        "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
       }
     }
   },
@@ -216,10 +166,8 @@
     "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
     "l_step_slider_z93mQW",
+    "l_reveal_slider_4QfCiY",
     "l_hero_MXNhGL",
-    "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD",
-    "l_reveal_slider_4QfCiY"
+    "article_next"
   ]
 }
