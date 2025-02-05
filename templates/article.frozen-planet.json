@@ -13,20 +13,13 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "KIRRA IN DEN ALPEN",
-        "textarea_longer_text": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen.",
+        "text_headline": "Heimplanet on a frozen planet",
+        "textarea_longer_text": "Auf den Spuren von Astrobiologe Dale Andersen am arktischen 'Untersee'.",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg"
-      }
-    },
-    "l_video_L6k4FT": {
-      "type": "l_video",
-      "custom_css": [],
-      "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
       }
     },
     "article_products_V4qaqk": {
@@ -35,6 +28,12 @@
         "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
         "url_button_link": "",
         "text_button_text": "Mehr davon"
+      }
+    },
+    "l_html_text_L8c4CD": {
+      "type": "l_html_text",
+      "settings": {
+        "html_richtext": "<blockquote class=\"twitter-tweet\" data-media-max-width=\"1920\">\n<p lang=\"en\" dir=\"ltr\">Exploring Frozen Frontiers: Lake Untersee, Antarctica <a href=\"https://twitter.com/heimplanet?ref_src=twsrc%5Etfw\">@heimplanet</a> <a href=\"https://twitter.com/astrobiology?ref_src=twsrc%5Etfw\">@astrobiology</a> <a href=\"https://twitter.com/SETIInstitute?ref_src=twsrc%5Etfw\">@SETIInstitute</a> <a href=\"https://twitter.com/StarTrek?ref_src=twsrc%5Etfw\">@StarTrek</a><a href=\"https://twitter.com/hashtag/startrek?src=hash&amp;ref_src=twsrc%5Etfw\">#startrek</a> <a href=\"https://twitter.com/hashtag/strangenewworlds?src=hash&amp;ref_src=twsrc%5Etfw\">#strangenewworlds</a> <a href=\"https://twitter.com/hashtag/exobiology?src=hash&amp;ref_src=twsrc%5Etfw\">#exobiology</a> <a href=\"https://twitter.com/hashtag/antarctica?src=hash&amp;ref_src=twsrc%5Etfw\">#antarctica</a> <a href=\"https://t.co/4YRLE2tIEg\">pic.twitter.com/4YRLE2tIEg</a></p>— Dale Andersen (@daleandersen) <a href=\"https://twitter.com/daleandersen/status/1773029918777004517?ref_src=twsrc%5Etfw\">March 27, 2024</a>\n</blockquote> <script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
       }
     },
     "l_content_right_fX4Dcz": {
@@ -179,20 +178,14 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_video_L6k4FT",
     "article_products_V4qaqk",
+    "l_html_text_L8c4CD",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
@@ -200,7 +193,6 @@
     "l_headline_mono_4Vq68U",
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD"
+    "article_next"
   ]
 }
