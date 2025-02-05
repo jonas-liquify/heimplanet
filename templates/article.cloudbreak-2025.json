@@ -22,6 +22,13 @@
         "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-001.jpg"
       }
     },
+    "l_headline_mono_WAhtQj": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Cloudbreak - Ein Abschied von einem treuen Begleiter.",
+        "text_headline": "UND EIN BLICK NACH VORN."
+      }
+    },
     "l_video_L6k4FT": {
       "type": "l_video",
       "custom_css": [],
@@ -41,8 +48,8 @@
       "type": "l_content_right",
       "settings": {
         "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-015.jpg",
-        "text_headline": "Interplanetares reisen",
-        "textarea_text": "Es fühlt sich an, als wäre die Landung geglückt. Der Rover steht still, der rote Staub liegt schwer auf den Reifen. Der Wind wirbelt Sand über die endlose Ebene, wo schroffe Felsen aus der kargen Landschaft ragen. Inmitten dieser marsähnlichen Kulisse, die wir auf Island gefunden haben, schlagen wir unser Basislager auf. Unser Basecamp für die nächsten Tage heißt Cloudbreak. \n<br><br>\nMit seinen klaren, modernen Linien und einer Struktur, die für extreme Umgebungen ausgelegt ist, passt das Cloudbreak perfekt in die isländische Wildnis. \n\nDas Zelt war schnell errichtet. Einmal verankert, ist es durch nichts mehr zu bewegen."
+        "text_headline": "asdfsafdsdf",
+        "textarea_text": "Manche Orte sind mehr als nur ein Zwischenstopp – sie werden Teil der Reise. Cloudbreak wurde genau dafür geschaffen. Benannt nach der legendären Welle auf Fidschi, steht der Name für Kraft und unendliche Möglichkeiten – ein zuverlässiger Schutz für alle, die dem Abenteuer überallhin folgen.\n<br><br>\nOb auf abgelegenen Overlanding-Trips, beim Familien-Camping oder auf Tour mit Freunden – Cloudbreak wurde zu einem treuen Begleiter für alle, die Freiheit suchen, ohne Sicherheit oder Komfort vernachlässigen zu müssen. Ein echtes Zuhause unterwegs, das Schutz, Raum und Flexibilität perfekt verbindet."
       }
     },
     "l_content_left_LMgdf7": {
@@ -78,13 +85,6 @@
       }
     },
     "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Cloudbreak - der Mittelpunkt deiner Abenteuer",
-        "text_headline": "ein abschied"
-      }
-    },
-    "l_headline_mono_WAhtQj": {
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "Cloudbreak - der Mittelpunkt deiner Abenteuer",
@@ -158,12 +158,24 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "content_image_CTELya": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Medium length heading goes here",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_headline_mono_WAhtQj",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
@@ -172,10 +184,10 @@
     "l_content_left_4bPDgi",
     "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
-    "l_headline_mono_WAhtQj",
     "l_step_slider_z93mQW",
     "l_reveal_slider_4QfCiY",
     "l_hero_MXNhGL",
-    "article_next"
+    "article_next",
+    "content_image_CTELya"
   ]
 }
