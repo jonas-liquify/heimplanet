@@ -17,7 +17,7 @@
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-Mood.jpg",
             "text_headline": "Unsere Zelte",
-            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
+            "richtext_text": "<p><strong>Genutzt auf Expeditionen in der ganzen Welt.</strong><br/>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
             "url_button_link": "shopify://collections/zelte",
             "text_button_text": "Jetzt entdecken"
           }
