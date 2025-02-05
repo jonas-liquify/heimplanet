@@ -18,7 +18,8 @@
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-001.jpg"
       }
     },
     "l_video_L6k4FT": {
@@ -118,6 +119,19 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_hero_MXNhGL": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "Newsletter abonnieren & als erstes vom Launch termin erfahren.",
+        "text_headline": "JETZT ANMELDEN",
+        "textarea_longer_text": "",
+        "text_button_text": "ZUR ANMELDUNG",
+        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-007.jpg"
+      }
+    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
@@ -176,6 +190,17 @@
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
+    },
+    "l_reveal_slider_4QfCiY": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_vorher": "This is some text inside of a div block.",
+        "text_nachher": "This is some text inside of a div block.",
+        "image_bild_1": "shopify://shop_images/Heimplanet_Cloudbreak_V2_geschwaerzt.png",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Cloudbreak-Tent-2024-12-2.jpg"
+      }
     }
   },
   "layout": "article",
@@ -191,8 +216,10 @@
     "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
     "l_step_slider_z93mQW",
+    "l_hero_MXNhGL",
     "l_produkt_QbA6R8",
     "article_next",
-    "l_html_text_L8c4CD"
+    "l_html_text_L8c4CD",
+    "l_reveal_slider_4QfCiY"
   ]
 }
