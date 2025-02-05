@@ -12,6 +12,17 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_6ztQE7": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-016.jpg",
+            "text_headline": "CLOUDBREAK IST VORRÜBER",
+            "richtext_text": "<p><strong>PROJEKTE: </strong><br/>CLOUDBREAK V2 - Ein neues Kapitel beginnt. <br/></p>",
+            "url_button_link": "shopify://blogs/projekte/cloudbreak-v2-ein-neues-kapitel-beginnt",
+            "text_button_text": "MEHR ERFAHREN"
+          }
+        },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
@@ -20,17 +31,6 @@
             "richtext_text": "<p><strong>Genutzt auf Expeditionen in der ganzen Welt.</strong><br/>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
             "url_button_link": "shopify://collections/zelte",
             "text_button_text": "Jetzt entdecken"
-          }
-        },
-        "hero_slider_6ztQE7": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-015.jpg",
-            "text_headline": "CLOUDBREAK IST VORRÜBER",
-            "richtext_text": "<p><strong>PROJEKTE</strong>: CLOUDBREAK V2<br/>Ein neues Kapitel beginnt. <br/><strong>New year - new gear!</strong></p>",
-            "url_button_link": "shopify://blogs/projekte/cloudbreak-v2-ein-neues-kapitel-beginnt",
-            "text_button_text": "MEHR ERFAHREN"
           }
         },
         "hero_slider_LP9zUr": {
@@ -98,8 +98,8 @@
         }
       },
       "block_order": [
-        "hero_slider_DQWqP4",
         "hero_slider_6ztQE7",
+        "hero_slider_DQWqP4",
         "hero_slider_LP9zUr",
         "hero_slider_MWnnBG",
         "hero_slider_zBjUtr",
