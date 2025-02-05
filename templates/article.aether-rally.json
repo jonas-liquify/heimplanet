@@ -79,50 +79,6 @@
         "image_bild": "shopify://shop_images/M10R2275.jpg"
       }
     },
-    "l_produkt_QbA6R8": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_ipBq33": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
-          }
-        },
-        "fact_tQ3c6w": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Hervorragende Stabilität"
-          }
-        },
-        "fact_MnxFyG": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Einfache Handhabung"
-          }
-        },
-        "fact_thTQjL": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Lebenslange Garantie"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_ipBq33",
-        "fact_tQ3c6w",
-        "fact_MnxFyG",
-        "fact_thTQjL"
-      ],
-      "settings": {
-        "text_headline": "KIRRA 2 Personen",
-        "textarea_beschreibung": "",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
-        "checkbox_swiper_script": true
-      }
-    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -144,7 +100,6 @@
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_content_image_bg_yBciQF",
-    "l_produkt_QbA6R8",
     "article_next"
   ]
 }
