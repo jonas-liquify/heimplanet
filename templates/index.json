@@ -17,7 +17,7 @@
           "settings": {
             "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-016.jpg",
             "text_headline": "CLOUDBREAK IST VORRÜBER",
-            "richtext_text": "<p><strong>PROJEKTE: </strong><br/>CLOUDBREAK V2 - Ein neues Kapitel beginnt. <br/></p>",
+            "richtext_text": "<p><strong>PROJEKTE: </strong><br/>CLOUDBREAK V2<br/>Ein neues Kapitel beginnt. </p>",
             "url_button_link": "shopify://blogs/projekte/cloudbreak-v2-ein-neues-kapitel-beginnt",
             "text_button_text": "MEHR ERFAHREN"
           }
