@@ -14,7 +14,6 @@
       "blocks": {
         "hero_slider_6ztQE7": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-016.jpg",
             "text_headline": "CLOUDBREAK IST VORRÜBER",
