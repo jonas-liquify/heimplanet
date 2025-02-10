@@ -12,16 +12,6 @@
     "hero": {
       "type": "hero",
       "blocks": {
-        "hero_slider_6ztQE7": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-016.jpg",
-            "text_headline": "CLOUDBREAK IST VORÜBER",
-            "richtext_text": "<p><strong>PROJEKTE: </strong><br/>CLOUDBREAK V2<br/>Ein neues Kapitel beginnt. </p>",
-            "url_button_link": "shopify://blogs/projekte/cloudbreak-v2-ein-neues-kapitel-beginnt",
-            "text_button_text": "MEHR ERFAHREN"
-          }
-        },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
@@ -51,6 +41,16 @@
             "richtext_text": "<p>Unsere Interpretation eines klassischen Brustbeutels. Alles, was Du brauchst, in Reichweite und immer verfügbar.</p>",
             "url_button_link": "shopify://products/carry-essentials-neck-a6-brustbeutel-light",
             "text_button_text": "Jetzt entdecken"
+          }
+        },
+        "hero_slider_6ztQE7": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/NorrisNiman-Cloudbreak-016.jpg",
+            "text_headline": "CLOUDBREAK IST VORÜBER",
+            "richtext_text": "<p><strong>PROJEKTE: </strong><br/>CLOUDBREAK V2<br/>Ein neues Kapitel beginnt. </p>",
+            "url_button_link": "shopify://blogs/projekte/cloudbreak-v2-ein-neues-kapitel-beginnt",
+            "text_button_text": "MEHR ERFAHREN"
           }
         },
         "hero_slider_zBjUtr": {
@@ -97,10 +97,10 @@
         }
       },
       "block_order": [
-        "hero_slider_6ztQE7",
         "hero_slider_DQWqP4",
         "hero_slider_LP9zUr",
         "hero_slider_MWnnBG",
+        "hero_slider_6ztQE7",
         "hero_slider_zBjUtr",
         "hero_slider_FDAzFx",
         "hero_slider_L3fJzp",
