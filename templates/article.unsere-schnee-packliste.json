@@ -12,21 +12,20 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
-        "text_headline": "KIRRA IN DEN ALPEN",
-        "textarea_longer_text": "Outdoor Fotograf und Videograf Lukas Bigler - Ein Wochenende mit dem Kirra Zelt in den Urner Alpen.",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
+        "text_subline": "AB IN DEN SCHNEE",
+        "text_headline": "4-Season Packliste",
+        "textarea_longer_text": "Nützliches Equipment für dein nächstes Schnee-Abenteuer.",
+        "text_button_text": "JETZT ENTDECKEN",
+        "url_button_link": "shopify://collections/4-season-packliste",
         "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg"
+        "url_button_link_2": ""
       }
     },
     "l_video_L6k4FT": {
       "type": "l_video",
       "custom_css": [],
       "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
+        "text_video_url": ""
       }
     },
     "article_products_V4qaqk": {
@@ -35,30 +34,6 @@
         "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
         "url_button_link": "",
         "text_button_text": "Mehr davon"
-      }
-    },
-    "l_content_right_fX4Dcz": {
-      "type": "l_content_right",
-      "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-12.jpg",
-        "text_headline": "MISSION REGENTEST",
-        "textarea_text": "Manchmal ist es das Abenteuer selbst, das ein Wochenende unvergesslich macht – und genau das war der Fall, als Lukas Bigler und sein Freund Nico das Heimplanet Kirra Zelt in den Urner Alpen testeten. Bei wechselhaftem Herbstwetter und einer ungewissen Prognose wollten die beiden ihre Wanderung zum Griessseeli dennoch nicht absagen. Im Gegenteil: Es war die perfekte Gelegenheit, um das Kirra Zelt in einer der eindrucksvollsten, aber auch anspruchsvollsten Umgebungen auf Herz und Nieren zu testen."
-      }
-    },
-    "l_content_left_LMgdf7": {
-      "type": "l_content_left",
-      "settings": {
-        "text_headline": "Tag 1 // ankunft",
-        "textarea_text": "Die Vorzeichen standen auf Regen, aber Lukas und Nico ließen sich davon nicht abschrecken. Am Samstagnachmittag machten sie sich auf den Weg, eine etwa 40-minütige Wanderung durch die herbstliche Dämmerung, die über die Seitenmoräne des Gletschers führte. Angekommen an ihrem Ziel entdeckten sie eine kleine Insel am Rand des Griessseelis – genau der richtige Platz, um das Zelt aufzubauen und die Nacht in der wilden Natur zu verbringen.\n<br><br>\nTrotz des einsetzenden Regens ließ sich das Kirra Zelt dank seiner aufblasbaren Konstruktion innerhalb weniger Minuten und mit einer kleinen Pumpe unkompliziert aufstellen. Schon bald stand das Zelt, bereit, die beiden für die Nacht zu schützen. Durch den starken Regen zog es Lukas und Nico früh in die Schlafsäcke – mit der Hoffnung, am nächsten Morgen von einem epischen Sonnenaufgang über dem Gletschersee geweckt zu werden.",
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-4.jpg"
-      }
-    },
-    "l_content_right_hKLaVw": {
-      "type": "l_content_right",
-      "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-7.jpg",
-        "text_headline": "Tag 2 // Los geht's",
-        "textarea_text": "Der Regen begleitete die beiden die ganze Nacht hindurch. Doch das Kirra Zelt hielt stand: Obwohl es frisch war, blieb im Inneren alles angenehm trocken, und das robuste Material zeigte sich den Bedingungen mehr als gewachsen.\n<br><br>\nStatt eines Sonnenaufgangs erwartete Lukas und Nico jedoch eine mystische Szenerie: Der Himmel war von tief hängenden Wolken bedeckt, die in Kombination mit den verschneiten Gipfeln und dem blauen Gletschersee eine epische Kulisse boten. Die Stille und die Atmosphäre waren einmalig – das Kirra Zelt stand mitten in dieser rauen, wilden Landschaft und fügte sich perfekt in die Umgebung ein.\n<br><br>\nNach ein paar Fotos von der Szenerie und dem Zelt machten sich die beiden Freunde zufrieden auf den Heimweg. Das Wetter war zwar nicht ideal gewesen, aber genau das hatte den Ausflug zu einem echten Test für das Kirra gemacht. Und das Zelt hatte seine Aufgabe gemeistert: Es hielt Regen und Nässe mühelos stand und bot den beiden den Schutz und Komfort, den sie sich von einem Abenteuerzelt wünschen.<br><br>Mehr zu Lukas Bigler @luke.imaged | <a href=\"https://www.instagram.com/luke.imaged/\" target=\"_blank\">Instagram</a> & <a href=\"https://www.youtube.com/@lukeimaged\" target=\"_blank\">Youtube</a>."
       }
     },
     "l_gallery_67Grn9": {
@@ -127,48 +102,14 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_produkt_QbA6R8": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_ipBq33": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
-          }
-        },
-        "fact_tQ3c6w": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Hervorragende Stabilität"
-          }
-        },
-        "fact_MnxFyG": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Einfache Handhabung"
-          }
-        },
-        "fact_thTQjL": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Lebenslange Garantie"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_ipBq33",
-        "fact_tQ3c6w",
-        "fact_MnxFyG",
-        "fact_thTQjL"
-      ],
+    "category_MtHEhD": {
+      "type": "category",
       "settings": {
-        "text_headline": "KIRRA 2 Personen",
-        "textarea_beschreibung": "",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
-        "checkbox_swiper_script": true
+        "text_headline": "JETZT ENTDECKEN",
+        "url_button_link": "shopify://collections/4-season-packliste",
+        "text_button_text": "ALLE ANSEHEN",
+        "collection_collection": "4-season-packliste",
+        "collection_collection_limit": 20
       }
     },
     "article_next": {
@@ -179,22 +120,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "l_html_text_L8c4CD": {
-      "type": "l_html_text",
-      "settings": {
-        "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
-      }
-    },
-    "category_MtHEhD": {
-      "type": "category",
-      "settings": {
-        "text_headline": "JETZT ENTDECKEN",
-        "url_button_link": "shopify://collections/geschenke-unter-100",
-        "text_button_text": "Mehr davon",
-        "collection_collection": "geschenke-unter-100",
-        "collection_collection_limit": 6
-      }
     }
   },
   "layout": "article",
@@ -203,15 +128,10 @@
     "l_hero_ijQ63U",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
-    "l_content_right_fX4Dcz",
-    "l_content_left_LMgdf7",
-    "l_content_right_hKLaVw",
     "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
     "l_step_slider_z93mQW",
-    "l_produkt_QbA6R8",
-    "article_next",
-    "l_html_text_L8c4CD",
-    "category_MtHEhD"
+    "category_MtHEhD",
+    "article_next"
   ]
 }
