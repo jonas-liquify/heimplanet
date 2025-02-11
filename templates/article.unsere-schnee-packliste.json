@@ -61,6 +61,34 @@
         "collection_collection_limit": 20
       }
     },
+    "l_dropdowns_qfRaC4": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_F4BKrT": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Für unter der Jacke",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_bG7ntj": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "über der Jacke",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/Heimplanet-Sling-Pocket-XL-Castlerock-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_F4BKrT",
+        "dropdown_bG7ntj"
+      ],
+      "settings": {
+        "text_headline": "Kleine taschen",
+        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
+      }
+    },
     "category_3d6icy": {
       "type": "category",
       "settings": {
@@ -90,6 +118,7 @@
     "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
     "category_MtHEhD",
+    "l_dropdowns_qfRaC4",
     "category_3d6icy",
     "article_next"
   ]
