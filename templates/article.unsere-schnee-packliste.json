@@ -185,6 +185,16 @@
       "settings": {
         "html_richtext": "<a href=\"https://www.instagram.com/luke.imaged/\">Instagram</a> &amp; <a href=\"https://www.youtube.com/@lukeimaged\">Youtube</a>"
       }
+    },
+    "category_MtHEhD": {
+      "type": "category",
+      "settings": {
+        "text_headline": "Topseller",
+        "url_button_link": "shopify://collections/geschenke-unter-100",
+        "text_button_text": "Mehr davon",
+        "collection_collection": "",
+        "collection_collection_limit": 6
+      }
     }
   },
   "layout": "article",
@@ -201,6 +211,7 @@
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next",
-    "l_html_text_L8c4CD"
+    "l_html_text_L8c4CD",
+    "category_MtHEhD"
   ]
 }
