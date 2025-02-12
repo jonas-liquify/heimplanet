@@ -89,7 +89,8 @@
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
-        "text_button_text_2": "Button"
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/heimplanet_motion_ellipse.jpg"
       }
     },
     "l_dropdowns_qfRaC4": {
@@ -151,7 +152,8 @@
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
-        "text_button_text_2": "Button"
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/heimplanet_crewneck.jpg"
       }
     },
     "l_dropdowns_M4kMqy": {
@@ -210,10 +212,10 @@
       "settings": {
         "text_headline": "Praktisches accessoires",
         "textarea_text": "Rucksäcke, Hüfttaschen, Organizer",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button"
+        "url_button_link": "shopify://collections/carry-essentials",
+        "text_button_text": "CARRY ESSENTIALS",
+        "url_button_link_2": "shopify://collections/hpt-selected",
+        "text_button_text_2": "HPT-SELECTED"
       }
     },
     "l_dropdowns_gxk3DH": {
