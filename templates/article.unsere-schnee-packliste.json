@@ -231,15 +231,6 @@
             "image_bild": "shopify://shop_images/heimplanet_packing_cubes_re-store.png"
           }
         },
-        "dropdown_4QJAjm": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/HPT-Selected-HydraPak-Force-2L-1_1024x1024_98a55ab3-9caf-4453-8ebc-804ecfcf15c1.jpg",
-            "text_headline": "Trinkblase - HYDRAPAK™ FORCE 2L",
-            "textarea_text": "<b>Die perfekte Ergänzung zu unseren Motion Line Rucksäcken: </b>\n<br>\n+ Sie ist konzipiert für viel Action und extrem robust. \n<br>\n+ HydraFusion™ Trinkschlauch sorgt jederzeit für eine optimale Isolierung.\n<br>\n+ Beißventil mit Staubschutz und Drehverschluss verhindern Auslaufen.\n\n<br><br>\nUnsere Motion Series Rucksäcke Ellipse 25L und Arc 20L besitzen beide entsprechende Ausgänge für den Trinkblasenschlauch und ein Reservoir im Innenraum, das die Trinkblase sicher und stabil aufnehmen kann.\n<br><br>\n<a href=\"https://heimplanet.com/products/hydra-pak-force-2l\" target=\"_blank\"><b>JETZT ENTDECKEN</b></a>\n<br><br>\n<b>Letzte Kundenbewertung - \nZORAN STARY | \nZurich, CH</b>\n<br>\"Very quality stuff. Not cheap but very quality. Shipping was lightning fast. Go for it.\"",
-            "image_bild": "shopify://shop_images/hydrapak.png"
-          }
-        },
         "dropdown_DCC4jX": {
           "type": "dropdown",
           "settings": {
@@ -247,6 +238,15 @@
             "text_headline": "KIT BAG 14L - drybag / Rucksack",
             "textarea_text": "Bei Abenteuer im Schnee ist es besonders wichtig, dass die wichtigsten Dinge Trocken bleiben. <br><br><b>Der Kit Bag ist die definition von \"Besser haben, als brauchen\". </b>\n<br>\n<br>+ Bei Bedarf extrem klein verstaubau.\n<br>+ Klippt einfach an den Rucksack, die Hüfttasche oder die eigene Kleidung.\n<br>+ Doppelfunktion als Drybag und Rucksack dank der mitgelieferten Schultergurte.\n<br>+ Die Gurte lassen sich problemlos entfernen, um das Packmaß weiter zu verringern. \n<br>+ Wasserdichtes 300D x 150D Polyester mit getapten Nähten.\n<br>+ 14L Volumen bei nur 150g Gewicht.\n<br>+ Auch als Innenverkleidung eines Rucksacks gut geeignet.\n<br><br>\n<a href=\"https://heimplanet.com/products/taschen-carry_essentials-kit_bag\" target=\"_blank\"><b>JETZT ENTDECKEN</b></a>",
             "image_bild": "shopify://shop_images/heimplanet_kit_bag.png"
+          }
+        },
+        "dropdown_4QJAjm": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/HPT-Selected-HydraPak-Force-2L-1_1024x1024_98a55ab3-9caf-4453-8ebc-804ecfcf15c1.jpg",
+            "text_headline": "Trinkblase - HYDRAPAK™ FORCE 2L",
+            "textarea_text": "<b>Die perfekte Ergänzung zu unseren Motion Line Rucksäcken: </b>\n<br>\n+ Sie ist konzipiert für viel Action und extrem robust. \n<br>\n+ HydraFusion™ Trinkschlauch sorgt jederzeit für eine optimale Isolierung.\n<br>\n+ Beißventil mit Staubschutz und Drehverschluss verhindern Auslaufen.\n\n<br><br>\nUnsere Motion Series Rucksäcke Ellipse 25L und Arc 20L besitzen beide entsprechende Ausgänge für den Trinkblasenschlauch und ein Reservoir im Innenraum, das die Trinkblase sicher und stabil aufnehmen kann.\n<br><br>\n<a href=\"https://heimplanet.com/products/hydra-pak-force-2l\" target=\"_blank\"><b>JETZT ENTDECKEN</b></a>\n<br><br>\n<b>Letzte Kundenbewertung - \nZORAN STARY | \nZurich, CH</b>\n<br>\"Very quality stuff. Not cheap but very quality. Shipping was lightning fast. Go for it.\"",
+            "image_bild": "shopify://shop_images/hydrapak.png"
           }
         },
         "dropdown_AJkNwL": {
@@ -258,15 +258,6 @@
             "image_bild": "shopify://shop_images/petzl_headlamp.png"
           }
         },
-        "dropdown_jkBBw7": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-X-Mizu-Thermos-200-ML-Silver-Black-2022.jpg",
-            "text_headline": "Thermos-flaschen",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
-            "image_bild": "shopify://shop_images/heimplanet_mizu_thermos.png"
-          }
-        },
         "dropdown_UPGpT9": {
           "type": "dropdown",
           "settings": {
@@ -274,6 +265,15 @@
             "text_headline": "COFFEE TO GO - AEROPRESS®",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
             "image_bild": "shopify://shop_images/aeropress.png"
+          }
+        },
+        "dropdown_jkBBw7": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-X-Mizu-Thermos-200-ML-Silver-Black-2022.jpg",
+            "text_headline": "Thermos-flaschen",
+            "textarea_text": "Damit der AeroPress Kaffee auch schon heiß bleibt nutzen wir unseren in Kooperation mit MIZU geschaffenen 1070ML Thermos [36.2fl oz].\n<br><br>\n+ Bis zu 12 Stunden Lagerung von Heißgetränken.\n<br>+ Natürlich auch im Sommer praktisch >>  Lagerung kalter Getränke bis zu 18 Stunden.",
+            "image_bild": "shopify://shop_images/heimplanet_mizu_thermos.png"
           }
         },
         "dropdown_xnpwjt": {
@@ -289,11 +289,11 @@
       },
       "block_order": [
         "dropdown_teQAFP",
-        "dropdown_4QJAjm",
         "dropdown_DCC4jX",
+        "dropdown_4QJAjm",
         "dropdown_AJkNwL",
-        "dropdown_jkBBw7",
         "dropdown_UPGpT9",
+        "dropdown_jkBBw7",
         "dropdown_xnpwjt"
       ],
       "settings": {
