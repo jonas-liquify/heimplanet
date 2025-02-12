@@ -130,6 +130,60 @@
     "content_image_Jn7RR6": {
       "type": "content_image",
       "settings": {
+        "text_headline": "AKTIV-BEKLEIDUNG",
+        "textarea_text": "Hochfunktionale Stoffe trifft auf alltagstauglicher Optik.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
+    "l_dropdowns_M4kMqy": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_qJa6bN": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Merino-Oberteile",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_ccFQxb": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Mützen",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_bDUWbp": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Halstücher",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_JgwKKi": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Langarm-shirts",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_qJa6bN",
+        "dropdown_ccFQxb",
+        "dropdown_bDUWbp",
+        "dropdown_JgwKKi"
+      ],
+      "settings": {
+        "text_headline": "Praktische Organizer",
+        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
+      }
+    },
+    "content_image_dhedwt": {
+      "type": "content_image",
+      "settings": {
         "text_headline": "Praktisches accessoires",
         "textarea_text": "Rucksäcke, Hüfttaschen, Organizer",
         "url_button_link": "",
@@ -177,38 +231,54 @@
       "type": "content_image",
       "settings": {
         "text_headline": "UNTERSCHLUPF",
-        "textarea_text": "Rucksäcke, Hüfttaschen, Organizer",
+        "textarea_text": "4-Season Zelte mit extra verstärktem Innenzelt für bessere Isolation und Wärmespeicherung.",
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
         "text_button_text_2": "Button"
       }
     },
-    "l_dropdowns_M4kMqy": {
+    "l_dropdowns_aiN43E": {
       "type": "l_dropdowns",
       "blocks": {
-        "dropdown_qJa6bN": {
+        "dropdown_gT8djK": {
           "type": "dropdown",
           "settings": {
-            "text_headline": "Packing Cubes",
+            "text_headline": "Kirra 4-Season // 2 Personen",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         },
-        "dropdown_ccFQxb": {
+        "dropdown_Fp4JNp": {
           "type": "dropdown",
           "settings": {
-            "text_headline": "über der Jacke",
+            "text_headline": "THE CAVE XL 4-Season // 3 PERSONEN",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_mcTWnV": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "BCAKDOOR 4-Season // 4-PERSONEN",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_L7MwEA": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "ZELTUNTERLAGEN - Extra schutz vor bodenkälte",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         }
       },
       "block_order": [
-        "dropdown_qJa6bN",
-        "dropdown_ccFQxb"
+        "dropdown_gT8djK",
+        "dropdown_Fp4JNp",
+        "dropdown_mcTWnV",
+        "dropdown_L7MwEA"
       ],
       "settings": {
-        "text_headline": "Praktische Organizer",
-        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
+        "text_headline": "",
+        "textarea_text": ""
       }
     },
     "category_3d6icy": {
@@ -244,9 +314,11 @@
     "l_dropdowns_qfRaC4",
     "l_dropdowns_b36rCk",
     "content_image_Jn7RR6",
+    "l_dropdowns_M4kMqy",
+    "content_image_dhedwt",
     "l_dropdowns_gxk3DH",
     "content_image_BiVbti",
-    "l_dropdowns_M4kMqy",
+    "l_dropdowns_aiN43E",
     "category_3d6icy",
     "article_next"
   ]
