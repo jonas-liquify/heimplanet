@@ -278,7 +278,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/Dr-Bronner-Naturseife-60ml-Baby-Mild.jpg",
             "text_headline": "NATURSEIFEN von Dr.BRONNER",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/dr.bronner_seifen.png"
           }
         }
       },
