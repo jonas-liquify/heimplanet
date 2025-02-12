@@ -143,17 +143,74 @@
         "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
       }
     },
+    "content_image_Jn7RR6": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Praktisches accessoires",
+        "textarea_text": "Rucksäcke, Hüfttaschen, Organizer",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
     "l_dropdowns_gxk3DH": {
       "type": "l_dropdowns",
       "blocks": {
         "dropdown_4QJAjm": {
           "type": "dropdown",
           "settings": {
-            "text_headline": "Packing Cubes",
+            "text_headline": "Trinkblase - HYDRAPAK 2L",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         },
         "dropdown_teQAFP": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Packing Cubes",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_UPGpT9": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "COFFEE TO GO - AERO PRESS",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_4QJAjm",
+        "dropdown_teQAFP",
+        "dropdown_UPGpT9"
+      ],
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
+      }
+    },
+    "content_image_BiVbti": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "UNTERSCHLUPF",
+        "textarea_text": "Rucksäcke, Hüfttaschen, Organizer",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
+    "l_dropdowns_M4kMqy": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_qJa6bN": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Packing Cubes",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_ccFQxb": {
           "type": "dropdown",
           "settings": {
             "text_headline": "über der Jacke",
@@ -162,8 +219,8 @@
         }
       },
       "block_order": [
-        "dropdown_4QJAjm",
-        "dropdown_teQAFP"
+        "dropdown_qJa6bN",
+        "dropdown_ccFQxb"
       ],
       "settings": {
         "text_headline": "Praktische Organizer",
@@ -202,7 +259,10 @@
     "content_image_6z38yU",
     "l_dropdowns_qfRaC4",
     "l_dropdowns_b36rCk",
+    "content_image_Jn7RR6",
     "l_dropdowns_gxk3DH",
+    "content_image_BiVbti",
+    "l_dropdowns_M4kMqy",
     "category_3d6icy",
     "article_next"
   ]
