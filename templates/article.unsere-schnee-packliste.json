@@ -12,11 +12,11 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "AB IN DEN SCHNEE",
+        "text_subline": "AB IN DEN SCHNEE<br>",
         "text_headline": "4-Season Packliste",
-        "textarea_longer_text": "Nützliches Equipment für dein nächstes Schnee-Abenteuer.",
-        "text_button_text": "JETZT ENTDECKEN",
-        "url_button_link": "shopify://collections/4-season-packliste",
+        "textarea_longer_text": "<br>Nützliches Equipment für dein nächstes Winterabenteuer.",
+        "text_button_text": "",
+        "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-Mood.jpg"
