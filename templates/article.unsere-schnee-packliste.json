@@ -44,21 +44,11 @@
         "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
       }
     },
-    "category_MtHEhD": {
-      "type": "category",
-      "settings": {
-        "text_headline": "Kleine Tasche für unter der Jacke",
-        "url_button_link": "",
-        "text_button_text": "",
-        "collection_collection": "neck-pouch",
-        "collection_collection_limit": 20
-      }
-    },
     "content_image_6z38yU": {
       "type": "content_image",
       "settings": {
         "text_headline": "TASCHEN FÜR UNTERWEGS",
-        "textarea_text": "Rucksäcke, Hüfttaschen, Organizer",
+        "textarea_text": "Kleine Taschen für die Essentials. \nLeichte Rucksäcke für schnelle Aktivitäten.",
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
@@ -72,7 +62,7 @@
           "type": "dropdown",
           "settings": {
             "image_icon": "shopify://shop_images/Artikelbild_CE_Neck_Pouch_A5_001_7a7ecdbd-c5d2-49e8-8247-0c0d8bfd4254.jpg",
-            "text_headline": "Unter der Jacke - Neck Pouches",
+            "text_headline": "Unter der Jacke, Neck Pouches",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         },
@@ -80,55 +70,44 @@
           "type": "dropdown",
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-Sling-Pocket-Black-1_1024x1024_4e263ea7-c879-499e-b48e-ee268e65cb9d.jpg",
-            "text_headline": "über der Jacke - Sling PocketS",
+            "text_headline": "über der Jacke, Sling Pockets",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
             "image_bild": "shopify://shop_images/Heimplanet-Sling-Pocket-XL-Castlerock-2.jpg"
+          }
+        },
+        "dropdown_VYRjf6": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/60e5b4da711f56e3e892a81c_Artikelbilder_Motion_Ellipse_2020_black_002.jpg",
+            "text_headline": "25L Rucksack, Motion Ellipse",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_nNrpRc": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/60e5b4da711f56717092a819_Artikelbilder_Motion_Arc_2020_light_001_f03414db-5b5a-4323-8262-80ba056d5663.jpg",
+            "text_headline": "20L Rucksack. Motion Arc",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         }
       },
       "block_order": [
         "dropdown_F4BKrT",
-        "dropdown_bG7ntj"
+        "dropdown_bG7ntj",
+        "dropdown_VYRjf6",
+        "dropdown_nNrpRc"
       ],
       "settings": {
-        "text_headline": "Kleine taschen",
-        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
-      }
-    },
-    "l_dropdowns_b36rCk": {
-      "type": "l_dropdowns",
-      "blocks": {
-        "dropdown_Yzc8hm": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/60e5b4da711f56e3e892a81c_Artikelbilder_Motion_Ellipse_2020_black_002.jpg",
-            "text_headline": "Motion Ellipse 25L",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
-        },
-        "dropdown_YMf7eD": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/60e5b4da711f56717092a819_Artikelbilder_Motion_Arc_2020_light_001_f03414db-5b5a-4323-8262-80ba056d5663.jpg",
-            "text_headline": "Motion Arc 20L",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
-        }
-      },
-      "block_order": [
-        "dropdown_Yzc8hm",
-        "dropdown_YMf7eD"
-      ],
-      "settings": {
-        "text_headline": "Leichte Rucksäcke",
-        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
+        "text_headline": "",
+        "textarea_text": "LEICHT. WASSERFEST. LANGLEBIG."
       }
     },
     "content_image_Jn7RR6": {
       "type": "content_image",
       "settings": {
         "text_headline": "AKTIV-BEKLEIDUNG",
-        "textarea_text": "Hochfunktionale Stoffe trifft auf alltagstauglicher Optik.",
+        "textarea_text": "Hochfunktionale Stoffe treffen auf alltagstauglicher Optik.",
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
@@ -179,8 +158,8 @@
         "dropdown_JgwKKi"
       ],
       "settings": {
-        "text_headline": "Praktische Organizer",
-        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
+        "text_headline": "",
+        "textarea_text": ""
       }
     },
     "content_image_dhedwt": {
@@ -213,22 +192,6 @@
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         },
-        "dropdown_UPGpT9": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/HPT-Selected-AeroPress-Coffee-Espressomaker-1.jpg",
-            "text_headline": "COFFEE TO GO - AEROPRESS®",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
-        },
-        "dropdown_xnpwjt": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Dr-Bronner-Naturseife-60ml-Baby-Mild.jpg",
-            "text_headline": "NATURSEIFEN von Dr.BRONNER",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
-        },
         "dropdown_AJkNwL": {
           "type": "dropdown",
           "settings": {
@@ -244,19 +207,35 @@
             "text_headline": "Thermos-flaschen",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
+        },
+        "dropdown_UPGpT9": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/HPT-Selected-AeroPress-Coffee-Espressomaker-1.jpg",
+            "text_headline": "COFFEE TO GO - AEROPRESS®",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_xnpwjt": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Dr-Bronner-Naturseife-60ml-Baby-Mild.jpg",
+            "text_headline": "NATURSEIFEN von Dr.BRONNER",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
         }
       },
       "block_order": [
         "dropdown_4QJAjm",
         "dropdown_teQAFP",
-        "dropdown_UPGpT9",
-        "dropdown_xnpwjt",
         "dropdown_AJkNwL",
-        "dropdown_jkBBw7"
+        "dropdown_jkBBw7",
+        "dropdown_UPGpT9",
+        "dropdown_xnpwjt"
       ],
       "settings": {
         "text_headline": "",
-        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
+        "textarea_text": ""
       }
     },
     "content_image_BiVbti": {
@@ -264,10 +243,11 @@
       "settings": {
         "text_headline": "UNTERSCHLUPFE",
         "textarea_text": "4-Season Zelte mit extra verstärktem Innenzelt für bessere Isolation und Wärmespeicherung.",
-        "url_button_link": "",
-        "text_button_text": "Button",
+        "url_button_link": "https://heimplanet.com/collections/zelte?filter.p.m.custom.filter_aktivit_t_liste=4-Season",
+        "text_button_text": "4-SEASON Zelte ENTDECKEN",
         "url_button_link_2": "",
-        "text_button_text_2": "Button"
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/RicoGlueck_Kirra_Cairocamo_Snow_Winter3.jpg"
       }
     },
     "l_dropdowns_aiN43E": {
@@ -355,10 +335,8 @@
     "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_headline_mono_4Vq68U",
-    "category_MtHEhD",
     "content_image_6z38yU",
     "l_dropdowns_qfRaC4",
-    "l_dropdowns_b36rCk",
     "content_image_Jn7RR6",
     "l_dropdowns_M4kMqy",
     "content_image_dhedwt",
