@@ -219,20 +219,22 @@
     "l_dropdowns_gxk3DH": {
       "type": "l_dropdowns",
       "blocks": {
-        "dropdown_4QJAjm": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/HPT-Selected-HydraPak-Force-2L-1_1024x1024_98a55ab3-9caf-4453-8ebc-804ecfcf15c1.jpg",
-            "text_headline": "Trinkblase - HYDRAPAK 2L",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
-        },
         "dropdown_teQAFP": {
           "type": "dropdown",
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-3.jpg",
             "text_headline": "Packing Cubes",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_packing_cubes_re-store.png"
+          }
+        },
+        "dropdown_4QJAjm": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/HPT-Selected-HydraPak-Force-2L-1_1024x1024_98a55ab3-9caf-4453-8ebc-804ecfcf15c1.jpg",
+            "text_headline": "Trinkblase - HYDRAPAK 2L",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/hydrapak.png"
           }
         },
         "dropdown_DCC4jX": {
@@ -240,7 +242,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/Artikelbild_CE_Kit_BagV2_001_53ee4b25-dff6-4a16-a5e2-9ee5a1061319.jpg",
             "text_headline": "KIT BAG 14L - drybag",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_kit_bag.png"
           }
         },
         "dropdown_AJkNwL": {
@@ -248,7 +251,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/HPT-Selected-Petzl-Swift-RL-Black-1.jpg",
             "text_headline": "STIRNlampen",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/petzl_headlamp.png"
           }
         },
         "dropdown_jkBBw7": {
@@ -256,7 +260,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-X-Mizu-Thermos-200-ML-Silver-Black-2022.jpg",
             "text_headline": "Thermos-flaschen",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_mizu_thermos.png"
           }
         },
         "dropdown_UPGpT9": {
@@ -264,7 +269,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/HPT-Selected-AeroPress-Coffee-Espressomaker-1.jpg",
             "text_headline": "COFFEE TO GO - AEROPRESS®",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/aeropress.png"
           }
         },
         "dropdown_xnpwjt": {
@@ -277,8 +283,8 @@
         }
       },
       "block_order": [
-        "dropdown_4QJAjm",
         "dropdown_teQAFP",
+        "dropdown_4QJAjm",
         "dropdown_DCC4jX",
         "dropdown_AJkNwL",
         "dropdown_jkBBw7",
