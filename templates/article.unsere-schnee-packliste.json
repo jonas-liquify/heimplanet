@@ -18,7 +18,8 @@
         "text_button_text": "JETZT ENTDECKEN",
         "url_button_link": "shopify://collections/4-season-packliste",
         "text_button_text_2": "Button Text",
-        "url_button_link_2": ""
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-Mood.jpg"
       }
     },
     "l_video_L6k4FT": {
@@ -34,14 +35,6 @@
         "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
         "url_button_link": "",
         "text_button_text": "Mehr davon"
-      }
-    },
-    "l_gallery_67Grn9": {
-      "type": "l_gallery",
-      "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
-        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
       }
     },
     "l_headline_mono_4Vq68U": {
@@ -78,6 +71,7 @@
         "dropdown_F4BKrT": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Artikelbild_CE_Neck_Pouch_A5_001_7a7ecdbd-c5d2-49e8-8247-0c0d8bfd4254.jpg",
             "text_headline": "Unter der Jacke - Neck Pouches",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
@@ -85,6 +79,7 @@
         "dropdown_bG7ntj": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Sling-Pocket-Black-1_1024x1024_4e263ea7-c879-499e-b48e-ee268e65cb9d.jpg",
             "text_headline": "über der Jacke - Sling PocketS",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
             "image_bild": "shopify://shop_images/Heimplanet-Sling-Pocket-XL-Castlerock-2.jpg"
@@ -106,6 +101,7 @@
         "dropdown_Yzc8hm": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/60e5b4da711f56e3e892a81c_Artikelbilder_Motion_Ellipse_2020_black_002.jpg",
             "text_headline": "Motion Ellipse 25L",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
@@ -113,6 +109,7 @@
         "dropdown_YMf7eD": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/60e5b4da711f56717092a819_Artikelbilder_Motion_Arc_2020_light_001_f03414db-5b5a-4323-8262-80ba056d5663.jpg",
             "text_headline": "Motion Arc 20L",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
@@ -289,6 +286,17 @@
         "textarea_text": ""
       }
     },
+    "content_image_QwQ7Md": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "UNTERSCHLUPFE",
+        "textarea_text": "4-Season Zelte mit extra verstärktem Innenzelt für bessere Isolation und Wärmespeicherung.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
     "category_3d6icy": {
       "type": "category",
       "settings": {
@@ -315,7 +323,6 @@
     "l_hero_ijQ63U",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
-    "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
     "category_MtHEhD",
     "content_image_6z38yU",
@@ -327,6 +334,7 @@
     "l_dropdowns_gxk3DH",
     "content_image_BiVbti",
     "l_dropdowns_aiN43E",
+    "content_image_QwQ7Md",
     "category_3d6icy",
     "article_next"
   ]
