@@ -44,6 +44,43 @@
         "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
       }
     },
+    "infos_hpYqcf": {
+      "type": "infos",
+      "blocks": {
+        "info_RDP8wQ": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/icons8-winter-96.png",
+            "text_headline": "WETTERFESTIGKEIT",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_xpe8V7": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/240124-Icon-Pole.png",
+            "text_headline": "LANGLEBIGKEIT",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_xPTiX8": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
+            "text_headline": "LEBENSLANGE GARANTIE",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        }
+      },
+      "block_order": [
+        "info_RDP8wQ",
+        "info_xpe8V7",
+        "info_xPTiX8"
+      ],
+      "settings": {
+        "text_headline": "Die Details sind mehr als die Details. Unsere Benefits:"
+      }
+    },
     "content_image_6z38yU": {
       "type": "content_image",
       "settings": {
@@ -326,43 +363,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "infos_hpYqcf": {
-      "type": "infos",
-      "blocks": {
-        "info_RDP8wQ": {
-          "type": "info",
-          "settings": {
-            "image_icon": "shopify://shop_images/icons8-winter-96.png",
-            "text_headline": "WETTERFESTIGKEIT",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
-          }
-        },
-        "info_xpe8V7": {
-          "type": "info",
-          "settings": {
-            "image_icon": "shopify://shop_images/240124-Icon-Pole.png",
-            "text_headline": "LANGLEBIGKEIT",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
-          }
-        },
-        "info_xPTiX8": {
-          "type": "info",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
-            "text_headline": "LEBENSLANGE GARANTIE",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
-          }
-        }
-      },
-      "block_order": [
-        "info_RDP8wQ",
-        "info_xpe8V7",
-        "info_xPTiX8"
-      ],
-      "settings": {
-        "text_headline": "Die Details sind mehr als die Details. Unsere Benefits:"
-      }
     }
   },
   "layout": "article",
@@ -372,6 +372,7 @@
     "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_headline_mono_4Vq68U",
+    "infos_hpYqcf",
     "content_image_6z38yU",
     "l_dropdowns_qfRaC4",
     "content_image_Jn7RR6",
@@ -382,7 +383,6 @@
     "l_dropdowns_aiN43E",
     "content_image_QwQ7Md",
     "category_3d6icy",
-    "article_next",
-    "infos_hpYqcf"
+    "article_next"
   ]
 }
