@@ -37,13 +37,6 @@
         "text_button_text": "Mehr davon"
       }
     },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
-      }
-    },
     "infos_hpYqcf": {
       "type": "infos",
       "blocks": {
@@ -51,8 +44,8 @@
           "type": "info",
           "settings": {
             "image_icon": "shopify://shop_images/icons8-winter-96.png",
-            "text_headline": "WETTERFESTIGKEIT",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "text_headline": "WETTERBESTÄNDIGKEIT",
+            "textarea_text": ""
           }
         },
         "info_xpe8V7": {
@@ -60,7 +53,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/240124-Icon-Pole.png",
             "text_headline": "LANGLEBIGKEIT",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "textarea_text": ""
           }
         },
         "info_xPTiX8": {
@@ -68,7 +61,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
             "text_headline": "LEBENSLANGE GARANTIE",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "textarea_text": ""
           }
         }
       },
@@ -78,7 +71,7 @@
         "info_xPTiX8"
       ],
       "settings": {
-        "text_headline": "Die Details sind mehr als die Details. Unsere Benefits:"
+        "text_headline": "ENTDECKE UNSERE WINTER PACKLISTE - SIE BIETET:"
       }
     },
     "content_image_6z38yU": {
@@ -403,7 +396,6 @@
     "l_hero_ijQ63U",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
-    "l_headline_mono_4Vq68U",
     "infos_hpYqcf",
     "content_image_6z38yU",
     "l_dropdowns_qfRaC4",
