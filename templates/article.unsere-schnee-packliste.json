@@ -100,7 +100,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/Artikelbild_CE_Neck_Pouch_A5_001_7a7ecdbd-c5d2-49e8-8247-0c0d8bfd4254.jpg",
             "text_headline": "Unter der Jacke, Neck Pouches",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_Neck_Pouches.png"
           }
         },
         "dropdown_bG7ntj": {
@@ -109,7 +110,7 @@
             "image_icon": "shopify://shop_images/Heimplanet-Sling-Pocket-Black-1_1024x1024_4e263ea7-c879-499e-b48e-ee268e65cb9d.jpg",
             "text_headline": "über der Jacke, Sling Pockets",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
-            "image_bild": "shopify://shop_images/Heimplanet-Sling-Pocket-XL-Castlerock-2.jpg"
+            "image_bild": "shopify://shop_images/heimplanet_Sling_Pocket.png"
           }
         },
         "dropdown_VYRjf6": {
