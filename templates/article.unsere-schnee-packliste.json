@@ -126,6 +126,14 @@
             "image_bild": "shopify://shop_images/Heimpanet_crewneck_light_grey.jpg"
           }
         },
+        "dropdown_JgwKKi": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-COOLEVER-Longsleeve-reflective-Logo-Ball-Dust-1.jpg",
+            "text_headline": "Langarm-shirts",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
         "dropdown_ccFQxb": {
           "type": "dropdown",
           "settings": {
@@ -141,21 +149,13 @@
             "text_headline": "Halstücher",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
-        },
-        "dropdown_JgwKKi": {
-          "type": "dropdown",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-COOLEVER-Longsleeve-reflective-Logo-Ball-Dust-1.jpg",
-            "text_headline": "Langarm-shirts",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
         }
       },
       "block_order": [
         "dropdown_qJa6bN",
+        "dropdown_JgwKKi",
         "dropdown_ccFQxb",
-        "dropdown_bDUWbp",
-        "dropdown_JgwKKi"
+        "dropdown_bDUWbp"
       ],
       "settings": {
         "text_headline": "",
