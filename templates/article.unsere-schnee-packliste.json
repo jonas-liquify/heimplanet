@@ -215,12 +215,20 @@
             "text_headline": "COFFEE TO GO - AERO PRESS",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
+        },
+        "dropdown_xnpwjt": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "NATURSEIFEN von Dr.BRONNER",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
         }
       },
       "block_order": [
         "dropdown_4QJAjm",
         "dropdown_teQAFP",
-        "dropdown_UPGpT9"
+        "dropdown_UPGpT9",
+        "dropdown_xnpwjt"
       ],
       "settings": {
         "text_headline": "",
@@ -284,11 +292,11 @@
     "category_3d6icy": {
       "type": "category",
       "settings": {
-        "text_headline": "JETZT ENTDECKEN",
+        "text_headline": "ENTDECKE die gesamte 4-Season Packliste.",
         "url_button_link": "shopify://collections/4-season-packliste",
         "text_button_text": "ALLE ANSEHEN",
         "collection_collection": "4-season-packliste",
-        "collection_collection_limit": 20
+        "collection_collection_limit": 40
       }
     },
     "article_next": {
