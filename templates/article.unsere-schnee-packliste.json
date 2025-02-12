@@ -303,7 +303,7 @@
     "content_image_BiVbti": {
       "type": "content_image",
       "settings": {
-        "text_headline": "SCHUTZ VOR WIND & WETTER",
+        "text_headline": "ZELTE FÜR DEN WINTER",
         "textarea_text": "4-Season Zelte mit extra verstärktem Innenzelt für bessere Isolation und Wärmespeicherung.",
         "url_button_link": "https://heimplanet.com/collections/zelte?filter.p.m.custom.filter_aktivit_t_liste=4-Season",
         "text_button_text": "4-SEASON Zelte",
@@ -366,12 +366,13 @@
     "content_image_QwQ7Md": {
       "type": "content_image",
       "settings": {
-        "text_headline": "UNTERSCHLUPFE",
-        "textarea_text": "4-Season Zelte mit extra verstärktem Innenzelt für bessere Isolation und Wärmespeicherung.",
+        "text_headline": "4-SEASON PACKLISTE",
+        "textarea_text": "Hier sind ist noch einmal das gesamte Equipment aus diesem Artikel aufgelistet. Auf ins nächste Abenteuer!",
         "url_button_link": "",
         "text_button_text": "Button",
         "url_button_link_2": "",
-        "text_button_text_2": "Button"
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Heimplanet-Blog-2023-Wintercamp-3.jpg"
       }
     },
     "category_3d6icy": {
