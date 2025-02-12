@@ -376,6 +376,7 @@
     },
     "category_3d6icy": {
       "type": "category",
+      "disabled": true,
       "settings": {
         "text_headline": "GESAMTE PACKLISTE DURCHSTÖBERN:",
         "url_button_link": "shopify://collections/4-season-packliste",
