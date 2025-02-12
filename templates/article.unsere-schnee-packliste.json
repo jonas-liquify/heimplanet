@@ -116,30 +116,14 @@
             "text_headline": "Motion Arc 20L",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
-        },
-        "dropdown_D9YLUt": {
-          "type": "dropdown",
-          "settings": {
-            "text_headline": "Packing Cubes",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
-        },
-        "dropdown_kiqVm9": {
-          "type": "dropdown",
-          "settings": {
-            "text_headline": "Simple Pouches",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
-          }
         }
       },
       "block_order": [
         "dropdown_Yzc8hm",
-        "dropdown_YMf7eD",
-        "dropdown_D9YLUt",
-        "dropdown_kiqVm9"
+        "dropdown_YMf7eD"
       ],
       "settings": {
-        "text_headline": "Rucksäcke & Organizer",
+        "text_headline": "Leichte Rucksäcke",
         "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
       }
     },
