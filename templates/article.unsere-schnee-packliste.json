@@ -236,6 +236,14 @@
             "text_headline": "STIRNlampen",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
+        },
+        "dropdown_jkBBw7": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-X-Mizu-Thermos-200-ML-Silver-Black-2022.jpg",
+            "text_headline": "Thermos-flaschen",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
         }
       },
       "block_order": [
@@ -243,7 +251,8 @@
         "dropdown_teQAFP",
         "dropdown_UPGpT9",
         "dropdown_xnpwjt",
-        "dropdown_AJkNwL"
+        "dropdown_AJkNwL",
+        "dropdown_jkBBw7"
       ],
       "settings": {
         "text_headline": "",
