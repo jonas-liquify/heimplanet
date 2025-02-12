@@ -118,7 +118,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/60e5b4da711f56e3e892a81c_Artikelbilder_Motion_Ellipse_2020_black_002.jpg",
             "text_headline": "25L Rucksack, Motion Ellipse",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/Ellipse.png"
           }
         },
         "dropdown_nNrpRc": {
@@ -126,7 +127,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/60e5b4da711f56717092a819_Artikelbilder_Motion_Arc_2020_light_001_f03414db-5b5a-4323-8262-80ba056d5663.jpg",
             "text_headline": "20L Rucksack. Motion Arc",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_Arc.png"
           }
         }
       },
