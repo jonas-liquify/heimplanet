@@ -163,7 +163,7 @@
             "image_icon": "shopify://shop_images/Heimplanet-Crewneck-Anthracite-2022-1.jpg",
             "text_headline": "Merino-Oberteile",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
-            "image_bild": "shopify://shop_images/Heimpanet_crewneck_light_grey.jpg"
+            "image_bild": "shopify://shop_images/heimlanet_crewneck_hoodie.png"
           }
         },
         "dropdown_JgwKKi": {
@@ -171,7 +171,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-COOLEVER-Longsleeve-reflective-Logo-Ball-Dust-1.jpg",
             "text_headline": "Langarm-shirts",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_longsleeves.png"
           }
         },
         "dropdown_ccFQxb": {
@@ -179,7 +180,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-Beanie-Short-Red-1.jpg",
             "text_headline": "Mützen",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_muetzen.png"
           }
         },
         "dropdown_bDUWbp": {
@@ -187,7 +189,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-Headband-Cairo-Grid-Special-Edition-1.jpg",
             "text_headline": "Halstücher",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_headbands.png"
           }
         }
       },
@@ -232,6 +235,13 @@
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         },
+        "dropdown_DCC4jX": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "KIT BAG 14L - drybag",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
         "dropdown_AJkNwL": {
           "type": "dropdown",
           "settings": {
@@ -268,6 +278,7 @@
       "block_order": [
         "dropdown_4QJAjm",
         "dropdown_teQAFP",
+        "dropdown_DCC4jX",
         "dropdown_AJkNwL",
         "dropdown_jkBBw7",
         "dropdown_UPGpT9",
