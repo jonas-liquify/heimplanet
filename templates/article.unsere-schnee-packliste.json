@@ -61,20 +61,31 @@
         "collection_collection_limit": 20
       }
     },
+    "content_image_6z38yU": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "TASCHEN FÜR UNTERWEGS",
+        "textarea_text": "Rucksäcke, Hüfttaschen, Organizer",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
     "l_dropdowns_qfRaC4": {
       "type": "l_dropdowns",
       "blocks": {
         "dropdown_F4BKrT": {
           "type": "dropdown",
           "settings": {
-            "text_headline": "Für unter der Jacke",
+            "text_headline": "Unter der Jacke - Neck Pouches",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         },
         "dropdown_bG7ntj": {
           "type": "dropdown",
           "settings": {
-            "text_headline": "über der Jacke",
+            "text_headline": "über der Jacke - Sling PocketS",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
             "image_bild": "shopify://shop_images/Heimplanet-Sling-Pocket-XL-Castlerock-2.jpg"
           }
@@ -86,6 +97,76 @@
       ],
       "settings": {
         "text_headline": "Kleine taschen",
+        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
+      }
+    },
+    "l_dropdowns_b36rCk": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_Yzc8hm": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Motion Ellipse 25L",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_YMf7eD": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Motion Arc 20L",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_D9YLUt": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Packing Cubes",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_kiqVm9": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Simple Pouches",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_Yzc8hm",
+        "dropdown_YMf7eD",
+        "dropdown_D9YLUt",
+        "dropdown_kiqVm9"
+      ],
+      "settings": {
+        "text_headline": "Rucksäcke & Organizer",
+        "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
+      }
+    },
+    "l_dropdowns_gxk3DH": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_4QJAjm": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Packing Cubes",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_teQAFP": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "über der Jacke",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_4QJAjm",
+        "dropdown_teQAFP"
+      ],
+      "settings": {
+        "text_headline": "Praktische Organizer",
         "textarea_text": "Für immer dabei - Handy, Schlüssel, Geldbeutel, Liftkarte etc."
       }
     },
@@ -107,17 +188,6 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "content_image_6z38yU": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "TASCHEN FÜR UNTERWEGS",
-        "textarea_text": "Rucksäcke, Hüfttaschen, Organizer",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button"
-      }
     }
   },
   "layout": "article",
@@ -131,6 +201,8 @@
     "category_MtHEhD",
     "content_image_6z38yU",
     "l_dropdowns_qfRaC4",
+    "l_dropdowns_b36rCk",
+    "l_dropdowns_gxk3DH",
     "category_3d6icy",
     "article_next"
   ]
