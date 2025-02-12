@@ -141,8 +141,10 @@
         "dropdown_qJa6bN": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Crewneck-Anthracite-2022-1.jpg",
             "text_headline": "Merino-Oberteile",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/Heimpanet_crewneck_light_grey.jpg"
           }
         },
         "dropdown_ccFQxb": {
