@@ -238,6 +238,7 @@
         "dropdown_DCC4jX": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/Artikelbild_CE_Kit_BagV2_001_53ee4b25-dff6-4a16-a5e2-9ee5a1061319.jpg",
             "text_headline": "KIT BAG 14L - drybag",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
