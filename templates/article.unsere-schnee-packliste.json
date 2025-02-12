@@ -318,25 +318,28 @@
         "dropdown_gT8djK": {
           "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/24-01-29__Tent_dimensions_Liegeflaechen2.png",
+            "image_icon": "shopify://shop_images/Kirra_IDG_Technik_Landing.png",
             "text_headline": "Kirra 4-Season // 2 Personen",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_kirra_4_season.png"
           }
         },
         "dropdown_Fp4JNp": {
           "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/24-01-29__Tent_dimensions_Liegeflaechen4.png",
+            "image_icon": "shopify://shop_images/IDG_TheCave.png",
             "text_headline": "THE CAVE XL 4-Season // 3 PERSONEN",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_the_cave_xl_4_season.png"
           }
         },
         "dropdown_mcTWnV": {
           "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/24-01-29__Tent_dimensions_Liegeflaechen5.png",
+            "image_icon": "shopify://shop_images/IDG_Backdoor.png",
             "text_headline": "BACKDOOR 4-Season // 4-PERSONEN",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_backdoor_4_season.png"
           }
         },
         "dropdown_L7MwEA": {
@@ -344,7 +347,8 @@
           "settings": {
             "image_icon": "shopify://shop_images/Heimplanet-The-Cave-XL-Groundsheet_5efe2993-d01b-4051-af87-b2d3514c5b38.jpg",
             "text_headline": "ZELTUNTERLAGEN - Extra schutz vor bodenkälte",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,",
+            "image_bild": "shopify://shop_images/heimplanet_zeltunterlage.png"
           }
         }
       },
