@@ -372,13 +372,12 @@
     },
     "category_3d6icy": {
       "type": "category",
-      "disabled": true,
       "settings": {
-        "text_headline": "GESAMTE PACKLISTE DURCHSTÖBERN:",
+        "text_headline": "GesamtE PACKLISTE DURCHSTÖBERN:",
         "url_button_link": "shopify://collections/4-season-packliste",
         "text_button_text": "ALLE ANSEHEN",
         "collection_collection": "4-season-packliste",
-        "collection_collection_limit": 40
+        "collection_collection_limit": 45
       }
     },
     "article_next": {
