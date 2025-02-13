@@ -44,27 +44,46 @@
         "text_video_url": "https://www.youtube-nocookie.com/embed/LUl8mW9_tLM?si=bTabaGcAXqnH8kuf"
       }
     },
-    "l_content_right_fX4Dcz": {
-      "type": "l_content_right",
+    "l_dropdowns_qLg3dq": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_TpXTMK": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen & Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_EiFzAk": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen & Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_eQqYXe": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen & Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
+        "dropdown_KTR7wV": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "Häufige Fragen & Antworten",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_TpXTMK",
+        "dropdown_EiFzAk",
+        "dropdown_eQqYXe",
+        "dropdown_KTR7wV"
+      ],
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-12.jpg",
-        "text_headline": "Der ‘Untersee’",
-        "textarea_text": ""
-      }
-    },
-    "l_content_left_LMgdf7": {
-      "type": "l_content_left",
-      "settings": {
-        "text_headline": "Leben und Arbeiten",
-        "textarea_text": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-4.jpg"
-      }
-    },
-    "l_content_right_hKLaVw": {
-      "type": "l_content_right",
-      "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-7.jpg",
-        "text_headline": "Unterwegs in die Antarktis",
+        "text_headline": "",
         "textarea_text": ""
       }
     },
@@ -137,9 +156,7 @@
     "article_products_V4qaqk",
     "l_text_logos_4BxefE",
     "l_video_gFaUKN",
-    "l_content_right_fX4Dcz",
-    "l_content_left_LMgdf7",
-    "l_content_right_hKLaVw",
+    "l_dropdowns_qLg3dq",
     "l_gallery_67Grn9",
     "l_produkt_QbA6R8",
     "article_next"
