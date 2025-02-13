@@ -358,22 +358,10 @@
         "textarea_text": ""
       }
     },
-    "content_image_QwQ7Md": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "4-SEASON PACKLISTE",
-        "textarea_text": "Hier sind ist noch einmal das gesamte Equipment aus diesem Artikel aufgelistet. Auf ins nächste Abenteuer!",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/Heimplanet-Blog-2023-Wintercamp-3.jpg"
-      }
-    },
     "category_3d6icy": {
       "type": "category",
       "settings": {
-        "text_headline": "GesamtE PACKLISTE DURCHSTÖBERN:",
+        "text_headline": "Gesamte packiste entdecken:",
         "url_button_link": "shopify://collections/4-season-packliste",
         "text_button_text": "ALLE ANSEHEN",
         "collection_collection": "4-season-packliste",
@@ -405,7 +393,6 @@
     "l_dropdowns_gxk3DH",
     "content_image_BiVbti",
     "l_dropdowns_aiN43E",
-    "content_image_QwQ7Md",
     "category_3d6icy",
     "article_next"
   ]
