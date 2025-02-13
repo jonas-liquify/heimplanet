@@ -16,7 +16,7 @@
         "text_headline": "4-Season Packliste",
         "textarea_longer_text": "Nützliches Equipment für dein nächstes Winterabenteuer.",
         "text_button_text": "Jetzt entdecken",
-        "url_button_link": "shopify://collections/4-season-packliste",
+        "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-Mood.jpg"
@@ -206,7 +206,7 @@
       "settings": {
         "text_headline": "Praktisches accessoires",
         "textarea_text": "Auf die Kleinigkeiten kommt es an! \n<br>Packing Cubes, Drybag, Trinkblase, Stirnlampen und vieles mehr.",
-        "url_button_link": "",
+        "url_button_link": "https://heimplanet.com/collections/taschen?filter.p.m.custom.filter_kollektion_liste=Carry+Essentials",
         "text_button_text": "CARRY ESSENTIALS",
         "url_button_link_2": "shopify://collections/hpt-selected",
         "text_button_text_2": "HPT-SELECTED",
