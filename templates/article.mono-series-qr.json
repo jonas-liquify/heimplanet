@@ -162,10 +162,9 @@
     },
     "l_video_L6k4FT": {
       "type": "l_video",
-      "disabled": true,
       "custom_css": [],
       "settings": {
-        "text_video_url": ""
+        "text_video_url": "https://www.youtube.com/embed/fw6oAB0-I2E?si=pX88T4z5_NHN5Aj1"
       }
     },
     "article_products_V4qaqk": {
@@ -181,13 +180,13 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_video_L6k4FT",
     "l_content_left_aGDP9m",
     "l_content_right_MaMwry",
     "l_content_left_dzUanx",
     "l_grid_xawf9F",
     "l_content_left_3nhLVM",
     "l_dropdowns_BzMTbG",
-    "l_video_L6k4FT",
     "article_products_V4qaqk"
   ]
 }
