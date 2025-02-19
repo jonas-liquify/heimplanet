@@ -103,27 +103,25 @@
         "text_text": "Das Projekt Wintercamp in den Schweizer Alpen war nicht nur ein Abenteuer in der Natur, sondern auch eine Reise zu persönlichem Wachstum und unvergesslichen Momenten. Wir können auf eine Erfahrung zurückblicken, die uns unsere persönliche Grenzen genauso wie die Schönheit der winterlichen Alpenlandschaft offenbarte."
       }
     },
-    "blog_aBrr9z": {
-      "type": "blog",
+    "l_produkt_xNAcTr": {
+      "type": "l_produkt",
+      "settings": {
+        "text_headline": "Kirra, Cairo Camo",
+        "textarea_beschreibung": "",
+        "text_preis": "899€",
+        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_button_text": "Zum Kirra",
+        "url_produkt_link": "shopify://products/kirra-cairo-camo",
+        "checkbox_swiper_script": true
+      }
+    },
+    "article_next_ma9Uey": {
+      "type": "article_next",
       "settings": {
         "text_headline": "Weitere Beiträge",
         "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
-        "article_artikel": "",
-        "blog_blog": "abenteuer",
-        "post_limit_blog": 3
-      }
-    },
-    "l_produkt_xNAcTr": {
-      "type": "l_produkt",
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        "text_preis": "49€",
-        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
-        "text_button_text": "Jetzt vorbestellen",
-        "url_produkt_link": "",
-        "checkbox_swiper_script": true
+        "text_blog_handle": "This is some text inside of a div block."
       }
     }
   },
@@ -137,7 +135,7 @@
     "l_content_left_trLC36",
     "l_dropdowns_4VcQbW",
     "l_text_logos_eR8C4N",
-    "blog_aBrr9z",
-    "l_produkt_xNAcTr"
+    "l_produkt_xNAcTr",
+    "article_next_ma9Uey"
   ]
 }
