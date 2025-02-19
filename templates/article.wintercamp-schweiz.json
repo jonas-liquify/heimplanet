@@ -54,14 +54,6 @@
         "image_bild": "shopify://shop_images/01_2024_HPT_-_011.jpg"
       }
     },
-    "l_content_right_GxgiXk": {
-      "type": "l_content_right",
-      "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Blog-2023-Wintercamp-9.jpg",
-        "text_headline": "Der Nachthimmel",
-        "textarea_text": "Kurz vor dem Schlafengehen trat ein leichter Wind auf, der die Bedingungen verschärfte und die gefühlte Temperatur noch einmal sinken lies (Windchill). Doch dieser erschwerte Moment wurde durch den nächtlichen Himmel belohnt. Der klare Nachthimmel über den Schweizer Alpen bot einen unfassbaren Anblick - direkt vor unseren Augen offenbarte sich die Milchstraße in all ihrer Schönheit."
-      }
-    },
     "l_dropdowns_4VcQbW": {
       "type": "l_dropdowns",
       "blocks": {
@@ -107,8 +99,19 @@
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
-        "text_headline": "",
+        "text_headline": "Eisige Nächte, starke Erinnerungen",
         "text_text": "Das Projekt Wintercamp in den Schweizer Alpen war nicht nur ein Abenteuer in der Natur, sondern auch eine Reise zu persönlichem Wachstum und unvergesslichen Momenten. Wir können auf eine Erfahrung zurückblicken, die uns unsere persönliche Grenzen genauso wie die Schönheit der winterlichen Alpenlandschaft offenbarte."
+      }
+    },
+    "blog_aBrr9z": {
+      "type": "blog",
+      "settings": {
+        "text_headline": "Aktuelle beiträge",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon",
+        "article_artikel": "",
+        "blog_blog": "",
+        "post_limit_blog": 3
       }
     }
   },
@@ -120,8 +123,8 @@
     "l_content_left_T9XrUg",
     "l_content_right_zTWGUC",
     "l_content_left_trLC36",
-    "l_content_right_GxgiXk",
     "l_dropdowns_4VcQbW",
-    "l_text_logos_eR8C4N"
+    "l_text_logos_eR8C4N",
+    "blog_aBrr9z"
   ]
 }
