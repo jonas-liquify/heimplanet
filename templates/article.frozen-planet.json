@@ -103,6 +103,16 @@
         "text_text": "Als sich die Expedition Anfang November entfaltet, stehen Andersen und sein Team vor der unberechenbaren Natur des antarktischen Wetters. Von ruhigem Sonnenschein bis hin zu heulenden Winden von über 70 mph brachte jeder Tag neue Herausforderungen und Triumphe. Trotz des Verlusts eines Zeltes in einem plötzlichen Schneesturm beharren Andersen und sein Team darauf, sich im Angesicht dieser Naturgewalten widerstandsfähig und anpassungsfähig zu zeigen. \"Unsere Heimplanet Mavericks Zelte haben sich letzte Nacht bewährt und sind standhaft gegen die böigen Winde geblieben. Wir erwarten eine weitere Bewährungsprobe diesen kommenden Donnerstag, da die Wettervorhersage sogar noch stärkere Winde voraussagt\", fährt Andersen fort.<br><br>Mitte November zeigt sich das antarktische Wetter als unerbittlich, als ein mächtiger Blizzard mit Winden von bis zu 105 mph die Entschlossenheit des Teams auf die Probe stellt. Die Zelte werden absichtlich zusammengeklappt, um Zerstörung zu vermeiden, doch durch Teamarbeit und Entschlossenheit wird das Lager wieder aufgebaut, was den unbeugsamen Geist der Erkundung zeigt. Bei klarem Himmel und nachlassenden Winden setzen Andersen und sein Team ihre Forschung fort: \"Die schnelle Aufblaszeit von nur wenigen Minuten für die Luftrahmen des Heimplanet Cave-Zeltes erweist sich für uns als game-changer, da es uns einen schnellen Unterstand für wichtige Aufgaben wie das Aufstellen des ROV für Unterwasseruntersuchungen unter dem Eis oder das Durchführen von Unterwassermessungen bietet.\""
       }
     },
+    "l_content_image_bg_m37zQE": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "",
+        "text_headline_2": "Fortsetzung folgt...",
+        "image_bild": "shopify://shop_images/DSC_7444_1.jpg"
+      }
+    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
@@ -166,6 +176,7 @@
     "l_video_gFaUKN",
     "l_dropdowns_qLg3dq",
     "l_text_logos_CAKfR8",
+    "l_content_image_bg_m37zQE",
     "l_produkt_QbA6R8",
     "article_next"
   ]
