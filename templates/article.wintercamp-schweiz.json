@@ -65,6 +65,15 @@
     "l_dropdowns_4VcQbW": {
       "type": "l_dropdowns",
       "blocks": {
+        "dropdown_LG8DUL": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
+            "text_headline": "Der Nachthimmel",
+            "textarea_text": "Kurz vor dem Schlafengehen trat ein leichter Wind auf, der die Bedingungen verschärfte und die gefühlte Temperatur noch einmal sinken lies (Windchill). Doch dieser erschwerte Moment wurde durch den nächtlichen Himmel belohnt. Der klare Nachthimmel über den Schweizer Alpen bot einen unfassbaren Anblick - direkt vor unseren Augen offenbarte sich die Milchstraße in all ihrer Schönheit.",
+            "image_bild": "shopify://shop_images/Heimplanet-Blog-2023-Wintercamp-9.jpg"
+          }
+        },
         "dropdown_UBCkwj": {
           "type": "dropdown",
           "settings": {
@@ -85,6 +94,7 @@
         }
       },
       "block_order": [
+        "dropdown_LG8DUL",
         "dropdown_UBCkwj",
         "dropdown_tEw4YQ"
       ],
