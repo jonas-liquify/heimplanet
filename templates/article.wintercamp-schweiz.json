@@ -9,45 +9,30 @@
  */
 {
   "sections": {
-    "collection_hero": {
-      "type": "collection_hero",
+    "l_hero_wbTfCp": {
+      "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "{{ article.title }}",
-        "textarea_paragraph": "",
+        "text_headline": "Wintercamp in den Schweizer Alpen",
+        "textarea_longer_text": "<br>Eine Geschichte über stechende Minusgrade, atemberaubende Höhenmeter und Nudeln mit Pesto. Begleite Sam & Rico auf ihrem unvergessliches Winterabenteuer.",
+        "text_button_text": "Button Text",
         "url_button_link": "",
-        "text_button_text": "Jetzt entdecken",
-        "image_bild": "{{ article.image }}"
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/01_2024_HPT_-_011.jpg"
       }
     },
-    "article_content": {
-      "type": "article_content",
-      "settings": {}
-    },
-    "article_products_V4qaqk": {
-      "type": "article_products",
+    "l_video_y97zRm": {
+      "type": "l_video",
       "settings": {
-        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon"
-      }
-    },
-    "article_next": {
-      "type": "article_next",
-      "settings": {
-        "text_headline": "Weitere Beiträge",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon",
-        "text_blog_handle": "abenteuer"
+        "text_video_url": "This is some text inside of a div block."
       }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
-    "collection_hero",
-    "article_content",
-    "article_products_V4qaqk",
-    "article_next"
+    "l_hero_wbTfCp",
+    "l_video_y97zRm"
   ]
 }
