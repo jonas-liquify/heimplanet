@@ -105,6 +105,17 @@
     },
     "l_produkt_xNAcTr": {
       "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_X9tz3z": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Cairo-Camo-Landing-Page.png"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_X9tz3z"
+      ],
       "settings": {
         "text_headline": "Kirra, Cairo Camo",
         "textarea_beschreibung": "",
