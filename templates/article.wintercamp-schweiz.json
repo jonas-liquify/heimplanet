@@ -106,6 +106,24 @@
     "l_produkt_xNAcTr": {
       "type": "l_produkt",
       "blocks": {
+        "fact_aPLrKz": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Hervorragende Stabilität"
+          }
+        },
+        "fact_pTKfNf": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Einfache Handhabung"
+          }
+        },
+        "fact_PJTM8j": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Lebenslange Garantie"
+          }
+        },
         "produkt_slider_X9tz3z": {
           "type": "produkt-slider",
           "settings": {
@@ -114,13 +132,16 @@
         }
       },
       "block_order": [
+        "fact_aPLrKz",
+        "fact_pTKfNf",
+        "fact_PJTM8j",
         "produkt_slider_X9tz3z"
       ],
       "settings": {
         "text_headline": "Kirra, Cairo Camo",
         "textarea_beschreibung": "",
         "text_preis": "899€",
-        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
+        "text_hinweis": "",
         "text_button_text": "Zum Kirra",
         "url_produkt_link": "shopify://products/kirra-cairo-camo",
         "checkbox_swiper_script": true
