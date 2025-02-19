@@ -72,16 +72,41 @@
             "text_headline": "Unterwegs in die Antarktis",
             "textarea_text": "Nach einer 10-tägigen Verzögerung in Kapstadt, Südafrika, aufgrund von Schneestürmen, brach Dale Andersen am 26. Oktober endlich zur Antarktis auf. Die Eislandebahn in der Schirmacher-Oase war geräumt worden und markierte den Beginn von Andersens 27. Feldsaison in der Antarktis. Sein Ziel? Der Untersee, eingebettet in die Berge von Königin-Maud-Land. Mit hoher Erwartung und bevorstehenden Entdeckungen im Blick machte sich Andersen auf zu einer weiteren Saison der Erkundung: „Wir haben noch eine beträchtliche Menge Arbeit zu erledigen, bevor wir mit der Traversierung beginnen können. Die heutigen Bedingungen sind herausfordernd, mit Schneetreiben, schlechter Sicht und zeitweiligen Schneestürmen, daher werden Outdoor-Aktivitäten begrenzt sein. Wir können jedoch diese Zeit nutzen, um die Ausrüstung drinnen zu sortieren und uns etwas auszuruhen.“"
           }
+        },
+        "dropdown_BLJyFX": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
+            "text_headline": "Aufbau des Lagers",
+            "textarea_text": "Nach einer erfolgreichen Reise von der Novo-Eislandebahn zum Untersee haben Andersen und sein Team die Herausforderungen der Navigation durch die eisigen Ebenen der Antarktis gemeistert. Trotz schlechter Lichtverhältnisse und mechanischer Probleme mit ihren Traverse-Schlitten haben sie ihr Lager aufgeschlagen und sind bereit, ihre Forschung zu beginnen. \"Der Bau eines robusten und zuverlässigen Unterschlupfs ist unerlässlich, besonders angesichts der plötzlichen, starken Winde in der Gegend. Ich habe auch mehrere Panoramabilder unserer Umgebung eingefügt. Während die Berge auf diesen Bildern linear erscheinen, bilden sie tatsächlich einen nahezu vollständigen Kreis um uns herum und erschaffen ein atemberaubendes natürliches Amphitheater\", schrieb Andersen in einem Brief an Keith Cowing, einen Fellow des Explorers Club, ehemaligen Payload-Manager der NASA-Raumstation/space Biologen und Journalisten bei astrobiology.com.",
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-3.jpg"
+          }
         }
       },
       "block_order": [
         "dropdown_TpXTMK",
         "dropdown_EiFzAk",
-        "dropdown_eQqYXe"
+        "dropdown_eQqYXe",
+        "dropdown_BLJyFX"
       ],
       "settings": {
         "text_headline": "",
         "textarea_text": ""
+      }
+    },
+    "l_content_right_D7bkib": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-3.jpg",
+        "text_headline": "Aufbau des Lagers",
+        "textarea_text": "Nach einer erfolgreichen Reise von der Novo-Eislandebahn zum Untersee haben Andersen und sein Team die Herausforderungen der Navigation durch die eisigen Ebenen der Antarktis gemeistert. Trotz schlechter Lichtverhältnisse und mechanischer Probleme mit ihren Traverse-Schlitten haben sie ihr Lager aufgeschlagen und sind bereit, ihre Forschung zu beginnen. \"Der Bau eines robusten und zuverlässigen Unterschlupfs ist unerlässlich, besonders angesichts der plötzlichen, starken Winde in der Gegend. Ich habe auch mehrere Panoramabilder unserer Umgebung eingefügt. Während die Berge auf diesen Bildern linear erscheinen, bilden sie tatsächlich einen nahezu vollständigen Kreis um uns herum und erschaffen ein atemberaubendes natürliches Amphitheater\", schrieb Andersen in einem Brief an Keith Cowing, einen Fellow des Explorers Club, ehemaligen Payload-Manager der NASA-Raumstation/space Biologen und Journalisten bei astrobiology.com."
+      }
+    },
+    "l_content_left_6pXdEC": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Schlechtes Wetter",
+        "textarea_text": "Als sich die Expedition Anfang November entfaltet, stehen Andersen und sein Team vor der unberechenbaren Natur des antarktischen Wetters. Von ruhigem Sonnenschein bis hin zu heulenden Winden von über 70 mph brachte jeder Tag neue Herausforderungen und Triumphe. Trotz des Verlusts eines Zeltes in einem plötzlichen Schneesturm beharren Andersen und sein Team darauf, sich im Angesicht dieser Naturgewalten widerstandsfähig und anpassungsfähig zu zeigen. \"Unsere Heimplanet Mavericks Zelte haben sich letzte Nacht bewährt und sind standhaft gegen die böigen Winde geblieben. Wir erwarten eine weitere Bewährungsprobe diesen kommenden Donnerstag, da die Wettervorhersage sogar noch stärkere Winde voraussagt\", fährt Andersen fort.\n<br><br>\nMitte November zeigt sich das antarktische Wetter als unerbittlich, als ein mächtiger Blizzard mit Winden von bis zu 105 mph die Entschlossenheit des Teams auf die Probe stellt. Die Zelte werden absichtlich zusammengeklappt, um Zerstörung zu vermeiden, doch durch Teamarbeit und Entschlossenheit wird das Lager wieder aufgebaut, was den unbeugsamen Geist der Erkundung zeigt. Bei klarem Himmel und nachlassenden Winden setzen Andersen und sein Team ihre Forschung fort: \"Die schnelle Aufblaszeit von nur wenigen Minuten für die Luftrahmen des Heimplanet Cave-Zeltes erweist sich für uns als game-changer, da es uns einen schnellen Unterstand für wichtige Aufgaben wie das Aufstellen des ROV für Unterwasseruntersuchungen unter dem Eis oder das Durchführen von Unterwassermessungen bietet.\""
       }
     },
     "l_produkt_QbA6R8": {
@@ -136,6 +161,14 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "l_text_logos_CAKfR8": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "text_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?"
+      }
     }
   },
   "layout": "article",
@@ -146,7 +179,10 @@
     "l_text_logos_4BxefE",
     "l_video_gFaUKN",
     "l_dropdowns_qLg3dq",
+    "l_content_right_D7bkib",
+    "l_content_left_6pXdEC",
     "l_produkt_QbA6R8",
-    "article_next"
+    "article_next",
+    "l_text_logos_CAKfR8"
   ]
 }
