@@ -103,13 +103,11 @@
         "text_text": "Als sich die Expedition Anfang November entfaltet, stehen Andersen und sein Team vor der unberechenbaren Natur des antarktischen Wetters. Von ruhigem Sonnenschein bis hin zu heulenden Winden von über 70 mph brachte jeder Tag neue Herausforderungen und Triumphe. Trotz des Verlusts eines Zeltes in einem plötzlichen Schneesturm beharren Andersen und sein Team darauf, sich im Angesicht dieser Naturgewalten widerstandsfähig und anpassungsfähig zu zeigen. \"Unsere Heimplanet Mavericks Zelte haben sich letzte Nacht bewährt und sind standhaft gegen die böigen Winde geblieben. Wir erwarten eine weitere Bewährungsprobe diesen kommenden Donnerstag, da die Wettervorhersage sogar noch stärkere Winde voraussagt\", fährt Andersen fort.<br><br>Mitte November zeigt sich das antarktische Wetter als unerbittlich, als ein mächtiger Blizzard mit Winden von bis zu 105 mph die Entschlossenheit des Teams auf die Probe stellt. Die Zelte werden absichtlich zusammengeklappt, um Zerstörung zu vermeiden, doch durch Teamarbeit und Entschlossenheit wird das Lager wieder aufgebaut, was den unbeugsamen Geist der Erkundung zeigt. Bei klarem Himmel und nachlassenden Winden setzen Andersen und sein Team ihre Forschung fort: \"Die schnelle Aufblaszeit von nur wenigen Minuten für die Luftrahmen des Heimplanet Cave-Zeltes erweist sich für uns als game-changer, da es uns einen schnellen Unterstand für wichtige Aufgaben wie das Aufstellen des ROV für Unterwasseruntersuchungen unter dem Eis oder das Durchführen von Unterwassermessungen bietet.\""
       }
     },
-    "l_content_image_bg_m37zQE": {
-      "type": "l_content_image_bg",
+    "l_content_left_dVcagj": {
+      "type": "l_content_left",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "Fortsetzung folgt...",
+        "text_headline": "Fortsetzung folgt...",
+        "textarea_text": "Während Dale Andersen und sein Team die Antarktisexpedition fortsetzt, werden wir an den unerschütterlichen Erkundungsgeist der Menschheit erinnert. Durch Ausdauer und wissenschaftliche Neugier treiben Andersen und sein Team die Grenzen der Erforschung voran, indem sie die Geheimnisse einer der extremsten Umgebungen der Erde enträtseln und uns dabei wertvolles Feedback für die weitere Verbesserung unserer Zelte geben. Dale Andersen kehrt für eine weitere Forschungsfeldsaison in die Antarktis – und zum Untersee – zurück. Wir werden seine Updates hier veröffentlichen. Über seine früheren Erfolge kannst du dich hier informieren.\n<br><br>\n<p>Klicke hier um mehr über <span style=\"text-decoration: underline;\"><strong><a href=\"https://heimplanet.com/products/mavericks-basecamp\" target=\"_blank\">Mavericks</a></strong></span> oder die Heimplanet <span style=\"text-decoration: underline;\"><strong><a href=\"https://heimplanet.com/blogs/designraum/zelttechnik\" target=\"_blank\">Zelttechnik</a></strong></span> zu erfahren. </p>\n<p> </p>\n<p>Fotocredit: Klemens Weisleitner</p>",
         "image_bild": "shopify://shop_images/DSC_7444_1.jpg"
       }
     },
@@ -176,7 +174,7 @@
     "l_video_gFaUKN",
     "l_dropdowns_qLg3dq",
     "l_text_logos_CAKfR8",
-    "l_content_image_bg_m37zQE",
+    "l_content_left_dVcagj",
     "l_produkt_QbA6R8",
     "article_next"
   ]
