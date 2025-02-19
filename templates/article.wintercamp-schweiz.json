@@ -61,6 +61,45 @@
         "text_headline": "Der Nachthimmel",
         "textarea_text": "Kurz vor dem Schlafengehen trat ein leichter Wind auf, der die Bedingungen verschärfte und die gefühlte Temperatur noch einmal sinken lies (Windchill). Doch dieser erschwerte Moment wurde durch den nächtlichen Himmel belohnt. Der klare Nachthimmel über den Schweizer Alpen bot einen unfassbaren Anblick - direkt vor unseren Augen offenbarte sich die Milchstraße in all ihrer Schönheit."
       }
+    },
+    "l_dropdowns_4VcQbW": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_UBCkwj": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
+            "text_headline": "Als Team durch die Natur",
+            "textarea_text": "Der Abstieg über 1400 Höhenmeter erforderte eine sorgfältige Strategie, bei der die Geschwindigkeit und Sicherheitsabstände auf den vereisten Hängen stets beachtet werden mussten. Als Team navigierten wir durch die verschneiten Pfade und passten uns den herausfordernden Bedingungen so gut wir konnten an.",
+            "image_bild": "shopify://shop_images/RicoGlueck-Kirra-Cairo-Camo.jpg"
+          }
+        },
+        "dropdown_tEw4YQ": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
+            "text_headline": "Begegnung mit Tourenskifahrern",
+            "textarea_text": "Am Ende unserer Tour trafen wir auf Tourenskifahrer, die erstaunt fragten, ob sie tatsächlich bei diesen extremen Bedingungen gezeltet hatten. Diese Begegnung führte uns noch einmal die Besonderheit unseres Unterfangens vor Augen und ließ uns stolz auf das Erreichte zurückblicken.",
+            "image_bild": "shopify://shop_images/RicoGlueck_Kirra_Cairocamo_Snow_Winter2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_UBCkwj",
+        "dropdown_tEw4YQ"
+      ],
+      "settings": {
+        "text_headline": "",
+        "textarea_text": ""
+      }
+    },
+    "l_text_logos_eR8C4N": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Das Projekt Wintercamp in den Schweizer Alpen war nicht nur ein Abenteuer in der Natur, sondern auch eine Reise zu persönlichem Wachstum und unvergesslichen Momenten. Wir können auf eine Erfahrung zurückblicken, die uns unsere persönliche Grenzen genauso wie die Schönheit der winterlichen Alpenlandschaft offenbarte."
+      }
     }
   },
   "layout": "article",
@@ -71,6 +110,8 @@
     "l_content_left_T9XrUg",
     "l_content_right_zTWGUC",
     "l_content_left_trLC36",
-    "l_content_right_GxgiXk"
+    "l_content_right_GxgiXk",
+    "l_dropdowns_4VcQbW",
+    "l_text_logos_eR8C4N"
   ]
 }
