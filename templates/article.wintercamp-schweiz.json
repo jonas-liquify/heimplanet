@@ -33,29 +33,33 @@
     "l_content_left_T9XrUg": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "text_headline": "Ausrüstung und Vorbereitung",
+        "textarea_text": "Das Herzstück des Wintercamps bildete die sorgfältige Auswahl der Ausrüstung. Zwei Fistral Cairo Camo und ein Kirra Classic sollten den notwenigen Schutz vor Wind und Kälte bereitstellen. Lawinengeräte, Schlafsäcke, Isomatten und natürlich Verpflegung rundeten unser Equipment ab. Selbstverständlich durften auch Kameras und Drohnen nicht fehlen, um unsere Abenteuer dokumentieren zu können.",
+        "image_bild": "shopify://shop_images/RicoGlueck_Kirra_Cairocamo_Snow_Winter3.jpg"
       }
     },
     "l_content_right_zTWGUC": {
       "type": "l_content_right",
       "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "image_bild": "shopify://shop_images/Heimplanet-Blog-2023-Wintercamp-7.jpg",
+        "text_headline": "Schweres Gepäck und klirrende Kälte.",
+        "textarea_text": "Mit Rucksäcken, die über 15 Kilogramm wogen machten wir uns auf und stiegen wir auf eine Anhöhe mitten in den Alpen auf 2800 Metern. Die Temperaturen erreichten tagsüber eisige -10 Grad Celsius und sanken nachts sogar -21 Grad Celsius. Trotz der Kälte war der Himmel tagsüber stets sonnig und bot eine atemberaubende Kulisse, die einen die Minusgrade fast vergessen lies."
       }
     },
     "l_content_left_trLC36": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "text_headline": "Campen in den Alpen",
+        "textarea_text": "Unser Camp errichteten wir mit Blick auf die majestätischen Gipfel auf einer Anhöhe, die atemberaubende Ausblicke bot. Die Mahlzeiten waren einfach, aber energiereich: klassisch Nudeln mit Pesto, begleitet von Nüssen und Riegeln, um den Energiebedarf in diesen Extremen Bedingungen zu decken. Der Sonnenuntergang in der eisigen Kulisse der Alpen war einfach atemberaubend und wurde nur noch vom Sonnenaufgang am nächsten Tag übertroffen.",
+        "image_bild": "shopify://shop_images/01_2024_HPT_-_011.jpg"
       }
     },
     "l_content_right_GxgiXk": {
       "type": "l_content_right",
       "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+        "image_bild": "shopify://shop_images/Heimplanet-Blog-2023-Wintercamp-9.jpg",
+        "text_headline": "Der Nachthimmel",
+        "textarea_text": "Kurz vor dem Schlafengehen trat ein leichter Wind auf, der die Bedingungen verschärfte und die gefühlte Temperatur noch einmal sinken lies (Windchill). Doch dieser erschwerte Moment wurde durch den nächtlichen Himmel belohnt. Der klare Nachthimmel über den Schweizer Alpen bot einen unfassbaren Anblick - direkt vor unseren Augen offenbarte sich die Milchstraße in all ihrer Schönheit."
       }
     }
   },
