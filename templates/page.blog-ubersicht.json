@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection_hero": {
@@ -15,9 +15,9 @@
         "text_subline": "",
         "text_headline": "Magazin",
         "textarea_paragraph": "",
-        "url_button_link": "shopify:\/\/blogs\/abenteuer\/cavalleria-rewild-to-rewire",
+        "url_button_link": "shopify://blogs/abenteuer/cavalleria-rewild-to-rewire",
         "text_button_text": "Jetzt lesen",
-        "image_bild": "shopify:\/\/shop_images\/2L1012116.jpg"
+        "image_bild": "shopify://shop_images/2L1012116.jpg"
       }
     },
     "blog_kategorien": {
@@ -26,32 +26,32 @@
         "kategorie_fHPJKp": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/blogs\/abenteuer",
-            "image_bild": "shopify:\/\/shop_images\/AE9I3025_1a80c2c4-26ea-406d-91b9-765e6cfbbcc5.jpg",
+            "url_link": "shopify://blogs/abenteuer",
+            "image_bild": "shopify://shop_images/AE9I3025_1a80c2c4-26ea-406d-91b9-765e6cfbbcc5.jpg",
             "text_headline": "Abenteuer"
           }
         },
         "kategorie_qDmifB": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/blogs\/collabs",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Tesla-Cybertruck-Basecamp-Tent-5-Slim.jpg",
+            "url_link": "shopify://blogs/collabs",
+            "image_bild": "shopify://shop_images/Heimplanet-Uncrate-The-Cave-All-Black-Limited-Edition-1.jpg",
             "text_headline": "Kollaboration"
           }
         },
         "kategorie_kwD3Hw": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/blogs\/projekte",
-            "image_bild": "shopify:\/\/shop_images\/SeasonOpening_2024_LauritzKuntscher10.jpg",
+            "url_link": "shopify://blogs/projekte",
+            "image_bild": "shopify://shop_images/SeasonOpening_2024_LauritzKuntscher10.jpg",
             "text_headline": "Projekte"
           }
         },
         "kategorie_4NLB7h": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/blogs\/gourmet-camping",
-            "image_bild": "shopify:\/\/shop_images\/HPT-GOURMET-CAMPING.jpg",
+            "url_link": "shopify://blogs/gourmet-camping",
+            "image_bild": "shopify://shop_images/HPT-GOURMET-CAMPING.jpg",
             "text_headline": "HPT GOURMET CAMPING"
           }
         }
