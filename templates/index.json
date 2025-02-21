@@ -12,20 +12,10 @@
     "hero": {
       "type": "hero",
       "blocks": {
-        "hero_slider_LP9zUr": {
-          "type": "hero-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/heimplanet_motion_ellipse_2.jpg",
-            "text_headline": "4-Season PACKLISTE",
-            "richtext_text": "<p><strong>ABENTEUER</strong>: <br/>Nützliches Equipment für dein nächstes Winterabenteuer! <strong>Jetzt entdecken</strong>.</p>",
-            "url_button_link": "shopify://blogs/abenteuer/4-season-packliste",
-            "text_button_text": "ZUR PACKLISTE"
-          }
-        },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-Mood.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-Lauritz-Kuntscher-2024-3.jpg",
             "text_headline": "Unsere Zelte",
             "richtext_text": "<p><strong>Genutzt auf Expeditionen in der ganzen Welt.</strong><br/>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
             "url_button_link": "shopify://collections/zelte",
@@ -85,7 +75,6 @@
         }
       },
       "block_order": [
-        "hero_slider_LP9zUr",
         "hero_slider_DQWqP4",
         "hero_slider_L3fJzp",
         "hero_slider_MWnnBG",
