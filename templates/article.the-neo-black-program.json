@@ -24,6 +24,7 @@
     },
     "l_newsletter_GnTPcC": {
       "type": "l_newsletter",
+      "disabled": true,
       "settings": {
         "text_headline": "JETZT ANMELDEN & ALS ERSTES VOM LAUNCH ERFAHREN",
         "text_text": "Abonnenten shoppen bereits ab  Montag, 25. November 2024 - Jetzt anmelden!"
@@ -35,6 +36,22 @@
       "settings": {
         "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2><br>Klicke auf den gewünschten Gutscheincode, um diesen automatisch im Warenkorb zu aktivieren oder kopiere ihn für den Checkout.<br><br><br>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 02.12.2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung."
       }
+    },
+    "l_content_image_bg_7yzFdW": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Common Material",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "text_headline_2": "Common Material"
+      }
+    },
+    "l_step_slider_arrows_BWUaFN": {
+      "type": "l_step_slider_arrows",
+      "settings": {
+        "text_headline": "",
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "article",
@@ -42,6 +59,8 @@
   "order": [
     "l_hero_KpC3jD",
     "l_newsletter_GnTPcC",
-    "l_html_text_ka9mif"
+    "l_html_text_ka9mif",
+    "l_content_image_bg_7yzFdW",
+    "l_step_slider_arrows_BWUaFN"
   ]
 }
