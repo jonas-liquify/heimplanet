@@ -39,6 +39,9 @@
     },
     "l_step_slider_arrows_BWUaFN": {
       "type": "l_step_slider_arrows",
+      "custom_css": [
+        "h2 {color: #202020;}"
+      ],
       "settings": {
         "text_headline": "",
         "checkbox_swiper_script": true
@@ -48,7 +51,7 @@
       "type": "l_hero",
       "custom_css": [
         "h1 {color: #202020;}",
-        " {color: #202020;}"
+        "div {color: #202020;}"
       ],
       "settings": {
         "text_subline": "No need to be loud to make a bold statement",
