@@ -9,22 +9,6 @@
  */
 {
   "sections": {
-    "l_hero_KpC3jD": {
-      "type": "l_hero",
-      "custom_css": [
-        "h1 {color: #202020;}",
-        "div {color: #303030;}"
-      ],
-      "settings": {
-        "text_subline": "No need to be loud to make a bold statement",
-        "text_headline": "NEO BLACK PROGRAM",
-        "textarea_longer_text": "<span style=\"color: #303030;\">COMING SOON</span><br><br>",
-        "text_button_text": "JETZT ANMELDEN & Nic",
-        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
-        "text_button_text_2": "",
-        "url_button_link_2": ""
-      }
-    },
     "l_newsletter_GnTPcC": {
       "type": "l_newsletter",
       "disabled": true,
@@ -50,6 +34,23 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_hero_KpC3jD": {
+      "type": "l_hero",
+      "custom_css": [
+        "h1 {color: #202020;}",
+        "div {color: #303030;}",
+        ". {color: #ffffff;}"
+      ],
+      "settings": {
+        "text_subline": "No need to be loud to make a bold statement",
+        "text_headline": "NEO BLACK PROGRAM",
+        "textarea_longer_text": "<span style=\"color: #303030;\">COMING SOON</span><br><br>",
+        "text_button_text": "JETZT ANMELDEN & Nic",
+        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
+        "text_button_text_2": "",
+        "url_button_link_2": ""
+      }
+    },
     "l_content_image_bg_7yzFdW": {
       "type": "l_content_image_bg",
       "custom_css": [
@@ -67,10 +68,10 @@
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero_KpC3jD",
     "l_newsletter_GnTPcC",
     "l_html_text_ka9mif",
     "l_step_slider_arrows_BWUaFN",
+    "l_hero_KpC3jD",
     "l_content_image_bg_7yzFdW"
   ]
 }
