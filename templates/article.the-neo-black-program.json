@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "l_hero_KpC3jD": {
-      "type": "l_hero",
-      "settings": {
-        "text_subline": "No need to be loud to make a bold statement",
-        "text_headline": "NEO BLACK PROGRAM",
-        "textarea_longer_text": "COMING SOON<br><br>",
-        "text_button_text": "JETZT ANMELDEN & Nic",
-        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
-        "text_button_text_2": "",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Black-Week-21.jpg"
-      }
-    },
     "l_newsletter_GnTPcC": {
       "type": "l_newsletter",
       "disabled": true,
@@ -39,11 +26,15 @@
     },
     "l_content_image_bg_7yzFdW": {
       "type": "l_content_image_bg",
+      "custom_css": [
+        "body {color: #808080;}"
+      ],
       "settings": {
         "text_subline": "Mission",
-        "text_headline": "Common Material",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        "text_headline_2": "Common Material"
+        "text_headline": "aISHaoishOIAHS",
+        "textarea_text": "<span style=\"color: #505050;\">this demo</span>",
+        "text_headline_2": "this demo",
+        "image_bild": "shopify://shop_images/NeoBlack_Background.png"
       }
     },
     "l_step_slider_arrows_BWUaFN": {
@@ -52,15 +43,28 @@
         "text_headline": "",
         "checkbox_swiper_script": true
       }
+    },
+    "l_hero_KpC3jD": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "No need to be loud to make a bold statement",
+        "text_headline": "NEO BLACK PROGRAM",
+        "textarea_longer_text": "COMING SOON<br><br>",
+        "text_button_text": "JETZT ANMELDEN & Nic",
+        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
+        "text_button_text_2": "",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/NeoBlack_Background.png"
+      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero_KpC3jD",
     "l_newsletter_GnTPcC",
     "l_html_text_ka9mif",
     "l_content_image_bg_7yzFdW",
-    "l_step_slider_arrows_BWUaFN"
+    "l_step_slider_arrows_BWUaFN",
+    "l_hero_KpC3jD"
   ]
 }
