@@ -9,32 +9,39 @@
 </div>
 {% for block in section.blocks %}
     {% if block.type == "item" %}
-                    <div li-block="Item" id="w-node-_0a645be3-1b0d-9f84-f7aa-33140eb042c2-690d5eea" class="mono-grid_item">
+                    <div li-block="Item" class="mono-grid_item">
+                                    
                                     {% if  block.settings.image_bild != blank %}    <div li-if=" block.settings.image_bild != blank">
-    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="mono-grid_image"}>
+    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="mono-grid_image">
     </div>
 {% endif %}
+                                    
                                     <div class="mono-grid_headline"><h3 class="heading-style-h2 z-index-1">
 {{ block.settings.text_headline }}
 </h3>
 {% if block.settings.image_icon %}    <div li-if="block.settings.image_icon">
-    <img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="mono-grid_img"}>
+    <img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="mono-grid_img">
     </div>
 {% endif %}</div>
+                                    
                                     <div class="mono-grid_trenner"></div>
+                                    
                                     <div class="text-size-regular z-index-1">
 {{ block.settings.text_text }}
 </div>
 
+                                    
                                     <div class="mono-grid_zahl">
 {{ block.settings.text_zahl }}
 </div>
 
+                                    
                                     <div class="heading-style-h3 z-index-1">
 {{ block.settings.text_zahl_text }}
 </div>
 
+                                    
                             </div>
             {% endif %}
 {% endfor %}
-</div></div></div> {% schema %} {"tag":"div","name":"L-Grid","class":"section_l-grid","blocks":[{"name":"Item","type":"item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Common Material"},{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_text","type":"text","label":"Text","default":"The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content."},{"id":"text_zahl","type":"text","label":"Zahl","default":"0%"},{"id":"text_zahl_text","type":"text","label":"Zahl-Text","default":"Recyclable<br\/>After Use"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Mixed VS. Mono Material"},{"id":"text_mixed_material","type":"text","label":"Mixed Material","default":"Mixed Material"},{"id":"text_mono_material","type":"text","label":"Mono Material","default":"Mono Material"}],"presets":[{"name":"L-Grid","category":"Liquify"}]} {% endschema %}
+</div></div></div> {% schema %} {"tag":"div","name":"L-Grid","class":"section_l-grid","blocks":[{"name":"Item","type":"item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Common Material"},{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_text","type":"text","label":"Text","default":"The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content."},{"id":"text_zahl","type":"text","label":"Zahl","default":"0%"},{"id":"text_zahl_text","type":"text","label":"Zahl-Text","default":"Recyclable<br\/>After Use"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Mixed VS. Mono Material"},{"id":"text_mixed_material","type":"text","label":"Mixed Material","default":"Mixed Material"},{"id":"text_mono_material","type":"text","label":"Mono Material","default":"Mono Material"}],"presets":[{"name":"L-Grid","category":"Liquify","blocks":[{"type":"item"}]}]} {% endschema %}
