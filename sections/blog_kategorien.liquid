@@ -6,9 +6,9 @@
 </div></div>{% for block in section.blocks %}
     {% if block.type == "kategorie" %}
                     <div li-block="Kategorie" class="swiper-slide is-kategorie">
-                                    <a href="{{ block.settings.url_link }}" class="blog-kategorie_item w-inline-block"> <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="blog-kategorie_bild"}><div class="blog-kategorie_overlay"><div class="heading-style-h3 text-color-white">{{ block.settings.text_headline }}</div></div> </a>
+                                    <a href="{{ block.settings.url_link }}" class="blog-kategorie_item w-inline-block"> <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="blog-kategorie_bild"><div class="blog-kategorie_overlay"><div class="heading-style-h3 text-color-white">{{ block.settings.text_headline }}</div></div> </a>
 
                             </div>
             {% endif %}
 {% endfor %}
-</div></div></div></div></div></div> {% schema %} {"tag":"section","name":"Blog-Kategorien","class":"section_blog-kategorien","blocks":[{"name":"Kategorie","type":"kategorie","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Kollaboration"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Filtern nach Kategorien"}],"presets":[{"name":"Blog-Kategorien","category":"Liquify"}]} {% endschema %}
+</div></div></div></div></div></div> {% schema %} {"tag":"section","name":"Blog-Kategorien","class":"section_blog-kategorien","blocks":[{"name":"Kategorie","type":"kategorie","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"Kollaboration"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Filtern nach Kategorien"}],"presets":[{"name":"Blog-Kategorien","category":"Liquify","blocks":[{"type":"kategorie"}]}]} {% endschema %}
