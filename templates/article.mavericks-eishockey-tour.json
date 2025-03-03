@@ -29,6 +29,23 @@
         "text_video_url": "https://www.youtube-nocookie.com/embed/n-2z2jjbcnQ"
       }
     },
+    "l_text_logos_mMaKx4": {
+      "type": "l_text_logos",
+      "blocks": {
+        "logo_rmPUFx": {
+          "type": "logo",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "logo_rmPUFx"
+      ],
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Wir begaben uns mal wieder auf ein Mini Winterabenteuer, ausgestattet mit unserem MAVERICKS-Zelt, einem Kocher, köstlichen Essen und den Essentials für Outdoor Spaß. Die Bühne war bereit für ein unvergessliches Wochenende im Schnee."
+      }
+    },
     "article_products_V4qaqk": {
       "type": "article_products",
       "settings": {
@@ -171,23 +188,6 @@
         "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
-      }
-    },
-    "l_text_logos_mMaKx4": {
-      "type": "l_text_logos",
-      "blocks": {
-        "logo_rmPUFx": {
-          "type": "logo",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "logo_rmPUFx"
-      ],
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
-        "text_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?"
       }
     }
   },
