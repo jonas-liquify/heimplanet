@@ -69,13 +69,6 @@
         "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
       }
     },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
-      }
-    },
     "l_step_slider_z93mQW": {
       "type": "l_step_slider",
       "blocks": {
@@ -179,6 +172,23 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "l_text_logos_mMaKx4": {
+      "type": "l_text_logos",
+      "blocks": {
+        "logo_rmPUFx": {
+          "type": "logo",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "logo_rmPUFx"
+      ],
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "text_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?"
+      }
     }
   },
   "layout": "article",
@@ -186,12 +196,12 @@
   "order": [
     "l_hero_ijQ63U",
     "l_video_L6k4FT",
+    "l_text_logos_mMaKx4",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_gallery_67Grn9",
-    "l_headline_mono_4Vq68U",
     "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next"
