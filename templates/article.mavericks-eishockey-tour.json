@@ -22,28 +22,19 @@
         "image_bild": "shopify://shop_images/Heimplanet-Mavericks-2.jpg"
       }
     },
+    "l_text_logos_mMaKx4": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Abenteuer im Schnee",
+        "text_text": "Wir begaben uns mal wieder auf ein Mini Winterabenteuer, ausgestattet mit unserem MAVERICKS-Zelt, einem Kocher, köstlichen Essen und den Essentials für Outdoor Spaß. Die Bühne war bereit für ein unvergessliches Wochenende im Schnee."
+      }
+    },
     "l_video_L6k4FT": {
       "type": "l_video",
       "custom_css": [],
       "settings": {
         "text_video_url": "https://www.youtube-nocookie.com/embed/n-2z2jjbcnQ"
-      }
-    },
-    "l_text_logos_mMaKx4": {
-      "type": "l_text_logos",
-      "blocks": {
-        "logo_rmPUFx": {
-          "type": "logo",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "logo_rmPUFx"
-      ],
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "text_text": "Wir begaben uns mal wieder auf ein Mini Winterabenteuer, ausgestattet mit unserem MAVERICKS-Zelt, einem Kocher, köstlichen Essen und den Essentials für Outdoor Spaß. Die Bühne war bereit für ein unvergessliches Wochenende im Schnee."
       }
     },
     "article_products_V4qaqk": {
@@ -84,57 +75,6 @@
         "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
         "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
-      }
-    },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
-          }
-        }
-      },
-      "block_order": [
-        "feature_YRDDyY",
-        "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
       }
     },
     "l_produkt_QbA6R8": {
@@ -195,14 +135,13 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_video_L6k4FT",
     "l_text_logos_mMaKx4",
+    "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_content_right_hKLaVw",
     "l_gallery_67Grn9",
-    "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next"
   ]
