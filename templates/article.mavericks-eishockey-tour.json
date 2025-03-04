@@ -75,7 +75,7 @@
         "produkt_slider_ipBq33": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Expedition-2024-2.jpg"
           }
         },
         "fact_tQ3c6w": {
@@ -87,7 +87,7 @@
         "fact_MnxFyG": {
           "type": "fact",
           "settings": {
-            "text_text": "Einfache Handhabung"
+            "text_text": "Ideal für Expeditionen"
           }
         },
         "fact_thTQjL": {
@@ -104,12 +104,12 @@
         "fact_thTQjL"
       ],
       "settings": {
-        "text_headline": "KIRRA 2 Personen",
+        "text_headline": "MAVERICKS, Basecamp",
         "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "",
-        "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
+        "text_button_text": "Zum Mavericks",
+        "url_produkt_link": "shopify://products/mavericks-basecamp",
         "checkbox_swiper_script": true
       }
     },
