@@ -63,6 +63,7 @@
     },
     "l_hero_HME9jY": {
       "type": "l_hero",
+      "disabled": true,
       "settings": {
         "text_subline": "This is some text inside of a div block.",
         "text_headline": "Medium length hero heading goes here",
