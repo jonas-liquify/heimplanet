@@ -9,33 +9,6 @@
  */
 {
   "sections": {
-    "l_newsletter_GnTPcC": {
-      "type": "l_newsletter",
-      "disabled": true,
-      "settings": {
-        "text_headline": "JETZT ANMELDEN & ALS ERSTES VOM LAUNCH ERFAHREN",
-        "text_text": "Abonnenten shoppen bereits ab  Montag, 25. November 2024 - Jetzt anmelden!"
-      }
-    },
-    "l_html_text_ka9mif": {
-      "type": "l_html_text",
-      "disabled": true,
-      "settings": {
-        "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2><br>Klicke auf den gewünschten Gutscheincode, um diesen automatisch im Warenkorb zu aktivieren oder kopiere ihn für den Checkout.<br><br><br>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 02.12.2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung.",
-        "bg_color": "#000000",
-        "color": "#ffffff"
-      }
-    },
-    "l_step_slider_arrows_BWUaFN": {
-      "type": "l_step_slider_arrows",
-      "custom_css": [
-        "h2 {color: #202020;}"
-      ],
-      "settings": {
-        "text_headline": "oisadjadij",
-        "checkbox_swiper_script": true
-      }
-    },
     "l_hero_no_fade_kmX8Nc": {
       "type": "l_hero_no_fade",
       "custom_css": [
@@ -67,18 +40,6 @@
         "image_bild": "shopify://shop_images/NeoBlack-Background-111111.png"
       }
     },
-    "l_content_image_bg_7yzFdW": {
-      "type": "l_content_image_bg",
-      "custom_css": [
-        "{color: #303030;}"
-      ],
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "aISHaoishOIAHS",
-        "textarea_text": "<span style=\"color: #303030;\">this demo</span>",
-        "text_headline_2": "this demo"
-      }
-    },
     "l_newsletter_VpDKBW": {
       "type": "l_newsletter",
       "custom_css": [],
@@ -91,12 +52,8 @@
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_newsletter_GnTPcC",
-    "l_html_text_ka9mif",
-    "l_step_slider_arrows_BWUaFN",
     "l_hero_no_fade_kmX8Nc",
     "l_hero_no_fade_qiqWGP",
-    "l_content_image_bg_7yzFdW",
     "l_newsletter_VpDKBW"
   ]
 }
