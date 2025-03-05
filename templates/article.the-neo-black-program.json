@@ -16,9 +16,9 @@
         "div {color: #404040;}"
       ],
       "settings": {
-        "text_subline": "No need to be loud to make a bold statement",
+        "text_subline": "No need to be loud to make a bold statement<br><br>",
         "text_headline": "NEO BLACK PROGRAM",
-        "textarea_longer_text": "<span style=\"color: #404040;\">COMING SOON</span><br><br>",
+        "textarea_longer_text": "<br><span style=\"color: #404040;\">COMING SOON</span>",
         "text_button_text": "Jetzt anmelden",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
