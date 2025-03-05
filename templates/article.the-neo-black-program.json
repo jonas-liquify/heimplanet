@@ -55,10 +55,7 @@
     },
     "l_hero_no_fade_qiqWGP": {
       "type": "l_hero_no_fade",
-      "custom_css": [
-        "h1 {color: #303030;}",
-        "div {color: #404040;}"
-      ],
+      "custom_css": [],
       "settings": {
         "text_subline": "Capturing the peaceful and harmonious atmosphere associated with refined camping experiences.",
         "text_headline": "静寂",
