@@ -21,7 +21,9 @@
       "type": "l_html_text",
       "disabled": true,
       "settings": {
-        "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2><br>Klicke auf den gewünschten Gutscheincode, um diesen automatisch im Warenkorb zu aktivieren oder kopiere ihn für den Checkout.<br><br><br>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 02.12.2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung."
+        "html_richtext": "<h2 style=\"text-align: left;\">WÄHLE DEINEN CODE</h2><br>Klicke auf den gewünschten Gutscheincode, um diesen automatisch im Warenkorb zu aktivieren oder kopiere ihn für den Checkout.<br><br><br>\n<p style=\"text-align: left;\">30% für den Planeten | 0% für Dich*: <a href=\"https://heimplanet.com/discount/30FORTHEPLANET\"><strong>30FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">20% für den Planeten | 10% für Dich*: <a href=\"https://heimplanet.com/discount/20FORTHEPLANET\"><strong>20FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">10% für den Planeten | 20% für Dich*: <a href=\"https://heimplanet.com/discount/10FORTHEPLANET\"><strong>10FORTHEPLANET</strong></a></p>\n<p style=\"text-align: left;\">0% für den Planeten | 30% für Dich*: <a href=\"https://heimplanet.com/discount/0FORTHEPLANET\"><strong>0FORTHEPLANET</strong></a></p><br><br>* Alle Gutscheincodes sind bis zum 02.12.2024 (23:59 CET) gültig. Nicht kombinierbar mit anderen Gutscheinen &amp; Aktionen. Nicht gültig auf Pre-Order Artikel. Eine nachträgliche Verrechnung ist leider nicht möglich. Keine Barauszahlung.",
+        "bg_color": "#000000",
+        "color": "#ffffff"
       }
     },
     "l_step_slider_arrows_BWUaFN": {
@@ -39,7 +41,7 @@
       "custom_css": [
         "h1 {color: #202020;}",
         "div {color: #303030;}",
-        " landingapge-hero_background-image{color: #ffffff;}"
+        "landingapge-hero_background-image {color: #ffffff;}"
       ],
       "settings": {
         "text_subline": "No need to be loud to make a bold statement",
@@ -48,6 +50,18 @@
         "text_button_text": "JETZT ANMELDEN & Nic",
         "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
         "text_button_text_2": "",
+        "url_button_link_2": ""
+      }
+    },
+    "l_hero_no_fade_kmX8Nc": {
+      "type": "l_hero_no_fade",
+      "settings": {
+        "text_subline": "This is some text inside of a div block.",
+        "text_headline": "Medium length hero heading goes here",
+        "textarea_longer_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
         "url_button_link_2": ""
       }
     },
@@ -60,8 +74,7 @@
         "text_subline": "Mission",
         "text_headline": "aISHaoishOIAHS",
         "textarea_text": "<span style=\"color: #303030;\">this demo</span>",
-        "text_headline_2": "this demo",
-        "image_bild": "shopify://shop_images/NeoBlack_Background.png"
+        "text_headline_2": "this demo"
       }
     }
   },
@@ -72,6 +85,7 @@
     "l_html_text_ka9mif",
     "l_step_slider_arrows_BWUaFN",
     "l_hero_KpC3jD",
+    "l_hero_no_fade_kmX8Nc",
     "l_content_image_bg_7yzFdW"
   ]
 }
