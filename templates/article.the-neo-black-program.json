@@ -26,6 +26,18 @@
         "image_bild": "shopify://shop_images/NeoBlack-Background-111111.png"
       }
     },
+    "content_image_zpfaap": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
+        "text_button_text": "ZUM LAUNCH ANMELDEN",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
+      }
+    },
     "l_hero_no_fade_qiqWGP": {
       "type": "l_hero_no_fade",
       "custom_css": [],
@@ -59,18 +71,6 @@
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
-      }
-    },
-    "content_image_zpfaap": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "Button",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
         "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
       }
     }
