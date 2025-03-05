@@ -40,8 +40,7 @@
       "type": "l_hero",
       "custom_css": [
         "h1 {color: #202020;}",
-        "div {color: #303030;}",
-        "landingapge-hero_background-image {color: #ffffff;}"
+        "div {color: #303030;}"
       ],
       "settings": {
         "text_subline": "No need to be loud to make a bold statement",
