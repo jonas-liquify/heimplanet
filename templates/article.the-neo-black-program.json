@@ -55,6 +55,10 @@
     },
     "l_hero_no_fade_qiqWGP": {
       "type": "l_hero_no_fade",
+      "custom_css": [
+        "h1 {color: #303030;}",
+        "div {color: #404040;}"
+      ],
       "settings": {
         "text_subline": "Capturing the peaceful and harmonious atmosphere associated with refined camping experiences.",
         "text_headline": "静寂",
@@ -77,6 +81,13 @@
         "textarea_text": "<span style=\"color: #303030;\">this demo</span>",
         "text_headline_2": "this demo"
       }
+    },
+    "l_newsletter_VpDKBW": {
+      "type": "l_newsletter",
+      "settings": {
+        "text_headline": "Newsletter",
+        "text_text": "Text"
+      }
     }
   },
   "layout": "article",
@@ -87,6 +98,7 @@
     "l_step_slider_arrows_BWUaFN",
     "l_hero_no_fade_kmX8Nc",
     "l_hero_no_fade_qiqWGP",
-    "l_content_image_bg_7yzFdW"
+    "l_content_image_bg_7yzFdW",
+    "l_newsletter_VpDKBW"
   ]
 }
