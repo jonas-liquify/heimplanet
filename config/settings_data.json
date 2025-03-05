@@ -73,7 +73,6 @@
         "blocks": {
           "facts_eree39": {
             "type": "facts",
-            "disabled": true,
             "settings": {
               "url_fact_link": "shopify://pages/1-for-the-planet",
               "text_fact": "1% for the Planet"
@@ -81,7 +80,6 @@
           },
           "facts_awDEGd": {
             "type": "facts",
-            "disabled": true,
             "settings": {
               "url_fact_link": "shopify://blogs/projekte/lebenslanger-support-garantie",
               "text_fact": "Lebenslange Garantie"
@@ -89,7 +87,6 @@
           },
           "facts_J9ehLG": {
             "type": "facts",
-            "disabled": true,
             "settings": {
               "url_fact_link": "shopify://pages/re-store-programm",
               "text_fact": "Re-Store Programm"
@@ -104,7 +101,6 @@
           },
           "lieferung_icon_CkhAzb": {
             "type": "lieferung-icon",
-            "disabled": true,
             "settings": {
               "image_icon": "shopify://shop_images/Group_302.png"
             }
