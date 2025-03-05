@@ -55,13 +55,13 @@
     "l_hero_no_fade_kmX8Nc": {
       "type": "l_hero_no_fade",
       "custom_css": [
-        "h1 {color: #202020;}",
-        "div {color: #303030;}"
+        "h1 {color: #303030;}",
+        "div {color: #404040;}"
       ],
       "settings": {
         "text_subline": "No need to be loud to make a bold statement",
         "text_headline": "NEO BLACK PROGRAM",
-        "textarea_longer_text": "<span style=\"color: #303030;\">COMING SOON</span><br><br>",
+        "textarea_longer_text": "<span style=\"color: #404040;\">COMING SOON</span><br><br>",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
