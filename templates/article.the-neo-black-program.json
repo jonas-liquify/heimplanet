@@ -36,22 +36,6 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_hero_KpC3jD": {
-      "type": "l_hero",
-      "custom_css": [
-        "h1 {color: #202020;}",
-        "div {color: #303030;}"
-      ],
-      "settings": {
-        "text_subline": "No need to be loud to make a bold statement",
-        "text_headline": "NEO BLACK PROGRAM",
-        "textarea_longer_text": "<span style=\"color: #303030;\">COMING SOON</span><br><br>",
-        "text_button_text": "JETZT ANMELDEN & Nic",
-        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
-        "text_button_text_2": "",
-        "url_button_link_2": ""
-      }
-    },
     "l_hero_no_fade_kmX8Nc": {
       "type": "l_hero_no_fade",
       "custom_css": [
@@ -64,6 +48,19 @@
         "textarea_longer_text": "<span style=\"color: #404040;\">COMING SOON</span><br><br>",
         "text_button_text": "Jetzt anmelden",
         "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/NeoBlack-Background-111111.png"
+      }
+    },
+    "l_hero_no_fade_qiqWGP": {
+      "type": "l_hero_no_fade",
+      "settings": {
+        "text_subline": "Capturing the peaceful and harmonious atmosphere associated with refined camping experiences.",
+        "text_headline": "静寂",
+        "textarea_longer_text": "Seijaku",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/NeoBlack-Background-111111.png"
@@ -88,8 +85,8 @@
     "l_newsletter_GnTPcC",
     "l_html_text_ka9mif",
     "l_step_slider_arrows_BWUaFN",
-    "l_hero_KpC3jD",
     "l_hero_no_fade_kmX8Nc",
+    "l_hero_no_fade_qiqWGP",
     "l_content_image_bg_7yzFdW"
   ]
 }
