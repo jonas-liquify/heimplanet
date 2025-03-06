@@ -16,7 +16,7 @@
         "div {color: #404040;}"
       ],
       "settings": {
-        "text_subline": "No need to be loud to make a bold statement<br><br>",
+        "text_subline": "No need to be loud to make a bold statement",
         "text_headline": "NEO BLACK PROGRAM",
         "textarea_longer_text": "<br><span style=\"color: #404040;\">COMING SOON</span>",
         "text_button_text": "Jetzt anmelden",
@@ -38,16 +38,28 @@
         "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
       }
     },
+    "content_image_LdEgaG": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "ZUM LAUNCH ANMELDEN",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
+      }
+    },
     "l_hero_no_fade_qiqWGP": {
       "type": "l_hero_no_fade",
       "custom_css": [],
       "settings": {
-        "text_subline": "Capturing the peaceful and harmonious atmosphere associated with refined camping experiences.<br><br>",
+        "text_subline": "Capturing the peaceful and harmonious atmosphere associated with refined camping experiences.",
         "text_headline": "静寂",
         "textarea_longer_text": "Seijaku<br><br>",
         "text_button_text": "zum launch anmelden",
         "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
-        "text_button_text_2": "Button Text",
+        "text_button_text_2": "",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/NeoBlack-Background-111111.png"
       }
@@ -82,6 +94,7 @@
     "l_hero_no_fade_kmX8Nc",
     "content_image_zpfaap",
     "l_hero_no_fade_qiqWGP",
+    "content_image_LdEgaG",
     "l_newsletter_VpDKBW",
     "l_hero_HME9jY"
   ]
