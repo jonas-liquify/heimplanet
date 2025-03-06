@@ -89,6 +89,38 @@
     },
     "l_reveal_slider_BCDMWq": {
       "type": "l_reveal_slider",
+      "blocks": {
+        "fact_tXnx7a": {
+          "type": "fact",
+          "settings": {
+            "text_text": "All-Black Shell"
+          }
+        },
+        "fact_JLgW8q": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Black Cairo Camo Innenzelt"
+          }
+        },
+        "fact_63QcFm": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Neu: Dope-Dyed Außenzelt"
+          }
+        },
+        "fact_rcczhQ": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Neu: C0-Beschichtung (PFAS-frei]"
+          }
+        }
+      },
+      "block_order": [
+        "fact_tXnx7a",
+        "fact_JLgW8q",
+        "fact_63QcFm",
+        "fact_rcczhQ"
+      ],
       "custom_css": [],
       "settings": {
         "text_headline": "Bags+Backpacks",
