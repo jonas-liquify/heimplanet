@@ -89,17 +89,7 @@
     },
     "l_reveal_slider_BCDMWq": {
       "type": "l_reveal_slider",
-      "blocks": {
-        "fact_4FxRc4": {
-          "type": "fact",
-          "settings": {
-            "text_text": "5 Jahre Entwicklungszeit"
-          }
-        }
-      },
-      "block_order": [
-        "fact_4FxRc4"
-      ],
+      "custom_css": [],
       "settings": {
         "text_headline": "Bags+Backpacks",
         "textarea_text": "",
