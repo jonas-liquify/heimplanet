@@ -97,6 +97,16 @@
         "text_nachher": "Neo Black",
         "image_bild_2": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-2.jpg"
       }
+    },
+    "l_reveal_slider_qGQyx4": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "",
+        "text_vorher": "Backdoor",
+        "text_nachher": "Neo Black",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Backdoor-Classic-3.jpg"
+      }
     }
   },
   "layout": "article",
@@ -108,6 +118,7 @@
     "content_image_LdEgaG",
     "l_newsletter_VpDKBW",
     "l_hero_HME9jY",
-    "l_reveal_slider_BCDMWq"
+    "l_reveal_slider_BCDMWq",
+    "l_reveal_slider_qGQyx4"
   ]
 }
