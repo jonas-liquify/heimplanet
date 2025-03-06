@@ -38,18 +38,6 @@
         "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
       }
     },
-    "content_image_LdEgaG": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "ZUM LAUNCH ANMELDEN",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
-      }
-    },
     "l_hero_no_fade_qiqWGP": {
       "type": "l_hero_no_fade",
       "custom_css": [],
@@ -62,6 +50,18 @@
         "text_button_text_2": "",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/NeoBlack-Background-111111.png"
+      }
+    },
+    "content_image_LdEgaG": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "ZUM LAUNCH ANMELDEN",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
       }
     },
     "l_newsletter_VpDKBW": {
@@ -86,6 +86,27 @@
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
       }
+    },
+    "l_reveal_slider_BCDMWq": {
+      "type": "l_reveal_slider",
+      "blocks": {
+        "fact_4FxRc4": {
+          "type": "fact",
+          "settings": {
+            "text_text": "5 Jahre Entwicklungszeit"
+          }
+        }
+      },
+      "block_order": [
+        "fact_4FxRc4"
+      ],
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_vorher": "This is some text inside of a div block.",
+        "text_nachher": "This is some text inside of a div block.",
+        "image_bild_2": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-2.jpg"
+      }
     }
   },
   "layout": "article",
@@ -96,6 +117,7 @@
     "l_hero_no_fade_qiqWGP",
     "content_image_LdEgaG",
     "l_newsletter_VpDKBW",
-    "l_hero_HME9jY"
+    "l_hero_HME9jY",
+    "l_reveal_slider_BCDMWq"
   ]
 }
