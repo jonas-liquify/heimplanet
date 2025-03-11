@@ -50,7 +50,8 @@
           "type": "dropdown",
           "settings": {
             "text_headline": "Schritt 1: Reinigung",
-            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+            "textarea_text": "Bestimmte Substanzen, denen dein Zelt ausgesetzt ist, können die Beschichtung des Zeltstoffes beschädigen. Dazu gehören unter anderem Meersalz, feiner Sand oder Vogelkot, aber auch Essensreste und Blätter. Deshalb ist es im ersten Schritt wichtig dein Zelt von innen und außen zu reinigen.\n<br><br>\nFege das Zelt zunächst von außen mit einem Handfeger ab. Das gleiche solltest Du anschließend innen wiederholen. <b>Entferne hartnäckige Verschmutzungen mit lauwarmem Wasser und einem milden Spülmittel</b>. Auf aggressive Reinigungsmittel solltest Du verzichten und im Zweifel lieber zu einem <b>speziellen Reiniger</b> greifen, der extra für Zeltmaterialien geeignet ist, da Du sonst den Zeltstoff beschädigen kannst.",
+            "image_bild": "shopify://shop_images/Bildschirmfoto_2022-10-17_um_13.22.04.png"
           }
         },
         "dropdown_GkLmL3": {
