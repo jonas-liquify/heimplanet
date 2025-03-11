@@ -27,7 +27,7 @@
       "settings": {
         "text_subline": "",
         "text_headline": "Lagerung, die zählt",
-        "text_text": "Die Saison neigt sich langsam dem Ende entgegen. Zeit für Zeltpflege und die richtige Lagerung, damit dein HEIMPLANET Zelt auch im nächsten Jahr wieder zuverlässig seinen Dienst versehen kann. <br><br>Wir haben für Dich hilfreiche Tipps zur Lagerung und Pflege gesammelt. Nach Möglichkeit solltest Du sie jedes Mal beachten, wenn Du dein Zelt benutzt hast."
+        "text_text": "Die Saison neigt sich langsam dem Ende entgegen. Zeit für Zeltpflege und die richtige Lagerung, damit dein HEIMPLANET Zelt auch im nächsten Jahr wieder zuverlässig seinen Dienst versehen kann. Wir haben für Dich hilfreiche Tipps zur Lagerung und Pflege gesammelt. Nach Möglichkeit solltest Du sie jedes Mal beachten, wenn Du dein Zelt benutzt hast."
       }
     },
     "default": {
@@ -43,96 +43,47 @@
         "image_bild": "shopify://shop_images/Bildschirmfoto_2022-10-17_um_13.22.04.png"
       }
     },
-    "l_content_right_G6XinF": {
-      "type": "l_content_right",
-      "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-COOLEVER-T-Shirt-Dust-reflective-Logo-Ball-Mood-4.jpg",
-        "text_headline": "FEUCHTIGKEITSMANAGEMENT",
-        "textarea_text": "Es verhindert, dass nasse Fasern die Körpertemperatur nach intensivem Training erhöhen oder senken, und es reguliert kontinuierlich und sorgt für ein angenehmes Gefühl."
-      }
-    },
-    "l_content_left_yYpyzA": {
-      "type": "l_content_left",
-      "settings": {
-        "text_headline": "PFLEGELEICHT",
-        "textarea_text": "Nach dem Waschen trocknet die Faser schnell, so dass die Kleidung leicht zu pflegen ist. Dies bleibt auch nach wiederholtem Waschen halbwegs dauerhaft erhalten.",
-        "image_bild": "shopify://shop_images/Heimplanet-COOLEVER-Raglan-Shirt-reflective-Logo-Ball-dust-Mood-3.jpg"
-      }
-    },
-    "l_content_right_XTEt4Y": {
-      "type": "l_content_right",
+    "l_dropdowns_fcnmkx": {
+      "type": "l_dropdowns",
       "blocks": {
-        "item_btym9N": {
-          "type": "item",
+        "dropdown_aUXWrt": {
+          "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit.png",
-            "text_text": "Mix aus Baumwolle, Polyester und Elasthan"
+            "text_headline": "Schritt 1: Reinigung",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         },
-        "item_NmL4CN": {
-          "type": "item",
+        "dropdown_GkLmL3": {
+          "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials2.png",
-            "text_text": "sehr angenehmes Feeling & hoher Tragekomfort"
+            "text_headline": "Schritt 2: Trocknen",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         },
-        "item_JCr6NA": {
-          "type": "item",
+        "dropdown_nVt64Q": {
+          "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/icons8-wave-lines-100.png",
-            "text_text": "schnell trocknend: schützt Deinen Körper vor Überhitzung oder Auskühlung"
+            "text_headline": "Schritt 3: Verpacken",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
         },
-        "item_yTYMpB": {
-          "type": "item",
+        "dropdown_EHUraw": {
+          "type": "dropdown",
           "settings": {
-            "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials9.png",
-            "text_text": "Pflegeleicht: knittert sichtbar weniger "
+            "text_headline": "Schritt 4: Lagerung",
+            "textarea_text": "Für die Lagerung deines Zelts sollten einen Ort aussuchen der <b>kühl, trocken und frei von Ungeziefer</b> ist. Gute Lagerplätze sind: Ein Schrank oder Regal in deinen Wohnräumen, unter deinem Bett oder ein beheizter Keller- oder Abstellraum.\n<br><br>\nVersuche Orte zu vermeiden, an denen es zu heiß werden kann (z.B. Dachboden, Kofferraum oder neben einem Heizkörper) sowie Räumen, in denen es frieren kann (z.B. Gartenhaus oder eine unbeheizte Garage). \n<br><br>\nBeim Lagerort solltest Du außerdem auf die <b>richtige Luftfeuchtigkeit (unter 55%)</b> achten. Bei hoher Luftfeuchtigkeit beginnen nämlich Schimmelsporen zu keimen. Feuchte Keller/Garagen oder das Gartenhaus sind deshalb kein geeigneter Lagerort für dein Zelt. Wohnräume, beheizte Keller und Garagen sind dagegen perfekt.\n<br><br>\n<b>Dein Zelt mag es außerdem gerne dunkel</b>. UV-Strahlung bleicht nicht nur den Zeltstoff aus, sondern macht ihn auf Dauer auch brüchig. Das kann bei auch schon nach kurzer Zeit passieren. Achte deshalb auf einen Lagerort, an dem es keine direkte Sonneneinstrahlung gibt."
           }
         }
       },
       "block_order": [
-        "item_btym9N",
-        "item_NmL4CN",
-        "item_JCr6NA",
-        "item_yTYMpB"
+        "dropdown_aUXWrt",
+        "dropdown_GkLmL3",
+        "dropdown_nVt64Q",
+        "dropdown_EHUraw"
       ],
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-COOLEVER-Longsleeve-reflective-Logo-Ball-white-3.jpg",
-        "text_headline": "HAUPTMERKMALE",
-        "textarea_text": ""
-      }
-    },
-    "l_text_logos_EDCQVe": {
-      "type": "l_text_logos",
-      "disabled": true,
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
-        "text_text": ""
-      }
-    },
-    "l_produkt_iPtrPc": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_kybg3g": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/COOLEVERT-Shirt_reflectiveLogoBall_schwarz-1_a0675156-34ac-4cc8-8c6e-2da75ffdc593.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_kybg3g"
-      ],
-      "settings": {
-        "text_headline": "COOLEVER",
-        "textarea_beschreibung": "<br>Auf Reisen kannst Du Dein T-Shirt / Longsleeve schnell & einfach waschen, es ist im Handumdrehen wieder trocken und einsatzbereit. Durch das Elasthan ist der Stoff super formstabil und bleibt lange in Form - auch nach häufigem Tragen und Waschen. Das macht dein Shirt auch sehr langlebig und nachhaltig. ",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "Jetzt shoppen",
-        "url_produkt_link": "shopify://collections/bekleidung",
-        "checkbox_swiper_script": true
+        "text_headline": "Mono Dyecoshell",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
       }
     }
   },
@@ -143,10 +94,6 @@
     "l_text_logos_qqgdVp",
     "default",
     "l_content_left_Q9jJDd",
-    "l_content_right_G6XinF",
-    "l_content_left_yYpyzA",
-    "l_content_right_XTEt4Y",
-    "l_text_logos_EDCQVe",
-    "l_produkt_iPtrPc"
+    "l_dropdowns_fcnmkx"
   ]
 }
