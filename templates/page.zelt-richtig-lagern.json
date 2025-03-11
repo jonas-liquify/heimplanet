@@ -12,22 +12,22 @@
     "l_hero_tnmJiD": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "Technologie",
-        "text_headline": "Coolever",
-        "textarea_longer_text": "<br>Funktionsshirts sind ideal für den Sport. Normale T-Shirts & Longsleeves sind perfekt für den Alltag. Die HEIMPLANET COOLEVER Shirts vereinen das Beste aus beidem.",
-        "text_button_text": "Button Text",
+        "text_subline": "",
+        "text_headline": "Zelt richtig lagern",
+        "textarea_longer_text": "Uns ist Nachhaltigkeit sehr wichtig, deshalb sind unsere Zelte darauf ausgelegt Dich ein Leben lang zu begleiten. Für eine möglichst lange&nbsp;Lebensdauer und um Materialschäden zu vermeiden, ist die&nbsp;richtige Lagerung und Pflege deines Zeltes besonders wichtig.",
+        "text_button_text": "",
         "url_button_link": "",
-        "text_button_text_2": "Button Text",
+        "text_button_text_2": "",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/6149b21924b7b759bef1aa1e_Heimplanet-Longsleeve-reflective-heather-black-Coolever-mood-4.webp"
+        "image_bild": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-New-2022-1.jpg"
       }
     },
     "l_text_logos_qqgdVp": {
       "type": "l_text_logos",
       "settings": {
-        "text_subline": "T-Shirts & Longsleeves",
+        "text_subline": "",
         "text_headline": "Die Technologie",
-        "text_text": "Dank der einzigartigen COOLEVER Technologie wird Feuchtigkeit sofort vom Material aufgenommen, vom Körper weg transportiert und sorgt so für ein angenehmes Gefühl auf der Haut. Auch nach einer zünftigen Wanderung zum nächsten Gipfel oder einem anstrengenden Lauf oder Workout fühlen sich die T-Shirts und Longsleeves nicht nass und kalt an - selbst wenn man stark geschwitzt hat.<br><br>Alle HEIMPLANET T-Shirts & Longsleeves verwenden die COOLEVER Technologie mit einem verbesserten Stoffquerschnitt, der Schweiß & Feuchtigkeit absorbiert. Die Oberfläche des COOLEVER Garns ist über 30 % größer als die des Garns in herkömmlichen Stoffen, was eine schnellere Verdunstung ermöglicht und ein frisches Gefühl hinterlässt."
+        "text_text": "Die Saison neigt sich langsam dem Ende entgegen. Zeit für Zeltpflege und die richtige Lagerung, damit dein HEIMPLANET Zelt auch im nächsten Jahr wieder zuverlässig seinen Dienst versehen kann. <br><br>Wir haben für Dich hilfreiche Tipps zur Lagerung und Pflege gesammelt. Nach Möglichkeit solltest Du sie jedes Mal beachten, wenn Du dein Zelt benutzt hast."
       }
     },
     "default": {
