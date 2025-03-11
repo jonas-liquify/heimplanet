@@ -35,20 +35,13 @@
       "disabled": true,
       "settings": {}
     },
-    "l_content_left_Q9jJDd": {
-      "type": "l_content_left",
-      "settings": {
-        "text_headline": "Schritt 1: Reinigung",
-        "textarea_text": "Bestimmte Substanzen, denen dein Zelt ausgesetzt ist, können die Beschichtung des Zeltstoffes beschädigen. Dazu gehören unter anderem Meersalz, feiner Sand oder Vogelkot, aber auch Essensreste und Blätter. Deshalb ist es im ersten Schritt wichtig dein Zelt von innen und außen zu reinigen.<br><br>\n\nFege das Zelt zunächst von außen mit einem Handfeger ab. Das gleiche solltest Du anschließend innen wiederholen. Entferne hartnäckige Verschmutzungen mit lauwarmem Wasser und einem milden Spülmittel. Auf aggressive Reinigungsmittel solltest Du verzichten und im Zweifel lieber zu einem speziellen Reiniger greifen, der extra für Zeltmaterialien geeignet ist, da Du sonst den Zeltstoff beschädigen kannst.",
-        "image_bild": "shopify://shop_images/Bildschirmfoto_2022-10-17_um_13.22.04.png"
-      }
-    },
     "l_dropdowns_fcnmkx": {
       "type": "l_dropdowns",
       "blocks": {
         "dropdown_aUXWrt": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
             "text_headline": "Schritt 1: Reinigung",
             "textarea_text": "Bestimmte Substanzen, denen dein Zelt ausgesetzt ist, können die Beschichtung des Zeltstoffes beschädigen. Dazu gehören unter anderem Meersalz, feiner Sand oder Vogelkot, aber auch Essensreste und Blätter. Deshalb ist es im ersten Schritt wichtig dein Zelt von innen und außen zu reinigen.\n<br><br>\nFege das Zelt zunächst von außen mit einem Handfeger ab. Das gleiche solltest Du anschließend innen wiederholen. <b>Entferne hartnäckige Verschmutzungen mit lauwarmem Wasser und einem milden Spülmittel</b>. Auf aggressive Reinigungsmittel solltest Du verzichten und im Zweifel lieber zu einem <b>speziellen Reiniger</b> greifen, der extra für Zeltmaterialien geeignet ist, da Du sonst den Zeltstoff beschädigen kannst.",
             "image_bild": "shopify://shop_images/Bildschirmfoto_2022-10-17_um_13.22.04.png"
@@ -57,6 +50,7 @@
         "dropdown_GkLmL3": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
             "text_headline": "Schritt 2: Trocknen",
             "textarea_text": "Stelle sicher, dass dein Zelt <b>vollständig trocken ist</b>, bevor Du es für die Lagerung einpackst. Abgesehen von unangenehme Gerüchen, Stockflecken und Schimmel, die entstehen können, beschädigt Feuchtigkeit mit der Zeit die wasserabweisende Beschichtung deines Zelts und führt dazu, dass es undicht wird.\n<br><br>\nUm dem entgegenzuwirken, baue dein Zelt bei gutem Wetter für einige Stunden draußen in der Sonne auf. Das kannst Du natürlich, sofern Du über den Platz verfügst, auch in Innenräumen tun. Solltest Du dafür nicht die Möglichkeit bzw. den Platz haben, kannst Du das Zelt auch auf einer Wäscheleine trocknen lassen. Stelle auch sicher, dass die <b>Abspannleinen und das restliche Zubehör trocken sind</b>, bevor Du sie einpackst."
           }
@@ -64,6 +58,7 @@
         "dropdown_nVt64Q": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
             "text_headline": "Schritt 3: Verpacken",
             "textarea_text": "Unsere Packsäcke sind der perfekte Aufbewahrungsort für dein HEIMPLANET Zelt. Du musst dein Zelt nicht ordentlich zusammenlegen. Loses Stopfen ist sogar vorteilhaft: Der Zeltstoff wird bei jedem Packvorgang an unterschiedlichen Stellen gefaltet - das beugt Materialermüdung vor.\n<br><br>\nWenn Du dein Zelt über längere Zeit lagerst solltest Du es etwas <b>lockerer verstauen</b>. Gönne deinem Zelt deshalb etwas mehr Raum und komprimiere den Packsack nicht vollständig. \n<br><br>\nDu solltest dein Zelt übrigens <b>nicht lose im Regal lagern</b>, da der lose Zeltstoff den perfekten Unterschlupf für Ungeziefer bietet. Der Packsack dagegen ist ein perfekter Schutz vor Käfern, Spinnweben, Fliegendreck und Staub.",
             "image_bild": "shopify://shop_images/Heimplanet_38.jpg"
@@ -72,6 +67,7 @@
         "dropdown_EHUraw": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
             "text_headline": "Schritt 4: Lagerung",
             "textarea_text": "Für die Lagerung deines Zelts sollten einen Ort aussuchen der <b>kühl, trocken und frei von Ungeziefer</b> ist. Gute Lagerplätze sind: Ein Schrank oder Regal in deinen Wohnräumen, unter deinem Bett oder ein beheizter Keller- oder Abstellraum.\n<br><br>\nVersuche Orte zu vermeiden, an denen es zu heiß werden kann (z.B. Dachboden, Kofferraum oder neben einem Heizkörper) sowie Räumen, in denen es frieren kann (z.B. Gartenhaus oder eine unbeheizte Garage). \n<br><br>\nBeim Lagerort solltest Du außerdem auf die <b>richtige Luftfeuchtigkeit (unter 55%)</b> achten. Bei hoher Luftfeuchtigkeit beginnen nämlich Schimmelsporen zu keimen. Feuchte Keller/Garagen oder das Gartenhaus sind deshalb kein geeigneter Lagerort für dein Zelt. Wohnräume, beheizte Keller und Garagen sind dagegen perfekt.\n<br><br>\n<b>Dein Zelt mag es außerdem gerne dunkel</b>. UV-Strahlung bleicht nicht nur den Zeltstoff aus, sondern macht ihn auf Dauer auch brüchig. Das kann bei auch schon nach kurzer Zeit passieren. Achte deshalb auf einen Lagerort, an dem es keine direkte Sonneneinstrahlung gibt."
           }
@@ -95,7 +91,6 @@
     "l_hero_tnmJiD",
     "l_text_logos_qqgdVp",
     "default",
-    "l_content_left_Q9jJDd",
     "l_dropdowns_fcnmkx"
   ]
 }
