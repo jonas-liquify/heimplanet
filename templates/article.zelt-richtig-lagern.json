@@ -1,0 +1,181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "l_hero_ijQ63U": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Heimplanet on a frozen planet",
+        "textarea_longer_text": "Auf den Spuren von Astrobiologe Dale Andersen am arktischen 'Untersee'.",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-2.jpg"
+      }
+    },
+    "article_products_V4qaqk": {
+      "type": "article_products",
+      "settings": {
+        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
+    },
+    "l_text_logos_4BxefE": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Expedition ins Unbekannte",
+        "text_text": "Im Oktober 2023 begab sich der Astrobiologe Dale Andersen erneut in die eisige Weite der Antarktis, um eine weitere Forschungsexpedition am geheimnisvollen ‘Untersee’ durchzuführen. Für den Forscher vom Carl Sagan Center, SETI Institute in Mountain, CA ist es die 27. Feldsaison auf dem gefrorenen Kontinent. Als führende Persönlichkeit in der Polarforschung wurde Andersens Arbeit in der BBC-Dokumentation „Frozen Planet II“ vorgestellt und verspricht, neue Einblicke in die unberührte Wildnis dieser abgelegenen Region zu liefern. Seine Erkundungen beleuchten die Implikationen von Lebensformen vor Ort auf die Menschheit und umgekehrt, wobei die komplexe Beziehung zwischen der Umwelt und unserer Spezies hervorgehoben wird. Mit auf seiner Ausrüstungsliste stehen dabei die HEIMPLANET Mavericks und The Cave."
+      }
+    },
+    "l_video_gFaUKN": {
+      "type": "l_video",
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/LUl8mW9_tLM?si=bTabaGcAXqnH8kuf"
+      }
+    },
+    "l_dropdowns_qLg3dq": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_TpXTMK": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
+            "text_headline": "Der ‘Untersee’",
+            "textarea_text": "Dales Forschungsinteressen liegen im Ursprung, der Evolution und der Verbreitung von Leben im Universum, und er ist seit Mitte der 1980er Jahre an den Exobiologie- und Astrobiologieprogrammen der NASA beteiligt. Um dir einen Eindruck davon zu vermitteln, wie abgelegen und aufregend der Lake Untersee ist, beschreibt Dale Andersen ihn wie folgt: Der Lake Untersee ist ein Ort, den nur wenige Menschen gesehen oder sich überhaupt vorgestellt haben, und er ist weit entfernt von vertrauten, alltäglichen Umgebungen. Das Wetter kann zuweilen genauso rau sein wie das Gelände, mit Winden und blendendem Schnee, die bis zu 180 km/h erreichen. Vier Monate lang ist die Dunkelheit ein ständiger Begleiter des Geräuschs von knackendem Eis und dem allgegenwärtigen Heulen des Windes. Die umliegenden Berge erheben sich majestätisch zu schwindelerregenden, spitz zulaufenden Gipfeln, die den Durchgang des kontinentalen Eises, das sie umgibt, versperren. Der sanfte Hang des Anuchin-Gletschers fließt von Norden heran und endet an seiner Kante. Der Untersee: inmitten der Berge von Königin-Maud-Land ist eine Welt, die der frühesten Biosphäre der Erde ähnelt. Der vom Anuchin-Gletscher in einen Felsbogen eingebettete Untersee ist 6,5 km lang und 2,5 km breit. Seine 8,73 km2 (2157 Acres) große Oberfläche ist dicht von einer drei Meter dicken Eisschicht bedeckt. Eine, die von mikrobiellem Leben dominiert wird, das die gleichen Strukturen und Gewebe bildet, die wir in Sedimenten finden, die auf 3,45 Milliarden Jahre zurückdatieren. Unter der dicken, ewigen Eisschicht wachsen cyanobakterielle Matten ungestört, wie sie es vor Milliarden von Jahren getan haben – es ist wie eine Postkarte aus der Vergangenheit; eine, die uns helfen kann zu verstehen, wie diese frühen Ökosysteme auf einem Planeten gediehen, der fast ohne Sauerstoffatmosphäre auskam. Die Cyanobakterien fanden einen Weg, wie sie die Sonne nutzen konnten, indem sie ihr Licht als Energie nutzen und Wasser spalteten, um den Wasserstoff mit Kohlendioxid aus der Atmosphäre zu kombinieren. Dabei begannen sie einen Vorgang, der unseren Planeten im Laufe der geologischen Zeit zu einem lebensfähigen Ort für multizelluläre Organismen verwandelte.",
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Andersen-Lake-Unter-See-2024-1-1.jpg"
+          }
+        },
+        "dropdown_EiFzAk": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
+            "text_headline": "Leben und Arbeiten",
+            "textarea_text": "Der Untersee ist ein schwieriger Ort zum Leben und Arbeiten. Doch Dale und sein Team streben nach neuem Wissen. Wissen, das uns etwas über die vergangene Geschichte der Erde verrät und uns helfen kann, ihre Zukunft zu verstehen. Die Forschung hilft auch bei der Suche nach Beweisen für Leben auf anderen fernen Planeten wie dem Mars oder den äußeren Monden des Jupiters oder Saturns...vielleicht sogar darüber hinaus.\n\nDa die Ausrüstung die Lebensader jeder Expedition in die Antarktis ist, ist die Nachfrage nach Zuverlässigkeit, Widerstandsfähigkeit, Langlebigkeit und innovativem Design hoch, um der harschen Umgebung zu begegnen und die Sicherheit des Teams zu gewährleisten. „Wir sind gespannt darauf, das innovative Heimplanet Maverick Basecamp-Zelt dieses Jahr zu testen, das anstelle von traditionellen Stangen eine moderne Aiframe-Technologie verwendet. Seine Leistungsfähigkeit unter extremen Bedingungen, insbesondere bei heftigen Winden von bis zu 50 m/s (etwa 112 mph oder 180 km/h), wird ein entscheidender Vergleich mit unseren bisherigen Zelten sein“, sagte Andersen, bevor er seine Reise antrat.",
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Andersen-Lake-Unter-See-2024.jpg"
+          }
+        },
+        "dropdown_eQqYXe": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
+            "text_headline": "Unterwegs in die Antarktis",
+            "textarea_text": "Nach einer 10-tägigen Verzögerung in Kapstadt, Südafrika, aufgrund von Schneestürmen, brach Dale Andersen am 26. Oktober endlich zur Antarktis auf. Die Eislandebahn in der Schirmacher-Oase war geräumt worden und markierte den Beginn von Andersens 27. Feldsaison in der Antarktis. Sein Ziel? Der Untersee, eingebettet in die Berge von Königin-Maud-Land. Mit hoher Erwartung und bevorstehenden Entdeckungen im Blick machte sich Andersen auf zu einer weiteren Saison der Erkundung: „Wir haben noch eine beträchtliche Menge Arbeit zu erledigen, bevor wir mit der Traversierung beginnen können. Die heutigen Bedingungen sind herausfordernd, mit Schneetreiben, schlechter Sicht und zeitweiligen Schneestürmen, daher werden Outdoor-Aktivitäten begrenzt sein. Wir können jedoch diese Zeit nutzen, um die Ausrüstung drinnen zu sortieren und uns etwas auszuruhen.“",
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-6.jpg"
+          }
+        },
+        "dropdown_BLJyFX": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/logo_ball.png",
+            "text_headline": "Aufbau des Lagers",
+            "textarea_text": "Nach einer erfolgreichen Reise von der Novo-Eislandebahn zum Untersee haben Andersen und sein Team die Herausforderungen der Navigation durch die eisigen Ebenen der Antarktis gemeistert. Trotz schlechter Lichtverhältnisse und mechanischer Probleme mit ihren Traverse-Schlitten haben sie ihr Lager aufgeschlagen und sind bereit, ihre Forschung zu beginnen. \"Der Bau eines robusten und zuverlässigen Unterschlupfs ist unerlässlich, besonders angesichts der plötzlichen, starken Winde in der Gegend. Ich habe auch mehrere Panoramabilder unserer Umgebung eingefügt. Während die Berge auf diesen Bildern linear erscheinen, bilden sie tatsächlich einen nahezu vollständigen Kreis um uns herum und erschaffen ein atemberaubendes natürliches Amphitheater\", schrieb Andersen in einem Brief an Keith Cowing, einen Fellow des Explorers Club, ehemaligen Payload-Manager der NASA-Raumstation/space Biologen und Journalisten bei astrobiology.com.",
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Dale-Anderson-3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_TpXTMK",
+        "dropdown_EiFzAk",
+        "dropdown_eQqYXe",
+        "dropdown_BLJyFX"
+      ],
+      "settings": {
+        "text_headline": "",
+        "textarea_text": ""
+      }
+    },
+    "l_text_logos_CAKfR8": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "Schlechtes Wetter",
+        "text_text": "Als sich die Expedition Anfang November entfaltet, stehen Andersen und sein Team vor der unberechenbaren Natur des antarktischen Wetters. Von ruhigem Sonnenschein bis hin zu heulenden Winden von über 70 mph brachte jeder Tag neue Herausforderungen und Triumphe. Trotz des Verlusts eines Zeltes in einem plötzlichen Schneesturm beharren Andersen und sein Team darauf, sich im Angesicht dieser Naturgewalten widerstandsfähig und anpassungsfähig zu zeigen. \"Unsere Heimplanet Mavericks Zelte haben sich letzte Nacht bewährt und sind standhaft gegen die böigen Winde geblieben. Wir erwarten eine weitere Bewährungsprobe diesen kommenden Donnerstag, da die Wettervorhersage sogar noch stärkere Winde voraussagt\", fährt Andersen fort.<br><br>Mitte November zeigt sich das antarktische Wetter als unerbittlich, als ein mächtiger Blizzard mit Winden von bis zu 105 mph die Entschlossenheit des Teams auf die Probe stellt. Die Zelte werden absichtlich zusammengeklappt, um Zerstörung zu vermeiden, doch durch Teamarbeit und Entschlossenheit wird das Lager wieder aufgebaut, was den unbeugsamen Geist der Erkundung zeigt. Bei klarem Himmel und nachlassenden Winden setzen Andersen und sein Team ihre Forschung fort: \"Die schnelle Aufblaszeit von nur wenigen Minuten für die Luftrahmen des Heimplanet Cave-Zeltes erweist sich für uns als game-changer, da es uns einen schnellen Unterstand für wichtige Aufgaben wie das Aufstellen des ROV für Unterwasseruntersuchungen unter dem Eis oder das Durchführen von Unterwassermessungen bietet.\""
+      }
+    },
+    "l_content_left_dVcagj": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Fortsetzung folgt...",
+        "textarea_text": "Während Dale Andersen und sein Team die Antarktisexpedition fortsetzt, werden wir an den unerschütterlichen Erkundungsgeist der Menschheit erinnert. Durch Ausdauer und wissenschaftliche Neugier treiben Andersen und sein Team die Grenzen der Erforschung voran, indem sie die Geheimnisse einer der extremsten Umgebungen der Erde enträtseln und uns dabei wertvolles Feedback für die weitere Verbesserung unserer Zelte geben. Dale Andersen kehrt für eine weitere Forschungsfeldsaison in die Antarktis – und zum Untersee – zurück. Wir werden seine Updates hier veröffentlichen. Über seine früheren Erfolge kannst du dich <span style=\"text-decoration: underline;\"><a href=\"https://astrobiology.com/dale-andersens-field-reports\">hier </a></span>informieren.\n<br><br>\n<p>Klicke hier um mehr über <span style=\"text-decoration: underline;\"><strong><a href=\"https://heimplanet.com/products/mavericks-basecamp\" target=\"_blank\">Mavericks</a></strong></span> oder die Heimplanet <span style=\"text-decoration: underline;\"><strong><a href=\"https://heimplanet.com/blogs/designraum/zelttechnik\" target=\"_blank\">Zelttechnik</a></strong></span> zu erfahren. </p>\n<p> </p>\n<p>Fotocredit: Klemens Weisleitner</p>",
+        "image_bild": "shopify://shop_images/DSC_7444_1.jpg"
+      }
+    },
+    "l_produkt_QbA6R8": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_ipBq33": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Expedition-2024-2.jpg"
+          }
+        },
+        "fact_tQ3c6w": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Hervorragende Stabilität"
+          }
+        },
+        "fact_MnxFyG": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Ideal für größere Gruppen"
+          }
+        },
+        "fact_thTQjL": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Genutzt für Expeditionen"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_ipBq33",
+        "fact_tQ3c6w",
+        "fact_MnxFyG",
+        "fact_thTQjL"
+      ],
+      "settings": {
+        "text_headline": "Mavericks, Basecamp",
+        "textarea_beschreibung": "",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "Zum Mavericks",
+        "url_produkt_link": "shopify://products/re-stored-mavericks-basecamp",
+        "checkbox_swiper_script": true
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "shopify://blogs/abenteuer",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
+      }
+    }
+  },
+  "layout": "article",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_hero_ijQ63U",
+    "article_products_V4qaqk",
+    "l_text_logos_4BxefE",
+    "l_video_gFaUKN",
+    "l_dropdowns_qLg3dq",
+    "l_text_logos_CAKfR8",
+    "l_content_left_dVcagj",
+    "l_produkt_QbA6R8",
+    "article_next"
+  ]
+}
