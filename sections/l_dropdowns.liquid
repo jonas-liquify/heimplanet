@@ -13,12 +13,15 @@
 </div><div class="dropdown_symbol"></div></div>
                                     
                                     <div class="dropdown_content is-big"><div class="dropdowns_content-grid"><p class="text-size-regular max-width-large"> {{ block.settings.textarea_text }} </p>
-{% if block.settings.image_bild != blank %}    <div li-if="block.settings.image_bild != blank">
+<div class="z-index-1">{% if block.settings.image_bild != blank %}    <div li-if="block.settings.image_bild != blank">
     <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="dropdowns_image">
     </div>
-{% endif %}</div></div>
+{% endif %}{% if block.settings.thumbnail != blank %}    <div li-if="block.settings.thumbnail != blank" class="testimonial_thumbnail w-embed">
+    <video slot="media" src="{{ block.settings.thumbnail.sources[1].url }}" playsinline="" crossorigin="" width="100%" height="100%" loop="" autoplay=""></video>    </div>
+{% endif %}</div><div class="li-custom w-embed"></div>
+</div></div>
                                     
                             </div>
             {% endif %}
 {% endfor %}
-</div></div></div> {% schema %} {"tag":"div","name":"L-Dropdowns","class":"section_l-dropdowns background-color-grey","blocks":[{"name":"Dropdown","type":"dropdown","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_headline","type":"text","label":"Headline","default":"H\u00e4ufige Fragen &amp; Antworten"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br\/>um bessere Stoffe, fairere Arbeitsbedingungen,"},{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Mono Dyecoshell"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br\/>um bessere Stoffe, fairere Arbeitsbedingungen,"}],"presets":[{"name":"L-Dropdowns","category":"Liquify","blocks":[{"type":"dropdown"}]}]} {% endschema %}
+</div></div></div> {% schema %} {"tag":"div","name":"L-Dropdowns","class":"section_l-dropdowns background-color-grey","blocks":[{"name":"Dropdown","type":"dropdown","settings":[{"id":"image_icon","type":"image_picker","label":"Icon"},{"id":"text_headline","type":"text","label":"Headline","default":"H\u00e4ufige Fragen &amp; Antworten"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br\/>um bessere Stoffe, fairere Arbeitsbedingungen,"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"type":"video","id":"thumbnail","label":"Video Thumbnail"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Mono Dyecoshell"},{"id":"textarea_text","type":"textarea","label":"text","default":"Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br\/>um bessere Stoffe, fairere Arbeitsbedingungen,"}],"presets":[{"name":"L-Dropdowns","category":"Liquify","blocks":[{"type":"dropdown"}]}]} {% endschema %}
