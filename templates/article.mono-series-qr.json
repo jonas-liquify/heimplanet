@@ -22,12 +22,19 @@
         "image_bild": "shopify://shop_images/24-11-12_header02.jpg"
       }
     },
+    "l_video_L6k4FT": {
+      "type": "l_video",
+      "custom_css": [],
+      "settings": {
+        "text_video_url": "https://www.youtube.com/embed/fw6oAB0-I2E?si=pX88T4z5_NHN5Aj1"
+      }
+    },
     "l_content_left_aGDP9m": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "Willkommen in der <br>Heimplanet Familie",
+        "text_headline": "Willkommen in der Heimplanet Familie",
         "textarea_text": "Vielen Dank, dass du einen Mono Series Rucksack gekauft hast und an unsere Vision für eine nachhaltigere Zukunft glaubst. Mit deinem Kauf begleitest du uns auf einer aufregenden Reise hin zu umweltfreundlicheren Rucksackdesigns.\n\n<br><br>\n<b>\"DER UMWELTFREUNDLICHSTE RUCKSACK, DEN WIR HEUTE MACHEN KÖNNEN.”</b>",
-        "image_bild": "shopify://shop_images/Screenshot_2024-05-14_084919_d6c018c3-a052-4a6f-9b9b-14d8bbb1e823.png"
+        "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-classic-aether-rally.png"
       }
     },
     "l_content_right_MaMwry": {
@@ -158,13 +165,6 @@
       "settings": {
         "text_headline": "",
         "textarea_text": ""
-      }
-    },
-    "l_video_L6k4FT": {
-      "type": "l_video",
-      "custom_css": [],
-      "settings": {
-        "text_video_url": "https://www.youtube.com/embed/fw6oAB0-I2E?si=pX88T4z5_NHN5Aj1"
       }
     },
     "article_products_V4qaqk": {
