@@ -28,12 +28,13 @@
     },
     "l_hero_no_fade_qiqWGP": {
       "type": "l_hero_no_fade",
+      "disabled": true,
       "custom_css": [
         "h1 {color: #303030;}",
         "div {color: #404040;}"
       ],
       "settings": {
-        "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experiences\"<br><br>",
+        "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experiences\"",
         "text_headline": "静寂",
         "textarea_longer_text": "<br><span style=\"color: #404040;\">SEIJAKU</span><br><br>",
         "text_button_text": "zum launch anmelden",
@@ -46,9 +47,9 @@
     "l_hero_no_fade_6E8EBM": {
       "type": "l_hero_no_fade",
       "settings": {
-        "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experiences\"",
+        "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experiences\"<br><br>",
         "text_headline": "静寂",
-        "textarea_longer_text": "<br><span style=\"color: #404040;\">SEIJAKU</span><br><br>",
+        "textarea_longer_text": "SEIJAKU<br><br>",
         "text_button_text": "zum launch anmelden",
         "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
         "text_button_text_2": "",
