@@ -26,6 +26,20 @@
         "image_bild": "shopify://shop_images/NeoBlack-Background-111111.png"
       }
     },
+    "l_hero_no_fade_BWcVQx": {
+      "type": "l_hero_no_fade",
+      "disabled": true,
+      "settings": {
+        "text_subline": "No need to be loud to make a bold statement",
+        "text_headline": "NEO BLACK PROGRAM",
+        "textarea_longer_text": "<br><span style=\"color: #404040;\">COMING SOON</span>",
+        "text_button_text": "Jetzt anmelden",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
+      }
+    },
     "l_hero_no_fade_qiqWGP": {
       "type": "l_hero_no_fade",
       "disabled": true,
@@ -142,6 +156,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_no_fade_kmX8Nc",
+    "l_hero_no_fade_BWcVQx",
     "l_hero_no_fade_qiqWGP",
     "l_hero_no_fade_6E8EBM",
     "l_newsletter_VpDKBW",
