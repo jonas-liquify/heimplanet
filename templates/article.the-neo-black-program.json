@@ -40,24 +40,6 @@
         "image_bild": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
     },
-    "l_hero_no_fade_qiqWGP": {
-      "type": "l_hero_no_fade",
-      "disabled": true,
-      "custom_css": [
-        "h1 {color: #303030;}",
-        "div {color: #404040;}"
-      ],
-      "settings": {
-        "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experiences\"",
-        "text_headline": "静寂",
-        "textarea_longer_text": "<br><span style=\"color: #404040;\">SEIJAKU</span><br><br>",
-        "text_button_text": "zum launch anmelden",
-        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
-        "text_button_text_2": "",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/NeoBlack-Background-111111.png"
-      }
-    },
     "l_hero_no_fade_6E8EBM": {
       "type": "l_hero_no_fade",
       "settings": {
@@ -78,20 +60,6 @@
       "settings": {
         "text_headline": "",
         "text_text": ""
-      }
-    },
-    "l_hero_HME9jY": {
-      "type": "l_hero",
-      "disabled": true,
-      "settings": {
-        "text_subline": "This is some text inside of a div block.",
-        "text_headline": "Medium length hero heading goes here",
-        "textarea_longer_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "text_button_text": "Button Text",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/blog-heimplanet-neoblack.jpg"
       }
     },
     "l_reveal_slider_BCDMWq": {
@@ -173,10 +141,8 @@
   "order": [
     "l_hero_no_fade_kmX8Nc",
     "l_hero_no_fade_BWcVQx",
-    "l_hero_no_fade_qiqWGP",
     "l_hero_no_fade_6E8EBM",
     "l_newsletter_VpDKBW",
-    "l_hero_HME9jY",
     "l_reveal_slider_BCDMWq",
     "l_reveal_slider_qGQyx4",
     "l_gallery_89ybBM"
