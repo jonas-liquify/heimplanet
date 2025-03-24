@@ -148,13 +148,12 @@
     },
     "l_reveal_slider_qGQyx4": {
       "type": "l_reveal_slider",
-      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
-        "text_vorher": "",
-        "text_nachher": "SOON TO BE REVEALED",
-        "image_bild_1": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg",
+        "text_vorher": "BACKDOOR",
+        "text_nachher": "NEOBLACK",
+        "image_bild_1": "shopify://shop_images/Backdoor_NeoBlack_Hero_2000x2000_94ac819f-e816-44d2-8f23-025c3d51638a.jpg",
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
     }
