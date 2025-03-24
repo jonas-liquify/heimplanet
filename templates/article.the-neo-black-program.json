@@ -97,6 +97,12 @@
     "l_reveal_slider_BCDMWq": {
       "type": "l_reveal_slider",
       "blocks": {
+        "fact_Xkj9fa": {
+          "type": "fact",
+          "settings": {
+            "text_text": "5 Jahre Entwicklungszeit"
+          }
+        },
         "fact_tXnx7a": {
           "type": "fact",
           "settings": {
@@ -123,19 +129,19 @@
         }
       },
       "block_order": [
+        "fact_Xkj9fa",
         "fact_tXnx7a",
         "fact_JLgW8q",
         "fact_63QcFm",
         "fact_rcczhQ"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "text_headline": "Neo Black features",
         "textarea_text": "",
         "text_vorher": "The Cave XL",
         "text_nachher": "SOON TO BE REVEALED",
-        "image_bild_1": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg",
+        "image_bild_1": "shopify://shop_images/CaveXL_NeoBlack_Hero_2000x2000__MG_re.jpg",
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
       }
     },
