@@ -135,6 +135,7 @@
         "fact_63QcFm",
         "fact_rcczhQ"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "text_headline": "Neo Black features",
@@ -142,7 +143,7 @@
         "text_vorher": "THE CAVE XL",
         "text_nachher": "NEO BLACK",
         "image_bild_1": "shopify://shop_images/CaveXL_NeoBlack_Hero_2000x2000__MG_re.jpg",
-        "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
+        "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser_0f54b023-581b-497e-a7f0-ded6823e1b8a.jpg"
       }
     },
     "l_reveal_slider_qGQyx4": {
