@@ -21,7 +21,9 @@
       "type": "l_html_text",
       "disabled": true,
       "settings": {
-        "html_richtext": "<div class=\"klaviyo-form-VEVTKH\"></div>"
+        "html_richtext": "<div class=\"klaviyo-form-VDNjwZ\"></div>",
+        "bg_color": "#000000",
+        "color": "#ffffff"
       }
     },
     "l_text_logos_RcknbQ": {
@@ -30,7 +32,7 @@
       "settings": {
         "text_subline": "",
         "text_headline": "",
-        "text_text": "<div class=\"klaviyo-form-VEVTKH\"></div>"
+        "text_text": ""
       }
     }
   },
