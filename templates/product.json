@@ -61,26 +61,6 @@
         "text_aussen": "Aussen"
       }
     },
-    "product_faq": {
-      "type": "product_faq",
-      "settings": {
-        "text_bewertungen": "Bewertungen",
-        "text_headline": "Häufige Fragen &amp; Antworten"
-      }
-    },
-    "product_images": {
-      "type": "product_images",
-      "settings": {}
-    },
-    "product_recommended": {
-      "type": "product_recommended",
-      "custom_css": [
-        ".product-item_image.is-second {display: none;}"
-      ],
-      "settings": {
-        "text_headline": "Ähnliche Produkte"
-      }
-    },
     "infos": {
       "type": "infos",
       "blocks": {
@@ -118,6 +98,26 @@
         "text_headline": "Viel mehr als nur Details. Unsere Benefits:"
       }
     },
+    "product_faq": {
+      "type": "product_faq",
+      "settings": {
+        "text_bewertungen": "Bewertungen",
+        "text_headline": "Häufige Fragen &amp; Antworten"
+      }
+    },
+    "product_images": {
+      "type": "product_images",
+      "settings": {}
+    },
+    "product_recommended": {
+      "type": "product_recommended",
+      "custom_css": [
+        ".product-item_image.is-second {display: none;}"
+      ],
+      "settings": {
+        "text_headline": "Ähnliche Produkte"
+      }
+    },
     "17385839761ba9dc16": {
       "type": "apps",
       "blocks": {
@@ -151,10 +151,10 @@
     "product_video",
     "product_videos",
     "product_infos",
+    "infos",
     "product_faq",
     "product_images",
     "product_recommended",
-    "infos",
     "17385839761ba9dc16"
   ]
 }
