@@ -157,6 +157,15 @@
         "image_bild_1": "shopify://shop_images/Backdoor_NeoBlack_Hero_2000x2000_94ac819f-e816-44d2-8f23-025c3d51638a.jpg",
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
+    },
+    "l_gallery_89ybBM": {
+      "type": "l_gallery",
+      "disabled": true,
+      "settings": {
+        "image_bild_1": "shopify://shop_images/heimplanet-backdoor-neoblack_2.jpg",
+        "image_bild_2": "shopify://shop_images/heimplanet-backdoor-neoblack.jpg",
+        "image_bild_3": "shopify://shop_images/heimplanet-backdoor-neoblack.jpg"
+      }
     }
   },
   "layout": "article",
@@ -169,6 +178,7 @@
     "l_newsletter_VpDKBW",
     "l_hero_HME9jY",
     "l_reveal_slider_BCDMWq",
-    "l_reveal_slider_qGQyx4"
+    "l_reveal_slider_qGQyx4",
+    "l_gallery_89ybBM"
   ]
 }
