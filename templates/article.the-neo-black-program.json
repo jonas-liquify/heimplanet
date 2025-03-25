@@ -12,9 +12,9 @@
     "l_hero_no_fade_BWcVQx": {
       "type": "l_hero_no_fade",
       "settings": {
-        "text_subline": "No need to be loud to make a bold statement",
+        "text_subline": "Ein starkes Statement muss nicht laut sein",
         "text_headline": "NEO BLACK PROGRAM",
-        "textarea_longer_text": "COMING SOON<br><br>",
+        "textarea_longer_text": "BALD ERHÄLTLICH<br><br>",
         "text_button_text": "ZUM LAUNCH ANMELDEN",
         "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
         "text_button_text_2": "Button Text",
@@ -57,8 +57,8 @@
       "type": "l_headline_mono",
       "disabled": true,
       "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
+        "text_subline": "Eine Hommage an die japanische camping-kultur",
+        "text_headline": "Für Liebhaber von funktionaler ausrüstung & monochromer ästhetik."
       }
     },
     "l_hero_no_fade_6E8EBM": {
