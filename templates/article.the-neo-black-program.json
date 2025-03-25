@@ -36,6 +36,51 @@
         "image_bild": "shopify://shop_images/blog-heimplanet-backdoor-neoblack-teaser-hero.jpg"
       }
     },
+    "l_reveal_slider_BCDMWq": {
+      "type": "l_reveal_slider",
+      "blocks": {
+        "fact_tXnx7a": {
+          "type": "fact",
+          "settings": {
+            "text_text": "All-Black Shell"
+          }
+        },
+        "fact_JLgW8q": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Black Cairo Camo Innenzelt"
+          }
+        },
+        "fact_63QcFm": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Neu: Dope-Dyed Außenzelt"
+          }
+        },
+        "fact_rcczhQ": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Neu: C0-Beschichtung (PFAS-frei]"
+          }
+        }
+      },
+      "block_order": [
+        "fact_tXnx7a",
+        "fact_JLgW8q",
+        "fact_63QcFm",
+        "fact_rcczhQ"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "text_headline": "Neo Black Program",
+        "textarea_text": "",
+        "text_vorher": "THE CAVE XL",
+        "text_nachher": "NEO BLACK",
+        "image_bild_1": "shopify://shop_images/CaveXL_NeoBlack_Hero_2000x2000__MG_re.jpg",
+        "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser_0f54b023-581b-497e-a7f0-ded6823e1b8a.jpg"
+      }
+    },
     "l_hero_no_fade_hqnamm": {
       "type": "l_hero_no_fade",
       "disabled": true,
@@ -48,6 +93,18 @@
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neoblack-teaser-hero.jpg"
+      }
+    },
+    "l_reveal_slider_qGQyx4": {
+      "type": "l_reveal_slider",
+      "disabled": true,
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "text_vorher": "BACKDOOR",
+        "text_nachher": "NEO BLACK",
+        "image_bild_1": "shopify://shop_images/Backdoor_NeoBlack_Hero_2000x2000_94ac819f-e816-44d2-8f23-025c3d51638a.jpg",
+        "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
     },
     "l_hero_no_fade_QT3QF7": {
@@ -101,61 +158,6 @@
         "text_button_text_2": "",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
-      }
-    },
-    "l_reveal_slider_BCDMWq": {
-      "type": "l_reveal_slider",
-      "blocks": {
-        "fact_tXnx7a": {
-          "type": "fact",
-          "settings": {
-            "text_text": "All-Black Shell"
-          }
-        },
-        "fact_JLgW8q": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Black Cairo Camo Innenzelt"
-          }
-        },
-        "fact_63QcFm": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Neu: Dope-Dyed Außenzelt"
-          }
-        },
-        "fact_rcczhQ": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Neu: C0-Beschichtung (PFAS-frei]"
-          }
-        }
-      },
-      "block_order": [
-        "fact_tXnx7a",
-        "fact_JLgW8q",
-        "fact_63QcFm",
-        "fact_rcczhQ"
-      ],
-      "custom_css": [],
-      "settings": {
-        "text_headline": "Neo Black Program",
-        "textarea_text": "",
-        "text_vorher": "THE CAVE XL",
-        "text_nachher": "NEO BLACK",
-        "image_bild_1": "shopify://shop_images/CaveXL_NeoBlack_Hero_2000x2000__MG_re.jpg",
-        "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser_0f54b023-581b-497e-a7f0-ded6823e1b8a.jpg"
-      }
-    },
-    "l_reveal_slider_qGQyx4": {
-      "type": "l_reveal_slider",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "text_vorher": "BACKDOOR",
-        "text_nachher": "NEO BLACK",
-        "image_bild_1": "shopify://shop_images/Backdoor_NeoBlack_Hero_2000x2000_94ac819f-e816-44d2-8f23-025c3d51638a.jpg",
-        "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
     }
   },
