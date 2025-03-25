@@ -75,15 +75,6 @@
         "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
       }
     },
-    "l_newsletter_VpDKBW": {
-      "type": "l_newsletter",
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "text_headline": "",
-        "text_text": ""
-      }
-    },
     "l_reveal_slider_BCDMWq": {
       "type": "l_reveal_slider",
       "blocks": {
@@ -158,7 +149,6 @@
     "l_gallery_4T87Yy",
     "l_headline_mono_GF6GRx",
     "l_hero_no_fade_6E8EBM",
-    "l_newsletter_VpDKBW",
     "l_reveal_slider_BCDMWq",
     "l_reveal_slider_qGQyx4"
   ]
