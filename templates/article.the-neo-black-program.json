@@ -63,6 +63,7 @@
     },
     "l_hero_no_fade_6E8EBM": {
       "type": "l_hero_no_fade",
+      "disabled": true,
       "settings": {
         "text_subline": "",
         "text_headline": "",
