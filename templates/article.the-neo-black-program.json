@@ -9,24 +9,20 @@
  */
 {
   "sections": {
-    "l_hero_no_fade_kmX8Nc": {
+    "l_hero_no_fade_BWcVQx": {
       "type": "l_hero_no_fade",
-      "custom_css": [
-        "h1 {color: #303030;}",
-        "div {color: #404040;}"
-      ],
       "settings": {
         "text_subline": "No need to be loud to make a bold statement",
         "text_headline": "NEO BLACK PROGRAM",
-        "textarea_longer_text": "<br><span style=\"color: #404040;\">COMING SOON</span>",
-        "text_button_text": "Jetzt anmelden",
-        "url_button_link": "",
+        "textarea_longer_text": "COMING SOON<br><br>",
+        "text_button_text": "ZUM LAUNCH ANMELDEN",
+        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/NeoBlack-Background-111111.png"
+        "image_bild": "shopify://shop_images/heimplanet-neoblack.jpg"
       }
     },
-    "l_hero_no_fade_BWcVQx": {
+    "l_hero_no_fade_imXqWP": {
       "type": "l_hero_no_fade",
       "settings": {
         "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experience\"",
@@ -39,13 +35,22 @@
         "image_bild": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
     },
+    "l_gallery_89ybBM": {
+      "type": "l_gallery",
+      "disabled": true,
+      "settings": {
+        "image_bild_1": "shopify://shop_images/heimplanet-backdoor-neoblack_2.jpg",
+        "image_bild_2": "shopify://shop_images/heimplanet-the-cave-xl-neoblack.jpg",
+        "image_bild_3": "shopify://shop_images/heimplanet-the-cave-xl-neoblack-3.jpg"
+      }
+    },
     "l_hero_no_fade_6E8EBM": {
       "type": "l_hero_no_fade",
       "settings": {
         "text_subline": "",
         "text_headline": "",
         "textarea_longer_text": "",
-        "text_button_text": "zum launch anmelden",
+        "text_button_text": "JETZT ANMELDEN",
         "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
         "text_button_text_2": "",
         "url_button_link_2": "",
@@ -124,26 +129,17 @@
         "image_bild_1": "shopify://shop_images/Backdoor_NeoBlack_Hero_2000x2000_94ac819f-e816-44d2-8f23-025c3d51638a.jpg",
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
-    },
-    "l_gallery_89ybBM": {
-      "type": "l_gallery",
-      "disabled": true,
-      "settings": {
-        "image_bild_1": "shopify://shop_images/heimplanet-backdoor-neoblack_2.jpg",
-        "image_bild_2": "shopify://shop_images/heimplanet-the-cave-xl-neoblack.jpg",
-        "image_bild_3": "shopify://shop_images/heimplanet-the-cave-xl-neoblack-3.jpg"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero_no_fade_kmX8Nc",
     "l_hero_no_fade_BWcVQx",
+    "l_hero_no_fade_imXqWP",
+    "l_gallery_89ybBM",
     "l_hero_no_fade_6E8EBM",
     "l_newsletter_VpDKBW",
     "l_reveal_slider_BCDMWq",
-    "l_reveal_slider_qGQyx4",
-    "l_gallery_89ybBM"
+    "l_reveal_slider_qGQyx4"
   ]
 }
