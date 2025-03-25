@@ -22,7 +22,35 @@
         "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
       }
     },
-    "l_hero_no_fade_imXqWP": {
+    "l_hero_no_fade_L3EyVG": {
+      "type": "l_hero_no_fade",
+      "disabled": true,
+      "settings": {
+        "text_subline": "Ein starkes Statement muss nicht laut sein",
+        "text_headline": "NEO BLACK PROGRAM",
+        "textarea_longer_text": "BALD ERHÄLTLICH<br><br>",
+        "text_button_text": "ZUM LAUNCH ANMELDEN",
+        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/blog-heimplanet-backdoor-neoblack-teaser-hero.jpg"
+      }
+    },
+    "l_hero_no_fade_hqnamm": {
+      "type": "l_hero_no_fade",
+      "disabled": true,
+      "settings": {
+        "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experience\"<br><br>",
+        "text_headline": "静寂",
+        "textarea_longer_text": "SEIJAKU<br><br>",
+        "text_button_text": "ZUM LAUNCH ANMELDEN",
+        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neoblack-teaser-hero.jpg"
+      }
+    },
+    "l_hero_no_fade_QT3QF7": {
       "type": "l_hero_no_fade",
       "settings": {
         "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experience\"",
@@ -137,7 +165,9 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_no_fade_BWcVQx",
-    "l_hero_no_fade_imXqWP",
+    "l_hero_no_fade_L3EyVG",
+    "l_hero_no_fade_hqnamm",
+    "l_hero_no_fade_QT3QF7",
     "l_gallery_89ybBM",
     "l_gallery_4T87Yy",
     "l_headline_mono_GF6GRx",
