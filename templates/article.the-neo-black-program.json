@@ -137,7 +137,6 @@
         "fact_63QcFm",
         "fact_rcczhQ"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "text_headline": "Neo Black features",
@@ -150,7 +149,6 @@
     },
     "l_reveal_slider_qGQyx4": {
       "type": "l_reveal_slider",
-      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
