@@ -139,7 +139,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "text_headline": "Neo Black features",
+        "text_headline": "Neo Black Program",
         "textarea_text": "",
         "text_vorher": "THE CAVE XL",
         "text_nachher": "NEO BLACK",
@@ -153,7 +153,7 @@
         "text_headline": "",
         "textarea_text": "",
         "text_vorher": "BACKDOOR",
-        "text_nachher": "NEOBLACK",
+        "text_nachher": "NEO BLACK",
         "image_bild_1": "shopify://shop_images/Backdoor_NeoBlack_Hero_2000x2000_94ac819f-e816-44d2-8f23-025c3d51638a.jpg",
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
@@ -164,13 +164,13 @@
   "order": [
     "l_hero_no_fade_BWcVQx",
     "l_hero_no_fade_L3EyVG",
+    "l_reveal_slider_BCDMWq",
     "l_hero_no_fade_hqnamm",
+    "l_reveal_slider_qGQyx4",
     "l_hero_no_fade_QT3QF7",
     "l_gallery_89ybBM",
     "l_gallery_4T87Yy",
     "l_headline_mono_GF6GRx",
-    "l_hero_no_fade_6E8EBM",
-    "l_reveal_slider_BCDMWq",
-    "l_reveal_slider_qGQyx4"
+    "l_hero_no_fade_6E8EBM"
   ]
 }
