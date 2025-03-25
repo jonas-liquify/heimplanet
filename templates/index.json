@@ -12,6 +12,17 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "hero_slider_6ztQE7": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neoblack-teaser-hero.jpg",
+            "text_headline": "Neo Black Program",
+            "richtext_text": "<p>Eine Hommage an die japanische Camping-Kultur. Für Liebhaber von funktionaler Ausrüstung & monochromer Ästhetik  - Bald erhältlich.</p>",
+            "url_button_link": "shopify://blogs/projekte/neo-black-program",
+            "text_button_text": "MEHR ERFAHREN"
+          }
+        },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
@@ -42,16 +53,6 @@
             "text_button_text": "Jetzt entdecken"
           }
         },
-        "hero_slider_6ztQE7": {
-          "type": "hero-slider",
-          "disabled": true,
-          "settings": {
-            "text_headline": "CLOUDBREAK",
-            "richtext_text": "<p><strong>PROJEKTE: </strong><br/>CLOUDBREAK V2<br/>Ein neues Kapitel beginnt. </p>",
-            "url_button_link": "shopify://blogs/projekte/cloudbreak-v2-ein-neues-kapitel-beginnt",
-            "text_button_text": "MEHR ERFAHREN"
-          }
-        },
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
           "disabled": true,
@@ -75,10 +76,10 @@
         }
       },
       "block_order": [
+        "hero_slider_6ztQE7",
         "hero_slider_DQWqP4",
         "hero_slider_L3fJzp",
         "hero_slider_MWnnBG",
-        "hero_slider_6ztQE7",
         "hero_slider_zBjUtr",
         "hero_slider_icPbWh"
       ],
