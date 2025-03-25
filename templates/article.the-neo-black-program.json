@@ -55,7 +55,6 @@
     },
     "l_headline_mono_GF6GRx": {
       "type": "l_headline_mono",
-      "disabled": true,
       "settings": {
         "text_subline": "Eine Hommage an die japanische camping-kultur",
         "text_headline": "Für Liebhaber von funktionaler ausrüstung & monochromer ästhetik."
@@ -63,7 +62,6 @@
     },
     "l_hero_no_fade_6E8EBM": {
       "type": "l_hero_no_fade",
-      "disabled": true,
       "settings": {
         "text_subline": "",
         "text_headline": "",
@@ -116,7 +114,6 @@
         "fact_63QcFm",
         "fact_rcczhQ"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "text_headline": "Neo Black features",
@@ -129,7 +126,6 @@
     },
     "l_reveal_slider_qGQyx4": {
       "type": "l_reveal_slider",
-      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
