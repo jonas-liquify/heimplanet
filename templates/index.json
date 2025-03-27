@@ -44,6 +44,7 @@
         },
         "hero_slider_MWnnBG": {
           "type": "hero-slider",
+          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-Neck-Pouch-A6-Light-3.jpg",
             "text_headline": "Neck Pouch",
