@@ -30,24 +30,22 @@
         "text_text": "- R. Buckminster Fuller (Erfinder der geodätischen Kuppel)"
       }
     },
-    "l_hero_wgbkBA": {
-      "type": "l_hero",
+    "l_video_K8qgLQ": {
+      "type": "l_video",
       "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
-        "text_button_text": "",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
+        "text_video_url": "https://www.youtube-nocookie.com/embed/2oa5cZNRE7Q?si=nKAfNRtSIlpNtQ4_"
       }
     },
-    "l_headline_mono_pd3HyJ": {
-      "type": "l_headline_mono",
+    "content_image_XHPBdt": {
+      "type": "content_image",
       "settings": {
-        "text_subline": "",
-        "text_headline": "// 01 //<br><br>Stabilität - Das Geodätische Prinzip"
+        "text_headline": "01 Stabilität - Das geodätische Prinzip",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "",
+        "text_button_text": "Button",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
       }
     },
     "l_dropdowns_qWbeeY": {
@@ -157,6 +155,13 @@
         "checkbox_swiper_script": true
       }
     },
+    "l_headline_mono_DCCMrd": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
+      }
+    },
     "l_content_image_bg_bmGt6k": {
       "type": "l_content_image_bg",
       "settings": {
@@ -167,19 +172,19 @@
         "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg"
       }
     },
-    "l_headline_mono_DCCMrd": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
-      }
-    },
     "l_text_logos_RMYmYe": {
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
         "text_headline": "",
         "text_text": "Der Luftrahmen verfügt über mehrere Ventile. Da die Streben des Rahmens jedoch über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten (Multi-Chamber-Safety). Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen."
+      }
+    },
+    "l_headline_mono_68a6D6": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 04 //<br><br>Patentiertes Mehrkammer-Sicherheitssystem"
       }
     },
     "l_content_image_bg_QdgBbQ": {
@@ -192,19 +197,19 @@
         "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
       }
     },
-    "l_headline_mono_68a6D6": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 04 //<br><br>Patentiertes Mehrkammer-Sicherheitssystem"
-      }
-    },
     "l_text_logos_iNx9t6": {
       "type": "l_text_logos",
       "settings": {
         "text_subline": "",
         "text_headline": "",
         "text_text": "Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
+      }
+    },
+    "l_headline_mono_Hxxwqb": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "// 05 //<br><br>Doppellagige Konstruktion"
       }
     },
     "l_content_image_bg_FxTHyt": {
@@ -215,13 +220,6 @@
         "textarea_text": "",
         "text_headline_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
-      }
-    },
-    "l_headline_mono_Hxxwqb": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 05 //<br><br>Doppellagige Konstruktion"
       }
     },
     "l_text_logos_qg9Ftd": {
@@ -238,8 +236,8 @@
   "order": [
     "l_hero_ijQ63U",
     "l_text_logos_icj79J",
-    "l_hero_wgbkBA",
-    "l_headline_mono_pd3HyJ",
+    "l_video_K8qgLQ",
+    "content_image_XHPBdt",
     "l_dropdowns_qWbeeY",
     "l_headline_mono_eGEaEf",
     "l_step_slider_ekn9Jm",
