@@ -216,8 +216,8 @@
         "feature_AgYLyB": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-1_7a887133-53ed-4a05-9f24-531008766649.jpg",
-            "text_text": "AUfblasbarer Rahmen + Innen-& Außenzelt"
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg",
+            "text_text": "2-in-1-Ventile"
           }
         }
       },
@@ -229,16 +229,6 @@
       "settings": {
         "text_headline": "",
         "checkbox_swiper_script": true
-      }
-    },
-    "l_content_image_bg_bmGt6k": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg"
       }
     },
     "l_headline_mono_68a6D6": {
@@ -305,7 +295,6 @@
     "content_image_rB3Ykm",
     "l_text_logos_RMYmYe",
     "l_step_slider_499XX6",
-    "l_content_image_bg_bmGt6k",
     "l_headline_mono_68a6D6",
     "l_content_image_bg_QdgBbQ",
     "l_text_logos_iNx9t6",
