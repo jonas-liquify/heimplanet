@@ -50,8 +50,32 @@
         "image_bild": "shopify://shop_images/blog-heimplanet-backdoor-neoblack-teaser-hero.jpg"
       }
     },
+    "content_image_QC8app": {
+      "type": "content_image",
+      "disabled": true,
+      "settings": {
+        "text_headline": "BACKDOOR NEO BLACK",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
+        "text_button_text": "ZUM PRODUKT",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
+    "l_reveal_slider_blac_MChqKy": {
+      "type": "l_reveal_slider_blac",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "text_vorher": "BACKDOOR",
+        "text_nachher": "NEO BLACK",
+        "image_bild_1": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser2-01.jpg",
+        "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
+      }
+    },
     "l_headline_mono_GF6GRx": {
       "type": "l_headline_mono",
+      "disabled": true,
       "settings": {
         "text_subline": "Eine Hommage an die japanische camping-kultur",
         "text_headline": "Für Liebhaber von funktionaler ausrüstung & monochromer ästhetik."
@@ -91,17 +115,6 @@
         "text_nachher": "NEO BLACK",
         "image_bild_1": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser2-01.jpg",
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser_0f54b023-581b-497e-a7f0-ded6823e1b8a.jpg"
-      }
-    },
-    "l_reveal_slider_blac_MChqKy": {
-      "type": "l_reveal_slider_blac",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "text_vorher": "BACKDOOR",
-        "text_nachher": "NEO BLACK",
-        "image_bild_1": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser2-01.jpg",
-        "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
     },
     "l_gallery_89ybBM": {
@@ -193,11 +206,12 @@
     "l_hero_no_fade_BWcVQx",
     "l_hero_no_fade_QT3QF7",
     "l_hero_no_fade_L3EyVG",
+    "content_image_QC8app",
+    "l_reveal_slider_blac_MChqKy",
     "l_headline_mono_GF6GRx",
     "l_hero_no_fade_hqnamm",
     "content_image_czEkcW",
     "l_reveal_slider_blac_9h4Jc6",
-    "l_reveal_slider_blac_MChqKy",
     "l_gallery_89ybBM",
     "l_gallery_4T87Yy",
     "l_hero_no_fade_6E8EBM",
