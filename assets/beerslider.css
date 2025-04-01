@@ -55,7 +55,7 @@
   width: calc(100% + 2px);
   z-index: 2;
 }
-.beer-range::slider-thumb-2 {
+.beer-range::slider-thumb {
   appearance: none;
   height: 300vh; 
 }
