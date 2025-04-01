@@ -133,6 +133,7 @@
     },
     "l_reveal_slider_blac_MChqKy": {
       "type": "l_reveal_slider_blac",
+      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
