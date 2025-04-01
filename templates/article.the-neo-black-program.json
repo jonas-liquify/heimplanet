@@ -121,7 +121,6 @@
     },
     "l_reveal_slider_blac_9h4Jc6": {
       "type": "l_reveal_slider_blac",
-      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
@@ -133,7 +132,6 @@
     },
     "l_reveal_slider_blac_MChqKy": {
       "type": "l_reveal_slider_blac",
-      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
@@ -177,6 +175,7 @@
         "fact_63QcFm",
         "fact_rcczhQ"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "text_headline": "Neo Black Program",
@@ -189,6 +188,7 @@
     },
     "l_reveal_slider_qGQyx4": {
       "type": "l_reveal_slider",
+      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
