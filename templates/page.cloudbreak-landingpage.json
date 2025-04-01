@@ -148,28 +148,6 @@
         "url_produkt_link": "shopify://products/cloudbreak-classic",
         "checkbox_swiper_script": true
       }
-    },
-    "l_reveal_slider_hbRqW4": {
-      "type": "l_reveal_slider",
-      "blocks": {
-        "fact_f4LwWN": {
-          "type": "fact",
-          "settings": {
-            "text_text": "5 Jahre Entwicklungszeit"
-          }
-        }
-      },
-      "block_order": [
-        "fact_f4LwWN"
-      ],
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
-        "text_vorher": "This is some text inside of a div block.",
-        "text_nachher": "This is some text inside of a div block.",
-        "image_bild_1": "shopify://shop_images/blog-heimplanet-the-cave-xl-neo-black.jpg",
-        "image_bild_2": "shopify://shop_images/blog-heimplanet-the-cave-xl-neo-black-1.jpg"
-      }
     }
   },
   "layout": "page.landingpage",
@@ -179,7 +157,6 @@
     "l_hero",
     "l_hero_pwTxaV",
     "l_slider_nzYwHp",
-    "l_produkt_HUW8FT",
-    "l_reveal_slider_hbRqW4"
+    "l_produkt_HUW8FT"
   ]
 }
