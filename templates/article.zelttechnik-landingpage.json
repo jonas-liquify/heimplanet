@@ -75,6 +75,14 @@
             "textarea_text": "THE CAVE war unser erstes aufblasbares Zelt, immer noch kultig und perfekt für 2-3 Personen. Alles, was Du brauchst, ist eine Pumpe, um Dein Zelt in weniger als einer Minute aufzustellen. Dank seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten THE CAVE ist es extrem stabil und dank der hochwertigen Materialien auch wetterfest sowie langlebig."
           }
         },
+        "dropdown_hP4H9R": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-1_0e5f9a17-7f29-4d0f-ae48-fd4347be2cbe.jpg",
+            "text_headline": "THE CAVE XL",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        },
         "dropdown_w4FCCk": {
           "type": "dropdown",
           "settings": {
@@ -104,6 +112,7 @@
         "dropdown_FtmNRt",
         "dropdown_G6RMTF",
         "dropdown_wGR3TG",
+        "dropdown_hP4H9R",
         "dropdown_w4FCCk",
         "dropdown_EGMdbh",
         "dropdown_hMhRMd"
