@@ -109,7 +109,6 @@
         "fact_GY3j4a",
         "fact_yYja7Y"
       ],
-      "disabled": true,
       "settings": {
         "text_headline": "THE CAVE XL, NEO BLACK",
         "textarea_beschreibung": "Japanisches Camping vereint Einfachheit, Funktion und Harmonie mit der Natur. Das limitierte Neo Black Programm verkörpert diesen Gedanken - Inspiriert von Seijaku (静寂), der Schönheit der Stille, verwandelt es jedes Basecamp in einen Ort der Ruhe, Ordnung und Intention.",
@@ -206,6 +205,29 @@
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
       }
+    },
+    "l_reveal_slider_blac_9h4Jc6": {
+      "type": "l_reveal_slider_blac",
+      "blocks": {
+        "fact_wYUtUD": {
+          "type": "fact",
+          "settings": {
+            "text_text": "5 Jahre Entwicklungszeit"
+          }
+        }
+      },
+      "block_order": [
+        "fact_wYUtUD"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_headline": "Bags+Backpacks",
+        "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?",
+        "text_vorher": "This is some text inside of a div block.",
+        "text_nachher": "This is some text inside of a div block.",
+        "image_bild_1": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser2-01.jpg",
+        "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser_0f54b023-581b-497e-a7f0-ded6823e1b8a.jpg"
+      }
     }
   },
   "layout": "article",
@@ -221,6 +243,7 @@
     "l_reveal_slider_qGQyx4",
     "l_gallery_89ybBM",
     "l_gallery_4T87Yy",
-    "l_hero_no_fade_6E8EBM"
+    "l_hero_no_fade_6E8EBM",
+    "l_reveal_slider_blac_9h4Jc6"
   ]
 }
