@@ -176,28 +176,11 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_headline_mono_DCCMrd": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 03 //<br><br>One-Pump-System und 2-in-1-Ventile"
-      }
-    },
-    "l_content_image_bg_bmGt6k": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg"
-      }
-    },
     "content_image_rB3Ykm": {
       "type": "content_image",
       "settings": {
         "text_headline": "03 Das One-Pump-System",
-        "textarea_text": "Der Luftrahmen verfügt über mehrere Ventile. Da die Streben des Rahmens jedoch über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten (Multi-Chamber-Safety). Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen.",
+        "textarea_text": "Der Luftrahmen verfügt über mehrere Ventile. Da die Streben des Rahmens jedoch über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten.",
         "url_button_link": "https://heimplanet.com/collections/zelte",
         "text_button_text": "ENTDECKE DIE ZELTE",
         "url_button_link_2": "",
@@ -210,14 +193,59 @@
       "settings": {
         "text_subline": "",
         "text_headline": "",
-        "text_text": "Der Luftrahmen verfügt über mehrere Ventile. Da die Streben des Rahmens jedoch über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten (Multi-Chamber-Safety). Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen."
+        "text_text": "Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen."
+      }
+    },
+    "l_step_slider_499XX6": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_4LLWp6": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Classic-New-2022-Detail-5.jpg",
+            "text_text": "Mehrere Ventile am Luftrahmen"
+          }
+        },
+        "feature_iWjQJ3": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-Details-13.jpg",
+            "text_text": "Verbindungsschläuche"
+          }
+        },
+        "feature_AgYLyB": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-1_7a887133-53ed-4a05-9f24-531008766649.jpg",
+            "text_text": "AUfblasbarer Rahmen + Innen-& Außenzelt"
+          }
+        }
+      },
+      "block_order": [
+        "feature_4LLWp6",
+        "feature_iWjQJ3",
+        "feature_AgYLyB"
+      ],
+      "settings": {
+        "text_headline": "",
+        "checkbox_swiper_script": true
+      }
+    },
+    "l_content_image_bg_bmGt6k": {
+      "type": "l_content_image_bg",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_text": "",
+        "text_headline_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg"
       }
     },
     "l_headline_mono_68a6D6": {
       "type": "l_headline_mono",
       "settings": {
         "text_subline": "",
-        "text_headline": "// 04 //<br><br>Patentiertes Mehrkammer-Sicherheitssystem"
+        "text_headline": "// 04 //Patentiertes Mehrkammer-Sicherheitssystem"
       }
     },
     "l_content_image_bg_QdgBbQ": {
@@ -275,8 +303,8 @@
     "content_image_t89N49",
     "l_step_slider_ekn9Jm",
     "content_image_rB3Ykm",
-    "l_headline_mono_DCCMrd",
     "l_text_logos_RMYmYe",
+    "l_step_slider_499XX6",
     "l_content_image_bg_bmGt6k",
     "l_headline_mono_68a6D6",
     "l_content_image_bg_QdgBbQ",
