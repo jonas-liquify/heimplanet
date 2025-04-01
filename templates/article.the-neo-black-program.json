@@ -109,7 +109,6 @@
         "fact_GY3j4a",
         "fact_yYja7Y"
       ],
-      "disabled": true,
       "settings": {
         "text_headline": "THE CAVE XL, NEO BLACK",
         "textarea_beschreibung": "Eine Hommage an die japanische Camping-Kultur. Für Liebhaber von funktionaler Ausrüstung & monochromer Ästhetik.",
@@ -173,6 +172,40 @@
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
       }
+    },
+    "hero_xKPmcp": {
+      "type": "hero",
+      "blocks": {
+        "hero_slider_w7xwtL": {
+          "type": "hero-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-04.jpg",
+            "text_headline": "THE CAVE XL NEO BLACK",
+            "richtext_text": "",
+            "url_button_link": "",
+            "text_button_text": "ZUM ARTIKEL"
+          }
+        }
+      },
+      "block_order": [
+        "hero_slider_w7xwtL"
+      ],
+      "disabled": true,
+      "settings": {
+        "checkbox_swiper_script": true
+      }
+    },
+    "content_image_czEkcW": {
+      "type": "content_image",
+      "disabled": true,
+      "settings": {
+        "text_headline": "THE CAVE XL, NEO BLACk",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
+        "text_button_text": "ZUM PRODUKT",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
     }
   },
   "layout": "article",
@@ -188,6 +221,8 @@
     "l_reveal_slider_blac_MChqKy",
     "l_gallery_89ybBM",
     "l_gallery_4T87Yy",
-    "l_hero_no_fade_6E8EBM"
+    "l_hero_no_fade_6E8EBM",
+    "hero_xKPmcp",
+    "content_image_czEkcW"
   ]
 }
