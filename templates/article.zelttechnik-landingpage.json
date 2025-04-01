@@ -245,6 +245,7 @@
     },
     "l_content_left_QbUPE8": {
       "type": "l_content_left",
+      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt.",
