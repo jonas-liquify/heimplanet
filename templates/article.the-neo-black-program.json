@@ -109,9 +109,10 @@
         "fact_GY3j4a",
         "fact_yYja7Y"
       ],
+      "disabled": true,
       "settings": {
         "text_headline": "THE CAVE XL, NEO BLACK",
-        "textarea_beschreibung": "Japanisches Camping vereint Einfachheit, Funktion und Harmonie mit der Natur. Das limitierte Neo Black Programm verkörpert diesen Gedanken - Inspiriert von Seijaku (静寂), der Schönheit der Stille, verwandelt es jedes Basecamp in einen Ort der Ruhe, Ordnung und Intention.",
+        "textarea_beschreibung": "Eine Hommage an die japanische Camping-Kultur. Für Liebhaber von funktionaler Ausrüstung & monochromer Ästhetik.",
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "JETZT KAUFEN",
@@ -138,63 +139,6 @@
         "text_vorher": "BACKDOOR",
         "text_nachher": "NEO BLACK",
         "image_bild_1": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser2-01.jpg",
-        "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
-      }
-    },
-    "l_reveal_slider_BCDMWq": {
-      "type": "l_reveal_slider",
-      "blocks": {
-        "fact_tXnx7a": {
-          "type": "fact",
-          "settings": {
-            "text_text": "All-Black Shell"
-          }
-        },
-        "fact_JLgW8q": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Black Cairo Camo Innenzelt"
-          }
-        },
-        "fact_63QcFm": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Neu: Dope-Dyed Außenzelt"
-          }
-        },
-        "fact_rcczhQ": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Neu: C0-Beschichtung (PFAS-frei]"
-          }
-        }
-      },
-      "block_order": [
-        "fact_tXnx7a",
-        "fact_JLgW8q",
-        "fact_63QcFm",
-        "fact_rcczhQ"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "text_headline": "Neo Black Program",
-        "textarea_text": "",
-        "text_vorher": "THE CAVE XL",
-        "text_nachher": "NEO BLACK",
-        "image_bild_1": "shopify://shop_images/CaveXL_NeoBlack_Hero_2000x2000__MG_re.jpg",
-        "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser_0f54b023-581b-497e-a7f0-ded6823e1b8a.jpg"
-      }
-    },
-    "l_reveal_slider_qGQyx4": {
-      "type": "l_reveal_slider",
-      "disabled": true,
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "text_vorher": "BACKDOOR",
-        "text_nachher": "NEO BLACK",
-        "image_bild_1": "shopify://shop_images/Backdoor_NeoBlack_Hero_2000x2000_94ac819f-e816-44d2-8f23-025c3d51638a.jpg",
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
       }
     },
@@ -242,8 +186,6 @@
     "l_produkt_Bf9HNR",
     "l_reveal_slider_blac_9h4Jc6",
     "l_reveal_slider_blac_MChqKy",
-    "l_reveal_slider_BCDMWq",
-    "l_reveal_slider_qGQyx4",
     "l_gallery_89ybBM",
     "l_gallery_4T87Yy",
     "l_hero_no_fade_6E8EBM"
