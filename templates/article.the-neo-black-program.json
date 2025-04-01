@@ -66,7 +66,9 @@
       "blocks": {
         "produkt_slider_Qitpyn": {
           "type": "produkt-slider",
-          "settings": {}
+          "settings": {
+            "image_bild": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-01.jpg"
+          }
         },
         "fact_efDcyF": {
           "type": "fact",
@@ -137,7 +139,9 @@
       "blocks": {
         "produkt_slider_tPnfXi": {
           "type": "produkt-slider",
-          "settings": {}
+          "settings": {
+            "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-01.jpg"
+          }
         },
         "fact_jXzyG3": {
           "type": "fact",
