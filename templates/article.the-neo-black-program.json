@@ -112,11 +112,11 @@
       "disabled": true,
       "settings": {
         "text_headline": "THE CAVE XL, NEO BLACK",
-        "textarea_beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-        "text_preis": "49€",
-        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
-        "text_button_text": "Jetzt vorbestellen",
-        "url_produkt_link": "",
+        "textarea_beschreibung": "Japanisches Camping vereint Einfachheit, Funktion und Harmonie mit der Natur. Das limitierte Neo Black Programm verkörpert diesen Gedanken - Inspiriert von Seijaku (静寂), der Schönheit der Stille, verwandelt es jedes Basecamp in einen Ort der Ruhe, Ordnung und Intention.",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "JETZT KAUFEN",
+        "url_produkt_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
         "checkbox_swiper_script": true
       }
     },
