@@ -210,7 +210,7 @@
           "type": "feature",
           "settings": {
             "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-Details-13.jpg",
-            "text_text": "Verbindungsschläuche"
+            "text_text": "Verbindungsschläuche zwischen den Luftkammern"
           }
         },
         "feature_AgYLyB": {
@@ -231,20 +231,23 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_headline_mono_68a6D6": {
-      "type": "l_headline_mono",
+    "content_image_xhh3BY": {
+      "type": "content_image",
       "settings": {
-        "text_subline": "",
-        "text_headline": "// 04 //Patentiertes Mehrkammer-Sicherheitssystem"
+        "text_headline": "04 Mehrkammer-Sicherheitssystem",
+        "textarea_text": "Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt.",
+        "url_button_link": "https://heimplanet.com/collections/zelte",
+        "text_button_text": "ENTDECKE DIE ZELTE",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
       }
     },
-    "l_content_image_bg_QdgBbQ": {
-      "type": "l_content_image_bg",
+    "l_content_left_QbUPE8": {
+      "type": "l_content_left",
       "settings": {
-        "text_subline": "",
         "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
+        "textarea_text": "Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt.",
         "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
       }
     },
@@ -295,8 +298,8 @@
     "content_image_rB3Ykm",
     "l_text_logos_RMYmYe",
     "l_step_slider_499XX6",
-    "l_headline_mono_68a6D6",
-    "l_content_image_bg_QdgBbQ",
+    "content_image_xhh3BY",
+    "l_content_left_QbUPE8",
     "l_text_logos_iNx9t6",
     "l_headline_mono_Hxxwqb",
     "l_content_image_bg_FxTHyt",
