@@ -88,7 +88,7 @@
     "l_hero_no_fade_hqnamm": {
       "type": "l_hero_no_fade",
       "settings": {
-        "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experience\"<br><br>",
+        "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experience\"",
         "text_headline": "静寂",
         "textarea_longer_text": "SEIJAKU<br><br>",
         "text_button_text": "ZUM LAUNCH ANMELDEN",
@@ -96,6 +96,20 @@
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neoblack-teaser-hero.jpg"
+      }
+    },
+    "l_hero_no_fade_MwEE4m": {
+      "type": "l_hero_no_fade",
+      "disabled": true,
+      "settings": {
+        "text_subline": "JETZT ERHÄLTLICH",
+        "text_headline": "THE CAVE XL NEO BLACK",
+        "textarea_longer_text": "",
+        "text_button_text": "ZUM PRODUKT",
+        "url_button_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neo-black-1.jpg"
       }
     },
     "l_produkt_Bf9HNR": {
@@ -183,6 +197,7 @@
     "l_reveal_slider_blac_MChqKy",
     "l_produkt_b9QryD",
     "l_hero_no_fade_hqnamm",
+    "l_hero_no_fade_MwEE4m",
     "l_produkt_Bf9HNR",
     "l_reveal_slider_blac_9h4Jc6",
     "l_hero_no_fade_6E8EBM"
