@@ -9,34 +9,6 @@
  */
 {
   "sections": {
-    "l_hero_no_fade_BWcVQx": {
-      "type": "l_hero_no_fade",
-      "disabled": true,
-      "settings": {
-        "text_subline": "Ein starkes Statement muss nicht laut sein",
-        "text_headline": "NEO BLACK PROGRAM",
-        "textarea_longer_text": "BALD ERHÄLTLICH<br><br>",
-        "text_button_text": "ZUM LAUNCH ANMELDEN",
-        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
-      }
-    },
-    "l_hero_no_fade_QT3QF7": {
-      "type": "l_hero_no_fade",
-      "disabled": true,
-      "settings": {
-        "text_subline": "\"Capturing the peaceful and harmonious atmosphere associated with a refined camping experience\"",
-        "text_headline": "静寂",
-        "textarea_longer_text": "SEIJAKU<br><br>",
-        "text_button_text": "Jetzt anmelden",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
-      }
-    },
     "l_hero_no_fade_L3EyVG": {
       "type": "l_hero_no_fade",
       "settings": {
@@ -111,14 +83,6 @@
         "text_button_text": "JETZT KAUFEN",
         "url_produkt_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
         "checkbox_swiper_script": true
-      }
-    },
-    "l_headline_mono_GF6GRx": {
-      "type": "l_headline_mono",
-      "disabled": true,
-      "settings": {
-        "text_subline": "Eine Hommage an die japanische camping-kultur",
-        "text_headline": "Für Liebhaber von funktionaler ausrüstung & monochromer ästhetik."
       }
     },
     "l_hero_no_fade_hqnamm": {
@@ -197,24 +161,6 @@
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser_0f54b023-581b-497e-a7f0-ded6823e1b8a.jpg"
       }
     },
-    "l_gallery_89ybBM": {
-      "type": "l_gallery",
-      "disabled": true,
-      "settings": {
-        "image_bild_1": "shopify://shop_images/heimplanet-backdoor-neoblack_2.jpg",
-        "image_bild_2": "shopify://shop_images/heimplanet-the-cave-xl-neoblack.jpg",
-        "image_bild_3": "shopify://shop_images/heimplanet-the-cave-xl-neoblack-3.jpg"
-      }
-    },
-    "l_gallery_4T87Yy": {
-      "type": "l_gallery",
-      "disabled": true,
-      "settings": {
-        "image_bild_1": "shopify://shop_images/heimplanet-the-cave-xl-neo-black-4.jpg",
-        "image_bild_2": "shopify://shop_images/heimplanet-backdoor-neoblack-3.jpg",
-        "image_bild_3": "shopify://shop_images/heimplanet-the-cave-xl-neoblack-5.jpg"
-      }
-    },
     "l_hero_no_fade_6E8EBM": {
       "type": "l_hero_no_fade",
       "disabled": true,
@@ -233,17 +179,12 @@
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero_no_fade_BWcVQx",
-    "l_hero_no_fade_QT3QF7",
     "l_hero_no_fade_L3EyVG",
     "l_reveal_slider_blac_MChqKy",
     "l_produkt_b9QryD",
-    "l_headline_mono_GF6GRx",
     "l_hero_no_fade_hqnamm",
     "l_produkt_Bf9HNR",
     "l_reveal_slider_blac_9h4Jc6",
-    "l_gallery_89ybBM",
-    "l_gallery_4T87Yy",
     "l_hero_no_fade_6E8EBM"
   ]
 }
