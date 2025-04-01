@@ -70,57 +70,52 @@
         "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neoblack-teaser-hero.jpg"
       }
     },
-    "l_produkt_Bf9HNR": {
-      "type": "l_produkt",
+    "content_image_czEkcW": {
+      "type": "content_image",
+      "disabled": true,
+      "settings": {
+        "text_headline": "THE CAVE XL, NEO BLACk",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        "url_button_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
+        "text_button_text": "ZUM PRODUKT",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button"
+      }
+    },
+    "l_reveal_slider_blac_9h4Jc6": {
+      "type": "l_reveal_slider_blac",
       "blocks": {
-        "produkt_slider_tPnfXi": {
-          "type": "produkt-slider",
-          "settings": {}
-        },
-        "fact_jXzyG3": {
+        "fact_T6Di8U": {
           "type": "fact",
           "settings": {
             "text_text": "All-Black Shell"
           }
         },
-        "fact_wKgeHk": {
+        "fact_9nzGRL": {
           "type": "fact",
           "settings": {
             "text_text": "Black Cairo Camo Innenzelt"
           }
         },
-        "fact_GY3j4a": {
+        "fact_DjBhhx": {
           "type": "fact",
           "settings": {
             "text_text": "Neu: Dope-Dyed Außenzelt"
           }
         },
-        "fact_yYja7Y": {
+        "fact_7mFbW4": {
           "type": "fact",
           "settings": {
-            "text_text": "Neu: C0-Beschichtung (PFAS-frei]"
+            "text_text": "Neu: C0-Beschichtung [PFAS-frei]"
           }
         }
       },
       "block_order": [
-        "produkt_slider_tPnfXi",
-        "fact_jXzyG3",
-        "fact_wKgeHk",
-        "fact_GY3j4a",
-        "fact_yYja7Y"
+        "fact_T6Di8U",
+        "fact_9nzGRL",
+        "fact_DjBhhx",
+        "fact_7mFbW4"
       ],
-      "settings": {
-        "text_headline": "THE CAVE XL, NEO BLACK",
-        "textarea_beschreibung": "Eine Hommage an die japanische Camping-Kultur. Für Liebhaber von funktionaler Ausrüstung & monochromer Ästhetik.",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "JETZT KAUFEN",
-        "url_produkt_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
-        "checkbox_swiper_script": true
-      }
-    },
-    "l_reveal_slider_blac_9h4Jc6": {
-      "type": "l_reveal_slider_blac",
       "settings": {
         "text_headline": "",
         "textarea_text": "",
@@ -173,38 +168,54 @@
         "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
       }
     },
-    "hero_xKPmcp": {
-      "type": "hero",
+    "l_produkt_Bf9HNR": {
+      "type": "l_produkt",
       "blocks": {
-        "hero_slider_w7xwtL": {
-          "type": "hero-slider",
+        "produkt_slider_tPnfXi": {
+          "type": "produkt-slider",
+          "settings": {}
+        },
+        "fact_jXzyG3": {
+          "type": "fact",
           "settings": {
-            "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-04.jpg",
-            "text_headline": "THE CAVE XL NEO BLACK",
-            "richtext_text": "",
-            "url_button_link": "",
-            "text_button_text": "ZUM ARTIKEL"
+            "text_text": "All-Black Shell"
+          }
+        },
+        "fact_wKgeHk": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Black Cairo Camo Innenzelt"
+          }
+        },
+        "fact_GY3j4a": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Neu: Dope-Dyed Außenzelt"
+          }
+        },
+        "fact_yYja7Y": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Neu: C0-Beschichtung (PFAS-frei]"
           }
         }
       },
       "block_order": [
-        "hero_slider_w7xwtL"
+        "produkt_slider_tPnfXi",
+        "fact_jXzyG3",
+        "fact_wKgeHk",
+        "fact_GY3j4a",
+        "fact_yYja7Y"
       ],
       "disabled": true,
       "settings": {
+        "text_headline": "THE CAVE XL, NEO BLACK",
+        "textarea_beschreibung": "Eine Hommage an die japanische Camping-Kultur. Für Liebhaber von funktionaler Ausrüstung & monochromer Ästhetik.",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "JETZT KAUFEN",
+        "url_produkt_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
         "checkbox_swiper_script": true
-      }
-    },
-    "content_image_czEkcW": {
-      "type": "content_image",
-      "disabled": true,
-      "settings": {
-        "text_headline": "THE CAVE XL, NEO BLACk",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        "url_button_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
-        "text_button_text": "ZUM PRODUKT",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button"
       }
     }
   },
@@ -216,13 +227,12 @@
     "l_hero_no_fade_L3EyVG",
     "l_headline_mono_GF6GRx",
     "l_hero_no_fade_hqnamm",
-    "l_produkt_Bf9HNR",
+    "content_image_czEkcW",
     "l_reveal_slider_blac_9h4Jc6",
     "l_reveal_slider_blac_MChqKy",
     "l_gallery_89ybBM",
     "l_gallery_4T87Yy",
     "l_hero_no_fade_6E8EBM",
-    "hero_xKPmcp",
-    "content_image_czEkcW"
+    "l_produkt_Bf9HNR"
   ]
 }
