@@ -131,6 +131,17 @@
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser_0f54b023-581b-497e-a7f0-ded6823e1b8a.jpg"
       }
     },
+    "l_reveal_slider_blac_MChqKy": {
+      "type": "l_reveal_slider_blac",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "text_vorher": "THE CAVE XL",
+        "text_nachher": "NEO BLACK",
+        "image_bild_1": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser2-01.jpg",
+        "image_bild_2": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser.jpg"
+      }
+    },
     "l_reveal_slider_BCDMWq": {
       "type": "l_reveal_slider",
       "blocks": {
@@ -229,6 +240,7 @@
     "l_hero_no_fade_hqnamm",
     "l_produkt_Bf9HNR",
     "l_reveal_slider_blac_9h4Jc6",
+    "l_reveal_slider_blac_MChqKy",
     "l_reveal_slider_BCDMWq",
     "l_reveal_slider_qGQyx4",
     "l_gallery_89ybBM",
