@@ -112,6 +112,20 @@
         "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neo-black-1.jpg"
       }
     },
+    "l_hero_no_fade_BAithm": {
+      "type": "l_hero_no_fade",
+      "disabled": true,
+      "settings": {
+        "text_subline": "JETZT ERHÄLTLICH",
+        "text_headline": "BACKDOOR NEO BLACK",
+        "textarea_longer_text": "",
+        "text_button_text": "ZUM PRODUKT",
+        "url_button_link": "https://heimplanet.com/products/backdoor-neo-black",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/blog-heimplanet-backdoor-neo-black.jpg"
+      }
+    },
     "l_produkt_Bf9HNR": {
       "type": "l_produkt",
       "blocks": {
@@ -198,6 +212,7 @@
     "l_produkt_b9QryD",
     "l_hero_no_fade_hqnamm",
     "l_hero_no_fade_MwEE4m",
+    "l_hero_no_fade_BAithm",
     "l_produkt_Bf9HNR",
     "l_reveal_slider_blac_9h4Jc6",
     "l_hero_no_fade_6E8EBM"
