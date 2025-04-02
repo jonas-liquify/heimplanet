@@ -243,6 +243,41 @@
         "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
       }
     },
+    "l_step_slider_xAi4Cw": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_c4yFx8": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Classic-New-2022-Detail-5.jpg",
+            "text_text": "Mehrere Ventile am Luftrahmen"
+          }
+        },
+        "feature_YKxqyH": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-Details-13.jpg",
+            "text_text": "Verbindungsschläuche zwischen den Luftkammern"
+          }
+        },
+        "feature_DeWWRe": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg",
+            "text_text": "2-in-1-Ventile"
+          }
+        }
+      },
+      "block_order": [
+        "feature_c4yFx8",
+        "feature_YKxqyH",
+        "feature_DeWWRe"
+      ],
+      "settings": {
+        "text_headline": "",
+        "checkbox_swiper_script": true
+      }
+    },
     "l_content_left_QbUPE8": {
       "type": "l_content_left",
       "disabled": true,
@@ -257,7 +292,7 @@
       "settings": {
         "text_subline": "",
         "text_headline": "",
-        "text_text": "Unser patentiertes Mehrkammer-Sicherheitssystem ermöglicht es Euch, den gesamten Luftrahmen an einem Ventil aufzublasen. Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
+        "text_text": "Zum Aktivieren des Mehrkammer-Sicherheitssystems, verschließe die Verbindungsschläuche zwischen den Luftkammer. Das geht ganz einfach indem du die angebrachten Punch-Clips zudrückst. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
       }
     },
     "l_headline_mono_Hxxwqb": {
@@ -300,6 +335,7 @@
     "l_text_logos_RMYmYe",
     "l_step_slider_499XX6",
     "content_image_xhh3BY",
+    "l_step_slider_xAi4Cw",
     "l_content_left_QbUPE8",
     "l_text_logos_iNx9t6",
     "l_headline_mono_Hxxwqb",
