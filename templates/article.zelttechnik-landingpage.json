@@ -298,23 +298,6 @@
         "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
       }
     },
-    "l_headline_mono_Hxxwqb": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "// 05 //<br><br>Doppellagige Konstruktion"
-      }
-    },
-    "l_content_image_bg_FxTHyt": {
-      "type": "l_content_image_bg",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_text": "",
-        "text_headline_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
-      }
-    },
     "l_text_logos_qg9Ftd": {
       "type": "l_text_logos",
       "settings": {
@@ -341,8 +324,6 @@
     "l_text_logos_iNx9t6",
     "l_step_slider_xAi4Cw",
     "content_image_qTN86i",
-    "l_headline_mono_Hxxwqb",
-    "l_content_image_bg_FxTHyt",
     "l_text_logos_qg9Ftd"
   ]
 }
