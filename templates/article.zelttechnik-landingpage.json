@@ -332,6 +332,50 @@
         "text_headline": "",
         "checkbox_swiper_script": true
       }
+    },
+    "l_produkt_8q6fii": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_FyGF8w": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/21_06_23-Frame_icon-04.png"
+          }
+        },
+        "fact_yq7nnm": {
+          "type": "fact",
+          "settings": {
+            "text_text": "TPU-Schlauch mit dem mitgelieferten Repair-Kit flicken"
+          }
+        },
+        "fact_jtHcqp": {
+          "type": "fact",
+          "settings": {
+            "text_text": "TPU-Schlauch einfach komplett tauschen"
+          }
+        },
+        "fact_9nnwQi": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Bei Bedarf einzelne Luftstreben komplett tauschen"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_FyGF8w",
+        "fact_yq7nnm",
+        "fact_jtHcqp",
+        "fact_9nnwQi"
+      ],
+      "settings": {
+        "text_headline": "ZELT ERSATZTEILE",
+        "textarea_beschreibung": "",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "JETZT ENTDECKEN",
+        "url_produkt_link": "",
+        "checkbox_swiper_script": true
+      }
     }
   },
   "layout": "article",
@@ -351,6 +395,7 @@
     "l_text_logos_iNx9t6",
     "l_step_slider_xAi4Cw",
     "content_image_qTN86i",
-    "l_step_slider_3FUFwf"
+    "l_step_slider_3FUFwf",
+    "l_produkt_8q6fii"
   ]
 }
