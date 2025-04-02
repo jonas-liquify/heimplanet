@@ -36,7 +36,7 @@
         "info_RNDDgg": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify://shop_images/icons8-intern-96.png",
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit4.png",
             "text_headline": "02 Keine Einzelteile",
             "textarea_text": "Das gesamte Zelt bildet eine Einheit. Besonders entscheidend beim Aufbau im Wind oder bei Dunkelheit."
           }
@@ -44,6 +44,7 @@
         "info_znQMMx": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icons8-intern-96_-_Kopie.png",
             "text_headline": "03 Das One-Pump-System",
             "textarea_text": "Eine Pumpe und eines der Ventile genügt, um das gesamte Zelt in einem Satz innerhalb von Sekunden zu errichten."
           }
@@ -51,6 +52,7 @@
         "info_DYMTJz": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-66-North-Multi-Chamber.jpg",
             "text_headline": "04 Mehrkammer-Sicherheitssystem",
             "textarea_text": "Das patentierte Sicherheitssystem sorgt zu jedem Zeitpunkt für ausreichend Notfallstabilität."
           }
