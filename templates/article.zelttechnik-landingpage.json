@@ -25,6 +25,14 @@
     "infos_j3BpTR": {
       "type": "infos",
       "blocks": {
+        "info_akQttE": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/IDG_TheCave.png",
+            "text_headline": "01 Das Geodätische Prinzip",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
         "info_eNNNzk": {
           "type": "info",
           "settings": {
@@ -32,20 +40,13 @@
             "text_headline": "05 Doppellagige Rahmenkonstruktion",
             "textarea_text": ""
           }
-        },
-        "info_akQttE": {
-          "type": "info",
-          "settings": {
-            "image_icon": "shopify://shop_images/IDG_TheCave.png",
-            "text_headline": "Das Geodätische Prinzip",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
-          }
         }
       },
       "block_order": [
-        "info_eNNNzk",
-        "info_akQttE"
+        "info_akQttE",
+        "info_eNNNzk"
       ],
+      "disabled": true,
       "settings": {
         "text_headline": "WARUM Aufblaßbare zelte von heimplanet:"
       }
