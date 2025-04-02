@@ -48,6 +48,13 @@
             "textarea_text": "Eine Pumpe und eines der Ventile genügt, um das gesamte Zelt in einem Satz innerhalb von Sekunden zu errichten."
           }
         },
+        "info_DYMTJz": {
+          "type": "info",
+          "settings": {
+            "text_headline": "04 Mehrkammer-Sicherheitssystem",
+            "textarea_text": "Das patentierte Sicherheitssystem sorgt zu jedem Zeitpunkt für ausreichend Notfallstabilität."
+          }
+        },
         "info_eNNNzk": {
           "type": "info",
           "settings": {
@@ -61,6 +68,7 @@
         "info_akQttE",
         "info_RNDDgg",
         "info_znQMMx",
+        "info_DYMTJz",
         "info_eNNNzk"
       ],
       "disabled": true,
