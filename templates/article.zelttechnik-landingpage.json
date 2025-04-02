@@ -366,6 +366,7 @@
         "feature_gaanHR",
         "feature_YxzXPH"
       ],
+      "disabled": true,
       "settings": {
         "text_headline": "",
         "checkbox_swiper_script": true
