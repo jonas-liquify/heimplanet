@@ -286,13 +286,16 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_content_left_QbUPE8": {
-      "type": "l_content_left",
-      "disabled": true,
+    "content_image_qTN86i": {
+      "type": "content_image",
       "settings": {
-        "text_headline": "",
-        "textarea_text": "Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt.",
-        "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
+        "text_headline": "05 Doppellagige Konstruktion",
+        "textarea_text": "Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen.",
+        "url_button_link": "https://heimplanet.com/collections/zelte",
+        "text_button_text": "ENTDECKE DIE ZELTE",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
       }
     },
     "l_headline_mono_Hxxwqb": {
@@ -337,7 +340,7 @@
     "content_image_xhh3BY",
     "l_text_logos_iNx9t6",
     "l_step_slider_xAi4Cw",
-    "l_content_left_QbUPE8",
+    "content_image_qTN86i",
     "l_headline_mono_Hxxwqb",
     "l_content_image_bg_FxTHyt",
     "l_text_logos_qg9Ftd"
