@@ -290,7 +290,7 @@
       "type": "content_image",
       "settings": {
         "text_headline": "05 Doppellagige Konstruktion",
-        "textarea_text": "Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen.",
+        "textarea_text": "Vergleichbar mit einem Fahrradreifen bestehen unsere Luftstreben aus einer widerstandsfähigen zweischichtigen Konstruktion.",
         "url_button_link": "https://heimplanet.com/collections/zelte",
         "text_button_text": "ENTDECKE DIE ZELTE",
         "url_button_link_2": "",
@@ -298,12 +298,39 @@
         "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
       }
     },
-    "l_text_logos_qg9Ftd": {
-      "type": "l_text_logos",
+    "l_step_slider_3FUFwf": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_gBMHVD": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-New-2022-Details-4.jpg",
+            "text_text": "Extra luftdichter TPU Schlauch"
+          }
+        },
+        "feature_gaanHR": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-New-2022-2.jpg",
+            "text_text": "Robuster Außenmantel für schutz vor umwelteinflüssen"
+          }
+        },
+        "feature_YxzXPH": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-New-2022-1.jpg",
+            "text_text": "zusätzliche verstärkung an den bodenkontaktstellen"
+          }
+        }
+      },
+      "block_order": [
+        "feature_gBMHVD",
+        "feature_gaanHR",
+        "feature_YxzXPH"
+      ],
       "settings": {
-        "text_subline": "",
         "text_headline": "",
-        "text_text": "Die Luftstreben bestehen aus einer widerstandsfähigen zweischichtigen Konstruktion ausgestattet. Ein extra luftdichter TPU (thermoplastisches Polyurethan) Schlauch hält die Luft über einen längeren Zeitraum im Inneren und der robuste Außenmantel schützt vor jeglichen Umwelteinflüssen."
+        "checkbox_swiper_script": true
       }
     }
   },
@@ -324,6 +351,6 @@
     "l_text_logos_iNx9t6",
     "l_step_slider_xAi4Cw",
     "content_image_qTN86i",
-    "l_text_logos_qg9Ftd"
+    "l_step_slider_3FUFwf"
   ]
 }
