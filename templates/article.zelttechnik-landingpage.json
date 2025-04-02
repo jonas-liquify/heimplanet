@@ -243,26 +243,35 @@
         "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
       }
     },
+    "l_text_logos_iNx9t6": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Zum Aktivieren des Mehrkammer-Sicherheitssystems, verschließe die Verbindungsschläuche zwischen den Luftkammer. Das geht ganz einfach indem du die angebrachten Punch-Clips zudrückst. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
+      }
+    },
     "l_step_slider_xAi4Cw": {
       "type": "l_step_slider",
       "blocks": {
         "feature_c4yFx8": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Classic-New-2022-Detail-5.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-New-2022-Details-4.jpg",
             "text_text": "Punch Clips lokalisieren"
           }
         },
         "feature_YKxqyH": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-New-2022-2.jpg",
             "text_text": "punch clips zudrücken"
           }
         },
         "feature_DeWWRe": {
           "type": "feature",
           "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-New-2022-1.jpg",
             "text_text": "Sorgenfrei campen"
           }
         }
@@ -284,14 +293,6 @@
         "text_headline": "",
         "textarea_text": "Nach dem Aufblasen können die Verbindungsschläuche zwischen den Luftrahmen geschlossen werden. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt.",
         "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
-      }
-    },
-    "l_text_logos_iNx9t6": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "text_text": "Zum Aktivieren des Mehrkammer-Sicherheitssystems, verschließe die Verbindungsschläuche zwischen den Luftkammer. Das geht ganz einfach indem du die angebrachten Punch-Clips zudrückst. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
       }
     },
     "l_headline_mono_Hxxwqb": {
