@@ -30,14 +30,22 @@
           "settings": {
             "image_icon": "shopify://shop_images/IDG_TheCave.png",
             "text_headline": "01 Das Geodätische Prinzip",
-            "textarea_text": ""
+            "textarea_text": "Herausragende Stabilität durch den Inflatable Diamond Grid [IDG]. Konzipiert für Extremwetter."
           }
         },
         "info_RNDDgg": {
           "type": "info",
           "settings": {
-            "text_headline": "Heading",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "image_icon": "shopify://shop_images/icons8-intern-96.png",
+            "text_headline": "02 Keine Einzelteile",
+            "textarea_text": ""
+          }
+        },
+        "info_znQMMx": {
+          "type": "info",
+          "settings": {
+            "text_headline": "03 Das One-Pump-System",
+            "textarea_text": ""
           }
         },
         "info_eNNNzk": {
@@ -52,11 +60,12 @@
       "block_order": [
         "info_akQttE",
         "info_RNDDgg",
+        "info_znQMMx",
         "info_eNNNzk"
       ],
       "disabled": true,
       "settings": {
-        "text_headline": "WARUM Aufblaßbare zelte von heimplanet:"
+        "text_headline": "Wie funktionieren die Aufblaßbare zelte von heimplanet."
       }
     },
     "l_video_K8qgLQ": {
