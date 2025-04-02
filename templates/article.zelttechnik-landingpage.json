@@ -12,14 +12,42 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "Aufblaßbare zelte von heimplanet",
+        "text_subline": "",
         "text_headline": "Zelttechnik",
-        "textarea_longer_text": "<br>Erfahre mehr über unsere Zelte, ihre Funktionen und warum sie aussehen wie sie aussehen.",
+        "textarea_longer_text": "»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.« - R. Buckminster Fuller [Pionier der geodätischen Kuppel]",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Basecamp-Zelttechnik-Hero.jpg"
+      }
+    },
+    "infos_j3BpTR": {
+      "type": "infos",
+      "blocks": {
+        "info_eNNNzk": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-66-North-Double-Layer.jpg",
+            "text_headline": "05 Doppellagige Rahmenkonstruktion",
+            "textarea_text": ""
+          }
+        },
+        "info_akQttE": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/IDG_TheCave.png",
+            "text_headline": "Das Geodätische Prinzip",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        }
+      },
+      "block_order": [
+        "info_eNNNzk",
+        "info_akQttE"
+      ],
+      "settings": {
+        "text_headline": "WARUM Aufblaßbare zelte von heimplanet:"
       }
     },
     "l_video_K8qgLQ": {
@@ -376,39 +404,13 @@
         "url_produkt_link": "https://heimplanet.com/collections/zelte?filter.p.m.custom.filter_art_liste=Zelt+Ersatzteile",
         "checkbox_swiper_script": true
       }
-    },
-    "infos_j3BpTR": {
-      "type": "infos",
-      "blocks": {
-        "info_eNNNzk": {
-          "type": "info",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-66-North-Double-Layer.jpg",
-            "text_headline": "05 Doppellagige Rahmenkonstruktion",
-            "textarea_text": ""
-          }
-        },
-        "info_akQttE": {
-          "type": "info",
-          "settings": {
-            "text_headline": "Heading",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
-          }
-        }
-      },
-      "block_order": [
-        "info_eNNNzk",
-        "info_akQttE"
-      ],
-      "settings": {
-        "text_headline": "Die Details sind mehr als die Details. Unsere Benefits:"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "infos_j3BpTR",
     "l_video_K8qgLQ",
     "l_text_logos_icj79J",
     "content_image_XHPBdt",
@@ -423,7 +425,6 @@
     "l_step_slider_xAi4Cw",
     "content_image_qTN86i",
     "l_step_slider_3FUFwf",
-    "l_produkt_8q6fii",
-    "infos_j3BpTR"
+    "l_produkt_8q6fii"
   ]
 }
