@@ -38,7 +38,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/23-05-11_Icon_Transit4.png",
             "text_headline": "02 Keine Einzelteile",
-            "textarea_text": "Das gesamte Zelt bildet eine Einheit. Besonders entscheidend beim Aufbau im Wind oder bei Dunkelheit."
+            "textarea_text": "Das gesamte Zelt bildet eine Einheit - vereinfacht den Aufbau gerdae bei Wind oder Dunkelheit."
           }
         },
         "info_znQMMx": {
@@ -46,7 +46,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/icons8-intern-96_-_Kopie.png",
             "text_headline": "03 Das One-Pump-System",
-            "textarea_text": "Eine Pumpe und eines der Ventile genügt, um das gesamte Zelt in einem Satz innerhalb von Sekunden zu errichten."
+            "textarea_text": "Eine Pumpe und eines der Ventile genügt, um das Zelt auf Einmal in Sekunden zu errichten."
           }
         },
         "info_DYMTJz": {
@@ -62,7 +62,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/23-05-11_Icon_Motion5.png",
             "text_headline": "05 Doppellagige Rahmenkonstruktion",
-            "textarea_text": ""
+            "textarea_text": "Ein TPU-Schlauch hält die Luft während ein robuster Mantel vor Umwelteinflüssen schützt."
           }
         }
       },
@@ -73,7 +73,6 @@
         "info_DYMTJz",
         "info_eNNNzk"
       ],
-      "disabled": true,
       "settings": {
         "text_headline": "Wie funktionieren die Aufblaßbare zelte von heimplanet."
       }
