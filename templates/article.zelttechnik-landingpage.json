@@ -30,6 +30,13 @@
           "settings": {
             "image_icon": "shopify://shop_images/IDG_TheCave.png",
             "text_headline": "01 Das Geodätische Prinzip",
+            "textarea_text": ""
+          }
+        },
+        "info_RNDDgg": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Heading",
             "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
           }
         },
@@ -44,6 +51,7 @@
       },
       "block_order": [
         "info_akQttE",
+        "info_RNDDgg",
         "info_eNNNzk"
       ],
       "disabled": true,
@@ -55,14 +63,6 @@
       "type": "l_video",
       "settings": {
         "text_video_url": "https://www.youtube-nocookie.com/embed/2oa5cZNRE7Q?si=nKAfNRtSIlpNtQ4_"
-      }
-    },
-    "l_text_logos_icj79J": {
-      "type": "l_text_logos",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.«",
-        "text_text": "- R. Buckminster Fuller (Erfinder der geodätischen Kuppel)"
       }
     },
     "content_image_XHPBdt": {
@@ -413,7 +413,6 @@
     "l_hero_ijQ63U",
     "infos_j3BpTR",
     "l_video_K8qgLQ",
-    "l_text_logos_icj79J",
     "content_image_XHPBdt",
     "l_dropdowns_qWbeeY",
     "content_image_t89N49",
