@@ -28,7 +28,7 @@
         "info_akQttE": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-Maharishi-Limited-Edition-6.jpg",
+            "image_icon": "shopify://shop_images/IDG_TheCave.png",
             "text_headline": "01 Das Geodätische Prinzip",
             "textarea_text": "Herausragende Stabilität durch den Inflatable Diamond Grid [IDG]. Konzipiert für Extremwetter."
           }
@@ -365,7 +365,7 @@
         "feature_YxzXPH": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-New-2022-1.jpg",
+            "image_bild": "shopify://shop_images/Fistral-Classic-8.jpg",
             "text_text": "zusätzliche verstärkung an den bodenkontaktstellen"
           }
         }
@@ -375,7 +375,6 @@
         "feature_gaanHR",
         "feature_YxzXPH"
       ],
-      "disabled": true,
       "settings": {
         "text_headline": "",
         "checkbox_swiper_script": true
