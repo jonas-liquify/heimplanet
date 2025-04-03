@@ -43,6 +43,14 @@
             "image_bild": "shopify://shop_images/blog-heimplanet-backdoor-neo-black.jpg"
           }
         },
+        "produkt_slider_VHFEa9": {
+          "type": "produkt-slider",
+          "settings": {}
+        },
+        "produkt_slider_MRAFWH": {
+          "type": "produkt-slider",
+          "settings": {}
+        },
         "fact_efDcyF": {
           "type": "fact",
           "settings": {
@@ -70,6 +78,8 @@
       },
       "block_order": [
         "produkt_slider_Qitpyn",
+        "produkt_slider_VHFEa9",
+        "produkt_slider_MRAFWH",
         "fact_efDcyF",
         "fact_7e9X3R",
         "fact_4HpU4f",
@@ -120,6 +130,18 @@
             "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neo-black-1.jpg"
           }
         },
+        "produkt_slider_azxe8b": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neo-black.jpg"
+          }
+        },
+        "produkt_slider_bhGrmX": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/heimplanet-the-cave-xl-neo-black-4.jpg"
+          }
+        },
         "fact_jXzyG3": {
           "type": "fact",
           "settings": {
@@ -147,6 +169,8 @@
       },
       "block_order": [
         "produkt_slider_tPnfXi",
+        "produkt_slider_azxe8b",
+        "produkt_slider_bhGrmX",
         "fact_jXzyG3",
         "fact_wKgeHk",
         "fact_GY3j4a",
