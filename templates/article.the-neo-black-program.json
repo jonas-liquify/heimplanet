@@ -14,7 +14,7 @@
       "settings": {
         "text_subline": "Ein starkes Statement muss nicht laut sein",
         "text_headline": "NEO BLACK PROGRAM",
-        "textarea_longer_text": "BALD ERHÄLTLICH <br><br>",
+        "textarea_longer_text": "JETZT ERHÄLTLICH <br><br>",
         "text_button_text": "ZUM LAUNCH ANMELDEN",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
@@ -24,6 +24,7 @@
     },
     "l_reveal_slider_blac_MChqKy": {
       "type": "l_reveal_slider_blac",
+      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
@@ -74,15 +75,27 @@
         "fact_4HpU4f",
         "fact_ychQUi"
       ],
-      "disabled": true,
       "settings": {
         "text_headline": "BACKDOOR, NEO BLACK",
         "textarea_beschreibung": "Eine Hommage an die japanische Camping-Kultur. Für Liebhaber von funktionaler Ausrüstung & monochromer Ästhetik.",
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "JETZT KAUFEN",
-        "url_produkt_link": "https://heimplanet.com/products/the-cave-xl-neo-black",
+        "url_produkt_link": "https://heimplanet.com/products/backdoor-neo-black",
         "checkbox_swiper_script": true
+      }
+    },
+    "l_hero_no_fade_MqhJHn": {
+      "type": "l_hero_no_fade",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "BACKDOOR NEO BLACK",
+        "textarea_longer_text": "",
+        "text_button_text": "ZUM PRODUKT",
+        "url_button_link": "https://heimplanet.com/products/backdoor-neo-black",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser2-01.jpg"
       }
     },
     "l_hero_no_fade_hqnamm": {
@@ -92,7 +105,7 @@
         "text_headline": "静寂",
         "textarea_longer_text": "SEIJAKU<br><br>",
         "text_button_text": "ZUM LAUNCH ANMELDEN",
-        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
+        "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neoblack-teaser-hero.jpg"
@@ -139,7 +152,6 @@
         "fact_GY3j4a",
         "fact_yYja7Y"
       ],
-      "disabled": true,
       "settings": {
         "text_headline": "THE CAVE XL, NEO BLACK",
         "textarea_beschreibung": "Eine Hommage an die japanische Camping-Kultur. Für Liebhaber von funktionaler Ausrüstung & monochromer Ästhetik.",
@@ -152,6 +164,7 @@
     },
     "l_reveal_slider_blac_9h4Jc6": {
       "type": "l_reveal_slider_blac",
+      "disabled": true,
       "settings": {
         "text_headline": "",
         "textarea_text": "",
@@ -161,39 +174,10 @@
         "image_bild_2": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser_0f54b023-581b-497e-a7f0-ded6823e1b8a.jpg"
       }
     },
-    "l_hero_no_fade_6E8EBM": {
-      "type": "l_hero_no_fade",
-      "disabled": true,
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
-        "text_button_text": "JETZT ANMELDEN",
-        "url_button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=VXAh6A&g=S3PCiG",
-        "text_button_text_2": "",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Teaser.jpg"
-      }
-    },
-    "l_hero_no_fade_MqhJHn": {
-      "type": "l_hero_no_fade",
-      "disabled": true,
-      "settings": {
-        "text_subline": "JETZT ERHÄLTLICH",
-        "text_headline": "BACKDOOR NEO BLACK",
-        "textarea_longer_text": "",
-        "text_button_text": "ZUM PRODUKT",
-        "url_button_link": "https://heimplanet.com/products/backdoor-neo-black",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/2025-Heimplanet-Backdoor-Neo-Black-Teaser2-01.jpg"
-      }
-    },
     "l_hero_no_fade_Ex6Dhh": {
       "type": "l_hero_no_fade",
-      "disabled": true,
       "settings": {
-        "text_subline": "JETZT ERHÄLTLICH",
+        "text_subline": "",
         "text_headline": "THE CAVE XL NEO BLACK",
         "textarea_longer_text": "",
         "text_button_text": "ZUM PRODUKT",
@@ -210,11 +194,10 @@
     "l_hero_no_fade_L3EyVG",
     "l_reveal_slider_blac_MChqKy",
     "l_produkt_b9QryD",
+    "l_hero_no_fade_MqhJHn",
     "l_hero_no_fade_hqnamm",
     "l_produkt_Bf9HNR",
     "l_reveal_slider_blac_9h4Jc6",
-    "l_hero_no_fade_6E8EBM",
-    "l_hero_no_fade_MqhJHn",
     "l_hero_no_fade_Ex6Dhh"
   ]
 }
