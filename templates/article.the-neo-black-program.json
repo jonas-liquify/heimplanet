@@ -130,18 +130,6 @@
             "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neo-black-1.jpg"
           }
         },
-        "produkt_slider_azxe8b": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neo-black.jpg"
-          }
-        },
-        "produkt_slider_bhGrmX": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/heimplanet-the-cave-xl-neo-black-4.jpg"
-          }
-        },
         "fact_jXzyG3": {
           "type": "fact",
           "settings": {
@@ -169,8 +157,6 @@
       },
       "block_order": [
         "produkt_slider_tPnfXi",
-        "produkt_slider_azxe8b",
-        "produkt_slider_bhGrmX",
         "fact_jXzyG3",
         "fact_wKgeHk",
         "fact_GY3j4a",
