@@ -6,7 +6,7 @@
                             </div>
             {% endif %}
 {% endfor %}
-</div></div><div class="swiper_bottom-wrapper is-landingpage-slider"><div id="swiper-pagination" class="swiper_bullet-wrapper is-slider-main"><div class="swiper_bullet is-active"></div><div class="swiper_bullet"></div></div></div></div></div><div class="product-info-wrapper"><h2 class="heading-style-h2">
+</div></div><div class="swiper_bottom-wrapper is-landingpage-slider"><div id="swiper-pagination" class="swiper_bullet-wrapper swiper-pagination is-slider-main"><div class="swiper_bullet is-active"></div><div class="swiper_bullet"></div></div></div></div></div><div class="product-info-wrapper"><h2 class="heading-style-h2">
 {{ section.settings.text_headline }}
 </h2>
 <p class="text-size-regular"> {{ section.settings.textarea_beschreibung }} </p>
@@ -39,7 +39,7 @@
     // speed: sliderDuration,
     slidesPerView: 1,
      pagination: {
-          el: "#swiper-pagination",
+          el: $this.find(".swiper-pagination")[0],
            clickable: true,
         }
     });
