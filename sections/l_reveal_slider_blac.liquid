@@ -24,7 +24,7 @@
 {% endfor %}
 </div></div><div class="landingpage_image-wrapper"><img src="{{ section.settings.image_bild_1 | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild_1.alt }}" class="landingpage_image-sreveal image-one">
 <img src="{{ section.settings.image_bild_2 | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild_2.alt }}" class="landingpage_image-sreveal image-two">
-</div><div class="hide w-embed w-script"><script src="https://unpkg.com/beerslider/dist/BeerSlider.js"></script><link rel="stylesheet" href="{{ 'beerslider.css' | asset_url }}">
+</div><div class="hide w-embed w-script"><script src="https://unpkg.com/beerslider/dist/BeerSlider.js"></script><link rel="stylesheet" href="https://unpkg.com/beerslider/dist/BeerSlider.css">
 <script>window.onload = function () {
     setTimeout(function () {
     $('.landingpage_image-wrapper').each(function (index, el) {
