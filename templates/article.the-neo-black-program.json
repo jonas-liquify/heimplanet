@@ -130,6 +130,18 @@
             "image_bild": "shopify://shop_images/blog-heimplanet-the-cave-xl-neo-black-1.jpg"
           }
         },
+        "produkt_slider_wfMH8m": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Mood-03_ba6f3776-5871-4518-b5c1-eee9cf5d2380.jpg"
+          }
+        },
+        "produkt_slider_gtxDQE": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Mood-04.jpg"
+          }
+        },
         "fact_jXzyG3": {
           "type": "fact",
           "settings": {
@@ -157,6 +169,8 @@
       },
       "block_order": [
         "produkt_slider_tPnfXi",
+        "produkt_slider_wfMH8m",
+        "produkt_slider_gtxDQE",
         "fact_jXzyG3",
         "fact_wKgeHk",
         "fact_GY3j4a",
