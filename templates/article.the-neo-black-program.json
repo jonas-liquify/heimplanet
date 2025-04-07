@@ -43,14 +43,6 @@
             "image_bild": "shopify://shop_images/blog-heimplanet-backdoor-neo-black.jpg"
           }
         },
-        "produkt_slider_VHFEa9": {
-          "type": "produkt-slider",
-          "settings": {}
-        },
-        "produkt_slider_MRAFWH": {
-          "type": "produkt-slider",
-          "settings": {}
-        },
         "fact_efDcyF": {
           "type": "fact",
           "settings": {
@@ -78,8 +70,6 @@
       },
       "block_order": [
         "produkt_slider_Qitpyn",
-        "produkt_slider_VHFEa9",
-        "produkt_slider_MRAFWH",
         "fact_efDcyF",
         "fact_7e9X3R",
         "fact_4HpU4f",
