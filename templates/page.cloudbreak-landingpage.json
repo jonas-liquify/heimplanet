@@ -20,10 +20,10 @@
       "type": "l_hero",
       "settings": {
         "text_subline": "",
-        "text_headline": "CLOUDBREAK",
-        "textarea_longer_text": "Benannt nach einer großen Welle auf den Fiji-Inseln, ist das Cloudbreak ein zuverlässiges, flexibles und einfach zu nutzendes Zelt für Gruppen-, Familiencamping und Overlanding. Cloudbreak - der Mittelpunkt deiner Abenteuer.",
-        "text_button_text": "",
-        "url_button_link": "",
+        "text_headline": "CLOUDBREAK V1",
+        "textarea_longer_text": "NICHT MEHR ERHÄLTLICH. <br><br>Jetzt das neue Cloudbreak entdecken!",
+        "text_button_text": "ZUM NEUEN CLOUDBREAK",
+        "url_button_link": "https://heimplanet.com/products/cloudbreak-classic",
         "text_button_text_2": "",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-1.jpg"
@@ -32,7 +32,7 @@
     "l_hero_pwTxaV": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "",
+        "text_subline": "Benannt nach einer großen Welle auf den Fiji-Inseln, ist das Cloudbreak ein zuverlässiges, flexibles und einfach zu nutzendes Zelt für Gruppen-, Familiencamping und Overlanding. Cloudbreak - der Mittelpunkt deiner Abenteuer.",
         "text_headline": "",
         "textarea_longer_text": "",
         "text_button_text": "Button Text",
@@ -96,58 +96,6 @@
       "settings": {
         "checkbox_swiper_script": true
       }
-    },
-    "l_produkt_HUW8FT": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_jgJiUx": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-4-2024_8e07354a-0559-4f25-97a7-5857a88358df.jpg"
-          }
-        },
-        "produkt_slider_GBNbVV": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-2024-5.jpg"
-          }
-        },
-        "fact_YGT4my": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Gruppen- und Familiencamping"
-          }
-        },
-        "fact_9dajdf": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Für bis zu 4 Personen"
-          }
-        },
-        "fact_8Pk4y6": {
-          "type": "fact",
-          "settings": {
-            "text_text": "2 große Eingänge"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_jgJiUx",
-        "produkt_slider_GBNbVV",
-        "fact_YGT4my",
-        "fact_9dajdf",
-        "fact_8Pk4y6"
-      ],
-      "custom_css": [],
-      "settings": {
-        "text_headline": "Cloudbreak",
-        "textarea_beschreibung": "<br>\n1. BATCH: AUSVERKAUFT <br>\n2. BATCH: AUSVERKAUFT<br>\n<b>3. BATCH: SOFORT LIEFERBAR<br>\n\n<br><br></b>",
-        "text_preis": "2.749€",
-        "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
-        "text_button_text": "Zum Cloudbreak",
-        "url_produkt_link": "shopify://products/cloudbreak-classic",
-        "checkbox_swiper_script": true
-      }
     }
   },
   "layout": "page.landingpage",
@@ -156,7 +104,6 @@
     "l_header_BWhBQX",
     "l_hero",
     "l_hero_pwTxaV",
-    "l_slider_nzYwHp",
-    "l_produkt_HUW8FT"
+    "l_slider_nzYwHp"
   ]
 }
