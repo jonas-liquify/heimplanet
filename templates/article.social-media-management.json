@@ -104,6 +104,13 @@
             "text_headline": "What We Offer",
             "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
           }
+        },
+        "dropdown_UVbcHV": {
+          "type": "dropdown",
+          "settings": {
+            "text_headline": "How to Apply",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
         }
       },
       "block_order": [
@@ -111,7 +118,8 @@
         "dropdown_bG7ntj",
         "dropdown_VYRjf6",
         "dropdown_nNrpRc",
-        "dropdown_Rqyhbc"
+        "dropdown_Rqyhbc",
+        "dropdown_UVbcHV"
       ],
       "settings": {
         "text_headline": "",
