@@ -12,51 +12,14 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "AB IN DEN SCHNEE.",
-        "text_headline": "4-Season Packliste",
-        "textarea_longer_text": "Nützliches Equipment für dein nächstes Winterabenteuer.",
+        "text_subline": "HIRING NOW",
+        "text_headline": "SOCIAL MEDIA MANAGEMENT",
+        "textarea_longer_text": "FULL-TIME",
         "text_button_text": "Jetzt entdecken",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
         "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-Mood.jpg"
-      }
-    },
-    "infos_hpYqcf": {
-      "type": "infos",
-      "blocks": {
-        "info_RDP8wQ": {
-          "type": "info",
-          "settings": {
-            "image_icon": "shopify://shop_images/icons8-winter-96.png",
-            "text_headline": "Social Media Manager",
-            "textarea_text": ""
-          }
-        },
-        "info_xpe8V7": {
-          "type": "info",
-          "settings": {
-            "image_icon": "shopify://shop_images/240124-Icon-Pole.png",
-            "text_headline": "Hamburg, Germany",
-            "textarea_text": ""
-          }
-        },
-        "info_xPTiX8": {
-          "type": "info",
-          "settings": {
-            "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
-            "text_headline": "Full-Time",
-            "textarea_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "info_RDP8wQ",
-        "info_xpe8V7",
-        "info_xPTiX8"
-      ],
-      "settings": {
-        "text_headline": "WHAT WE ARE LOOK FOR"
       }
     },
     "l_dropdowns_qfRaC4": {
@@ -132,7 +95,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "infos_hpYqcf",
     "l_dropdowns_qfRaC4",
     "article_next"
   ]
