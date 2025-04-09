@@ -1,0 +1,398 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "l_hero_ijQ63U": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "AB IN DEN SCHNEE.",
+        "text_headline": "4-Season Packliste",
+        "textarea_longer_text": "Nützliches Equipment für dein nächstes Winterabenteuer.",
+        "text_button_text": "Jetzt entdecken",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-Mood.jpg"
+      }
+    },
+    "l_video_L6k4FT": {
+      "type": "l_video",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "text_video_url": ""
+      }
+    },
+    "article_products_V4qaqk": {
+      "type": "article_products",
+      "settings": {
+        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
+    },
+    "infos_hpYqcf": {
+      "type": "infos",
+      "blocks": {
+        "info_RDP8wQ": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/icons8-winter-96.png",
+            "text_headline": "WETTERBESTÄNDIGKEIT",
+            "textarea_text": ""
+          }
+        },
+        "info_xpe8V7": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/240124-Icon-Pole.png",
+            "text_headline": "LANGLEBIGKEIT",
+            "textarea_text": ""
+          }
+        },
+        "info_xPTiX8": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Re-Store-Icon-2024.png",
+            "text_headline": "LEBENSLANGE GARANTIE",
+            "textarea_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "info_RDP8wQ",
+        "info_xpe8V7",
+        "info_xPTiX8"
+      ],
+      "settings": {
+        "text_headline": "ENTDECKE UNSERE WINTER PACKLISTE - SIE BIETET:"
+      }
+    },
+    "content_image_6z38yU": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "TASCHEN FÜR UNTERWEGS",
+        "textarea_text": "Kleine Taschen für die Essentials. \nLeichte Rucksäcke für schnelle Aktivitäten.",
+        "url_button_link": "https://heimplanet.com/collections/taschen?filter.p.m.custom.filter_art_liste=H%C3%BCfttaschen",
+        "text_button_text": "Hüfttaschen",
+        "url_button_link_2": "https://heimplanet.com/collections/taschen?filter.p.m.custom.filter_kollektion_liste=Motion+Series",
+        "text_button_text_2": "Motion Rucksäcke",
+        "image_bild": "shopify://shop_images/blog-heimplanet-motion-ellipse.jpg"
+      }
+    },
+    "l_dropdowns_qfRaC4": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_F4BKrT": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Artikelbild_CE_Neck_Pouch_A5_001_7a7ecdbd-c5d2-49e8-8247-0c0d8bfd4254.jpg",
+            "text_headline": "Unter der Jacke, Neck Pouches",
+            "textarea_text": "Gerade in Dicker Winterbekleidung möchte man nicht immer pausieren müssen, um etwas aus dem Rucksack zu holen. Eine kleinere Tasche wie die Neck Pouch für die wichtigsten Gegenstände vereinfacht das Ganze. \n\n<br><br><b>Handy, Schlüssel, Geldbeutel, Taschentücher, Liftkarte uvm. immer griffbereit! </b>\n\n<br>\n<br>Unsere Neck Pouches kommen in zwei größen [A5 & A6]. Sie sind bewusst flach im Profil, um sie <b>auch bequem unter der Jacke</b> tragen zu können. Das ist besonders hilfreich wenn man die Tasche auf der Piste oder beim Wandern aus dem Weg haben oder die Gegenstände vor der Kälte schützen möchte. \n\n<br><br>+ Wasserdichtes Obermaterial und wasserfester Front-Reißverschluss.\n<br>+ Bequem als Brustbeutel, Umhängetasche oder Hüfttasche einzusetzen.\n<br>+ Hover-Front-Pocket zum durchfädeln von Jacken, Schals oder anderen Kleidungsstücken.\n<br>+ Verstellbarer und abnehmbarer Gurt mit Magnet-Verschluss [auch mit groben Handschuhen bedienbar]\n<br>+ Langlebige Aluminium Karabiner und Zipper-Puller.\n<br>+ Aus unserem ressourcenschonendem Dyecoshell™ Material gefertigt.\n<br><br>\n<a href=\"https://heimplanet.com/products/carry-essentials-neck-a6-brustbeutel-light\" target=\"_blank\"><b>JETZT ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/blog-heimplanet-Neck-Pouches.png"
+          }
+        },
+        "dropdown_bG7ntj": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Sling-Pocket-Black-1_1024x1024_4e263ea7-c879-499e-b48e-ee268e65cb9d.jpg",
+            "text_headline": "über der Jacke, Sling Pockets",
+            "textarea_text": "Für wen es etwas mehr Volumen sein darf als die flachen Neck Pouches bieten, ist mit unseren Sling Pockets gut beraten. Unser beliebter Klassiker ist in zwei Größen und zwei Farben erhältlich. \n\n<br><br><b>Handy, Schlüssel, Geldbeutel, Taschentücher, Liftkarte, Powerbank uvm. immer griffbereit! </b>\n\n<br>\n<br>+ Als Sling Pocket oder Sling Pocket XL\n<br>+ In den Farben Castlerock oder Black\n<br>+ Wasserdichtes und robustes Obermaterial\n<br>+ Mehrere Innentaschen für mehr Organisation und einfache Übersicht.\n<br>+ Hardware aus robustem Aluminium - z.B. der Aluminium Belt Buckle [nur bei der Sling Pocket XL]\n<br>+ Aus unserem ressourcenschonendem Dyecoshell™ Material gefertigt.\n<br><br>\n<a href=\"https://heimplanet.com/collections/taschen?filter.p.m.custom.filter_art_liste=H%C3%BCfttaschen&filter.p.m.custom.filter_kollektion_liste=Transit+Line\" target=\"_blank\"><b>ZU DEN SLING POCKETS</b></a>",
+            "image_bild": "shopify://shop_images/blog-heimplanet-transit-line-sling-pocket.png"
+          }
+        },
+        "dropdown_VYRjf6": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/60e5b4da711f56e3e892a81c_Artikelbilder_Motion_Ellipse_2020_black_002.jpg",
+            "text_headline": "25L Rucksack, Motion Ellipse",
+            "textarea_text": "Unsere Motion Series Rucksäcke sind für dynamische und sportliche Aktivitäten konzipiert. Sie sind leicht, wasserbeständig und vollgepackt mit nützlichen Features. So auch der Motion Ellipse 25L. \n\n<br><br><b>Ein Rucksack der alles mitmacht und sich deinen Plänen anpasst! </b>\n\n<br>\n<br>+ Wiegt nur 900g / 2lbs\n<br>+ Aus wasserfestem und ressourcenschonendem Dyecoshell™ Material gefertigt.\n<br>+ 16\" Zoll Innenfach für Laptop oder Trinkblase.\n<br>+ Zwei verschließbare Ausgänge für den Trinkblasenschlauch.\n<br>+ Geräumiger Innenraum mit kleiner Hover-Pocket am Eingang.\n<br>+ Eine Reißverschlussfach oben und eines auf der Vorderseite.\n<br>+ Elastisches Frontfach für Flaschen oder kleinere Gegenstände.\n<br>+ Das Frontfach ist Atmungsaktiv und eignet sich gut zum Verstauen von nassen Jacken oder Handschuhen zur Trocknung.\n<br>+ Seitliche Kompressionsgurte zum komprimieren des Volumens und fixieren von Gegenständen [z.B. Ski- / Wanderstöcke). \n<br>+ Loops zum einhängen der Ski- / Wanderstöcke am Boden des Rucksacks.\n<br>+ Load-Lifters an den Schultergurten zur besseren Verteilung des Gewichts [mehr Komfort]\n<br>+ Verstellbare und abnehmbare Brust- und Hüftgurte.\n<br><br>\n<a href=\"https://heimplanet.com/products/taschen-motion-motion-ellipse-black\" target=\"_blank\"><b>ZUM MOTION ELLIPSE</b></a>\n<br><br>\nKombinierbar mit dem <a href=\"https://heimplanet.com/products/taschen-motion-hip_belt\" target=\"_blank\"><b>Motion Series Hüftgurt-Taschen</b></a> und der <a href=\"https://heimplanet.com/products/hydra-pak-force-2l\" target=\"_blank\"><b>Hydrapak Force 2L Trinkblase</b></a>.",
+            "image_bild": "shopify://shop_images/blog-heimplanet-motion-ellipse.png"
+          }
+        },
+        "dropdown_nNrpRc": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/60e5b4da711f56717092a819_Artikelbilder_Motion_Arc_2020_light_001_f03414db-5b5a-4323-8262-80ba056d5663.jpg",
+            "text_headline": "20L Rucksack. Motion Arc",
+            "textarea_text": "Unsere Motion Series Rucksäcke sind für dynamische und sportliche Aktivitäten konzipiert. Sie sind leicht, wasserbeständig und vollgepackt mit nützlichen Features. Wer weniger Volumen braucht und nochmals Gewicht einsparen möchte wählt den kleineren Motion Arc 20L. \n\n<br><br><b>Der Arc besitzt viele der praktischen Eigenschaften des Ellipse und vereint sie in einem kleineren Format! </b>\n\n<br>\n<br>+ Wiegt nur 810g/ 1.8lbs\n<br>+ Aus wasserfestem und ressourcenschonendem Dyecoshell™ Material gefertigt.\n<br>+ 16\" Zoll Innenfach für Laptop oder Trinkblase.\n<br>+ Zwei verschließbare Ausgänge für den Trinkblasenschlauch.\n<br>+ Geräumiger Innenraum mit kleiner Hover-Pocket am Eingang.\n<br>+ Großer U-förmiger Reißverschluss für gute Übersicht im Innenraum.\n<br>+ Elastisches Frontfach für Kleidung oder kleinere Gegenstände.\n<br>+ Das Frontfach ist Atmungsaktiv und eignet sich gut zum Verstauen von nassen Jacken oder Handschuhen zur Trocknung.\n<br>+ Kleines Reißverschlussfach an der Seite [ideal für z.B. Geldbeutel, Liftkarte oder Taschentücher] .\n<br>+ Verstellbare und abnehmbare Brust- und Hüftgurte.\n<br><br>\n<a href=\"https://heimplanet.com/products/taschen-motion-motion-arc-white\" target=\"_blank\"><b>ZUM MOTION ARC</b></a>\n<br><br>\nKombinierbar mit dem <a href=\"https://heimplanet.com/products/taschen-motion-hip_belt\" target=\"_blank\"><b>Motion Series Hüftgurt-Taschen</b></a> und der <a href=\"https://heimplanet.com/products/hydra-pak-force-2l\" target=\"_blank\"><b>Hydrapak Force 2L Trinkblase</b></a>.",
+            "image_bild": "shopify://shop_images/blog-heimplanet-motion-arc.png"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_F4BKrT",
+        "dropdown_bG7ntj",
+        "dropdown_VYRjf6",
+        "dropdown_nNrpRc"
+      ],
+      "settings": {
+        "text_headline": "",
+        "textarea_text": ""
+      }
+    },
+    "content_image_Jn7RR6": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "AKTIV-BEKLEIDUNG",
+        "textarea_text": "Hochfunktionale Stoffe treffen auf alltagstaugliche Optik.",
+        "url_button_link": "https://heimplanet.com/collections/bekleidung?filter.p.m.custom.filter_art_liste=Hoodies&filter.p.m.custom.filter_art_liste=Longsleeves&filter.p.m.custom.filter_art_liste=Pullover",
+        "text_button_text": "oberteile",
+        "url_button_link_2": "https://heimplanet.com/collections/bekleidung?filter.p.m.custom.filter_art_liste=Beanies+%26+Caps",
+        "text_button_text_2": "headwear",
+        "image_bild": "shopify://shop_images/blog-heimplanet-hpt-crewneck.jpg"
+      }
+    },
+    "l_dropdowns_M4kMqy": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_qJa6bN": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Crewneck-Anthracite-2022-1.jpg",
+            "text_headline": "Merino-Oberteile",
+            "textarea_text": "Bei Kälte und Schnee braucht es Kleidung die sich anpasst. Egal ob man steht, geht oder fährt - man möchte warm und trocken bleiben. <br><br><b>Dabei ist das was man unter der Jacke trägt genau so entscheidend wie die Jacke selbst.</b>\n<br><br>\nUnser Heimplanet <b>[HPT] Hoodie</b> und <b>HPT Crewneck Sweater</b> bestehen aus einem Mischgewebe aus Merino-Basis. Sie vereinen die funktionalen Eigenschaften synthetischer Stoffe mit den komfortablen Eigenschaften von Naturstoffen.\n<br><br>+ Merino - wärmt bei Kälte // kühlt bei Hitze\n<br>+ Atmungsaktiv [Schweiß wird schnell abtransportiert] - kein Auskühlen\n<br>+ Geruchshemmend [Problemlos mehrere Tage hintereinander Tragbar]\n<br>+ Schnelltrocknend falls Nässe von Außen eintritt. \n<br>+ Weiche Haptik und geringes Gewicht. \n<br>+ Alltagstaugliche Optik [Sowohl für die Piste als auch für das Restaurant am Abend geeignet].\n<br>+ Unisex\n<br>+ Made in Portugal\n<br><br>\n<a href=\"https://heimplanet.com/products/hpt-hoodie-light-grey\" target=\"_blank\"><b>ZUM HPT HOODIE</b></a>\n<br><br>\n<a href=\"https://heimplanet.com/products/hpt-crewneck-light-grey\" target=\"_blank\"><b>ZUM HPT CREWNECK</b></a>",
+            "image_bild": "shopify://shop_images/blog-heimlanet-hpt-crewneck-hoodie.png"
+          }
+        },
+        "dropdown_JgwKKi": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-COOLEVER-Longsleeve-reflective-Logo-Ball-Dust-1.jpg",
+            "text_headline": "COOLEVER™ Langarmshirts",
+            "textarea_text": "Die COOLEVER™ Langarmshirts sind ideal als Baselayer in der kalten Jahreszeit. \n<br><br>\nCOOLEVER™ beschreibt eine Gewebetechnologie die auf einer Mischung von synthetischem und natürlichen Stoffen basiert und deren Vorteile vereint. \n <br><br><b>Das Ergebnis ist ein hochfunktionales Kleidungsstück, das gleichzeitig eine alltagstaugliche Optik gewährleistet. </b>\n<br>+ Transportiert Feuchtigkeit effizient nach Außen - kein Auskühlen\n<br>+ Trocknet dadurch nach der Wäsche extrem schnell [wie ein Sportoberteil]\n<br>+ Pflegeleicht \n<br>+ Geruchshemmend \n<br>+ Unisex\n<br>+ Made in Portugal\n<br>+ Auch als T-Shirt erhältlich\n\n<br><br>Hinweis: Das Gewebe ist speziell darauf ausgelegt, dass Feuchtigkeit <b>von innen nach außen</b> gelangen kann (nicht umgekehrt) - zum Trocknen daher immer auf rechts drehen.\n<br><br><b>Erhältlich in den Farben:</b>\n<br>+ Schwarz, <br>+ Weiß\n<br>+ Dust [Beige]\n<br>+ Aubergine [Burgunder]\n<br>+ Heather Melange [Hellgrau]\n\n<br><br>\n<a href=\"https://heimplanet.com/products/coolever-longsleeve-reflective-logo-ball-dust\" target=\"_blank\"><b>WÄHLE DEINE FARBE</b></a>",
+            "image_bild": "shopify://shop_images/blog-heimplanet-coolever-longsleeves.png"
+          }
+        },
+        "dropdown_ccFQxb": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Beanie-Short-Red-1.jpg",
+            "text_headline": "Mützen",
+            "textarea_text": "Eine Mütze ist essentiell um nicht auszukühlen, besonders wenn die Haare durch sportliche Aktivitäten feucht werden. Eine gute Mütze schützt vor Kälte und leitet Feuchtigkeit effizient nach außen ab. <br><br>Unsere beiden Modelle <b>Beanie Basic</b>\n [oben] und <b>Beanie Short</b> [unten] erfüllen diese Voraussetzungen: \n<br>+ Aus hochwertigem Merino-Mischgewebe - wärmt bei Kälte // kühlt bei Hitze\n<br>+ Atmungsaktiv [Schweiß wird schnell abtransportiert] - kein Auskühlen\n<br>+ Geruchshemmend\n<br>+ Schnelltrocknend bei Nässe von Außen. \n<br>+ Weiche Haptik und geringes Gewicht. \n<br>+ Erhältlich in mehreren Farben\n<br>+ Made in Germany\n<br><br>\n<a href=\"https://heimplanet.com/products/beanie-basic-black\" target=\"_blank\"><b>ZUR BEANIE BASIC</b></a>\n<br><br>\n<a href=\"https://heimplanet.com/products/beanie-short-red\" target=\"_blank\"><b>ZUR BEANIE SHORT</b></a>",
+            "image_bild": "shopify://shop_images/blog-heimplanet-beanie.png"
+          }
+        },
+        "dropdown_bDUWbp": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Headband-Cairo-Grid-Special-Edition-1.jpg",
+            "text_headline": "Headbands",
+            "textarea_text": "Unsere Headbands sind leicht, nahtloss und angenehm weich. Sie sind in zwei Farben erhältlich - unserem ikonischen Cairo Camo Muster (links] und dem etwas reduzierterem Grid-Muster, dass sich auch im Innenstoff unserer Taschen wiederfindet [rechts] . <br><br><b>Unendliche Möglichkeiten - verwende das Headband als: </b>\n<br>+ Halstuch\n<br>+ Halbe Gesichtsbedeckung\n<br>+ Volle Gesichtsbedeckung\n<br>+ Balaclava [perfekt zum Ski- / Snowboardfahren]\n<br>+ Kapuze\n<br>+ Sahariane [Schützt Kopf und Haare]\n<br>+ Beanie \n<br>+ Bandana\n<br>+ Schweißband\n\n<br><br>\n<a href=\"https://heimplanet.com/collections/bekleidung?filter.p.m.custom.filter_art_liste=Beanies+%26+Caps\" target=\"_blank\"><b>WÄHLE DEIN HEADBAND</b></a>",
+            "image_bild": "shopify://shop_images/heimplanet_headbands.png"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_qJa6bN",
+        "dropdown_JgwKKi",
+        "dropdown_ccFQxb",
+        "dropdown_bDUWbp"
+      ],
+      "settings": {
+        "text_headline": "",
+        "textarea_text": ""
+      }
+    },
+    "content_image_dhedwt": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "Praktisches accessoires",
+        "textarea_text": "Auf die Kleinigkeiten kommt es an! \n<br>Packing Cubes, Drybag, Trinkblase, Stirnlampen und vieles mehr.",
+        "url_button_link": "https://heimplanet.com/collections/taschen?filter.p.m.custom.filter_kollektion_liste=Carry+Essentials",
+        "text_button_text": "CARRY ESSENTIALS",
+        "url_button_link_2": "shopify://collections/hpt-selected",
+        "text_button_text_2": "HPT-SELECTED",
+        "image_bild": "shopify://shop_images/petzl_headlamp_heimplanet.jpg"
+      }
+    },
+    "l_dropdowns_gxk3DH": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_teQAFP": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Packing-Cubes-Re-Store-Edition-3.jpg",
+            "text_headline": "Packing Cubes",
+            "textarea_text": "<b>Was haben ein 10 Personen Expeditionszelt und drei Packing Cubes gemeinsam?</b>\n<br>\n-> Ihre Außenhülle selbstverständlich!\n<br><br>\nDDen neuen Packing Cubes sind aus ungenutzten Stoffresten unseres Expeditionszelts Mavericks gefertigt. Dabei kommen ihnen die Wetterbeständigkeit, Robustheit und gute Sichtbarkeit der Mavericks-Hülle zu Gute. Um die Wasserfestigkeit noch einmal zu erhöhen, sind die neuen Cubes zusätzlich mit Wasserdichten Zippern ausgestattet. \n<br><br>\nDank dieser Eigenschaft hat sich der Einsatzzwecke der Cubes deutlich erweitert: \n<br><br>\n<b>01</b> Organizer für Kleidung.\n<br><b>02</b> Tech Pouch für Ladekabel, Powerbanks, Festplatten uvm.\n<br><b>03</b> Kulturtasche wenn Gewicht sparen besonders wichtig ist.\n<br><br>\n<a href=\"https://heimplanet.com/products/carry-essentials-packing-cubes-re-store-edition-set\" target=\"_blank\"><b>JETZT ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/blog-heimplanet-packing-cubes-re-store.png"
+          }
+        },
+        "dropdown_DCC4jX": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Artikelbild_CE_Kit_BagV2_001_53ee4b25-dff6-4a16-a5e2-9ee5a1061319.jpg",
+            "text_headline": "KIT BAG 14L - drybag / Rucksack",
+            "textarea_text": "Bei Abenteuer im Schnee ist es besonders wichtig, dass die wichtigsten Dinge Trocken bleiben. <br><br><b>Der Kit Bag ist die definition von \"Besser haben, als brauchen\". </b>\n<br>\n<br>+ Bei Bedarf extrem klein verstaubau.\n<br>+ Klippt einfach an den Rucksack, die Hüfttasche oder die eigene Kleidung.\n<br>+ Doppelfunktion als Drybag und Rucksack dank der mitgelieferten Schultergurte.\n<br>+ Die Gurte lassen sich problemlos entfernen, um das Packmaß weiter zu verringern. \n<br>+ Wasserdichtes 300D x 150D Polyester mit getapten Nähten.\n<br>+ 14L Volumen bei nur 150g Gewicht.\n<br>+ Auch als Innenverkleidung eines Rucksacks gut geeignet.\n<br><br>\n<a href=\"https://heimplanet.com/products/taschen-carry_essentials-kit_bag\" target=\"_blank\"><b>JETZT ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/blog-heimplanet-kit-bag.png"
+          }
+        },
+        "dropdown_4QJAjm": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/HPT-Selected-HydraPak-Force-2L-1_1024x1024_98a55ab3-9caf-4453-8ebc-804ecfcf15c1.jpg",
+            "text_headline": "Trinkblase - HYDRAPAK™ FORCE 2L",
+            "textarea_text": "<b>Die perfekte Ergänzung zu unseren Motion Line Rucksäcken: </b>\n<br>\n+ Sie ist konzipiert für viel Action und extrem robust. \n<br>\n+ HydraFusion™ Trinkschlauch sorgt jederzeit für eine optimale Isolierung.\n<br>\n+ Beißventil mit Staubschutz und Drehverschluss verhindern Auslaufen.\n\n<br><br>\nUnsere Motion Series Rucksäcke Ellipse 25L und Arc 20L besitzen beide entsprechende Ausgänge für den Trinkblasenschlauch und ein Reservoir im Innenraum, das die Trinkblase sicher und stabil aufnehmen kann.\n<br><br>\n<a href=\"https://heimplanet.com/products/hydra-pak-force-2l\" target=\"_blank\"><b>JETZT ENTDECKEN</b></a>\n<br><br>\n<b>Letzte Kundenbewertung - \nZORAN STARY | \nZurich, CH</b>\n<br>\"Very quality stuff. Not cheap but very quality. Shipping was lightning fast. Go for it.\"",
+            "image_bild": "shopify://shop_images/hydrapak.png"
+          }
+        },
+        "dropdown_AJkNwL": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/HPT-Selected-Petzl-Swift-RL-Black-1.jpg",
+            "text_headline": "Stirnlampe - Petzl SWIFT® RL Black",
+            "textarea_text": "<b>Die perfekte Allround-Stirnlampe und die unumgängliche Begleiterin bei all Ihren Outdoor-Aktivitäten.\n</b>\n<br><br>\n+ Leuchtkraft von 1100 Lumen bei einem Gewicht von nur 100 g\n<br>\n+ REACTIVE LIGHTING®-Technologie misst die umgebende Helligkeit und passt die Leuchtkraft automatisch Ihren Anforderungen an.\n<br>\n+ Reflektierende Kopfband gewährleistet, auch im Dunkeln gut sichtbar zu sein.\n<br>\n+ Zweiteiliges Kopfband für optimalen Halt selbst bei dynamischen und technisch anspruchsvollen Aktivitäten wie Bergsteigen, Trailrunning oder Skifahren.\n<br><br>\n<a href=\"https://heimplanet.com/products/petzl-swift%C2%AE-rl-black\" target=\"_blank\"><b>ZUR PETZL SWIFT® RL BLACK</b></a>\n<br><br>\nFür nicht ganz so extreme Vorhaben, gibt es alternativ auch noch die Petzl Actic Core bei uns im HPT-Selected Sortiment.\n<br><br>\n<a href=\"https://heimplanet.com/products/petzl-actik-core\" target=\"_blank\"><b>ZUR PETZL ACTIK CORE</b></a>",
+            "image_bild": "shopify://shop_images/petzl_headlamp.png"
+          }
+        },
+        "dropdown_UPGpT9": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/HPT-Selected-AeroPress-Coffee-Espressomaker-1.jpg",
+            "text_headline": "COFFEE TO GO - AEROPRESS®",
+            "textarea_text": "Guter Kaffee kann den Unterschied machen. Belohne dich mit einem leckeren Heißgetränk am Ende eines gelungenen Abenteuers oder tröste dich nach einem misglückten. Egal - ein guter Kaffee hilft immer. Und mit der AeroPress macht es auch noch Spaß ihn zuzubereiten. <br><br>Der <b>AeroPress® Coffeemaker - Original</b> ist der perfekte Reisebegleiter - der handgehaltene Coffeemaker ist perfekt für besten Kaffeegenuss, ob unterwegs oder zu Hause. Einfache & schnelle Zubereitung für besten Kaffeegenuss.\n<br><br>\nIm Lieferumfang enthalten sind:\n<br>+ AeroPress® Kaffee- & Espressomaker\n<br>+ Einfülltrichter\n<br>+ Rührer\n<br>+ Portionierlöffel\n<br>+ Filterhalter\n<br>+ 350 Mikrofilter\n<br><br>\n<a href=\"https://heimplanet.com/products/aeropress-coffeemaker-original\" target=\"_blank\"><b>JETZT ENTDECKEN</b></a> \n<br><br>\nNeben dem 'Original' führen wir auch noch den Coffee Maker GO und den Coffee Maker Clear. \n<br><br>\n<a href=\"https://heimplanet.com/collections/kochen?filter.p.vendor=AeroPress\" target=\"_blank\"><b>ALLE ANSEHEN</b></a> \n<br><br>",
+            "image_bild": "shopify://shop_images/aeropress.png"
+          }
+        },
+        "dropdown_jkBBw7": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-X-Mizu-Thermos-200-ML-Silver-Black-2022.jpg",
+            "text_headline": "Thermos-flaschen",
+            "textarea_text": "Damit der AeroPress Kaffee auch schon heiß bleibt nutzen wir unseren in Kooperation mit MIZU geschaffenen 1070ML Thermos [36.2fl oz].\n<br><br>\n+ Bis zu 12 Stunden Lagerung von Heißgetränken.\n<br>+ Natürlich auch im Sommer praktisch >>  Lagerung kalter Getränke bis zu 18 Stunden.\n<br>+ Sicherer Schreibverschluss mit Sicherheitsleine.\n<br><br>\n<br><br>\n<a href=\"https://heimplanet.com/collections/gear\" target=\"_blank\"><b>JETZT ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/blog-heimplanet-mizu-thermos.png"
+          }
+        },
+        "dropdown_xnpwjt": {
+          "type": "dropdown",
+          "disabled": true,
+          "settings": {
+            "image_icon": "shopify://shop_images/Dr-Bronner-Naturseife-60ml-Baby-Mild.jpg",
+            "text_headline": "NATURSEIFEN von Dr.BRONNER",
+            "textarea_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, <br>um bessere Stoffe, fairere Arbeitsbedingungen,"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_teQAFP",
+        "dropdown_DCC4jX",
+        "dropdown_4QJAjm",
+        "dropdown_AJkNwL",
+        "dropdown_UPGpT9",
+        "dropdown_jkBBw7",
+        "dropdown_xnpwjt"
+      ],
+      "settings": {
+        "text_headline": "",
+        "textarea_text": ""
+      }
+    },
+    "content_image_BiVbti": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "ZELTE FÜR DEN WINTER",
+        "textarea_text": "4-Season Zelte mit extra verstärktem Innenzelt für bessere Isolation und Wärmespeicherung.",
+        "url_button_link": "https://heimplanet.com/collections/zelte?filter.p.m.custom.filter_aktivit_t_liste=4-Season",
+        "text_button_text": "4-SEASON Zelte",
+        "url_button_link_2": "https://heimplanet.com/collections/zelte?filter.p.m.custom.filter_art_liste=Zubeh%C3%B6r",
+        "text_button_text_2": "ZELTUNTERLAGEN",
+        "image_bild": "shopify://shop_images/RicoGlueck_Kirra_Cairocamo_Snow_Winter3.jpg"
+      }
+    },
+    "l_dropdowns_aiN43E": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_gT8djK": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Kirra_IDG_Technik_Landing.png",
+            "text_headline": "2 Personen Zelt, Kirra 4-Season",
+            "textarea_text": "Kirra ist eines der neueren Zelte in unserem Sortiment. Es bietet genau so viel Platz wie The Cave - allerdings sorgt ein deutlich reduziertes Rahmendesign für ein kleineres Packmaß und weniger Gewicht. \n<br><br><b>EIGENSCHAFTEN ALLER HEIMPLANET ZELTE</b><br>+ Hervorragende Stabilität dank des Inflatable Diamond Grid <b>[IDG]</b> <br>+ Das gesamte Zelt ist eine Einheit  <b>[Keine lästigen Einzelteile]</b><br>+ Das Zelt lässt sich mit nur einem Ventil errichten <b>[One-Pump-System]</b>\n<br>+ Verschließbare Verbindungsschläuche für Notfallstabilität <b>[Multi-Chamber-Safety-System]</b>\n<br>+ Der Luftrahmen besteht aus extrem robustem Material <b>[Double-Layer-Construction]</b> und ist an den Bodenkontaktstellen nochmals verstärkt.\n\n<br><br>Mehr über HEIMPLANET's Zelttechnologie gibt es\n<b><a href=\"https://heimplanet.com/pages/kontakt\" target=\"_blank\">hier</a></b>. \n\n<br><br><b>EIGENSCHAFTEN VON KIRRA</b><br>+ Ausreichend Platz für 2 Personen <br>+ Kleineres Packmaß und weniger Gewicht durch reduziertes Rahmendesign\n<br>+ Aufpumpzeit <b>24 Sekunden</b> [Standpumpe]\n<br>+ Vielseitiges Belüftungssystem - auch bei Kälte sehr wichtig\n\n\n<br><br><b><a href=\"https://heimplanet.com/products/kirra-4-season\" target=\"_blank\"> KIRRA  ENTDECKEN - hier klicken</a></b>.",
+            "image_bild": "shopify://shop_images/heimplanet_kirra_4_season.png"
+          }
+        },
+        "dropdown_Fp4JNp": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/IDG_TheCave.png",
+            "text_headline": "3 Personen Zelt, THE CAVE XL 4-Season",
+            "textarea_text": "The Cave XL ist eine größere Version unseres allerersten Zelts The Cave. Es ist eines der stabilsten Zelte in unserem Sortiment und daher besonders geeignet wenn du planst an stürmische Orte zu reisen oder einfach auf Nummer-Sicher gehen willst. \n<br><br><b>EIGENSCHAFTEN ALLER HEIMPLANET ZELTE</b><br>+ Hervorragende Stabilität dank des Inflatable Diamond Grid <b>[IDG]</b> <br>+ Das gesamte Zelt ist eine Einheit  <b>[Keine lästigen Einzelteile]</b><br>+ Das Zelt lässt sich mit nur einem Ventil errichten <b>[One-Pump-System]</b>\n<br>+ Verschließbare Verbindungsschläuche für Notfallstabilität <b>[Multi-Chamber-Safety-System]</b>\n<br>+ Der Luftrahmen besteht aus extrem robustem Material <b>[Double-Layer-Construction]</b> und ist an den Bodenkontaktstellen nochmals verstärkt.\n\n<br><br>Mehr über HEIMPLANET's Zelttechnologie gibt es\n<b><a href=\"https://heimplanet.com/pages/kontakt\" target=\"_blank\">hier</a></b>. \n\n<br><br><b>EIGENSCHAFTEN VON THE CAVE XL</b><br>+ Ausreichend Platz für 3 Personen oder 2 Personen mit viel Equipment<br>+ Extrem stabil durch punktsymmetrischen Luftrahmen mit 10 Kreuzungspunkten\n<br>+ Aufpumpzeit <b>27 Sekunden</b> [Standpumpe]\n\n\n<br><br><b><a href=\"https://heimplanet.com/products/the-cave-xl-4-season\" target=\"_blank\"> THE CAVE XL ENTDECKEN - hier klicken</a></b>.",
+            "image_bild": "shopify://shop_images/heimplanet_the_cave_xl_4_season.png"
+          }
+        },
+        "dropdown_mcTWnV": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/IDG_Backdoor.png",
+            "text_headline": "4 personen zelt, BACKDOOR 4-Season",
+            "textarea_text": "Das Backdoor ist durch seine Größe und seine zwei Eingänge ideal für Gruppen oder Familien geeignet. In der roten 4-Season Version bietet es auch in kälteren Jahreszeiten ausreichend Isolation. \n<br><br><b>EIGENSCHAFTEN ALLER HEIMPLANET ZELTE</b><br>+ Hervorragende Stabilität dank des Inflatable Diamond Grid <b>[IDG]</b> <br>+ Das gesamte Zelt ist eine Einheit  <b>[Keine lästigen Einzelteile]</b><br>+ Das Zelt lässt sich mit nur einem Ventil errichten <b>[One-Pump-System]</b>\n<br>+ Verschließbare Verbindungsschläuche für Notfallstabilität <b>[Multi-Chamber-Safety-System]</b>\n<br>+ Der Luftrahmen besteht aus extrem robustem Material <b>[Double-Layer-Construction]</b> und ist an den Bodenkontaktstellen nochmals verstärkt.\n\n<br><br>Mehr über HEIMPLANET's Zelttechnologie gibt es\n<b><a href=\"https://heimplanet.com/pages/kontakt\" target=\"_blank\">hier</a></b>. \n\n<br><br><b>EIGENSCHAFTEN VON BACKDOOR</b><br>+ Ausreichend Platz für 4 Personen<br>+ Zwei große Eingänge - einfaches Betreten oder Verlassen ohne übereinander klettern zu müssen.\n<br>+ Aufpumpzeit<b> 29 Sekunden</b> [Standpumpe]\n<br>+ Vielseitiges Belüftungssystem - auch bei Kälte sehr wichtig\n\n<br><br><b><a href=\"https://heimplanet.com/products/backdoor-4-season\" target=\"_blank\"> BACKDOOR ENTDECKEN - hier klicken</a></b>.",
+            "image_bild": "shopify://shop_images/heimplanet_backdoor_4_season.png"
+          }
+        },
+        "dropdown_L7MwEA": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-XL-Groundsheet_5efe2993-d01b-4051-af87-b2d3514c5b38.jpg",
+            "text_headline": "ZELTUNTERLAGEN - Extra schutz vor bodenkälte",
+            "textarea_text": "Unsere Groundsheet sorgen für einen optimalen Schutz des Zeltbodens. Mit dem speziell für jedes Zelt zugeschnittene Groundsheet bist du auf der sicheren Seite, wenn du dich in raueres oder kaltes Gelände wagst.\n\n<br><br><b>MEHR KOMFORT</b><br>+ Schutz vor spitzen Steinen, Ästen oder Dornen\n<br>+ Zusätzliche Isolation bei gefrorenem Untergrund\n<br><br><b>EINFACHE HANDHABUNG</b><br>+ Das Groundsheet wird ebenso wie das Außenzelt einmalig in den Luftrahmen eingehängt.\n<br>+ Es bildet eine Einheit mit deinem Zelt - keine lästigen Einzelteile.\n<br>+ Einfach zu entfernen zur Reinigung oder falls es nicht genutzt wird. \n\n<br><br>\n<b><a href=\"https://heimplanet.com/collections/zelte?filter.p.m.custom.filter_art_liste=Zubeh%C3%B6r\" target=\"_blank\">KLICKE HIER </a></b>um zu den Groundsheets zu gelangen.",
+            "image_bild": "shopify://shop_images/heimplanet_zeltunterlage.png"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_gT8djK",
+        "dropdown_Fp4JNp",
+        "dropdown_mcTWnV",
+        "dropdown_L7MwEA"
+      ],
+      "settings": {
+        "text_headline": "",
+        "textarea_text": ""
+      }
+    },
+    "category_3d6icy": {
+      "type": "category",
+      "settings": {
+        "text_headline": "Gesamte packliste entdecken:",
+        "url_button_link": "shopify://collections/4-season-packliste",
+        "text_button_text": "ALLE ANSEHEN",
+        "collection_collection": "4-season-packliste",
+        "collection_collection_limit": 44
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "shopify://blogs/abenteuer",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
+      }
+    }
+  },
+  "layout": "article",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_hero_ijQ63U",
+    "l_video_L6k4FT",
+    "article_products_V4qaqk",
+    "infos_hpYqcf",
+    "content_image_6z38yU",
+    "l_dropdowns_qfRaC4",
+    "content_image_Jn7RR6",
+    "l_dropdowns_M4kMqy",
+    "content_image_dhedwt",
+    "l_dropdowns_gxk3DH",
+    "content_image_BiVbti",
+    "l_dropdowns_aiN43E",
+    "category_3d6icy",
+    "article_next"
+  ]
+}
