@@ -66,6 +66,7 @@
         "dropdown_UVbcHV": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/icons8-intern-96.png",
             "text_headline": "How to Apply",
             "textarea_text": "We're doing things a little differently. To find the right fit, we’re hosting a small creative challenge. Here is what we ask from you:\n\nCreate a 20-second Instagram Reel using the photo and video assets in this folder: [insert folder link here]\n\nInclude a text hook displayed during the first 5 seconds\n\nEnd with a call to action displayed during the last 5 seconds\n\nWrite a caption (max. 100 characters) that fits the vibe of the Reel\n\nSend us your Reel + CV via WeTransfer to: 📩 jobs@heimplanet.com\n\nLet your creativity speak louder than your cover letter.\n\nWe are looking forward to hearing from you! Questions about the job or application process can be directed at&nbsp;jobs@heimplanet.com"
           }
