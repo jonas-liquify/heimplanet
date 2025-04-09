@@ -36,6 +36,7 @@
         "dropdown_bG7ntj": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Carry_Essentials3.png",
             "text_headline": "Job Overview",
             "textarea_text": "Job Title: Social Media Manager\nLocation: Hamburg, Germany\nJob Type: Full-Time\n\nWe are seeking a strategic, creative, and analytical Social Media Manager to take ownership of our social media presence. You’ll be responsible for developing and executing our social media strategy to increase brand awareness, engagement, and conversion across all key platforms.&nbsp;\n\nIn this role, you'll become the face of Heimplanet, shaping the very first touchpoints people have with our brand. It’s a unique opportunity to define how the world experiences Heimplanet from the very first scroll, tap, or swipe."
           }
@@ -57,6 +58,7 @@
         "dropdown_Rqyhbc": {
           "type": "dropdown",
           "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Motion5.png",
             "text_headline": "What We Offer",
             "textarea_text": "What We Offer\n\nA creative and collaborative work environment\n\nOpportunities to shape a growing brand’s voice\n\nFlexible working hours and potential for hybrid work\n\nCompetitive salary and benefits\n\n\n\nBenefits\n\nFlexible Work: flexible working hours + home-office days\n\nModern Equipment: Laptop for remote work &amp; ergonomic workspace\n\nMobility Support: Job ticket or public transport subsidy\n\nHeimplanet Gear: Special deals on outdoor products + opportunity to borrow gear\n\nTeam Spirit: Regular team events &amp; an open, collaborative culture\n\nPersonal Growth: Opportunities for training &amp; space to share your ideas\n\nSustainability Focus: Commitment to environmentally friendly products\n\nGreat Location: Office/Showroom in the heart of Hamburg’s HafenCity incl. a great coffee machine"
           }
