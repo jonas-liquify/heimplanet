@@ -12,7 +12,7 @@
     "l_header_BWhBQX": {
       "type": "l_header",
       "settings": {
-        "url_button_url": "shopify://products/cloudbreak-classic",
+        "url_button_url": "shopify://products/cloudbreak-v1",
         "text_button_text": "Jetzt shoppen"
       }
     },

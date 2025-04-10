@@ -140,7 +140,7 @@
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "Zum Cloudbreak",
-        "url_produkt_link": "shopify://products/cloudbreak-classic",
+        "url_produkt_link": "shopify://products/cloudbreak-v1",
         "checkbox_swiper_script": true
       }
     },

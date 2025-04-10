@@ -24,9 +24,7 @@
     },
     "l_video_L6k4FT": {
       "type": "l_video",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "text_video_url": "https://www.youtube-nocookie.com/embed/r5teak8n_xQ?si=-w_97ge2dOMsl53Z"
       }
@@ -161,7 +159,7 @@
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "ZUM CLOUDBREAK",
-        "url_produkt_link": "shopify://products/cloudbreak-classic",
+        "url_produkt_link": "shopify://products/cloudbreak-v1",
         "checkbox_swiper_script": true
       }
     },
