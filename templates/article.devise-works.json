@@ -62,6 +62,13 @@
         "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-Mood-2.jpg"
       }
     },
+    "l_headline_mono_d6Xm6X": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "exklusiv für den japanischen markt hergestellt."
+      }
+    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
@@ -115,6 +122,17 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
+    },
+    "l_reveal_slider_dyyFAk": {
+      "type": "l_reveal_slider",
+      "settings": {
+        "text_headline": "CLOUDBREAK, SHELTER",
+        "textarea_text": "",
+        "text_vorher": "This is some text inside of a div block.",
+        "text_nachher": "This is some text inside of a div block.",
+        "image_bild_1": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Hero_3556x2000__MG.jpg",
+        "image_bild_2": "shopify://shop_images/Revision_Devise_Works_Cloudbreak_White_Hero_3556x2000__MG.jpg"
+      }
     }
   },
   "layout": "article",
@@ -126,7 +144,9 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
+    "l_headline_mono_d6Xm6X",
     "l_produkt_QbA6R8",
-    "article_next"
+    "article_next",
+    "l_reveal_slider_dyyFAk"
   ]
 }
