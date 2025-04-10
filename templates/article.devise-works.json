@@ -131,42 +131,6 @@
         "image_bild_2": "shopify://shop_images/Revision_Devise_Works_Cloudbreak_White_Hero_3556x2000__MG.jpg"
       }
     },
-    "article_next": {
-      "type": "article_next",
-      "settings": {
-        "text_headline": "Weitere Beiträge",
-        "url_button_link": "shopify://blogs/collabs",
-        "text_button_text": "Mehr davon",
-        "text_blog_handle": "abenteuer"
-      }
-    },
-    "l_step_slider_VnVnBd": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_EM4gUP": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Front_Full__MG.jpg",
-            "text_text": "This is some text inside of a div block."
-          }
-        },
-        "feature_jMHPNi": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Doors_Up_Full__MG.jpg",
-            "text_text": "This is some text inside of a div block."
-          }
-        }
-      },
-      "block_order": [
-        "feature_EM4gUP",
-        "feature_jMHPNi"
-      ],
-      "settings": {
-        "text_headline": "Bags+Backpacks",
-        "checkbox_swiper_script": true
-      }
-    },
     "l_produkt_nj8njd": {
       "type": "l_produkt",
       "blocks": {
@@ -205,12 +169,6 @@
           "settings": {
             "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Top_Full__MG.jpg"
           }
-        },
-        "fact_6t3QrM": {
-          "type": "fact",
-          "settings": {
-            "text_text": "5 Jahre Entwicklungszeit"
-          }
         }
       },
       "block_order": [
@@ -219,16 +177,15 @@
         "produkt_slider_TGPcy4",
         "produkt_slider_aCYtNP",
         "produkt_slider_Tb6Kjp",
-        "produkt_slider_tzdBg4",
-        "fact_6t3QrM"
+        "produkt_slider_tzdBg4"
       ],
       "settings": {
         "checkbox_pagination_dots": true,
-        "text_headline": "Neu: Cloudbreak Shelter, BLACK",
+        "text_headline": "Cloudbreak Shelter, BLACK",
         "textarea_beschreibung": "",
         "text_preis": "",
-        "text_hinweis": "NUR IN JAPAN ERHÄLTLICH",
-        "text_button_text": "Jetzt vorbestellen",
+        "text_hinweis": "HEIMPLANET x DEVISE WORKS",
+        "text_button_text": "NUR IN JAPAN ERHÄLTLICH",
         "url_produkt_link": "",
         "checkbox_swiper_script": true
       }
@@ -253,29 +210,90 @@
           "settings": {
             "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_White_Top_Full__MG.jpg"
           }
-        },
-        "fact_G8PDc9": {
-          "type": "fact",
-          "settings": {
-            "text_text": "5 Jahre Entwicklungszeit"
-          }
         }
       },
       "block_order": [
         "produkt_slider_Ud4gUy",
         "produkt_slider_U3FQwm",
-        "produkt_slider_7Q4BHk",
-        "fact_G8PDc9"
+        "produkt_slider_7Q4BHk"
       ],
       "settings": {
         "checkbox_pagination_dots": true,
         "text_headline": "Neu: Cloudbreak Shelter, White",
         "textarea_beschreibung": "",
         "text_preis": "",
-        "text_hinweis": "NUR IN JAPAN ERHÄLTLICH",
-        "text_button_text": "Jetzt vorbestellen",
+        "text_hinweis": "HEIMPLANET x DEVISE WORKS",
+        "text_button_text": "NUR IN JAPAN ERHÄLTLICH",
         "url_produkt_link": "",
         "checkbox_swiper_script": true
+      }
+    },
+    "l_produkt_L86r7B": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_UKAPiw": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_CaveXL_Black_Front_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_gTFNYT": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_CaveXL_Black_ThreeQuarter_Full_MG.jpg"
+          }
+        },
+        "produkt_slider_Qqzfm3": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_CaveXL_Black_ThreeQuarter_Back_Full.jpg"
+          }
+        },
+        "produkt_slider_3HHNpg": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_CaveXL_Black_ThreeQuarter_Door_Open_Full_MG.jpg"
+          }
+        },
+        "produkt_slider_76bPLe": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Kopie_von_Devise_Works_CaveXL_Black_ThreeQuarter_Inner_Tent_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_PmAYCy": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_CaveXL_Black_Top_Full.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_UKAPiw",
+        "produkt_slider_gTFNYT",
+        "produkt_slider_Qqzfm3",
+        "produkt_slider_3HHNpg",
+        "produkt_slider_76bPLe",
+        "produkt_slider_PmAYCy"
+      ],
+      "settings": {
+        "checkbox_pagination_dots": true,
+        "text_headline": "Neu: The Cave XL, BLACK",
+        "textarea_beschreibung": "",
+        "text_preis": "",
+        "text_hinweis": "HEIMPLANET x DEVISE WORKS",
+        "text_button_text": "NUR IN JAPAN ERHÄLTLICH",
+        "url_produkt_link": "",
+        "checkbox_swiper_script": true
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "shopify://blogs/collabs",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
       }
     }
   },
@@ -291,9 +309,9 @@
     "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
     "l_reveal_slider_dyyFAk",
-    "article_next",
-    "l_step_slider_VnVnBd",
     "l_produkt_nj8njd",
-    "l_produkt_f4eapx"
+    "l_produkt_f4eapx",
+    "l_produkt_L86r7B",
+    "article_next"
   ]
 }
