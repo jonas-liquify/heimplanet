@@ -128,8 +128,8 @@
       "settings": {
         "text_headline": "CLOUDBREAK, SHELTER",
         "textarea_text": "",
-        "text_vorher": "This is some text inside of a div block.",
-        "text_nachher": "This is some text inside of a div block.",
+        "text_vorher": "WHITE",
+        "text_nachher": "BLACK",
         "image_bild_1": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Hero_3556x2000__MG.jpg",
         "image_bild_2": "shopify://shop_images/Revision_Devise_Works_Cloudbreak_White_Hero_3556x2000__MG.jpg"
       }
