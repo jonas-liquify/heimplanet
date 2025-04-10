@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -15,20 +15,20 @@
         "hero_slider_zBjUtr": {
           "type": "hero-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Mono-Series-Minimal-Pack-2024-July-Black.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-Mono-Series-Minimal-Pack-2024-July-Black.jpg",
             "text_headline": "Minimal Pack",
-            "richtext_text": "<p><strong>THE FUTURE IS NOW, THE FUTURE IS MONO.<\/strong> Der Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.<\/p>",
-            "url_button_link": "shopify:\/\/pages\/mono-series-minimal-pack",
+            "richtext_text": "<p><strong>THE FUTURE IS NOW, THE FUTURE IS MONO.</strong> Der Mono Series Minimal Pack - für Einfachheit, Funktionalität und einen bewussten Umgang mit Ressourcen. Ein Material - endlose Zyklen.</p>",
+            "url_button_link": "shopify://pages/mono-series-minimal-pack",
             "text_button_text": "Jetzt entdecken"
           }
         },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Fistral-Cairo-Camo-2023-1.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-2023-1.jpg",
             "text_headline": "Unsere Zelte",
-            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!<\/p>",
-            "url_button_link": "shopify:\/\/collections\/zelte",
+            "richtext_text": "<p>Wo auch immer Du bist: einfach ausrollen, aufpumpen und willkommen zu Hause! Für alle, die das Reisen und die Einfachheit lieben!</p>",
+            "url_button_link": "shopify://collections/zelte",
             "text_button_text": "Jetzt entdecken"
           }
         },
@@ -36,20 +36,20 @@
           "type": "hero-slider",
           "disabled": true,
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Sets.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Sets.jpg",
             "text_headline": "HEIMPLANET SETS",
-            "richtext_text": "<p>Entdecke jetzt die neuen CARRY und CAMPING Sets. Für Dich zusammengestellt für mehr Tragekomfort im Alltag und unvergessliche Camping Abenteuer.<\/p>",
-            "url_button_link": "shopify:\/\/collections\/camping-sets",
+            "richtext_text": "<p>Entdecke jetzt die neuen CARRY und CAMPING Sets. Für Dich zusammengestellt für mehr Tragekomfort im Alltag und unvergessliche Camping Abenteuer.</p>",
+            "url_button_link": "shopify://collections/camping-sets",
             "text_button_text": "Jetzt entdecken"
           }
         },
         "hero_slider_L3fJzp": {
           "type": "hero-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Re-Store-Packing-Cubes.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Re-Store-Packing-Cubes.jpg",
             "text_headline": "Packing Cubes",
-            "richtext_text": "<p>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität.<\/p>",
-            "url_button_link": "shopify:\/\/products\/carry-essentials-packing-cubes-re-store-edition-set",
+            "richtext_text": "<p>Wir präsentieren die Packing Cubes Re-Store Edition, ein Produkt im Zeichen von Ressourcenschonung und Qualität.</p>",
+            "url_button_link": "shopify://products/carry-essentials-packing-cubes-re-store-edition-set",
             "text_button_text": "Jetzt entdecken"
           }
         },
@@ -57,30 +57,30 @@
           "type": "hero-slider",
           "disabled": true,
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Travel-Pack.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Travel-Pack.jpg",
             "text_headline": "TRAVEL PACKS",
-            "richtext_text": "<p>Unsere Travel Packs (28L & 34L) sind ab sofort wieder verfügbar. Sei als Erstes dabei und sichere dir jetzt einen unserer Travel Packs!<\/p>",
-            "url_button_link": "shopify:\/\/collections\/taschen",
+            "richtext_text": "<p>Unsere Travel Packs (28L & 34L) sind ab sofort wieder verfügbar. Sei als Erstes dabei und sichere dir jetzt einen unserer Travel Packs!</p>",
+            "url_button_link": "shopify://collections/taschen",
             "text_button_text": "Jetzt shoppen"
           }
         },
         "hero_slider_icPbWh": {
           "type": "hero-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-HPT-Selected.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-HPT-Selected.jpg",
             "text_headline": "HPT Selected",
-            "richtext_text": "<p>Um Euch die Auswahl etwas zu erleichtern, haben wir in Zusammenarbeit mit ausgewählten Marken unsere persönliche Campingausrüstung zusammengestellt.<\/p>",
-            "url_button_link": "shopify:\/\/collections\/hpt-selected",
+            "richtext_text": "<p>Um Euch die Auswahl etwas zu erleichtern, haben wir in Zusammenarbeit mit ausgewählten Marken unsere persönliche Campingausrüstung zusammengestellt.</p>",
+            "url_button_link": "shopify://collections/hpt-selected",
             "text_button_text": "Jetzt entdecken"
           }
         },
         "hero_slider_3zKtma": {
           "type": "hero-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Teaser-Cloudbreak.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-Teaser-Cloudbreak.jpg",
             "text_headline": "Cloudbreak",
-            "richtext_text": "<p>Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden. #whereveryougo<\/p>",
-            "url_button_link": "shopify:\/\/products\/cloudbreak-classic",
+            "richtext_text": "<p>Wenn es drauf ankommt, ist Cloudbreak der Mittelpunkt deiner Abenteuer, dein Rückzugsort, dein Lager und der Ort, wo nach einem langen Tag am Lagerfeuer Geschichten erzählt werden. #whereveryougo</p>",
+            "url_button_link": "shopify://products/cloudbreak-v1",
             "text_button_text": "3.Batch VORBESTELLBAR"
           }
         },
@@ -88,10 +88,10 @@
           "type": "hero-slider",
           "disabled": true,
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/MonoSeries_MinimalPack_LifestyleShooting_LauritzKuntscher43_1_-_Kopie.jpg",
+            "image_bild": "shopify://shop_images/MonoSeries_MinimalPack_LifestyleShooting_LauritzKuntscher43_1_-_Kopie.jpg",
             "text_headline": "Mono Minimal Sets",
-            "richtext_text": "<p>Die neuen Mono Series Minimal Packs jetzt auch im Set erhältlich. Jetzt entdecken!<\/p>",
-            "url_button_link": "https:\/\/heimplanet.com\/collections\/carry-sets",
+            "richtext_text": "<p>Die neuen Mono Series Minimal Packs jetzt auch im Set erhältlich. Jetzt entdecken!</p>",
+            "url_button_link": "https://heimplanet.com/collections/carry-sets",
             "text_button_text": "Jetzt entdecken"
           }
         }
@@ -116,56 +116,56 @@
         "kategorie_BBVUzR": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/collections\/zelte",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-Classic-2022.webp",
+            "url_link": "shopify://collections/zelte",
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-2022.webp",
             "text_headline": "Zelte"
           }
         },
         "kategorie_YYhpwV": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/collections\/tarps",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Tarps-2022.webp",
+            "url_link": "shopify://collections/tarps",
+            "image_bild": "shopify://shop_images/Heimplanet-Tarps-2022.webp",
             "text_headline": "Tarps"
           }
         },
         "kategorie_qxbwVX": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/collections\/taschen",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Daypack-Backpack.jpg",
+            "url_link": "shopify://collections/taschen",
+            "image_bild": "shopify://shop_images/Heimplanet-Daypack-Backpack.jpg",
             "text_headline": "Taschen"
           }
         },
         "kategorie_AMyXbw": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/collections\/bekleidung",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Apparel-Hoodie-2022-1.webp",
+            "url_link": "shopify://collections/bekleidung",
+            "image_bild": "shopify://shop_images/Heimplanet-Apparel-Hoodie-2022-1.webp",
             "text_headline": "Kleidung"
           }
         },
         "kategorie_46x6YN": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/collections\/re-store",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Re-Store-Tents-Backpacks-and-more.jpg",
+            "url_link": "shopify://collections/re-store",
+            "image_bild": "shopify://shop_images/Heimplanet-Re-Store-Tents-Backpacks-and-more.jpg",
             "text_headline": "Re:Store"
           }
         },
         "kategorie_Qdczmz": {
           "type": "kategorie",
           "settings": {
-            "url_link": "https:\/\/heimplanet.com\/collections\/bekleidung?art=Beanies+%26+Caps",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Caps-Beanies-2022.webp",
+            "url_link": "https://heimplanet.com/collections/bekleidung?art=Beanies+%26+Caps",
+            "image_bild": "shopify://shop_images/Heimplanet-Caps-Beanies-2022.webp",
             "text_headline": "Beanies & Caps"
           }
         },
         "kategorie_W3zEQc": {
           "type": "kategorie",
           "settings": {
-            "url_link": "shopify:\/\/collections\/hpt-selected",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-HPT-Selected_2022.webp",
+            "url_link": "shopify://collections/hpt-selected",
+            "image_bild": "shopify://shop_images/Heimplanet-HPT-Selected_2022.webp",
             "text_headline": "HPT Selected"
           }
         }
@@ -187,7 +187,7 @@
       "type": "category",
       "settings": {
         "text_headline": "Topseller",
-        "url_button_link": "shopify:\/\/collections\/topseller",
+        "url_button_link": "shopify://collections/topseller",
         "text_button_text": "Mehr Erfahren",
         "collection_collection": "topseller",
         "collection_collection_limit": 4
@@ -201,12 +201,12 @@
           "settings": {
             "text_headline": "1% FOR THE PLANET",
             "textarea_text": "1% for the Planet ist ein weltweiter Zusammenschluss von Unternehmen, die die Notwendigkeit des Schutzes der natürlichen Umwelt erkannt haben.",
-            "url_button_link": "shopify:\/\/pages\/1-for-the-planet",
+            "url_button_link": "shopify://pages/1-for-the-planet",
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
-            "logo_image": "shopify:\/\/shop_images\/Heimplanet-1-Percent-For-The-Planet.png",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-1-Percent-for-the-Planet-2022-Mood.webp"
+            "logo_image": "shopify://shop_images/Heimplanet-1-Percent-For-The-Planet.png",
+            "image_bild": "shopify://shop_images/Heimplanet-1-Percent-for-the-Planet-2022-Mood.webp"
           }
         },
         "tab_bF9fVn": {
@@ -214,12 +214,12 @@
           "settings": {
             "text_headline": "DYECOSHELL",
             "textarea_text": "Schnell wurde uns klar, dass wir nicht einfach einen Stoff von der Stange nehmen konnten, um unsere Ziele zu erreichen. Ein neues Stoffkonzept musste entwickelt werden.",
-            "url_button_link": "shopify:\/\/blogs\/designraum\/dyecoshell™",
+            "url_button_link": "shopify://blogs/designraum/dyecoshell™",
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
-            "logo_image": "shopify:\/\/shop_images\/Heimplanet-Dyecoshell-Dev-2024-1.png",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-DYECOSHELL-Material-2022.webp"
+            "logo_image": "shopify://shop_images/Heimplanet-Dyecoshell-Dev-2024-1.png",
+            "image_bild": "shopify://shop_images/Heimplanet-DYECOSHELL-Material-2022.webp"
           }
         },
         "tab_pDtMQg": {
@@ -227,12 +227,12 @@
           "settings": {
             "text_headline": "RE-STORE",
             "textarea_text": "Das Ziel muss es sein, den Lebenszyklus unserer Produkte so weit wie möglich zu verlängern. Aus diesem Grund haben wir das Re:Store Programm ins Leben gerufen.",
-            "url_button_link": "shopify:\/\/pages\/re-store-programm",
+            "url_button_link": "shopify://pages/re-store-programm",
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
-            "logo_image": "shopify:\/\/shop_images\/Heimplanet-Re-Store-Program-Tents-Bags-Backpacks.png",
-            "image_bild": "shopify:\/\/shop_images\/Re-store.jpg"
+            "logo_image": "shopify://shop_images/Heimplanet-Re-Store-Program-Tents-Bags-Backpacks.png",
+            "image_bild": "shopify://shop_images/Re-store.jpg"
           }
         }
       },
@@ -241,8 +241,7 @@
         "tab_bF9fVn",
         "tab_pDtMQg"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "links": {
       "type": "links",
@@ -250,24 +249,24 @@
         "block_WYgbtJ": {
           "type": "block",
           "settings": {
-            "url_link": "shopify:\/\/blogs\/gourmet-camping",
-            "image_bild": "shopify:\/\/shop_images\/HPT-GOURMET-CAMPING.jpg",
+            "url_link": "shopify://blogs/gourmet-camping",
+            "image_bild": "shopify://shop_images/HPT-GOURMET-CAMPING.jpg",
             "text_titel": "HTP GOURMET CAMPING"
           }
         },
         "block_TFriVX": {
           "type": "block",
           "settings": {
-            "url_link": "shopify:\/\/blogs\/abenteuer",
-            "image_bild": "shopify:\/\/shop_images\/Fistral_CairoCamo_Portugal_Daniel_EspiritoSanto_1_1_1_04fece67-aca6-46b6-9965-85ba500f5c18.jpg",
+            "url_link": "shopify://blogs/abenteuer",
+            "image_bild": "shopify://shop_images/Fistral_CairoCamo_Portugal_Daniel_EspiritoSanto_1_1_1_04fece67-aca6-46b6-9965-85ba500f5c18.jpg",
             "text_titel": "Abenteuer"
           }
         },
         "block_MxTLKF": {
           "type": "block",
           "settings": {
-            "url_link": "shopify:\/\/blogs\/collabs",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-FDMTL-Limited-Edition-Mood-1-1.jpg",
+            "url_link": "shopify://blogs/collabs",
+            "image_bild": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-Mood-1-1.jpg",
             "text_titel": "KOLLABORATIONEN"
           }
         }
@@ -279,7 +278,7 @@
       ],
       "settings": {
         "text_headline": "MAGAZIN",
-        "url_button_link": "shopify:\/\/pages\/blog",
+        "url_button_link": "shopify://pages/blog",
         "text_button_text": "Mehr erfahren"
       }
     },
@@ -288,20 +287,20 @@
       "settings": {
         "text_headline": "HEIMPLANET IST INSPIRIERT VON<br> DER BEGEISTERUNG DES REISENS.",
         "textarea_text": "Auf Reisen fühlt man sich lebendig. Alle Sinne sind wach und man erwartet immer etwas Neues. Man stellt sich ständig auf neue Situationen, neue Menschen, neue Kulturen und neue Umgebungen ein.",
-        "url_button_link": "shopify:\/\/pages\/unternehmen",
+        "url_button_link": "shopify://pages/unternehmen",
         "text_button_text": "Über uns",
-        "url_button_link_2": "shopify:\/\/collections\/re-store",
+        "url_button_link_2": "shopify://collections/re-store",
         "text_button_text_2": "Re:Store Programm",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-Classic-2022-1-1.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1-1.jpg"
       }
     },
     "blog_qFY9GJ": {
       "type": "blog",
       "settings": {
         "text_headline": "Aktuelle Beiträge",
-        "url_button_link": "shopify:\/\/blogs\/collabs\/fdmtl-kirra-limited-edition",
+        "url_button_link": "shopify://blogs/collabs/fdmtl-kirra-limited-edition",
         "text_button_text": "Mehr Erfahren",
-        "article_artikel": "collabs\/fdmtl-kirra-limited-edition",
+        "article_artikel": "collabs/fdmtl-kirra-limited-edition",
         "blog_blog": "abenteuer",
         "post_limit_blog": 3
       }
@@ -314,12 +313,12 @@
           "settings": {
             "text_headline": "Cybertruck Basecamp",
             "textarea_text": "Mit seinem ultraleichten, geodätischen Luftrahmen lässt sich das Cybertruck Basecamp Zelt mit einer Handpumpe in wenigen Minuten ausblasen, ohne dass Zeltstangen erforderlich sind.",
-            "url_button_link": "shopify:\/\/pages\/tesla-cybertruck-basecamp",
+            "url_button_link": "shopify://pages/tesla-cybertruck-basecamp",
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
-            "logo_image": "shopify:\/\/shop_images\/Tesla-Logo.png",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Tesla-Cybertruck-Basecamp-Inflatable-Tent-2023.jpg"
+            "logo_image": "shopify://shop_images/Tesla-Logo.png",
+            "image_bild": "shopify://shop_images/Heimplanet-Tesla-Cybertruck-Basecamp-Inflatable-Tent-2023.jpg"
           }
         },
         "partner_ALYjfN": {
@@ -327,12 +326,12 @@
           "settings": {
             "text_headline": "SUPREME X HEIMPLANET",
             "textarea_text": "Seine überragende Stärke verdankt das The Cave XL seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten & hochwertigen Materialien.",
-            "url_button_link": "shopify:\/\/pages\/collab-supreme-the-cave-xl",
+            "url_button_link": "shopify://pages/collab-supreme-the-cave-xl",
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "logo_image": "shopify:\/\/shop_images\/Heimlanet-Supreme-The-Cave-XL-Edition-2024.png",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Supreme-The-Cave-XL-Edition-2024-Limited.jpg"
+            "logo_image": "shopify://shop_images/Heimlanet-Supreme-The-Cave-XL-Edition-2024.png",
+            "image_bild": "shopify://shop_images/Heimplanet-Supreme-The-Cave-XL-Edition-2024-Limited.jpg"
           }
         },
         "partner_7gHCa6": {
@@ -340,12 +339,12 @@
           "settings": {
             "text_headline": "AUDI X HEIMPLANET",
             "textarea_text": "Wir haben uns mit einem Team aus Designern und Produktentwicklern von AUDI zusammengesetzt, um über verschiedene Konzepte und Ideen zu sprechen, wie man die AUDI Q-Serie mit einem einzigartigen Zeltkonzept kombinieren könnte.",
-            "url_button_link": "shopify:\/\/blogs\/collabs\/audi-x-heimplanet",
+            "url_button_link": "shopify://blogs/collabs/audi-x-heimplanet",
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "logo_image": "shopify:\/\/shop_images\/Heimplanet-Audi-Q5-Q7-Zelt.png",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Audi-Q-Line-Edition-1.jpg"
+            "logo_image": "shopify://shop_images/Heimplanet-Audi-Q5-Q7-Zelt.png",
+            "image_bild": "shopify://shop_images/Heimplanet-Audi-Q-Line-Edition-1.jpg"
           }
         },
         "partner_axixPJ": {
@@ -353,12 +352,12 @@
           "settings": {
             "text_headline": "FDMTL X HEIMPLANET",
             "textarea_text": "FDMTL x HEIMPLANET: Das mit dem traditionellen japanischen Textil \"Boro\" bedruckte Material bringt die zeitlose Schönheit zum Ausdruck, die durch die Alterung von Indigo entsteht.",
-            "url_button_link": "shopify:\/\/blogs\/collabs\/fdmtl-kirra-limited-edition",
+            "url_button_link": "shopify://blogs/collabs/fdmtl-kirra-limited-edition",
             "text_button_text": "Jetzt erhältlich",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "logo_image": "shopify:\/\/shop_images\/Heimplanet-FDMTL-Kirra-Tent-Edition-2023.png",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Kirra-FDMTL-Limited-Edition-7.jpg"
+            "logo_image": "shopify://shop_images/Heimplanet-FDMTL-Kirra-Tent-Edition-2023.png",
+            "image_bild": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-7.jpg"
           }
         },
         "partner_934nmD": {
@@ -366,12 +365,12 @@
           "settings": {
             "text_headline": "66°NORTH X HEIMPLANET",
             "textarea_text": "Das hochmoderne Zelt kombiniert das Design von 66°North mit der Technologie von HEIMPLANET. Mit seinen speziellen Eigenschaften wurde das Cave XL speziell für Island entwickelt.",
-            "url_button_link": "shopify:\/\/blogs\/collabs\/the-cave-xl-4-season",
+            "url_button_link": "shopify://blogs/collabs/the-cave-xl-4-season",
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "logo_image": "shopify:\/\/shop_images\/Logo-66-North-Cave-XL.jpg",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-66-North-The-Cave-XL-Limited-Edition2022.jpg"
+            "logo_image": "shopify://shop_images/Logo-66-North-Cave-XL.jpg",
+            "image_bild": "shopify://shop_images/Heimplanet-66-North-The-Cave-XL-Limited-Edition2022.jpg"
           }
         },
         "partner_xDWmKg": {
@@ -379,12 +378,12 @@
           "settings": {
             "text_headline": "MAHARISHI X HEIMPLANET",
             "textarea_text": "Das Londoner Streetwear-Label Maharishi und HEIMPLANET feiern die Natur mit einem DPM: Golden Tigerstripe Camouflage.",
-            "url_button_link": "shopify:\/\/blogs\/collabs\/maharishi-x-heimplanet-the-cave",
+            "url_button_link": "shopify://blogs/collabs/maharishi-x-heimplanet-the-cave",
             "text_button_text": "Jetzt erhältlich",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "logo_image": "shopify:\/\/shop_images\/Heimplanet-Maharishi-Logo-Limited-Edition-2023.png",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-Limited-Edition-The-Cave-2023-10.jpg"
+            "logo_image": "shopify://shop_images/Heimplanet-Maharishi-Logo-Limited-Edition-2023.png",
+            "image_bild": "shopify://shop_images/Heimplanet-Maharishi-Limited-Edition-The-Cave-2023-10.jpg"
           }
         },
         "partner_h8DmmH": {
@@ -392,12 +391,12 @@
           "settings": {
             "text_headline": "UNCRATE X HEIMPLANET",
             "textarea_text": "Wir haben uns wieder mit unseren Freunden von UNCRATE zusammengetan, um eine neue THE CAVE All Black Limited Edition zu kreieren.",
-            "url_button_link": "shopify:\/\/blogs\/collabs\/uncrate-x-heimplanet-2021",
+            "url_button_link": "shopify://blogs/collabs/uncrate-x-heimplanet-2021",
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "logo_image": "shopify:\/\/shop_images\/Heimplanet-Uncrate-The-Cave-All-Black-1.png",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Uncrate-All-Black-Limited-Edition-1.jpg"
+            "logo_image": "shopify://shop_images/Heimplanet-Uncrate-The-Cave-All-Black-1.png",
+            "image_bild": "shopify://shop_images/Heimplanet-Uncrate-All-Black-Limited-Edition-1.jpg"
           }
         },
         "partner_i7AWBj": {
@@ -406,12 +405,12 @@
           "settings": {
             "text_headline": "James X Heimplanet",
             "textarea_text": "Einer unserer Gründer war auf einer Wanderung in Norwegen, mit seinem James Brand Chapter an seiner Seite. Irgendwo auf dem Weg fiel ihm sein Messer aus der Tasche und war verloren.",
-            "url_button_link": "shopify:\/\/blogs\/collabs\/james-x-heimplanet",
+            "url_button_link": "shopify://blogs/collabs/james-x-heimplanet",
             "text_button_text": "Mehr erfahren",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "logo_image": "shopify:\/\/shop_images\/Heimplanet-James-Brand-Collab-Knif-2023.png",
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-James-Collab-Knife-Bag.jpg"
+            "logo_image": "shopify://shop_images/Heimplanet-James-Brand-Collab-Knif-2023.png",
+            "image_bild": "shopify://shop_images/Heimplanet-James-Collab-Knife-Bag.jpg"
           }
         }
       },

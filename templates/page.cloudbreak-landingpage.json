@@ -1,18 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "l_header_BWhBQX": {
       "type": "l_header",
       "settings": {
-        "url_button_url": "shopify:\/\/products\/cloudbreak-classic",
+        "url_button_url": "shopify://products/cloudbreak-v1",
         "text_button_text": "Jetzt shoppen"
       }
     },
@@ -26,7 +26,7 @@
         "url_button_link": "",
         "text_button_text_2": "",
         "url_button_link_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-1.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-1.jpg"
       }
     },
     "l_hero_pwTxaV": {
@@ -39,7 +39,7 @@
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-1-1.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-1-1.jpg"
       }
     },
     "l_slider_nzYwHp": {
@@ -48,37 +48,37 @@
         "slider_amrGHh": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-6.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-6.jpg"
           }
         },
         "slider_nt9kJH": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-8.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-8.jpg"
           }
         },
         "slider_rrTgVL": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-11.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-11.jpg"
           }
         },
         "slider_rf8GYF": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-14.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-14.jpg"
           }
         },
         "slider_8rXKiK": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-9.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-9.jpg"
           }
         },
         "slider_rCiPgG": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-Lauritz-Kuntscher-10.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-Lauritz-Kuntscher-10.jpg"
           }
         }
       },
@@ -103,13 +103,13 @@
         "produkt_slider_jgJiUx": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-4-2024_8e07354a-0559-4f25-97a7-5857a88358df.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-4-2024_8e07354a-0559-4f25-97a7-5857a88358df.jpg"
           }
         },
         "produkt_slider_GBNbVV": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Cloudbreak-2024-5.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Cloudbreak-2024-5.jpg"
           }
         },
         "fact_YGT4my": {
@@ -138,16 +138,14 @@
         "fact_9dajdf",
         "fact_8Pk4y6"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "text_headline": "Cloudbreak",
-        "textarea_beschreibung": "<br>\n1. BATCH: AUSVERKAUFT <br>\n2. BATCH: AUSVERKAUFT<br>\n<b>3. BATCH: VORBESTELLBAR <\/b>(Versand: September 2024)<br>\n\n<br><br>",
+        "textarea_beschreibung": "<br>\n1. BATCH: AUSVERKAUFT <br>\n2. BATCH: AUSVERKAUFT<br>\n<b>3. BATCH: VORBESTELLBAR </b>(Versand: September 2024)<br>\n\n<br><br>",
         "text_preis": "2.749€",
         "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
         "text_button_text": "Zum Cloudbreak",
-        "url_produkt_link": "shopify:\/\/products\/cloudbreak-classic",
+        "url_produkt_link": "shopify://products/cloudbreak-v1",
         "checkbox_swiper_script": true
       }
     }
