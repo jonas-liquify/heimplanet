@@ -26,7 +26,7 @@
       "type": "l_video",
       "custom_css": [],
       "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/PaB6q1uKt9A?si=Xknv4z-LXa9TZP3J"
+        "text_video_url": "https://www.youtube-nocookie.com/embed/YvTf-xlsw2U?si=7OQnn2ya83Cx8R_P"
       }
     },
     "article_products_V4qaqk": {
@@ -162,6 +162,7 @@
         "fact_thTQjL"
       ],
       "settings": {
+        "checkbox_pagination_dots": true,
         "text_headline": "KIRRA 2 Personen",
         "textarea_beschreibung": "",
         "text_preis": "",
