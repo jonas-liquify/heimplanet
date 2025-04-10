@@ -125,8 +125,7 @@
       "type": "l_content_left",
       "settings": {
         "text_headline": "Über FDMTL",
-        "textarea_text": "FDMTL produziert vorwiegend Jeans-Bekleidung, welche in Japan gefertigt wird. Japan ist bekanntlich der Spitzenreiter in Sachen Denim-Produktion. Die Produkte sind hochwertig und zeichnen sich durch eine unvergleichliche Präzision aus, die mit herkömmlichen Fertigungstechniken kaum zu erzielen wäre. Jedes Kleidungsstück wird mit größter Sorgfalt hergestellt und erhält eine außergewöhnliche Detailtiefe.",
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-6.jpg"
+        "textarea_text": "FDMTL produziert vorwiegend Jeans-Bekleidung, welche in Japan gefertigt wird. Japan ist bekanntlich der Spitzenreiter in Sachen Denim-Produktion. Die Produkte sind hochwertig und zeichnen sich durch eine unvergleichliche Präzision aus, die mit herkömmlichen Fertigungstechniken kaum zu erzielen wäre. Jedes Kleidungsstück wird mit größter Sorgfalt hergestellt und erhält eine außergewöhnliche Detailtiefe."
       }
     },
     "l_gallery_67Grn9": {
@@ -148,51 +147,6 @@
         "image_bild_2": "shopify://shop_images/Revision_Devise_Works_Cloudbreak_White_Hero_3556x2000__MG.jpg"
       }
     },
-    "l_produkt_QbA6R8": {
-      "type": "l_produkt",
-      "blocks": {
-        "produkt_slider_ipBq33": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-1_9ccbc3f2-463a-49b3-8b79-0f3f0c1e8b8f.jpg"
-          }
-        },
-        "fact_tQ3c6w": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Hervorragende Stabilität"
-          }
-        },
-        "fact_MnxFyG": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Einfache Handhabung"
-          }
-        },
-        "fact_thTQjL": {
-          "type": "fact",
-          "settings": {
-            "text_text": "Lebenslange Garantie"
-          }
-        }
-      },
-      "block_order": [
-        "produkt_slider_ipBq33",
-        "fact_tQ3c6w",
-        "fact_MnxFyG",
-        "fact_thTQjL"
-      ],
-      "settings": {
-        "checkbox_pagination_dots": true,
-        "text_headline": "KIRRA x FDMTL Edition",
-        "textarea_beschreibung": "",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-x-fdmtl",
-        "checkbox_swiper_script": true
-      }
-    },
     "article_next": {
       "type": "article_next",
       "settings": {
@@ -200,6 +154,30 @@
         "url_button_link": "shopify://blogs/abenteuer",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
+      }
+    },
+    "l_slider_yCdH8R": {
+      "type": "l_slider",
+      "blocks": {
+        "slider_XU8UCy": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-white.jpg"
+          }
+        },
+        "slider_gU4c8k": {
+          "type": "slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-black.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slider_XU8UCy",
+        "slider_gU4c8k"
+      ],
+      "settings": {
+        "checkbox_swiper_script": true
       }
     }
   },
@@ -216,7 +194,7 @@
     "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
     "l_reveal_slider_dyyFAk",
-    "l_produkt_QbA6R8",
-    "article_next"
+    "article_next",
+    "l_slider_yCdH8R"
   ]
 }
