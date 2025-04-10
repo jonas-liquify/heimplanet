@@ -170,11 +170,16 @@
           "settings": {
             "image_bild": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-black.jpg"
           }
+        },
+        "slider_k6GKtT": {
+          "type": "slider",
+          "settings": {}
         }
       },
       "block_order": [
         "slider_XU8UCy",
-        "slider_gU4c8k"
+        "slider_gU4c8k",
+        "slider_k6GKtT"
       ],
       "settings": {
         "checkbox_swiper_script": true
