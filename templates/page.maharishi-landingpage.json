@@ -1,18 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "l_header_gc6GQJ": {
       "type": "l_header",
       "settings": {
-        "url_button_url": "shopify:\/\/products\/the-cave-x-maharishi-limited-edition",
+        "url_button_url": "shopify://products/the-cave-x-maharishi-limited-edition",
         "text_button_text": "Jetzt shoppen"
       }
     },
@@ -26,7 +26,13 @@
         "url_button_link": "",
         "text_button_text_2": "",
         "url_button_link_2": "",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-The-Cave-Limited-Edition-12.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Maharishi-The-Cave-Limited-Edition-12.jpg"
+      }
+    },
+    "l_video_PHEt73": {
+      "type": "l_video",
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/rwhLjK6i1IY?si=2ZTiS3LRtHuIWncp"
       }
     },
     "l_content_left_MzcQcD": {
@@ -34,7 +40,7 @@
       "settings": {
         "text_headline": "The Cave - Limited Edition",
         "textarea_text": "<br>HEIMPLANET als auch Maharishi verfolgen eine ähnliche Philosophie, wenn es um die Verwendung von Mustern und Strukturen aus der Natur geht. Somit lag es nahe, gemeinsam ein Produkt zu entwickeln. Maharishi verwendet Muster und Strukturen, die in der Natur existieren, für seine Designs. HEIMPLANET nimmt ebenfalls Elemente aus der Natur auf - insbesondere in Bezug auf Strukturen - wenn es um die Entwicklung neuer Designs geht.",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-Maharishi-Limited-Edition-2023-1.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Maharishi-Limited-Edition-2023-1.jpg"
       }
     },
     "l_reveal_slider_b4qbGK": {
@@ -45,8 +51,8 @@
         "textarea_text": "",
         "text_vorher": "",
         "text_nachher": "This is some text inside of a div block.",
-        "image_bild_1": "shopify:\/\/shop_images\/Heimplanet-Maharishi-The-Cave-Limited-Edition-Slider-1.jpg",
-        "image_bild_2": "shopify:\/\/shop_images\/Heimplanet-Maharishi-The-Cave-Limited-Edition-Slider-2.jpg"
+        "image_bild_1": "shopify://shop_images/Heimplanet-Maharishi-The-Cave-Limited-Edition-Slider-1.jpg",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Maharishi-The-Cave-Limited-Edition-Slider-2.jpg"
       }
     },
     "l_slider_9BdXFi": {
@@ -55,19 +61,19 @@
         "slider_GnHbTV": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-The-Cave-Limited-Edition-8_a214ab0c-e036-461a-8b9c-7843435cde19.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Maharishi-The-Cave-Limited-Edition-8_a214ab0c-e036-461a-8b9c-7843435cde19.jpg"
           }
         },
         "slider_E7RiXE": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-The-Cave-Limited-Edition-2-1.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Maharishi-The-Cave-Limited-Edition-2-1.jpg"
           }
         },
         "slider_j6rUwq": {
           "type": "slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-Maharishi-The-Cave-Limited-Edition-16.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Maharishi-The-Cave-Limited-Edition-16.jpg"
           }
         }
       },
@@ -86,7 +92,7 @@
         "produkt_slider_HxwP3j": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify:\/\/shop_images\/Heimplanet-The-Cave-Maharishi-Limited-Edition-2023-1.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Maharishi-Limited-Edition-2023-1.jpg"
           }
         }
       },
@@ -94,12 +100,13 @@
         "produkt_slider_HxwP3j"
       ],
       "settings": {
+        "checkbox_pagination_dots": true,
         "text_headline": "THE CAVE, MAHARISHI EDITION",
         "textarea_beschreibung": "<br>Das aufblasbare Zelt in limitierter Auflage, das die Ästhetik von Maharishi mit dem Zeltdesign von HEIMPLANET verbindet, ist perfekt für 2-3 Personen. Für die Zusammenarbeit hat Maharishi ein besonderes DPM ausgewählt: Golden Tigerstripe Camouflage - eine Reproduktion eines seltenen vietnamesischen Tigerstripe Musters ist.",
         "text_preis": "€1.149,00",
         "text_hinweis": "inkl. 19% MwSt. (die MwSt. des jeweiligen EU-Landes wird an der Kasse berechnet.) zzgl. Versand",
         "text_button_text": "Jetzt shoppen",
-        "url_produkt_link": "shopify:\/\/products\/the-cave-x-maharishi-limited-edition",
+        "url_produkt_link": "shopify://products/the-cave-x-maharishi-limited-edition",
         "checkbox_swiper_script": true
       }
     }
@@ -109,6 +116,7 @@
   "order": [
     "l_header_gc6GQJ",
     "l_hero",
+    "l_video_PHEt73",
     "l_content_left_MzcQcD",
     "l_reveal_slider_b4qbGK",
     "l_slider_9BdXFi",
