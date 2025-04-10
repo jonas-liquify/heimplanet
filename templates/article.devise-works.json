@@ -1,0 +1,131 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "l_hero_ijQ63U": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "LIMITED EDITION",
+        "text_headline": "FDMTL x HEIMPLANET",
+        "textarea_longer_text": "KIRRA 2 PERSONEN-ZELT",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-FDMTL-Kirra-Limited-Edition-2023.jpg"
+      }
+    },
+    "l_video_L6k4FT": {
+      "type": "l_video",
+      "custom_css": [],
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/YvTf-xlsw2U?si=7OQnn2ya83Cx8R_P"
+      }
+    },
+    "article_products_V4qaqk": {
+      "type": "article_products",
+      "settings": {
+        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
+        "url_button_link": "",
+        "text_button_text": "Mehr davon"
+      }
+    },
+    "l_content_right_fX4Dcz": {
+      "type": "l_content_right",
+      "settings": {
+        "image_bild": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-8.jpg",
+        "text_headline": "FDMTL x HEIMPLANET",
+        "textarea_text": "Das mit dem traditionellen japanischen Textil \"Boro\" bedruckte Material bringt die zeitlose Schönheit zum Ausdruck, die durch die Alterung von Indigo entsteht. Es besitzt eine unverwechselbare Präsenz, die mit verschiedenen Umgebungen, nicht nur im Freien, harmoniert."
+      }
+    },
+    "l_content_left_LMgdf7": {
+      "type": "l_content_left",
+      "settings": {
+        "text_headline": "Über FDMTL",
+        "textarea_text": "FDMTL produziert vorwiegend Jeans-Bekleidung, welche in Japan gefertigt wird. Japan ist bekanntlich der Spitzenreiter in Sachen Denim-Produktion. Die Produkte sind hochwertig und zeichnen sich durch eine unvergleichliche Präzision aus, die mit herkömmlichen Fertigungstechniken kaum zu erzielen wäre. Jedes Kleidungsstück wird mit größter Sorgfalt hergestellt und erhält eine außergewöhnliche Detailtiefe.",
+        "image_bild": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-6.jpg"
+      }
+    },
+    "l_gallery_67Grn9": {
+      "type": "l_gallery",
+      "settings": {
+        "image_bild_1": "shopify://shop_images/Heimplanet-FDMTL-Kirra-Limited-Edition-2023.jpg",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-7.jpg",
+        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-Mood-2.jpg"
+      }
+    },
+    "l_produkt_QbA6R8": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_ipBq33": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-1_9ccbc3f2-463a-49b3-8b79-0f3f0c1e8b8f.jpg"
+          }
+        },
+        "fact_tQ3c6w": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Hervorragende Stabilität"
+          }
+        },
+        "fact_MnxFyG": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Einfache Handhabung"
+          }
+        },
+        "fact_thTQjL": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Lebenslange Garantie"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_ipBq33",
+        "fact_tQ3c6w",
+        "fact_MnxFyG",
+        "fact_thTQjL"
+      ],
+      "settings": {
+        "checkbox_pagination_dots": true,
+        "text_headline": "KIRRA x FDMTL Edition",
+        "textarea_beschreibung": "",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "Zum Kirra",
+        "url_produkt_link": "shopify://products/kirra-x-fdmtl",
+        "checkbox_swiper_script": true
+      }
+    },
+    "article_next": {
+      "type": "article_next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "shopify://blogs/abenteuer",
+        "text_button_text": "Mehr davon",
+        "text_blog_handle": "abenteuer"
+      }
+    }
+  },
+  "layout": "article",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_hero_ijQ63U",
+    "l_video_L6k4FT",
+    "article_products_V4qaqk",
+    "l_content_right_fX4Dcz",
+    "l_content_left_LMgdf7",
+    "l_gallery_67Grn9",
+    "l_produkt_QbA6R8",
+    "article_next"
+  ]
+}
