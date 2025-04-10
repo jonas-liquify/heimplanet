@@ -24,26 +24,10 @@
     },
     "l_text_logos_jhV7JF": {
       "type": "l_text_logos",
-      "blocks": {
-        "logo_Mct8re": {
-          "type": "logo",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "logo_Mct8re"
-      ],
       "settings": {
         "text_subline": "Exklusiv für den japanischen markt",
         "text_headline": "HEIMPLANET x DEVISE WORKS",
         "text_text": "Drei Zelte - Eine Vision"
-      }
-    },
-    "l_headline_mono_ajjNTB": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Exklusiv für den japanischen markt.",
-        "text_headline": "HEIMPLANET X DEVISE WORKS"
       }
     },
     "colabs_qHhVWr": {
@@ -156,22 +140,75 @@
         "text_blog_handle": "abenteuer"
       }
     },
-    "l_step_slider_EUm89C": {
+    "l_step_slider_VnVnBd": {
       "type": "l_step_slider",
       "blocks": {
-        "feature_MxN4X4": {
+        "feature_EM4gUP": {
           "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-white.jpg",
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Front_Full__MG.jpg",
+            "text_text": "This is some text inside of a div block."
+          }
+        },
+        "feature_jMHPNi": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Doors_Up_Full__MG.jpg",
             "text_text": "This is some text inside of a div block."
           }
         }
       },
       "block_order": [
-        "feature_MxN4X4"
+        "feature_EM4gUP",
+        "feature_jMHPNi"
       ],
       "settings": {
         "text_headline": "Bags+Backpacks",
+        "checkbox_swiper_script": true
+      }
+    },
+    "l_produkt_nj8njd": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_zxhbyj": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Front_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_DExeqi": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Front_Door_Tarp_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_aCYtNP": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Doors_Up_Full__MG.jpg"
+          }
+        },
+        "fact_6t3QrM": {
+          "type": "fact",
+          "settings": {
+            "text_text": "5 Jahre Entwicklungszeit"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_zxhbyj",
+        "produkt_slider_DExeqi",
+        "produkt_slider_aCYtNP",
+        "fact_6t3QrM"
+      ],
+      "settings": {
+        "checkbox_pagination_dots": true,
+        "text_headline": "Neu: Cloudbreak, Shelter",
+        "textarea_beschreibung": "",
+        "text_preis": "",
+        "text_hinweis": "NUR IN JAPAN ERHÄLTLICH",
+        "text_button_text": "Jetzt vorbestellen",
+        "url_produkt_link": "",
         "checkbox_swiper_script": true
       }
     }
@@ -181,7 +218,6 @@
   "order": [
     "l_hero_ijQ63U",
     "l_text_logos_jhV7JF",
-    "l_headline_mono_ajjNTB",
     "colabs_qHhVWr",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
@@ -190,6 +226,7 @@
     "l_gallery_67Grn9",
     "l_reveal_slider_dyyFAk",
     "article_next",
-    "l_step_slider_EUm89C"
+    "l_step_slider_VnVnBd",
+    "l_produkt_nj8njd"
   ]
 }
