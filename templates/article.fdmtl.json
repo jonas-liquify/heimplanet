@@ -56,16 +56,9 @@
     "l_gallery_67Grn9": {
       "type": "l_gallery",
       "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-3.jpg",
-        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-2.jpg"
-      }
-    },
-    "l_headline_mono_4Vq68U": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "Mission Regentest Geglückt",
-        "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
+        "image_bild_1": "shopify://shop_images/Heimplanet-FDMTL-Kirra-Limited-Edition-2023.jpg",
+        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-7.jpg",
+        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-Mood-2.jpg"
       }
     },
     "l_produkt_QbA6R8": {
@@ -132,7 +125,6 @@
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
-    "l_headline_mono_4Vq68U",
     "l_produkt_QbA6R8",
     "article_next"
   ]
