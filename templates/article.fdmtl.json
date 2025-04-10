@@ -48,17 +48,9 @@
     "l_content_left_LMgdf7": {
       "type": "l_content_left",
       "settings": {
-        "text_headline": "Tag 1 // ankunft",
-        "textarea_text": "Die Vorzeichen standen auf Regen, aber Lukas und Nico ließen sich davon nicht abschrecken. Am Samstagnachmittag machten sie sich auf den Weg, eine etwa 40-minütige Wanderung durch die herbstliche Dämmerung, die über die Seitenmoräne des Gletschers führte. Angekommen an ihrem Ziel entdeckten sie eine kleine Insel am Rand des Griessseelis – genau der richtige Platz, um das Zelt aufzubauen und die Nacht in der wilden Natur zu verbringen.\n<br><br>\nTrotz des einsetzenden Regens ließ sich das Kirra Zelt dank seiner aufblasbaren Konstruktion innerhalb weniger Minuten und mit einer kleinen Pumpe unkompliziert aufstellen. Schon bald stand das Zelt, bereit, die beiden für die Nacht zu schützen. Durch den starken Regen zog es Lukas und Nico früh in die Schlafsäcke – mit der Hoffnung, am nächsten Morgen von einem epischen Sonnenaufgang über dem Gletschersee geweckt zu werden.",
+        "text_headline": "Über FDMTL",
+        "textarea_text": "FDMTL produziert vorwiegend Jeans-Bekleidung, welche in Japan gefertigt wird. Japan ist bekanntlich der Spitzenreiter in Sachen Denim-Produktion. Die Produkte sind hochwertig und zeichnen sich durch eine unvergleichliche Präzision aus, die mit herkömmlichen Fertigungstechniken kaum zu erzielen wäre. Jedes Kleidungsstück wird mit größter Sorgfalt hergestellt und erhält eine außergewöhnliche Detailtiefe.",
         "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-4.jpg"
-      }
-    },
-    "l_content_right_hKLaVw": {
-      "type": "l_content_right",
-      "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-7.jpg",
-        "text_headline": "Tag 2 // Los geht's",
-        "textarea_text": "Der Regen begleitete die beiden die ganze Nacht hindurch. Doch das Kirra Zelt hielt stand: Obwohl es frisch war, blieb im Inneren alles angenehm trocken, und das robuste Material zeigte sich den Bedingungen mehr als gewachsen.\n<br><br>\nStatt eines Sonnenaufgangs erwartete Lukas und Nico jedoch eine mystische Szenerie: Der Himmel war von tief hängenden Wolken bedeckt, die in Kombination mit den verschneiten Gipfeln und dem blauen Gletschersee eine epische Kulisse boten. Die Stille und die Atmosphäre waren einmalig – das Kirra Zelt stand mitten in dieser rauen, wilden Landschaft und fügte sich perfekt in die Umgebung ein.\n<br><br>\nNach ein paar Fotos von der Szenerie und dem Zelt machten sich die beiden Freunde zufrieden auf den Heimweg. Das Wetter war zwar nicht ideal gewesen, aber genau das hatte den Ausflug zu einem echten Test für das Kirra gemacht. Und das Zelt hatte seine Aufgabe gemeistert: Es hielt Regen und Nässe mühelos stand und bot den beiden den Schutz und Komfort, den sie sich von einem Abenteuerzelt wünschen.<br><br>Mehr zu Lukas Bigler @luke.imaged | <a href=\"https://www.instagram.com/luke.imaged/\" target=\"_blank\">Instagram</a> & <a href=\"https://www.youtube.com/@lukeimaged\" target=\"_blank\">Youtube</a>."
       }
     },
     "l_gallery_67Grn9": {
@@ -76,64 +68,13 @@
         "text_headline": "Regen, Wind & schwieriges terrain <br>-<br>das kirra hat standgehalten"
       }
     },
-    "l_step_slider_z93mQW": {
-      "type": "l_step_slider",
-      "blocks": {
-        "feature_YRDDyY": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-10.jpg",
-            "text_text": "01 ausbreiten"
-          }
-        },
-        "feature_hNwaRE": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "02 aufpumpen"
-          }
-        },
-        "feature_4NiLPy": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-8.jpg",
-            "text_text": "03 Fixieren"
-          }
-        },
-        "feature_YVHPA6": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-9.jpg",
-            "text_text": "04 Willkommen zu hause"
-          }
-        },
-        "feature_QXJWWh": {
-          "type": "feature",
-          "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-1.jpg",
-            "text_text": "#whereveryougo"
-          }
-        }
-      },
-      "block_order": [
-        "feature_YRDDyY",
-        "feature_hNwaRE",
-        "feature_4NiLPy",
-        "feature_YVHPA6",
-        "feature_QXJWWh"
-      ],
-      "settings": {
-        "text_headline": "",
-        "checkbox_swiper_script": true
-      }
-    },
     "l_produkt_QbA6R8": {
       "type": "l_produkt",
       "blocks": {
         "produkt_slider_ipBq33": {
           "type": "produkt-slider",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-2022-1_a34c6408-e796-4320-92d6-20a0dc446278.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-1_9ccbc3f2-463a-49b3-8b79-0f3f0c1e8b8f.jpg"
           }
         },
         "fact_tQ3c6w": {
@@ -163,12 +104,12 @@
       ],
       "settings": {
         "checkbox_pagination_dots": true,
-        "text_headline": "KIRRA 2 Personen",
+        "text_headline": "KIRRA x FDMTL Edition",
         "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "",
         "text_button_text": "Zum Kirra",
-        "url_produkt_link": "shopify://products/kirra-classic",
+        "url_produkt_link": "shopify://products/kirra-x-fdmtl",
         "checkbox_swiper_script": true
       }
     },
@@ -190,10 +131,8 @@
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
-    "l_content_right_hKLaVw",
     "l_gallery_67Grn9",
     "l_headline_mono_4Vq68U",
-    "l_step_slider_z93mQW",
     "l_produkt_QbA6R8",
     "article_next"
   ]
