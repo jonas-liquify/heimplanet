@@ -22,6 +22,23 @@
         "image_bild": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-black-2.jpg"
       }
     },
+    "l_text_logos_jhV7JF": {
+      "type": "l_text_logos",
+      "blocks": {
+        "logo_Mct8re": {
+          "type": "logo",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "logo_Mct8re"
+      ],
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "HEIMPLANET x DEVISE WORKS",
+        "text_text": "asdfsadfsdafdsaf"
+      }
+    },
     "l_headline_mono_ajjNTB": {
       "type": "l_headline_mono",
       "settings": {
@@ -100,9 +117,8 @@
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
-        "image_bild": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-8.jpg",
-        "text_headline": "FDMTL x HEIMPLANET",
-        "textarea_text": "Das mit dem traditionellen japanischen Textil \"Boro\" bedruckte Material bringt die zeitlose Schönheit zum Ausdruck, die durch die Alterung von Indigo entsteht. Es besitzt eine unverwechselbare Präsenz, die mit verschiedenen Umgebungen, nicht nur im Freien, harmoniert."
+        "text_headline": "Introducing Mr. Daisuke Akiyama",
+        "textarea_text": ""
       }
     },
     "l_content_left_LMgdf7": {
@@ -191,6 +207,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_text_logos_jhV7JF",
     "l_headline_mono_ajjNTB",
     "colabs_qHhVWr",
     "l_video_L6k4FT",
