@@ -224,7 +224,73 @@
       ],
       "settings": {
         "checkbox_pagination_dots": true,
-        "text_headline": "Neu: Cloudbreak, Shelter",
+        "text_headline": "Neu: Cloudbreak Shelter BLACK",
+        "textarea_beschreibung": "",
+        "text_preis": "",
+        "text_hinweis": "NUR IN JAPAN ERHÄLTLICH",
+        "text_button_text": "Jetzt vorbestellen",
+        "url_produkt_link": "",
+        "checkbox_swiper_script": true
+      }
+    },
+    "l_produkt_f4eapx": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_Ud4gUy": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Front_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_U3FQwm": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Front_Door_Tarp_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_7Q4BHk": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_works_cloudbreak_Black_Side_Door_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_Gmcd8K": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Doors_Up_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_XLqx7k": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Top_Door_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_wNYQBx": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Top_Full__MG.jpg"
+          }
+        },
+        "fact_G8PDc9": {
+          "type": "fact",
+          "settings": {
+            "text_text": "5 Jahre Entwicklungszeit"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_Ud4gUy",
+        "produkt_slider_U3FQwm",
+        "produkt_slider_7Q4BHk",
+        "produkt_slider_Gmcd8K",
+        "produkt_slider_XLqx7k",
+        "produkt_slider_wNYQBx",
+        "fact_G8PDc9"
+      ],
+      "settings": {
+        "checkbox_pagination_dots": true,
+        "text_headline": "Neu: Cloudbreak Shelter BLACK",
         "textarea_beschreibung": "",
         "text_preis": "",
         "text_hinweis": "NUR IN JAPAN ERHÄLTLICH",
@@ -248,6 +314,7 @@
     "l_reveal_slider_dyyFAk",
     "article_next",
     "l_step_slider_VnVnBd",
-    "l_produkt_nj8njd"
+    "l_produkt_nj8njd",
+    "l_produkt_f4eapx"
   ]
 }
