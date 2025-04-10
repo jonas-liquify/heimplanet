@@ -131,7 +131,7 @@
     "l_gallery_67Grn9": {
       "type": "l_gallery",
       "settings": {
-        "image_bild_1": "shopify://shop_images/Heimplanet-FDMTL-Kirra-Limited-Edition-2023.jpg",
+        "image_bild_1": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-white.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-7.jpg",
         "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-Mood-2.jpg"
       }
@@ -151,37 +151,27 @@
       "type": "article_next",
       "settings": {
         "text_headline": "Weitere Beiträge",
-        "url_button_link": "shopify://blogs/abenteuer",
+        "url_button_link": "shopify://blogs/collabs",
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
     },
-    "l_slider_yCdH8R": {
-      "type": "l_slider",
+    "l_step_slider_EUm89C": {
+      "type": "l_step_slider",
       "blocks": {
-        "slider_XU8UCy": {
-          "type": "slider",
+        "feature_MxN4X4": {
+          "type": "feature",
           "settings": {
-            "image_bild": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-white.jpg"
+            "image_bild": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-white.jpg",
+            "text_text": "This is some text inside of a div block."
           }
-        },
-        "slider_gU4c8k": {
-          "type": "slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-black.jpg"
-          }
-        },
-        "slider_k6GKtT": {
-          "type": "slider",
-          "settings": {}
         }
       },
       "block_order": [
-        "slider_XU8UCy",
-        "slider_gU4c8k",
-        "slider_k6GKtT"
+        "feature_MxN4X4"
       ],
       "settings": {
+        "text_headline": "Bags+Backpacks",
         "checkbox_swiper_script": true
       }
     }
@@ -200,6 +190,6 @@
     "l_gallery_67Grn9",
     "l_reveal_slider_dyyFAk",
     "article_next",
-    "l_slider_yCdH8R"
+    "l_step_slider_EUm89C"
   ]
 }
