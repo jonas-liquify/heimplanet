@@ -90,14 +90,6 @@
         "text_video_url": ""
       }
     },
-    "article_products_V4qaqk": {
-      "type": "article_products",
-      "settings": {
-        "text_headline": "{{ article.metafields.custom.headline_produkte_sektion.value }}",
-        "url_button_link": "",
-        "text_button_text": "Mehr davon"
-      }
-    },
     "l_content_right_fX4Dcz": {
       "type": "l_content_right",
       "settings": {
@@ -115,15 +107,15 @@
     "l_gallery_67Grn9": {
       "type": "l_gallery",
       "settings": {
-        "image_bild_1": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-white.jpg",
-        "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-7.jpg",
-        "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-Mood-2.jpg"
+        "image_bild_1": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-white-4.jpg",
+        "image_bild_2": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-white-2.jpg",
+        "image_bild_3": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-white-3.jpg"
       }
     },
     "l_reveal_slider_dyyFAk": {
       "type": "l_reveal_slider",
       "settings": {
-        "text_headline": "CLOUDBREAK, SHELTER",
+        "text_headline": "",
         "textarea_text": "",
         "text_vorher": "WHITE",
         "text_nachher": "BLACK",
@@ -304,7 +296,6 @@
     "l_text_logos_jhV7JF",
     "colabs_qHhVWr",
     "l_video_L6k4FT",
-    "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
