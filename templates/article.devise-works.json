@@ -12,14 +12,73 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "LIMITED EDITION",
-        "text_headline": "HEIMPLANET<br>x<br>DEVISE WORKS",
-        "textarea_longer_text": "KIRRA 2 PERSONEN-ZELT",
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_longer_text": "",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-FDMTL-Kirra-Limited-Edition-2023.jpg"
+        "image_bild": "shopify://shop_images/blog-heimplanet-devise-works-cloudbreak-black-2.jpg"
+      }
+    },
+    "l_headline_mono_ajjNTB": {
+      "type": "l_headline_mono",
+      "settings": {
+        "text_subline": "Exklusiv für den japanischen markt.",
+        "text_headline": "HEIMPLANET X DEVISE WORKS"
+      }
+    },
+    "colabs_qHhVWr": {
+      "type": "colabs",
+      "blocks": {
+        "partner_ycAChr": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "CLOUDBREAK SHELTER, BLACK",
+            "textarea_text": "",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Cloudbreak.png",
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Hero_3556x2000__MG.jpg"
+          }
+        },
+        "partner_BYX3tm": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "CLOUDBREAK SHELTER, WHITE",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Cloudbreak.png",
+            "image_bild": "shopify://shop_images/Revision_Devise_Works_Cloudbreak_White_Hero_3556x2000__MG.jpg"
+          }
+        },
+        "partner_Tyiiar": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "THE CAVE XL, BLACK",
+            "textarea_text": "",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_TheCave.png",
+            "image_bild": "shopify://shop_images/Devise_Works_CaveXL_Black_Hero_3556x2000_MG.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "partner_ycAChr",
+        "partner_BYX3tm",
+        "partner_Tyiiar"
+      ],
+      "settings": {
+        "checkbox_swiper_script": true
       }
     },
     "l_video_L6k4FT": {
@@ -60,13 +119,6 @@
         "image_bild_1": "shopify://shop_images/Heimplanet-FDMTL-Kirra-Limited-Edition-2023.jpg",
         "image_bild_2": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-7.jpg",
         "image_bild_3": "shopify://shop_images/Heimplanet-Kirra-FDMTL-Limited-Edition-Mood-2.jpg"
-      }
-    },
-    "l_headline_mono_d6Xm6X": {
-      "type": "l_headline_mono",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "exklusiv für den japanischen markt hergestellt."
       }
     },
     "l_reveal_slider_dyyFAk": {
@@ -133,73 +185,21 @@
         "text_button_text": "Mehr davon",
         "text_blog_handle": "abenteuer"
       }
-    },
-    "colabs_qHhVWr": {
-      "type": "colabs",
-      "blocks": {
-        "partner_ycAChr": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "CLOUDBREAK SHELTER, BLACK",
-            "textarea_text": "",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Cloudbreak.png",
-            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Hero_3556x2000__MG.jpg"
-          }
-        },
-        "partner_BYX3tm": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "CLOUDBREAK SHELTER, WHITE",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Cloudbreak.png",
-            "image_bild": "shopify://shop_images/Revision_Devise_Works_Cloudbreak_White_Hero_3556x2000__MG.jpg"
-          }
-        },
-        "partner_Tyiiar": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "THE CAVE XL, BLACK",
-            "textarea_text": "",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_TheCave.png",
-            "image_bild": "shopify://shop_images/Devise_Works_CaveXL_Black_Hero_3556x2000_MG.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "partner_ycAChr",
-        "partner_BYX3tm",
-        "partner_Tyiiar"
-      ],
-      "settings": {
-        "checkbox_swiper_script": true
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "l_headline_mono_ajjNTB",
+    "colabs_qHhVWr",
     "l_video_L6k4FT",
     "article_products_V4qaqk",
     "l_content_right_fX4Dcz",
     "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
-    "l_headline_mono_d6Xm6X",
     "l_reveal_slider_dyyFAk",
     "l_produkt_QbA6R8",
-    "article_next",
-    "colabs_qHhVWr"
+    "article_next"
   ]
 }
