@@ -24,9 +24,10 @@
     },
     "l_video_L6k4FT": {
       "type": "l_video",
+      "disabled": true,
       "custom_css": [],
       "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/YvTf-xlsw2U?si=7OQnn2ya83Cx8R_P"
+        "text_video_url": ""
       }
     },
     "article_products_V4qaqk": {
