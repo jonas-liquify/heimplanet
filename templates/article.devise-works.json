@@ -182,10 +182,28 @@
             "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Front_Door_Tarp_Full__MG.jpg"
           }
         },
+        "produkt_slider_TGPcy4": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_works_cloudbreak_Black_Side_Door_Full__MG.jpg"
+          }
+        },
         "produkt_slider_aCYtNP": {
           "type": "produkt-slider",
           "settings": {
             "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Doors_Up_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_Tb6Kjp": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Top_Door_Full__MG.jpg"
+          }
+        },
+        "produkt_slider_tzdBg4": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Devise_Works_Cloudbreak_Black_Top_Full__MG.jpg"
           }
         },
         "fact_6t3QrM": {
@@ -198,7 +216,10 @@
       "block_order": [
         "produkt_slider_zxhbyj",
         "produkt_slider_DExeqi",
+        "produkt_slider_TGPcy4",
         "produkt_slider_aCYtNP",
+        "produkt_slider_Tb6Kjp",
+        "produkt_slider_tzdBg4",
         "fact_6t3QrM"
       ],
       "settings": {
