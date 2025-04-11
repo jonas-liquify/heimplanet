@@ -154,7 +154,7 @@
         "fact_yYja7Y"
       ],
       "settings": {
-        "checkbox_pagination_dots": true,
+        "checkbox_pagination_dots": false,
         "text_headline": "THE CAVE XL, NEO BLACK",
         "textarea_beschreibung": "Eine Hommage an die japanische Camping-Kultur. Für Liebhaber von funktionaler Ausrüstung & monochromer Ästhetik.",
         "text_preis": "",
