@@ -121,12 +121,6 @@
             "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Mood-04.jpg"
           }
         },
-        "produkt_slider_rMfwdU": {
-          "type": "produkt-slider",
-          "settings": {
-            "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Mood-05.jpg"
-          }
-        },
         "fact_jXzyG3": {
           "type": "fact",
           "settings": {
@@ -154,7 +148,6 @@
       },
       "block_order": [
         "produkt_slider_gtxDQE",
-        "produkt_slider_rMfwdU",
         "fact_jXzyG3",
         "fact_wKgeHk",
         "fact_GY3j4a",
