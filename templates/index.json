@@ -19,7 +19,7 @@
             "text_headline": "Neo Black Program",
             "richtext_text": "<p><strong>JETZT ERHÄLTLICH - </strong>Sichere dir jetzt eines der limitierten Neo Black Zelte - <strong>The Cave Xl </strong>und<strong> Backdoor Neo Black</strong> ab jetzt im Shop!</p>",
             "url_button_link": "shopify://blogs/projekte/neo-black-program",
-            "text_button_text": "JETZT BESTELLEN"
+            "text_button_text": "JETZT ENTDECKEN"
           }
         },
         "hero_slider_DQWqP4": {
@@ -414,10 +414,14 @@
           "settings": {
             "title": "@heimplanet",
             "title_color": "#000000",
+            "title_size_v2": 0,
             "alignment": "left",
             "margin_top": 50,
             "margin_bottom": 50,
             "margin_sides": 50,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
             "background_color": "",
             "feed_id": "",
             "html_area": ""
