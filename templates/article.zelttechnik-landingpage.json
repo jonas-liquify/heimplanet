@@ -80,7 +80,7 @@
     "l_video_K8qgLQ": {
       "type": "l_video",
       "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/2oa5cZNRE7Q?si=nKAfNRtSIlpNtQ4_"
+        "text_video_url": "https://www.youtube-nocookie.com/embed/VwVLnDP8iNQ?si=2GL1mqV5iHmA7PNL&controls=0"
       }
     },
     "content_image_XHPBdt": {
@@ -415,6 +415,7 @@
         "fact_9nnwQi"
       ],
       "settings": {
+        "checkbox_pagination_dots": true,
         "text_headline": "ZELT ERSATZTEILE",
         "textarea_beschreibung": "",
         "text_preis": "",
