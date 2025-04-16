@@ -9,37 +9,25 @@
  */
 {
   "sections": {
-    "l_hero_ijQ63U": {
-      "type": "l_hero",
-      "settings": {
-        "text_subline": "",
-        "text_headline": "",
-        "textarea_longer_text": "",
-        "text_button_text": "",
-        "url_button_link": "",
-        "text_button_text_2": "Button Text",
-        "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/2025-HEIMPLANET-Cloudbreak-Video-Thumbnail.jpg"
-      }
-    },
-    "l_video_K8qgLQ": {
-      "type": "l_video",
-      "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/VwVLnDP8iNQ?si=2GL1mqV5iHmA7PNL&controls=0"
-      }
-    },
-    "l_hero_no_fade_pjLbdf": {
+    "l_hero_no_fade_qcDMJY": {
       "type": "l_hero_no_fade",
       "name": "L-Hero-No-Fade",
       "settings": {
         "text_subline": "",
-        "text_headline": "WARUM ZELTE VON HEIMPLANET",
+        "text_headline": "WARUM HEIMPLANET ZELTE",
         "textarea_longer_text": "EIN GUIDE VON BENJAMIN HARDMAN",
         "text_button_text": "Button Text",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/blog-benjamin-hardman-cloudbreak.jpg"
+        "image_bild": "shopify://shop_images/blog-benjamin-hardman-mavercisk.jpg"
+      }
+    },
+    "l_video_K8qgLQ": {
+      "type": "l_video",
+      "custom_css": [],
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/VwVLnDP8iNQ?si=2GL1mqV5iHmA7PNL&controls=0"
       }
     },
     "content_image_XHPBdt": {
@@ -131,6 +119,108 @@
         "url_button_link_2": "",
         "text_button_text_2": "Button",
         "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
+      }
+    },
+    "colabs_BAFyGn": {
+      "type": "colabs",
+      "blocks": {
+        "partner_Xw6DAj": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "FISTRAL",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "shopify://products/fistral-classic",
+            "text_button_text": "FISTRAL ENTDECKEN",
+            "url_button_link_2": "https://www.youtube-nocookie.com/watch?v=CBHHjZYIUkc",
+            "text_button_text_2": "Set-up video",
+            "logo_image": "shopify://shop_images/IDG_Fistral.png"
+          }
+        },
+        "partner_e4eYwh": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "KIRRA",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Kirra.png"
+          }
+        },
+        "partner_wGC4dt": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "THE CAVE",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_TheCave.png"
+          }
+        },
+        "partner_mKYhek": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "THE CAVE XL",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_TheCave.png"
+          }
+        },
+        "partner_Cdxtqq": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "BACKDOOR",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Backdoor.png"
+          }
+        },
+        "partner_PcMkQH": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "CLOUDBREAK",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Cloudbreak.png"
+          }
+        },
+        "partner_DNwkpj": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "MAVERICKS",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Mavericks_png.png"
+          }
+        }
+      },
+      "block_order": [
+        "partner_Xw6DAj",
+        "partner_e4eYwh",
+        "partner_wGC4dt",
+        "partner_mKYhek",
+        "partner_Cdxtqq",
+        "partner_PcMkQH",
+        "partner_DNwkpj"
+      ],
+      "name": "Colabs",
+      "settings": {
+        "checkbox_swiper_script": true
       }
     },
     "l_dropdowns_qWbeeY": {
@@ -418,108 +508,6 @@
         "checkbox_swiper_script": true
       }
     },
-    "colabs_BAFyGn": {
-      "type": "colabs",
-      "blocks": {
-        "partner_Xw6DAj": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "FISTRAL",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "shopify://products/fistral-classic",
-            "text_button_text": "FISTRAL ENTDECKEN",
-            "url_button_link_2": "https://www.youtube-nocookie.com/watch?v=CBHHjZYIUkc",
-            "text_button_text_2": "Set-up video",
-            "logo_image": "shopify://shop_images/IDG_Fistral.png"
-          }
-        },
-        "partner_e4eYwh": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "KIRRA",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Kirra.png"
-          }
-        },
-        "partner_wGC4dt": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "THE CAVE",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_TheCave.png"
-          }
-        },
-        "partner_mKYhek": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "THE CAVE XL",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_TheCave.png"
-          }
-        },
-        "partner_Cdxtqq": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "BACKDOOR",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Backdoor.png"
-          }
-        },
-        "partner_PcMkQH": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "CLOUDBREAK",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Cloudbreak.png"
-          }
-        },
-        "partner_DNwkpj": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "MAVERICKS",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Mavericks_png.png"
-          }
-        }
-      },
-      "block_order": [
-        "partner_Xw6DAj",
-        "partner_e4eYwh",
-        "partner_wGC4dt",
-        "partner_mKYhek",
-        "partner_Cdxtqq",
-        "partner_PcMkQH",
-        "partner_DNwkpj"
-      ],
-      "name": "Colabs",
-      "settings": {
-        "checkbox_swiper_script": true
-      }
-    },
     "l_headline_mono_V4UfWW": {
       "type": "l_headline_mono",
       "name": "L-Headline-Mono",
@@ -550,18 +538,59 @@
         "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
         "text_text": "\"Because these tents has an air structure there is the possibility that they get a puncture but that´s never happen to me in all ten years of absolute extrem use of these tents. That´s all down to the facts that the external structure has a dual larger design. The air bladder inside of the frame is quiet well protected with an outer very durable material. And if you did end up in a situation where you had a puncture you can actually close off every individual section of the frame...\""
       }
+    },
+    "l_content_left_khGBLF": {
+      "type": "l_content_left",
+      "blocks": {
+        "item_dQRTpg": {
+          "type": "item",
+          "settings": {
+            "text_text": "ARTIC PHOTOGRAPHER"
+          }
+        },
+        "item_jVDpjd": {
+          "type": "item",
+          "settings": {
+            "text_text": "ICELAND-BASED"
+          }
+        },
+        "item_AKtxFE": {
+          "type": "item",
+          "settings": {
+            "text_text": "A DECADE OF USING HEIMPLANT TENTS"
+          }
+        },
+        "item_qbw6qz": {
+          "type": "item",
+          "settings": {
+            "text_text": "KNOWS HIS STUFF"
+          }
+        }
+      },
+      "block_order": [
+        "item_dQRTpg",
+        "item_jVDpjd",
+        "item_AKtxFE",
+        "item_qbw6qz"
+      ],
+      "name": "L-Content-Left",
+      "settings": {
+        "text_headline": "BENJAMIN HARDMAN",
+        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "image_bild": "shopify://shop_images/blog-benjamin-hardman-cloudbreak.jpg"
+      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
-    "l_hero_ijQ63U",
+    "l_hero_no_fade_qcDMJY",
     "l_video_K8qgLQ",
-    "l_hero_no_fade_pjLbdf",
     "content_image_XHPBdt",
     "content_image_7LjaTi",
     "infos_j3BpTR",
     "content_image_VgWJkU",
+    "colabs_BAFyGn",
     "l_dropdowns_qWbeeY",
     "content_image_t89N49",
     "l_step_slider_ekn9Jm",
@@ -573,8 +602,8 @@
     "l_step_slider_xAi4Cw",
     "content_image_qTN86i",
     "l_step_slider_3FUFwf",
-    "colabs_BAFyGn",
     "l_headline_mono_V4UfWW",
-    "l_text_logos_7pmimm"
+    "l_text_logos_7pmimm",
+    "l_content_left_khGBLF"
   ]
 }
