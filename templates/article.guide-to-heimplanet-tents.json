@@ -1,0 +1,449 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "l_hero_ijQ63U": {
+      "type": "l_hero",
+      "settings": {
+        "text_subline": "HEIMPLANET",
+        "text_headline": "Zelttechnik",
+        "textarea_longer_text": "»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.« - R. Buckminster Fuller [Pionier der geodätischen Kuppel]",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Basecamp-Zelttechnik-Hero.jpg"
+      }
+    },
+    "infos_j3BpTR": {
+      "type": "infos",
+      "blocks": {
+        "info_akQttE": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/IDG_TheCave.png",
+            "text_headline": "01 Das Geodätische Prinzip",
+            "textarea_text": "Herausragende Stabilität durch den Inflatable Diamond Grid [IDG]. Konzipiert für Extremwetter."
+          }
+        },
+        "info_RNDDgg": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Transit4.png",
+            "text_headline": "02 Keine Einzelteile",
+            "textarea_text": "Das gesamte Zelt bildet eine Einheit - vereinfacht den Aufbau gerdae bei Wind oder Dunkelheit."
+          }
+        },
+        "info_znQMMx": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/icons8-intern-96_-_Kopie.png",
+            "text_headline": "03 Das One-Pump-System",
+            "textarea_text": "Eine Pumpe und eines der Ventile genügt, um das Zelt auf Einmal in Sekunden zu errichten."
+          }
+        },
+        "info_DYMTJz": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Motion2.png",
+            "text_headline": "04 Mehrkammer-Sicherheitssystem",
+            "textarea_text": "Das patentierte Sicherheitssystem sorgt zu jedem Zeitpunkt für ausreichend Notfallstabilität."
+          }
+        },
+        "info_eNNNzk": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/23-05-11_Icon_Motion5.png",
+            "text_headline": "05 Doppellagige Rahmenkonstruktion",
+            "textarea_text": "Ein TPU-Schlauch hält die Luft während ein robuster Mantel vor Umwelteinflüssen schützt."
+          }
+        }
+      },
+      "block_order": [
+        "info_akQttE",
+        "info_RNDDgg",
+        "info_znQMMx",
+        "info_DYMTJz",
+        "info_eNNNzk"
+      ],
+      "settings": {
+        "text_headline": "Wie funktionieren die aufblasbaren Zelte von Heimplanet?"
+      }
+    },
+    "l_video_K8qgLQ": {
+      "type": "l_video",
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/VwVLnDP8iNQ?si=2GL1mqV5iHmA7PNL&controls=0"
+      }
+    },
+    "content_image_XHPBdt": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "01 Stabilität - Das geodätische Prinzip",
+        "textarea_text": "HEIMPLANET Zelte bestechen durch ihr einzigartiges Design. Nicht aus ästhetischen, sondern funktionalen Gründen. Inspiriert von der geodätischen Kuppel - einer der stabilsten und effizientesten Strukturen.",
+        "url_button_link": "https://heimplanet.com/collections/zelte",
+        "text_button_text": "ENTDECKE DIE ZELTE",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
+      }
+    },
+    "l_dropdowns_qWbeeY": {
+      "type": "l_dropdowns",
+      "blocks": {
+        "dropdown_FtmNRt": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Fistral-Classic-1_90f77eb7-7632-43bd-ba71-1b45f2caf66e.jpg",
+            "text_headline": "Fistral",
+            "textarea_text": "FISTRAL ist der Name unseres aufblasbaren Zelts für 1-2 Personen. Sein kompaktes Design bietet große Flexibilität und ein minimales Packmaß und Gewicht. <br><br>Zwei Eingänge und zwei Apsiden sorgen für maximalen Komfort. Mit einer Pumpe lässt sich das Zelt in weniger als einer Minute aufstellen.\n<br><br>\n<a href=\"https://heimplanet.com/products/fistral-classic\" target=\"_blank\"><b>FISTRAL ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/60e5b4da711f56684092aa37_Fistral_Classic_Roman_Konigshofer_18.jpg"
+          }
+        },
+        "dropdown_G6RMTF": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Kirra-Cairo-Camo-2022-1_531598f6-e1ea-45cd-8046-195136591771.jpg",
+            "text_headline": "Kirra",
+            "textarea_text": "Kirra ist unser aufblasbares Zelt für 2 Personen mit viel Equipment. Dank seiner besonderen Rahmenstruktur bietet Kirra ein gutes Gleichgewicht zwischen Komfort und Effizienz. \n<br><br>Das geodätische Prinzip macht das Zelt besonders sturmsicher. Das aufblasbare Diamond Grid (IDG) garantiert nicht nur Stabilität, sondern auch einen intuitiven und einfachen Aufbau.\n<br><br>\n<a href=\"https://heimplanet.com/products/kirra-classic\" target=\"_blank\"><b>KIRRA ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/RicoGlueck_Kirra_Cairocamo_Snow_Winter3.jpg"
+          }
+        },
+        "dropdown_wGR3TG": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-Classic-1_7a887133-53ed-4a05-9f24-531008766649.jpg",
+            "text_headline": "The Cave",
+            "textarea_text": "THE CAVE war unser erstes aufblasbares Zelt, immer noch kultig und perfekt für 2-3 Personen. Alles, was Du brauchst, ist eine Pumpe, um Dein Zelt in weniger als einer Minute aufzustellen.<br><br>Dank seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten THE CAVE ist es extrem stabil und dank der hochwertigen Materialien auch wetterfest sowie langlebig.\n<br><br>\n<a href=\"https://heimplanet.com/products/the-cave-classic\" target=\"_blank\"><b>THE CAVE ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/GabrielFerrier_Cave_Classic_Island_2022_Car_4.jpg"
+          }
+        },
+        "dropdown_hP4H9R": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-The-Cave-XL-4-Season-1_0e5f9a17-7f29-4d0f-ae48-fd4347be2cbe.jpg",
+            "text_headline": "THE CAVE XL",
+            "textarea_text": "Seine überragende Stärke verdankt das The Cave XL seiner geodätischen Kuppelkonstruktion mit zehn Kreuzungspunkten & hochwertigen wetterfesten sowie langlebigen Materialien. <br><br>Mit einer Pumpe lässt sich das Cave XL in weniger als einer Minute aufstellen & bietet Platz für 3 Personen. Basierend auf dem ursprünglichen The Cave Zelt, ist diese neue Version - The Cave XL - ein ganzes Stück größer aber genauso stabil.\n<br><br>\n<a href=\"https://heimplanet.com/products/the-cave-xl-cairo-camo\" target=\"_blank\"><b>THE CAVE XL ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-3.jpg"
+          }
+        },
+        "dropdown_w4FCCk": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Backdoor-Classic-1_79c5362c-91c6-4f59-88ab-bd5c7f42ccd2.jpg",
+            "text_headline": "Backdoor",
+            "textarea_text": "Backdoor ist das 4 Personen Zelt von HEIMPLANET - perfekt für Familien oder Gruppen bis zu 4 Personen. <br><br>Es ist für einen breiten Einsatzbereich konzipiert und eignet sich perfekt für das Camping von Frühling bis Herbst. <br><br>Der vordere Eingang verfügt über eine geräumige Apsis, die über eine geteilte Innenzelttür einen einfachen Zugang zum Hauptzelt bietet.\n<br><br>\n<a href=\"https://heimplanet.com/products/backdoor-classic\" target=\"_blank\"><b>BACKDOOR ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Homepage-Teaser.jpg"
+          }
+        },
+        "dropdown_EGMdbh": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Cloudbreak-2024-1.jpg",
+            "text_headline": "Cloudbreak",
+            "textarea_text": "Benannt nach einer großen Welle auf den Fiji-Inseln, ist das Cloudbreak ein zuverlässiges, flexibles und einfach zu nutzendes Zelt für Gruppen-, Familiencamping und Overlanding.<br><br>Mit der zusätzlichen Schlafkabine für bis zu 4 Personen und viel Platz zum Kochen und Wohnen, ist Cloudbreak wie ein Haus zum Mitnehmen.\n<br><br>\n<a href=\"https://heimplanet.com/products/cloudbreak-classic\" target=\"_blank\"><b>CLOUDBREAK ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/blog-heimplanet-Cloudbreak.jpg"
+          }
+        },
+        "dropdown_hMhRMd": {
+          "type": "dropdown",
+          "settings": {
+            "image_icon": "shopify://shop_images/Heimplanet-Mavericks-Expedition-2024-1.jpg",
+            "text_headline": "Mavericks",
+            "textarea_text": "Unser Mehrzweckzelt MAVERICKS ist speziell für extreme Bedingungen konzipiert. Verwendet auf Expeditionen weltweit wird es als Basislager und Gruppenzelt genutzt. <br><br>Es hat eine Innenhöhe von zwei Metern und eine Grundfläche von mehr als 13 Quadratmetern. Das gesamte Zelt kann von einer Person in kürzester Zeit aufgebaut werden.\n<br><br>\n<a href=\"https://heimplanet.com/products/mavericks-basecamp\" target=\"_blank\"><b>MAVERICKS ENTDECKEN</b></a>",
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Red-SAREX-exercice-CDT-Charcot_StudioPONANT-Olivier-Blaud-197.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dropdown_FtmNRt",
+        "dropdown_G6RMTF",
+        "dropdown_wGR3TG",
+        "dropdown_hP4H9R",
+        "dropdown_w4FCCk",
+        "dropdown_EGMdbh",
+        "dropdown_hMhRMd"
+      ],
+      "settings": {
+        "text_headline": "",
+        "textarea_text": ""
+      }
+    },
+    "content_image_t89N49": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "02 Keine Einzelteile - Das Zelt als Einheit",
+        "textarea_text": "Heimplanet Zelte durchlaufen einmalig das sogenannte First-Assembly. Hier werden Luftrahmen, Außenzelt und Innenzelt miteinandern verbunden. Danach heißt es einfach nur ausrollen, aufpumpen und willkommen zu Hause.",
+        "url_button_link": "https://heimplanet.com/collections/zelte",
+        "text_button_text": "ENTDECKE DIE ZELTE",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Fistral_Classic_Madeira_Valentin_Geiss_5_1.jpg"
+      }
+    },
+    "l_step_slider_ekn9Jm": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_8gFhR7": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Frame-Only-2024.jpg",
+            "text_text": "Inflatable Diamond Grid (IDG)"
+          }
+        },
+        "feature_WB7RX6": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-6_023ea082-ebbc-4734-abcd-597872e0d8a4_1.jpg",
+            "text_text": "Aufblasbarer Rahmen + Innenzelt"
+          }
+        },
+        "feature_dRkQnw": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Classic-1_7a887133-53ed-4a05-9f24-531008766649.jpg",
+            "text_text": "AUfblasbarer Rahmen + Innen-& Außenzelt"
+          }
+        }
+      },
+      "block_order": [
+        "feature_8gFhR7",
+        "feature_WB7RX6",
+        "feature_dRkQnw"
+      ],
+      "settings": {
+        "text_headline": "",
+        "checkbox_swiper_script": true
+      }
+    },
+    "content_image_rB3Ykm": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "03 Das One-Pump-System",
+        "textarea_text": "Eine Pumpe, ein Ventil, und das Zelt steht in Sekunden.",
+        "url_button_link": "https://heimplanet.com/collections/zelte",
+        "text_button_text": "ENTDECKE DIE ZELTE",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Heimplanet-Ventile-Pumpe-2023.jpg"
+      }
+    },
+    "l_text_logos_RMYmYe": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Der Luftrahmen verfügt über mehrere Luftkammern mit je einem Ventil. Da die Streben des Rahmens über Verbindungsschläuche verknüpft sind, reicht ein Ventil aus, um das gesamte Zelt aufzurichten. Jede Kammer des Luftrahmens verfügt über 2-in-1-Ventile mit jeweils zwei Verschlüssen: ein Rückschlagventil zum einfachen Aufblasen des Luftrahmens und eine große Öffnung zum einfachen Ablassen der Luft. So lässt sich das Zelt schnell und effizient auf- und abbauen."
+      }
+    },
+    "l_step_slider_499XX6": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_4LLWp6": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Classic-New-2022-Detail-5.jpg",
+            "text_text": "Mehrere Ventile am Luftrahmen"
+          }
+        },
+        "feature_iWjQJ3": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-Details-13.jpg",
+            "text_text": "Verbindungsschläuche zwischen den Luftkammern"
+          }
+        },
+        "feature_AgYLyB": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-7.jpg",
+            "text_text": "2-in-1-Ventile"
+          }
+        }
+      },
+      "block_order": [
+        "feature_4LLWp6",
+        "feature_iWjQJ3",
+        "feature_AgYLyB"
+      ],
+      "settings": {
+        "text_headline": "",
+        "checkbox_swiper_script": true
+      }
+    },
+    "content_image_xhh3BY": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "04 Mehrkammer-Sicherheitssystem",
+        "textarea_text": "Unser patentiertes Mehrkammer-Sicherheitssystem sorgt für ausreichend Notfallstabilität, selbst wenn eine der Luftkammern ein Problem haben sollte.",
+        "url_button_link": "https://heimplanet.com/collections/zelte",
+        "text_button_text": "ENTDECKE DIE ZELTE",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Heimplanet_57_-_Kopie.jpg"
+      }
+    },
+    "l_text_logos_iNx9t6": {
+      "type": "l_text_logos",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "",
+        "text_text": "Zum Aktivieren des Mehrkammer-Sicherheitssystems, verschließe die Verbindungsschläuche zwischen den Luftkammer. Das geht ganz einfach indem du die angebrachten Punch-Clips zudrückst. Anders als bei herkömmlichen Zelten bleibt der Rahmen somit stabil, selbst wenn ein Teilstück ausfällt."
+      }
+    },
+    "l_step_slider_xAi4Cw": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_c4yFx8": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-New-2022-Details-4.jpg",
+            "text_text": "Punch Clips lokalisieren"
+          }
+        },
+        "feature_YKxqyH": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-New-2022-2.jpg",
+            "text_text": "punch clips zudrücken"
+          }
+        },
+        "feature_DeWWRe": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-Fistral-Cairo-Camo-New-2022-1.jpg",
+            "text_text": "Sorgenfrei campen"
+          }
+        }
+      },
+      "block_order": [
+        "feature_c4yFx8",
+        "feature_YKxqyH",
+        "feature_DeWWRe"
+      ],
+      "settings": {
+        "text_headline": "",
+        "checkbox_swiper_script": true
+      }
+    },
+    "content_image_qTN86i": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "05 Doppellagige Konstruktion",
+        "textarea_text": "Vergleichbar mit einem Fahrradreifen bestehen unsere Luftstreben aus einer widerstandsfähigen zweischichtigen Konstruktion.",
+        "url_button_link": "https://heimplanet.com/collections/zelte",
+        "text_button_text": "ENTDECKE DIE ZELTE",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
+      }
+    },
+    "l_step_slider_3FUFwf": {
+      "type": "l_step_slider",
+      "blocks": {
+        "feature_gBMHVD": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Bladder-1_549894c6-9d99-4340-80a3-4f1f6b39961b.webp",
+            "text_text": "Extra luftdichter TPU Schlauch"
+          }
+        },
+        "feature_gaanHR": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Cairo-Camo-New-2022-Details-2.jpg",
+            "text_text": "Robuster Außenmantel für schutz vor umwelteinflüssen"
+          }
+        },
+        "feature_YxzXPH": {
+          "type": "feature",
+          "settings": {
+            "image_bild": "shopify://shop_images/Fistral-Classic-8.jpg",
+            "text_text": "zusätzliche verstärkung an den bodenkontaktstellen"
+          }
+        }
+      },
+      "block_order": [
+        "feature_gBMHVD",
+        "feature_gaanHR",
+        "feature_YxzXPH"
+      ],
+      "settings": {
+        "text_headline": "",
+        "checkbox_swiper_script": true
+      }
+    },
+    "l_produkt_8q6fii": {
+      "type": "l_produkt",
+      "blocks": {
+        "produkt_slider_FyGF8w": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Tent-1.jpg"
+          }
+        },
+        "fact_yq7nnm": {
+          "type": "fact",
+          "settings": {
+            "text_text": "TPU-Schlauch mit dem mitgelieferten Repair-Kit flicken"
+          }
+        },
+        "fact_jtHcqp": {
+          "type": "fact",
+          "settings": {
+            "text_text": "TPU-Schlauch einfach komplett tauschen"
+          }
+        },
+        "fact_9nnwQi": {
+          "type": "fact",
+          "settings": {
+            "text_text": "Bei Bedarf einzelne Luftstreben komplett tauschen"
+          }
+        }
+      },
+      "block_order": [
+        "produkt_slider_FyGF8w",
+        "fact_yq7nnm",
+        "fact_jtHcqp",
+        "fact_9nnwQi"
+      ],
+      "settings": {
+        "checkbox_pagination_dots": true,
+        "text_headline": "ZELT ERSATZTEILE",
+        "textarea_beschreibung": "",
+        "text_preis": "",
+        "text_hinweis": "",
+        "text_button_text": "JETZT ENTDECKEN",
+        "url_produkt_link": "https://heimplanet.com/collections/zelte?filter.p.m.custom.filter_art_liste=Zelt+Ersatzteile",
+        "checkbox_swiper_script": true
+      }
+    }
+  },
+  "layout": "article",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "l_hero_ijQ63U",
+    "infos_j3BpTR",
+    "l_video_K8qgLQ",
+    "content_image_XHPBdt",
+    "l_dropdowns_qWbeeY",
+    "content_image_t89N49",
+    "l_step_slider_ekn9Jm",
+    "content_image_rB3Ykm",
+    "l_text_logos_RMYmYe",
+    "l_step_slider_499XX6",
+    "content_image_xhh3BY",
+    "l_text_logos_iNx9t6",
+    "l_step_slider_xAi4Cw",
+    "content_image_qTN86i",
+    "l_step_slider_3FUFwf",
+    "l_produkt_8q6fii"
+  ]
+}
