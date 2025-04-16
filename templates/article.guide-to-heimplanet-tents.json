@@ -12,14 +12,26 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "HEIMPLANET",
-        "text_headline": "Zelttechnik",
-        "textarea_longer_text": "»When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.« - R. Buckminster Fuller [Pionier der geodätischen Kuppel]",
+        "text_subline": "GUIDE TO",
+        "text_headline": "HEIMPLANET ZELTE",
+        "textarea_longer_text": "Wer unsere Zelte neu entdeckt mag zunächst",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Basecamp-Zelttechnik-Hero.jpg"
+        "image_bild": "shopify://shop_images/0415.jpg"
+      }
+    },
+    "content_image_XHPBdt": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "BENJAMIN HARDMAN",
+        "textarea_text": "HEIMPLANET Zelte bestechen durch ihr einzigartiges Design. Nicht aus ästhetischen, sondern funktionalen Gründen. Inspiriert von der geodätischen Kuppel - einer der stabilsten und effizientesten Strukturen.",
+        "url_button_link": "https://heimplanet.com/collections/zelte",
+        "text_button_text": "ENTDECKE DIE ZELTE",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/blog-benjamin-hardman-cloudbreak.jpg"
       }
     },
     "infos_j3BpTR": {
@@ -83,7 +95,7 @@
         "text_video_url": "https://www.youtube-nocookie.com/embed/VwVLnDP8iNQ?si=2GL1mqV5iHmA7PNL&controls=0"
       }
     },
-    "content_image_XHPBdt": {
+    "content_image_VgWJkU": {
       "type": "content_image",
       "settings": {
         "text_headline": "01 Stabilität - Das geodätische Prinzip",
@@ -380,49 +392,132 @@
         "checkbox_swiper_script": true
       }
     },
-    "l_produkt_8q6fii": {
-      "type": "l_produkt",
+    "colabs_BAFyGn": {
+      "type": "colabs",
       "blocks": {
-        "produkt_slider_FyGF8w": {
-          "type": "produkt-slider",
+        "partner_Xw6DAj": {
+          "type": "partner",
           "settings": {
-            "image_bild": "shopify://shop_images/Heimplanet-The-Cave-Tent-1.jpg"
+            "text_headline": "FISTRAL",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "shopify://products/fistral-classic",
+            "text_button_text": "FISTRAL ENTDECKEN",
+            "url_button_link_2": "https://www.youtube-nocookie.com/watch?v=CBHHjZYIUkc",
+            "text_button_text_2": "Set-up video",
+            "logo_image": "shopify://shop_images/IDG_Fistral.png"
           }
         },
-        "fact_yq7nnm": {
-          "type": "fact",
+        "partner_e4eYwh": {
+          "type": "partner",
           "settings": {
-            "text_text": "TPU-Schlauch mit dem mitgelieferten Repair-Kit flicken"
+            "text_headline": "KIRRA",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Kirra.png"
           }
         },
-        "fact_jtHcqp": {
-          "type": "fact",
+        "partner_wGC4dt": {
+          "type": "partner",
           "settings": {
-            "text_text": "TPU-Schlauch einfach komplett tauschen"
+            "text_headline": "THE CAVE",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_TheCave.png"
           }
         },
-        "fact_9nnwQi": {
-          "type": "fact",
+        "partner_mKYhek": {
+          "type": "partner",
           "settings": {
-            "text_text": "Bei Bedarf einzelne Luftstreben komplett tauschen"
+            "text_headline": "THE CAVE XL",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_TheCave.png"
+          }
+        },
+        "partner_Cdxtqq": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "BACKDOOR",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Backdoor.png"
+          }
+        },
+        "partner_PcMkQH": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "CLOUDBREAK",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Cloudbreak.png"
+          }
+        },
+        "partner_DNwkpj": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "MAVERICKS",
+            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Mavericks_png.png"
           }
         }
       },
       "block_order": [
-        "produkt_slider_FyGF8w",
-        "fact_yq7nnm",
-        "fact_jtHcqp",
-        "fact_9nnwQi"
+        "partner_Xw6DAj",
+        "partner_e4eYwh",
+        "partner_wGC4dt",
+        "partner_mKYhek",
+        "partner_Cdxtqq",
+        "partner_PcMkQH",
+        "partner_DNwkpj"
       ],
+      "name": "Colabs",
       "settings": {
-        "checkbox_pagination_dots": true,
-        "text_headline": "ZELT ERSATZTEILE",
-        "textarea_beschreibung": "",
-        "text_preis": "",
-        "text_hinweis": "",
-        "text_button_text": "JETZT ENTDECKEN",
-        "url_produkt_link": "https://heimplanet.com/collections/zelte?filter.p.m.custom.filter_art_liste=Zelt+Ersatzteile",
         "checkbox_swiper_script": true
+      }
+    },
+    "l_headline_mono_V4UfWW": {
+      "type": "l_headline_mono",
+      "name": "L-Headline-Mono",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
+      }
+    },
+    "l_text_logos_7pmimm": {
+      "type": "l_text_logos",
+      "blocks": {
+        "logo_c7i6zm": {
+          "type": "logo",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "logo_c7i6zm"
+      ],
+      "name": "L-Text-Logos",
+      "settings": {
+        "text_subline": "Mission",
+        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
+        "text_text": "Wir haben erkannt, dass unser Fachwissen genutzt werden kann, um bessere Stoffe, fairere Arbeitsbedingungen, besser ausgebildete Hersteller, sauberere Produktionswege und durchdachtere Designs zu finden. Es heißt, Qualität sei die Erfüllung von Erwartungen. Warum nur erfüllen, wenn man sie auch übertreffen kann? Wir machen so lange weiter, bis es nichts mehr zu verbessern gibt. Ist das ein unrealistisches Ziel?"
       }
     }
   },
@@ -430,9 +525,10 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
+    "content_image_XHPBdt",
     "infos_j3BpTR",
     "l_video_K8qgLQ",
-    "content_image_XHPBdt",
+    "content_image_VgWJkU",
     "l_dropdowns_qWbeeY",
     "content_image_t89N49",
     "l_step_slider_ekn9Jm",
@@ -444,6 +540,8 @@
     "l_step_slider_xAi4Cw",
     "content_image_qTN86i",
     "l_step_slider_3FUFwf",
-    "l_produkt_8q6fii"
+    "colabs_BAFyGn",
+    "l_headline_mono_V4UfWW",
+    "l_text_logos_7pmimm"
   ]
 }
