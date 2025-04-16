@@ -12,17 +12,49 @@
     "l_hero_ijQ63U": {
       "type": "l_hero",
       "settings": {
-        "text_subline": "GUIDE TO",
-        "text_headline": "HEIMPLANET ZELTE",
-        "textarea_longer_text": "Wer unsere Zelte neu entdeckt mag zunächst",
+        "text_subline": "",
+        "text_headline": "",
+        "textarea_longer_text": "",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/0415.jpg"
+        "image_bild": "shopify://shop_images/2025-HEIMPLANET-Cloudbreak-Video-Thumbnail.jpg"
+      }
+    },
+    "l_video_K8qgLQ": {
+      "type": "l_video",
+      "settings": {
+        "text_video_url": "https://www.youtube-nocookie.com/embed/VwVLnDP8iNQ?si=2GL1mqV5iHmA7PNL&controls=0"
+      }
+    },
+    "l_hero_no_fade_pjLbdf": {
+      "type": "l_hero_no_fade",
+      "name": "L-Hero-No-Fade",
+      "settings": {
+        "text_subline": "",
+        "text_headline": "WARUM ZELTE VON HEIMPLANET",
+        "textarea_longer_text": "EIN GUIDE VON BENJAMIN HARDMAN",
+        "text_button_text": "Button Text",
+        "url_button_link": "",
+        "text_button_text_2": "Button Text",
+        "url_button_link_2": "",
+        "image_bild": "shopify://shop_images/blog-benjamin-hardman-cloudbreak.jpg"
       }
     },
     "content_image_XHPBdt": {
+      "type": "content_image",
+      "settings": {
+        "text_headline": "",
+        "textarea_text": "",
+        "url_button_link": "",
+        "text_button_text": "ENTDECKE DIE ZELTE",
+        "url_button_link_2": "",
+        "text_button_text_2": "Button",
+        "image_bild": "shopify://shop_images/2025-HEIMPLANET-Cloudbreak-Video-Thumbnail.jpg"
+      }
+    },
+    "content_image_7LjaTi": {
       "type": "content_image",
       "settings": {
         "text_headline": "BENJAMIN HARDMAN",
@@ -87,12 +119,6 @@
       ],
       "settings": {
         "text_headline": "Wie funktionieren die aufblasbaren Zelte von Heimplanet?"
-      }
-    },
-    "l_video_K8qgLQ": {
-      "type": "l_video",
-      "settings": {
-        "text_video_url": "https://www.youtube-nocookie.com/embed/VwVLnDP8iNQ?si=2GL1mqV5iHmA7PNL&controls=0"
       }
     },
     "content_image_VgWJkU": {
@@ -508,10 +534,15 @@
         "logo_c7i6zm": {
           "type": "logo",
           "settings": {}
+        },
+        "logo_aYFBre": {
+          "type": "logo",
+          "settings": {}
         }
       },
       "block_order": [
-        "logo_c7i6zm"
+        "logo_c7i6zm",
+        "logo_aYFBre"
       ],
       "name": "L-Text-Logos",
       "settings": {
@@ -525,9 +556,11 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "content_image_XHPBdt",
-    "infos_j3BpTR",
     "l_video_K8qgLQ",
+    "l_hero_no_fade_pjLbdf",
+    "content_image_XHPBdt",
+    "content_image_7LjaTi",
+    "infos_j3BpTR",
     "content_image_VgWJkU",
     "l_dropdowns_qWbeeY",
     "content_image_t89N49",
