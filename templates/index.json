@@ -22,6 +22,17 @@
             "text_button_text": "JETZT ENTDECKEN"
           }
         },
+        "hero_slider_9Ya6U4": {
+          "type": "hero-slider",
+          "disabled": true,
+          "settings": {
+            "image_bild": "shopify://shop_images/heimplanet-cloudbreak-classic-2025.jpg",
+            "text_headline": "CLOUDBREAK, CLASSIC 2025",
+            "richtext_text": "<p><strong>JETZT ERHÄLTLICH - </strong>Sichere dir jetzt eines der limitierten Neo Black Zelte - <strong>The Cave Xl </strong>und<strong> Backdoor Neo Black</strong> ab jetzt im Shop!</p>",
+            "url_button_link": "shopify://products/cloudbreak-classic",
+            "text_button_text": "CLOUDBREAK ENTDECKEN"
+          }
+        },
         "hero_slider_DQWqP4": {
           "type": "hero-slider",
           "settings": {
@@ -77,6 +88,7 @@
       },
       "block_order": [
         "hero_slider_6ztQE7",
+        "hero_slider_9Ya6U4",
         "hero_slider_DQWqP4",
         "hero_slider_L3fJzp",
         "hero_slider_MWnnBG",
