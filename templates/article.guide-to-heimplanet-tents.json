@@ -25,42 +25,10 @@
     },
     "l_content_left_khGBLF": {
       "type": "l_content_left",
-      "blocks": {
-        "item_dQRTpg": {
-          "type": "item",
-          "settings": {
-            "text_text": "ARTIC PHOTOGRAPHER"
-          }
-        },
-        "item_jVDpjd": {
-          "type": "item",
-          "settings": {
-            "text_text": "ICELAND-BASED"
-          }
-        },
-        "item_AKtxFE": {
-          "type": "item",
-          "settings": {
-            "text_text": "A DECADE OF USING HEIMPLANT TENTS"
-          }
-        },
-        "item_qbw6qz": {
-          "type": "item",
-          "settings": {
-            "text_text": "KNOWS HIS STUFF"
-          }
-        }
-      },
-      "block_order": [
-        "item_dQRTpg",
-        "item_jVDpjd",
-        "item_AKtxFE",
-        "item_qbw6qz"
-      ],
       "name": "L-Content-Left",
       "settings": {
         "text_headline": "BENJAMIN HARDMAN",
-        "textarea_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "textarea_text": "Benjamin ist ein erprobter Abenteurer, Fotograf und Videograf. In seinem Erfahrungsbericht erzählt er von den Herausforderungen der rauen isländischen Natur und weshalb er dafür seit nunmehr 10 Jahren unsere Zelte nutzt.\n<br><br>\n<b>SCHAUE JETZT SEINEN ERFAHRUNGSBERICHT</b>",
         "image_bild": "shopify://shop_images/blog-benjamin-hardman-cloudbreak.jpg"
       }
     },
@@ -83,48 +51,10 @@
         "image_bild": "shopify://shop_images/blog-benjamin-hardman-cloudbreak_eb1ae410-e78e-45f7-bf82-dc6d665d1bc4.jpg"
       }
     },
-    "content_image_njFqek": {
-      "type": "content_image",
+    "infos_j3BpTR": {
+      "type": "infos",
       "settings": {
-        "text_headline": "BENJAMIN HARDMAN",
-        "textarea_text": "HEIMPLANET Zelte bestechen durch ihr einzigartiges Design. Nicht aus ästhetischen, sondern funktionalen Gründen. Inspiriert von der geodätischen Kuppel - einer der stabilsten und effizientesten Strukturen.",
-        "url_button_link": "https://heimplanet.com/collections/zelte",
-        "text_button_text": "ENTDECKE DIE ZELTE",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/blog-benjamin-hardman-cloudbreak.jpg"
-      }
-    },
-    "content_image_XHPBdt": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "",
-        "textarea_text": "",
-        "url_button_link": "",
-        "text_button_text": "ENTDECKE DIE ZELTE",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/2025-HEIMPLANET-Cloudbreak-Video-Thumbnail.jpg"
-      }
-    },
-    "l_headline_mono_V4UfWW": {
-      "type": "l_headline_mono",
-      "name": "L-Headline-Mono",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen"
-      }
-    },
-    "content_image_VgWJkU": {
-      "type": "content_image",
-      "settings": {
-        "text_headline": "01 Stabilität - Das geodätische Prinzip",
-        "textarea_text": "HEIMPLANET Zelte bestechen durch ihr einzigartiges Design. Nicht aus ästhetischen, sondern funktionalen Gründen. Inspiriert von der geodätischen Kuppel - einer der stabilsten und effizientesten Strukturen.",
-        "url_button_link": "https://heimplanet.com/collections/zelte",
-        "text_button_text": "ENTDECKE DIE ZELTE",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
+        "text_headline": "ALLE HEIMPLANET ZELTE IM ÜBERBLICK:"
       }
     },
     "colabs_BAFyGn": {
@@ -134,19 +64,20 @@
           "type": "partner",
           "settings": {
             "text_headline": "FISTRAL",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "textarea_text": "<b>1-2 Personen </b>\n<br>\nThis is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
             "url_button_link": "shopify://products/fistral-classic",
             "text_button_text": "FISTRAL ENTDECKEN",
-            "url_button_link_2": "https://www.youtube-nocookie.com/watch?v=CBHHjZYIUkc",
+            "url_button_link_2": "",
             "text_button_text_2": "Set-up video",
-            "logo_image": "shopify://shop_images/IDG_Fistral.png"
+            "logo_image": "shopify://shop_images/IDG_Fistral.png",
+            "image_bild": "shopify://shop_images/Fistral_CairoCamo_Portugal_Daniel_EspiritoSanto_1_1_1.jpg"
           }
         },
         "partner_e4eYwh": {
           "type": "partner",
           "settings": {
             "text_headline": "KIRRA",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "textarea_text": "<b>2 Personen</b>\n<br>\nThis is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
             "url_button_link": "",
             "text_button_text": "Button",
             "url_button_link_2": "",
@@ -252,10 +183,10 @@
         "text_text": "\"Because these tents has an air structure there is the possibility that they get a puncture but that´s never happen to me in all ten years of absolute extrem use of these tents. That´s all down to the facts that the external structure has a dual larger design. The air bladder inside of the frame is quiet well protected with an outer very durable material. And if you did end up in a situation where you had a puncture you can actually close off every individual section of the frame...\""
       }
     },
-    "infos_j3BpTR": {
+    "infos_LVPqfM": {
       "type": "infos",
       "blocks": {
-        "info_akQttE": {
+        "info_LmMHdx": {
           "type": "info",
           "settings": {
             "image_icon": "shopify://shop_images/IDG_TheCave.png",
@@ -263,7 +194,7 @@
             "textarea_text": "Herausragende Stabilität durch den Inflatable Diamond Grid [IDG]. Konzipiert für Extremwetter."
           }
         },
-        "info_RNDDgg": {
+        "info_mJn4HX": {
           "type": "info",
           "settings": {
             "image_icon": "shopify://shop_images/23-05-11_Icon_Transit4.png",
@@ -271,7 +202,7 @@
             "textarea_text": "Das gesamte Zelt bildet eine Einheit - vereinfacht den Aufbau gerdae bei Wind oder Dunkelheit."
           }
         },
-        "info_znQMMx": {
+        "info_k6gWmR": {
           "type": "info",
           "settings": {
             "image_icon": "shopify://shop_images/icons8-intern-96_-_Kopie.png",
@@ -279,7 +210,7 @@
             "textarea_text": "Eine Pumpe und eines der Ventile genügt, um das Zelt auf Einmal in Sekunden zu errichten."
           }
         },
-        "info_DYMTJz": {
+        "info_HcqkCy": {
           "type": "info",
           "settings": {
             "image_icon": "shopify://shop_images/23-05-11_Icon_Motion2.png",
@@ -287,7 +218,7 @@
             "textarea_text": "Das patentierte Sicherheitssystem sorgt zu jedem Zeitpunkt für ausreichend Notfallstabilität."
           }
         },
-        "info_eNNNzk": {
+        "info_cwwdLj": {
           "type": "info",
           "settings": {
             "image_icon": "shopify://shop_images/23-05-11_Icon_Motion5.png",
@@ -297,11 +228,11 @@
         }
       },
       "block_order": [
-        "info_akQttE",
-        "info_RNDDgg",
-        "info_znQMMx",
-        "info_DYMTJz",
-        "info_eNNNzk"
+        "info_LmMHdx",
+        "info_mJn4HX",
+        "info_k6gWmR",
+        "info_HcqkCy",
+        "info_cwwdLj"
       ],
       "settings": {
         "text_headline": "Erfahre mehr über die funktionsweise unserer zelte:"
@@ -315,12 +246,9 @@
     "l_content_left_khGBLF",
     "l_video_K8qgLQ",
     "content_image_7LjaTi",
-    "content_image_njFqek",
-    "content_image_XHPBdt",
-    "l_headline_mono_V4UfWW",
-    "content_image_VgWJkU",
+    "infos_j3BpTR",
     "colabs_BAFyGn",
     "l_text_logos_7pmimm",
-    "infos_j3BpTR"
+    "infos_LVPqfM"
   ]
 }
