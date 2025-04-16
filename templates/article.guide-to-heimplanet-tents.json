@@ -69,8 +69,8 @@
             "text_button_text": "FISTRAL ENTDECKEN",
             "url_button_link_2": "",
             "text_button_text_2": "Set-up video",
-            "logo_image": "shopify://shop_images/IDG_Fistral.png",
-            "image_bild": "shopify://shop_images/Fistral_CairoCamo_Portugal_Daniel_EspiritoSanto_1_1_1.jpg"
+            "logo_image": "shopify://shop_images/IDG_Fistral_white.png",
+            "image_bild": "shopify://shop_images/60e5b4da711f56684092aa37_Fistral_Classic_Roman_Konigshofer_18.jpg"
           }
         },
         "partner_e4eYwh": {
@@ -82,7 +82,7 @@
             "text_button_text": "Button",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Kirra.png"
+            "logo_image": "shopify://shop_images/IDG_Kirra_white.png"
           }
         },
         "partner_wGC4dt": {
@@ -94,7 +94,7 @@
             "text_button_text": "Button",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_TheCave.png"
+            "logo_image": "shopify://shop_images/IDG_TheCaveXL_white.png"
           }
         },
         "partner_mKYhek": {
@@ -158,29 +158,6 @@
       "name": "Colabs",
       "settings": {
         "checkbox_swiper_script": true
-      }
-    },
-    "l_text_logos_7pmimm": {
-      "type": "l_text_logos",
-      "blocks": {
-        "logo_c7i6zm": {
-          "type": "logo",
-          "settings": {}
-        },
-        "logo_aYFBre": {
-          "type": "logo",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "logo_c7i6zm",
-        "logo_aYFBre"
-      ],
-      "name": "L-Text-Logos",
-      "settings": {
-        "text_subline": "Mission",
-        "text_headline": "Wir haben Heimplanet ins leben Gerufen, weil wir verbesserungs möglichkeiten sehen",
-        "text_text": "\"Because these tents has an air structure there is the possibility that they get a puncture but that´s never happen to me in all ten years of absolute extrem use of these tents. That´s all down to the facts that the external structure has a dual larger design. The air bladder inside of the frame is quiet well protected with an outer very durable material. And if you did end up in a situation where you had a puncture you can actually close off every individual section of the frame...\""
       }
     },
     "infos_LVPqfM": {
@@ -248,7 +225,6 @@
     "content_image_7LjaTi",
     "infos_j3BpTR",
     "colabs_BAFyGn",
-    "l_text_logos_7pmimm",
     "infos_LVPqfM"
   ]
 }
