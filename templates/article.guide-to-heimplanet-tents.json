@@ -60,17 +60,17 @@
     "colabs_BAFyGn": {
       "type": "colabs",
       "blocks": {
-        "partner_Cdxtqq": {
+        "partner_PcMkQH": {
           "type": "partner",
           "settings": {
-            "text_headline": "BACKDOOR",
-            "textarea_text": "<b>4 PERSONEN </b>\n<br>\nZwei Große Eingänge erleichtern das ein- und aussteigen und vielfältige Ventilationsmöglichkeit sorgen für ein angenehmes Klima. Zwei der Gründe, weshalb Backdoor besonders bei Familien und Gruppen beliebt ist. Auch als 4-Season Variante erhältlich.",
-            "url_button_link": "shopify://products/backdoor-classic",
-            "text_button_text": "BACKDOOR ENTDECKEN",
+            "text_headline": "CLOUDBREAK",
+            "textarea_text": "<b>4 PERSONEN </b>\n<br>\nCloudbreak wurde kürzlich grunderneuert und mit noch stärkeren und umweltfreundlicheren Materialien ausgestattet. Das Zelt bietet eine separate Schlafkabine für 4 Personen mit einem großen Wohnraum davor.",
+            "url_button_link": "shopify://products/cloudbreak-classic",
+            "text_button_text": "CLOUDBREAK ENTDECKEN",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Backdoor_white.png",
-            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-8.jpg"
+            "logo_image": "shopify://shop_images/IDG_Cloudbreak_white.png",
+            "image_bild": "shopify://shop_images/blog-heimplanet-cloudbreak_4900bbed-0d67-48cf-a2d1-791533cf8c04.jpg"
           }
         },
         "partner_Xw6DAj": {
@@ -125,17 +125,17 @@
             "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
           }
         },
-        "partner_PcMkQH": {
+        "partner_Cdxtqq": {
           "type": "partner",
           "settings": {
-            "text_headline": "CLOUDBREAK",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
+            "text_headline": "BACKDOOR",
+            "textarea_text": "<b>4 PERSONEN </b>\n<br>\nZwei Große Eingänge erleichtern das ein- und aussteigen und vielfältige Ventilationsmöglichkeit sorgen für ein angenehmes Klima. Zwei der Gründe, weshalb Backdoor besonders bei Familien und Gruppen beliebt ist. Auch als 4-Season Variante erhältlich.",
+            "url_button_link": "shopify://products/backdoor-classic",
+            "text_button_text": "BACKDOOR ENTDECKEN",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Cloudbreak_white.png",
-            "image_bild": "shopify://shop_images/heimplanet-cloudbreak-classic-2025.jpg"
+            "logo_image": "shopify://shop_images/IDG_Backdoor_white.png",
+            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-8.jpg"
           }
         },
         "partner_DNwkpj": {
@@ -153,12 +153,12 @@
         }
       },
       "block_order": [
-        "partner_Cdxtqq",
+        "partner_PcMkQH",
         "partner_Xw6DAj",
         "partner_e4eYwh",
         "partner_wGC4dt",
         "partner_mKYhek",
-        "partner_PcMkQH",
+        "partner_Cdxtqq",
         "partner_DNwkpj"
       ],
       "name": "Colabs",
