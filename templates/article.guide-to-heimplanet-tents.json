@@ -70,6 +70,7 @@
     },
     "infos_j3BpTR": {
       "type": "infos",
+      "disabled": true,
       "settings": {
         "text_headline": "ALLE HEIMPLANET ZELTE IM ÜBERBLICK:"
       }
@@ -178,6 +179,7 @@
         "partner_PcMkQH",
         "partner_DNwkpj"
       ],
+      "disabled": true,
       "name": "Colabs",
       "settings": {
         "checkbox_swiper_script": true
@@ -260,6 +262,7 @@
     },
     "article_next_7pADaa": {
       "type": "article_next",
+      "disabled": true,
       "name": "Article-Next",
       "settings": {
         "text_headline": "Weitere Beiträge",
