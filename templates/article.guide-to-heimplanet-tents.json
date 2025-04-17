@@ -60,6 +60,19 @@
     "colabs_BAFyGn": {
       "type": "colabs",
       "blocks": {
+        "partner_Cdxtqq": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "BACKDOOR",
+            "textarea_text": "<b>4 PERSONEN </b>\n<br>\nZwei Große Eingänge erleichtern das ein- und aussteigen und vielfältige Ventilationsmöglichkeit sorgen für ein angenehmes Klima. Zwei der Gründe, weshalb Backdoor besonders bei Familien und Gruppen beliebt ist. Auch als 4-Season Variante erhältlich.",
+            "url_button_link": "shopify://products/backdoor-classic",
+            "text_button_text": "BACKDOOR ENTDECKEN",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Backdoor_white.png",
+            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-8.jpg"
+          }
+        },
         "partner_Xw6DAj": {
           "type": "partner",
           "settings": {
@@ -112,19 +125,6 @@
             "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
           }
         },
-        "partner_Cdxtqq": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "BACKDOOR",
-            "textarea_text": "<b>4 PERSONEN </b>\n<br>\nUnsere Ikone - Das Zelt, das synonym mit Heimplanet ist. Der 10-fach gekreuzte Rahmen bieten maximale Stabilität. Unsere Empfehlung bei extremen Wetterbedingungen.",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Backdoor_white.png",
-            "image_bild": "shopify://shop_images/Heimplanet-Backdoor-Cairo-Camo-8.jpg"
-          }
-        },
         "partner_PcMkQH": {
           "type": "partner",
           "settings": {
@@ -153,11 +153,11 @@
         }
       },
       "block_order": [
+        "partner_Cdxtqq",
         "partner_Xw6DAj",
         "partner_e4eYwh",
         "partner_wGC4dt",
         "partner_mKYhek",
-        "partner_Cdxtqq",
         "partner_PcMkQH",
         "partner_DNwkpj"
       ],
