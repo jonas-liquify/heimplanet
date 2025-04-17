@@ -60,6 +60,19 @@
     "colabs_BAFyGn": {
       "type": "colabs",
       "blocks": {
+        "partner_wGC4dt": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "THE CAVE",
+            "textarea_text": "<b>2-3 PERSONEN </b>\n<br>\nUnsere Ikone - Das Zelt, das synonym mit Heimplanet ist. Der 10-fach gekreuzte Rahmen bieten maximale Stabilität. Unsere Empfehlung bei Extremwetter.",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_TheCaveXL_white.png",
+            "image_bild": "shopify://shop_images/Heimpanet-Teaser-Website-The-Cave-XL.jpg"
+          }
+        },
         "partner_Xw6DAj": {
           "type": "partner",
           "settings": {
@@ -77,26 +90,13 @@
           "type": "partner",
           "settings": {
             "text_headline": "KIRRA",
-            "textarea_text": "<b>2 Personen</b>\n<br>\nThis is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
+            "textarea_text": "<b>2 PERSONEN </b>\n<br>\nDas Perfekte Allround Zelt. Ausreichend Platz für zwei Personen mit einer reduzierten Rahmenstruktur, die Gewicht und Packmaß verringert - auch als 4-Season Version erhältlich.",
+            "url_button_link": "shopify://products/kirra-classic",
+            "text_button_text": "KIRRA ENTDECKEN",
             "url_button_link_2": "",
             "text_button_text_2": "Button",
             "logo_image": "shopify://shop_images/IDG_Kirra_white.png",
-            "image_bild": "shopify://shop_images/Heimplanet-Kirra-Classic-in-den-Alpen-11.jpg"
-          }
-        },
-        "partner_wGC4dt": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "THE CAVE",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_TheCaveXL_white.png",
-            "image_bild": "shopify://shop_images/Heimpanet-Teaser-Website-The-Cave-XL.jpg"
+            "image_bild": "shopify://shop_images/Heimplanet-Kirra-4-Season-Mood.jpg"
           }
         },
         "partner_mKYhek": {
@@ -153,9 +153,9 @@
         }
       },
       "block_order": [
+        "partner_wGC4dt",
         "partner_Xw6DAj",
         "partner_e4eYwh",
-        "partner_wGC4dt",
         "partner_mKYhek",
         "partner_Cdxtqq",
         "partner_PcMkQH",
