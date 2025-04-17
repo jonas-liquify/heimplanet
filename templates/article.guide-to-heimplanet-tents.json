@@ -180,7 +180,7 @@
       ],
       "name": "Colabs",
       "settings": {
-        "checkbox_swiper_script": false
+        "checkbox_swiper_script": true
       }
     },
     "infos_KeVBjC": {
@@ -264,8 +264,8 @@
       "settings": {
         "text_headline": "Weitere Beiträge",
         "url_button_link": "shopify://blogs/abenteuer",
-        "text_button_text": "HEIMPLANET MAGAZIN",
-        "text_blog_handle": "This is some text inside of a div block."
+        "text_button_text": "MEHR DAVON",
+        "text_blog_handle": ""
       }
     }
   },
