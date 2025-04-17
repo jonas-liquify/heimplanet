@@ -60,19 +60,6 @@
     "colabs_BAFyGn": {
       "type": "colabs",
       "blocks": {
-        "partner_mKYhek": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "THE CAVE XL",
-            "textarea_text": "<b>3 PERSONEN </b>\n<br>\nNach The Cave kam der Ruf nach einer größeren Variante sowie eine 4-Season Variante. The Cave XL ist die Antwort auf beides. Genauso stark wit The Cave jetzt mit noch mehr Platz im Innenraum.",
-            "url_button_link": "",
-            "text_button_text": "Button",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_TheCaveXL_white_6cc4c407-f8fc-4fe1-a8be-1ab96981db50.png",
-            "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
-          }
-        },
         "partner_Xw6DAj": {
           "type": "partner",
           "settings": {
@@ -112,11 +99,24 @@
             "image_bild": "shopify://shop_images/Cave_Classic_CairoCamo_Lofoten_Kasper_Hoglund_1_2_7ad4daf1-6208-4613-8454-95662022f57f.jpg"
           }
         },
+        "partner_mKYhek": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "THE CAVE XL",
+            "textarea_text": "<b>3 PERSONEN </b>\n<br>\nNach The Cave kam der Ruf nach einer größeren Variante sowie eine 4-Season Variante. The Cave XL ist die Antwort auf beides. Genauso stark wit The Cave jetzt mit noch mehr Platz im Innenraum.",
+            "url_button_link": "",
+            "text_button_text": "Button",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_TheCaveXL_white_6cc4c407-f8fc-4fe1-a8be-1ab96981db50.png",
+            "image_bild": "shopify://shop_images/Heimpanet-The-Cave-XL-4-Season-Norris-Niman-Mood-5.jpg"
+          }
+        },
         "partner_Cdxtqq": {
           "type": "partner",
           "settings": {
             "text_headline": "BACKDOOR",
-            "textarea_text": "This is some text inside of a div block. This is some text i block. This is some text inside of a div block. This is some text inside of a div block. This is some text inside of a div block. This is some text i block. This is some text inside",
+            "textarea_text": "<b>4 PERSONEN </b>\n<br>\nUnsere Ikone - Das Zelt, das synonym mit Heimplanet ist. Der 10-fach gekreuzte Rahmen bieten maximale Stabilität. Unsere Empfehlung bei extremen Wetterbedingungen.",
             "url_button_link": "",
             "text_button_text": "Button",
             "url_button_link_2": "",
@@ -153,10 +153,10 @@
         }
       },
       "block_order": [
-        "partner_mKYhek",
         "partner_Xw6DAj",
         "partner_e4eYwh",
         "partner_wGC4dt",
+        "partner_mKYhek",
         "partner_Cdxtqq",
         "partner_PcMkQH",
         "partner_DNwkpj"
