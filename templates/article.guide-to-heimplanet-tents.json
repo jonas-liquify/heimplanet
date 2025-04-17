@@ -182,12 +182,6 @@
         "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
       }
     },
-    "infos_fmp6rg": {
-      "type": "infos",
-      "settings": {
-        "text_headline": ""
-      }
-    },
     "infos_LVPqfM": {
       "type": "infos",
       "blocks": {
@@ -266,7 +260,6 @@
     "colabs_BAFyGn",
     "infos_KeVBjC",
     "content_image_ntDJdV",
-    "infos_fmp6rg",
     "infos_LVPqfM",
     "article_next_7pADaa"
   ]
