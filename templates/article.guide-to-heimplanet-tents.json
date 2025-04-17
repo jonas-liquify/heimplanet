@@ -39,6 +39,26 @@
         "text_video_url": "https://www.youtube-nocookie.com/embed/VwVLnDP8iNQ?si=2GL1mqV5iHmA7PNL&controls=0"
       }
     },
+    "l_text_logos_mxmULR": {
+      "type": "l_text_logos",
+      "blocks": {
+        "logo_ebmnck": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/Heimplanet_Logo_02.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_ebmnck"
+      ],
+      "name": "L-Text-Logos",
+      "settings": {
+        "text_subline": "BENJAMIN HARDMAN",
+        "text_headline": "ICELAND-BASED ADVENTURER",
+        "text_text": "\"Because these tents have an air-structure there is the possibility that they get a puncture - but this has never happened to me in all 10 years of absolute extreme use of these tents. [...] <br><br>and if you did end up in a situation where you had a puncture you can actually close off each individual section of the frame so that the air will not leak out of the entire strucutre - giving you the ability at least survive the night into the next day where you can repair the frame\""
+      }
+    },
     "l_gallery_jFpCzB": {
       "type": "l_gallery",
       "name": "L-Gallery",
@@ -255,6 +275,7 @@
     "l_hero_no_fade_T34kXD",
     "l_content_left_khGBLF",
     "l_video_K8qgLQ",
+    "l_text_logos_mxmULR",
     "l_gallery_jFpCzB",
     "infos_j3BpTR",
     "colabs_BAFyGn",
