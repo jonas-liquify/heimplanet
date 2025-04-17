@@ -180,7 +180,7 @@
       ],
       "name": "Colabs",
       "settings": {
-        "checkbox_swiper_script": true
+        "checkbox_swiper_script": false
       }
     },
     "infos_KeVBjC": {
