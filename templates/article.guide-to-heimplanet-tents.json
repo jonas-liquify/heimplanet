@@ -182,6 +182,12 @@
         "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
       }
     },
+    "infos_fmp6rg": {
+      "type": "infos",
+      "settings": {
+        "text_headline": ""
+      }
+    },
     "infos_LVPqfM": {
       "type": "infos",
       "blocks": {
@@ -233,8 +239,19 @@
         "info_HcqkCy",
         "info_cwwdLj"
       ],
+      "disabled": true,
       "settings": {
         "text_headline": "Erfahre mehr über die funktionsweise unserer zelte:"
+      }
+    },
+    "article_next_7pADaa": {
+      "type": "article_next",
+      "name": "Article-Next",
+      "settings": {
+        "text_headline": "Weitere Beiträge",
+        "url_button_link": "shopify://blogs/abenteuer",
+        "text_button_text": "HEIMPLANET MAGAZIN",
+        "text_blog_handle": "This is some text inside of a div block."
       }
     }
   },
@@ -249,6 +266,8 @@
     "colabs_BAFyGn",
     "infos_KeVBjC",
     "content_image_ntDJdV",
-    "infos_LVPqfM"
+    "infos_fmp6rg",
+    "infos_LVPqfM",
+    "article_next_7pADaa"
   ]
 }
