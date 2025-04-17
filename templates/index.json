@@ -14,7 +14,6 @@
       "blocks": {
         "hero_slider_9Ya6U4": {
           "type": "hero-slider",
-          "disabled": true,
           "settings": {
             "image_bild": "shopify://shop_images/heimplanet-cloudbreak-classic-2025.jpg",
             "text_headline": "CLOUDBREAK, CLASSIC 2025",
