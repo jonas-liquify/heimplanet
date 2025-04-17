@@ -163,6 +163,25 @@
         "checkbox_swiper_script": true
       }
     },
+    "infos_KeVBjC": {
+      "type": "infos",
+      "settings": {
+        "text_headline": ""
+      }
+    },
+    "content_image_ntDJdV": {
+      "type": "content_image",
+      "name": "Content-Image",
+      "settings": {
+        "text_headline": "WIE HEIMPLANET ZELTE FUNKTIONIEREN",
+        "textarea_text": "",
+        "url_button_link": "shopify://blogs/designraum/zelttechnik",
+        "text_button_text": "ZELT TECHNOLOGIE",
+        "url_button_link_2": "shopify://collections/zelte",
+        "text_button_text_2": "ZELTE ENTDECKEN",
+        "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
+      }
+    },
     "infos_LVPqfM": {
       "type": "infos",
       "blocks": {
@@ -228,6 +247,8 @@
     "l_gallery_jFpCzB",
     "infos_j3BpTR",
     "colabs_BAFyGn",
+    "infos_KeVBjC",
+    "content_image_ntDJdV",
     "infos_LVPqfM"
   ]
 }
