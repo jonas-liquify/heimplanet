@@ -20,7 +20,7 @@
         "url_button_link": "",
         "text_button_text_2": "Button Text",
         "url_button_link_2": "",
-        "image_bild": "shopify://shop_images/blog-benjamin-hardman-mavercisk.jpg"
+        "image_bild": "shopify://shop_images/blog-heimplanet-benjamin-hardman-cloudbreak.jpg"
       }
     },
     "l_content_left_khGBLF": {
@@ -39,16 +39,13 @@
         "text_video_url": "https://www.youtube-nocookie.com/embed/VwVLnDP8iNQ?si=2GL1mqV5iHmA7PNL&controls=0"
       }
     },
-    "content_image_7LjaTi": {
-      "type": "content_image",
+    "l_gallery_jFpCzB": {
+      "type": "l_gallery",
+      "name": "L-Gallery",
       "settings": {
-        "text_headline": "ABOUT BENJAMIN",
-        "textarea_text": "Benjamin ist ein erprobter Abenteurer, Fotograf und Videograf. In seinem Erfahrungsbericht erzählt er von den Herausforderungen der rauen isländischen Natur und weshalb er dafür seit nunmehr 10 Jahren unsere Zelte nutzt.",
-        "url_button_link": "https://heimplanet.com/collections/zelte",
-        "text_button_text": "JETZT ANSCHAUEN",
-        "url_button_link_2": "",
-        "text_button_text_2": "Button",
-        "image_bild": "shopify://shop_images/blog-benjamin-hardman-cloudbreak_eb1ae410-e78e-45f7-bf82-dc6d665d1bc4.jpg"
+        "image_bild_1": "shopify://shop_images/blog-benjamin-hardman-mavercisk.jpg",
+        "image_bild_2": "shopify://shop_images/blog-heimplanet-mavericks-benjamin-hardman.jpg",
+        "image_bild_3": "shopify://shop_images/blog-overlanding-benjamin-hardman.jpg"
       }
     },
     "infos_j3BpTR": {
@@ -60,19 +57,6 @@
     "colabs_BAFyGn": {
       "type": "colabs",
       "blocks": {
-        "partner_DNwkpj": {
-          "type": "partner",
-          "settings": {
-            "text_headline": "MAVERICKS",
-            "textarea_text": "<b> 10 PERSONEN </b>\n<br>\nMavericks ist unser Expeditions und Basecamp Zelt. Im Gegensatz zu anderen Zelten dieser Größe, lässt es sich von nur einer Person in wenigen Minuten errichten. Einer der vielen Gründe warum das Zelt bei Expeditionen weltweit geschätzt wird.",
-            "url_button_link": "shopify://products/mavericks-basecamp",
-            "text_button_text": "MAVERICKS ENTDECKEN",
-            "url_button_link_2": "",
-            "text_button_text_2": "Button",
-            "logo_image": "shopify://shop_images/IDG_Mavericks_white.png",
-            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Red-SAREX-Le-Commandant-Charcot-55_Studio-PONANT-Nathalie-Michel.jpg"
-          }
-        },
         "partner_Xw6DAj": {
           "type": "partner",
           "settings": {
@@ -150,16 +134,29 @@
             "logo_image": "shopify://shop_images/IDG_Cloudbreak_white.png",
             "image_bild": "shopify://shop_images/blog-heimplanet-cloudbreak_4900bbed-0d67-48cf-a2d1-791533cf8c04.jpg"
           }
+        },
+        "partner_DNwkpj": {
+          "type": "partner",
+          "settings": {
+            "text_headline": "MAVERICKS",
+            "textarea_text": "<b> 10 PERSONEN </b>\n<br>\nMavericks ist unser Expeditions und Basecamp Zelt. Im Gegensatz zu anderen Zelten dieser Größe, lässt es sich von nur einer Person in wenigen Minuten errichten. Einer der vielen Gründe warum das Zelt bei Expeditionen weltweit geschätzt wird.",
+            "url_button_link": "shopify://products/mavericks-basecamp",
+            "text_button_text": "MAVERICKS ENTDECKEN",
+            "url_button_link_2": "",
+            "text_button_text_2": "Button",
+            "logo_image": "shopify://shop_images/IDG_Mavericks_white.png",
+            "image_bild": "shopify://shop_images/Heimplanet-Mavericks-Red-SAREX-Le-Commandant-Charcot-55_Studio-PONANT-Nathalie-Michel.jpg"
+          }
         }
       },
       "block_order": [
-        "partner_DNwkpj",
         "partner_Xw6DAj",
         "partner_e4eYwh",
         "partner_wGC4dt",
         "partner_mKYhek",
         "partner_Cdxtqq",
-        "partner_PcMkQH"
+        "partner_PcMkQH",
+        "partner_DNwkpj"
       ],
       "name": "Colabs",
       "settings": {
@@ -228,7 +225,7 @@
     "l_hero_no_fade_T34kXD",
     "l_content_left_khGBLF",
     "l_video_K8qgLQ",
-    "content_image_7LjaTi",
+    "l_gallery_jFpCzB",
     "infos_j3BpTR",
     "colabs_BAFyGn",
     "infos_LVPqfM"
