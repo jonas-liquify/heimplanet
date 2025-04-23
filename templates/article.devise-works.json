@@ -90,22 +90,6 @@
         "text_video_url": ""
       }
     },
-    "l_content_right_fX4Dcz": {
-      "type": "l_content_right",
-      "disabled": true,
-      "settings": {
-        "text_headline": "Introducing Mr. Daisuke Akiyama",
-        "textarea_text": ""
-      }
-    },
-    "l_content_left_LMgdf7": {
-      "type": "l_content_left",
-      "disabled": true,
-      "settings": {
-        "text_headline": "Über FDMTL",
-        "textarea_text": "FDMTL produziert vorwiegend Jeans-Bekleidung, welche in Japan gefertigt wird. Japan ist bekanntlich der Spitzenreiter in Sachen Denim-Produktion. Die Produkte sind hochwertig und zeichnen sich durch eine unvergleichliche Präzision aus, die mit herkömmlichen Fertigungstechniken kaum zu erzielen wäre. Jedes Kleidungsstück wird mit größter Sorgfalt hergestellt und erhält eine außergewöhnliche Detailtiefe."
-      }
-    },
     "l_gallery_67Grn9": {
       "type": "l_gallery",
       "settings": {
@@ -320,8 +304,6 @@
     "l_text_logos_jhV7JF",
     "colabs_qHhVWr",
     "l_video_L6k4FT",
-    "l_content_right_fX4Dcz",
-    "l_content_left_LMgdf7",
     "l_gallery_67Grn9",
     "l_dropdowns_Xkkjak",
     "l_reveal_slider_dyyFAk",
