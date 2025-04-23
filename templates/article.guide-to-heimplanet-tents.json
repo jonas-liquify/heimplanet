@@ -11,7 +11,6 @@
   "sections": {
     "l_hero_no_fade_T34kXD": {
       "type": "l_hero_no_fade",
-      "name": "L-Hero-No-Fade",
       "settings": {
         "text_subline": "",
         "text_headline": "WARUM HEIMPLANET ZELTE",
@@ -25,7 +24,6 @@
     },
     "l_content_left_khGBLF": {
       "type": "l_content_left",
-      "name": "L-Content-Left",
       "settings": {
         "text_headline": "BENJAMIN HARDMAN",
         "textarea_text": "Benjamin ist ein erprobter Abenteurer, Fotograf und Videograf. In seinem Erfahrungsbericht erzählt er von den Herausforderungen der rauen isländischen Natur und weshalb er dafür seit nunmehr 10 Jahren unsere Zelte nutzt.\n<br><br>\n<b>SCHAUE JETZT SEINEN ERFAHRUNGSBERICHT</b>",
@@ -52,7 +50,6 @@
       "block_order": [
         "logo_ebmnck"
       ],
-      "name": "L-Text-Logos",
       "settings": {
         "text_subline": "BENJAMIN HARDMAN",
         "text_headline": "ICELAND-BASED ADVENTURER",
@@ -61,7 +58,6 @@
     },
     "l_gallery_jFpCzB": {
       "type": "l_gallery",
-      "name": "L-Gallery",
       "settings": {
         "image_bild_1": "shopify://shop_images/blog-benjamin-hardman-mavercisk.jpg",
         "image_bild_2": "shopify://shop_images/blog-heimplanet-mavericks-benjamin-hardman.jpg",
@@ -70,7 +66,6 @@
     },
     "infos_j3BpTR": {
       "type": "infos",
-      "disabled": true,
       "settings": {
         "text_headline": "ALLE HEIMPLANET ZELTE IM ÜBERBLICK:"
       }
@@ -179,8 +174,6 @@
         "partner_PcMkQH",
         "partner_DNwkpj"
       ],
-      "disabled": true,
-      "name": "Colabs",
       "settings": {
         "checkbox_swiper_script": true
       }
@@ -191,9 +184,14 @@
         "text_headline": ""
       }
     },
+    "infos_TrcBaA": {
+      "type": "infos",
+      "settings": {
+        "text_headline": ""
+      }
+    },
     "content_image_ntDJdV": {
       "type": "content_image",
-      "name": "Content-Image",
       "settings": {
         "text_headline": "WIE HEIMPLANET ZELTE FUNKTIONIEREN",
         "textarea_text": "",
@@ -263,7 +261,6 @@
     "article_next_7pADaa": {
       "type": "article_next",
       "disabled": true,
-      "name": "Article-Next",
       "settings": {
         "text_headline": "Weitere Beiträge",
         "url_button_link": "shopify://blogs/abenteuer",
@@ -284,6 +281,7 @@
     "colabs_BAFyGn",
     "infos_KeVBjC",
     "content_image_ntDJdV",
+    "infos_TrcBaA",
     "infos_LVPqfM",
     "article_next_7pADaa"
   ]
