@@ -92,22 +92,12 @@
         "text_headline": "",
         "textarea_text": ""
       }
-    },
-    "article_next": {
-      "type": "article_next",
-      "settings": {
-        "text_headline": "Weitere Beiträge",
-        "url_button_link": "shopify://blogs/abenteuer",
-        "text_button_text": "Mehr davon",
-        "text_blog_handle": "abenteuer"
-      }
     }
   },
   "layout": "article",
   "wrapper": "main.main-wrapper",
   "order": [
     "l_hero_ijQ63U",
-    "l_dropdowns_qfRaC4",
-    "article_next"
+    "l_dropdowns_qfRaC4"
   ]
 }
