@@ -66,6 +66,7 @@
     },
     "infos_j3BpTR": {
       "type": "infos",
+      "disabled": true,
       "settings": {
         "text_headline": "ALLE HEIMPLANET ZELTE IM ÜBERBLICK:"
       }
@@ -174,17 +175,12 @@
         "partner_PcMkQH",
         "partner_DNwkpj"
       ],
+      "disabled": true,
       "settings": {
         "checkbox_swiper_script": true
       }
     },
     "infos_KeVBjC": {
-      "type": "infos",
-      "settings": {
-        "text_headline": ""
-      }
-    },
-    "infos_TrcBaA": {
       "type": "infos",
       "settings": {
         "text_headline": ""
@@ -200,6 +196,12 @@
         "url_button_link_2": "shopify://collections/zelte",
         "text_button_text_2": "ZELTE ENTDECKEN",
         "image_bild": "shopify://shop_images/Heimplanet-Cave-Cairo-Camo-Dolomiten-Technik-Landingpage.jpg"
+      }
+    },
+    "infos_TrcBaA": {
+      "type": "infos",
+      "settings": {
+        "text_headline": ""
       }
     },
     "infos_LVPqfM": {
