@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection_hero": {
@@ -17,7 +17,7 @@
         "textarea_paragraph": "Was uns noch fehlt: Deine tatkräftige Unterstützung! Wir setzen uns leidenschaftlich für den Aufbau einer Kultur ein, in der Unterschiede wertgeschätzt werden.",
         "url_button_link": "",
         "text_button_text": "Jetzt entdecken",
-        "image_bild": "shopify:\/\/shop_images\/Heimplanet-Jobs-Karriere-2023.jpg"
+        "image_bild": "shopify://shop_images/Heimplanet-Jobs-Karriere-2023.jpg"
       }
     },
     "jobs": {
@@ -25,9 +25,9 @@
       "settings": {
         "text_headline": "Karriere & Jobs",
         "text_button_text": "Mehr erfahren",
-        "url_button_link": "shopify:\/\/pages\/uber-uns",
+        "url_button_link": "shopify://pages/uber-uns",
         "text_kategorie": "",
-        "text_initiativ_bewerbung": "Kein passender Job dabei? Bewirb dich gerne Iniativ",
+        "text_initiativ_bewerbung": "Kein passender Job dabei? Bewirb dich gerne initiativ!",
         "url_button_link_1": "mailto:jobs@heimplanet.com",
         "text_button_text_1": "Initiativbewerbung"
       }
@@ -37,11 +37,11 @@
       "settings": {
         "text_headline": "Inspiriert von der Begeisterung des Reisens.",
         "textarea_text": "Es gibt ein besonderes Wort, das nur im Deutschen existiert: Heimat. [ˈhaimaːt]",
-        "url_button_link": "shopify:\/\/collections\/zelte",
+        "url_button_link": "shopify://collections/zelte",
         "text_button_text": "Zelte entdecken",
         "url_button_link_2": "",
         "text_button_text_2": "Button",
-        "image_bild": "shopify:\/\/shop_images\/Heimpanet-Teaser-Website-The-Cave-XL.jpg"
+        "image_bild": "shopify://shop_images/Heimpanet-Teaser-Website-The-Cave-XL.jpg"
       }
     }
   },
