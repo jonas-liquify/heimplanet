@@ -175,6 +175,7 @@
         "partner_PcMkQH",
         "partner_DNwkpj"
       ],
+      "disabled": true,
       "settings": {
         "checkbox_swiper_script": true
       }
