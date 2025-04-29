@@ -62,8 +62,8 @@
         ],
         "settings": {
           "text_announcement": "Kostenloser Versand nach DE ab 50€",
-          "url_storefinder_link": "",
-          "text_storefinder": "",
+          "url_storefinder_link": "shopify://pages/shopfinder-1",
+          "text_storefinder": "Shopfinder",
           "collection_bestseller": "topseller",
           "collection_bestseller_limit": 6
         }
