@@ -115,6 +115,12 @@
     "l_produkt_Bf9HNR": {
       "type": "l_produkt",
       "blocks": {
+        "produkt_slider_pQmVaK": {
+          "type": "produkt-slider",
+          "settings": {
+            "image_bild": "shopify://shop_images/2025-Heimplanet-The-Cave-XL-Neo-Black-Mood-01.jpg"
+          }
+        },
         "produkt_slider_gtxDQE": {
           "type": "produkt-slider",
           "settings": {
@@ -147,6 +153,7 @@
         }
       },
       "block_order": [
+        "produkt_slider_pQmVaK",
         "produkt_slider_gtxDQE",
         "fact_jXzyG3",
         "fact_wKgeHk",
@@ -154,7 +161,7 @@
         "fact_yYja7Y"
       ],
       "settings": {
-        "checkbox_pagination_dots": false,
+        "checkbox_pagination_dots": true,
         "text_headline": "THE CAVE XL, NEO BLACK",
         "textarea_beschreibung": "Eine Hommage an die japanische Camping-Kultur. Für Liebhaber von funktionaler Ausrüstung & monochromer Ästhetik.",
         "text_preis": "",
