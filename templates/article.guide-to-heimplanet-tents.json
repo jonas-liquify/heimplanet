@@ -175,6 +175,8 @@
         "partner_PcMkQH",
         "partner_DNwkpj"
       ],
+      "disabled": true,
+      "name": "Colabs Test",
       "settings": {
         "checkbox_swiper_script": true
       }
